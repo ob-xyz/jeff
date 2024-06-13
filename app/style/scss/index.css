@@ -14,10 +14,14 @@
   border-radius: 0;
 }
 .container .inner-content img {
-  max-width: 17.5rem;
+  padding-bottom: 0.5rem;
+  max-width: 11rem;
+}
+.container .inner-content p {
+  font-size: 0.9rem;
 }
 .container .inner-content a {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   font-family: arial;
   background: black;
   color: #fff;
@@ -26,7 +30,7 @@
   font-size: 0.95rem;
 }
 .container .inner-content .terms {
-  margin-top: 1.1rem;
+  margin-top: 1rem;
 }
 .container .inner-content .terms p, .container .inner-content .terms a {
   font-size: 0.6rem;

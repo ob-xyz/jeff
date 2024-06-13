@@ -5,6 +5,7 @@ export default function Index() {
     <div className="container">
       <div className="inner-content">
       <a className="none" href="https://app.jeffamzn.com/subscription/form"><img src={logo} /></a>
+      <p>It's like Morning Brew and TechCrunch, but funny.</p>
       <a href="https://app.jeffamzn.com/subscription/form">Subscribe</a>
       <div className="terms">
           <p>This site is protected by hCAPTCHA and the Google <a target="_blank" href="https://policies.google.com/privacy?hl=en-US">Privacy Policy</a> and <a target="_blank"  href="https://policies.google.com/terms?hl=en-US">Terms of Service</a> apply.</p>
