@@ -14,8 +14,8 @@
   border-radius: 0;
 }
 .container .inner-content img {
-  padding-bottom: 0.5rem;
-  max-width: 11rem;
+  padding-bottom: 0.65rem;
+  width: 13rem;
 }
 .container .inner-content p {
   font-size: 0.9rem;
