@@ -14,11 +14,12 @@
   border-radius: 0;
 }
 .container .inner-content img {
-  padding-bottom: 0.5rem;
-  width: 13rem;
+  padding-bottom: 0.6rem;
+  padding-right: 1rem;
+  width: 15rem;
 }
 .container .inner-content p {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 .container .inner-content a {
   margin-top: 1rem;
