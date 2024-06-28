@@ -2,7 +2,6 @@
     display:flex;
     flex-direction: column;
     height:87.5vh;
-    padding:0 1.5rem;
     .inner-content{
         display: flex;
         flex-direction: column;
@@ -52,6 +51,7 @@
 @media (max-width:640px){
     .container{
         height:82.5vh;
+        padding:0 1.5rem;
         .inner-content{
             .terms{
                 p{
