@@ -47,17 +47,4 @@
   border-bottom: solid #8f8e8e 1.5px;
 }
 
-@media (max-width: 640px) {
-  .container {
-    height: 82.5vh;
-    padding: 0 10rem;
-  }
-  .container .inner-content .terms p {
-    font-size: 0.55rem;
-  }
-  .container .inner-content .terms a {
-    font-size: 0.55rem;
-  }
-}
-
 /*# sourceMappingURL=index.css.map */
