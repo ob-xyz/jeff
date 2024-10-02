@@ -15,12 +15,12 @@
   border-radius: 0;
 }
 .container .inner-content img {
-  padding-bottom: 0.6rem;
+  padding-bottom: 0.25rem;
   margin-right: 2.25rem;
   width: 17rem;
 }
 .container .inner-content p {
-  font-size: 1rem;
+  font-size: 1.15rem;
 }
 .container .inner-content a {
   margin-top: 1rem;
