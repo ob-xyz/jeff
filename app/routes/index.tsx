@@ -5,7 +5,7 @@ export default function Index() {
     <div className="container">
       <div className="inner-content">
       <a className="none" href="https://app.jeffamzn.com/subscription/form"><img src={logo} /></a>
-      <p>We're some of the most influential readers in the world.</p>
+      <p>Move fast and make things.</p>
       <a href="https://app.jeffamzn.com/subscription/form">Subscribe</a>
       </div>
     </div>
