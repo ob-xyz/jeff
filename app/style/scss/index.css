@@ -1,12 +1,11 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 92.5vh;
+  height: 92vh;
 }
 .container .inner-content {
   display: flex;
   flex-direction: column;
-  border-radius: 0.8rem;
 }
 .container .inner-content .none {
   margin-top: 0;
@@ -15,12 +14,11 @@
   border-radius: 0;
 }
 .container .inner-content img {
-  padding-bottom: 0.5rem;
-  margin-right: 2.25rem;
+  padding-bottom: 0.6rem;
   width: 17rem;
 }
 .container .inner-content p {
-  font-size: 1.15rem;
+  font-size: 1.125rem;
 }
 .container .inner-content a {
   margin-top: 1rem;
