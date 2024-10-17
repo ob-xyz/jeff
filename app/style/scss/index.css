@@ -41,6 +41,9 @@
   border-color: black;
   caret-color: black;
 }
+.container .inner-content .email {
+  margin-top: 0.35rem;
+}
 .container .inner-content .submit {
   padding: 0.75rem 0.75rem;
   margin-top: 0.5rem;
