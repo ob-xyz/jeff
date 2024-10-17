@@ -27,8 +27,8 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Jeffamzn - Grow Your Profits",
-  description: "Jeffamzn - profits grow here. Sign up for the free, 90-second newsletter keeping 50,000+ profit growers in the loop on all the latest business & tech news."
+  title: "Jeffamzn",
+  description: "Every day Jeffamzn ships you quick and insightful updates about the business world."
 });
 
 export default function App() {
