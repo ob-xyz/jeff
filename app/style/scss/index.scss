@@ -23,15 +23,15 @@
     }
 
     p {
+        width:70%;
         padding:.65rem 0 1.25rem 0;
         font-size:1.125rem;
-        width:80%;
         line-height: 1.75rem;
     }
 }
 input{
     padding:.85rem .75rem;
-    width:30.75rem;
+    width:27.25rem;
     font-family: arial;
     color:black;
     border:1px solid black;
@@ -75,12 +75,12 @@ input{
             p {
                 padding:.35rem 0 1.25rem 0;
                 font-size:.95rem;
-                width:60%;
+                width:55%;
                 line-height: 1.75rem;
             }
         }
         input{
-            width:19.75rem;
+            width:18.25rem;
         }
     }
 
