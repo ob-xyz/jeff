@@ -7,7 +7,7 @@ export default function Index() {
 
       <div className="inner-content">
       <div className="text">
-         <p>Become smarter in just 5 minutes</p>
+         <p>Become smarter in just 2 minutes</p>
          <p>I'm Jeffamzn. And, every day I'll send you all the business news that matters.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form" class="listmonk-form">
