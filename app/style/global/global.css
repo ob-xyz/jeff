@@ -197,9 +197,6 @@
   }
 }
 @media screen and (max-width: 409px) {
-  .container {
-    height: 62.5vh;
-  }
   .container img {
     width: 10rem;
   }
