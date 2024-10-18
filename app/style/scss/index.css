@@ -183,7 +183,7 @@
     font-size: 1.25rem;
   }
   .container .inner-content .text p:nth-child(1) {
-    font-weight: nom;
+    font-weight: bold;
   }
   .container .inner-content .text p {
     width: 76%;
