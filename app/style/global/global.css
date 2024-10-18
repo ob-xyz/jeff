@@ -207,13 +207,13 @@
     font-weight: bold;
   }
   .container .inner-content .text p {
-    width: 80%;
+    width: 77%;
     padding: 0.35rem 0 1.25rem 0;
     font-size: 0.95rem;
     line-height: 1.75rem;
   }
   .container .inner-content input {
-    width: 19.5rem;
+    width: 19rem;
   }
 }
 * {
