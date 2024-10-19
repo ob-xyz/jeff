@@ -18,20 +18,21 @@
 .text{
     p:nth-child(1){
         font-family: bw;
-        font-size:1.85rem;
+        font-weight: bold;
+        font-size:1.75rem;
         padding:0;
     }
 
     p {
-        width:60%;
-        padding:.65rem 0 1.25rem 0;
+        width:55%;
+        padding:.2rem 0 1.25rem 0;
         font-size:1.125rem;
         line-height: 1.75rem;
     }
 }
 input{
     padding:.85rem .75rem;
-    width:27.25rem;
+    width:21.75rem;
     font-family: arial;
     color:black;
     border:1px solid black;
@@ -66,24 +67,14 @@ input{
         }
         .inner-content{
         .text{
-            p:nth-child(1){
-                font-size:1.25rem;
-            }
-            p:nth-child(1){
-                font-weight: bold;
-            }
             p {
                 width:60%;
-                padding:.35rem 0 1.25rem 0;
-                font-size:.95rem;
-                line-height: 1.75rem;
             }
         }
         input{
-            width:23rem;
+            width:23.5rem;
         }
     }
-
 }
 }
 @media screen and (min-width:500px) and (max-width: 614px) {
@@ -93,24 +84,14 @@ input{
         }
         .inner-content{
         .text{
-            p:nth-child(1){
-                font-size:1.25rem;
-            }
-            p:nth-child(1){
-                font-weight: bold;
-            }
             p {
                 width:65%;
-                padding:.35rem 0 1.25rem 0;
-                font-size:.95rem;
-                line-height: 1.75rem;
             }
         }
         input{
-            width:21rem;
+            width:21.25rem;
         }
     }
-
 }
 }
 @media screen and (min-width: 478px)  and (max-width: 499px) {
@@ -120,24 +101,14 @@ input{
         }
         .inner-content{
         .text{
-            p:nth-child(1){
-                font-size:1.25rem;
-            }
-            p:nth-child(1){
-                font-weight: bold;
-            }
             p {
-                width:70%;
-                padding:.35rem 0 1.25rem 0;
-                font-size:.95rem;
-                line-height: 1.75rem;
+                width:66%;
             }
         }
         input{
-            width:21rem;
+            width:20rem;
         }
     }
-
 }
 }
 @media screen and (min-width: 458px)  and (max-width: 477px) {
@@ -148,20 +119,14 @@ input{
         .inner-content{
         .text{
             p:nth-child(1){
-                font-size:1.25rem;
-            }
-            p:nth-child(1){
-                font-weight: bold;
+                font-size:1.5rem;
             }
             p {
                 width:70%;
-                padding:.35rem 0 1.25rem 0;
-                font-size:.95rem;
-                line-height: 1.75rem;
             }
         }
         input{
-            width:20.5rem;
+            width:21rem;
         }
     }
 
@@ -175,20 +140,14 @@ input{
         .inner-content{
         .text{
             p:nth-child(1){
-                font-size:1.25rem;
-            }
-            p:nth-child(1){
-                font-weight: bold;
+                font-size:1.5rem;
             }
             p {
-                width:75%;
-                padding:.35rem 0 1.25rem 0;
-                font-size:.95rem;
-                line-height: 1.75rem;
+                width:72%;
             }
         }
         input{
-            width:21rem;
+            width:20.5rem;
         }
     }
 }
@@ -201,20 +160,14 @@ input{
         .inner-content{
         .text{
             p:nth-child(1){
-                font-size:1.25rem;
-            }
-            p:nth-child(1){
-                font-weight: bold;
+                font-size:1.5rem;
             }
             p {
-                width:75%;
-                padding:.35rem 0 1.25rem 0;
-                font-size:.95rem;
-                line-height: 1.75rem;
+                width:77.5%;
             }
         }
         input{
-            width:19.5rem;
+            width:20.25rem;
         }
     }
 }
@@ -227,20 +180,14 @@ input{
         .inner-content{
         .text{
             p:nth-child(1){
-                font-size:1.25rem;
-            }
-            p:nth-child(1){
-                font-weight: bold;
+                font-size:1.5rem;
             }
             p {
-                width:80%;
-                padding:.35rem 0 1.25rem 0;
-                font-size:.95rem;
-                line-height: 1.75rem;
+                width:82.5%;
             }
         }
         input{
-            width:19.75rem;
+            width:20.75rem;
         }
     }
 }
@@ -253,20 +200,14 @@ input{
         .inner-content{
         .text{
             p:nth-child(1){
-                font-size:1.25rem;
-            }
-            p:nth-child(1){
-                font-weight: bold;
+                font-size:1.5rem;
             }
             p {
-                width:85%;
-                padding:.35rem 0 1.25rem 0;
-                font-size:.95rem;
-                line-height: 1.75rem;
+                width:87.5%;
             }
         }
         input{
-            width:19.75rem;
+            width:20.25rem;
         }
     }
 }
@@ -279,42 +220,31 @@ input{
         .inner-content{
         .text{
             p:nth-child(1){
-                font-size:1.25rem;
-            }
-            p:nth-child(1){
-                font-weight: bold;
+                font-size:1.5rem;
             }
             p {
                 width:90%;
-                padding:.35rem 0 1.25rem 0;
-                font-size:.95rem;
-                line-height: 1.75rem;
             }
         }
         input{
-            width:19.75rem;
+            width:20rem;
         }
     }
 }
 }
 @media screen and (max-width: 339px) {
     .container{
+        padding:0 .5rem;
         img{
             width: 10rem;
         }
         .inner-content{
         .text{
             p:nth-child(1){
-                font-size:1.25rem;
-            }
-            p:nth-child(1){
-                font-weight: bold;
+                font-size:1.5rem;
             }
             p {
-                width:95%;
-                padding:.35rem 0 1.25rem 0;
-                font-size:.95rem;
-                line-height: 1.75rem;
+                width:100%;
             }
         }
         input{

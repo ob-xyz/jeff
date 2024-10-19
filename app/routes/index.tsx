@@ -7,11 +7,11 @@ export default function Index() {
 
       <div className="inner-content">
       <div className="text">
-         <p>Become smarter in just 2 minutes</p>
-         <p>Hey there — I'm Jeffamzn. And, every day I'll send you all the business news that matters.</p>
+         <p>Hey there,</p>
+         <p>I'm Jeffamzn. And, every day I'll send you all the business news that matters.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form" class="listmonk-form">
-          <input type="text" name="name" placeholder="First name" />
+          <input type="text" name="name" placeholder="Name" />
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
           <p><input className="submit" type="submit" value="Subscribe" /></p>
           <input id="9cc7a" type="hidden" name="l" checked value="9cc7aab4-4f23-4f01-8297-8138cfa4670d" />
