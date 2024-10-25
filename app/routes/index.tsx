@@ -8,10 +8,10 @@ export default function Index() {
       <div className="inner-content">
       <div className="text">
          <p>Hey there,</p>
-         <p>I'm Jeffamzn, your no-BS friend delivering you quick and insightful news stories from the business world.</p>
+         <p>I'm Jeffamzn, your no-BS friend making your mornings in the business world even better.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form" class="listmonk-form">
-          <input type="text" name="name" placeholder="Firstname" />
+          <input type="text" name="name" placeholder="First Name" />
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
           <p><input className="submit" type="submit" value="Subscribe" /></p>
           <input id="9cc7a" type="hidden" name="l" checked value="9cc7aab4-4f23-4f01-8297-8138cfa4670d" />
