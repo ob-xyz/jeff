@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  height: 69vh;
 }
 .container img {
   margin-top: 1rem;
@@ -18,18 +18,18 @@
 .container .inner-content .text p:nth-child(1) {
   font-family: bw;
   font-weight: bold;
-  font-size: 1.75rem;
+  font-size: 1.7rem;
   padding: 0;
 }
 .container .inner-content .text p {
-  width: 52.5%;
+  width: 52%;
   padding: 0.2rem 0 1.25rem 0;
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 .container .inner-content input {
   padding: 0.85rem 0.75rem;
-  width: 22.75rem;
+  width: 28rem;
   font-family: arial;
   color: black;
   border: 1px solid black;
@@ -56,15 +56,26 @@
   cursor: pointer;
 }
 
+@media screen and (min-width: 718px) and (max-width: 844px) {
+  .container img {
+    width: 10rem;
+  }
+  .container .inner-content .text p {
+    width: 61%;
+  }
+  .container .inner-content input {
+    width: 27.75rem;
+  }
+}
 @media screen and (min-width: 615px) and (max-width: 717px) {
   .container img {
     width: 10rem;
   }
   .container .inner-content .text p {
-    width: 59%;
+    width: 69%;
   }
   .container .inner-content input {
-    width: 23.25rem;
+    width: 27rem;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 614px) {
@@ -72,10 +83,10 @@
     width: 10rem;
   }
   .container .inner-content .text p {
-    width: 71.5%;
+    width: 87.5%;
   }
   .container .inner-content input {
-    width: 23.5rem;
+    width: 28rem;
   }
 }
 @media screen and (min-width: 478px) and (max-width: 499px) {
@@ -83,10 +94,10 @@
     width: 10rem;
   }
   .container .inner-content .text p {
-    width: 75%;
+    width: 91%;
   }
   .container .inner-content input {
-    width: 23rem;
+    width: 28rem;
   }
 }
 @media screen and (min-width: 458px) and (max-width: 477px) {
@@ -97,10 +108,10 @@
     font-size: 1.5rem;
   }
   .container .inner-content .text p {
-    width: 77.5%;
+    width: 95.5%;
   }
   .container .inner-content input {
-    width: 23.5rem;
+    width: 28rem;
   }
 }
 @media screen and (min-width: 440px) and (max-width: 457px) {
@@ -111,10 +122,10 @@
     font-size: 1.5rem;
   }
   .container .inner-content .text p {
-    width: 85%;
+    width: 95%;
   }
   .container .inner-content input {
-    width: 24rem;
+    width: 27rem;
   }
 }
 @media screen and (min-width: 410px) and (max-width: 439px) {

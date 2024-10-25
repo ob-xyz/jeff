@@ -1,7 +1,7 @@
 .container{
     display:flex;
     flex-direction: column;
-    height:60vh;
+    height:69vh;
     img{
         margin-top:1rem;
         background:none;
@@ -19,12 +19,12 @@
     p:nth-child(1){
         font-family: bw;
         font-weight: bold;
-        font-size:1.75rem;
+        font-size:1.7rem;
         padding:0;
     }
 
     p {
-        width: 52.5%;
+        width: 52%;
         padding:.2rem 0 1.25rem 0;
         font-size:1.125rem;
         line-height: 1.75rem;
@@ -32,7 +32,7 @@
 }
 input{
     padding:.85rem .75rem;
-    width:22.75rem;
+    width:28rem;
     font-family: arial;
     color:black;
     border:1px solid black;
@@ -60,6 +60,23 @@ input{
 }  
   }
 }
+@media screen and (min-width:718px) and (max-width: 844px) {
+    .container{
+        img{
+            width: 10rem;
+        }
+        .inner-content{
+        .text{
+            p {
+                width:61%;
+            }
+        }
+        input{
+            width:27.75rem;
+        }
+    }
+ }
+}
 @media screen and (min-width:615px) and (max-width: 717px) {
     .container{
         img{
@@ -68,11 +85,11 @@ input{
         .inner-content{
         .text{
             p {
-                width:59%;
+                width:69%;
             }
         }
         input{
-            width:23.25rem;
+            width:27rem;
         }
     }
  }
@@ -85,11 +102,11 @@ input{
         .inner-content{
         .text{
             p {
-                width:71.5%;
+                width:87.5%;
             }
         }
         input{
-            width:23.5rem;
+            width:28rem;
         }
     }
 }
@@ -102,11 +119,11 @@ input{
         .inner-content{
         .text{
             p {
-                width:75%;
+                width:91%;
             }
         }
         input{
-            width:23rem;
+            width:28rem;
         }
     }
 }
@@ -122,11 +139,11 @@ input{
                 font-size:1.5rem;
             }
             p {
-                width:77.5%;
+                width:95.5%;
             }
         }
         input{
-            width:23.5rem;
+            width:28rem;
         }
     }
 
@@ -143,11 +160,11 @@ input{
                 font-size:1.5rem;
             }
             p {
-                width:85%;
+                width:95%;
             }
         }
         input{
-            width:24rem;
+            width:27rem;
         }
     }
 }
