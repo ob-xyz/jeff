@@ -8,7 +8,7 @@ export default function Index() {
       <div className="inner-content">
       <div className="text">
          <p>Hey there.</p>
-         <p>I'm Jeffamzn, your no-BS friend making mornings in the business world a bit better.</p>
+         <p>I'm Jeffamzn, your no-BS friend making mornings in the business world even better.</p>
          <p>Gotta minute? Join my free newsletter. And you'll see why it's one of the most insightful newsletters ever.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
