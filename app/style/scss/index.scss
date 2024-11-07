@@ -1,14 +1,17 @@
 .container{
     display:flex;
     flex-direction: column;
-    height:69vh;
+    height:77vh;
     img{
         margin-top:1rem;
         background:none;
-        padding:0 0;
+        padding: 0 0;
         border-radius:0;
         padding-bottom:.6rem;
         width: 11rem;
+    }
+    .logo{
+        padding-right:1.75rem;
     }
     .inner-content{
         display: flex;
@@ -24,7 +27,7 @@
     }
 
     p {
-        width: 52%;
+        width: 37.5%;
         padding:.2rem 0 1.25rem 0;
         font-size:1.125rem;
         line-height: 1.75rem;
@@ -32,10 +35,10 @@
 }
 input{
     padding:.85rem .75rem;
-    width:28rem;
+    width:21.75rem;
     font-family: arial;
     color:black;
-    border:1px solid black;
+    border:2px solid black;
     border-radius: .2rem;
     font-size: .95rem;  
     &:focus {
@@ -60,7 +63,7 @@ input{
 }  
   }
 }
-@media screen and (min-width:718px) and (max-width: 797px) {
+@media screen and (min-width:806px) and (max-width: 859px) {
     .container{
         img{
             width: 10rem;
@@ -68,16 +71,16 @@ input{
         .inner-content{
         .text{
             p {
-                width:60%;
+                width:40%;
             }
         }
         input{
-            width:27.75rem;
+            width:20.75rem;
         }
     }
  }
 }
-@media screen and (min-width:615px) and (max-width: 717px) {
+@media screen and (min-width:711px) and (max-width: 805px) {
     .container{
         img{
             width: 10rem;
@@ -85,16 +88,67 @@ input{
         .inner-content{
         .text{
             p {
-                width:69%;
+                width:45%;
             }
         }
         input{
-            width:30rem;
+            width:20.75rem;
         }
     }
  }
 }
-@media screen and (min-width:500px) and (max-width: 614px) {
+@media screen and (min-width: 596px) and (max-width: 710px) {
+    .container{
+        img{
+            width: 10rem;
+        }
+        .inner-content{
+        .text{
+            p {
+                width:57.25%;
+            }
+        }
+        input{
+            width:21rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 491px) and (max-width: 595px) {
+    .container{
+        img{
+            width: 10rem;
+        }
+        .inner-content{
+        .text{
+            p {
+                width:70%;
+            }
+        }
+        input{
+            width:21rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 596px) and (max-width: 710px) {
+    .container{
+        img{
+            width: 10rem;
+        }
+        .inner-content{
+        .text{
+            p {
+                width:57.25%;
+            }
+        }
+        input{
+            width:21rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 340px) and (max-width: 405px) {
     .container{
         img{
             width: 10rem;
@@ -106,12 +160,12 @@ input{
             }
         }
         input{
-            width:28.5rem;
+            width:21rem;
         }
     }
+ }
 }
-}
-@media screen and (min-width: 478px)  and (max-width: 499px) {
+@media screen and (min-width: 406px) and (max-width: 490px) {
     .container{
         img{
             width: 10rem;
@@ -119,139 +173,18 @@ input{
         .inner-content{
         .text{
             p {
-                width:91%;
+                width:80%;
             }
         }
         input{
-            width:28.5rem;
+            width:21rem;
         }
     }
-}
-}
-@media screen and (min-width: 458px)  and (max-width: 477px) {
-    .container{
-        img{
-            width: 10rem;
-        }
-        .inner-content{
-        .text{
-            p:nth-child(1){
-                font-size:1.5rem;
-            }
-            p {
-                width:95.5%;
-            }
-        }
-        input{
-            width:28rem;
-        }
-    }
-
-}
-}
-@media screen and (min-width: 440px)  and (max-width: 457px) {
-    .container{
-        img{
-            width: 10rem;
-        }
-        .inner-content{
-        .text{
-            p:nth-child(1){
-                font-size:1.5rem;
-            }
-            p {
-                width:95%;
-            }
-        }
-        input{
-            width:27rem;
-        }
-    }
-}
-}
-@media screen and (min-width: 410px)  and (max-width: 439px) {
-    .container{
-        img{
-            width: 10rem;
-        }
-        .inner-content{
-        .text{
-            p:nth-child(1){
-                font-size:1.5rem;
-            }
-            p {
-                width:90%;
-            }
-        }
-        input{
-            width:25.5rem;
-        }
-    }
-}
-}
-@media screen and (min-width:383px) and (max-width: 409px) {
-    .container{
-        img{
-            width: 10rem;
-        }
-        .inner-content{
-        .text{
-            p:nth-child(1){
-                font-size:1.5rem;
-            }
-            p {
-                width:95%;
-            }
-        }
-        input{
-            width:23rem;
-        }
-    }
-}
-}
-@media screen and (min-width:362px) and (max-width: 382px) {
-    .container{
-        img{
-            width: 10rem;
-        }
-        .inner-content{
-        .text{
-            p:nth-child(1){
-                font-size:1.5rem;
-            }
-            p {
-                width:96.5%;
-            }
-        }
-        input{
-            width:22.75rem;
-        }
-    }
-}
-}
-@media screen and (min-width:340px) and (max-width: 361px) {
-    .container{
-        img{
-            width: 10rem;
-        }
-        .inner-content{
-        .text{
-            p:nth-child(1){
-                font-size:1.5rem;
-            }
-            p {
-                width:97.5%;
-            }
-        }
-        input{
-            width:22rem;
-        }
-    }
-}
+ }
 }
 @media screen and (max-width: 339px) {
     .container{
-        padding:0 .5rem;
+        padding:0 .35rem;
         img{
             width: 10rem;
         }
@@ -265,7 +198,7 @@ input{
             }
         }
         input{
-            width:23.5rem;
+            width:21rem;
         }
     }
 }
