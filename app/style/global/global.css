@@ -50,7 +50,7 @@
 }
 .container .inner-content input {
   padding: 0.85rem 0.75rem;
-  width: 27rem;
+  width: 28rem;
   font-family: arial;
   color: black;
   border: 1px solid black;
@@ -85,7 +85,7 @@
     width: 60%;
   }
   .container .inner-content input {
-    width: 26.75rem;
+    width: 27.75rem;
   }
 }
 @media screen and (min-width: 615px) and (max-width: 717px) {
@@ -96,7 +96,7 @@
     width: 69%;
   }
   .container .inner-content input {
-    width: 29rem;
+    width: 30rem;
   }
 }
 @media screen and (min-width: 500px) and (max-width: 614px) {
@@ -107,7 +107,7 @@
     width: 87.5%;
   }
   .container .inner-content input {
-    width: 27.5rem;
+    width: 28.5rem;
   }
 }
 @media screen and (min-width: 478px) and (max-width: 499px) {
@@ -118,7 +118,7 @@
     width: 91%;
   }
   .container .inner-content input {
-    width: 27.5rem;
+    width: 28.5rem;
   }
 }
 @media screen and (min-width: 458px) and (max-width: 477px) {
@@ -132,7 +132,7 @@
     width: 95.5%;
   }
   .container .inner-content input {
-    width: 27rem;
+    width: 28rem;
   }
 }
 @media screen and (min-width: 440px) and (max-width: 457px) {
@@ -146,7 +146,7 @@
     width: 95%;
   }
   .container .inner-content input {
-    width: 26rem;
+    width: 27rem;
   }
 }
 @media screen and (min-width: 410px) and (max-width: 439px) {
@@ -160,7 +160,7 @@
     width: 90%;
   }
   .container .inner-content input {
-    width: 24.5rem;
+    width: 25.5rem;
   }
 }
 @media screen and (min-width: 383px) and (max-width: 409px) {
@@ -174,7 +174,7 @@
     width: 95%;
   }
   .container .inner-content input {
-    width: 23.25rem;
+    width: 23rem;
   }
 }
 @media screen and (min-width: 362px) and (max-width: 382px) {
@@ -202,7 +202,7 @@
     width: 97.5%;
   }
   .container .inner-content input {
-    width: 21.25rem;
+    width: 22rem;
   }
 }
 @media screen and (max-width: 339px) {
@@ -219,7 +219,7 @@
     width: 97.5%;
   }
   .container .inner-content input {
-    width: 22.5rem;
+    width: 23.5rem;
   }
 }
 * {
