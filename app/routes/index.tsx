@@ -15,7 +15,7 @@ export default function Index() {
           <input type="text" name="name" placeholder="First Name" />
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
           <p><input className="submit" type="submit" value="Subscribe" /></p>
-          <input id="9cc7a" type="hidden" name="l" checked value="9cc7aab4-4f23-4f01-8297-8138cfa4670d" />
+          <input id="b2958" type="hidden" name="l" checked value="b2958bdd-ba18-4541-aff7-58c773cbcb7d" />
           <input type="hidden" name="nonce" />
       </form>
       </div>
