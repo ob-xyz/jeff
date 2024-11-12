@@ -57,35 +57,35 @@
 
 @media screen and (min-width: 791px) and (max-width: 875px) {
   .container img {
-    width: 27.5rem;
+    width: 31rem;
   }
   .container .inner-content .text p {
     width: 57.25%;
   }
   .container .inner-content input {
-    width: 28.75rem;
+    width: 31rem;
   }
 }
 @media screen and (min-width: 626px) and (max-width: 790px) {
   .container img {
-    width: 27.5rem;
+    width: 33rem;
   }
   .container .inner-content .text p {
     width: 70%;
   }
   .container .inner-content input {
-    width: 28.5rem;
+    width: 32.75rem;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 625px) {
   .container img {
-    width: 27.5rem;
+    width: 30.5rem;
   }
   .container .inner-content .text p {
     width: 85%;
   }
   .container .inner-content input {
-    width: 28.5rem;
+    width: 30.75rem;
   }
 }
 @media screen and (min-width: 340px) and (max-width: 480px) {
