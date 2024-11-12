@@ -9,7 +9,7 @@ export default function Index() {
       <div className="text">
          <p>Hey there.</p>
          <p>I'm Jeffamzn, your no-BS friend making good mornings in the business world even better.</p>
-         <p>Gotta minute? Join my free newsletter. And you'll quickly see why it's one of the smartest ways to start your day.</p>
+         <p>Gotta minute? Join my free newsletter. And you'll quickly see why it's one of the better ways to start your day.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <input type="text" name="name" placeholder="Name" />
