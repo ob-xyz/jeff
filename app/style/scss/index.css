@@ -8,7 +8,7 @@
   background: none;
   padding: 0 0;
   border-radius: 0.75rem;
-  width: 32.5rem;
+  width: 34rem;
 }
 .container .inner-content {
   display: flex;
@@ -27,7 +27,7 @@
   line-height: 1.75rem;
 }
 .container .inner-content input {
-  width: 32.25rem;
+  width: 34rem;
   padding: 0.85rem 0.75rem;
   font-family: arial;
   color: black;
