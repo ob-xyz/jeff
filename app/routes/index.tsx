@@ -1,8 +1,24 @@
+import { useEffect } from "react";
 import logo from "~/../public/img/ja2.png";
 
 export default function Index() {
-  return (
+  useEffect(() => {
+    // Dynamically load the hCaptcha script
+    const script = document.createElement("script");
+    script.src = "https://js.hcaptcha.com/1/api.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+
+    // Clean up script on component unmount
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
+return (
     <div className="container">
+
             <div className="logo"><img src={logo} /></div>
 
       <div className="inner-content">
@@ -16,7 +32,6 @@ export default function Index() {
           <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
           <p><input className="submit" type="submit" value="Subscribe" /></p>
           <div class="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>
-          <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
           <input id="b2958" type="hidden" name="l" checked value="b2958bdd-ba18-4541-aff7-58c773cbcb7d" />
           <input type="hidden" name="nonce" />
       </form>

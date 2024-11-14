@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 95vh;
 }
 .container img {
   margin-top: 1rem;
@@ -47,6 +47,7 @@
 .container .inner-content .submit {
   padding: 0.75rem 0.75rem;
   margin-top: 0.5rem;
+  margin-bottom: 0.65rem;
   background-color: black;
   color: white;
 }
