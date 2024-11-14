@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 95vh;
+  height: 93.5vh;
 }
 .container img {
   margin-top: 1rem;
