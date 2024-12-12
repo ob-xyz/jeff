@@ -18,7 +18,9 @@ export default function Index() {
 
 return (
     <div className="container">
-      <div className="logo"><img src={logo} /></div>
+      <div className="logo">
+        <img src={logo} />
+      </div>
       <div className="inner-content">
       <div className="text">
          <p>Hey there!</p>
