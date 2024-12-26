@@ -1,7 +1,7 @@
 .container{
     display:flex;
     flex-direction: column;
-    height:93.5vh;
+    height:85vh;
     img{
         margin-top:1rem;
         background:none;
@@ -20,17 +20,17 @@
         font-weight: bold;
         font-size:1.7rem;
         padding:0;
+        text-align: center;
     }
-
     p {
-        width: 56%;
         padding:.2rem 0 1.25rem 0;
         font-size:1.125rem;
         line-height: 1.75rem;
+        text-align: center;
     }
 }
 input{
-    width:34rem;
+    width:32.5rem;
     padding:.85rem .75rem;
     font-family: arial;
     color:black;
@@ -64,84 +64,16 @@ input{
 @media screen and (min-width: 791px) and (max-width: 875px) {
     .container{
         img{
-            width: 31rem;
-        }
-        .inner-content{
-        .text{
-            p {
-                width:57.25%;
-            }
-        }
-        input{
-            width:31rem;
-        }
-    }
- }
-}
-@media screen and (min-width: 626px) and (max-width: 790px) {
-    .container{
-        img{
             width: 33rem;
         }
         .inner-content{
         .text{
             p {
-                width:70%;
+                width:100%;
             }
         }
         input{
-            width:32.75rem;
-        }
-    }
- }
-}
-@media screen and (min-width: 481px) and (max-width: 625px) {
-    .container{
-        img{
-            width: 30.5rem;
-        }
-        .inner-content{
-        .text{
-            p {
-                width:85%;
-            }
-        }
-        input{
-            width:30.75rem;
-        }
-    }
- }
-}
-@media screen and (min-width: 340px) and (max-width: 480px) {
-    .container{
-        img{
-            width: 24rem;
-        }
-        .inner-content{
-        .text{
-            p {
-                width:95%;
-            }
-        }
-        input{
-            width:23.75rem;
-        }
-    }
- }
-}
-@media screen and (max-width: 339px) {
-    .container{
-        img{
-            width: 21rem;
-        }
-        .inner-content{
-        .text{
-            p {
-                width:95%;
-            }
-        }
-        input{
-            width:20rem;
+            width:33rem;
         }
     }
  }
