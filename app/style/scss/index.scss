@@ -3,7 +3,6 @@
     flex-direction: column;
     height:85vh;
     img{
-        margin-top:1rem;
         background:none;
         padding: 0 0;
         border-radius:.75rem;
@@ -16,21 +15,21 @@
         // padding:2.5rem 3.5rem 3.5rem 3.5rem;
 .text{
     p:nth-child(1){
+        text-align: center;
         font-family: bw;
         font-weight: bold;
-        font-size:1.7rem;
+        font-size:1.9rem;
         padding:0;
-        text-align: center;
     }
     p {
+        text-align: center;
         padding:.2rem 0 1.25rem 0;
         font-size:1.125rem;
         line-height: 1.75rem;
-        text-align: center;
     }
 }
 input{
-    width:32.5rem;
+    width:33.5rem;
     padding:.85rem .75rem;
     font-family: arial;
     color:black;

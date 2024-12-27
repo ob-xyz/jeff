@@ -24,7 +24,7 @@ return (
       <div className="inner-content">
       <div className="text">
          <p>All access. Zero BS news.</p>
-         <p>Real stories and insights from actual builders in business and tech. <br></br> One daily email newsletter. Subscribe for free.</p>
+         <p>Real stories and insights from real people in business and tech. <br></br> One daily newsletter.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           <input type="text" name="name" placeholder="Name" />

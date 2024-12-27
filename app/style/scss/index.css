@@ -4,7 +4,6 @@
   height: 85vh;
 }
 .container img {
-  margin-top: 1rem;
   background: none;
   padding: 0 0;
   border-radius: 0.75rem;
@@ -15,20 +14,20 @@
   flex-direction: column;
 }
 .container .inner-content .text p:nth-child(1) {
+  text-align: center;
   font-family: bw;
   font-weight: bold;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   padding: 0;
-  text-align: center;
 }
 .container .inner-content .text p {
+  text-align: center;
   padding: 0.2rem 0 1.25rem 0;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  text-align: center;
 }
 .container .inner-content input {
-  width: 32.5rem;
+  width: 33.5rem;
   padding: 0.85rem 0.75rem;
   font-family: arial;
   color: black;
