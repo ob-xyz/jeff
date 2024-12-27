@@ -27,8 +27,8 @@ return (
          <p>Real stories and insights from real people in business and tech. <br></br> One daily newsletter.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
-          <input type="text" name="name" placeholder="Name" />
-          <p><input className="email" type="email" name="email" required placeholder="Email" /></p>
+          {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
+          <p><input className="email" type="email" name="email" required placeholder="Enter Your Email" /></p>
           <p><input className="submit" type="submit" value="Get access" /></p>
           <div class="h-captcha" data-sitekey="db0e76a6-3d84-4378-abe6-88526faac9d2"></div>
           <input id="b2958" type="hidden" name="l" checked value="b2958bdd-ba18-4541-aff7-58c773cbcb7d" />

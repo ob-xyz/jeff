@@ -1,13 +1,13 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 85vh;
+  height: 82.5vh;
 }
 .container img {
   background: none;
   padding: 0 0;
   border-radius: 0.75rem;
-  width: 34rem;
+  width: 32.5rem;
 }
 .container .inner-content {
   display: flex;
@@ -27,7 +27,7 @@
   line-height: 1.75rem;
 }
 .container .inner-content input {
-  width: 33.5rem;
+  width: 32rem;
   padding: 0.85rem 0.75rem;
   font-family: arial;
   color: black;
