@@ -22,11 +22,11 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 82.5vh;
+  max-height: 100vh;
 }
 .container img {
   background: none;
-  padding: 0 0;
+  margin: 1rem 0 3.5rem 0;
   border-radius: 0.75rem;
   width: 32.5rem;
 }
@@ -54,7 +54,7 @@
   color: black;
   border: 2px solid black;
   border-radius: 0.2rem;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
 }
 .container .inner-content input:focus {
   outline: none;
