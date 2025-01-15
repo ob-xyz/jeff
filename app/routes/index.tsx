@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import logo from "~/../public/img/ja2.png";
+import logo from "~/../public/img/ja1.png";
 
 export default function Index() {
   useEffect(() => {
@@ -23,7 +23,7 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-         <p>All access. Zero BS news.</p>
+         <p>Like TechCrunch, but funny.</p>
          <p>Real stories and insights from professionals in business and tech.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
