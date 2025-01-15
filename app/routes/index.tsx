@@ -24,7 +24,7 @@ return (
       <div className="inner-content">
       <div className="text">
          <p>All access. Zero BS news.</p>
-         <p>Every day Jeffamzn lights up your email inbox with real stories and insights from real people in business and tech.</p>
+         <p>Real stories and insights from business and tech people like me and you.<br></br>One daily newsletter.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
