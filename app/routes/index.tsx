@@ -23,8 +23,8 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-         <p>All access. Zero BS news.</p>
-         <p>Real stories and insights from business and tech people like me and you.<br></br>One daily newsletter.</p>
+         <p>Like TechCrunch, but funny.</p>
+         <p>All access. One daily newsletter.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
