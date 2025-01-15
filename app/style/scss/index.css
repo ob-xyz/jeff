@@ -43,6 +43,7 @@
 }
 .container .inner-content .email {
   margin-top: 0.35rem;
+  padding-left: 0.6rem;
 }
 .container .inner-content .submit {
   padding: 0.75rem 0.75rem;
