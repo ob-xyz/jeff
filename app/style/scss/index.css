@@ -5,9 +5,9 @@
 }
 .container img {
   background: none;
-  margin: 1rem 0 5.5rem 0;
+  margin: 1rem 0 5rem 0;
   border-radius: 0.75rem;
-  width: 32.5rem;
+  width: 27rem;
 }
 .container .inner-content {
   display: flex;
@@ -17,17 +17,20 @@
   text-align: center;
   font-family: bw;
   font-weight: bold;
-  font-size: 1.9rem;
+  font-size: 2rem;
   padding: 0;
+}
+.container .inner-content .text p:nth-child(2) {
+  width: 70%;
 }
 .container .inner-content .text p {
   text-align: center;
-  padding: 0.2rem 0 1.25rem 0;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  padding: 0.7rem 0 0.75rem 0;
+  font-size: 1.25rem;
+  line-height: 1.65rem;
 }
 .container .inner-content input {
-  width: 32rem;
+  width: 27rem;
   padding: 0.85rem 0.75rem;
   font-family: arial;
   color: black;
