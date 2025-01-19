@@ -24,7 +24,7 @@ return (
       <div className="inner-content">
       <div className="text">
          <p>Like TechCrunch, but funny.</p>
-         <p>Original stories and insights from thinker and doers in business and tech</p>
+         <p>Original stories and insights from thinkers and doers in tech</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
