@@ -24,7 +24,7 @@ return (
       <div className="inner-content">
       <div className="text">
          <p>Like TechCrunch, but funny.</p>
-         <p>Real stories and insights from citizens in fintech, crypto, AI, longevity, politics, memes, and whatever the current thing is</p>
+         <p>Real stories and humorous insights from citizens in fintech, crypto, AI, longevity, politics, memes, and whatever the current thing is</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
