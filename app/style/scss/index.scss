@@ -8,7 +8,7 @@
         border-radius:.75rem;
         width: 27.5rem;
     }
-    .inner-content{
+.inner-content{
         display: flex;
         flex-direction: column;
 .text{
@@ -20,7 +20,7 @@
         padding:0;
     }
     p:nth-child(2){
-        max-width:44%;
+        max-width:38.5%;
     }
     p {
         text-align: center;
@@ -62,19 +62,37 @@ input{
   }
 }
 
-@media screen and (min-width: 791px) and (max-width: 875px) {
+@media screen and (min-width:651px) and (max-width: 900px) {
     .container{
-        img{
-            width: 33rem;
-        }
-        .inner-content{
+    .inner-content{
         .text{
-            p {
-                width:100%;
+            p:nth-child(2){
+                max-width:50%;
             }
         }
-        input{
-            width:33rem;
+    }
+ }
+}
+
+@media screen and (min-width:431px) and (max-width: 650px) {
+    .container{
+    .inner-content{
+        .text{
+            p:nth-child(2){
+                max-width:57.5%;
+            }
+        }
+    }
+ }
+}
+
+@media screen and (max-width: 430px) {
+    .container{
+    .inner-content{
+        .text{
+            p:nth-child(2){
+                max-width:77.5%;
+            }
         }
     }
  }

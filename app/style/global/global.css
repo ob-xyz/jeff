@@ -42,7 +42,7 @@
   padding: 0;
 }
 .container .inner-content .text p:nth-child(2) {
-  max-width: 44%;
+  max-width: 38.5%;
 }
 .container .inner-content .text p {
   text-align: center;
@@ -81,15 +81,19 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 791px) and (max-width: 875px) {
-  .container img {
-    width: 33rem;
+@media screen and (min-width: 651px) and (max-width: 900px) {
+  .container .inner-content .text p:nth-child(2) {
+    max-width: 50%;
   }
-  .container .inner-content .text p {
-    width: 100%;
+}
+@media screen and (min-width: 431px) and (max-width: 650px) {
+  .container .inner-content .text p:nth-child(2) {
+    max-width: 57.5%;
   }
-  .container .inner-content input {
-    width: 33rem;
+}
+@media screen and (max-width: 430px) {
+  .container .inner-content .text p:nth-child(2) {
+    max-width: 77.5%;
   }
 }
 * {

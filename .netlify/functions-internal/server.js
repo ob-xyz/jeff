@@ -55,7 +55,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-XABRD6AF.css";
+var global_default = "/build/_assets/global-6AKNWXIY.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -222,7 +222,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "e4391019", entry: { module: "/build/entry.client-3Z3BMBC7.js", imports: ["/build/_shared/chunk-TY4X4K57.js", "/build/_shared/chunk-EETRBLDB.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-2FBYGUMN.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-U4FBOQVX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, url: "/build/manifest-E4391019.js" };
+var assets_manifest_default = { version: "dcb75e47", entry: { module: "/build/entry.client-3Z3BMBC7.js", imports: ["/build/_shared/chunk-TY4X4K57.js", "/build/_shared/chunk-EETRBLDB.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-K2GW67T3.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-U4FBOQVX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, url: "/build/manifest-DCB75E47.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { unstable_cssModules: !1, unstable_cssSideEffectImports: !1, unstable_vanillaExtract: !1, v2_errorBoundary: !1, v2_meta: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
