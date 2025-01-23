@@ -74,25 +74,39 @@ input{
  }
 }
 
-@media screen and (min-width:431px) and (max-width: 650px) {
+@media screen and (min-width:476px) and (max-width: 650px) {
     .container{
+        img{
+            width:26rem;
+        }
     .inner-content{
         .text{
             p:nth-child(2){
-                max-width:57.5%;
+                max-width:80%;
             }
+        }
+        input{
+            width:26rem;
         }
     }
  }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 475px) {
     .container{
+        img{
+            width:25rem;
+        }
     .inner-content{
         .text{
             p:nth-child(2){
-                max-width:77.5%;
+                max-width:100%;
+                font-size:1.05rem;
+                line-height:1.45rem;
             }
+        }
+        input{
+            width:25rem;
         }
     }
  }
