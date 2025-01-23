@@ -23,7 +23,7 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-         <p>Like TechCrunch, but funny.</p>
+         <p>All access. Zero BS news.</p>
          <p>Real stories and humorous insights from citizens in fintech, crypto, AI, longevity, policies, memes, and whatever the current thing is</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">

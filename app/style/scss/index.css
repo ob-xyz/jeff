@@ -21,7 +21,7 @@
   padding: 0;
 }
 .container .inner-content .text p:nth-child(2) {
-  max-width: 45%;
+  max-width: 44%;
 }
 .container .inner-content .text p {
   text-align: center;
