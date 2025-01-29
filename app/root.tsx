@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Daily Newsletter on Business & Tech at Jeffamzn",
-  description: "Real stories and humorous insights from citizens in fintech, crypto, AI, longevity, policies, memes, and whatever the current thing is.",
+  description: "Real stories and humorous insights from citizens in tech, finance, real estate, AI, crypto, longevity, policies, memes, and whatever the current thing is.",
   viewport: "width=device-width,initial-scale=1",
 });
 
