@@ -25,7 +25,7 @@
 }
 .container img {
   background: none;
-  margin: 0.5rem 0 2.25rem 0;
+  margin: 0.5rem 0 3.5rem 0;
   border-radius: 0.75rem;
   width: 27.5rem;
 }
@@ -37,14 +37,13 @@
 }
 .container h1 {
   text-align: left;
-  font-family: bw;
-  font-weight: bold;
+  font-family: medium;
   font-size: 2rem;
   padding: 1.25rem 0 0 0;
 }
 .container .vid {
   width: 27rem;
-  margin-top: 1.25rem;
+  margin-top: 2rem;
   margin-bottom: 3rem;
   border-radius: 1rem;
   border: 1px solid #e9e9e9;
@@ -55,13 +54,12 @@
 }
 .container .inner-content .text p:nth-child(1) {
   text-align: center;
-  font-family: bw;
-  font-weight: bold;
+  font-family: medium;
   font-size: 2rem;
   padding: 0;
 }
 .container .inner-content .text p:nth-child(2) {
-  max-width: 62.5%;
+  max-width: 55%;
 }
 .container .inner-content .text p {
   text-align: center;
@@ -104,8 +102,14 @@
   .container img {
     width: 26rem;
   }
+  .container h1 {
+    font-size: 1.75rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-size: 1.75rem;
+  }
   .container .inner-content .text p:nth-child(2) {
-    max-width: 60%;
+    max-width: 52.5%;
   }
   .container .inner-content input {
     width: 25rem;
@@ -115,11 +119,17 @@
   .container img {
     width: 23.5rem;
   }
+  .container h1 {
+    font-size: 1.75rem;
+  }
   .container .vid {
     width: 22rem;
   }
+  .container .inner-content .text p:nth-child(1) {
+    font-size: 1.75rem;
+  }
   .container .inner-content .text p:nth-child(2) {
-    max-width: 64%;
+    max-width: 57%;
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -131,11 +141,17 @@
   .container img {
     width: 23.5rem;
   }
+  .container h1 {
+    font-size: 1.75rem;
+  }
   .container .vid {
     width: 22rem;
   }
+  .container .inner-content .text p:nth-child(1) {
+    font-size: 1.75rem;
+  }
   .container .inner-content .text p:nth-child(2) {
-    max-width: 72%;
+    max-width: 62.5%;
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -147,11 +163,17 @@
   .container img {
     width: 23.5rem;
   }
+  .container h1 {
+    font-size: 1.75rem;
+  }
   .container .vid {
     width: 22rem;
   }
+  .container .inner-content .text p:nth-child(1) {
+    font-size: 1.75rem;
+  }
   .container .inner-content .text p:nth-child(2) {
-    max-width: 80%;
+    max-width: 65%;
     font-size: 1rem;
     line-height: 1.5rem;
   }

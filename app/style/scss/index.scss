@@ -3,7 +3,7 @@
     flex-direction: column;
     img{
         background:none;
-        margin:.5rem 0 2.25rem 0;
+        margin:.5rem 0 3.5rem 0;
         border-radius:.75rem;
         width: 27.5rem;
     }
@@ -15,14 +15,13 @@
     }
     h1{
         text-align: left;
-        font-family: bw;
-        font-weight: bold;
+        font-family: medium;
         font-size:2rem;
         padding:1.25rem 0 0 0;
     }
     .vid{
         width:27rem;
-        margin-top:1.25rem;
+        margin-top:2rem;
         margin-bottom:3rem;
         border-radius: 1rem;
         border: 1px solid #e9e9e9;
@@ -35,13 +34,12 @@
 .text{
     p:nth-child(1){
         text-align: center;
-        font-family: bw;
-        font-weight: bold;
+        font-family: medium;
         font-size:2rem;
         padding:0;
     }
     p:nth-child(2){
-        max-width:62.5%;
+        max-width:55%;
     }
     p {
         text-align: center;
@@ -96,7 +94,7 @@ input{
                 font-size:1.75rem;
             }
             p:nth-child(2){
-                max-width:60%;
+                max-width:52.5%;
             }
         }
         input{
@@ -123,7 +121,7 @@ input{
                 font-size:1.75rem;
             }
             p:nth-child(2){
-                max-width:64%;
+                max-width:57%;
                 font-size:1rem;
                 line-height:1.5rem;
             }
@@ -152,7 +150,7 @@ input{
                 font-size:1.75rem;
             }
             p:nth-child(2){
-                max-width:72%;
+                max-width:62.5%;
                 font-size:1rem;
                 line-height:1.5rem;
             }
@@ -180,7 +178,7 @@ input{
                 font-size:1.75rem;
             }
             p:nth-child(2){
-                max-width:80%;
+                max-width:65%;
                 font-size:1rem;
                 line-height:1.5rem;
             }
