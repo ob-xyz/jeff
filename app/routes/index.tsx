@@ -37,7 +37,7 @@ return (
       </form>
       </div>
       <div className="line"></div>
-      <h1>Wanna taste?</h1>
+      <h1>Wanna snack?</h1>
       <div className="line"></div>
       <video src={vid} autoPlay loop muted playsInline className="vid" />
       </div>
