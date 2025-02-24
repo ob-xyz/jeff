@@ -25,7 +25,7 @@ return (
       <div className="inner-content">
       <div className="text">
          <p>All access. Zero BS.</p>
-         <p>Enjoy daily stories and humorous insights from citizens in tech, business, and stocks</p>
+         <p>Daily stories and humorous insights from citizens in tech, business, and stocks</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
@@ -36,10 +36,12 @@ return (
           <input type="hidden" name="nonce" />
       </form>
       </div>
+      <div className="dn">
       <div className="line"></div>
       <h1>Wanna snack?</h1>
       <div className="line"></div>
       <video src={vid} autoPlay loop muted playsInline className="vid" />
+      </div>
       </div>
   );
 }
