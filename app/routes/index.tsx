@@ -25,7 +25,7 @@ return (
       <div className="inner-content">
       <div className="text">
          <p>All access. Zero BS.</p>
-         <p>Daily stories and humorous insights from citizens in tech, business, and stocks</p>
+         <p>Real news with humorous insights from smart people in business and tech</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}

@@ -91,7 +91,7 @@
     font-size: 1.75rem;
   }
   .container .inner-content .text p:nth-child(2) {
-    max-width: 52.5%;
+    max-width: 57.5%;
   }
   .container .inner-content input {
     width: 25rem;
@@ -141,7 +141,7 @@
     width: 22rem;
   }
 }
-@media screen and (max-width: 517px) {
+@media screen and (min-width: 440px) and (max-width: 517px) {
   .container img {
     width: 23.5rem;
   }
@@ -156,6 +156,28 @@
   }
   .container .inner-content .text p:nth-child(2) {
     max-width: 65%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .container .inner-content input {
+    width: 22rem;
+  }
+}
+@media screen and (max-width: 439px) {
+  .container img {
+    width: 23.5rem;
+  }
+  .container h1 {
+    font-size: 1.75rem;
+  }
+  .container .vid {
+    width: 22rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-size: 1.75rem;
+  }
+  .container .inner-content .text p:nth-child(2) {
+    max-width: 75%;
     font-size: 1rem;
     line-height: 1.5rem;
   }

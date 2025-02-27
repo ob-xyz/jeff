@@ -94,7 +94,7 @@ input{
                 font-size:1.75rem;
             }
             p:nth-child(2){
-                max-width:52.5%;
+                max-width:57.5%;
             }
         }
         input{
@@ -161,7 +161,7 @@ input{
     }
  }
 }
-@media screen and (max-width: 517px) {
+@media screen and (min-width:440px) and (max-width: 517px) {
     .container{
         img{
             width:23.5rem;
@@ -179,6 +179,34 @@ input{
             }
             p:nth-child(2){
                 max-width:65%;
+                font-size:1rem;
+                line-height:1.5rem;
+            }
+        }
+        input{
+            width:22rem;
+        }
+    }
+ }
+}
+@media screen and (max-width: 439px) {
+    .container{
+        img{
+            width:23.5rem;
+        }
+        h1{
+            font-size:1.75rem;
+        }
+        .vid{
+            width:22rem;
+        }
+    .inner-content{
+        .text{
+            p:nth-child(1){
+                font-size:1.75rem;
+            }
+            p:nth-child(2){
+                max-width:75%;
                 font-size:1rem;
                 line-height:1.5rem;
             }
