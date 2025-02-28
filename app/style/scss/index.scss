@@ -3,7 +3,7 @@
     flex-direction: column;
     img{
         background:none;
-        margin:.5rem 0 2.5rem 0;
+        margin:.5rem 0 2.75rem 0;
         border-radius:.75rem;
         width: 27.5rem;
     }
@@ -40,7 +40,7 @@
         padding:0;
     }
     p:nth-child(2){
-        max-width:60%;
+        max-width:62.5%;
     }
     p {
         text-align: center;
@@ -98,7 +98,7 @@ input{
                 font-size:1.75rem;
             }
             p:nth-child(2){
-                max-width: 60%;
+                max-width: 62.5%;
                 font-size:1rem;
                 line-height:1.5rem;
             }

@@ -4,7 +4,7 @@
 }
 .container img {
   background: none;
-  margin: 0.5rem 0 2.5rem 0;
+  margin: 0.5rem 0 2.75rem 0;
   border-radius: 0.75rem;
   width: 27.5rem;
 }
@@ -42,7 +42,7 @@
   padding: 0;
 }
 .container .inner-content .text p:nth-child(2) {
-  max-width: 60%;
+  max-width: 62.5%;
 }
 .container .inner-content .text p {
   text-align: center;
@@ -95,7 +95,7 @@
     font-size: 1.75rem;
   }
   .container .inner-content .text p:nth-child(2) {
-    max-width: 60%;
+    max-width: 62.5%;
     font-size: 1rem;
     line-height: 1.5rem;
   }
