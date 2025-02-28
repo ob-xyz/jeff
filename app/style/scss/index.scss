@@ -33,6 +33,7 @@
         flex-direction: column;
 .text{
     p:nth-child(1){
+        width:70%;
         text-align: center;
         font-family: medium;
         font-size:2rem;
@@ -94,7 +95,7 @@ input{
                 font-size:1.75rem;
             }
             p:nth-child(2){
-                max-width:65%;
+                max-width:60%;
             }
         }
         input{

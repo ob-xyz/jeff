@@ -24,8 +24,8 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-         <p>It's a good life.</p>
-         <p>Get the top stories and insights you need to start your day in an actually enjoyable way.</p>
+         <p>Thank God it's Morning</p>
+         <p>Jeffamzn connects the dots in an actually enjoyable way, delivered to your inbox daily.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
