@@ -4,7 +4,7 @@
 }
 .container img {
   background: none;
-  margin: 0.5rem 0 3.5rem 0;
+  margin: 0.5rem 0 2.5rem 0;
   border-radius: 0.75rem;
   width: 27.5rem;
 }
@@ -41,7 +41,7 @@
   padding: 0;
 }
 .container .inner-content .text p:nth-child(2) {
-  max-width: 55%;
+  max-width: 52.5%;
 }
 .container .inner-content .text p {
   text-align: center;
@@ -80,7 +80,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 560px) and (max-width: 650px) {
+@media screen and (min-width: 566px) and (max-width: 695px) {
   .container img {
     width: 26rem;
   }
@@ -91,13 +91,13 @@
     font-size: 1.75rem;
   }
   .container .inner-content .text p:nth-child(2) {
-    max-width: 57.5%;
+    max-width: 65%;
   }
   .container .inner-content input {
     width: 25rem;
   }
 }
-@media screen and (min-width: 537px) and (max-width: 559px) {
+@media screen and (min-width: 537px) and (max-width: 565px) {
   .container img {
     width: 23.5rem;
   }
@@ -111,7 +111,7 @@
     font-size: 1.75rem;
   }
   .container .inner-content .text p:nth-child(2) {
-    max-width: 57%;
+    max-width: 70%;
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -155,7 +155,7 @@
     font-size: 1.75rem;
   }
   .container .inner-content .text p:nth-child(2) {
-    max-width: 65%;
+    max-width: 73%;
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -177,7 +177,7 @@
     font-size: 1.75rem;
   }
   .container .inner-content .text p:nth-child(2) {
-    max-width: 75%;
+    max-width: 87.55%;
     font-size: 1rem;
     line-height: 1.5rem;
   }
