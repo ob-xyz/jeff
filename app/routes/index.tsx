@@ -25,7 +25,7 @@ return (
       <div className="inner-content">
       <div className="text">
          <p>Thank God it's Morning</p>
-         <p>Jeffamzn is the most enjoyable way to start your day.</p>
+         <p>Jeffamzn is an enjoyable way to start your day.</p>
          <p>Get the top stories and insights you need,</p>
          <p>delivered to your inbox daily.</p>
       </div>
