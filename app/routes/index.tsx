@@ -25,7 +25,9 @@ return (
       <div className="inner-content">
       <div className="text">
          <p>Thank God it's Morning</p>
-         <p>Jeffamzn is an enjoyable way to start your day, delivered to your inbox daily.</p>
+         <p>Jeffamzn is the most enjoyable way to start your day.</p>
+         <p>Get the top stories and insights you need,</p>
+         <p>delivered to your inbox daily.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
@@ -35,12 +37,6 @@ return (
           <input id="b2958" type="hidden" name="l" checked value="b2958bdd-ba18-4541-aff7-58c773cbcb7d" />
           <input type="hidden" name="nonce" />
       </form>
-      </div>
-      <div className="dn">
-      <div className="line"></div>
-      <h1>Wanna snack?</h1>
-      <div className="line"></div>
-      <video src={vid} autoPlay loop muted playsInline className="vid" />
       </div>
       </div>
   );
