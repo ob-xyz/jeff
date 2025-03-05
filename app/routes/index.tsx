@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import logo from "~/../public/img/ja1.png";
-import vid from "~/../public/img/vid.mp4";
 
 export default function Index() {
   useEffect(() => {
@@ -25,7 +24,7 @@ return (
       <div className="inner-content">
       <div className="text">
          <p>Thank God it's Morning</p>
-         <p>Jeffamzn is the front page of the inernet,</p>
+         <p>Jeffamzn is the front page of the internet,</p>
          <p>delivered to your email inbox.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
