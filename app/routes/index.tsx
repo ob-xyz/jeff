@@ -25,7 +25,7 @@ return (
       <div className="text">
          <p>Thank God it's Afternoon</p>
          <p>Jeffamzn is the front page of wallstreetbets,</p>
-         <p>delivered to your inbox.</p>
+         <p>conveniently delivered to you.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
