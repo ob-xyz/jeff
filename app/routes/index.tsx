@@ -23,9 +23,9 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-         <p>Thank God it's Morning</p>
-         <p>Jeffamzn is the front page of the internet,</p>
-         <p>delivered to your email inbox.</p>
+         <p>Thank God it's Afternoon</p>
+         <p>Jeffamzn is the front page of wallstreetbets,</p>
+         <p>delivered to your inbox.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
