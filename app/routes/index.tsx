@@ -23,7 +23,7 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-         <p>Thank God it's Here.</p>
+         <p>Thank God it's Not Monday.</p>
          <p>Get the front page of the internet,</p>
          <p>delivered to you.</p>
       </div>
