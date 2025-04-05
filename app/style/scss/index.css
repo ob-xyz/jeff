@@ -4,9 +4,9 @@
 }
 .container img {
   background: none;
-  margin: 0.5rem 0 3.5rem 0;
-  border-radius: 0.75rem;
-  width: 27.5rem;
+  margin: 1rem 0 2.5rem 0rem;
+  width: 3.5rem;
+  border-radius: 0.5rem;
 }
 .container .inner-content {
   display: flex;
@@ -56,9 +56,6 @@
 }
 
 @media screen and (max-width: 655px) {
-  .container img {
-    width: 23.5rem;
-  }
   .container .inner-content .text h1 {
     font-size: 1.75rem;
   }
