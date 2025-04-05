@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Jeffamzn",
-  description: "The world's #1 publication top investors and founders read every weekend.",
+  description: "World's #1 Wealth Poasts! Read every weekend by the most wealthy investors and entrepreneurs in the world.",
   viewport: "width=device-width,initial-scale=1",
 });
 

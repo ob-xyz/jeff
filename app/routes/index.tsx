@@ -23,8 +23,8 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-         <h1>Amazon. Blue Origin. Bitcoin. Coachella.</h1>
-         <p>The world's #1 publication top investors and founders read every weekend.</p>
+         <h1>World's #1 Wealth Poasts!</h1>
+         <p>Read every weekend by the most wealthy investors and entrepreneurs in the world.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
