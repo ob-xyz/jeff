@@ -24,7 +24,7 @@ return (
       <div className="inner-content">
       <div className="text">
          <h1>Amazon. Blue Origin. Bitcoin. Coachella.</h1>
-         <p>The leading publication top investors and founders read every weekends.</p>
+         <p>The world's #1 publication top investors and founders read every weekend.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
