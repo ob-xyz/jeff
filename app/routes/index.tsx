@@ -24,7 +24,7 @@ return (
       <div className="inner-content">
       <div className="text">
          <h1>Amazon. Blue Origin. Bitcoin. Coachella.</h1>
-         <p>Jeffamzn is the quickest way for affluent investors and entrepreneurs to get smarter about the wild west of <b>alternative asset</b> classes.</p>
+         <p>Jeffamzn is the quickest way for affluent investors and entrepreneurs to get smarter about the wild west of <b>alternative assets</b>.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
