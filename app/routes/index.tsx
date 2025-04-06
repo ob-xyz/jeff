@@ -23,8 +23,8 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-         <h1>World's #1 Poasts!</h1>
-         <p>Jeffamzn is read once a week by the most influential investors and entrepreneurs in the world.</p>
+         <h1>Not Your Average Jeff</h1>
+         <p>Jeffamzn is a once-a-week must read for the most influential investors and entrepreneurs in the world.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
