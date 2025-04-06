@@ -22,7 +22,8 @@
 }
 .container .inner-content .text p {
   text-align: center;
-  width: 60%;
+  width: 55%;
+  font-size: 1.3rem;
 }
 .container .inner-content input {
   width: 27rem;
