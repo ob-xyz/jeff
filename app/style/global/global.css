@@ -42,16 +42,16 @@
   flex-direction: column;
 }
 .container .inner-content .text h1 {
-  line-height: 1.75rem;
   text-align: center;
   font-family: ku;
   font-weight: bold;
   font-size: 2rem;
   padding: 0 0 0.6rem 0;
+  width: 35%;
 }
 .container .inner-content .text p {
   text-align: center;
-  width: 55%;
+  width: 39.5%;
   font-size: 1.3rem;
 }
 .container .inner-content .text b {
@@ -88,13 +88,15 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 655px) {
+@media screen and (max-width: 700px) {
   .container .inner-content .text h1 {
     font-size: 1.75rem;
+    width: 60%;
   }
   .container .inner-content .text p {
     font-size: 1rem;
     line-height: 1.5rem;
+    width: 76.5%;
   }
   .container .inner-content input {
     width: 22rem;

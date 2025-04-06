@@ -27,8 +27,8 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Jeffamzn - Not Your Average Jeff",
-  description: "A once-a-week must read for most influential investors and entrepreneurs in the world.",
+  title: "Jeffamzn - Amazon. Blue Origin. Bitcoin. Coachella.",
+  description: "The monthly read sharp minded investors and entrepenreurs use to master and own the best alternative assets in the world.",
   viewport: "width=device-width,initial-scale=1",
 });
 
