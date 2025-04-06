@@ -23,8 +23,8 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-         <h1>World's #1 Paid Poasts!</h1>
-         <p>Read every weekend by the highest paid investors and entrepreneurs in the world.</p>
+         <h1>World's #1 Poasts!</h1>
+         <p>Read every weekend by the most influential investors and entrepreneurs in the world.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
