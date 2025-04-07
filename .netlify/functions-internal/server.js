@@ -71,7 +71,7 @@ var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
 ], meta = () => ({
   charset: "utf-8",
   title: "Jeffamzn - Amazon. Blue Origin. Bitcoin. Coachella.",
-  description: "The quickest way for affluent investors and entrepreneurs to get smarter about alternative asset classes.",
+  description: "The quickest way for affluent investors and entrepreneurs to get smarter about the wild west of American alternative assets.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -161,13 +161,13 @@ function Index() {
           columnNumber: 10
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: [
-          "Jeffamzn is the quickest way for affluent investors and entrepreneurs to get smarter about ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("b", { children: "alternative asset" }, void 0, !1, {
+          "Jeffamzn is the quickest way for affluent investors and entrepreneurs to get smarter about the wild west of ",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("b", { children: "American alternative assets" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 27,
-            columnNumber: 104
+            columnNumber: 121
           }, this),
-          " classes."
+          "."
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
           lineNumber: 27,
@@ -230,7 +230,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "8a6022b2", entry: { module: "/build/entry.client-3Z3BMBC7.js", imports: ["/build/_shared/chunk-TY4X4K57.js", "/build/_shared/chunk-EETRBLDB.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ZUPRLS2C.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-SUGRDQJN.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, url: "/build/manifest-8A6022B2.js" };
+var assets_manifest_default = { version: "a2563461", entry: { module: "/build/entry.client-3Z3BMBC7.js", imports: ["/build/_shared/chunk-TY4X4K57.js", "/build/_shared/chunk-EETRBLDB.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-YI5P6SOS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-HYLCMKS4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, url: "/build/manifest-A2563461.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { unstable_cssModules: !1, unstable_cssSideEffectImports: !1, unstable_vanillaExtract: !1, v2_errorBoundary: !1, v2_meta: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
