@@ -23,10 +23,8 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-         <h1>Amazon. Blue Origin. Bitcoin. Coachella.</h1>
-         <p>Jeffamzn is the quickest way for affluent investors and entrepreneurs to get smarter about the wild west of <b>alternative investments</b>.</p>
-         <p>Wanna own more high-growth real estate, private equity, venture capital, crypto, gold, art, collectibles, and more?</p>
-         <p>Subscribe to our weekly newsletter.</p>
+         <h1>Business, Boiled Down to 5 minutes or less.</h1>
+         <p>Jeffamzn lights up your inbox with enjoyable business news, unmatched insights, and boiling hot takes that matter more every day.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}

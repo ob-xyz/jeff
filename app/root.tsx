@@ -27,8 +27,8 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Jeffamzn - Amazon. Blue Origin. Bitcoin. Coachella.",
-  description: "The quickest way for affluent investors and entrepreneurs to get smarter about the wild west of American alternative assets.",
+  title: "Jeffamzn - Business, Boiled Down.",
+  description: "Jeffamzn lights up your inbox with enjoyable business news, unmatched insights, and boiling hot takes that matter more every day.",
   viewport: "width=device-width,initial-scale=1",
 });
 

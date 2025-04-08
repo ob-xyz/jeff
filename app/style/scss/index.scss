@@ -15,22 +15,20 @@
         text-align: center;
         font-family: ku;
         font-weight: bold;
-        font-size:2rem;
-        padding:0 0 .6rem 0;
-        width:35%;
+        font-size:2.25rem;
+        padding:0 0 .5rem 0;
+        width:38%;
     }
     p{
         text-align: center;
-        width:40%;
-        font-size:1.20rem;
-    }
-    p:nth-child(3),
-    p:nth-child(4){
-        padding-top:1rem;
+        width:37.5%;
+        font-size:1.15rem;
+        line-height: 1.65rem;
     }
     b{
-        font-family:bold;
+        font-weight:bold;
     }
+
 }
 input{
     width:27rem;
@@ -64,20 +62,19 @@ input{
 }  
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 655px) {
     .container{
     .inner-content{
         .text{
             h1{
                 font-size:1.75rem;
-                width:60%;
+                width:70%;
             }
             p{
                 font-size:1rem;
                 line-height:1.5rem;
-                width:76.5%;
+                width:75%;
             }
-
         }
         input{
             width:22rem;
