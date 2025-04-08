@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Daily Business Newsletter at Jeffamzn",
-  description: "The Poast is the best daily newsletter for the next generation of business leaders.",
+  description: "Jeffamzn is the best daily newsletter for the next generation of business leaders.",
   viewport: "width=device-width,initial-scale=1",
 });
 
