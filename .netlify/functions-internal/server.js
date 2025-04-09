@@ -70,7 +70,7 @@ var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
   }
 ], meta = () => ({
   charset: "utf-8",
-  title: "Daily Business Newsletter on at Jeffamzn",
+  title: "Daily Business Newsletter at Jeffamzn",
   description: "Jeffamzn is the leading daily newsletter for the next generation of business execs and founders.",
   viewport: "width=device-width,initial-scale=1"
 });
