@@ -44,19 +44,23 @@
 .container .inner-content .text h1 {
   text-align: center;
   font-family: ku;
-  font-weight: bold;
-  font-size: 2.25rem;
-  padding: 0 0 0.5rem 0;
-  width: 57.5%;
+  font-size: 4.5rem;
+  line-height: 3.75rem;
+  text-transform: uppercase;
+}
+.container .inner-content .text h2 {
+  text-align: center;
+  font-family: ku;
+  font-size: 1.65rem;
+  padding: 0.4rem 0 1rem 0;
+  text-transform: uppercase;
+  line-height: 1.9rem;
 }
 .container .inner-content .text p {
   text-align: center;
-  width: 50%;
+  width: 60%;
   font-size: 1.15rem;
   line-height: 1.65rem;
-}
-.container .inner-content .text b {
-  font-weight: bold;
 }
 .container .inner-content input {
   width: 27rem;
@@ -90,14 +94,10 @@
 }
 
 @media screen and (max-width: 655px) {
-  .container .inner-content .text h1 {
-    font-size: 1.75rem;
-    width: 70%;
-  }
   .container .inner-content .text p {
     font-size: 1rem;
     line-height: 1.5rem;
-    width: 75%;
+    width: 60%;
   }
   .container .inner-content input {
     width: 22rem;
@@ -114,7 +114,7 @@ body {
   margin: auto;
   width: 100%;
   height: 100vh;
-  background-color: #fafafa;
+  background-color: #F7EEE9;
 }
 
 body {
@@ -125,7 +125,7 @@ body {
 main {
   padding: 0;
   margin: 0;
-  background: #fafafa;
+  background: #F7EEE9;
 }
 
 img {
@@ -182,7 +182,7 @@ ol {
 }
 
 span {
-  font-family: bold;
+  font-family: book;
   font-size: 4rem;
   color: #121212;
 }
