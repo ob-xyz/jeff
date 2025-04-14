@@ -24,7 +24,7 @@ return (
       <div className="inner-content">
       <div className="text">
          <h1>Business, Boiled Down to 5 minutes or less.</h1>
-         <p>Every day Jeffamzn lights up your inbox with unmatched insights and boiling hot takes that matter to the next generation of business execs and founders.</p>
+         <p>Real ideas and insights that help business execs and founders like me and you move faster.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
