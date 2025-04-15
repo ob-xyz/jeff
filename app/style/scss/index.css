@@ -1,82 +1,17 @@
-.container {
-  display: flex;
-  flex-direction: column;
-}
-.container img {
-  background: none;
-  margin: 1rem 0 3rem 0rem;
-  width: 4rem;
-  border-radius: 0.5rem;
-  border: 0.2rem solid #000;
-}
-.container .inner-content {
-  display: flex;
-  flex-direction: column;
-}
-.container .inner-content .text h1 {
-  text-align: center;
-  font-family: ku;
-  font-size: 4.5rem;
-  line-height: 3.75rem;
-}
-.container .inner-content .text h2 {
-  text-align: center;
-  font-family: ku;
-  font-size: 1.7rem;
-  padding: 0.35rem 0 1rem 0;
-  text-transform: uppercase;
-  line-height: 2.1rem;
-}
-.container .inner-content .text p, .container .inner-content .text span {
-  text-align: center;
-  width: 59%;
-  font-size: 1.15rem;
-  line-height: 1.65rem;
-}
-.container .inner-content .text u {
-  color: red;
-  height: 0.1rem;
-}
-.container .inner-content input {
-  width: 27rem;
-  padding: 0.85rem 0.75rem;
-  font-family: arial;
-  color: black;
-  border: 2px solid black;
-  border-radius: 0.2rem;
-  font-size: 1.1rem;
-}
-.container .inner-content input:focus {
-  outline: none;
-  box-shadow: 0 0 1px 1px black;
-  border-color: black;
-  caret-color: black;
-}
-.container .inner-content .email {
-  margin-top: 0.75rem;
-  padding-left: 0.6rem;
-}
-.container .inner-content .submit {
-  padding: 0.75rem 0.75rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.65rem;
-  background-color: #000;
-  color: white;
-}
-.container .inner-content .submit:hover {
-  opacity: 0.85;
-  cursor: pointer;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 36 |         color:$orange;
+ *    |               ^^^^^^^
+ *    '
+ *   app/style/scss/index.scss 36:15  root stylesheet */
 
-@media screen and (max-width: 655px) {
-  .container .inner-content .text p {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 65%;
-  }
-  .container .inner-content input {
-    width: 23rem;
-  }
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 36 \2502          color:$orange;\a    \2502                ^^^^^^^\a    \2575 \a   app/style/scss/index.scss 36:15  root stylesheet";
 }
-
-/*# sourceMappingURL=index.css.map */
