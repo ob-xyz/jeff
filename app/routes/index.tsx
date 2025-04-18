@@ -25,7 +25,8 @@ return (
       <div className="text">
         <h1>Jeffamzn</h1>
          <h2>Business, Boiled Down<br></br>to 5 minutes or less</h2>
-         <p>Every day <u><span>Jeffamzn</span></u> helps people like me and you make smarter decisions about our money.<br></br>Subscribe now (<u><span>it's free</span></u>).</p>
+         <p>Subscribe to <u><span>Jeffamzn</span></u>: Your 5-minute brief to feel good and win more.</p>
+         <p>Don't start your day without it.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
