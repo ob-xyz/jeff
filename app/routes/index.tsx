@@ -25,7 +25,7 @@ return (
       <div className="text">
         <h1>Jeffamzn</h1>
          <h2>Business, Boiled Down</h2>
-         <p>Subscribe to <u><span>Jeffamzn</span></u>: Your 5-minute daily brief to feel good and win more.</p>
+         <p>Subscribe to <u><span>Jeffamzn</span></u>: Your 5-minute brief on business news that matters.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}

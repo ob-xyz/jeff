@@ -6,7 +6,7 @@
         margin:1rem 0 2.5rem 0rem;
         width: 4rem;
         border-radius:.5rem;
-        border: .2rem solid #000;
+        border: .175rem solid #000;
     }
 .inner-content{
         display: flex;
@@ -28,7 +28,7 @@
     }
     p, span{
         text-align: center;
-        width:55%;
+        width:57.5%;
         font-size:1.15rem;
         line-height: 1.65rem;
     }
@@ -67,22 +67,6 @@ input{
     }
 }  
   }
-}
-@media screen and (min-width: 631px) and (max-width:700px) {
-    .container{
-    .inner-content{
-        .text{
-            p{
-                font-size:1rem;
-                line-height:1.5rem;
-                width:55%;
-            }
-        }
-        input{
-            width:23.25rem;
-        }
-    }
- }
 }
 @media screen and (min-width: 518px) and (max-width:630px) {
     .container{
