@@ -16,7 +16,7 @@
         text-align: center;
         font-family: ku;
         font-size: 4.5rem;
-        line-height:3.75rem;
+        line-height:3.25rem;
     }
     h2{
         text-align: center;
@@ -37,7 +37,7 @@
     }
 }
 input{
-    width:21rem;
+    width:23rem;
     padding:.85rem .75rem;
     font-family: arial;
     color:black;
@@ -68,7 +68,7 @@ input{
 }  
   }
 }
-@media screen and (min-width: 638px) and (max-width: 690px) {
+@media screen and (min-width: 606px) and (max-width: 690px) {
     .container{
     .inner-content{
         .text{
@@ -76,19 +76,16 @@ input{
                 width:57%;
             }
         }
-        input{
-            width:21rem;
-        }
     }
  }
 }
-@media screen and (min-width: 606px) and (max-width:637px) {
+@media screen and (min-width: 552px) and (max-width:611px) {
     .container{
     .inner-content{
         .text{
             h1{
                 font-size:3rem;
-                line-height: 2.5rem;
+                line-height: 2rem;
             }
             h2{
                 font-size:1.125rem;
@@ -97,22 +94,22 @@ input{
             p, span{
                 font-size:1rem;
                 line-height:1.5rem;
-                width:52.5%;
+                width:55%;
             }
         }
         input{
-            width:21rem;
+            width:18.85rem;
         }
     }
  }
 }
-@media screen and (min-width: 527px) and (max-width:605px) {
+@media screen and (min-width: 505px) and (max-width: 551px) {
     .container{
     .inner-content{
         .text{
             h1{
                 font-size:3rem;
-                line-height: 2.5rem;
+                line-height: 2rem;
             }
             h2{
                 font-size:1.125rem;
@@ -125,18 +122,42 @@ input{
             }
         }
         input{
-            width:21rem;
+            width:18.85rem;
         }
     }
  }
 }
-@media screen and (min-width: 469px) and (max-width: 526px) {
+@media screen and (min-width: 466px) and (max-width: 504px) {
     .container{
     .inner-content{
         .text{
             h1{
                 font-size:3rem;
-                line-height: 2.5rem;
+                line-height: 2rem;
+            }
+            h2{
+                font-size:1.125rem;
+                line-height:1.5rem;
+            }
+            p, span{
+                font-size:1rem;
+                line-height:1.5rem;
+                width:65%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 450px) and (max-width: 465px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                font-size:3rem;
+                line-height: 2rem;
             }
             h2{
                 font-size:1.125rem;
@@ -149,18 +170,18 @@ input{
             }
         }
         input{
-            width:21rem;
+            width:18.85rem;
         }
     }
  }
 }
-@media screen and (min-width: 424px) and (max-width: 468px) {
+@media screen and (min-width: 424px) and (max-width: 449px) {
     .container{
     .inner-content{
         .text{
             h1{
                 font-size:3rem;
-                line-height: 2.5rem;
+                line-height: 2rem;
             }
             h2{
                 font-size:1.125rem;
@@ -169,7 +190,7 @@ input{
             p, span{
                 font-size:1rem;
                 line-height:1.5rem;
-                width:75%;
+                width:72.5%;
             }
         }
         input{
@@ -178,13 +199,13 @@ input{
     }
  }
 }
-@media screen and (min-width: 398px) and (max-width: 423px) {
+@media screen and (min-width: 394px) and (max-width: 423px) {
     .container{
     .inner-content{
         .text{
             h1{
                 font-size:3rem;
-                line-height: 2.5rem;
+                line-height: 2rem;
             }
             h2{
                 font-size:1.125rem;
@@ -193,7 +214,7 @@ input{
             p, span{
                 font-size:1rem;
                 line-height:1.5rem;
-                width:80%;
+                width:77.5%;
             }
         }
         input{
@@ -202,13 +223,13 @@ input{
     }
  }
 }
-@media screen and (min-width: 372px) and (max-width: 397px) {
+@media screen and (min-width: 372px) and (max-width: 393px) {
     .container{
         .inner-content{
             .text{
                 h1{
                     font-size:3rem;
-                    line-height: 2.5rem;
+                    line-height: 2rem;
                 }
                 h2{
                     font-size:1.125rem;
@@ -232,7 +253,7 @@ input{
         .text{
             h1{
                 font-size:3rem;
-                line-height: 2.5rem;
+                line-height: 2rem;
             }
             h2{
                 font-size:1.125rem;
