@@ -28,7 +28,7 @@
     }
     p, span{
         text-align: center;
-        width:57.5%;
+        width:52.5%;
         font-size:1.15rem;
         line-height: 1.65rem;
     }
@@ -37,7 +37,7 @@
     }
 }
 input{
-    width:26rem;
+    width:21rem;
     padding:.85rem .75rem;
     font-family: arial;
     color:black;
@@ -68,7 +68,21 @@ input{
 }  
   }
 }
-@media screen and (min-width: 518px) and (max-width:630px) {
+@media screen and (min-width: 638px) and (max-width: 690px) {
+    .container{
+    .inner-content{
+        .text{
+            p, span{
+                width:57%;
+            }
+        }
+        input{
+            width:21rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 606px) and (max-width:637px) {
     .container{
     .inner-content{
         .text{
@@ -83,7 +97,7 @@ input{
             p, span{
                 font-size:1rem;
                 line-height:1.5rem;
-                width:55%;
+                width:52.5%;
             }
         }
         input{
@@ -92,7 +106,7 @@ input{
     }
  }
 }
-@media screen and (min-width: 465px) and (max-width:518px) {
+@media screen and (min-width: 527px) and (max-width:605px) {
     .container{
     .inner-content{
         .text{
@@ -116,7 +130,7 @@ input{
     }
  }
 }
-@media screen and (min-width: 415px) and (max-width: 464px) {
+@media screen and (min-width: 469px) and (max-width: 526px) {
     .container{
     .inner-content{
         .text{
@@ -140,7 +154,7 @@ input{
     }
  }
 }
-@media screen and (min-width: 375px) and (max-width: 414px) {
+@media screen and (min-width: 424px) and (max-width: 468px) {
     .container{
     .inner-content{
         .text{
@@ -164,7 +178,7 @@ input{
     }
  }
 }
-@media screen and (max-width: 374px) {
+@media screen and (min-width: 398px) and (max-width: 423px) {
     .container{
     .inner-content{
         .text{
@@ -179,7 +193,55 @@ input{
             p, span{
                 font-size:1rem;
                 line-height:1.5rem;
-                width:82.5%;
+                width:80%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 372px) and (max-width: 397px) {
+    .container{
+        .inner-content{
+            .text{
+                h1{
+                    font-size:3rem;
+                    line-height: 2.5rem;
+                }
+                h2{
+                    font-size:1.125rem;
+                    line-height:1.5rem;
+                }
+                p, span{
+                    font-size:1rem;
+                    line-height:1.5rem;
+                    width:85%;
+                }
+            }
+            input{
+                width:18.85rem;
+            }
+        }
+     }
+    }
+@media screen and (max-width: 371px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                font-size:3rem;
+                line-height: 2.5rem;
+            }
+            h2{
+                font-size:1.125rem;
+                line-height:1.5rem;
+            }
+            p, span{
+                font-size:1rem;
+                line-height:1.5rem;
+                width:90%;
             }
         }
         input{
