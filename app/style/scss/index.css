@@ -1,17 +1,171 @@
-/* Error: Undefined variable.
- *    ,
- * 39 |         color:$orange;
- *    |               ^^^^^^^
- *    '
- *   app/style/scss/index.scss 39:15  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 39 \2502          color:$orange;\a    \2502                ^^^^^^^\a    \2575 \a   app/style/scss/index.scss 39:15  root stylesheet";
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8rem;
 }
+.container img {
+  background: none;
+  margin: 1rem 0 5rem 0rem;
+  width: 4rem;
+  border-radius: 0.5rem;
+  border: 0.175rem solid #000;
+}
+.container form {
+  margin-top: 0.5rem;
+}
+.container .inner-content {
+  display: flex;
+  flex-direction: column;
+}
+.container .inner-content .text h1 {
+  padding-bottom: 3rem;
+  text-align: center;
+  font-family: ku;
+  font-size: 4rem;
+  line-height: 4rem;
+  width: 52.5%;
+}
+.container .inner-content .text p {
+  text-align: center;
+  width: 35%;
+  font-size: 1.15rem;
+  line-height: 1.65rem;
+}
+.container .inner-content .text p b {
+  font-family: bold;
+}
+.container .inner-content input {
+  width: 23rem;
+  padding: 0.85rem 0.75rem;
+  font-family: arial;
+  color: black;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
+}
+.container .inner-content input:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px black;
+  border-color: black;
+  caret-color: black;
+}
+.container .inner-content .email {
+  margin-top: 0.2rem;
+  padding-left: 0.6rem;
+}
+.container .inner-content .submit {
+  padding: 0.75rem 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.65rem;
+  background-color: #000;
+  color: white;
+}
+.container .inner-content .submit:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1125px) and (max-width: 1180px) {
+  .container .inner-content .text h1 {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 1074px) and (max-width: 1124px) {
+  .container .inner-content .text h1 {
+    width: 55%;
+  }
+  .container .inner-content .text p {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1073px) {
+  .container .inner-content .text h1 {
+    width: 65%;
+  }
+  .container .inner-content .text p {
+    width: 42.5%;
+  }
+}
+@media screen and (min-width: 615px) and (max-width: 900px) {
+  .container .inner-content .text h1 {
+    width: 60%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .container .inner-content .text p {
+    width: 47.5%;
+  }
+}
+@media screen and (min-width: 530px) and (max-width: 614px) {
+  .container .inner-content .text h1 {
+    width: 70%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .container .inner-content .text p {
+    width: 70%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (min-width: 464px) and (max-width: 529px) {
+  .container .inner-content .text h1 {
+    width: 80%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .container .inner-content .text p {
+    width: 80%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 463px) {
+  .container .inner-content .text h1 {
+    width: 70%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content .text p {
+    font-size: 1.1rem;
+    line-height: 1.25rem;
+    width: 74%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (min-width: 372px) and (max-width: 430px) {
+  .container .inner-content .text h1 {
+    width: 70%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content .text p {
+    font-size: 1.1rem;
+    line-height: 1.25rem;
+    width: 83.5%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (max-width: 371px) {
+  .container .inner-content .text h1 {
+    width: 70%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content .text p {
+    font-size: 1rem;
+    line-height: 1.15rem;
+    width: 90%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

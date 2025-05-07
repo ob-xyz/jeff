@@ -30,10 +30,11 @@
 .container {
   display: flex;
   flex-direction: column;
+  padding-bottom: 8rem;
 }
 .container img {
   background: none;
-  margin: 1rem 0 2.5rem 0rem;
+  margin: 1rem 0 5rem 0rem;
   width: 4rem;
   border-radius: 0.5rem;
   border: 0.175rem solid #000;
@@ -46,27 +47,21 @@
   flex-direction: column;
 }
 .container .inner-content .text h1 {
+  padding-bottom: 3rem;
   text-align: center;
   font-family: ku;
-  font-size: 4.5rem;
-  line-height: 3.25rem;
+  font-size: 4rem;
+  line-height: 4rem;
+  width: 52.5%;
 }
-.container .inner-content .text h2 {
+.container .inner-content .text p {
   text-align: center;
-  font-family: ku;
-  font-size: 1.56rem;
-  padding: 0.35rem 0 1rem 0;
-  text-transform: uppercase;
-  line-height: 2.1rem;
-}
-.container .inner-content .text p, .container .inner-content .text span {
-  text-align: center;
-  width: 54%;
+  width: 35%;
   font-size: 1.15rem;
   line-height: 1.65rem;
 }
-.container .inner-content .text u {
-  color: #f08f19;
+.container .inner-content .text p b {
+  font-family: bold;
 }
 .container .inner-content input {
   width: 23rem;
@@ -99,132 +94,88 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 606px) and (max-width: 690px) {
-  .container .inner-content .text p, .container .inner-content .text span {
-    width: 58.5%;
+@media screen and (min-width: 1125px) and (max-width: 1180px) {
+  .container .inner-content .text h1 {
+    width: 55%;
   }
 }
-@media screen and (min-width: 552px) and (max-width: 611px) {
+@media screen and (min-width: 1074px) and (max-width: 1124px) {
   .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
+    width: 55%;
   }
-  .container .inner-content .text h2 {
-    font-size: 1.035rem;
-    line-height: 1.1rem;
-  }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 57.5%;
-  }
-  .container .inner-content input {
-    width: 18.85rem;
+  .container .inner-content .text p {
+    width: 40%;
   }
 }
-@media screen and (min-width: 505px) and (max-width: 551px) {
+@media screen and (min-width: 901px) and (max-width: 1073px) {
   .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
-  }
-  .container .inner-content .text h2 {
-    font-size: 1.035rem;
-    line-height: 1.1rem;
-  }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
     width: 65%;
   }
-  .container .inner-content input {
-    width: 18.85rem;
+  .container .inner-content .text p {
+    width: 42.5%;
   }
 }
-@media screen and (min-width: 466px) and (max-width: 504px) {
+@media screen and (min-width: 615px) and (max-width: 900px) {
   .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
+    width: 60%;
+    font-size: 2.5rem;
+    line-height: 3rem;
   }
-  .container .inner-content .text h2 {
-    font-size: 1.035rem;
-    line-height: 1.1rem;
+  .container .inner-content .text p {
+    width: 47.5%;
   }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
+}
+@media screen and (min-width: 530px) and (max-width: 614px) {
+  .container .inner-content .text h1 {
+    width: 70%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .container .inner-content .text p {
     width: 70%;
   }
   .container .inner-content input {
     width: 18.85rem;
   }
 }
-@media screen and (min-width: 450px) and (max-width: 465px) {
+@media screen and (min-width: 464px) and (max-width: 529px) {
   .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
+    width: 80%;
+    font-size: 2.5rem;
+    line-height: 3rem;
   }
-  .container .inner-content .text h2 {
-    font-size: 1.035rem;
-    line-height: 1.1rem;
+  .container .inner-content .text p {
+    width: 80%;
   }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 463px) {
+  .container .inner-content .text h1 {
     width: 70%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content .text p {
+    font-size: 1.1rem;
+    line-height: 1.25rem;
+    width: 74%;
   }
   .container .inner-content input {
     width: 18.85rem;
   }
 }
-@media screen and (min-width: 424px) and (max-width: 449px) {
+@media screen and (min-width: 372px) and (max-width: 430px) {
   .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
+    width: 70%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
   }
-  .container .inner-content .text h2 {
-    font-size: 1.035rem;
-    line-height: 1.1rem;
-  }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 77.55%;
-  }
-  .container .inner-content input {
-    width: 18.85rem;
-  }
-}
-@media screen and (min-width: 394px) and (max-width: 423px) {
-  .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
-  }
-  .container .inner-content .text h2 {
-    font-size: 1.035rem;
-    line-height: 1.1rem;
-  }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 82.5%;
-  }
-  .container .inner-content input {
-    width: 18.85rem;
-  }
-}
-@media screen and (min-width: 372px) and (max-width: 393px) {
-  .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
-  }
-  .container .inner-content .text h2 {
-    font-size: 1.035rem;
-    line-height: 1.1rem;
-  }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 87.5%;
+  .container .inner-content .text p {
+    font-size: 1.1rem;
+    line-height: 1.25rem;
+    width: 83.5%;
   }
   .container .inner-content input {
     width: 18.85rem;
@@ -232,17 +183,14 @@
 }
 @media screen and (max-width: 371px) {
   .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
+    width: 70%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
   }
-  .container .inner-content .text h2 {
-    font-size: 1.035rem;
-    line-height: 1.1rem;
-  }
-  .container .inner-content .text p, .container .inner-content .text span {
+  .container .inner-content .text p {
     font-size: 1rem;
-    line-height: 1.5rem;
-    width: 95%;
+    line-height: 1.15rem;
+    width: 90%;
   }
   .container .inner-content input {
     width: 18.85rem;
