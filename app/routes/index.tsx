@@ -23,8 +23,8 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-        <h1>Become a business strategy machine.</h1>
-         <p>Every day there are hundreds of business stories that can advance your career. But spotting the best ones can be a challenge. Join our free newsletter to <b>get every news story that matters</b>.</p>
+        <h1>Become a more influential leader.</h1>
+         <p>Every day there are hundreds of news stories that can fast track your career and business. But spotting the best ones can be a challenge. Join our free newsletter to <b>get every news story that matters</b>.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
