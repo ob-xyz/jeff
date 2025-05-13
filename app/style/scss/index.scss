@@ -16,17 +16,20 @@
         display: flex;
         flex-direction: column;
 .text{
-    h1{
+    h1, span{
         padding-bottom:3rem;
         text-align: center;
         font-family: ku;
         font-size: 3.5rem;
         line-height:3.5rem;
-        width:52.50%;
+        width:40%;
+    }
+    span{
+        color:$red;
     }
     p{
         text-align: center;
-        width:35%;
+        width:37.5%;
         font-size:1.15rem;
         line-height: 1.65rem;
         b{
@@ -70,8 +73,8 @@ input{
     .container{
     .inner-content{
         .text{
-            h1{
-                width:55%;
+            h1, span{
+                width:42.5%;
             }
         }
     }
@@ -81,8 +84,8 @@ input{
     .container{
     .inner-content{
         .text{
-            h1{
-                width:55%;
+            h1, span{
+                width:42.5%;
             }
             p{
                 width:40%;
@@ -95,8 +98,8 @@ input{
     .container{
     .inner-content{
         .text{
-            h1{
-                width:65%;
+            h1, span{
+                width:50%;
             }
             p{
                 width:42.5%;
@@ -105,12 +108,12 @@ input{
     }
  }
 }
-@media screen and (min-width: 615px) and (max-width:900px) {
+@media screen and (min-width: 715px) and (max-width:900px) {
     .container{
     .inner-content{
         .text{
-            h1{
-                width:60%;
+            h1, span{
+                width:45%;
                 font-size: 2.5rem;
                 line-height:3rem;
             }
@@ -121,12 +124,12 @@ input{
     }
  }
 }
-@media screen and (min-width: 530px) and (max-width:614px) {
+@media screen and (min-width: 630px) and (max-width:714px) {
     .container{
     .inner-content{
         .text{
-            h1{
-                width:70%;
+            h1, span{
+                width:50%;
                 font-size: 2.5rem;
                 line-height:3rem;
             }
@@ -140,12 +143,12 @@ input{
     }
  }
 }
-@media screen and (min-width: 464px) and (max-width:529px) {
+@media screen and (min-width: 548px) and (max-width:629px) {
     .container{
     .inner-content{
         .text{
-            h1{
-                width:80%;
+            h1, span{
+                width:57.5%;
                 font-size: 2.5rem;
                 line-height:3rem;
             }
@@ -159,38 +162,17 @@ input{
     }
  }
 }
-@media screen and (min-width: 431px) and (max-width:463px) {
+@media screen and (min-width: 476px) and (max-width:547px) {
     .container{
     .inner-content{
         .text{
-            h1{
-                width:70%;
+            h1, span{
+                width:40%;
                 font-size: 1.5rem;
                 line-height:1.75rem;
             }
             p{
-                font-size:1.1rem;
-                line-height:1.25rem;
-                width:74%;
-            }
-        }
-        input{
-            width:18.85rem;
-        }
-    }
- }
-}
-@media screen and (min-width: 372px) and (max-width:430px) {
-    .container{
-    .inner-content{
-        .text{
-            h1{
-                width:70%;
-                font-size: 1.5rem;
-                line-height:1.75rem;
-            }
-            p{
-                font-size:1.1rem;
+                font-size:1rem;
                 line-height:1.25rem;
                 width:83.5%;
             }
@@ -201,12 +183,33 @@ input{
     }
  }
 }
-@media screen and (max-width: 371px) {
+@media screen and (min-width: 397px) and (max-width:475px) {
     .container{
     .inner-content{
         .text{
-            h1{
-                width:70%;
+            h1, span{
+                width:47.5%;
+                font-size: 1.5rem;
+                line-height:1.75rem;
+            }
+            p{
+                font-size:1rem;
+                line-height:1.25rem;
+                width:83.5%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (max-width: 396px) {
+    .container{
+    .inner-content{
+        .text{
+            h1, span{
+                width:55%;
                 font-size: 1.5rem;
                 line-height:1.75rem;
             }
