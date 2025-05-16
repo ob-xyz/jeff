@@ -24,7 +24,7 @@ return (
       <div className="inner-content">
       <div className="text">
         <h1>Become a <span>thought leader.</span></h1>
-         <p>Every day there are hundreds of news stories that can help you win more. But spotting the best ones can be a challenge. Join our free newsletter to get <b>every news story that matters</b>.</p>
+         <p>Jeffamzn is not the only way to find out what's happening in the world. But it's a pretty good way to find out what's happening in the world. Join our free newsletter to <b>know what's happening</b>.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
