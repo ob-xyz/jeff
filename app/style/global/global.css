@@ -50,16 +50,16 @@
   padding-bottom: 3rem;
   text-align: center;
   font-family: ku;
-  font-size: 3.5rem;
-  line-height: 3.5rem;
-  width: 40%;
+  font-size: 3.25rem;
+  line-height: 3.25rem;
+  width: 52.5%;
 }
 .container .inner-content .text span {
   color: #ed0808;
 }
 .container .inner-content .text p {
   text-align: center;
-  width: 35%;
+  width: 37.5%;
   font-size: 1.15rem;
   line-height: 1.65rem;
 }
