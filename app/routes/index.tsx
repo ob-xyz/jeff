@@ -23,7 +23,7 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-        <h1>Know what's happening in 5 minutes or less.</h1>
+        <h1>Business news everyone can enjoy even you.</h1>
          <p>Jeffamzn isn't the only way to find out what's happening in the world. But it's a pretty good way to find out what's happening in the world. Join our free newsletter to <b>know what's happening.</b></p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
