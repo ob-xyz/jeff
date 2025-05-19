@@ -1,17 +1,173 @@
-/* Error: Undefined variable.
- *    ,
- * 28 |         color:$red;
- *    |               ^^^^
- *    '
- *   app/style/scss/index.scss 28:15  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 28 \2502          color:$red;\a    \2502                ^^^^\a    \2575 \a   app/style/scss/index.scss 28:15  root stylesheet";
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8rem;
 }
+.container img {
+  background: none;
+  margin: 1rem 0 5rem 0rem;
+  width: 4rem;
+  border-radius: 0.5rem;
+  border: 0.175rem solid #000;
+}
+.container form {
+  margin-top: 0.5rem;
+}
+.container .inner-content {
+  display: flex;
+  flex-direction: column;
+}
+.container .inner-content .text h1, .container .inner-content .text span {
+  padding-bottom: 3rem;
+  text-align: center;
+  font-family: ku;
+  font-size: 3.75rem;
+  line-height: 4rem;
+  width: 48%;
+}
+.container .inner-content .text p {
+  text-align: center;
+  width: 43%;
+  font-size: 1.15rem;
+  line-height: 1.65rem;
+}
+.container .inner-content .text p b {
+  font-family: bold;
+}
+.container .inner-content input {
+  width: 23rem;
+  padding: 0.85rem 0.75rem;
+  font-family: arial;
+  color: black;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
+}
+.container .inner-content input:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px black;
+  border-color: black;
+  caret-color: black;
+}
+.container .inner-content .email {
+  margin-top: 0.2rem;
+  padding-left: 0.6rem;
+}
+.container .inner-content .submit {
+  padding: 0.75rem 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.65rem;
+  background-color: #000;
+  color: white;
+}
+.container .inner-content .submit:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1058px) {
+  .container .inner-content .text h1 {
+    width: 60%;
+  }
+  .container .inner-content .text p {
+    width: 47.5%;
+  }
+}
+@media screen and (min-width: 754px) and (max-width: 900px) {
+  .container .inner-content .text h1 {
+    width: 45%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .container .inner-content .text p {
+    width: 56%;
+  }
+}
+@media screen and (min-width: 589px) and (max-width: 753px) {
+  .container .inner-content .text h1 {
+    width: 60%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .container .inner-content .text p {
+    width: 71.5%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (min-width: 548px) and (max-width: 588px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 70%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .container .inner-content .text p {
+    width: 77.5%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (min-width: 508px) and (max-width: 547px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 40%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content .text p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    width: 72%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 507px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 47.5%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content .text p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    width: 85%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 429px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 47.5%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content .text p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    width: 87.5%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (max-width: 389px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 55%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content .text p {
+    font-size: 0.975rem;
+    line-height: 1.25rem;
+    width: 92.5%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

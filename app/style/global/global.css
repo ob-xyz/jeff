@@ -50,16 +50,13 @@
   padding-bottom: 3rem;
   text-align: center;
   font-family: ku;
-  font-size: 3.25rem;
-  line-height: 3.75rem;
-  width: 52.5%;
-}
-.container .inner-content .text span {
-  color: #ed0808;
+  font-size: 3.75rem;
+  line-height: 4rem;
+  width: 48%;
 }
 .container .inner-content .text p {
   text-align: center;
-  width: 37.5%;
+  width: 43%;
   font-size: 1.15rem;
   line-height: 1.65rem;
 }
@@ -97,64 +94,51 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 1125px) and (max-width: 1180px) {
-  .container .inner-content .text h1, .container .inner-content .text span {
-    width: 42.5%;
-  }
-}
-@media screen and (min-width: 1074px) and (max-width: 1124px) {
-  .container .inner-content .text h1, .container .inner-content .text span {
-    width: 42.5%;
-  }
-  .container .inner-content .text p {
-    width: 40%;
-  }
-}
-@media screen and (min-width: 901px) and (max-width: 1073px) {
-  .container .inner-content .text h1, .container .inner-content .text span {
-    width: 50%;
+@media screen and (min-width: 901px) and (max-width: 1058px) {
+  .container .inner-content .text h1 {
+    width: 60%;
   }
   .container .inner-content .text p {
     width: 47.5%;
   }
 }
-@media screen and (min-width: 715px) and (max-width: 900px) {
-  .container .inner-content .text h1, .container .inner-content .text span {
+@media screen and (min-width: 754px) and (max-width: 900px) {
+  .container .inner-content .text h1 {
     width: 45%;
     font-size: 2.5rem;
     line-height: 3rem;
   }
   .container .inner-content .text p {
-    width: 50%;
+    width: 56%;
   }
 }
-@media screen and (min-width: 630px) and (max-width: 714px) {
-  .container .inner-content .text h1, .container .inner-content .text span {
-    width: 50%;
+@media screen and (min-width: 589px) and (max-width: 753px) {
+  .container .inner-content .text h1 {
+    width: 60%;
     font-size: 2.5rem;
     line-height: 3rem;
   }
   .container .inner-content .text p {
-    width: 65%;
+    width: 71.5%;
   }
   .container .inner-content input {
     width: 18.85rem;
   }
 }
-@media screen and (min-width: 548px) and (max-width: 629px) {
+@media screen and (min-width: 548px) and (max-width: 588px) {
   .container .inner-content .text h1, .container .inner-content .text span {
-    width: 57.5%;
+    width: 70%;
     font-size: 2.5rem;
     line-height: 3rem;
   }
   .container .inner-content .text p {
-    width: 75%;
+    width: 77.5%;
   }
   .container .inner-content input {
     width: 18.85rem;
   }
 }
-@media screen and (min-width: 476px) and (max-width: 547px) {
+@media screen and (min-width: 508px) and (max-width: 547px) {
   .container .inner-content .text h1, .container .inner-content .text span {
     width: 40%;
     font-size: 1.5rem;
@@ -163,13 +147,13 @@
   .container .inner-content .text p {
     font-size: 1rem;
     line-height: 1.25rem;
-    width: 70%;
+    width: 72%;
   }
   .container .inner-content input {
     width: 18.85rem;
   }
 }
-@media screen and (min-width: 397px) and (max-width: 475px) {
+@media screen and (min-width: 430px) and (max-width: 507px) {
   .container .inner-content .text h1, .container .inner-content .text span {
     width: 47.5%;
     font-size: 1.5rem;
@@ -178,13 +162,28 @@
   .container .inner-content .text p {
     font-size: 1rem;
     line-height: 1.25rem;
-    width: 84.25%;
+    width: 85%;
   }
   .container .inner-content input {
     width: 18.85rem;
   }
 }
-@media screen and (max-width: 396px) {
+@media screen and (min-width: 390px) and (max-width: 429px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 47.5%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content .text p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    width: 87.5%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (max-width: 389px) {
   .container .inner-content .text h1, .container .inner-content .text span {
     width: 55%;
     font-size: 1.5rem;
