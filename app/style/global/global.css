@@ -30,7 +30,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding-bottom: 8rem;
 }
 .container img {
   background: none;
@@ -92,6 +91,19 @@
 .container .inner-content .submit:hover {
   opacity: 0.85;
   cursor: pointer;
+}
+.container .footer {
+  padding-top: 8rem;
+  padding-bottom: 0.65rem;
+}
+.container .footer a {
+  font-size: 0.775rem;
+  color: black;
+  border: none;
+  font-family: bold;
+}
+.container .footer a:hover {
+  opacity: 0.75;
 }
 
 @media screen and (min-width: 901px) and (max-width: 1058px) {

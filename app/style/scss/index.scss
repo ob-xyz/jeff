@@ -1,7 +1,6 @@
 .container{
     display:flex;
     flex-direction: column;
-    padding-bottom:8rem;
     img{
         background:none;
         margin:1rem 0 5rem 0rem;
@@ -64,6 +63,19 @@ input{
         cursor: pointer; 
     }
 }  
+  }
+  .footer{
+        padding-top:8rem;
+        padding-bottom:.65rem;
+    a{
+        font-size:.775rem;
+        color: black;
+        border:none;
+        font-family: bold;
+        &:hover{
+            opacity:.75;
+        }
+    }
   }
 }
 

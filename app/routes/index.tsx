@@ -36,6 +36,9 @@ return (
           <input type="hidden" name="nonce" />
       </form>
       </div>
+      <div className="footer">
+      <a href="mailto:ads@jeffamzn.com">Advertise With Us</a>
+      </div>
       </div>
   );
 }
