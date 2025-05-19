@@ -24,7 +24,7 @@ return (
       <div className="inner-content">
       <div className="text">
         <h1>Become smarter every day.</h1>
-         <p>Jeffamzn isn't the only way to find out what's happening. But it's a pretty good way to find out what's happening. Join our free newsletter to <b>find out what's happening in the world.</b></p>
+         <p>Jeffamzn is not the only way to find out what's happening. But it's a pretty good way to find out what's happening. Join our free newsletter to <b>find out what's happening in the world.</b></p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
