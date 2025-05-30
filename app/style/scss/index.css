@@ -22,7 +22,7 @@
   font-family: ku;
   font-size: 3.75rem;
   line-height: 4rem;
-  width: 48%;
+  width: 37.5%;
 }
 .container .inner-content .text p {
   text-align: center;
@@ -77,6 +77,16 @@
   opacity: 0.75;
 }
 
+@media screen and (min-width: 1274px) and (max-width: 1355px) {
+  .container .inner-content .text h1 {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1059px) and (max-width: 1273px) {
+  .container .inner-content .text h1 {
+    width: 50%;
+  }
+}
 @media screen and (min-width: 901px) and (max-width: 1058px) {
   .container .inner-content .text h1 {
     width: 60%;
