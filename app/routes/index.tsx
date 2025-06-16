@@ -94,7 +94,7 @@ export default function Index() {
           <h1>
             What's happening <br /><span className={`${fadeOut ? "fade-out" : "fade-in"}`}>{rotatingWords[index]}</span>
           </h1>
-          <p>Don't start your day without knowing what's happening in the world.</p>
+          <p>Don't start your day without knowing what's happening.</p>
         </div>
     <form
       method="post"
