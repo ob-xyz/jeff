@@ -1,13 +1,11 @@
-@import 
-'../global/Fonts.scss',
-'../global/Colors.scss',
-'../global/Buttons.scss',
-'../scss/index.scss';
+@import '../global/Fonts.scss';
+@import '../global/Colors.scss';
+@import '../global/Buttons.scss';
+@import '../scss/index.scss';
 
 * {
   box-sizing: border-box;
-  margin: auto;
-  user-select: none;
+  margin:auto;
 }
 html,
 body {
@@ -17,7 +15,7 @@ body {
   background-color: #fff7ed;
 }
 body {
-  overflow-y: none;
+  overflow-y: scroll;
   overflow-x: hidden;
 }   
 main{
@@ -43,7 +41,7 @@ h1 {
   font-weight: 100;
   color: $black;
   text-decoration: none;
-  text-shadow: none;
+  
 }
 h2 {
   font-size: 0.8rem;
@@ -51,7 +49,7 @@ h2 {
   font-weight: 100;
   color: $black;
   text-decoration: none;
-  text-shadow: none;
+  
 }
 h3,
 h4,
@@ -59,13 +57,13 @@ h5,
 h6 {
   font-family: 'medium';
   color: $black;
-  text-shadow: none;
+  
 }
 p {
   font-family: 'book';
   font-size: 1.1rem;
   color: $black;
-  text-shadow: none;
+  
 }
 ul,
 ol {

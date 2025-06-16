@@ -13,7 +13,10 @@
     "@remix-run/netlify": "^1.11.1",
     "@remix-run/node": "^1.11.1",
     "@remix-run/react": "^1.11.1",
+    "autoprefixer": "^10.4.21",
     "cross-env": "^7.0.3",
+    "postcss": "^8.5.5",
+    "postcss-loader": "^8.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -23,11 +26,12 @@
     "@remix-run/serve": "^1.11.1",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
+    "concurrently": "^9.1.2",
     "eslint": "^8.27.0",
     "sass": "^1.57.1",
     "typescript": "^4.8.4"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=18.12.0"
   }
 }
