@@ -33,7 +33,7 @@ const ads = [
     image: takeoverads,
     title: "Takeover Ads",
     description:
-      "Our most premium mass-reach placements that drive more engagement and better results.",
+      "Our most premium mass-reach placements that drive more engagement and results.",
   },
   {
     image: textads,
