@@ -113,11 +113,10 @@
   background: #02090A;
   border-top-left-radius: 3rem;
   border-top-right-radius: 3rem;
-  padding-left: 5rem;
+  padding: 0 5rem;
 }
 .container .inner-content2 h2, .container .inner-content2 span {
   padding-top: 6rem;
-  width: 85%;
   margin-left: 0;
   color: #fff;
 }
@@ -130,7 +129,6 @@
   font-size: 3rem;
   margin-left: 0;
   margin-bottom: 5rem;
-  width: 95%;
   color: #71717A;
   background: #71717A;
   transition: all 0.4s ease-in-out;
@@ -840,12 +838,12 @@
   }
 }
 @media (max-width: 480px) {
-  .container {
-    margin: 0 -4rem;
-  }
   .container h4 {
     font-size: 1rem;
     padding-bottom: 0.25rem;
+  }
+  .container .logo {
+    margin-left: 1rem;
   }
   .container .content {
     margin-top: 8rem;
@@ -858,7 +856,8 @@
     width: 16rem;
   }
   .container .content .inner-content {
-    margin-top: 11rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
   }
   .container .content .inner-content .text h1,
   .container .content .inner-content .text span {
@@ -872,27 +871,28 @@
     width: 22rem;
   }
   .container .inner-content2 {
-    margin: 0 -4rem 0 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0 1rem;
   }
   .container .inner-content2 h2 {
     font-size: 1.75rem;
-    margin-left: -2rem;
-    width: 90%;
+    width: 100%;
   }
   .container .inner-content2 span {
     font-size: 1.75rem;
   }
   .container .inner-content2 p {
-    margin-left: -2rem;
     padding-top: 1rem;
     font-size: 1.5rem;
+    width: 100%;
   }
   .container .inner-content3 {
-    margin: 0 -4rem 0 5rem;
+    margin: 0 1rem;
   }
   .container .inner-content4 {
+    margin: 5rem 1rem;
     flex-direction: column;
-    margin: 5rem -4rem 0 5rem;
   }
   .container .inner-content4 h3 {
     padding-top: 0.5rem;
@@ -906,17 +906,17 @@
     width: 100%;
   }
   .container .inner-content5 {
-    margin: 0 -4rem 0 5rem;
+    margin: 5rem 1rem 0 1rem;
     grid-template-columns: repeat(1, 1fr);
   }
   .container .inner-content5 .box {
     padding-top: 2rem;
   }
   .container .btn {
-    margin: 2rem -4rem 0 5rem;
+    margin: 2rem 1rem;
   }
   .container .inner-content7 {
-    margin: 5rem -4rem 0 5rem;
+    margin: 5rem 1rem 0 1rem;
     flex-direction: column;
     padding-bottom: 2rem;
   }
@@ -928,14 +928,14 @@
     width: 100%;
   }
   .container .ads-carousel {
-    margin: 0 -4rem 0 7.75rem;
+    margin: 0 2.75rem;
     width: 75%;
   }
   .container .ads-carousel .box img {
     border-radius: 1rem;
   }
   .container .inner-content10 {
-    margin: -4rem -4rem 0 5rem;
+    margin: -4rem 1rem 0 1rem;
   }
   .container .inner-content10 .header {
     margin: 9rem 0rem 3rem 0rem;
@@ -949,7 +949,7 @@
     display: none;
   }
   .container .inner-content12 {
-    margin: 5rem -4rem 0 5rem;
+    margin: 5rem 1rem 0 1rem;
   }
   .container .inner-content12 .header {
     margin-right: -5rem;
@@ -962,7 +962,7 @@
     width: 22rem;
   }
   .container .footer {
-    margin: 9rem 0rem 0 5rem;
+    margin: 9rem 1rem 0 1rem;
   }
   .container .footer .footer-top {
     flex-direction: column;
