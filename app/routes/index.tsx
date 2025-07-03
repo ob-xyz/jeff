@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "@remix-run/react";
+import { json, LoaderFunction } from "@remix-run/node";
+import { useLoaderData } from "@remix-run/react";
+
 import logo from "~/../public/img/ja1.png";
 import promoads from "~/../public/img/promoted-ads.png";
 import takeoverads from "~/../public/img/takeover-ads.png";
@@ -20,6 +23,45 @@ import linkedin from "~/../public/img/in.png";
 import ig from "~/../public/img/ig.png";
 import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
+
+type Campaign = {
+  id: string;
+  subject: string;
+  send_at: string;
+  url: string; // You can generate or have a URL scheme to link to campaign
+};
+
+export const loader: LoaderFunction = async () => {
+  const username = "jeffapi";
+  const password = "DDGoYjwtd1rmaZB6X0nmaO09F3DsiAez";
+  const basicAuth = Buffer.from(`${username}:${password}`).toString("base64");
+
+  const response = await fetch("http://app.jeffamzn.com/api/campaigns", {
+    headers: {
+      Authorization: `Basic ${basicAuth}`,
+    },
+  });
+
+  if (!response.ok) {
+    throw new Response("Failed to fetch campaigns", { status: 500 });
+  }
+
+  const data = await response.json();
+
+  // Assuming the campaigns are in data.data.results
+  const campaigns = data.data.results
+    .filter((c: any) => c.status === "sent")
+    .sort((a: any, b: any) => new Date(b.send_at).getTime() - new Date(a.send_at).getTime())
+    .slice(0, 5)
+    .map((c: any) => ({
+      id: c.id,
+      subject: c.subject,
+      send_at: c.send_at,
+      url: `https://app.jeffamzn.com/campaign/${c.id}`,
+    }));
+
+  return json({ campaigns });
+};
 
 const rotatingWords = ["on Wall Street", "in Silicon Valley", "across the world"]
 const ads = [
@@ -47,6 +89,8 @@ export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
   const [adIndex, setAdIndex] = useState(0);
+    const { campaigns } = useLoaderData<{ campaigns: Campaign[] }>();
+
 
   const next = () => {
     setAdIndex((prev) => (prev + 1) % ads.length);
@@ -81,20 +125,17 @@ export default function Index() {
 
   return (
     <div className="container">
-      {/* <video autoPlay loop muted playsInline className="vid" preload="none">
-        <source src={vid} type="video/mp4" />
-      </video> */}
       <div className="logo">
         <img src={logo} />
       </div>
       <div className="content">
       <div className="inner-content">
         <div className="text">
-          <h4>JEFFAMZN</h4>
+          <h4>DON'T START YOUR DAY WITHOUT KNOWING</h4>
           <h1>
             What's happening <br /><span className={`${fadeOut ? "fade-out" : "fade-in"}`}>{rotatingWords[index]}</span>
           </h1>
-          <p>Don't start your day without knowing what's happening.</p>
+          <p>Subscribe to Jeffamzn to stay informed.</p>
         </div>
     <form
       method="post"
@@ -128,9 +169,9 @@ export default function Index() {
 
       <div className="inner-content2">
         <h2>The <span>one newsletter</span> that helps you stay informed</h2>
-        <Link to="#"><p>Every day Jeffamzn sends you a quick timeline of what's happening in the world. Easy to digest. Read by the most authoritative minds in the world.</p></Link>
+        <Link to="#"><p>Every day Jeffamzn sends you a quick timeline of what's happening in the world. Easy to digest. And read by the most authoritative minds in the world.</p></Link>
       </div>
-    <div className="inner-content3">
+      <div className="inner-content3">
         <div className="box">
           <img src={trump} />
         </div>
@@ -158,16 +199,16 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Have smarter conversations</h1>
-          <p>Have smarter and more informed conversations with colleagues, customers and friends.</p>
+          <h1>Enjoy smarter conversations</h1>
+          <p>Have more informed and smarter conversations with colleagues, customers and friends.</p>
         </div>
       </div>
       <div className="btn">
         <Link to="#" className="pricebtn">
             Sign up for free
       </Link>
-        </div>
-        <div className="inner-content7">
+      </div>
+      <div className="inner-content7">
             <div className="text">
             <h4>ADVERTISE WITH US</h4>
             <h3>Connect with your next customers on Jeffamzn.</h3>
@@ -196,8 +237,8 @@ export default function Index() {
         <a href="mailto:hey@jeffamzn.com" className="pricebtn">
             Start a campaign
       </a>
-        </div>
-        <div className="inner-content10">
+      </div>
+      <div className="inner-content10">
         <div className="header">
             <h4>MOST POPULAR</h4>
             <h3>Promoted Ads.</h3>
@@ -228,53 +269,93 @@ export default function Index() {
         </div>
         </div>
       </div>
-        <div className="inner-content12">
-        <div className="header">
-            <h4>GETTING STARTED</h4>
-            <h3>Start your journey with Jeffamzn.</h3>
-        </div>
-        <div className="grid">
-        <div className="box">
-          <img src={bg} />
-          <h1>Sign up for free</h1>
-          <p>Sign up for free to get the most authoritative business newsletter in the world, delivered straight to your inbox every day.</p>
-              <form
-      method="post"
-      action="https://app.jeffamzn.com/subscription/form"
-      target="_blank"
-    >
-      <div className="input-wrapper">
-        <input
-          className="email"
-          type="email"
-          name="email"
-          required
-          placeholder="Email Address *"
-        />
-        <button className="submit" type="submit">
-          Sign up
-        </button>
+      <div className="inner-content12">
+      <div className="header">
+        <h4>GETTING STARTED</h4>
+        <h3>Start your journey with Jeffamzn.</h3>
       </div>
-
+      <div className="grid">
+      <div className="box">
+        <img src={bg} />
+        <h1>Sign up for free</h1>
+        <p>Sign up for free to get the most authoritative business newsletter in the world, delivered straight to your inbox every day.</p>
+            <form
+    method="post"
+    action="https://app.jeffamzn.com/subscription/form"
+    target="_blank"
+  >
+    <div className="input-wrapper">
       <input
-        id="6d48f"
-        type="hidden"
-        name="l"
-        value="6d48fffe-7d37-4c14-b317-3e4cda33a647"
+        className="email"
+        type="email"
+        name="email"
+        required
+        placeholder="Email Address *"
       />
-      <input type="hidden" name="nonce" />
-    </form>
-        </div>
-        <div className="box">
-          <img src={bg1} />
-          <h1>Start advertising with us</h1>
-          <p>Start or expand your marketing funnel by placing your ads exactly where people do business — the email inbox.</p>
-          <a href="mailto:hey@jeffamzn.com" className="pricebtn">
-              Start a campaign
+      <button className="submit" type="submit">
+        Sign up
+      </button>
+    </div>
+
+    <input
+      id="6d48f"
+      type="hidden"
+      name="l"
+      value="6d48fffe-7d37-4c14-b317-3e4cda33a647"
+    />
+    <input type="hidden" name="nonce" />
+  </form>
+      </div>
+      <div className="box">
+        <img src={bg1} />
+        <h1>Start advertising with us</h1>
+        <p>Start or expand your marketing funnel by placing your ads exactly where people do business — the email inbox.</p>
+        <a href="mailto:hey@jeffamzn.com" className="pricebtn">
+            Start a campaign
+        </a>
+      </div>
+      </div>
+      </div>
+<div className="inner-blog">
+    <div className="header">
+          <h4>JEFFAMZN NEWS</h4>
+          <h3>The latest and greatest.</h3>
+    </div>
+    <ul className="grid">
+    {campaigns.length === 0 ? (
+      <li>No campaigns available yet.</li>
+    ) : (
+      campaigns.slice(0, 6).map((c) => (
+        <li key={c.id} className="box">
+          <a href={c.url} target="_blank" rel="noopener noreferrer">
+            <img src="https://jeffamazn.com/GsidegWXwAECEUs.jpeg" alt="You gotta see this" />
+            <h2>{c.subject}</h2>
+            <p>{new Date(c.send_at).toLocaleDateString()}</p> 
           </a>
-        </div>
-        </div>
-  </div>
+        </li>
+      ))
+    )}
+  </ul>
+</div>
+
+<div className="inner-blog">
+      <div className="header">
+          <h4>JEFFAMZN NEWS</h4>
+          <h3>The latest and greatest.</h3>
+      </div>
+  <ul className="grid">
+    <li className="box">
+      <a
+        href="http://app.jeffamzn.com/campaign/ba97f2f9-a8c7-46a7-b183-ccffbc3b6891/6716369b-5785-4c74-be76-73af2558eebb"
+        rel="noopener noreferrer"
+      >
+        <img src="https://jeffamazn.com/Screen-Shot-2025-06-03-at-5.09.08-PM.png" alt="Test Campaign Preview" />
+        <h2>Test Campaign — Preview</h2>
+        <p>June 29, 2025</p>
+      </a>
+    </li>
+  </ul>
+</div>
     <div className="footer">
       <div className="footer-top">
         <div className="footer-logo">
@@ -318,18 +399,19 @@ export default function Index() {
         </a>
         </div>
         <div className="footer-social">
-        <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
-          <img src={linkedin} alt="LinkedIn" />
-        </a>
         <a href="https://instagram.com/jeffamzn" target="_blank" rel="noopener noreferrer">
           <img src={ig} alt="Instagram" />
         </a>
         <a href="https://x.com/jeffamzn" target="_blank" rel="noopener noreferrer">
           <img src={x} alt="X (formerly Twitter)" />
         </a>
+        <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
+          <img src={linkedin} alt="LinkedIn" />
+        </a>
         <a href="mailto:hey@jeffamzn.com">
           <img src={email} alt="Email us" />
         </a>
+    
         </div>
    </div>
       </div>
