@@ -261,6 +261,7 @@ p {
       }
       }
       p{
+          padding-top:.25rem;
           width:80%;
           color: #71717A;
           margin-bottom: .5rem;
@@ -967,6 +968,10 @@ form {
   grid-template-columns: repeat(1, 1fr);
   .box{
     padding-top:2rem;
+    text-align: center;
+    h1{
+      text-align: center;
+    }
   }
 }
 .btn{
@@ -976,7 +981,13 @@ form {
   margin: 5rem 1rem 0 1rem;
   flex-direction:column;
   padding-bottom: 2rem;
+      .text{
+        h4{
+          padding-bottom:.25rem;
+        }
+      }
   p{
+
       margin-left:0;
       width:100%;
   }
@@ -991,9 +1002,12 @@ form {
   }
 }
 .inner-content10{
-  margin: -4rem 1rem 0 1rem;
+  margin: 0rem 1rem 0 1rem;
 .header{
-  margin:9rem 0rem 3rem 0rem;
+  margin:5rem 0rem 1.5rem 0rem;
+  h4{
+        padding-bottom:.25rem;
+  }
  }
   .grid{
       grid-template-columns: repeat(1, 1fr);
@@ -1007,7 +1021,11 @@ form {
 .inner-content12{
   margin: 5rem 1rem 0 1rem;
   .header{
+    margin-bottom:1.5rem;
   flex-direction:column;
+    h4{
+        padding-bottom:.25rem;
+  }
   }
 .grid{
   grid-template-columns: repeat(1, 1fr);
@@ -1022,7 +1040,7 @@ form {
 }
 }
 .footer {
-  margin: 9rem .5rem 0 .5rem;
+  margin: 9rem .25rem 0 .25rem;
   .footer-top {
     flex-direction:column;
     .footer-logo {
@@ -1035,13 +1053,13 @@ form {
     }
     .footer-links {
       .column {
-        padding: 0 .25rem;
+        padding: 0 .2rem;
       }
    }
   }
     .footer-bottom {
     .footer-social {
-      margin-right:1.5rem;
+      margin-right:1rem;
       img {
         width:1.15rem;
       }

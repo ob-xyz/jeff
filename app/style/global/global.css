@@ -283,6 +283,7 @@
   margin-left: 0;
 }
 .container .inner-content7 p {
+  padding-top: 0.25rem;
   width: 80%;
   color: #71717A;
   margin-bottom: 0.5rem;
@@ -937,6 +938,10 @@
   }
   .container .inner-content5 .box {
     padding-top: 2rem;
+    text-align: center;
+  }
+  .container .inner-content5 .box h1 {
+    text-align: center;
   }
   .container .btn {
     margin: 2rem 1rem;
@@ -945,6 +950,9 @@
     margin: 5rem 1rem 0 1rem;
     flex-direction: column;
     padding-bottom: 2rem;
+  }
+  .container .inner-content7 .text h4 {
+    padding-bottom: 0.25rem;
   }
   .container .inner-content7 p {
     margin-left: 0;
@@ -958,10 +966,13 @@
     border-radius: 1rem;
   }
   .container .inner-content10 {
-    margin: -4rem 1rem 0 1rem;
+    margin: 0rem 1rem 0 1rem;
   }
   .container .inner-content10 .header {
-    margin: 9rem 0rem 3rem 0rem;
+    margin: 5rem 0rem 1.5rem 0rem;
+  }
+  .container .inner-content10 .header h4 {
+    padding-bottom: 0.25rem;
   }
   .container .inner-content10 .grid {
     grid-template-columns: repeat(1, 1fr);
@@ -975,7 +986,11 @@
     margin: 5rem 1rem 0 1rem;
   }
   .container .inner-content12 .header {
+    margin-bottom: 1.5rem;
     flex-direction: column;
+  }
+  .container .inner-content12 .header h4 {
+    padding-bottom: 0.25rem;
   }
   .container .inner-content12 .grid {
     grid-template-columns: repeat(1, 1fr);
@@ -984,7 +999,7 @@
     width: 20.25rem;
   }
   .container .footer {
-    margin: 9rem 0.5rem 0 0.5rem;
+    margin: 9rem 0.25rem 0 0.25rem;
   }
   .container .footer .footer-top {
     flex-direction: column;
@@ -998,10 +1013,10 @@
     margin-left: 2rem;
   }
   .container .footer .footer-top .footer-links .column {
-    padding: 0 0.25rem;
+    padding: 0 0.2rem;
   }
   .container .footer .footer-bottom .footer-social {
-    margin-right: 1.5rem;
+    margin-right: 1rem;
   }
   .container .footer .footer-bottom .footer-social img {
     width: 1.15rem;
