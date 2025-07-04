@@ -621,7 +621,7 @@
 }
 .container .footer .footer-top .footer-links {
   display: flex;
-  margin: 0;
+  margin: 0 0;
 }
 .container .footer .footer-top .footer-links .column {
   display: flex;
@@ -655,7 +655,7 @@
 .container .footer .footer-bottom .footer-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.25rem;
   margin-left: 0;
 }
 .container .footer .footer-bottom .footer-meta a {
@@ -835,33 +835,6 @@
   .container .inner-content12 .grid .box form .input-wrapper {
     width: 28.5rem;
   }
-  .container .footer {
-    margin: 9rem 0.25rem 0 0.25rem;
-  }
-  .container .footer .footer-top {
-    flex-direction: column;
-  }
-  .container .footer .footer-top .footer-logo {
-    padding-right: 0rem;
-  }
-  .container .footer .footer-top .footer-logo img {
-    display: none;
-    margin-top: -6.5rem;
-    margin-left: 2rem;
-  }
-  .container .footer .footer-top .footer-links .column {
-    padding: 0 0.5rem;
-  }
-  .container .footer .footer-bottom {
-    padding-bottom: 1.5rem;
-    margin-left: 0.75rem;
-  }
-  .container .footer .footer-bottom .footer-social {
-    margin-right: 1rem;
-  }
-  .container .footer .footer-bottom .footer-social img {
-    width: 1.15rem;
-  }
 }
 @media (min-width: 660px) and (max-width: 874px) {
   .container h3 {
@@ -1003,31 +976,22 @@
     width: 32rem;
   }
   .container .footer {
-    margin: 9rem 0.25rem 0 0.25rem;
+    padding: 5rem 1.25rem;
   }
   .container .footer .footer-top {
     flex-direction: column;
   }
-  .container .footer .footer-top .footer-logo {
-    padding-right: 0rem;
-  }
   .container .footer .footer-top .footer-logo img {
     display: none;
-    margin-top: -6.5rem;
-    margin-left: 2rem;
-  }
-  .container .footer .footer-top .footer-links .column {
-    padding: 0 0.5rem;
   }
   .container .footer .footer-bottom {
-    padding-bottom: 1.5rem;
-    margin-left: 0.75rem;
+    padding-bottom: 1.25rem;
   }
   .container .footer .footer-bottom .footer-social {
-    margin-right: 1rem;
+    gap: 1.25rem;
   }
   .container .footer .footer-bottom .footer-social img {
-    width: 1.15rem;
+    width: 1.1rem;
   }
 }
 @media (max-width: 659px) {
@@ -1173,31 +1137,28 @@
     width: 20.25rem;
   }
   .container .footer {
-    margin: 9rem 0.25rem 0 0.25rem;
+    padding: 5rem 1.25rem;
   }
   .container .footer .footer-top {
     flex-direction: column;
   }
-  .container .footer .footer-top .footer-logo {
-    padding-right: 0rem;
-  }
   .container .footer .footer-top .footer-logo img {
     display: none;
-    margin-top: -6.5rem;
-    margin-left: 2rem;
   }
   .container .footer .footer-top .footer-links .column {
-    padding: 0 0.2rem;
+    padding: 0 0.5rem;
   }
   .container .footer .footer-bottom {
-    padding-bottom: 1.5rem;
-    margin-left: 0.25rem;
+    padding-bottom: 1.25rem;
+  }
+  .container .footer .footer-bottom .footer-meta {
+    gap: 0.75rem;
   }
   .container .footer .footer-bottom .footer-social {
-    margin-right: 0.5rem;
+    gap: 1rem;
   }
   .container .footer .footer-bottom .footer-social img {
-    width: 1.15rem;
+    width: 1.1rem;
   }
 }
 * {

@@ -613,7 +613,7 @@ button.submit {
 
 .footer-links {
       display: flex;
-      margin:0;
+      margin:0 0;
 .column {
   display: flex;
   flex-direction: column;
@@ -652,7 +652,7 @@ button.submit {
     .footer-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: 1rem;
+      gap: 1.25rem;
       margin-left:0;
       a {
         font-size:.825rem;
@@ -858,35 +858,6 @@ form {
 
 }
 }
-.footer {
-  margin: 9rem .25rem 0 .25rem;
-  .footer-top {
-    flex-direction:column;
-    .footer-logo {
-      padding-right:0rem;
-      img {
-        display:none;
-        margin-top:-6.5rem;
-        margin-left:2rem;
-      }
-    }
-    .footer-links {
-      .column {
-        padding: 0 .5rem;
-      }
-   }
-  }
-    .footer-bottom {
-      padding-bottom:1.5rem;
-      margin-left: .75rem;
-    .footer-social {
-      margin-right:1rem;
-      img {
-        width:1.15rem;
-      }
-    }
-  }
- }
 }
 }
 @media (min-width: 660px) and (max-width: 874px) {
@@ -1043,34 +1014,25 @@ form {
 }
 }
 .footer {
-  margin: 9rem .25rem 0 .25rem;
+  padding: 5rem 1.25rem;
   .footer-top {
     flex-direction:column;
     .footer-logo {
-      padding-right:0rem;
       img {
         display:none;
-        margin-top:-6.5rem;
-        margin-left:2rem;
       }
     }
-    .footer-links {
-      .column {
-        padding: 0 .5rem;
-      }
-   }
   }
     .footer-bottom {
-      padding-bottom:1.5rem;
-      margin-left: .75rem;
+      padding-bottom:1.25rem;
     .footer-social {
-      margin-right:1rem;
+      gap:1.25rem;
       img {
-        width:1.15rem;
+        width:1.1rem;
       }
     }
   }
- }
+}
 }
 }
 @media (max-width: 659px) {
@@ -1231,30 +1193,29 @@ form {
 }
 }
 .footer {
-  margin: 9rem .25rem 0 .25rem;
+  padding: 5rem 1.25rem;
   .footer-top {
     flex-direction:column;
     .footer-logo {
-      padding-right:0rem;
       img {
         display:none;
-        margin-top:-6.5rem;
-        margin-left:2rem;
       }
     }
     .footer-links {
       .column {
-        padding: 0 .2rem;
+        padding: 0 .5rem;
       }
    }
   }
     .footer-bottom {
-      padding-bottom:1.5rem;
-      margin-left: .25rem;
+      padding-bottom:1.25rem;
+    .footer-meta {
+      gap:.75rem; 
+    }
     .footer-social {
-      margin-right:.5rem;
+      gap:1rem;
       img {
-        width:1.15rem;
+        width:1.1rem;
       }
     }
   }
