@@ -306,7 +306,7 @@ p {
   }
   .carousel-button {
   position: absolute;
-  top: 42.5%;
+  top: 40%;
   transform: translateY(-50%);
   background:none;
   border: none;
@@ -966,13 +966,14 @@ form {
     }
 }
 .inner-content5 {
-  margin: 0rem 1rem 1rem 1rem;
+  margin: 0rem 1rem 0rem 1rem;
   grid-template-columns: repeat(1, 1fr);
   .box{
-    padding-top:2rem;
+    padding-top:1.5rem;
     text-align: center;
     h1{
       text-align: center;
+      padding-top: 1rem;
     }
   }
 }
@@ -1001,6 +1002,9 @@ form {
     img {
       border-radius: 1rem;
     }
+  } 
+.carousel-button {
+  top: 35%;
   }
 }
 .inner-content10{

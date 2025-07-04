@@ -299,7 +299,7 @@
 }
 .container .ads-carousel .carousel-button {
   position: absolute;
-  top: 42.5%;
+  top: 40%;
   transform: translateY(-50%);
   background: none;
   border: none;
@@ -907,15 +907,16 @@
     width: 100%;
   }
   .container .inner-content5 {
-    margin: 0rem 1rem 1rem 1rem;
+    margin: 0rem 1rem 0rem 1rem;
     grid-template-columns: repeat(1, 1fr);
   }
   .container .inner-content5 .box {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     text-align: center;
   }
   .container .inner-content5 .box h1 {
     text-align: center;
+    padding-top: 1rem;
   }
   .container .btn {
     margin: 2rem 1rem;
@@ -938,6 +939,9 @@
   }
   .container .ads-carousel .box img {
     border-radius: 1rem;
+  }
+  .container .ads-carousel .carousel-button {
+    top: 35%;
   }
   .container .inner-content10 {
     margin: 0rem 1rem 0 1rem;
