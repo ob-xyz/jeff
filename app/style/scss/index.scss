@@ -15,7 +15,7 @@
     h1, h2, h3, span{
         text-align: left;
         font-family: ku;
-        font-size:4.5rem;
+        font-size:4rem;
     }
     h2 {
         font-size:4.5rem;
@@ -53,16 +53,12 @@
 .text{
     h1{
         margin-left:0;
-        line-height:5rem;
-        width:100%;
-    }
-    span{
-      line-height:6rem;
+        max-width:80%;
     }
     p{
         text-align: left;
         line-height:1.65rem;
-        padding:1rem 0rem 1.25rem 0;
+        padding:1rem 0rem .5rem 0;
         margin-left:0;
     }
 }
@@ -123,7 +119,8 @@ button.submit {
       padding-top:6rem;
       margin-left:0;
       color:#fff;
-  }
+      width:87.5%;
+    }
   span{
       font-size:4.5rem;
       font-family:ku;
@@ -706,7 +703,20 @@ button.submit {
 }
 }
 
-@media (min-width: 746px) and (max-width: 1100px) {
+@media (min-width: 1101px) and (max-width: 1224px) {
+  .content{
+.inner-content{
+    .text{
+      h1,span{
+        font-size:3.5rem;
+        width:100%;
+      }
+    }
+  }
+}
+}
+
+@media (min-width: 875px) and (max-width: 1100px) {
 .container{
   h3{
       font-size:2.75rem;
@@ -716,7 +726,7 @@ button.submit {
       font-size:1rem;
     }
   .logo{
-    margin-left:1rem;
+    margin-left:2.5rem;
   }
 .content{
   margin-top:8rem;
@@ -729,9 +739,10 @@ button.submit {
   }
 .inner-content{
         margin-top:5rem;
-        margin-left:1rem;
+        margin-left:2.5rem;
     .text{
-      h1{
+      h1, span{
+        font-size:2.895rem;
         width:100%;
       }
       p{
@@ -747,9 +758,8 @@ form {
   }
 }
 .inner-content2{
-  margin-left:0;
-  margin-right:0;
-  padding:0 2rem;
+  margin: 0 auto;
+  padding:0 2.5rem;
   border-top-left-radius:1.5rem;
   border-top-right-radius:1.5rem;
   h2{
@@ -767,10 +777,10 @@ form {
   }
 }
 .inner-content3 {
-    margin: 0 1rem;
+    margin: 0 2.5rem;
 }
 .inner-content4 {
-    margin: 5rem 1rem 0 1rem;
+    margin: 11rem 2.5rem 0 2.5rem;
     flex-direction: column;
     p{
         padding-top:.5rem;
@@ -779,7 +789,7 @@ form {
     }
 }
 .inner-content5 {
-  margin: 0rem 1rem 0rem 1rem;
+  margin: 0rem 2.5rem 0rem 2.5rem;
   .box{
     padding-top:2.5rem;
     text-align: center;
@@ -789,10 +799,10 @@ form {
   }
 }
 .btn{
-    margin: 2rem 1rem;
+    margin: 2rem auto;
 }
 .inner-content7 {
-  margin: 5rem 1rem 0 1rem;
+  margin: 5rem 2.5rem 0 2.5rem;
   flex-direction:column;
   padding-bottom: 2rem;
   p{
@@ -801,7 +811,7 @@ form {
   }
 }
 .ads-carousel {
-  margin: 0 16rem;
+  margin: 0 auto;
   width: 40%;
  .box {
     img {
@@ -813,9 +823,9 @@ form {
   }
 }
 .inner-content10{
-  margin: 0rem 1rem 0 1rem;
+  margin: 0 2.5rem 0 2.5rem;
 .header{
-  margin:5rem 0rem 1.5rem 0rem;
+  margin:5rem 0 1.5rem 0;
   h4{
         padding-bottom:.25rem;
   }
@@ -829,7 +839,7 @@ form {
   display:none;
 }
 .inner-content12{
-  margin: 7rem 1rem 0 1rem;
+  margin: 7rem 2.5rem 0 2.5rem;
   .header{
     margin-bottom:1.5rem;
   flex-direction:column;
@@ -879,7 +889,7 @@ form {
  }
 }
 }
-@media (min-width: 481px) and (max-width: 745px) {
+@media (min-width: 660px) and (max-width: 874px) {
 .container{
   h3{
       font-size:2.75rem;
@@ -889,7 +899,7 @@ form {
       font-size:1rem;
     }
   .logo{
-    margin-left:1rem;
+    margin-left:2.5rem;
   }
 .content{
   margin-top:8rem;
@@ -902,14 +912,11 @@ form {
   }
 .inner-content{
         margin-top:5rem;
-        margin-left:1rem;
+        margin-left:2.5rem;
     .text{
       h1, 
       span{
-        font-size:2.75rem;
-        line-height:3.25rem;
-      }
-      h1{
+        font-size:2.25rem;
         width:100%;
       }
       p{
@@ -925,9 +932,7 @@ form {
   }
 }
 .inner-content2{
-  margin-left:0;
-  margin-right:0;
-  padding:0 2rem;
+  padding:0 2.5rem;
   border-top-left-radius:1.5rem;
   border-top-right-radius:1.5rem;
   h2{
@@ -946,10 +951,10 @@ form {
   }
 }
 .inner-content3 {
-    margin: 0 1rem;
+    margin: 0 2.5rem;
 }
 .inner-content4 {
-    margin: 5rem 1rem 0 1rem;
+    margin: 5rem 2.5rem 0 2.5rem;
     flex-direction: column;
     p{
         padding-top:.5rem;
@@ -958,8 +963,9 @@ form {
     }
 }
 .inner-content5 {
-  margin: 0rem 1rem 0rem 1rem;
+  margin: 0 auto;
   grid-template-columns: repeat(1, 1fr);
+  width:68.5%;
   .box{
     padding-top:1.5rem;
     text-align: center;
@@ -970,10 +976,10 @@ form {
   }
 }
 .btn{
-    margin: 2rem 1rem;
+    margin: 2rem auto;
 }
 .inner-content7 {
-  margin: 5rem 1rem 0 1rem;
+  margin: 5rem 2.5rem 0 2.5rem;
   flex-direction:column;
   padding-bottom: 2rem;
       .text{
@@ -987,8 +993,8 @@ form {
   }
 }
 .ads-carousel {
-  margin: 0 5rem;
-  width: 75%;
+  margin: 0 auto;
+  width: 50%;
  .box {
     img {
       border-radius: 1rem;
@@ -999,7 +1005,7 @@ form {
   }
 }
 .inner-content10{
-  margin: 0rem 1rem 0 1rem;
+  margin: 0rem 2.5rem 0 2.5rem;
 .header{
   margin:5rem 0rem 1.5rem 0rem;
   h4{
@@ -1008,15 +1014,14 @@ form {
  }
   .grid{
       grid-template-columns: repeat(1, 1fr);
-      width:100%;
-      margin:0 0;
+      width:77%;
   }
 }
 .inner-content11{
   display:none;
 }
 .inner-content12{
-  margin: 7rem 1rem 0 1rem;
+  margin: 9rem 2.5rem 0 2.5rem;
   .header{
     margin-bottom:1.5rem;
   flex-direction:column;
@@ -1026,10 +1031,11 @@ form {
   }
 .grid{
   grid-template-columns: repeat(1, 1fr);
+  width:75%;
 .box{
 form {
 .input-wrapper {
-  width: 28.5rem;
+  width: 32rem;
 }
 }
 }
@@ -1067,7 +1073,7 @@ form {
  }
 }
 }
-@media (max-width: 480px) {
+@media (max-width: 659px) {
 .container{
   h3{
       font-size:2.25rem;
@@ -1094,8 +1100,7 @@ form {
     .text{
       h1, 
       span{
-          font-size:2.25rem;
-          line-height:2.75rem;
+          font-size:1.5975rem;
       }
       h1{
         width:100%;
@@ -1176,7 +1181,7 @@ form {
   }
 }
 .ads-carousel {
-  margin: 0 3.25rem;
+  margin: 0 auto;
   width: 75%;
  .box {
     img {

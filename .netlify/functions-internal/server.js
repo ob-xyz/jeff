@@ -55,7 +55,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-EZAFA3LK.css";
+var global_default = "/build/_assets/global-QAQ4B4ZP.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -209,7 +209,7 @@ var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), loader = async (
     url: `https://app.jeffamzn.com/campaign/${c.id}`
   }));
   return (0, import_node.json)({ campaigns });
-}, rotatingWords = ["on Wall Street", "in Silicon Valley", "across the world"], ads = [
+}, rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the world."], ads = [
   {
     image: promoted_ads_default,
     title: "Promoted Ads",
@@ -257,22 +257,22 @@ function Index() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "text", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "DON'T START YOUR DAY WITHOUT KNOWING" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "JEFFAMZN" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 134,
             columnNumber: 11
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: [
-            "What's happening ",
+            "Don't start your day without knowing what's happening ",
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/index.tsx",
               lineNumber: 136,
-              columnNumber: 30
+              columnNumber: 67
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { className: `${fadeOut ? "fade-out" : "fade-in"}`, children: rotatingWords[index] }, void 0, !1, {
               fileName: "app/routes/index.tsx",
               lineNumber: 136,
-              columnNumber: 36
+              columnNumber: 73
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
@@ -1201,7 +1201,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ACSPZ5Q3.js", imports: ["/build/_shared/chunk-FAW7IH37.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-7C5CJCLZ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-IVDGDKPC.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "25b13c47", hmr: void 0, url: "/build/manifest-25B13C47.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ACSPZ5Q3.js", imports: ["/build/_shared/chunk-FAW7IH37.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ZST3DLQ6.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-CVWJQLEN.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "6cbb16c3", hmr: void 0, url: "/build/manifest-6CBB16C3.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

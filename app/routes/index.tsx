@@ -63,7 +63,7 @@ export const loader: LoaderFunction = async () => {
   return json({ campaigns });
 };
 
-const rotatingWords = ["on Wall Street", "in Silicon Valley", "across the world"]
+const rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the world."]
 const ads = [
   {
     image: promoads,
@@ -131,9 +131,9 @@ export default function Index() {
       <div className="content">
       <div className="inner-content">
         <div className="text">
-          <h4>DON'T START YOUR DAY WITHOUT KNOWING</h4>
+          <h4>JEFFAMZN</h4>
           <h1>
-            What's happening <br /><span className={`${fadeOut ? "fade-out" : "fade-in"}`}>{rotatingWords[index]}</span>
+            Don't start your day without knowing what's happening <br /><span className={`${fadeOut ? "fade-out" : "fade-in"}`}>{rotatingWords[index]}</span>
           </h1>
           <p>Subscribe to Jeffamzn to stay informed.</p>
         </div>
