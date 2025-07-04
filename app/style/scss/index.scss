@@ -212,7 +212,7 @@ p {
 
     h1 {
       font-size: 1.25rem;
-      padding-top: 2rem;
+      padding-top: 1.5rem;
       padding-bottom: 0.75rem;
       margin: 0;
       font-family: bold;
@@ -708,172 +708,148 @@ button.submit {
 
 @media (min-width: 746px) and (max-width: 1100px) {
 .container{
-.content{
-  margin-bottom:5rem;
-  img{
-    top:25rem;
-    left:48rem;
-    width:10rem;
-  }
-.inner-content{
-        margin-top:16rem;
-  }
-}
-.inner-content2{
-  h2, span{
-      font-size:3.5rem;
-  }
-p {
-  width:85%;
-  padding-top: 1rem;
-  font-size: 2rem;
-}
-}
-.inner-content4 {
-        flex-direction: column;
-        margin-right:0;
-        h3{
-            line-height:3.5rem;
-            margin-left: 0;
-            width:100%;
-        }
-        p{
-            margin-left:0;
-            width:92.5%;
-        }
-}
-.inner-content7 { 
-      flex-direction:column;
-      padding-bottom: 2rem;
-      p{
-          margin-left:0;
-          width:100%;
-      }
-}
-.ads-carousel {
-  width: 50%;
-}
-.inner-content12{
-  .header{
-  flex-direction:column;
-  h4{
-    padding-bottom:.6rem;
-    margin-left:0;
-    color:rgb(198, 4, 36);
-  }
   h3{
-    line-height:3.5rem;
-    margin-left: 0;
+      font-size:2.75rem;
+      line-height:3.25rem;
   }
- }
-.grid{
-  grid-template-columns: repeat(1, 1fr);
-}
-}
-.footer {
-  padding: 10rem 5rem 3rem 5rem;
-  .footer-top {
-    flex-direction:column;
-    .footer-logo {
-      padding-right:0rem;
-      img {
-        margin-top:-6.5rem;
-        margin-left:2rem;
-      }
+  h4{
+      font-size:1rem;
     }
-   }
+  .logo{
+    margin-left:1rem;
   }
- }
-}
-@media (min-width: 481px) and (max-width: 745px) {
-.container{
-  margin:0 -4rem;
 .content{
-  margin: 8rem 0 2.5rem 0;
-
+  margin-top:8rem;
+  margin-bottom:3.5rem;
+  img{
+    position:relative;
+    top:-12.5rem;
+    left:-19rem;
+    width:16rem;
+  }
 .inner-content{
-        margin-top:11rem;
+        margin-top:5rem;
+        margin-left:1rem;
     .text{
-      h1, 
-      span{
-          font-size:3rem;
-          line-height:3.75rem;
-      }
       h1{
         width:100%;
-
+      }
+      p{
+        padding-top:2.5rem;
+        padding-bottom:.5rem;
       }
     }
+form {
+.input-wrapper {
+  width: 22rem;
   }
-
+    }
+  }
 }
 .inner-content2{
-  h2, span{
-    font-size:2rem;
+  margin-left:0;
+  margin-right:0;
+  padding:0 2rem;
+  border-top-left-radius:1.5rem;
+  border-top-right-radius:1.5rem;
+  h2{
+    padding-top:3.5rem;
+    font-size:3.5rem;
+    width:100%;
+    }
+    span{
+    font-size:3.5rem;
     }
   p {
+    margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size:1.5rem;
-    width:85%;
+    width:100%;
   }
+}
+.inner-content3 {
+    margin: 0 1rem;
 }
 .inner-content4 {
-        flex-direction: column;
-        margin-right:0;
-        margin-bottom: 2rem;
-        h3{
-            padding-top:.5rem;
-            line-height:3.5rem;
-            margin-left: 0;
-            width:75%;
-        }
-        p{
-            padding-top:.5rem;
-            margin-left:0;
-            width:82.5%;
-        }
+    margin: 5rem 1rem 0 1rem;
+    flex-direction: column;
+    p{
+        padding-top:.5rem;
+        margin-left:0;
+        width:100%;
+    }
 }
 .inner-content5 {
-  grid-template-columns: repeat(1, 1fr);
+  margin: 0rem 1rem 0rem 1rem;
   .box{
-    padding-top:2rem;
+    padding-top:2.5rem;
+    text-align: center;
+    h1{
+      text-align: center;
+    }
   }
 }
+.btn{
+    margin: 2rem 1rem;
+}
 .inner-content7 {
+  margin: 5rem 1rem 0 1rem;
   flex-direction:column;
-  margin-bottom: 3rem;
+  padding-bottom: 2rem;
   p{
       margin-left:0;
       width:100%;
   }
 }
 .ads-carousel {
-  width: 50%;
+  margin: 0 16rem;
+  width: 40%;
  .box {
     img {
-      border-radius: 2rem;
+      border-radius: 1rem;
     }
+  } 
+.carousel-button {
+  top: 40%;
   }
 }
 .inner-content10{
-  .grid{
-      grid-template-columns: repeat(1, 1fr);
-  }
-}
-.inner-content12{
-  .grid{
-  grid-template-columns: repeat(1, 1fr);
-  .box{
-     form {
-    .input-wrapper {
-      position: relative;
-    }
-   }
+  margin: 0rem 1rem 0 1rem;
+.header{
+  margin:5rem 0rem 1.5rem 0rem;
+  h4{
+        padding-bottom:.25rem;
   }
  }
+  .grid{
+      width:100%;
+      margin:0 0;
+  }
+}
+.inner-content11{
+  display:none;
+}
+.inner-content12{
+  margin: 7rem 1rem 0 1rem;
+  .header{
+    margin-bottom:1.5rem;
+  flex-direction:column;
+    h4{
+        padding-bottom:.25rem;
+  }
+  }
+.grid{
+.box{
+form {
+.input-wrapper {
+  width: 28.5rem;
+}
+}
+}
+
+}
 }
 .footer {
-  padding: 10rem 5rem 3rem 5rem;
+  margin: 9rem .25rem 0 .25rem;
   .footer-top {
     flex-direction:column;
     .footer-logo {
@@ -884,9 +860,212 @@ p {
         margin-left:2rem;
       }
     }
+    .footer-links {
+      .column {
+        padding: 0 .5rem;
+      }
    }
   }
+    .footer-bottom {
+      padding-bottom:1.5rem;
+      margin-left: .75rem;
+    .footer-social {
+      margin-right:1rem;
+      img {
+        width:1.15rem;
+      }
+    }
+  }
  }
+}
+}
+@media (min-width: 481px) and (max-width: 745px) {
+.container{
+  h3{
+      font-size:2.75rem;
+      line-height:3.25rem;
+  }
+  h4{
+      font-size:1rem;
+    }
+  .logo{
+    margin-left:1rem;
+  }
+.content{
+  margin-top:8rem;
+  margin-bottom:3.5rem;
+  img{
+    position:relative;
+    top:-12.5rem;
+    left:-19rem;
+    width:16rem;
+  }
+.inner-content{
+        margin-top:5rem;
+        margin-left:1rem;
+    .text{
+      h1, 
+      span{
+        font-size:2.75rem;
+        line-height:3.25rem;
+      }
+      h1{
+        width:100%;
+      }
+      p{
+        padding-top:2.5rem;
+        padding-bottom:.5rem;
+      }
+    }
+form {
+.input-wrapper {
+  width: 22rem;
+  }
+    }
+  }
+}
+.inner-content2{
+  margin-left:0;
+  margin-right:0;
+  padding:0 2rem;
+  border-top-left-radius:1.5rem;
+  border-top-right-radius:1.5rem;
+  h2{
+    padding-top:3.5rem;
+    font-size:1.75rem;
+    width:100%;
+    }
+    span{
+      font-size:1.75rem;
+    }
+  p {
+    margin-bottom: 3.5rem;
+    padding-top: 1rem;
+    font-size:1.5rem;
+    width:100%;
+  }
+}
+.inner-content3 {
+    margin: 0 1rem;
+}
+.inner-content4 {
+    margin: 5rem 1rem 0 1rem;
+    flex-direction: column;
+    p{
+        padding-top:.5rem;
+        margin-left:0;
+        width:100%;
+    }
+}
+.inner-content5 {
+  margin: 0rem 1rem 0rem 1rem;
+  grid-template-columns: repeat(1, 1fr);
+  .box{
+    padding-top:1.5rem;
+    text-align: center;
+    h1{
+      text-align: center;
+      padding-top: 1rem;
+    }
+  }
+}
+.btn{
+    margin: 2rem 1rem;
+}
+.inner-content7 {
+  margin: 5rem 1rem 0 1rem;
+  flex-direction:column;
+  padding-bottom: 2rem;
+      .text{
+        h4{
+          padding-bottom:.25rem;
+        }
+      }
+  p{
+      margin-left:0;
+      width:100%;
+  }
+}
+.ads-carousel {
+  margin: 0 5rem;
+  width: 75%;
+ .box {
+    img {
+      border-radius: 1rem;
+    }
+  } 
+.carousel-button {
+  top: 40%;
+  }
+}
+.inner-content10{
+  margin: 0rem 1rem 0 1rem;
+.header{
+  margin:5rem 0rem 1.5rem 0rem;
+  h4{
+        padding-bottom:.25rem;
+  }
+ }
+  .grid{
+      grid-template-columns: repeat(1, 1fr);
+      width:100%;
+      margin:0 0;
+  }
+}
+.inner-content11{
+  display:none;
+}
+.inner-content12{
+  margin: 7rem 1rem 0 1rem;
+  .header{
+    margin-bottom:1.5rem;
+  flex-direction:column;
+    h4{
+        padding-bottom:.25rem;
+  }
+  }
+.grid{
+  grid-template-columns: repeat(1, 1fr);
+.box{
+form {
+.input-wrapper {
+  width: 28.5rem;
+}
+}
+}
+
+}
+}
+.footer {
+  margin: 9rem .25rem 0 .25rem;
+  .footer-top {
+    flex-direction:column;
+    .footer-logo {
+      padding-right:0rem;
+      img {
+        display:none;
+        margin-top:-6.5rem;
+        margin-left:2rem;
+      }
+    }
+    .footer-links {
+      .column {
+        padding: 0 .5rem;
+      }
+   }
+  }
+    .footer-bottom {
+      padding-bottom:1.5rem;
+      margin-left: .75rem;
+    .footer-social {
+      margin-right:1rem;
+      img {
+        width:1.15rem;
+      }
+    }
+  }
+ }
+}
 }
 @media (max-width: 480px) {
 .container{
@@ -902,7 +1081,7 @@ p {
   }
 .content{
   margin-top:8rem;
-  margin-bottom:2.5rem;
+  margin-bottom:4rem;
   img{
     position:relative;
     top:-12.5rem;
@@ -922,6 +1101,7 @@ p {
         width:100%;
       }
       p{
+        padding-top:2.5rem;
         padding-bottom:.5rem;
       }
     }
@@ -1065,8 +1245,9 @@ form {
   }
     .footer-bottom {
       padding-bottom:1.5rem;
+      margin-left: .25rem;
     .footer-social {
-      margin-right:1rem;
+      margin-right:.5rem;
       img {
         width:1.15rem;
       }
