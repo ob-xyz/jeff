@@ -164,7 +164,7 @@ function Index() {
             lineNumber: 135,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe to Jeffamzn to stay informed." }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe to stay informed." }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 138,
             columnNumber: 11
@@ -1087,4 +1087,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-CVWJQLEN.js.map
+//# sourceMappingURL=/build/routes/index-66YPBS7Q.js.map
