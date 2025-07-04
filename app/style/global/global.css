@@ -603,7 +603,7 @@
 }
 .container .footer {
   width: 100%;
-  margin: 9rem 5rem 3rem 5rem;
+  padding: 10rem 5rem 3rem 5rem;
   box-sizing: border-box;
 }
 .container .footer .footer-top {
@@ -1132,7 +1132,7 @@
     width: 100%;
   }
   .container .ads-carousel {
-    margin: 0 2.75rem;
+    margin: 0 3rem;
     width: 75%;
   }
   .container .ads-carousel .box img {
