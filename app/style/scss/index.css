@@ -947,7 +947,7 @@
     width: 32rem;
   }
   .container .footer {
-    padding: 5rem 1.25rem;
+    padding: 9rem 1.25rem 5rem 1.25rem;
   }
   .container .footer .footer-top {
     flex-direction: column;
@@ -1108,7 +1108,7 @@
     width: 20.25rem;
   }
   .container .footer {
-    padding: 5rem 1.25rem;
+    padding: 9rem 1.25rem 5rem 1.25rem;
   }
   .container .footer .footer-top {
     flex-direction: column;

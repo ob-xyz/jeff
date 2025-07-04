@@ -365,24 +365,24 @@ export default function Index() {
           <div className="column">
             <h4>Company</h4>
             <Link to="#">About</Link>
-            <Link to="#">Press</Link>
-            <Link to="#">Careers</Link>
+            <a href="mailto:press@jeffamzn.com">Press</a>
+            <a href="mailto:job@jeffamzn.com">Careers</a>
           </div>
           <div className="column">
-            <h4>Community</h4>
-            <Link to="#">Advertise with Us</Link>
-            <Link to="#">Jeffamzn for Enterprise</Link>
-            <Link to="#">Enterprise Case Studies</Link>
+            <h4>Ads</h4>
+            <a href="mailto:plan@jeffamzn.com">Request Plan</a>
+            <Link to="https://app.jeffamzn.com/campaign/9f60dcc3-107c-4075-94a8-cb5c96a36423/6716369b-5785-4c74-be76-73af2558eebb">Media Kit</Link>
+            <Link to="https://app.jeffamzn.com/campaign/b80e7e1c-c9b6-4eee-9809-602e24a0a2f8/6716369b-5785-4c74-be76-73af2558eebb">Rate Card</Link>
           </div>
           <div className="column">
             <h4>Support</h4>
             <Link to="#">Getting Started</Link>
-            <Link to="#">FAQs</Link>
-            <Link to="#">Contact</Link>
+            <Link to="#">Archive</Link>
+            <a href="mailto:hey@jeffamzn.com">Contact</a>
           </div>
           <div className="column">
             <h4>Jeffamzn</h4>
-            <Link to="#">Start a campaign</Link>
+            <a href="mailto:buy@jeffamzn.com">Start a Campaign</a>
             <Link to="#">Case Studies</Link>
             <Link to="#">Sign up</Link>
           </div>
