@@ -868,7 +868,7 @@
 @media (max-width: 480px) {
   .container h3 {
     font-size: 2.25rem;
-    line-height: 3rem;
+    line-height: 2.75rem;
   }
   .container h4 {
     font-size: 1rem;
@@ -893,7 +893,7 @@
   .container .content .inner-content .text h1,
   .container .content .inner-content .text span {
     font-size: 2.25rem;
-    line-height: 3rem;
+    line-height: 2.75rem;
   }
   .container .content .inner-content .text h1 {
     width: 100%;
