@@ -1018,6 +1018,9 @@
   .container .footer .footer-top .footer-links .column {
     padding: 0 .2rem;
   }
+  .container .footer .footer-bottom {
+    padding-bottom: 1.5rem;
+  }
   .container .footer .footer-bottom .footer-social {
     margin-right: 1rem;
   }
