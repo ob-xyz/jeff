@@ -23,6 +23,7 @@
     }
     h3 {
         font-size:2.75rem;
+        line-height:3.5rem;
     }
     h4{
       font-family: kl;
@@ -182,7 +183,6 @@ p {
         display:flex;
         margin:9rem 5rem 5rem 5rem;
         h3{
-            line-height:3.5rem;
             margin-left: 0;
         }
         p{
@@ -257,7 +257,6 @@ p {
           color:rgb(198, 4, 36);
         }
       h3{
-          line-height:3.5rem;
           margin-left: 0;
       }
       }
@@ -333,7 +332,6 @@ p {
     color:rgb(198, 4, 36);
   }
   h3{
-    line-height:3.5rem;
     margin-left: 0;
   }
  }
@@ -385,7 +383,6 @@ p {
     color:rgb(198, 4, 36);
   }
   h3{
-    line-height:3.5rem;
     margin-left: 0;
   }
  }
@@ -431,7 +428,6 @@ p {
     color:rgb(198, 4, 36);
   }
   h3{
-    line-height:3.5rem;
     margin-left: 0;
   }
  }
@@ -595,7 +591,6 @@ button.submit {
     }
   }
 }
-
 .footer {
   width: 100%;
   margin: 9rem 5rem 3rem 5rem;
@@ -894,13 +889,16 @@ p {
 }
 @media (max-width: 480px) {
 .container{
+  h3{
+      font-size:2.25rem;
+      line-height:3rem;
+  }
   h4{
       font-size:1rem;
-      padding-bottom:.25rem;
     }
-    .logo{
-      margin-left:1rem;
-    }
+  .logo{
+    margin-left:1rem;
+  }
 .content{
   margin-top:8rem;
   margin-bottom:2.5rem;
@@ -917,10 +915,13 @@ p {
       h1, 
       span{
           font-size:2.25rem;
-          line-height:2.75rem;
+          line-height:3rem;
       }
       h1{
         width:100%;
+      }
+      p{
+        padding-bottom:.5rem;
       }
     }
 form {
@@ -931,11 +932,12 @@ form {
   }
 }
 .inner-content2{
-  margin-left:1rem;
-  margin-right:1rem;
-  padding:0 1rem;
+  margin-left:0;
+  margin-right:0;
+  padding:0 2rem;
 
   h2{
+    padding-top:3.5rem;
     font-size:1.75rem;
     width:100%;
     }
@@ -952,14 +954,8 @@ form {
     margin: 0 1rem;
 }
 .inner-content4 {
-    margin: 5rem 1rem;
+    margin: 5rem 1rem 0 1rem;
     flex-direction: column;
-    h3{
-        padding-top:.5rem;
-        line-height:3.5rem;
-        margin-left: 0;
-        margin-right:-4rem;
-    }
     p{
         padding-top:.5rem;
         margin-left:0;
@@ -967,7 +963,7 @@ form {
     }
 }
 .inner-content5 {
-  margin: 5rem 1rem 0 1rem;
+  margin: 0rem 1rem 1rem 1rem;
   grid-template-columns: repeat(1, 1fr);
   .box{
     padding-top:2rem;
@@ -980,9 +976,6 @@ form {
   margin: 5rem 1rem 0 1rem;
   flex-direction:column;
   padding-bottom: 2rem;
-   .text{
-      margin-right:-5rem;
-      }
   p{
       margin-left:0;
       width:100%;
@@ -1014,15 +1007,14 @@ form {
 .inner-content12{
   margin: 5rem 1rem 0 1rem;
   .header{
-  margin-right:-5rem;
   flex-direction:column;
-}
+  }
 .grid{
   grid-template-columns: repeat(1, 1fr);
 .box{
 form {
 .input-wrapper {
-  width: 22rem;
+  width: 20.25rem;
 }
 }
 }
@@ -1030,7 +1022,7 @@ form {
 }
 }
 .footer {
-  margin: 9rem 1rem 0 1rem;
+  margin: 9rem .5rem 0 .5rem;
   .footer-top {
     flex-direction:column;
     .footer-logo {
@@ -1043,9 +1035,17 @@ form {
     }
     .footer-links {
       .column {
-        padding: 0 1rem;
+        padding: 0 .25rem;
       }
    }
+  }
+    .footer-bottom {
+    .footer-social {
+      margin-right:1.5rem;
+      img {
+        width:1.15rem;
+      }
+    }
   }
  }
 }
