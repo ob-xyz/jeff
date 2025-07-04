@@ -371,8 +371,8 @@ export default function Index() {
           <div className="column">
             <h4>Ads</h4>
             <a href="mailto:plan@jeffamzn.com">Request Plan</a>
-            <Link to="https://app.jeffamzn.com/campaign/9f60dcc3-107c-4075-94a8-cb5c96a36423/6716369b-5785-4c74-be76-73af2558eebb">Media Kit</Link>
-            <Link to="https://app.jeffamzn.com/campaign/b80e7e1c-c9b6-4eee-9809-602e24a0a2f8/6716369b-5785-4c74-be76-73af2558eebb">Rate Card</Link>
+            <a href="https://app.jeffamzn.com/campaign/9f60dcc3-107c-4075-94a8-cb5c96a36423/6716369b-5785-4c74-be76-73af2558eebb" target="_blank" rel="noopener noreferrer">Media Kit</a>
+            <a href="https://app.jeffamzn.com/campaign/b80e7e1c-c9b6-4eee-9809-602e24a0a2f8/6716369b-5785-4c74-be76-73af2558eebb" target="_blank" rel="noopener noreferrer">Rate Card</a>
           </div>
           <div className="column">
             <h4>Support</h4>
