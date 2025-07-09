@@ -1,22 +1,12 @@
 import {
   Link,
-  __commonJS,
   __toESM,
   require_jsx_dev_runtime,
-  require_react,
-  useLoaderData
-} from "/build/_shared/chunk-FAW7IH37.js";
-
-// empty-module:@remix-run/node
-var require_node = __commonJS({
-  "empty-module:@remix-run/node"(exports, module) {
-    module.exports = {};
-  }
-});
+  require_react
+} from "/build/_shared/chunk-PXBPMIIH.js";
 
 // app/routes/index.tsx
 var import_react = __toESM(require_react());
-var import_node = __toESM(require_node());
 
 // public/img/ja1.png
 var ja1_default = "/build/_assets/ja1-ZP4Y3AOT.png";
@@ -102,7 +92,6 @@ function Index() {
   const [index, setIndex] = (0, import_react.useState)(0);
   const [fadeOut, setFadeOut] = (0, import_react.useState)(false);
   const [adIndex, setAdIndex] = (0, import_react.useState)(0);
-  const { campaigns } = useLoaderData();
   const next = () => {
     setAdIndex((prev2) => (prev2 + 1) % ads.length);
   };
@@ -770,61 +759,6 @@ function Index() {
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "header", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "JEFFAMZN NEWS" }, void 0, false, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 321,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h3", { children: "The latest and greatest." }, void 0, false, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 322,
-          columnNumber: 11
-        }, this)
-      ] }, void 0, true, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 320,
-        columnNumber: 5
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ul", { className: "grid", children: campaigns.length === 0 ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", { children: "No campaigns available yet." }, void 0, false, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 326,
-        columnNumber: 7
-      }, this) : campaigns.slice(0, 6).map((c) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: c.url, target: "_blank", rel: "noopener noreferrer", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: "https://jeffamazn.com/GsidegWXwAECEUs.jpeg", alt: "You gotta see this" }, void 0, false, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 331,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: c.subject }, void 0, false, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 332,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: new Date(c.send_at).toLocaleDateString() }, void 0, false, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 333,
-          columnNumber: 13
-        }, this)
-      ] }, void 0, true, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 330,
-        columnNumber: 11
-      }, this) }, c.id, false, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 329,
-        columnNumber: 9
-      }, this)) }, void 0, false, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 324,
-        columnNumber: 5
-      }, this)
-    ] }, void 0, true, {
-      fileName: "app/routes/index.tsx",
-      lineNumber: 319,
-      columnNumber: 1
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-blog", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "header", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "JEFFAMZN NEWS" }, void 0, false, {
-          fileName: "app/routes/index.tsx",
           lineNumber: 343,
           columnNumber: 11
         }, this),
@@ -932,12 +866,12 @@ function Index() {
               lineNumber: 373,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "https://app.jeffamzn.com/campaign/9f60dcc3-107c-4075-94a8-cb5c96a36423/6716369b-5785-4c74-be76-73af2558eebb", children: "Media Kit" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://app.jeffamzn.com/campaign/9f60dcc3-107c-4075-94a8-cb5c96a36423/6716369b-5785-4c74-be76-73af2558eebb", target: "_blank", rel: "noopener noreferrer", children: "Media Kit" }, void 0, false, {
               fileName: "app/routes/index.tsx",
               lineNumber: 374,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "https://app.jeffamzn.com/campaign/b80e7e1c-c9b6-4eee-9809-602e24a0a2f8/6716369b-5785-4c74-be76-73af2558eebb", children: "Rate Card" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://app.jeffamzn.com/campaign/b80e7e1c-c9b6-4eee-9809-602e24a0a2f8/6716369b-5785-4c74-be76-73af2558eebb", target: "_blank", rel: "noopener noreferrer", children: "Rate Card" }, void 0, false, {
               fileName: "app/routes/index.tsx",
               lineNumber: 375,
               columnNumber: 13
@@ -1087,4 +1021,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-V2DPWCEG.js.map
+//# sourceMappingURL=/build/routes/index-DKOI5TFQ.js.map

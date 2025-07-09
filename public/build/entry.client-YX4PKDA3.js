@@ -4,7 +4,7 @@ import {
   __toESM,
   require_jsx_dev_runtime,
   require_react
-} from "/build/_shared/chunk-FAW7IH37.js";
+} from "/build/_shared/chunk-PXBPMIIH.js";
 
 // node_modules/scheduler/cjs/scheduler.development.js
 var require_scheduler_development = __commonJS({
@@ -21665,4 +21665,4 @@ react-dom/cjs/react-dom.development.js:
    * @license Modernizr 3.0.0pre (Custom Build) | MIT
    *)
 */
-//# sourceMappingURL=/build/entry.client-ACSPZ5Q3.js.map
+//# sourceMappingURL=/build/entry.client-YX4PKDA3.js.map

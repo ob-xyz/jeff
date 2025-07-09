@@ -128,10 +128,9 @@ function App() {
 // app/routes/index.tsx
 var routes_exports = {};
 __export(routes_exports, {
-  default: () => Index,
-  loader: () => loader
+  default: () => Index
 });
-var import_react3 = require("react"), import_react4 = require("@remix-run/react"), import_node = require("@remix-run/node"), import_react5 = require("@remix-run/react");
+var import_react3 = require("react"), import_react4 = require("@remix-run/react");
 
 // public/img/ja1.png
 var ja1_default = "/build/_assets/ja1-ZP4Y3AOT.png";
@@ -194,22 +193,7 @@ var x_default = "/build/_assets/x-J2PMTTZT.png";
 var email_default = "/build/_assets/email-KANKX45L.png";
 
 // app/routes/index.tsx
-var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), loader = async () => {
-  let username = "jeffapi", password = "DDGoYjwtd1rmaZB6X0nmaO09F3DsiAez", basicAuth = Buffer.from(`${username}:${password}`).toString("base64"), response = await fetch("http://app.jeffamzn.com/api/campaigns", {
-    headers: {
-      Authorization: `Basic ${basicAuth}`
-    }
-  });
-  if (!response.ok)
-    throw new Response("Failed to fetch campaigns", { status: 500 });
-  let campaigns = (await response.json()).data.results.filter((c) => c.status === "sent").sort((a, b) => new Date(b.send_at).getTime() - new Date(a.send_at).getTime()).slice(0, 5).map((c) => ({
-    id: c.id,
-    subject: c.subject,
-    send_at: c.send_at,
-    url: `https://app.jeffamzn.com/campaign/${c.id}`
-  }));
-  return (0, import_node.json)({ campaigns });
-}, rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the world."], ads = [
+var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the world."], ads = [
   {
     image: promoted_ads_default,
     title: "Promoted Ads",
@@ -227,7 +211,7 @@ var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), loader = async (
   }
 ];
 function Index() {
-  let [index, setIndex] = (0, import_react3.useState)(0), [fadeOut, setFadeOut] = (0, import_react3.useState)(!1), [adIndex, setAdIndex] = (0, import_react3.useState)(0), { campaigns } = (0, import_react5.useLoaderData)(), next = () => {
+  let [index, setIndex] = (0, import_react3.useState)(0), [fadeOut, setFadeOut] = (0, import_react3.useState)(!1), [adIndex, setAdIndex] = (0, import_react3.useState)(0), next = () => {
     setAdIndex((prev2) => (prev2 + 1) % ads.length);
   }, prev = () => {
     setAdIndex((prev2) => (prev2 - 1 + ads.length) % ads.length);
@@ -885,61 +869,6 @@ function Index() {
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "header", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "JEFFAMZN NEWS" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 321,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: "The latest and greatest." }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 322,
-          columnNumber: 11
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 320,
-        columnNumber: 5
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("ul", { className: "grid", children: campaigns.length === 0 ? /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("li", { children: "No campaigns available yet." }, void 0, !1, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 326,
-        columnNumber: 7
-      }, this) : campaigns.slice(0, 6).map((c) => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("li", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: c.url, target: "_blank", rel: "noopener noreferrer", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: "https://jeffamazn.com/GsidegWXwAECEUs.jpeg", alt: "You gotta see this" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 331,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h2", { children: c.subject }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 332,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: new Date(c.send_at).toLocaleDateString() }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 333,
-          columnNumber: 13
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 330,
-        columnNumber: 11
-      }, this) }, c.id, !1, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 329,
-        columnNumber: 9
-      }, this)) }, void 0, !1, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 324,
-        columnNumber: 5
-      }, this)
-    ] }, void 0, !0, {
-      fileName: "app/routes/index.tsx",
-      lineNumber: 319,
-      columnNumber: 1
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-blog", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "header", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "JEFFAMZN NEWS" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
           lineNumber: 343,
           columnNumber: 11
         }, this),
@@ -1047,12 +976,12 @@ function Index() {
               lineNumber: 373,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "https://app.jeffamzn.com/campaign/9f60dcc3-107c-4075-94a8-cb5c96a36423/6716369b-5785-4c74-be76-73af2558eebb", children: "Media Kit" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://app.jeffamzn.com/campaign/9f60dcc3-107c-4075-94a8-cb5c96a36423/6716369b-5785-4c74-be76-73af2558eebb", target: "_blank", rel: "noopener noreferrer", children: "Media Kit" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
               lineNumber: 374,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "https://app.jeffamzn.com/campaign/b80e7e1c-c9b6-4eee-9809-602e24a0a2f8/6716369b-5785-4c74-be76-73af2558eebb", children: "Rate Card" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://app.jeffamzn.com/campaign/b80e7e1c-c9b6-4eee-9809-602e24a0a2f8/6716369b-5785-4c74-be76-73af2558eebb", target: "_blank", rel: "noopener noreferrer", children: "Rate Card" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
               lineNumber: 375,
               columnNumber: 13
@@ -1201,7 +1130,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ACSPZ5Q3.js", imports: ["/build/_shared/chunk-FAW7IH37.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-4ILFPXBW.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-V2DPWCEG.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "a4a6014a", hmr: void 0, url: "/build/manifest-A4A6014A.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-2CS3I3XB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-DKOI5TFQ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "ee2545d6", hmr: void 0, url: "/build/manifest-EE2545D6.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

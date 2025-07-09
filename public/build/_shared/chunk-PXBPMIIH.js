@@ -4677,15 +4677,6 @@ function useMatches() {
     };
   }), [matches, loaderData]);
 }
-function useLoaderData() {
-  let state = useDataRouterState(DataRouterStateHook.UseLoaderData);
-  let routeId = useCurrentRouteId(DataRouterStateHook.UseLoaderData);
-  if (state.errors && state.errors[routeId] != null) {
-    console.error("You cannot `useLoaderData` in an errorElement (routeId: " + routeId + ")");
-    return void 0;
-  }
-  return state.loaderData[routeId];
-}
 function useRouteError() {
   var _state$errors;
   let error = React.useContext(RouteErrorContext);
@@ -7626,9 +7617,6 @@ function useMatches2() {
     return remixMatch;
   });
 }
-function useLoaderData2() {
-  return useLoaderData();
-}
 var LiveReload = false ? () => null : function LiveReload2({
   port = Number(8002),
   nonce = void 0
@@ -8061,7 +8049,6 @@ export {
   Links,
   Meta,
   Scripts,
-  useLoaderData2 as useLoaderData,
   LiveReload,
   RemixBrowser,
   ScrollRestoration2 as ScrollRestoration,
@@ -8294,4 +8281,4 @@ react/cjs/react-jsx-dev-runtime.development.js:
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/_shared/chunk-FAW7IH37.js.map
+//# sourceMappingURL=/build/_shared/chunk-PXBPMIIH.js.map

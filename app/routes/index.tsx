@@ -24,44 +24,44 @@ import ig from "~/../public/img/ig.png";
 import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
 
-type Campaign = {
-  id: string;
-  subject: string;
-  send_at: string;
-  url: string; // You can generate or have a URL scheme to link to campaign
-};
+// type Campaign = {
+//   id: string;
+//   subject: string;
+//   send_at: string;
+//   url: string; // You can generate or have a URL scheme to link to campaign
+// };
 
-export const loader: LoaderFunction = async () => {
-  const username = "jeffapi";
-  const password = "DDGoYjwtd1rmaZB6X0nmaO09F3DsiAez";
-  const basicAuth = Buffer.from(`${username}:${password}`).toString("base64");
+// export const loader: LoaderFunction = async () => {
+//   const username = "jeffapi";
+//   const password = "DDGoYjwtd1rmaZB6X0nmaO09F3DsiAez";
+//   const basicAuth = Buffer.from(`${username}:${password}`).toString("base64");
 
-  const response = await fetch("http://app.jeffamzn.com/api/campaigns", {
-    headers: {
-      Authorization: `Basic ${basicAuth}`,
-    },
-  });
+//   const response = await fetch("http://app.jeffamzn.com/api/campaigns", {
+//     headers: {
+//       Authorization: `Basic ${basicAuth}`,
+//     },
+//   });
 
-  if (!response.ok) {
-    throw new Response("Failed to fetch campaigns", { status: 500 });
-  }
+//   if (!response.ok) {
+//     throw new Response("Failed to fetch campaigns", { status: 500 });
+//   }
 
-  const data = await response.json();
+//   const data = await response.json();
 
-  // Assuming the campaigns are in data.data.results
-  const campaigns = data.data.results
-    .filter((c: any) => c.status === "sent")
-    .sort((a: any, b: any) => new Date(b.send_at).getTime() - new Date(a.send_at).getTime())
-    .slice(0, 5)
-    .map((c: any) => ({
-      id: c.id,
-      subject: c.subject,
-      send_at: c.send_at,
-      url: `https://app.jeffamzn.com/campaign/${c.id}`,
-    }));
+//   // Assuming the campaigns are in data.data.results
+//   const campaigns = data.data.results
+//     .filter((c: any) => c.status === "sent")
+//     .sort((a: any, b: any) => new Date(b.send_at).getTime() - new Date(a.send_at).getTime())
+//     .slice(0, 5)
+//     .map((c: any) => ({
+//       id: c.id,
+//       subject: c.subject,
+//       send_at: c.send_at,
+//       url: `https://app.jeffamzn.com/campaign/${c.id}`,
+//     }));
 
-  return json({ campaigns });
-};
+//   return json({ campaigns });
+// };
 
 const rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the world."]
 const ads = [
@@ -89,18 +89,18 @@ export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
   const [adIndex, setAdIndex] = useState(0);
-    const { campaigns } = useLoaderData<{ campaigns: Campaign[] }>();
+    // const { campaigns } = useLoaderData<{ campaigns: Campaign[] }>();
 
 
-  const next = () => {
+  const next = () => { //Ads carousel
     setAdIndex((prev) => (prev + 1) % ads.length);
   };
 
-  const prev = () => {
+  const prev = () => { //Ads carousel
     setAdIndex((prev) => (prev - 1 + ads.length) % ads.length);
   };
 
-  useEffect(() => {
+  useEffect(() => { //Ads carousel
     const interval = setInterval(() => {
       setFadeOut(true);
       setTimeout(() => {
@@ -111,7 +111,7 @@ export default function Index() {
     return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => {
+  useEffect(() => { //CAPCHA
     const script = document.createElement("script");
     script.src = "https://js.hcaptcha.com/1/api.js";
     script.async = true;
@@ -316,7 +316,7 @@ export default function Index() {
       </div>
       </div>
       </div>
-<div className="inner-blog">
+{/* <div className="inner-blog">
     <div className="header">
           <h4>JEFFAMZN NEWS</h4>
           <h3>The latest and greatest.</h3>
@@ -336,7 +336,7 @@ export default function Index() {
       ))
     )}
   </ul>
-</div>
+</div> */}
 
 <div className="inner-blog">
       <div className="header">
