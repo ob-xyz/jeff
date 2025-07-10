@@ -29,8 +29,8 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "Business Newsletter on Tech & Stocks at Jeffamzn",
-  description: "Become smarter every day. Jeffamzn delivers easy-to-read news, market insights, and trends straight to your inbox.",
+  title: "Jeffamzn : Business News You Can Trust",
+  description: "Don't start your day without knowing what's going on in the world.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -88,4 +88,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-2CS3I3XB.js.map
+//# sourceMappingURL=/build/root-CNAB4QVH.js.map
