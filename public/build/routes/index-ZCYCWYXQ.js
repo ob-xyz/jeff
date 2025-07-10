@@ -314,7 +314,7 @@ function Index() {
         lineNumber: 186,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn is not the only way to know what's happening in the world. But it's a pretty good way to know what's happening in the world. Don't start your day without knowing what's really happening in the world." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn is not the only way to know what's happening in the world. But it's a pretty good way to know what's happening in the world. Don't start your day without knowing what's really happening." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 187,
         columnNumber: 13
@@ -1021,4 +1021,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-ARAOYLVB.js.map
+//# sourceMappingURL=/build/routes/index-ZCYCWYXQ.js.map
