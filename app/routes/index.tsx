@@ -45,62 +45,76 @@ const ads = [
 ];
 
 export default function Index() {
-  const [index, setIndex] = useState(0);
-  const [fadeOut, setFadeOut] = useState(false);
-  const [adIndex, setAdIndex] = useState(0);
-
-  // Separate refs for the two forms
   const topFormRef = useRef<HTMLFormElement | null>(null);
   const bottomFormRef = useRef<HTMLFormElement | null>(null);
-  // Track the actual submitting form
-  const submittingFormRef = useRef<HTMLFormElement | null>(null);
 
-  // Word rotation effect (unchanged)
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFadeOut(true);
-      setTimeout(() => {
-        setIndex((prev) => (prev + 1) % rotatingWords.length);
-        setFadeOut(false);
-      }, 300);
-    }, 2500);
-    return () => clearInterval(interval);
-  }, []);
+  const topWidgetId = useRef<number | null>(null);
+  const bottomWidgetId = useRef<number | null>(null);
 
-  // Load hCaptcha script once and setup global callback
+  // Keep track of which form is submitting
+  const submittingFormRef = useRef<"top" | "bottom" | null>(null);
+
+  // Load hCaptcha script once
   useEffect(() => {
     if (!document.getElementById("hcaptcha-script")) {
       const script = document.createElement("script");
       script.id = "hcaptcha-script";
-      script.src = "https://js.hcaptcha.com/1/api.js";
+      script.src = "https://js.hcaptcha.com/1/api.js?onload=hcaptchaOnLoad&render=explicit";
       script.async = true;
       script.defer = true;
       document.body.appendChild(script);
     }
 
-    (window as any).onSubmit = function () {
-      if (submittingFormRef.current?.getAttribute("data-hcaptcha-active") === "true") {
-        submittingFormRef.current.submit();
+    // global callback when hcaptcha script loads
+    (window as any).hcaptchaOnLoad = () => {
+      if ((window as any).hcaptcha) {
+        // Render top form widget
+        if (topFormRef.current) {
+          topWidgetId.current = (window as any).hcaptcha.render(topFormRef.current.querySelector(".h-captcha"), {
+            sitekey: "7e96e6a6-eef8-4624-be9c-e468b5a8b230",
+            size: "invisible",
+            callback: onSubmitCallback,
+          });
+        }
+        // Render bottom form widget
+        if (bottomFormRef.current) {
+          bottomWidgetId.current = (window as any).hcaptcha.render(bottomFormRef.current.querySelector(".h-captcha"), {
+            sitekey: "7e96e6a6-eef8-4624-be9c-e468b5a8b230",
+            size: "invisible",
+            callback: onSubmitCallback,
+          });
+        }
       }
     };
+
+    // global callback when captcha passes
+    function onSubmitCallback(token: string) {
+      if (submittingFormRef.current === "top" && topFormRef.current) {
+        topFormRef.current.submit();
+      } else if (submittingFormRef.current === "bottom" && bottomFormRef.current) {
+        bottomFormRef.current.submit();
+      }
+      submittingFormRef.current = null;
+    }
   }, []);
 
-  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleFormSubmit = (which: "top" | "bottom") => (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    submittingFormRef.current = e.currentTarget as HTMLFormElement;
+    submittingFormRef.current = which;
 
     if ((window as any).hcaptcha) {
-      submittingFormRef.current.setAttribute("data-hcaptcha-active", "true");
-      (window as any).hcaptcha.execute();
+      if (which === "top" && topWidgetId.current !== null) {
+        (window as any).hcaptcha.execute(topWidgetId.current);
+      } else if (which === "bottom" && bottomWidgetId.current !== null) {
+        (window as any).hcaptcha.execute(bottomWidgetId.current);
+      } else {
+        // fallback: no widget id, just submit
+        (which === "top" ? topFormRef.current : bottomFormRef.current)?.submit();
+      }
     } else {
-      submittingFormRef.current.submit();
+      (which === "top" ? topFormRef.current : bottomFormRef.current)?.submit();
     }
   };
-
-  // Ads carousel handlers (unchanged)
-  const next = () => setAdIndex((prev) => (prev + 1) % ads.length);
-  const prev = () => setAdIndex((prev) => (prev - 1 + ads.length) % ads.length);
-
   return (
     <div className="container">
       <div className="logo">
@@ -118,41 +132,20 @@ export default function Index() {
             </h1>
             <p>Subscribe to stay informed.</p>
           </div>
-        <form
-          ref={topFormRef}
-          method="post"
-          action="https://app.jeffamzn.com/subscription/form"
-          onSubmit={handleFormSubmit}
-        >
-            <div className="input-wrapper">
-              <input
-                className="email"
-                type="email"
-                name="email"
-                required
-                placeholder="Email Address *"
-              />
-              <button className="submit" type="submit">
-                Subscribe
-              </button>
-            </div>
-
-            {/* Invisible hCaptcha widget */}
-            <div
-              className="h-captcha"
-              data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"
-              data-callback="onSubmit"
-              data-size="invisible"
-            ></div>
-
-            <input
-              id="6d48f"
-              type="hidden"
-              name="l"
-              value="6d48fffe-7d37-4c14-b317-3e4cda33a647"
-            />
-            <input type="hidden" name="nonce" />
-          </form>
+      <form
+        ref={topFormRef}
+        method="post"
+        action="https://app.jeffamzn.com/subscription/form"
+        onSubmit={handleFormSubmit("top")}
+      >
+        <div className="input-wrapper">
+          <input className="email" type="email" name="email" required placeholder="Email Address *" />
+          <button className="submit" type="submit">Subscribe</button>
+        </div>
+        <div className="h-captcha"></div>
+        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+        <input type="hidden" name="nonce" />
+      </form>
         </div>
         <img src={mainbg} alt="Background" />
       </div>
@@ -271,41 +264,21 @@ export default function Index() {
               Sign up for free to get the most authoritative business newsletter
               in the world, delivered straight to your inbox every day.
             </p>
-            <form
-              ref={bottomFormRef}
-              method="post"
-              action="https://app.jeffamzn.com/subscription/form"
-              target="_blank"
-              onSubmit={handleFormSubmit}
-            >
-              <div className="input-wrapper">
-                <input
-                  className="email"
-                  type="email"
-                  name="email"
-                  required
-                  placeholder="Email Address *"
-                />
-                <button className="submit" type="submit">
-                  Sign up
-                </button>
-              </div>
-
-            <div
-              className="h-captcha"
-              data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"
-              data-callback="onSubmit"
-              data-size="invisible"
-            ></div>
-
-              <input
-                id="6d48f"
-                type="hidden"
-                name="l"
-                value="6d48fffe-7d37-4c14-b317-3e4cda33a647"
-              />
-              <input type="hidden" name="nonce" />
-            </form>
+      <form
+        ref={bottomFormRef}
+        method="post"
+        action="https://app.jeffamzn.com/subscription/form"
+        target="_blank"
+        onSubmit={handleFormSubmit("bottom")}
+      >
+        <div className="input-wrapper">
+          <input className="email" type="email" name="email" required placeholder="Email Address *" />
+          <button className="submit" type="submit">Sign up</button>
+        </div>
+        <div className="h-captcha"></div>
+        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+        <input type="hidden" name="nonce" />
+      </form>
       </div>
       <div className="box">
         <img src={bg1} />
