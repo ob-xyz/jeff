@@ -45,16 +45,35 @@ const ads = [
 ];
 
 export default function Index() {
+  const [index, setIndex] = useState(0);
+  const [fadeOut, setFadeOut] = useState(false);
+  const [adIndex, setAdIndex] = useState(0);
+
+
+  // Word rotation effect (unchanged)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFadeOut(true);
+      setTimeout(() => {
+        setIndex((prev) => (prev + 1) % rotatingWords.length);
+        setFadeOut(false);
+      }, 300);
+    }, 2500);
+    return () => clearInterval(interval);
+  }, []);
+
+  // Ads carousel handlers (unchanged)
+  const next = () => setAdIndex((prev) => (prev + 1) % ads.length);
+  const prev = () => setAdIndex((prev) => (prev - 1 + ads.length) % ads.length);
   const topFormRef = useRef<HTMLFormElement | null>(null);
   const bottomFormRef = useRef<HTMLFormElement | null>(null);
 
   const topWidgetId = useRef<number | null>(null);
   const bottomWidgetId = useRef<number | null>(null);
 
-  // Keep track of which form is submitting
+  // Track which form is submitting ("top" or "bottom")
   const submittingFormRef = useRef<"top" | "bottom" | null>(null);
 
-  // Load hCaptcha script once
   useEffect(() => {
     if (!document.getElementById("hcaptcha-script")) {
       const script = document.createElement("script");
@@ -65,29 +84,33 @@ export default function Index() {
       document.body.appendChild(script);
     }
 
-    // global callback when hcaptcha script loads
+    // global callback when hCaptcha script loads
     (window as any).hcaptchaOnLoad = () => {
       if ((window as any).hcaptcha) {
-        // Render top form widget
         if (topFormRef.current) {
-          topWidgetId.current = (window as any).hcaptcha.render(topFormRef.current.querySelector(".h-captcha"), {
-            sitekey: "7e96e6a6-eef8-4624-be9c-e468b5a8b230",
-            size: "invisible",
-            callback: onSubmitCallback,
-          });
+          topWidgetId.current = (window as any).hcaptcha.render(
+            topFormRef.current.querySelector(".h-captcha"),
+            {
+              sitekey: "7e96e6a6-eef8-4624-be9c-e468b5a8b230",
+              size: "invisible",
+              callback: onSubmitCallback,
+            }
+          );
         }
-        // Render bottom form widget
         if (bottomFormRef.current) {
-          bottomWidgetId.current = (window as any).hcaptcha.render(bottomFormRef.current.querySelector(".h-captcha"), {
-            sitekey: "7e96e6a6-eef8-4624-be9c-e468b5a8b230",
-            size: "invisible",
-            callback: onSubmitCallback,
-          });
+          bottomWidgetId.current = (window as any).hcaptcha.render(
+            bottomFormRef.current.querySelector(".h-captcha"),
+            {
+              sitekey: "7e96e6a6-eef8-4624-be9c-e468b5a8b230",
+              size: "invisible",
+              callback: onSubmitCallback,
+            }
+          );
         }
       }
     };
 
-    // global callback when captcha passes
+    // Called when captcha verification completes successfully
     function onSubmitCallback(token: string) {
       if (submittingFormRef.current === "top" && topFormRef.current) {
         topFormRef.current.submit();
@@ -98,6 +121,7 @@ export default function Index() {
     }
   }, []);
 
+  // Form submit handler factory
   const handleFormSubmit = (which: "top" | "bottom") => (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     submittingFormRef.current = which;
@@ -108,13 +132,14 @@ export default function Index() {
       } else if (which === "bottom" && bottomWidgetId.current !== null) {
         (window as any).hcaptcha.execute(bottomWidgetId.current);
       } else {
-        // fallback: no widget id, just submit
+        // fallback: no widget id, just submit immediately
         (which === "top" ? topFormRef.current : bottomFormRef.current)?.submit();
       }
     } else {
       (which === "top" ? topFormRef.current : bottomFormRef.current)?.submit();
     }
   };
+  
   return (
     <div className="container">
       <div className="logo">
@@ -264,7 +289,7 @@ export default function Index() {
               Sign up for free to get the most authoritative business newsletter
               in the world, delivered straight to your inbox every day.
             </p>
-      <form
+ <form
         ref={bottomFormRef}
         method="post"
         action="https://app.jeffamzn.com/subscription/form"
