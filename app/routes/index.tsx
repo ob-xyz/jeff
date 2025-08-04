@@ -21,6 +21,7 @@ import linkedin from "~/../public/img/in.png";
 import ig from "~/../public/img/ig.png";
 import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
+
 const rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the world."];
 const ads = [
   {
@@ -48,10 +49,12 @@ export default function Index() {
   const [fadeOut, setFadeOut] = useState(false);
   const [adIndex, setAdIndex] = useState(0);
 
-  const mainFormRef = useRef<HTMLFormElement>(null);
-  const gettingStartedFormRef = useRef<HTMLFormElement>(null);
+  // Use a single form ref for the currently submitting form
+  const formRef = useRef<HTMLFormElement | null>(null);
+  // Keep a ref to store the actual form element that was submitted
+  const submittingFormRef = useRef<HTMLFormElement | null>(null);
 
-  // Rotate the words with fade effect
+  // Word rotation (unchanged)
   useEffect(() => {
     const interval = setInterval(() => {
       setFadeOut(true);
@@ -63,7 +66,7 @@ export default function Index() {
     return () => clearInterval(interval);
   }, []);
 
-  // Load hCaptcha script once and setup global callback
+  // Load hCaptcha script once and setup callback
   useEffect(() => {
     if (!document.getElementById("hcaptcha-script")) {
       const script = document.createElement("script");
@@ -74,46 +77,30 @@ export default function Index() {
       document.body.appendChild(script);
     }
 
+    // Global callback called by hCaptcha after success
     (window as any).onSubmit = function () {
-      if (
-        mainFormRef.current &&
-        mainFormRef.current.getAttribute("data-hcaptcha-active") === "true"
-      ) {
-        mainFormRef.current.submit();
-      } else if (
-        gettingStartedFormRef.current &&
-        gettingStartedFormRef.current.getAttribute("data-hcaptcha-active") === "true"
-      ) {
-        gettingStartedFormRef.current.submit();
+      if (submittingFormRef.current?.getAttribute("data-hcaptcha-active") === "true") {
+        submittingFormRef.current.submit();
       }
     };
   }, []);
 
-  // Ads carousel next/prev
+  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    // Set the current form being submitted
+    submittingFormRef.current = e.currentTarget as HTMLFormElement;
+
+    if ((window as any).hcaptcha) {
+      submittingFormRef.current.setAttribute("data-hcaptcha-active", "true");
+      (window as any).hcaptcha.execute();
+    } else {
+      submittingFormRef.current.submit();
+    }
+  };
+
+  // Ads carousel next/prev handlers (unchanged)
   const next = () => setAdIndex((prev) => (prev + 1) % ads.length);
   const prev = () => setAdIndex((prev) => (prev - 1 + ads.length) % ads.length);
-
-  // Handle main form submit with hCaptcha
-  const handleMainFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if ((window as any).hcaptcha && mainFormRef.current) {
-      mainFormRef.current.setAttribute("data-hcaptcha-active", "true");
-      (window as any).hcaptcha.execute();
-    } else {
-      e.currentTarget.submit();
-    }
-  };
-
-  // Handle getting started form submit with hCaptcha
-  const handleGettingStartedSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if ((window as any).hcaptcha && gettingStartedFormRef.current) {
-      gettingStartedFormRef.current.setAttribute("data-hcaptcha-active", "true");
-      (window as any).hcaptcha.execute();
-    } else {
-      e.currentTarget.submit();
-    }
-  };
 
   return (
     <div className="container">
@@ -133,10 +120,10 @@ export default function Index() {
             <p>Subscribe to stay informed.</p>
           </div>
           <form
-            ref={mainFormRef}
+            ref={formRef}
             method="post"
             action="https://app.jeffamzn.com/subscription/form"
-            onSubmit={handleMainFormSubmit}
+            onSubmit={handleFormSubmit}
           >
             <div className="input-wrapper">
               <input
@@ -285,12 +272,13 @@ export default function Index() {
               Sign up for free to get the most authoritative business newsletter
               in the world, delivered straight to your inbox every day.
             </p>
-          <form
-            ref={mainFormRef}
-            method="post"
-            action="https://app.jeffamzn.com/subscription/form"
-            onSubmit={handleMainFormSubmit}
-          >
+              <form
+                ref={formRef}
+                method="post"
+                action="https://app.jeffamzn.com/subscription/form"
+                target="_blank"
+                onSubmit={handleFormSubmit}
+              >
               <div className="input-wrapper">
                 <input
                   className="email"
