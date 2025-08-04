@@ -1,7 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Link } from "@remix-run/react";
-import { json, LoaderFunction } from "@remix-run/node";
-import { useLoaderData } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
 import promoads from "~/../public/img/promoted-ads.png";
@@ -23,47 +21,7 @@ import linkedin from "~/../public/img/in.png";
 import ig from "~/../public/img/ig.png";
 import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
-
-// type Campaign = {
-//   id: string;
-//   subject: string;
-//   send_at: string;
-//   url: string; // You can generate or have a URL scheme to link to campaign
-// };
-
-// export const loader: LoaderFunction = async () => {
-//   const username = "jeffapi";
-//   const password = "DDGoYjwtd1rmaZB6X0nmaO09F3DsiAez";
-//   const basicAuth = Buffer.from(`${username}:${password}`).toString("base64");
-
-//   const response = await fetch("http://app.jeffamzn.com/api/campaigns", {
-//     headers: {
-//       Authorization: `Basic ${basicAuth}`,
-//     },
-//   });
-
-//   if (!response.ok) {
-//     throw new Response("Failed to fetch campaigns", { status: 500 });
-//   }
-
-//   const data = await response.json();
-
-//   // Assuming the campaigns are in data.data.results
-//   const campaigns = data.data.results
-//     .filter((c: any) => c.status === "sent")
-//     .sort((a: any, b: any) => new Date(b.send_at).getTime() - new Date(a.send_at).getTime())
-//     .slice(0, 5)
-//     .map((c: any) => ({
-//       id: c.id,
-//       subject: c.subject,
-//       send_at: c.send_at,
-//       url: `https://app.jeffamzn.com/campaign/${c.id}`,
-//     }));
-
-//   return json({ campaigns });
-// };
-
-const rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the world."]
+const rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the world."];
 const ads = [
   {
     image: promoads,
@@ -89,18 +47,12 @@ export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
   const [adIndex, setAdIndex] = useState(0);
-    // const { campaigns } = useLoaderData<{ campaigns: Campaign[] }>();
 
+  const mainFormRef = useRef<HTMLFormElement>(null);
+  const gettingStartedFormRef = useRef<HTMLFormElement>(null);
 
-  const next = () => { //Ads carousel
-    setAdIndex((prev) => (prev + 1) % ads.length);
-  };
-
-  const prev = () => { //Ads carousel
-    setAdIndex((prev) => (prev - 1 + ads.length) % ads.length);
-  };
-
-  useEffect(() => { //Ads carousel
+  // Rotate the words with fade effect
+  useEffect(() => {
     const interval = setInterval(() => {
       setFadeOut(true);
       setTimeout(() => {
@@ -111,67 +63,113 @@ export default function Index() {
     return () => clearInterval(interval);
   }, []);
 
-useEffect(() => {//cloudflare turnstile
-  const script = document.createElement("script");
-  script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js";
-  script.async = true;
-  script.defer = true;
-  document.body.appendChild(script);
-  return () => {
-    document.body.removeChild(script);
+  // Load hCaptcha script once and setup global callback
+  useEffect(() => {
+    if (!document.getElementById("hcaptcha-script")) {
+      const script = document.createElement("script");
+      script.id = "hcaptcha-script";
+      script.src = "https://js.hcaptcha.com/1/api.js";
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+
+    (window as any).onSubmit = function () {
+      if (
+        mainFormRef.current &&
+        mainFormRef.current.getAttribute("data-hcaptcha-active") === "true"
+      ) {
+        mainFormRef.current.submit();
+      } else if (
+        gettingStartedFormRef.current &&
+        gettingStartedFormRef.current.getAttribute("data-hcaptcha-active") === "true"
+      ) {
+        gettingStartedFormRef.current.submit();
+      }
+    };
+  }, []);
+
+  // Ads carousel next/prev
+  const next = () => setAdIndex((prev) => (prev + 1) % ads.length);
+  const prev = () => setAdIndex((prev) => (prev - 1 + ads.length) % ads.length);
+
+  // Handle main form submit with hCaptcha
+  const handleMainFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if ((window as any).hcaptcha && mainFormRef.current) {
+      mainFormRef.current.setAttribute("data-hcaptcha-active", "true");
+      (window as any).hcaptcha.execute();
+    } else {
+      e.currentTarget.submit();
+    }
   };
-}, []);
 
-
+  // Handle getting started form submit with hCaptcha
+  const handleGettingStartedSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if ((window as any).hcaptcha && gettingStartedFormRef.current) {
+      gettingStartedFormRef.current.setAttribute("data-hcaptcha-active", "true");
+      (window as any).hcaptcha.execute();
+    } else {
+      e.currentTarget.submit();
+    }
+  };
 
   return (
     <div className="container">
       <div className="logo">
-        <img src={logo} />
+        <img src={logo} alt="Jeffamzn Logo" />
       </div>
       <div className="content">
-      <div className="inner-content">
-        <div className="text">
-          <h4>JEFFAMZN</h4>
-          <h1>
-            Don't start your day without knowing what's happening <br /><span className={`${fadeOut ? "fade-out" : "fade-in"}`}>{rotatingWords[index]}</span>
-          </h1>
-          <p>Subscribe to stay informed.</p>
+        <div className="inner-content">
+          <div className="text">
+            <h4>JEFFAMZN</h4>
+            <h1>
+              Don't start your day without knowing what's happening <br />
+              <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>
+                {rotatingWords[index]}
+              </span>
+            </h1>
+            <p>Subscribe to stay informed.</p>
+          </div>
+          <form
+            ref={mainFormRef}
+            method="post"
+            action="https://app.jeffamzn.com/subscription/form"
+            onSubmit={handleMainFormSubmit}
+          >
+            <div className="input-wrapper">
+              <input
+                className="email"
+                type="email"
+                name="email"
+                required
+                placeholder="Email Address *"
+              />
+              <button className="submit" type="submit">
+                Subscribe
+              </button>
+            </div>
+
+            {/* Invisible hCaptcha widget */}
+            <div
+              className="h-captcha"
+              data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"
+              data-callback="onSubmit"
+              data-size="invisible"
+            ></div>
+
+            <input
+              id="6d48f"
+              type="hidden"
+              name="l"
+              value="6d48fffe-7d37-4c14-b317-3e4cda33a647"
+            />
+            <input type="hidden" name="nonce" />
+          </form>
         </div>
-    <form
-      method="post"
-      action="https://app.jeffamzn.com/subscription/form"
-    >
-      <div className="input-wrapper">
-        <input
-          className="email"
-          type="email"
-          name="email"
-          required
-          placeholder="Email Address *"
-        />
-        <button className="submit" type="submit">
-          Subscribe
-        </button>
+        <img src={mainbg} alt="Background" />
       </div>
-
-        <div
-    className="cf-turnstile"
-    data-sitekey="0x4AAAAAABoUrJWPqhMb9Px2"
-  ></div>
-
-      <input
-        id="6d48f"
-        type="hidden"
-        name="l"
-        value="6d48fffe-7d37-4c14-b317-3e4cda33a647"
-      />
-      <input type="hidden" name="nonce" />
-    </form>
-      </div>
-      <img src={mainbg} />
-      </div>
-
       <div className="inner-content2">
         <h2>The <span>one newsletter</span> that helps you stay informed</h2>
         <Link to="#"><p>Every day Jeffamzn sends you a quick timeline of what's happening in the world. Easy to digest. And read by the most authoritative minds in business.</p></Link>
@@ -279,37 +277,49 @@ useEffect(() => {//cloudflare turnstile
         <h4>GETTING STARTED</h4>
         <h3>Start your journey with Jeffamzn.</h3>
       </div>
-      <div className="grid">
-      <div className="box">
-        <img src={bg} />
-        <h1>Sign up for free</h1>
-        <p>Sign up for free to get the most authoritative business newsletter in the world, delivered straight to your inbox every day.</p>
+              <div className="grid">
+          <div className="box">
+            <img src={bg} alt="Sign up free" />
+            <h1>Sign up for free</h1>
+            <p>
+              Sign up for free to get the most authoritative business newsletter
+              in the world, delivered straight to your inbox every day.
+            </p>
             <form
-    method="post"
-    action="https://app.jeffamzn.com/subscription/form"
-    target="_blank"
-  >
-    <div className="input-wrapper">
-      <input
-        className="email"
-        type="email"
-        name="email"
-        required
-        placeholder="Email Address *"
-      />
-      <button className="submit" type="submit">
-        Sign up
-      </button>
-    </div>
+              ref={gettingStartedFormRef}
+              method="post"
+              action="https://app.jeffamzn.com/subscription/form"
+              target="_blank"
+              onSubmit={handleGettingStartedSubmit}
+            >
+              <div className="input-wrapper">
+                <input
+                  className="email"
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Email Address *"
+                />
+                <button className="submit" type="submit">
+                  Sign up
+                </button>
+              </div>
 
-    <input
-      id="6d48f"
-      type="hidden"
-      name="l"
-      value="6d48fffe-7d37-4c14-b317-3e4cda33a647"
-    />
-    <input type="hidden" name="nonce" />
-  </form>
+              <div
+                className="h-captcha"
+                data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"
+                data-callback="onSubmit"
+                data-size="invisible"
+              ></div>
+
+              <input
+                id="6d48f"
+                type="hidden"
+                name="l"
+                value="6d48fffe-7d37-4c14-b317-3e4cda33a647"
+              />
+              <input type="hidden" name="nonce" />
+            </form>
       </div>
       <div className="box">
         <img src={bg1} />
