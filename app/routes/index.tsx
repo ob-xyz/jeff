@@ -285,13 +285,12 @@ export default function Index() {
               Sign up for free to get the most authoritative business newsletter
               in the world, delivered straight to your inbox every day.
             </p>
-            <form
-              ref={gettingStartedFormRef}
-              method="post"
-              action="https://app.jeffamzn.com/subscription/form"
-              target="_blank"
-              onSubmit={handleGettingStartedSubmit}
-            >
+          <form
+            ref={mainFormRef}
+            method="post"
+            action="https://app.jeffamzn.com/subscription/form"
+            onSubmit={handleMainFormSubmit}
+          >
               <div className="input-wrapper">
                 <input
                   className="email"
@@ -305,12 +304,12 @@ export default function Index() {
                 </button>
               </div>
 
-              <div
-                className="h-captcha"
-                data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"
-                data-callback="onSubmit"
-                data-size="invisible"
-              ></div>
+            <div
+              className="h-captcha"
+              data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"
+              data-callback="onSubmit"
+              data-size="invisible"
+            ></div>
 
               <input
                 id="6d48f"
