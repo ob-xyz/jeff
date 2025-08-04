@@ -111,16 +111,17 @@ export default function Index() {
     return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => { //CAPCHA
-    const script = document.createElement("script");
-    script.src = "https://js.hcaptcha.com/1/api.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
+useEffect(() => {//cloudflare turnstile
+  const script = document.createElement("script");
+  script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js";
+  script.async = true;
+  script.defer = true;
+  document.body.appendChild(script);
+  return () => {
+    document.body.removeChild(script);
+  };
+}, []);
+
 
 
   return (
@@ -153,6 +154,11 @@ export default function Index() {
           Subscribe
         </button>
       </div>
+
+        <div
+    className="cf-turnstile"
+    data-sitekey="0x4AAAAAABoUrJWPqhMb9Px2"
+  ></div>
 
       <input
         id="6d48f"
