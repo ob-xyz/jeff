@@ -49,12 +49,13 @@ export default function Index() {
   const [fadeOut, setFadeOut] = useState(false);
   const [adIndex, setAdIndex] = useState(0);
 
-  // Use a single form ref for the currently submitting form
-  const formRef = useRef<HTMLFormElement | null>(null);
-  // Keep a ref to store the actual form element that was submitted
+  // Separate refs for the two forms
+  const topFormRef = useRef<HTMLFormElement | null>(null);
+  const bottomFormRef = useRef<HTMLFormElement | null>(null);
+  // Track the actual submitting form
   const submittingFormRef = useRef<HTMLFormElement | null>(null);
 
-  // Word rotation (unchanged)
+  // Word rotation effect (unchanged)
   useEffect(() => {
     const interval = setInterval(() => {
       setFadeOut(true);
@@ -66,7 +67,7 @@ export default function Index() {
     return () => clearInterval(interval);
   }, []);
 
-  // Load hCaptcha script once and setup callback
+  // Load hCaptcha script once and setup global callback
   useEffect(() => {
     if (!document.getElementById("hcaptcha-script")) {
       const script = document.createElement("script");
@@ -77,7 +78,6 @@ export default function Index() {
       document.body.appendChild(script);
     }
 
-    // Global callback called by hCaptcha after success
     (window as any).onSubmit = function () {
       if (submittingFormRef.current?.getAttribute("data-hcaptcha-active") === "true") {
         submittingFormRef.current.submit();
@@ -87,7 +87,6 @@ export default function Index() {
 
   const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Set the current form being submitted
     submittingFormRef.current = e.currentTarget as HTMLFormElement;
 
     if ((window as any).hcaptcha) {
@@ -98,7 +97,7 @@ export default function Index() {
     }
   };
 
-  // Ads carousel next/prev handlers (unchanged)
+  // Ads carousel handlers (unchanged)
   const next = () => setAdIndex((prev) => (prev + 1) % ads.length);
   const prev = () => setAdIndex((prev) => (prev - 1 + ads.length) % ads.length);
 
@@ -119,12 +118,12 @@ export default function Index() {
             </h1>
             <p>Subscribe to stay informed.</p>
           </div>
-          <form
-            ref={formRef}
-            method="post"
-            action="https://app.jeffamzn.com/subscription/form"
-            onSubmit={handleFormSubmit}
-          >
+        <form
+          ref={topFormRef}
+          method="post"
+          action="https://app.jeffamzn.com/subscription/form"
+          onSubmit={handleFormSubmit}
+        >
             <div className="input-wrapper">
               <input
                 className="email"
@@ -272,13 +271,13 @@ export default function Index() {
               Sign up for free to get the most authoritative business newsletter
               in the world, delivered straight to your inbox every day.
             </p>
-              <form
-                ref={formRef}
-                method="post"
-                action="https://app.jeffamzn.com/subscription/form"
-                target="_blank"
-                onSubmit={handleFormSubmit}
-              >
+            <form
+              ref={bottomFormRef}
+              method="post"
+              action="https://app.jeffamzn.com/subscription/form"
+              target="_blank"
+              onSubmit={handleFormSubmit}
+            >
               <div className="input-wrapper">
                 <input
                   className="email"
