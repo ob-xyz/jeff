@@ -225,7 +225,7 @@ function Index() {
         lineNumber: 113,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Become smarter in just 2 minutes. Every day of the week Jeffamzn delivers quick and insightful updates about the business world." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Become smarter in just 5 minutes. Every day of the week Jeffamzn delivers quick and insightful updates about the business world." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 114,
         columnNumber: 22
@@ -966,4 +966,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-6PXFGSXB.js.map
+//# sourceMappingURL=/build/routes/index-X2PKANBQ.js.map

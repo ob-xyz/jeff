@@ -111,7 +111,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2>The <span>one newsletter</span> you can trust</h2>
-        <Link to="#"><p>Become smarter in just 2 minutes. Every day of the week Jeffamzn delivers quick and insightful updates about the business world.</p></Link>
+        <Link to="#"><p>Become smarter in just 5 minutes. Every day of the week Jeffamzn delivers quick and insightful updates about the business world.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
