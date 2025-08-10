@@ -620,7 +620,7 @@ function Index() {
             lineNumber: 196,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Give your existing LinkedIn or Meta ads an extra boost as email newsletter ads." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Give your existing Instagram, Facebook, or LinkedIn ads an extra boost as Jeffamzn ads." }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 197,
             columnNumber: 11
@@ -775,18 +775,18 @@ function Index() {
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: [
-            "Jeffamzn helps you diversify your brand by placing your ads where people do business \u2014 the email inbox. ",
+            "Jeffamzn helps you diversify your brand by placing your content where people do business \u2014 the email inbox. ",
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/index.tsx",
               lineNumber: 239,
-              columnNumber: 116
+              columnNumber: 120
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/index.tsx",
               lineNumber: 239,
-              columnNumber: 122
+              columnNumber: 126
             }, this),
-            "Get started today by remixing your existing LinkedIn, Meta, or X ads and posts into newsletter ads that still look good."
+            "Get started today by boosting just one of your existing LinkedIn, Instagram, Facebook, or X ad campaigns on Jeffamzn."
           ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
             lineNumber: 239,
@@ -1077,7 +1077,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CEUAHZ53.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-PAEY3Y53.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "eabecdf1", hmr: void 0, url: "/build/manifest-EABECDF1.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CEUAHZ53.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-DYFUKG6Z.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "bab820d8", hmr: void 0, url: "/build/manifest-BAB820D8.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

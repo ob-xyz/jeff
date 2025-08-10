@@ -508,7 +508,7 @@ function Index() {
             lineNumber: 196,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Give your existing LinkedIn or Meta ads an extra boost as email newsletter ads." }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Give your existing Instagram, Facebook, or LinkedIn ads an extra boost as Jeffamzn ads." }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 197,
             columnNumber: 11
@@ -663,18 +663,18 @@ function Index() {
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-            "Jeffamzn helps you diversify your brand by placing your ads where people do business \u2014 the email inbox. ",
+            "Jeffamzn helps you diversify your brand by placing your content where people do business \u2014 the email inbox. ",
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
               fileName: "app/routes/index.tsx",
               lineNumber: 239,
-              columnNumber: 116
+              columnNumber: 120
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
               fileName: "app/routes/index.tsx",
               lineNumber: 239,
-              columnNumber: 122
+              columnNumber: 126
             }, this),
-            "Get started today by remixing your existing LinkedIn, Meta, or X ads and posts into newsletter ads that still look good."
+            "Get started today by boosting just one of your existing LinkedIn, Instagram, Facebook, or X ad campaigns on Jeffamzn."
           ] }, void 0, true, {
             fileName: "app/routes/index.tsx",
             lineNumber: 239,
@@ -966,4 +966,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-PAEY3Y53.js.map
+//# sourceMappingURL=/build/routes/index-DYFUKG6Z.js.map

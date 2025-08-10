@@ -194,7 +194,7 @@ export default function Index() {
         <div className="box">
           <img src={newads} />
           <h1>Use existing Meta and LinkedIn ads</h1>
-          <p>Give your existing LinkedIn or Meta ads an extra boost as email newsletter ads.</p>
+          <p>Give your existing Instagram, Facebook, or LinkedIn ads an extra boost as Jeffamzn ads.</p>
         </div>
         </div>
       </div>
@@ -236,7 +236,7 @@ export default function Index() {
       <div className="box">
         <img src={bg1} />
         <h1>Advertise with us</h1>
-        <p>Jeffamzn helps you diversify your brand by placing your ads where people do business — the email inbox. <br /><br />Get started today by remixing your existing LinkedIn, Meta, or X ads and posts into newsletter ads that still look good.</p>
+        <p>Jeffamzn helps you diversify your brand by placing your content where people do business — the email inbox. <br /><br />Get started today by boosting just one of your existing LinkedIn, Instagram, Facebook, or X ad campaigns on Jeffamzn.</p>
         <a href="mailto:hey@jeffamzn.com" className="pricebtn">
             Boost a post
         </a>
