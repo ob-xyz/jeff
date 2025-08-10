@@ -51,7 +51,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 5rem;
-  margin-top: 12rem;
+  margin-top: 7rem;
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
@@ -166,8 +166,6 @@
   flex-direction: column;
   background: transparent;
   text-align: left;
-  padding: 0;
-  height: 100%;
 }
 .container .inner-content3 .box img {
   border-radius: 0.5rem;

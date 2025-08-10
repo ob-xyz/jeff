@@ -188,12 +188,12 @@ export default function Index() {
         <div className="grid">
         <div className="box">
           <img src={convertads} />
-          <h1>Boost a post from LinkedIn, Instagram, or X</h1>
-          <p>Have a successful post on social? boost it to our audience to increase your engagement.</p>
+          <h1>Boost a post from social media</h1>
+          <p>Have a successful post on LinkedIn, Instagram, Facebook, or X? boost it to our audience to increase your engagement.</p>
         </div>
         <div className="box">
           <img src={newads} />
-          <h1>Use your existing Meta and LinkedIn ad campaigns</h1>
+          <h1>Use existing Meta and LinkedIn ads</h1>
           <p>Give your existing LinkedIn or Meta ads an extra boost as email newsletter ads.</p>
         </div>
         </div>

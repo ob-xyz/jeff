@@ -55,7 +55,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-RECLGEIP.css";
+var global_default = "/build/_assets/global-ZYSIJ6NY.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -136,13 +136,13 @@ var import_react3 = require("react"), import_react4 = require("@remix-run/react"
 var ja1_default = "/build/_assets/ja1-ZP4Y3AOT.png";
 
 // public/img/promoted-ads.png
-var promoted_ads_default = "/build/_assets/promoted-ads-D5BGC74D.png";
+var promoted_ads_default = "/build/_assets/promoted-ads-WP43K5F2.png";
 
 // public/img/takeover-ads.png
-var takeover_ads_default = "/build/_assets/takeover-ads-XZR7ZOND.png";
+var takeover_ads_default = "/build/_assets/takeover-ads-ZKOBHDM7.png";
 
 // public/img/text-ads.png
-var text_ads_default = "/build/_assets/text-ads-3LZ3C6FV.png";
+var text_ads_default = "/build/_assets/text-ads-2M56BVR3.png";
 
 // public/img/samae.jpg
 var samae_default = "/build/_assets/samae-CWPSNLTO.jpg";
@@ -157,10 +157,10 @@ var jensene_default = "/build/_assets/jensene-YYPH47ZK.jpg";
 var newads_default = "/build/_assets/newads-A2NPDGWT.jpg";
 
 // public/img/convertads.jpg
-var convertads_default = "/build/_assets/convertads-TLDFO5OQ.jpg";
+var convertads_default = "/build/_assets/convertads-JSJUWURI.jpg";
 
 // public/img/takeoverbg.jpg
-var takeoverbg_default = "/build/_assets/takeoverbg-BTKWLYA2.jpg";
+var takeoverbg_default = "/build/_assets/takeoverbg-BX2YXBVT.jpg";
 
 // public/img/trump.webp
 var trump_default = "/build/_assets/trump-BMRPD2H4.webp";
@@ -594,12 +594,12 @@ function Index() {
             lineNumber: 190,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Boost a post from LinkedIn, Instagram, or X" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Boost a post from social media" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 191,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Have a successful post on social? boost it to our audience to increase your engagement." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Have a successful post on LinkedIn, Instagram, Facebook, or X? boost it to our audience to increase your engagement." }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 192,
             columnNumber: 11
@@ -615,7 +615,7 @@ function Index() {
             lineNumber: 195,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Use your existing Meta and LinkedIn ad campaigns" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Use existing Meta and LinkedIn ads" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 196,
             columnNumber: 11
@@ -1077,7 +1077,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-J6SPVFH4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-2J37C2NB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "b0bea6b4", hmr: void 0, url: "/build/manifest-B0BEA6B4.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CEUAHZ53.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-QTSEHX7U.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "0633d35f", hmr: void 0, url: "/build/manifest-0633D35F.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
