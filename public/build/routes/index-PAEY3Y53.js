@@ -556,7 +556,7 @@ function Index() {
           lineNumber: 209,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Give your favorite ads a widescreen experience that takes over our timeline and adds a clear CTA button that maximizes your engagement." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Give your favorite ads a big experience that takes over our timeline with a widescreen image and a CTA button to maximize engagement." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 210,
           columnNumber: 11
@@ -966,4 +966,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-OS6EZCN5.js.map
+//# sourceMappingURL=/build/routes/index-PAEY3Y53.js.map

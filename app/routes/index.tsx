@@ -207,7 +207,7 @@ export default function Index() {
         <div className="box">
           <img src={takeoverbg} />
           <h1>Takeover Ads</h1>
-          <p>Give your favorite ads a widescreen experience that takes over our timeline and adds a clear CTA button that maximizes your engagement.</p>
+          <p>Give your favorite ads a big experience that takes over our timeline with a widescreen image and a CTA button to maximize engagement.</p>
         </div>
         </div>
       </div>
