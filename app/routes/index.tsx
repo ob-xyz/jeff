@@ -111,7 +111,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2>The <span>one newsletter</span> you can trust</h2>
-        <Link to="#"><p>Become smarter in just 5 minutes. Every day of the week Jeffamzn delivers quick and insightful updates about the business world.</p></Link>
+        <Link to="#"><p>Become informed in just 5 minutes. Every day of the week Jeffamzn delivers a quick and insightful update about the business world.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -126,7 +126,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Jeffamzn is not the only way to know what's going on in the business world, but it's a pretty good way to know what's going on in the business world. Join Jeffamzn to stay informed.</p>
+            <p>Jeffamzn is not the only way to know what's going on in the business world, but it's a pretty good way to know what's going on in the business world.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
@@ -136,13 +136,13 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>No bots just people</h1>
+          <h1>No bots</h1>
           <p>Join high powered tech execs and founders who quickly stay informed.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Smarter discussions </h1>
-          <p>Have smarter discussions about all the latest technology trends.</p>
+          <h1>Informed discussions </h1>
+          <p>Have informed discussions about all the latest technology trends.</p>
         </div>
       </div>
       <div className="btn">
@@ -200,14 +200,14 @@ export default function Index() {
       </div>
       <div className="inner-content11">
         <div className="header">
-            <h4>WIDESCREEN</h4>
+            <h4>OWN THE TIMELINE</h4>
             <h3>Takeover Ads.</h3>
         </div>
         <div className="grid">
         <div className="box">
           <img src={takeoverbg} />
           <h1>Takeover Ads</h1>
-          <p>Give your favorite ads a widescreen experience that takes over our timeline to maximize engagement.</p>
+          <p>Give your favorite ads a widescreen experience that takes over our timeline and adds a clear CTA button that maximizes your engagement.</p>
         </div>
         </div>
       </div>
@@ -235,7 +235,7 @@ export default function Index() {
       </div>
       <div className="box">
         <img src={bg1} />
-        <h1>Start advertising with us</h1>
+        <h1>Advertise with us</h1>
         <p>Jeffamzn helps you diversify your brand by placing your ads where people do business — the email inbox. <br /><br />Get started today by remixing your existing LinkedIn, Meta, or X ads and posts into newsletter ads that still look good.</p>
         <a href="mailto:hey@jeffamzn.com" className="pricebtn">
             Boost a post
