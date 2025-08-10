@@ -26,9 +26,9 @@ const rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the worl
 const ads = [
   {
     image: promoads,
-    title: "Boosted Ads",
+    title: "Promoted Ads",
     description:
-      "Boosted ads allow you to showcase your product or service with a single image or gif.",
+      "Promoted ads allow you to showcase your product or service with a single image or gif.",
   },
   {
     image: takeoverads,
@@ -177,19 +177,19 @@ export default function Index() {
       </div>
       <div className="btn">
         <a href="mailto:hey@jeffamzn.com" className="pricebtn">
-            Boost a post
+            Promote a post
       </a>
       </div>
       <div className="inner-content10">
         <div className="header">
             <h4>MOST POPULAR</h4>
-            <h3>Boosted Ads.</h3>
+            <h3>Promoted Ads.</h3>
         </div>
         <div className="grid">
         <div className="box">
           <img src={convertads} />
-          <h1>Boost a post from social media</h1>
-          <p>Have a successful post on LinkedIn, Instagram, Facebook, or X? boost it to our audience to increase your engagement.</p>
+          <h1>Promote a post from social media</h1>
+          <p>Have a successful post on LinkedIn, Instagram, Facebook, or X? promote it to our audience to increase your engagement.</p>
         </div>
         <div className="box">
           <img src={newads} />
@@ -236,9 +236,9 @@ export default function Index() {
       <div className="box">
         <img src={bg1} />
         <h1>Advertise with us</h1>
-        <p>Jeffamzn helps you diversify your brand by placing your content where people do business — the email inbox. <br /><br />Get started today by boosting just one of your existing LinkedIn, Instagram, Facebook, or X ad campaigns on Jeffamzn.</p>
+        <p>Jeffamzn helps you diversify your brand by placing your content where people do business — the email inbox. <br /><br />Get started today by promoting just one of your existing LinkedIn, Instagram, Facebook, or X posts.</p>
         <a href="mailto:hey@jeffamzn.com" className="pricebtn">
-            Boost a post
+            Promote a post
         </a>
       </div>
       </div>

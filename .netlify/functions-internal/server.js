@@ -196,8 +196,8 @@ var email_default = "/build/_assets/email-KANKX45L.png";
 var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the world."], ads = [
   {
     image: promoted_ads_default,
-    title: "Boosted Ads",
-    description: "Boosted ads allow you to showcase your product or service with a single image or gif."
+    title: "Promoted Ads",
+    description: "Promoted ads allow you to showcase your product or service with a single image or gif."
   },
   {
     image: takeover_ads_default,
@@ -561,7 +561,7 @@ function Index() {
       lineNumber: 160,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", className: "pricebtn", children: "Boost a post" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", className: "pricebtn", children: "Promote a post" }, void 0, !1, {
       fileName: "app/routes/index.tsx",
       lineNumber: 179,
       columnNumber: 9
@@ -577,7 +577,7 @@ function Index() {
           lineNumber: 185,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: "Boosted Ads." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: "Promoted Ads." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 186,
           columnNumber: 13
@@ -594,12 +594,12 @@ function Index() {
             lineNumber: 190,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Boost a post from social media" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Promote a post from social media" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 191,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Have a successful post on LinkedIn, Instagram, Facebook, or X? boost it to our audience to increase your engagement." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Have a successful post on LinkedIn, Instagram, Facebook, or X? promote it to our audience to increase your engagement." }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 192,
             columnNumber: 11
@@ -786,13 +786,13 @@ function Index() {
               lineNumber: 239,
               columnNumber: 126
             }, this),
-            "Get started today by boosting just one of your existing LinkedIn, Instagram, Facebook, or X ad campaigns on Jeffamzn."
+            "Get started today by promoting just one of your existing LinkedIn, Instagram, Facebook, or X posts."
           ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
             lineNumber: 239,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", className: "pricebtn", children: "Boost a post" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", className: "pricebtn", children: "Promote a post" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 240,
             columnNumber: 9
@@ -1077,7 +1077,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CEUAHZ53.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-DYFUKG6Z.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "bab820d8", hmr: void 0, url: "/build/manifest-BAB820D8.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CEUAHZ53.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-C5M5B7NF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "38476e92", hmr: void 0, url: "/build/manifest-38476E92.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
