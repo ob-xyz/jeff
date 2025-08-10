@@ -316,7 +316,7 @@ function Index() {
           lineNumber: 138,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "No bots" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "No bots just people" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 139,
           columnNumber: 11
@@ -337,12 +337,12 @@ function Index() {
           lineNumber: 143,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Discuss real ideas" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Smarter discussions " }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 144,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Have deeper discussions about all the latest technology trends." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Have smarter discussions about all the latest technology trends." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 145,
           columnNumber: 11
@@ -966,4 +966,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-F7C5E6JW.js.map
+//# sourceMappingURL=/build/routes/index-2J37C2NB.js.map
