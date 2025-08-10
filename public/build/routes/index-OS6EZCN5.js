@@ -530,7 +530,7 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content11", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "header", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "MOST WIDESCREEN" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "BIGGEST EXPERIENCE" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 203,
           columnNumber: 13
@@ -966,4 +966,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-OFDKTQ5Y.js.map
+//# sourceMappingURL=/build/routes/index-OS6EZCN5.js.map

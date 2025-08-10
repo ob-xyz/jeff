@@ -200,7 +200,7 @@ export default function Index() {
       </div>
       <div className="inner-content11">
         <div className="header">
-            <h4>MOST WIDESCREEN</h4>
+            <h4>BIGGEST EXPERIENCE</h4>
             <h3>Takeover Ads.</h3>
         </div>
         <div className="grid">
