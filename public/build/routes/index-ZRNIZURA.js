@@ -316,7 +316,7 @@ function Index() {
           lineNumber: 138,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "No pesky bots" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "No bots" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 139,
           columnNumber: 11
@@ -966,4 +966,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-7CDTHZOP.js.map
+//# sourceMappingURL=/build/routes/index-ZRNIZURA.js.map

@@ -136,7 +136,7 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>No pesky bots</h1>
+          <h1>No bots</h1>
           <p>Join high powered tech execs and founders who want to stay informed.</p>
         </div>
         <div className="box">
