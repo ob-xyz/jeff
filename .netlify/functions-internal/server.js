@@ -55,7 +55,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-3IMBKBHK.css";
+var global_default = "/build/_assets/global-RECLGEIP.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -197,12 +197,12 @@ var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), rotatingWords = 
   {
     image: promoted_ads_default,
     title: "Promoted Ads",
-    description: "Promoted ads allow you to showcase your product or service with a single image or gif."
+    description: "Promoted ads allow you to showcase your idea with a single image or gif."
   },
   {
     image: takeover_ads_default,
     title: "Takeover Ads",
-    description: "Our most premium mass-reach placements that drive more engagement and results."
+    description: "Our premium widescreen ads increase engagement with a CTA button."
   },
   {
     image: text_ads_default,
@@ -220,45 +220,20 @@ function Index() {
     }, 2500);
     return () => clearInterval(interval);
   }, []);
-  let next = () => setAdIndex((prev2) => (prev2 + 1) % ads.length), prev = () => setAdIndex((prev2) => (prev2 - 1 + ads.length) % ads.length), topFormRef = (0, import_react3.useRef)(null), bottomFormRef = (0, import_react3.useRef)(null), topWidgetId = (0, import_react3.useRef)(null), bottomWidgetId = (0, import_react3.useRef)(null), submittingFormRef = (0, import_react3.useRef)(null);
-  (0, import_react3.useEffect)(() => {
-    if (!document.getElementById("hcaptcha-script")) {
-      let script = document.createElement("script");
-      script.id = "hcaptcha-script", script.src = "https://js.hcaptcha.com/1/api.js?onload=hcaptchaOnLoad&render=explicit", script.async = !0, script.defer = !0, document.body.appendChild(script);
-    }
-    window.hcaptchaOnLoad = () => {
-      window.hcaptcha && (topFormRef.current && (topWidgetId.current = window.hcaptcha.render(
-        topFormRef.current.querySelector(".h-captcha"),
-        {
-          sitekey: "7e96e6a6-eef8-4624-be9c-e468b5a8b230",
-          size: "invisible",
-          callback: onSubmitCallback
-        }
-      )), bottomFormRef.current && (bottomWidgetId.current = window.hcaptcha.render(
-        bottomFormRef.current.querySelector(".h-captcha"),
-        {
-          sitekey: "7e96e6a6-eef8-4624-be9c-e468b5a8b230",
-          size: "invisible",
-          callback: onSubmitCallback
-        }
-      )));
+  let next = () => setAdIndex((prev2) => (prev2 + 1) % ads.length), prev = () => setAdIndex((prev2) => (prev2 - 1 + ads.length) % ads.length);
+  return (0, import_react3.useEffect)(() => {
+    let script = document.createElement("script");
+    return script.src = "https://js.hcaptcha.com/1/api.js", script.async = !0, script.defer = !0, document.body.appendChild(script), () => {
+      document.body.removeChild(script);
     };
-    function onSubmitCallback(token) {
-      submittingFormRef.current === "top" && topFormRef.current ? topFormRef.current.submit() : submittingFormRef.current === "bottom" && bottomFormRef.current && bottomFormRef.current.submit(), submittingFormRef.current = null;
-    }
-  }, []);
-  let handleFormSubmit = (which) => (e) => {
-    var _a, _b;
-    e.preventDefault(), submittingFormRef.current = which, window.hcaptcha ? which === "top" && topWidgetId.current !== null ? window.hcaptcha.execute(topWidgetId.current) : which === "bottom" && bottomWidgetId.current !== null ? window.hcaptcha.execute(bottomWidgetId.current) : (_a = which === "top" ? topFormRef.current : bottomFormRef.current) == null || _a.submit() : (_b = which === "top" ? topFormRef.current : bottomFormRef.current) == null || _b.submit();
-  };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "container", children: [
+  }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "container", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: ja1_default, alt: "Jeffamzn Logo" }, void 0, !1, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 146,
+      lineNumber: 86,
       columnNumber: 9
     }, this) }, void 0, !1, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 145,
+      lineNumber: 85,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "content", children: [
@@ -266,99 +241,86 @@ function Index() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "text", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "JEFFAMZN" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 151,
+            lineNumber: 91,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: [
             "Don't start your day without knowing what's happening ",
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 153,
+              lineNumber: 93,
               columnNumber: 69
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { className: `${fadeOut ? "fade-out" : "fade-in"}`, children: rotatingWords[index] }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 154,
+              lineNumber: 94,
               columnNumber: 15
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 152,
+            lineNumber: 92,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Subscribe to stay informed." }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 158,
+            lineNumber: 98,
             columnNumber: 13
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 150,
+          lineNumber: 90,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
-          "form",
-          {
-            ref: topFormRef,
-            method: "post",
-            action: "https://app.jeffamzn.com/subscription/form",
-            onSubmit: handleFormSubmit("top"),
-            children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "input-wrapper", children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { className: "email", type: "email", name: "email", required: !0, placeholder: "Email Address *" }, void 0, !1, {
-                  fileName: "app/routes/index.tsx",
-                  lineNumber: 167,
-                  columnNumber: 11
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("button", { className: "submit", type: "submit", children: "Subscribe" }, void 0, !1, {
-                  fileName: "app/routes/index.tsx",
-                  lineNumber: 168,
-                  columnNumber: 11
-                }, this)
-              ] }, void 0, !0, {
-                fileName: "app/routes/index.tsx",
-                lineNumber: 166,
-                columnNumber: 9
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "h-captcha" }, void 0, !1, {
-                fileName: "app/routes/index.tsx",
-                lineNumber: 170,
-                columnNumber: 9
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { id: "6d48f", type: "hidden", name: "l", value: "6d48fffe-7d37-4c14-b317-3e4cda33a647" }, void 0, !1, {
-                fileName: "app/routes/index.tsx",
-                lineNumber: 171,
-                columnNumber: 9
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, !1, {
-                fileName: "app/routes/index.tsx",
-                lineNumber: 172,
-                columnNumber: 9
-              }, this)
-            ]
-          },
-          void 0,
-          !0,
-          {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("form", { method: "post", action: "https://app.jeffamzn.com/subscription/form", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "input-wrapper", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { className: "email", type: "email", name: "email", required: !0, placeholder: "Email Address *" }, void 0, !1, {
+              fileName: "app/routes/index.tsx",
+              lineNumber: 102,
+              columnNumber: 11
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("button", { className: "submit", type: "submit", children: "Subscribe" }, void 0, !1, {
+              fileName: "app/routes/index.tsx",
+              lineNumber: 103,
+              columnNumber: 11
+            }, this)
+          ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 160,
-            columnNumber: 7
-          },
-          this
-        )
+            lineNumber: 101,
+            columnNumber: 9
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "h-captcha", "data-sitekey": "7e96e6a6-eef8-4624-be9c-e468b5a8b230" }, void 0, !1, {
+            fileName: "app/routes/index.tsx",
+            lineNumber: 105,
+            columnNumber: 9
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { id: "6d48f", type: "hidden", name: "l", value: "6d48fffe-7d37-4c14-b317-3e4cda33a647" }, void 0, !1, {
+            fileName: "app/routes/index.tsx",
+            lineNumber: 106,
+            columnNumber: 9
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, !1, {
+            fileName: "app/routes/index.tsx",
+            lineNumber: 107,
+            columnNumber: 9
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 100,
+          columnNumber: 7
+        }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 149,
+        lineNumber: 89,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: mainbg_default, alt: "Background" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 175,
+        lineNumber: 110,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 148,
+      lineNumber: 88,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content2", children: [
@@ -366,192 +328,192 @@ function Index() {
         "The ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { children: "one newsletter" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 178,
+          lineNumber: 113,
           columnNumber: 17
         }, this),
-        " that helps you stay informed"
+        " you can trust"
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 178,
+        lineNumber: 113,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Every day Jeffamzn sends you a quick timeline of what's happening in the world. Easy to digest. And read by the most authoritative minds in business." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Become smarter in just 2 minutes. Every day of the week Jeffamzn delivers quick and insightful updates about the business world." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 179,
+        lineNumber: 114,
         columnNumber: 22
       }, this) }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 179,
+        lineNumber: 114,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 177,
+      lineNumber: 112,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content3", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: trump_default }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 183,
+        lineNumber: 118,
         columnNumber: 11
       }, this) }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 182,
+        lineNumber: 117,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: handcoin_default }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 186,
+        lineNumber: 121,
         columnNumber: 11
       }, this) }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 185,
+        lineNumber: 120,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: rocket_default }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 189,
+        lineNumber: 124,
         columnNumber: 11
       }, this) }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 188,
+        lineNumber: 123,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 181,
+      lineNumber: 116,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content4", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: "Delivered straight to your inbox." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 193,
+        lineNumber: 128,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Jeffamzn is not the only way to know what's happening in the world. But it's a pretty good way to know what's happening in the world. Don't start your day without knowing what's really happening." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Jeffamzn is not the only way to know what's going on in the business world, but it's a pretty good way to know what's going on in the business world. Join Jeffamzn to stay informed." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 194,
+        lineNumber: 129,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 192,
+      lineNumber: 127,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content5", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: samae_default }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 198,
+          lineNumber: 133,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Every story that matters" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 199,
+          lineNumber: 134,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Get every business news story that matters delivered straight to your inbox every day." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Get every business news story that matters delivered to you." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 200,
+          lineNumber: 135,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 197,
+        lineNumber: 132,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: tobic_default }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 203,
+          lineNumber: 138,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "An audience with authority" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "No pesky bots" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 204,
+          lineNumber: 139,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Join high powered tech execs, founders, and 9 figure operators who want to know what's really going on in the world." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Join high powered tech execs and founders who want to stay informed." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 205,
+          lineNumber: 140,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 202,
+        lineNumber: 137,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: jensene_default }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 208,
+          lineNumber: 143,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Enjoy smarter conversations" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Deeper discussions" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 209,
+          lineNumber: 144,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Have more informed and smarter conversations with colleagues, customers and friends." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Have deeper discussions about the latest technology trends." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 210,
+          lineNumber: 145,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 207,
+        lineNumber: 142,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 196,
+      lineNumber: 131,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "#", className: "pricebtn", children: "Sign up for free" }, void 0, !1, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 214,
+      lineNumber: 149,
       columnNumber: 9
     }, this) }, void 0, !1, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 213,
+      lineNumber: 148,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content7", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "text", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "ADVERTISE WITH US" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 220,
+          lineNumber: 155,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: "Connect with your next customers on Jeffamzn." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 221,
+          lineNumber: 156,
           columnNumber: 13
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 219,
+        lineNumber: 154,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Jeffamzn's audience is authoritative, engaged, and constantly in discovery mode." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Jeffamzn is one of the most engaged email audiences in the world, and we're constantly in discovery mode." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 223,
+        lineNumber: 158,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 218,
+      lineNumber: 153,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "ads-carousel", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("button", { className: "carousel-button prev", onClick: prev, children: "\u25C0" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 226,
+        lineNumber: 161,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("button", { className: "carousel-button next", onClick: next, children: "\u25B6" }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 227,
+        lineNumber: 162,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -562,26 +524,26 @@ function Index() {
           children: ads.map((ad, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "carousel-slide", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: ad.image, alt: ad.title }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 235,
+              lineNumber: 170,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: ad.title }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 236,
+              lineNumber: 171,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: ad.description }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 237,
+              lineNumber: 172,
               columnNumber: 17
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 234,
+            lineNumber: 169,
             columnNumber: 15
           }, this) }, i, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 233,
+            lineNumber: 168,
             columnNumber: 13
           }, this))
         },
@@ -589,283 +551,282 @@ function Index() {
         !1,
         {
           fileName: "app/routes/index.tsx",
-          lineNumber: 228,
+          lineNumber: 163,
           columnNumber: 9
         },
         this
       )
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 225,
+      lineNumber: 160,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", className: "pricebtn", children: "Start a campaign" }, void 0, !1, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 244,
+      lineNumber: 179,
       columnNumber: 9
     }, this) }, void 0, !1, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 243,
+      lineNumber: 178,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content10", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "header", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "MOST POPULAR" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 250,
+          lineNumber: 185,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: "Promoted Ads." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: "Remixed Ads." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 251,
+          lineNumber: 186,
           columnNumber: 13
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 249,
+        lineNumber: 184,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "grid", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: convertads_default }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 255,
+            lineNumber: 190,
             columnNumber: 11
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Promote a post from LinkedIn, Instagram, or X" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 256,
+            lineNumber: 191,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Have a successful post on social? promote it to our audience and increase your engagement." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Have a successful post on social? promote it to our audience to increase your engagement." }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 257,
+            lineNumber: 192,
             columnNumber: 11
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 254,
+          lineNumber: 189,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: newads_default }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 260,
+            lineNumber: 195,
             columnNumber: 11
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Use existing Meta and LinkedIn ad campaigns" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 261,
+            lineNumber: 196,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Give your existing Meta or LinkedIn ad campaigns an extra boost as email newsletter ads." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Remix your existing Meta or LinkedIn ads to give them an extra boost as email newsletter ads." }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 262,
+            lineNumber: 197,
             columnNumber: 11
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 259,
+          lineNumber: 194,
           columnNumber: 9
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 253,
+        lineNumber: 188,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 248,
+      lineNumber: 183,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content11", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "header", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "TAKEOVER OUR TIMELINE" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "WIDESCREEN" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 268,
+          lineNumber: 203,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: "Widen your ad." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: "Takeover Ads." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 269,
+          lineNumber: 204,
           columnNumber: 13
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 267,
+        lineNumber: 202,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "grid", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: takeoverbg_default }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 273,
+          lineNumber: 208,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Takeover Ads" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 274,
+          lineNumber: 209,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Give your favorite ads a widescreen image experience that takes over our timeline and maximizes engagement." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Give your favorite ads a widescreen experience that takes over our timeline to maximize engagement." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 275,
+          lineNumber: 210,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 272,
+        lineNumber: 207,
         columnNumber: 9
       }, this) }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 271,
+        lineNumber: 206,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 266,
+      lineNumber: 201,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content12", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "header", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "GETTING STARTED" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 281,
+          lineNumber: 216,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: "Start your journey with Jeffamzn." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 282,
+          lineNumber: 217,
           columnNumber: 9
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 280,
+        lineNumber: 215,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "grid", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: bg_default, alt: "Sign up free" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 286,
+            lineNumber: 221,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Sign up for free" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 287,
+            lineNumber: 222,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Sign up for free to get the most authoritative business newsletter in the world, delivered straight to your inbox every day." }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 288,
+            lineNumber: 223,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
-            "form",
-            {
-              ref: bottomFormRef,
-              method: "post",
-              action: "https://app.jeffamzn.com/subscription/form",
-              target: "_blank",
-              onSubmit: handleFormSubmit("bottom"),
-              children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "input-wrapper", children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { className: "email", type: "email", name: "email", required: !0, placeholder: "Email Address *" }, void 0, !1, {
-                    fileName: "app/routes/index.tsx",
-                    lineNumber: 300,
-                    columnNumber: 11
-                  }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("button", { className: "submit", type: "submit", children: "Sign up" }, void 0, !1, {
-                    fileName: "app/routes/index.tsx",
-                    lineNumber: 301,
-                    columnNumber: 11
-                  }, this)
-                ] }, void 0, !0, {
-                  fileName: "app/routes/index.tsx",
-                  lineNumber: 299,
-                  columnNumber: 9
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "h-captcha" }, void 0, !1, {
-                  fileName: "app/routes/index.tsx",
-                  lineNumber: 303,
-                  columnNumber: 9
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { id: "6d48f", type: "hidden", name: "l", value: "6d48fffe-7d37-4c14-b317-3e4cda33a647" }, void 0, !1, {
-                  fileName: "app/routes/index.tsx",
-                  lineNumber: 304,
-                  columnNumber: 9
-                }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, !1, {
-                  fileName: "app/routes/index.tsx",
-                  lineNumber: 305,
-                  columnNumber: 9
-                }, this)
-              ]
-            },
-            void 0,
-            !0,
-            {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("form", { method: "post", action: "https://app.jeffamzn.com/subscription/form", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "input-wrapper", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { className: "email", type: "email", name: "email", required: !0, placeholder: "Email Address *" }, void 0, !1, {
+                fileName: "app/routes/index.tsx",
+                lineNumber: 229,
+                columnNumber: 11
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("button", { className: "submit", type: "submit", children: "Sign up" }, void 0, !1, {
+                fileName: "app/routes/index.tsx",
+                lineNumber: 230,
+                columnNumber: 11
+              }, this)
+            ] }, void 0, !0, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 292,
-              columnNumber: 2
-            },
-            this
-          )
+              lineNumber: 228,
+              columnNumber: 9
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "h-captcha", "data-sitekey": "7e96e6a6-eef8-4624-be9c-e468b5a8b230" }, void 0, !1, {
+              fileName: "app/routes/index.tsx",
+              lineNumber: 232,
+              columnNumber: 9
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { id: "6d48f", type: "hidden", name: "l", value: "6d48fffe-7d37-4c14-b317-3e4cda33a647" }, void 0, !1, {
+              fileName: "app/routes/index.tsx",
+              lineNumber: 233,
+              columnNumber: 9
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, !1, {
+              fileName: "app/routes/index.tsx",
+              lineNumber: 234,
+              columnNumber: 9
+            }, this)
+          ] }, void 0, !0, {
+            fileName: "app/routes/index.tsx",
+            lineNumber: 227,
+            columnNumber: 7
+          }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 285,
+          lineNumber: 220,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "box", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: bg1_default }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 309,
+            lineNumber: 238,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Start advertising with us" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 310,
+            lineNumber: 239,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "Start or expand your marketing funnel by placing your ads exactly where people do business \u2014 the email inbox." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: [
+            "Jeffamzn helps you diversify your brand by placing your ads where people do business \u2014 the email inbox. ",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("br", {}, void 0, !1, {
+              fileName: "app/routes/index.tsx",
+              lineNumber: 240,
+              columnNumber: 116
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("br", {}, void 0, !1, {
+              fileName: "app/routes/index.tsx",
+              lineNumber: 240,
+              columnNumber: 122
+            }, this),
+            "Get started today by remixing your existing LinkedIn, Meta, or X ads and posts into newsletter ads that still look good."
+          ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 311,
+            lineNumber: 240,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", className: "pricebtn", children: "Start a campaign" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 312,
+            lineNumber: 241,
             columnNumber: 9
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 308,
+          lineNumber: 237,
           columnNumber: 7
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 284,
+        lineNumber: 219,
         columnNumber: 15
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 279,
+      lineNumber: 214,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-blog", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "header", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "JEFFAMZN NEWS" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 342,
+          lineNumber: 271,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h3", { children: "The latest and greatest." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 343,
+          lineNumber: 272,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 341,
+        lineNumber: 270,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("ul", { className: "grid", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("li", { className: "box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
@@ -876,17 +837,17 @@ function Index() {
           children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: "https://jeffamazn.com/Screen-Shot-2025-06-03-at-5.09.08-PM.png", alt: "Test Campaign Preview" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 351,
+              lineNumber: 280,
               columnNumber: 9
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h2", { children: "Test Campaign \u2014 Preview" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 352,
+              lineNumber: 281,
               columnNumber: 9
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: "June 29, 2025" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 353,
+              lineNumber: 282,
               columnNumber: 9
             }, this)
           ]
@@ -895,228 +856,228 @@ function Index() {
         !0,
         {
           fileName: "app/routes/index.tsx",
-          lineNumber: 347,
+          lineNumber: 276,
           columnNumber: 7
         },
         this
       ) }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 346,
+        lineNumber: 275,
         columnNumber: 5
       }, this) }, void 0, !1, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 345,
+        lineNumber: 274,
         columnNumber: 3
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 340,
+      lineNumber: 269,
       columnNumber: 1
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "footer", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "footer-top", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "footer-logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: ja1_default, alt: "Logo" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 361,
+          lineNumber: 290,
           columnNumber: 11
         }, this) }, void 0, !1, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 360,
+          lineNumber: 289,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "footer-links", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "column", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "Company" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 365,
+              lineNumber: 294,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "#", children: "About" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 366,
+              lineNumber: 295,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:press@jeffamzn.com", children: "Press" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 367,
+              lineNumber: 296,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:job@jeffamzn.com", children: "Careers" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 368,
+              lineNumber: 297,
               columnNumber: 13
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 364,
+            lineNumber: 293,
             columnNumber: 11
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "column", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "Ads" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 371,
+              lineNumber: 300,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:plan@jeffamzn.com", children: "Request Plan" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 372,
+              lineNumber: 301,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://app.jeffamzn.com/campaign/9f60dcc3-107c-4075-94a8-cb5c96a36423/6716369b-5785-4c74-be76-73af2558eebb", rel: "noopener noreferrer", children: "Media Kit" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 373,
+              lineNumber: 302,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://app.jeffamzn.com/campaign/b80e7e1c-c9b6-4eee-9809-602e24a0a2f8/6716369b-5785-4c74-be76-73af2558eebb", rel: "noopener noreferrer", children: "Rate Card" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 374,
+              lineNumber: 303,
               columnNumber: 13
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 370,
+            lineNumber: 299,
             columnNumber: 11
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "column", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "Support" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 377,
+              lineNumber: 306,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "#", children: "Getting Started" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 378,
+              lineNumber: 307,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "#", children: "Archive" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 379,
+              lineNumber: 308,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", children: "Contact" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 380,
+              lineNumber: 309,
               columnNumber: 13
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 376,
+            lineNumber: 305,
             columnNumber: 11
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "column", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "Jeffamzn" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 383,
+              lineNumber: 312,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:buy@jeffamzn.com", children: "Start a Campaign" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 384,
+              lineNumber: 313,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "#", children: "Case Studies" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 385,
+              lineNumber: 314,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(import_react4.Link, { to: "#", children: "Sign up" }, void 0, !1, {
               fileName: "app/routes/index.tsx",
-              lineNumber: 386,
+              lineNumber: 315,
               columnNumber: 13
             }, this)
           ] }, void 0, !0, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 382,
+            lineNumber: 311,
             columnNumber: 11
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 363,
+          lineNumber: 292,
           columnNumber: 9
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 359,
+        lineNumber: 288,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "footer-bottom", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "footer-meta", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://policies.google.com/privacy?hl=en-US", target: "_blank", rel: "noopener noreferrer", children: "Privacy Policy" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 393,
+            lineNumber: 322,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://policies.google.com/terms?hl=en-US", target: "_blank", rel: "noopener noreferrer", children: "Terms of Service" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 396,
+            lineNumber: 325,
             columnNumber: 9
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 392,
+          lineNumber: 321,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "footer-social", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://instagram.com/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: ig_default, alt: "Instagram" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 402,
+            lineNumber: 331,
             columnNumber: 11
           }, this) }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 401,
+            lineNumber: 330,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://x.com/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: x_default, alt: "X (formerly Twitter)" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 405,
+            lineNumber: 334,
             columnNumber: 11
           }, this) }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 404,
+            lineNumber: 333,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 408,
+            lineNumber: 337,
             columnNumber: 11
           }, this) }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 407,
+            lineNumber: 336,
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: email_default, alt: "Email us" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 411,
+            lineNumber: 340,
             columnNumber: 11
           }, this) }, void 0, !1, {
             fileName: "app/routes/index.tsx",
-            lineNumber: 410,
+            lineNumber: 339,
             columnNumber: 9
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/index.tsx",
-          lineNumber: 400,
+          lineNumber: 329,
           columnNumber: 9
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
-        lineNumber: 391,
+        lineNumber: 320,
         columnNumber: 7
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 358,
+      lineNumber: 287,
       columnNumber: 5
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/index.tsx",
-    lineNumber: 144,
+    lineNumber: 84,
     columnNumber: 5
   }, this);
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CNAB4QVH.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-MLXP554J.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "08d20259", hmr: void 0, url: "/build/manifest-08D20259.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-J6SPVFH4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-6PXFGSXB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "112c5fd5", hmr: void 0, url: "/build/manifest-112C5FD5.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

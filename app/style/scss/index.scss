@@ -18,7 +18,7 @@
         font-size:4rem;
     }
     h2 {
-        font-size:4.5rem;
+        font-size:4rem;
         font-family: kl;
     }
     h3 {
@@ -66,6 +66,10 @@ form {
   display: flex;
   flex-direction: column;
   margin-left: 0;
+.h-captcha{
+  margin:0;
+  padding-top:.25rem;
+}
 .input-wrapper {
   position: relative;
   width: 28rem;
@@ -119,7 +123,6 @@ button.submit {
       padding-top:6rem;
       margin-left:0;
       color:#fff;
-      width:87.5%;
     }
   span{
       font-size:4.5rem;
@@ -466,6 +469,10 @@ p {
   flex-direction: column;
   margin-left: 0;
   margin-top:1.25rem;
+  .h-captcha{
+  margin:0;
+  padding-top:.25rem;
+}
 .input-wrapper {
   position: relative;
   width: 29.75rem;

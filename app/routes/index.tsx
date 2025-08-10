@@ -28,13 +28,13 @@ const ads = [
     image: promoads,
     title: "Promoted Ads",
     description:
-      "Promoted ads allow you to showcase your product or service with a single image or gif.",
+      "Promoted ads allow you to showcase your idea with a single image or gif.",
   },
   {
     image: takeoverads,
     title: "Takeover Ads",
     description:
-      "Our most premium mass-reach placements that drive more engagement and results.",
+      "Our premium widescreen ads increase engagement with a CTA button.",
   },
   {
     image: textads,
@@ -65,81 +65,21 @@ export default function Index() {
   // Ads carousel handlers (unchanged)
   const next = () => setAdIndex((prev) => (prev + 1) % ads.length);
   const prev = () => setAdIndex((prev) => (prev - 1 + ads.length) % ads.length);
-  const topFormRef = useRef<HTMLFormElement | null>(null);
-  const bottomFormRef = useRef<HTMLFormElement | null>(null);
+  
+    useEffect(() => {
+    // Dynamically load the hCaptcha script
+    const script = document.createElement("script");
+    script.src = "https://js.hcaptcha.com/1/api.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
 
-  const topWidgetId = useRef<number | null>(null);
-  const bottomWidgetId = useRef<number | null>(null);
-
-  // Track which form is submitting ("top" or "bottom")
-  const submittingFormRef = useRef<"top" | "bottom" | null>(null);
-
-  useEffect(() => {
-    if (!document.getElementById("hcaptcha-script")) {
-      const script = document.createElement("script");
-      script.id = "hcaptcha-script";
-      script.src = "https://js.hcaptcha.com/1/api.js?onload=hcaptchaOnLoad&render=explicit";
-      script.async = true;
-      script.defer = true;
-      document.body.appendChild(script);
-    }
-
-    // global callback when hCaptcha script loads
-    (window as any).hcaptchaOnLoad = () => {
-      if ((window as any).hcaptcha) {
-        if (topFormRef.current) {
-          topWidgetId.current = (window as any).hcaptcha.render(
-            topFormRef.current.querySelector(".h-captcha"),
-            {
-              sitekey: "7e96e6a6-eef8-4624-be9c-e468b5a8b230",
-              size: "invisible",
-              callback: onSubmitCallback,
-            }
-          );
-        }
-        if (bottomFormRef.current) {
-          bottomWidgetId.current = (window as any).hcaptcha.render(
-            bottomFormRef.current.querySelector(".h-captcha"),
-            {
-              sitekey: "7e96e6a6-eef8-4624-be9c-e468b5a8b230",
-              size: "invisible",
-              callback: onSubmitCallback,
-            }
-          );
-        }
-      }
+    // Clean up script on component unmount
+    return () => {
+      document.body.removeChild(script);
     };
-
-    // Called when captcha verification completes successfully
-    function onSubmitCallback(token: string) {
-      if (submittingFormRef.current === "top" && topFormRef.current) {
-        topFormRef.current.submit();
-      } else if (submittingFormRef.current === "bottom" && bottomFormRef.current) {
-        bottomFormRef.current.submit();
-      }
-      submittingFormRef.current = null;
-    }
   }, []);
 
-  // Form submit handler factory
-  const handleFormSubmit = (which: "top" | "bottom") => (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    submittingFormRef.current = which;
-
-    if ((window as any).hcaptcha) {
-      if (which === "top" && topWidgetId.current !== null) {
-        (window as any).hcaptcha.execute(topWidgetId.current);
-      } else if (which === "bottom" && bottomWidgetId.current !== null) {
-        (window as any).hcaptcha.execute(bottomWidgetId.current);
-      } else {
-        // fallback: no widget id, just submit immediately
-        (which === "top" ? topFormRef.current : bottomFormRef.current)?.submit();
-      }
-    } else {
-      (which === "top" ? topFormRef.current : bottomFormRef.current)?.submit();
-    }
-  };
-  
   return (
     <div className="container">
       <div className="logo">
@@ -157,17 +97,12 @@ export default function Index() {
             </h1>
             <p>Subscribe to stay informed.</p>
           </div>
-      <form
-        ref={topFormRef}
-        method="post"
-        action="https://app.jeffamzn.com/subscription/form"
-        onSubmit={handleFormSubmit("top")}
-      >
+      <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
           <button className="submit" type="submit">Subscribe</button>
         </div>
-        <div className="h-captcha"></div>
+        <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
         <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
         <input type="hidden" name="nonce" />
       </form>
@@ -175,8 +110,8 @@ export default function Index() {
         <img src={mainbg} alt="Background" />
       </div>
       <div className="inner-content2">
-        <h2>The <span>one newsletter</span> that helps you stay informed</h2>
-        <Link to="#"><p>Every day Jeffamzn sends you a quick timeline of what's happening in the world. Easy to digest. And read by the most authoritative minds in business.</p></Link>
+        <h2>The <span>one newsletter</span> you can trust</h2>
+        <Link to="#"><p>Become smarter in just 2 minutes. Every day of the week Jeffamzn delivers quick and insightful updates about the business world.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -191,23 +126,23 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Jeffamzn is not the only way to know what's happening in the world. But it's a pretty good way to know what's happening in the world. Don't start your day without knowing what's really happening.</p>
+            <p>Jeffamzn is not the only way to know what's going on in the business world, but it's a pretty good way to know what's going on in the business world. Join Jeffamzn to stay informed.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
           <h1>Every story that matters</h1>
-          <p>Get every business news story that matters delivered straight to your inbox every day.</p>
+          <p>Get every business news story that matters delivered to you.</p>
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>An audience with authority</h1>
-          <p>Join high powered tech execs, founders, and 9 figure operators who want to know what's really going on in the world.</p>
+          <h1>No pesky bots</h1>
+          <p>Join high powered tech execs and founders who want to stay informed.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Enjoy smarter conversations</h1>
-          <p>Have more informed and smarter conversations with colleagues, customers and friends.</p>
+          <h1>Deeper discussions</h1>
+          <p>Have deeper discussions about the latest technology trends.</p>
         </div>
       </div>
       <div className="btn">
@@ -220,7 +155,7 @@ export default function Index() {
             <h4>ADVERTISE WITH US</h4>
             <h3>Connect with your next customers on Jeffamzn.</h3>
             </div>
-            <p>Jeffamzn's audience is authoritative, engaged, and constantly in discovery mode.</p>
+            <p>Jeffamzn is one of the most engaged email audiences in the world, and we're constantly in discovery mode.</p>
       </div>
       <div className="ads-carousel">
         <button className="carousel-button prev" onClick={prev}>◀</button>
@@ -248,31 +183,31 @@ export default function Index() {
       <div className="inner-content10">
         <div className="header">
             <h4>MOST POPULAR</h4>
-            <h3>Promoted Ads.</h3>
+            <h3>Remixed Ads.</h3>
         </div>
         <div className="grid">
         <div className="box">
           <img src={convertads} />
           <h1>Promote a post from LinkedIn, Instagram, or X</h1>
-          <p>Have a successful post on social? promote it to our audience and increase your engagement.</p>
+          <p>Have a successful post on social? promote it to our audience to increase your engagement.</p>
         </div>
         <div className="box">
           <img src={newads} />
           <h1>Use existing Meta and LinkedIn ad campaigns</h1>
-          <p>Give your existing Meta or LinkedIn ad campaigns an extra boost as email newsletter ads.</p>
+          <p>Remix your existing Meta or LinkedIn ads to give them an extra boost as email newsletter ads.</p>
         </div>
         </div>
       </div>
       <div className="inner-content11">
         <div className="header">
-            <h4>TAKEOVER OUR TIMELINE</h4>
-            <h3>Widen your ad.</h3>
+            <h4>WIDESCREEN</h4>
+            <h3>Takeover Ads.</h3>
         </div>
         <div className="grid">
         <div className="box">
           <img src={takeoverbg} />
           <h1>Takeover Ads</h1>
-          <p>Give your favorite ads a widescreen image experience that takes over our timeline and maximizes engagement.</p>
+          <p>Give your favorite ads a widescreen experience that takes over our timeline to maximize engagement.</p>
         </div>
         </div>
       </div>
@@ -289,18 +224,12 @@ export default function Index() {
               Sign up for free to get the most authoritative business newsletter
               in the world, delivered straight to your inbox every day.
             </p>
- <form
-        ref={bottomFormRef}
-        method="post"
-        action="https://app.jeffamzn.com/subscription/form"
-        target="_blank"
-        onSubmit={handleFormSubmit("bottom")}
-      >
+      <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
           <button className="submit" type="submit">Sign up</button>
         </div>
-        <div className="h-captcha"></div>
+        <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
         <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
         <input type="hidden" name="nonce" />
       </form>
@@ -308,7 +237,7 @@ export default function Index() {
       <div className="box">
         <img src={bg1} />
         <h1>Start advertising with us</h1>
-        <p>Start or expand your marketing funnel by placing your ads exactly where people do business — the email inbox.</p>
+        <p>Jeffamzn helps you diversify your brand by placing your ads where people do business — the email inbox. <br /><br />Get started today by remixing your existing LinkedIn, Meta, or X ads and posts into newsletter ads that still look good.</p>
         <a href="mailto:hey@jeffamzn.com" className="pricebtn">
             Start a campaign
         </a>
