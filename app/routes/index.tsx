@@ -132,17 +132,17 @@ export default function Index() {
         <div className="box">
           <img src={sama} />
           <h1>Every story that matters</h1>
-          <p>Get every business news story that matters delivered to you.</p>
+          <p>Get every business news story that matters — delivered to you.</p>
         </div>
         <div className="box">
           <img src={tobi} />
           <h1>No bots</h1>
-          <p>Join high powered tech execs and founders who want to stay informed.</p>
+          <p>Join high powered tech execs and founders who quickly stay informed.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Deeper discussions</h1>
-          <p>Have deeper discussions about the latest technology trends.</p>
+          <h1>Discuss real ideas</h1>
+          <p>Have deeper discussions about all the latest technology trends.</p>
         </div>
       </div>
       <div className="btn">

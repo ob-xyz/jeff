@@ -300,7 +300,7 @@ function Index() {
           lineNumber: 134,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get every business news story that matters delivered to you." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get every business news story that matters \u2014 delivered to you." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 135,
           columnNumber: 11
@@ -321,7 +321,7 @@ function Index() {
           lineNumber: 139,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join high powered tech execs and founders who want to stay informed." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join high powered tech execs and founders who quickly stay informed." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 140,
           columnNumber: 11
@@ -337,12 +337,12 @@ function Index() {
           lineNumber: 143,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Deeper discussions" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Discuss real ideas" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 144,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Have deeper discussions about the latest technology trends." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Have deeper discussions about all the latest technology trends." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 145,
           columnNumber: 11
@@ -966,4 +966,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-ZRNIZURA.js.map
+//# sourceMappingURL=/build/routes/index-F7C5E6JW.js.map
