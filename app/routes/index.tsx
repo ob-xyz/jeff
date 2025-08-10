@@ -26,9 +26,9 @@ const rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the worl
 const ads = [
   {
     image: promoads,
-    title: "Promoted Ads",
+    title: "Boosted Ads",
     description:
-      "Promoted ads allow you to showcase your idea with a single image or gif.",
+      "Boosted ads allow you to showcase your product or service with a single image or gif.",
   },
   {
     image: takeoverads,
@@ -177,24 +177,24 @@ export default function Index() {
       </div>
       <div className="btn">
         <a href="mailto:hey@jeffamzn.com" className="pricebtn">
-            Start a campaign
+            Boost a post
       </a>
       </div>
       <div className="inner-content10">
         <div className="header">
             <h4>MOST POPULAR</h4>
-            <h3>Remixed Ads.</h3>
+            <h3>Boosted Ads.</h3>
         </div>
         <div className="grid">
         <div className="box">
           <img src={convertads} />
-          <h1>Promote a post from LinkedIn, Instagram, or X</h1>
-          <p>Have a successful post on social? promote it to our audience to increase your engagement.</p>
+          <h1>Boost a post from LinkedIn, Instagram, or X</h1>
+          <p>Have a successful post on social? boost it to our audience to increase your engagement.</p>
         </div>
         <div className="box">
           <img src={newads} />
-          <h1>Use existing Meta and LinkedIn ad campaigns</h1>
-          <p>Remix your existing Meta or LinkedIn ads to give them an extra boost as email newsletter ads.</p>
+          <h1>Use your existing Meta and LinkedIn ad campaigns</h1>
+          <p>Give your existing LinkedIn or Meta ads an extra boost as email newsletter ads.</p>
         </div>
         </div>
       </div>
@@ -221,8 +221,7 @@ export default function Index() {
             <img src={bg} alt="Sign up free" />
             <h1>Sign up for free</h1>
             <p>
-              Sign up for free to get the most authoritative business newsletter
-              in the world, delivered straight to your inbox every day.
+              Sign up for free to get the business world delivered straight to your inbox every day of the week.
             </p>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -239,7 +238,7 @@ export default function Index() {
         <h1>Start advertising with us</h1>
         <p>Jeffamzn helps you diversify your brand by placing your ads where people do business — the email inbox. <br /><br />Get started today by remixing your existing LinkedIn, Meta, or X ads and posts into newsletter ads that still look good.</p>
         <a href="mailto:hey@jeffamzn.com" className="pricebtn">
-            Start a campaign
+            Boost a post
         </a>
       </div>
       </div>
