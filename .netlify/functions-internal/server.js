@@ -55,7 +55,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-ZYSIJ6NY.css";
+var global_default = "/build/_assets/global-4MCMMVXL.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -197,17 +197,17 @@ var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), rotatingWords = 
   {
     image: promoted_ads_default,
     title: "Promoted Ads",
-    description: "Promoted ads allow you to showcase your product or service with a single image or gif."
+    description: "Showcase your product or service with a single image or short gif."
   },
   {
     image: takeover_ads_default,
     title: "Takeover Ads",
-    description: "Our premium widescreen ads increase engagement with a CTA button."
+    description: "Maxmize your engagement with a big image and custom CTA."
   },
   {
     image: text_ads_default,
     title: "Text Ads",
-    description: "The easiest way to promote a press release or quick thought to our most loyal readers."
+    description: "A quick and easy way to promote your ideas to our readers."
   }
 ];
 function Index() {
@@ -1077,7 +1077,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CEUAHZ53.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-NGZN3AVJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "62a2fad5", hmr: void 0, url: "/build/manifest-62A2FAD5.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-L4M56NCA.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VBPAYRY7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "7e7e3dd3", hmr: void 0, url: "/build/manifest-7E7E3DD3.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

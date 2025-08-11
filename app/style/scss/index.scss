@@ -267,7 +267,7 @@ p {
 }
 .ads-carousel {
   position: relative;
-  width: 35%;
+  width: 27.5%;
   overflow: hidden;
   .carousel-track {
     display: flex;
@@ -284,8 +284,8 @@ p {
     text-align: left;
     border-radius:.5rem;
     img {
-      width: 60%;
-      border-radius: 2.75rem;
+      width: 62.5%;
+      border-radius: 2.5rem;
     }
     h1 {
       text-align: center;
@@ -817,9 +817,10 @@ form {
 }
 .ads-carousel {
   margin: 0 auto;
-  width: 40%;
+  width: 25%;
  .box {
     img {
+      width:60%;
       border-radius: 1rem;
     }
   } 
@@ -1149,9 +1150,10 @@ form {
 }
 .ads-carousel {
   margin: 0 auto;
-  width: 75%;
+  width: 55%;
  .box {
     img {
+      width:50%;
       border-radius: 1rem;
     }
   } 

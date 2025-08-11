@@ -28,19 +28,19 @@ const ads = [
     image: promoads,
     title: "Promoted Ads",
     description:
-      "Promoted ads allow you to showcase your product or service with a single image or gif.",
+      "Showcase your product or service with a single image or short gif.",
   },
   {
     image: takeoverads,
     title: "Takeover Ads",
     description:
-      "Our premium widescreen ads increase engagement with a CTA button.",
+      "Maxmize your engagement with a big image and custom CTA.",
   },
   {
     image: textads,
     title: "Text Ads",
     description:
-      "The easiest way to promote a press release or quick thought to our most loyal readers.",
+      "A quick and easy way to promote your ideas to our readers.",
   },
 ];
 
@@ -141,8 +141,8 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Informed discussions </h1>
-          <p>Have informed discussions about all the latest technology trends.</p>
+          <h1>Real discussions </h1>
+          <p>Discuss real ideas from real people.</p>
         </div>
       </div>
       <div className="btn">
