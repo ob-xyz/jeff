@@ -177,7 +177,7 @@ export default function Index() {
       </div>
       <div className="btn">
         <a href="mailto:hey@jeffamzn.com" className="pricebtn">
-            Promote a post
+            Start a campaign
       </a>
       </div>
       <div className="inner-content10">
@@ -238,7 +238,7 @@ export default function Index() {
         <h1>Advertise with us</h1>
         <p>Jeffamzn helps you diversify your brand by placing your content where people do business — the email inbox. <br /><br />Get started today by promoting just one of your existing LinkedIn, Instagram, Facebook, or X posts.</p>
         <a href="mailto:hey@jeffamzn.com" className="pricebtn">
-            Promote a post
+            Start a campaign
         </a>
       </div>
       </div>
