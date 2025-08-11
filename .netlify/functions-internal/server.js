@@ -136,13 +136,13 @@ var import_react3 = require("react"), import_react4 = require("@remix-run/react"
 var ja1_default = "/build/_assets/ja1-ZP4Y3AOT.png";
 
 // public/img/promoted-ads.png
-var promoted_ads_default = "/build/_assets/promoted-ads-WP43K5F2.png";
+var promoted_ads_default = "/build/_assets/promoted-ads-43WUEOAA.png";
 
 // public/img/takeover-ads.png
-var takeover_ads_default = "/build/_assets/takeover-ads-ZKOBHDM7.png";
+var takeover_ads_default = "/build/_assets/takeover-ads-CEMG6WW2.png";
 
 // public/img/text-ads.png
-var text_ads_default = "/build/_assets/text-ads-2M56BVR3.png";
+var text_ads_default = "/build/_assets/text-ads-JKN2YR45.png";
 
 // public/img/samae.jpg
 var samae_default = "/build/_assets/samae-CWPSNLTO.jpg";
@@ -157,10 +157,10 @@ var jensene_default = "/build/_assets/jensene-YYPH47ZK.jpg";
 var newads_default = "/build/_assets/newads-A2NPDGWT.jpg";
 
 // public/img/convertads.jpg
-var convertads_default = "/build/_assets/convertads-JSJUWURI.jpg";
+var convertads_default = "/build/_assets/convertads-DMFY3TE3.jpg";
 
 // public/img/takeoverbg.jpg
-var takeoverbg_default = "/build/_assets/takeoverbg-BX2YXBVT.jpg";
+var takeoverbg_default = "/build/_assets/takeoverbg-Y5YO6SS6.jpg";
 
 // public/img/trump.webp
 var trump_default = "/build/_assets/trump-BMRPD2H4.webp";
@@ -561,7 +561,7 @@ function Index() {
       lineNumber: 160,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", className: "pricebtn", children: "Promote a post" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", className: "pricebtn", children: "Start a campaign" }, void 0, !1, {
       fileName: "app/routes/index.tsx",
       lineNumber: 179,
       columnNumber: 9
@@ -642,7 +642,7 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content11", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "header", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "BIGGEST EXPERIENCE" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h4", { children: "MOST VIEWED" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 203,
           columnNumber: 13
@@ -792,7 +792,7 @@ function Index() {
             lineNumber: 239,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", className: "pricebtn", children: "Promote a post" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", className: "pricebtn", children: "Start a campaign" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 240,
             columnNumber: 9
@@ -1077,7 +1077,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CEUAHZ53.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-C5M5B7NF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "38476e92", hmr: void 0, url: "/build/manifest-38476E92.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CEUAHZ53.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-NGZN3AVJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "62a2fad5", hmr: void 0, url: "/build/manifest-62A2FAD5.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
