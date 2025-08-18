@@ -393,7 +393,7 @@ function Index() {
               lineNumber: 159,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/about", children: "About" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/", children: "Home" }, void 0, false, {
               fileName: "app/routes/ads/advertise-with-us.tsx",
               lineNumber: 160,
               columnNumber: 11
@@ -527,4 +527,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/advertise-with-us-DMTWHWMJ.js.map
+//# sourceMappingURL=/build/routes/ads/advertise-with-us-B4ILPUCH.js.map

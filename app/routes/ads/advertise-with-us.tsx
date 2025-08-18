@@ -157,7 +157,7 @@ export default function Index() {
       <div className="footer-links">
         <div className="column">
           <h4>Company</h4>
-          <Link to="/about">About</Link>
+          <Link to="/">Home</Link>
           <a href="mailto:press@jeffamzn.com">Press</a>
           <Link to="/ads/advertise-with-us">Advertise With Us</Link>
         </div>

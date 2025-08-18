@@ -57,7 +57,7 @@ function Index() {
         lineNumber: 34,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn is a daily newsletter to stay informed about the business and technology worlds." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn is a daily newsletter for go-getters who want to stay informed about the business world." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 35,
         columnNumber: 9
@@ -249,7 +249,7 @@ function Index() {
               lineNumber: 87,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/about", children: "About" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/", children: "Home" }, void 0, false, {
               fileName: "app/routes/about.tsx",
               lineNumber: 88,
               columnNumber: 11
@@ -383,4 +383,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-NQXLBWKD.js.map
+//# sourceMappingURL=/build/routes/about-6RPDVQRU.js.map

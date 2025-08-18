@@ -32,7 +32,7 @@ export default function Index() {
       </div>
       <div className="content-aboutus2">
         <h2><span>Staying informed is hard.</span> We make it easy.</h2>
-        <p>Jeffamzn is a daily newsletter to stay informed about the business and technology worlds.</p>
+        <p>Jeffamzn is a daily newsletter for go-getters who want to stay informed about the business world.</p>
       </div>
       <div className="content-aboutus3">
       <div className="header">
@@ -85,7 +85,7 @@ export default function Index() {
       <div className="footer-links">
         <div className="column">
           <h4>Company</h4>
-          <Link to="/about">About</Link>
+          <Link to="/">Home</Link>
           <a href="mailto:press@jeffamzn.com">Press</a>
           <Link to="/ads/advertise-with-us">Advertise With Us</Link>
         </div>
