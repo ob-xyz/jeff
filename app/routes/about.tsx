@@ -32,7 +32,7 @@ export default function Index() {
       </div>
       <div className="content-aboutus2">
         <h2><span>Staying informed is hard.</span> We make it easy.</h2>
-        <p>Jeffamzn is a daily newsletter for go-getters who want to stay informed about the business world.</p>
+        <p>Jeffamzn is a daily newsletter for go-getters who like to stay informed about the business world.</p>
       </div>
       <div className="content-aboutus3">
       <div className="header">
