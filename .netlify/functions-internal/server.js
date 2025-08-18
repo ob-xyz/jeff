@@ -1163,7 +1163,7 @@ function Index3() {
         lineNumber: 78,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_react8.Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Jeffamzn is daily habit that helps you stay informed about the latest technology and trends happening in the business world." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_react8.Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Jeffamzn is daily habit that helps you stay informed about the latest and greatest trends happening in the business world." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 79,
         columnNumber: 22
@@ -1254,12 +1254,12 @@ function Index3() {
           lineNumber: 103,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h1", { children: "100% signal" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h1", { children: "Real go-getters" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 104,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Jeffamzn removes the noise of pro thread bois and shameless self promoters." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Join go-getter tech execs, founders, and venture capitalists building the world." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 105,
           columnNumber: 11
@@ -1275,12 +1275,12 @@ function Index3() {
           lineNumber: 108,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h1", { children: "Sunday Dive" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h1", { children: "Free deep dive" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 109,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Enjoy our Sunday Dive into one current, big thing happening in our lives." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Enjoy our free Sunday Dive into one current, big thing happening in our lives." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 110,
           columnNumber: 11
@@ -1561,7 +1561,7 @@ function Index3() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-PUDDEVLJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-6RPDVQRU.js", imports: ["/build/_shared/chunk-E7AKTGCF.js", "/build/_shared/chunk-VG66BXVD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise-with-us": { id: "routes/ads/advertise-with-us", parentId: "root", path: "ads/advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-with-us-LKVBISFC.js", imports: ["/build/_shared/chunk-E7AKTGCF.js", "/build/_shared/chunk-VG66BXVD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-FQPYQ3FO.js", imports: ["/build/_shared/chunk-VG66BXVD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "d6807810", hmr: void 0, url: "/build/manifest-D6807810.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-YX4PKDA3.js", imports: ["/build/_shared/chunk-PXBPMIIH.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-PUDDEVLJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-6RPDVQRU.js", imports: ["/build/_shared/chunk-E7AKTGCF.js", "/build/_shared/chunk-VG66BXVD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise-with-us": { id: "routes/ads/advertise-with-us", parentId: "root", path: "ads/advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-with-us-LKVBISFC.js", imports: ["/build/_shared/chunk-E7AKTGCF.js", "/build/_shared/chunk-VG66BXVD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-72BDVJJ2.js", imports: ["/build/_shared/chunk-VG66BXVD.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "2c569afc", hmr: void 0, url: "/build/manifest-2C569AFC.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

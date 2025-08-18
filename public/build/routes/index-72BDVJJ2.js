@@ -163,7 +163,7 @@ function Index() {
         lineNumber: 78,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn is daily habit that helps you stay informed about the latest technology and trends happening in the business world." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn is daily habit that helps you stay informed about the latest and greatest trends happening in the business world." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 79,
         columnNumber: 22
@@ -254,12 +254,12 @@ function Index() {
           lineNumber: 103,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "100% signal" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Real go-getters" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 104,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn removes the noise of pro thread bois and shameless self promoters." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join go-getter tech execs, founders, and venture capitalists building the world." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 105,
           columnNumber: 11
@@ -275,12 +275,12 @@ function Index() {
           lineNumber: 108,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Sunday Dive" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Free deep dive" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 109,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our Sunday Dive into one current, big thing happening in our lives." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our free Sunday Dive into one current, big thing happening in our lives." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 110,
           columnNumber: 11
@@ -562,4 +562,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-FQPYQ3FO.js.map
+//# sourceMappingURL=/build/routes/index-72BDVJJ2.js.map
