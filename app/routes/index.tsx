@@ -99,7 +99,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2>The <span>one newsletter</span> you can trust</h2>
-        <Link to="#"><p>Stay informed in just 5 minutes. Jeffamzn is a daily habit that helps you stay informed about trending technology and business news.</p></Link>
+        <Link to="#"><p>Stay informed in just 5 minutes. Jeffamzn is a daily habit that helps you stay informed about technology and trends in the business world.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
