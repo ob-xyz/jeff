@@ -30,7 +30,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "Jeffamzn : Business News You Can Trust",
-  description: "Don't start your day without knowing what's going on in the world.",
+  description: "Jeffamzn is a daily newsletter for go-getters who make things.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -88,4 +88,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-PUDDEVLJ.js.map
+//# sourceMappingURL=/build/root-AAOU5FB6.js.map

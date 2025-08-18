@@ -163,7 +163,7 @@ function Index() {
         lineNumber: 78,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn helps you stay informed about what's going on in the business world." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day of the week Jeffamzn helps you know what's really going on in the business world." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 79,
         columnNumber: 22
@@ -216,7 +216,7 @@ function Index() {
         lineNumber: 93,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day of the week Jeffamzn is read by go-getters who make things." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Read by go-getters who make things and stay informed." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 94,
         columnNumber: 13
@@ -238,7 +238,7 @@ function Index() {
           lineNumber: 99,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join go-getter tech execs, founders, and venture capitalists who just do things." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join go-getter tech execs, founders, and venture capitalists who stay informed." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 100,
           columnNumber: 11
@@ -562,4 +562,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-CQNIISQE.js.map
+//# sourceMappingURL=/build/routes/index-EG74VYLB.js.map

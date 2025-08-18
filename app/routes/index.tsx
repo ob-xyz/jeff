@@ -76,7 +76,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2>The <span>one newsletter</span> you can trust</h2>
-        <Link to="#"><p>Jeffamzn helps you stay informed about what's going on in the business world.</p></Link>
+        <Link to="#"><p>Every day of the week Jeffamzn helps you know what's really going on in the business world.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -91,13 +91,13 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Every day of the week Jeffamzn is read by go-getters who make things.</p>
+            <p>Read by go-getters who make things and stay informed.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
           <h1>Go-getters who make things</h1>
-          <p>Join go-getter tech execs, founders, and venture capitalists who just do things.</p>
+          <p>Join go-getter tech execs, founders, and venture capitalists who stay informed.</p>
         </div>
         <div className="box">
           <img src={tobi} />
