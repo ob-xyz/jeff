@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
@@ -8,15 +8,9 @@ import textads from "~/../public/img/text-ads.png";
 import sama from "~/../public/img/samae.jpg";
 import tobi from "~/../public/img/tobic.jpg";
 import jensen from "~/../public/img/jensene.jpg";
-import newads from "~/../public/img/newads.jpg";
-import convertads from "~/../public/img/convertads.jpg";
-import takeoverbg from "~/../public/img/takeoverbg.jpg";
 import trump from "~/../public/img/trump.webp";
-import mainbg from "~/../public/img/mainbg.png";
 import dd from "~/../public/img/rocket.jpg";
 import handcoin from "~/../public/img/handcoin.jpg";
-import bg from "~/../public/img/bg.jpg";
-import bg1 from "~/../public/img/bg1.jpg";
 import linkedin from "~/../public/img/in.png";
 import ig from "~/../public/img/ig.png";
 import x from "~/../public/img/x.png";
@@ -47,7 +41,6 @@ const ads = [
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
-  const [adIndex, setAdIndex] = useState(0);
 
 
   // Word rotation effect (unchanged)
@@ -62,10 +55,6 @@ export default function Index() {
     return () => clearInterval(interval);
   }, []);
 
-  // Ads carousel handlers (unchanged)
-  const next = () => setAdIndex((prev) => (prev + 1) % ads.length);
-  const prev = () => setAdIndex((prev) => (prev - 1 + ads.length) % ads.length);
-  
     useEffect(() => {
     // Dynamically load the hCaptcha script
     const script = document.createElement("script");
@@ -107,11 +96,10 @@ export default function Index() {
         <input type="hidden" name="nonce" />
       </form>
         </div>
-        <img src={mainbg} alt="Background" />
       </div>
       <div className="inner-content2">
         <h2>The <span>one newsletter</span> you can trust</h2>
-        <Link to="#"><p>Become informed in just 5 minutes. Every day of the week Jeffamzn delivers a quick and insightful update about the business world.</p></Link>
+        <Link to="#"><p>Stay informed in just 5 minutes. Jeffamzn is a daily habit that helps you stay informed about trending technology and business news.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -149,99 +137,6 @@ export default function Index() {
         <Link to="#" className="pricebtn">
             Sign up for free
       </Link>
-      </div>
-      <div className="inner-content7">
-            <div className="text">
-            <h4>ADVERTISE WITH US</h4>
-            <h3>Connect with your next customers on Jeffamzn.</h3>
-            </div>
-            <p>Jeffamzn is one of the most engaged email audiences in the world, and we're constantly in discovery mode.</p>
-      </div>
-      <div className="ads-carousel">
-        <button className="carousel-button prev" onClick={prev}>◀</button>
-        <button className="carousel-button next" onClick={next}>▶</button>
-        <div
-          className="carousel-track"
-          style={{ transform: `translateX(-${adIndex * 100}%)` }}
-        >
-          {ads.map((ad, i) => (
-            <div className="carousel-slide" key={i}>
-              <div className="box">
-                <img src={ad.image} alt={ad.title} />
-                <h1>{ad.title}</h1>
-                <p>{ad.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="btn">
-        <a href="mailto:hey@jeffamzn.com" className="pricebtn">
-            Start a campaign
-      </a>
-      </div>
-      <div className="inner-content10">
-        <div className="header">
-            <h4>MOST POPULAR</h4>
-            <h3>Promoted Ads.</h3>
-        </div>
-        <div className="grid">
-        <div className="box">
-          <img src={convertads} />
-          <h1>Promote a post from social media</h1>
-          <p>Have a successful post on LinkedIn, Instagram, Facebook, or X? promote it to our audience to increase your engagement.</p>
-        </div>
-        <div className="box">
-          <img src={newads} />
-          <h1>Use existing Meta and LinkedIn ads</h1>
-          <p>Give your existing Instagram, Facebook, or LinkedIn ads an extra boost as Jeffamzn ads.</p>
-        </div>
-        </div>
-      </div>
-      <div className="inner-content11">
-        <div className="header">
-            <h4>MOST VIEWED</h4>
-            <h3>Takeover Ads.</h3>
-        </div>
-        <div className="grid">
-        <div className="box">
-          <img src={takeoverbg} />
-          <h1>Takeover Ads</h1>
-          <p>Give your favorite ads a big experience that takes over our timeline with a widescreen image and a CTA button to maximize engagement.</p>
-        </div>
-        </div>
-      </div>
-      <div className="inner-content12">
-      <div className="header">
-        <h4>GETTING STARTED</h4>
-        <h3>Start your journey with Jeffamzn.</h3>
-      </div>
-              <div className="grid">
-          <div className="box">
-            <img src={bg} alt="Sign up free" />
-            <h1>Sign up for free</h1>
-            <p>
-              Sign up for free to get the business world delivered straight to your inbox every day of the week.
-            </p>
-      <form method="post" action="https://app.jeffamzn.com/subscription/form">
-        <div className="input-wrapper">
-          <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">Sign up</button>
-        </div>
-        <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
-        <input type="hidden" name="nonce" />
-      </form>
-      </div>
-      <div className="box">
-        <img src={bg1} />
-        <h1>Advertise with us</h1>
-        <p>Jeffamzn helps you diversify your brand by placing your content where people do business — the email inbox. <br /><br />Get started today by promoting just one of your existing LinkedIn, Instagram, Facebook, or X posts.</p>
-        <a href="mailto:hey@jeffamzn.com" className="pricebtn">
-            Start a campaign
-        </a>
-      </div>
-      </div>
       </div>
 {/* <div className="inner-blog">
     <div className="header">
@@ -287,31 +182,30 @@ export default function Index() {
       <div className="footer-top">
         <div className="footer-logo">
           <img src={logo} alt="Logo" />
+          <p>Subscribe to Jeffamzn.</p>
+          <form method="post" action="https://app.jeffamzn.com/subscription/form">
+            <div className="input-wrapper">
+              <input className="email" type="email" name="email" required placeholder="Email Address *" />
+              <button className="submit" type="submit">Sign up</button>
+            </div>
+            <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
+            <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+            <input type="hidden" name="nonce" />
+          </form>
         </div>
+        
         <div className="footer-links">
           <div className="column">
             <h4>Company</h4>
-            <Link to="#">About</Link>
+            <Link to="/about">About</Link>
             <a href="mailto:press@jeffamzn.com">Press</a>
-            <a href="mailto:job@jeffamzn.com">Careers</a>
-          </div>
-          <div className="column">
-            <h4>Ads</h4>
-            <a href="mailto:plan@jeffamzn.com">Request Plan</a>
-            <a href="https://app.jeffamzn.com/campaign/9f60dcc3-107c-4075-94a8-cb5c96a36423/6716369b-5785-4c74-be76-73af2558eebb" rel="noopener noreferrer">Media Kit</a>
-            <a href="https://app.jeffamzn.com/campaign/b80e7e1c-c9b6-4eee-9809-602e24a0a2f8/6716369b-5785-4c74-be76-73af2558eebb" rel="noopener noreferrer">Rate Card</a>
+            <Link to="/ads/advertise-with-us">Advertise With Us</Link>
           </div>
           <div className="column">
             <h4>Support</h4>
-            <Link to="#">Getting Started</Link>
+            <Link to="#">Sign Up</Link>
             <Link to="#">Archive</Link>
             <a href="mailto:hey@jeffamzn.com">Contact</a>
-          </div>
-          <div className="column">
-            <h4>Jeffamzn</h4>
-            <a href="mailto:buy@jeffamzn.com">Start a Campaign</a>
-            <Link to="#">Case Studies</Link>
-            <Link to="#">Sign up</Link>
           </div>
         </div>
       </div>
@@ -338,9 +232,8 @@ export default function Index() {
         <a href="mailto:hey@jeffamzn.com">
           <img src={email} alt="Email us" />
         </a>
-    
         </div>
-   </div>
+      </div>
       </div>
     </div>
   );
