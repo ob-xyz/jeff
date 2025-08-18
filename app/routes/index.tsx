@@ -2,9 +2,6 @@ import { useEffect, useState } from "react";
 import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
-import promoads from "~/../public/img/promoted-ads.png";
-import takeoverads from "~/../public/img/takeover-ads.png";
-import textads from "~/../public/img/text-ads.png";
 import sama from "~/../public/img/samae.jpg";
 import tobi from "~/../public/img/tobic.jpg";
 import jensen from "~/../public/img/jensene.jpg";
@@ -16,28 +13,8 @@ import ig from "~/../public/img/ig.png";
 import x from "~/../public/img/x.png";
 import email from "~/../public/img/email.png";
 
-const rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the world."];
-const ads = [
-  {
-    image: promoads,
-    title: "Promoted Ads",
-    description:
-      "Showcase your product or service with a single image or short gif.",
-  },
-  {
-    image: takeoverads,
-    title: "Takeover Ads",
-    description:
-      "Maxmize your engagement with a big image and custom CTA.",
-  },
-  {
-    image: textads,
-    title: "Text Ads",
-    description:
-      "A quick and easy way to promote your ideas to our readers.",
-  },
-];
 
+const rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the world."];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
@@ -114,7 +91,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Jeffamzn is not the only way to know what's going on in the business world, but it's a pretty good way to know what's going on in the business world.</p>
+            <p>Every day of the week Jeffamzn delivers a 5 minute or less newsletter on what's happening at the edges of technology and business.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
@@ -124,13 +101,13 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>No bots</h1>
-          <p>Join high powered tech execs and founders who quickly stay informed.</p>
+          <h1>100% signal</h1>
+          <p>Jeffamzn removes the noise of pro thread bois and shameless self promoters.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Real discussions </h1>
-          <p>Discuss real ideas from real people.</p>
+          <h1>Sunday Dive</h1>
+          <p>Enjoy our Sunday Dive into one current, big thing happening in our lives.</p>
         </div>
       </div>
       <div className="btn">
