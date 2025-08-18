@@ -86,18 +86,17 @@ export default function Index() {
         <div className="column">
           <h4>Company</h4>
           <Link to="/">Home</Link>
-          <a href="mailto:press@jeffamzn.com">Press</a>
+          <Link to="#">About</Link>
           <Link to="/ads/advertise-with-us">Advertise With Us</Link>
         </div>
         <div className="column">
           <h4>Support</h4>
-          <Link to="#">Sign Up</Link>
-          <Link to="#">Archive</Link>
           <a href="mailto:hey@jeffamzn.com">Contact</a>
+          <a href="mailto:press@jeffamzn.com">Press</a>
+          <Link to="/">Sign Up</Link>
         </div>
       </div>
     </div>
-
     <div className="footer-bottom">
       <div className="footer-meta">
       <a href="https://policies.google.com/privacy?hl=en-US" target="_blank" rel="noopener noreferrer">

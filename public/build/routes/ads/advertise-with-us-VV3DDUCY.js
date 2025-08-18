@@ -402,12 +402,12 @@ function Index() {
               lineNumber: 160,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:press@jeffamzn.com", children: "Press" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/about", children: "About" }, void 0, false, {
               fileName: "app/routes/ads/advertise-with-us.tsx",
               lineNumber: 161,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/ads/advertise-with-us", children: "Advertise With Us" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: "Advertise With Us" }, void 0, false, {
               fileName: "app/routes/ads/advertise-with-us.tsx",
               lineNumber: 162,
               columnNumber: 11
@@ -423,17 +423,17 @@ function Index() {
               lineNumber: 165,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: "Sign Up" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", children: "Contact" }, void 0, false, {
               fileName: "app/routes/ads/advertise-with-us.tsx",
               lineNumber: 166,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: "Archive" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:press@jeffamzn.com", children: "Press" }, void 0, false, {
               fileName: "app/routes/ads/advertise-with-us.tsx",
               lineNumber: 167,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", children: "Contact" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/", children: "Sign Up" }, void 0, false, {
               fileName: "app/routes/ads/advertise-with-us.tsx",
               lineNumber: 168,
               columnNumber: 11
@@ -531,4 +531,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/advertise-with-us-LKVBISFC.js.map
+//# sourceMappingURL=/build/routes/ads/advertise-with-us-VV3DDUCY.js.map

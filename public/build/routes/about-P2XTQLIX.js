@@ -254,7 +254,7 @@ function Index() {
               lineNumber: 88,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:press@jeffamzn.com", children: "Press" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: "About" }, void 0, false, {
               fileName: "app/routes/about.tsx",
               lineNumber: 89,
               columnNumber: 11
@@ -275,17 +275,17 @@ function Index() {
               lineNumber: 93,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: "Sign Up" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", children: "Contact" }, void 0, false, {
               fileName: "app/routes/about.tsx",
               lineNumber: 94,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: "Archive" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:press@jeffamzn.com", children: "Press" }, void 0, false, {
               fileName: "app/routes/about.tsx",
               lineNumber: 95,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", children: "Contact" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/", children: "Sign Up" }, void 0, false, {
               fileName: "app/routes/about.tsx",
               lineNumber: 96,
               columnNumber: 11
@@ -309,64 +309,64 @@ function Index() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "footer-meta", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://policies.google.com/privacy?hl=en-US", target: "_blank", rel: "noopener noreferrer", children: "Privacy Policy" }, void 0, false, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 103,
+            lineNumber: 102,
             columnNumber: 7
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://policies.google.com/terms?hl=en-US", target: "_blank", rel: "noopener noreferrer", children: "Terms of Service" }, void 0, false, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 106,
+            lineNumber: 105,
             columnNumber: 7
           }, this)
         ] }, void 0, true, {
           fileName: "app/routes/about.tsx",
-          lineNumber: 102,
+          lineNumber: 101,
           columnNumber: 7
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "footer-social", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://instagram.com/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: ig_default, alt: "Instagram" }, void 0, false, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 112,
+            lineNumber: 111,
             columnNumber: 9
           }, this) }, void 0, false, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 111,
+            lineNumber: 110,
             columnNumber: 7
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://x.com/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: x_default, alt: "X (formerly Twitter)" }, void 0, false, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 115,
+            lineNumber: 114,
             columnNumber: 9
           }, this) }, void 0, false, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 114,
+            lineNumber: 113,
             columnNumber: 7
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, false, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 118,
+            lineNumber: 117,
             columnNumber: 9
           }, this) }, void 0, false, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 117,
+            lineNumber: 116,
             columnNumber: 7
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: email_default, alt: "Email us" }, void 0, false, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 121,
+            lineNumber: 120,
             columnNumber: 9
           }, this) }, void 0, false, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 120,
+            lineNumber: 119,
             columnNumber: 7
           }, this)
         ] }, void 0, true, {
           fileName: "app/routes/about.tsx",
-          lineNumber: 110,
+          lineNumber: 109,
           columnNumber: 7
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 101,
+        lineNumber: 100,
         columnNumber: 5
       }, this)
     ] }, void 0, true, {
@@ -383,4 +383,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-33WZSQSJ.js.map
+//# sourceMappingURL=/build/routes/about-P2XTQLIX.js.map

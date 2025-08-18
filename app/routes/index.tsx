@@ -171,21 +171,21 @@ export default function Index() {
           </form>
         </div>
         
-        <div className="footer-links">
-          <div className="column">
-            <h4>Company</h4>
-            <Link to="/about">About</Link>
-            <a href="mailto:press@jeffamzn.com">Press</a>
-            <Link to="/ads/advertise-with-us">Advertise With Us</Link>
-          </div>
-          <div className="column">
-            <h4>Support</h4>
-            <Link to="#">Sign Up</Link>
-            <Link to="#">Archive</Link>
-            <a href="mailto:hey@jeffamzn.com">Contact</a>
-          </div>
+      <div className="footer-links">
+        <div className="column">
+          <h4>Company</h4>
+          <Link to="#">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/ads/advertise-with-us">Advertise With Us</Link>
+        </div>
+        <div className="column">
+          <h4>Support</h4>
+          <a href="mailto:hey@jeffamzn.com">Contact</a>
+          <a href="mailto:press@jeffamzn.com">Press</a>
+          <Link to="#">Sign Up</Link>
         </div>
       </div>
+    </div>
 
       <div className="footer-bottom">
         <div className="footer-meta">
