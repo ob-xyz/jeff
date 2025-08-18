@@ -163,7 +163,7 @@ function Index() {
         lineNumber: 78,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day of the week Jeffamzn helps you stay informed about what's happening in the business world." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn helps you stay informed about what's going on in the business world." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 79,
         columnNumber: 22
@@ -216,7 +216,7 @@ function Index() {
         lineNumber: 93,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day Jeffamzn is read by some of the most ambitious go-getters in the world." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day of the week Jeffamzn is read by go-getters who make things." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 94,
         columnNumber: 13
@@ -233,12 +233,12 @@ function Index() {
           lineNumber: 98,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Every story that matters" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Go-getters who make things" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 99,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get every business news story that matters \u2014 delivered to you." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join go-getter tech execs, founders, and venture capitalists who just do things." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 100,
           columnNumber: 11
@@ -254,12 +254,12 @@ function Index() {
           lineNumber: 103,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Real go-getters" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Every story that matters" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 104,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join go-getter tech execs, founders, and venture capitalists building the world." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get every business news story that matters \u2014 delivered to you." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 105,
           columnNumber: 11
@@ -275,12 +275,12 @@ function Index() {
           lineNumber: 108,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Free deep dive" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Our Sunday Dive" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 109,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our free Sunday Dive into one current thing about your lifestyle." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our free Sunday Dive into one current thing happening in your life." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 110,
           columnNumber: 11
@@ -562,4 +562,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-T2EONBOQ.js.map
+//# sourceMappingURL=/build/routes/index-CQNIISQE.js.map

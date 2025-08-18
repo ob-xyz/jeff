@@ -76,7 +76,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2>The <span>one newsletter</span> you can trust</h2>
-        <Link to="#"><p>Every day of the week Jeffamzn helps you stay informed about what's happening in the business world.</p></Link>
+        <Link to="#"><p>Jeffamzn helps you stay informed about what's going on in the business world.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -91,23 +91,23 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Every day Jeffamzn is read by some of the most ambitious go-getters in the world.</p>
+            <p>Every day of the week Jeffamzn is read by go-getters who make things.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
+          <h1>Go-getters who make things</h1>
+          <p>Join go-getter tech execs, founders, and venture capitalists who just do things.</p>
+        </div>
+        <div className="box">
+          <img src={tobi} />
           <h1>Every story that matters</h1>
           <p>Get every business news story that matters — delivered to you.</p>
         </div>
         <div className="box">
-          <img src={tobi} />
-          <h1>Real go-getters</h1>
-          <p>Join go-getter tech execs, founders, and venture capitalists building the world.</p>
-        </div>
-        <div className="box">
           <img src={jensen} />
-          <h1>Free deep dive</h1>
-          <p>Enjoy our free Sunday Dive into one current thing about your lifestyle.</p>
+          <h1>Our Sunday Dive</h1>
+          <p>Enjoy our free Sunday Dive into one current thing happening in your life.</p>
         </div>
       </div>
       <div className="btn">
