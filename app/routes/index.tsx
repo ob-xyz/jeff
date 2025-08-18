@@ -76,7 +76,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2>The <span>one newsletter</span> you can trust</h2>
-        <Link to="#"><p>Jeffamzn is daily habit that helps you stay informed about the latest and greatest trends happening in the business world.</p></Link>
+        <Link to="#"><p>Every day of the week Jeffamzn helps you stay informed about what's happening in the business world.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -90,8 +90,8 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content4">
-            <h3>Delivered straight to your inbox.</h3>
-            <p>Every day of the week Jeffamzn delivers a 5 minute or less newsletter on what's happening at the edges of technology and business.</p>
+            <h3>Delivered straight to your inbox daily.</h3>
+            <p>Every day Jeffamzn is read by some of the most ambitious go-getters in the world.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
@@ -107,7 +107,7 @@ export default function Index() {
         <div className="box">
           <img src={jensen} />
           <h1>Free deep dive</h1>
-          <p>Enjoy our free Sunday Dive into one current, big thing happening in our lives.</p>
+          <p>Enjoy our free Sunday Dive into one current thing about your lifestyle.</p>
         </div>
       </div>
       <div className="btn">

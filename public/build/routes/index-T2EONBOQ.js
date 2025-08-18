@@ -163,7 +163,7 @@ function Index() {
         lineNumber: 78,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn is daily habit that helps you stay informed about the latest and greatest trends happening in the business world." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day of the week Jeffamzn helps you stay informed about what's happening in the business world." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 79,
         columnNumber: 22
@@ -211,12 +211,12 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content4", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h3", { children: "Delivered straight to your inbox." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h3", { children: "Delivered straight to your inbox daily." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 93,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day of the week Jeffamzn delivers a 5 minute or less newsletter on what's happening at the edges of technology and business." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day Jeffamzn is read by some of the most ambitious go-getters in the world." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 94,
         columnNumber: 13
@@ -280,7 +280,7 @@ function Index() {
           lineNumber: 109,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our free Sunday Dive into one current, big thing happening in our lives." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our free Sunday Dive into one current thing about your lifestyle." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 110,
           columnNumber: 11
@@ -562,4 +562,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-72BDVJJ2.js.map
+//# sourceMappingURL=/build/routes/index-T2EONBOQ.js.map
