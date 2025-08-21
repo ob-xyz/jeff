@@ -58,158 +58,157 @@ export default function Index() {
   }, []);
 
   return (
-    <div className="content-awu">
-      <div className="logo">
-        <img src={logo} alt="Jeffamzn Logo" />
-      </div>
-      <div className="content-awu2">
-            <div className="text">
-            <h4>ADVERTISE WITH US</h4>
-            <h3>Connect with your next customers on Jeffamzn.</h3>
+  <div className="content-awu">
+    <div className="logo">
+      <img src={logo} alt="Jeffamzn Logo" />
+    </div>
+    <div className="content-awu2">
+          <div className="text">
+          <h4>ADVERTISE WITH US</h4>
+          <h3>Connect with your next customers on Jeffamzn.</h3>
+          </div>
+          <p>Jeffamzn is one of the most engaged email audiences in the world, and we're constantly in discovery mode.</p>
+    </div>
+    <div className="ads-carousel">
+      <button className="carousel-button prev" onClick={prev}>◀</button>
+      <button className="carousel-button next" onClick={next}>▶</button>
+      <div
+        className="carousel-track"
+        style={{ transform: `translateX(-${adIndex * 100}%)` }}
+      >
+        {ads.map((ad, i) => (
+          <div className="carousel-slide" key={i}>
+            <div className="box">
+              <img src={ad.image} alt={ad.title} />
+              <h1>{ad.title}</h1>
+              <p>{ad.description}</p>
             </div>
-            <p>Jeffamzn is one of the most engaged email audiences in the world, and we're constantly in discovery mode.</p>
+          </div>
+        ))}
       </div>
-      <div className="ads-carousel">
-        <button className="carousel-button prev" onClick={prev}>◀</button>
-        <button className="carousel-button next" onClick={next}>▶</button>
-        <div
-          className="carousel-track"
-          style={{ transform: `translateX(-${adIndex * 100}%)` }}
-        >
-          {ads.map((ad, i) => (
-            <div className="carousel-slide" key={i}>
-              <div className="box">
-                <img src={ad.image} alt={ad.title} />
-                <h1>{ad.title}</h1>
-                <p>{ad.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+    </div>
+    <div className="btn">
+      <a href="mailto:hey@jeffamzn.com" className="pricebtn">
+          Start a campaign
+    </a>
+    </div>
+    <div className="content-awu3">
+      <div className="header">
+          <h4>MOST POPULAR</h4>
+          <h3>Promoted Ads.</h3>
       </div>
-      <div className="btn">
-        <a href="mailto:hey@jeffamzn.com" className="pricebtn">
-            Start a campaign
+      <div className="grid">
+      <div className="box">
+        <img src={convertads} />
+        <h1>Promote a post from social media</h1>
+        <p>Have a successful post on LinkedIn, Instagram, Facebook, or X? promote it to our audience to increase your engagement.</p>
+      </div>
+      <div className="box">
+        <img src={newads} />
+        <h1>Use existing Meta and LinkedIn ads</h1>
+        <p>Give your existing Instagram, Facebook, or LinkedIn ads an extra boost as Jeffamzn ads.</p>
+      </div>
+      </div>
+    </div>
+    <div className="content-awu4">
+      <div className="header">
+          <h4>BIGGEST VIEWS</h4>
+          <h3>Takeover Ads.</h3>
+      </div>
+      <div className="grid">
+      <div className="box">
+        <img src={takeoverbg} />
+        <h1>Takeover Ads</h1>
+        <p>Give your favorite ads a big experience that takes over our timeline with a widescreen image and a CTA button to maximize engagement.</p>
+      </div>
+      </div>
+    </div>
+    <div className="content-awu5">
+    <div className="header">
+      <h4>QUICK THOUGHT</h4>
+      <h3>Text Ads.</h3>
+    </div>
+    <div className="grid">
+    <div className="box">
+      <img src={takeoverbg2} />
+      <h1>Text Ads</h1>
+      <p>Send your hottest takes directly to our audience.</p>
+    </div>
+    </div>
+    </div>
+    <div className="content-awu6">
+    <div className="header">
+      <h4>GETTING STARTED</h4>
+      <h3>Start your journey with Jeffamzn.</h3>
+    </div>
+    <div className="grid">
+    <div className="box">
+      <img src={bg1} />
+      <h1>Advertise with us</h1>
+      <p>Jeffamzn helps you diversify your brand by placing your content where people do business — the email inbox.</p>
+      <a href="mailto:hey@jeffamzn.com" className="pricebtn">
+          Start a campaign
+      </a>
+    </div>
+    </div>
+    </div>
+    <div className="footer">
+      <img src={logo} alt="Logo" />
+    <div className="footer-top">
+      <div className="footer-signup">
+        <p>Subscribe to Jeffamzn.</p>
+        <form method="post" action="https://app.jeffamzn.com/subscription/form">
+          <div className="input-wrapper">
+            <input className="email" type="email" name="email" required placeholder="Email Address *" />
+            <button className="submit" type="submit">Sign up</button>
+          </div>
+          <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
+          <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+          <input type="hidden" name="nonce" />
+        </form>
+      </div>
+      
+    <div className="footer-links">
+      <div className="column">
+        <h4>Company</h4>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="#">Advertise With Us</Link>
+      </div>
+      <div className="column">
+        <h4>Support</h4>
+        <a href="mailto:hey@jeffamzn.com">Contact</a>
+        <a href="mailto:press@jeffamzn.com">Press</a>
+        <Link to="#">Sign Up</Link>
+      </div>
+    </div>
+    </div>
+
+    <div className="footer-bottom">
+      <div className="footer-meta">
+      <a href="https://policies.google.com/privacy?hl=en-US" target="_blank" rel="noopener noreferrer">
+        Privacy Policy
+      </a>
+      <a href="https://policies.google.com/terms?hl=en-US" target="_blank" rel="noopener noreferrer">
+        Terms of Service
       </a>
       </div>
-      <div className="content-awu3">
-        <div className="header">
-            <h4>MOST POPULAR</h4>
-            <h3>Promoted Ads.</h3>
-        </div>
-        <div className="grid">
-        <div className="box">
-          <img src={convertads} />
-          <h1>Promote a post from social media</h1>
-          <p>Have a successful post on LinkedIn, Instagram, Facebook, or X? promote it to our audience to increase your engagement.</p>
-        </div>
-        <div className="box">
-          <img src={newads} />
-          <h1>Use existing Meta and LinkedIn ads</h1>
-          <p>Give your existing Instagram, Facebook, or LinkedIn ads an extra boost as Jeffamzn ads.</p>
-        </div>
-        </div>
+      <div className="footer-social">
+      <a href="https://instagram.com/jeffamzn" target="_blank" rel="noopener noreferrer">
+        <img src={ig} alt="Instagram" />
+      </a>
+      <a href="https://x.com/jeffamzn" target="_blank" rel="noopener noreferrer">
+        <img src={x} alt="X (formerly Twitter)" />
+      </a>
+      <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
+        <img src={linkedin} alt="LinkedIn" />
+      </a>
+      <a href="mailto:hey@jeffamzn.com">
+        <img src={email} alt="Email us" />
+      </a>
       </div>
-      <div className="content-awu4">
-        <div className="header">
-            <h4>BIGGEST VIEWS</h4>
-            <h3>Takeover Ads.</h3>
-        </div>
-        <div className="grid">
-        <div className="box">
-          <img src={takeoverbg} />
-          <h1>Takeover Ads</h1>
-          <p>Give your favorite ads a big experience that takes over our timeline with a widescreen image and a CTA button to maximize engagement.</p>
-        </div>
-        </div>
-      </div>
-      <div className="content-awu5">
-      <div className="header">
-        <h4>QUICK THOUGHT</h4>
-        <h3>Text Ads.</h3>
-      </div>
-      <div className="grid">
-      <div className="box">
-        <img src={takeoverbg2} />
-        <h1>Text Ads</h1>
-        <p>Send your hottest takes directly to our audience.</p>
-      </div>
-      </div>
-      </div>
-      <div className="content-awu6">
-      <div className="header">
-        <h4>GETTING STARTED</h4>
-        <h3>Start your journey with Jeffamzn.</h3>
-      </div>
-      <div className="grid">
-      <div className="box">
-        <img src={bg1} />
-        <h1>Advertise with us</h1>
-        <p>Jeffamzn helps you diversify your brand by placing your content where people do business — the email inbox.</p>
-        <a href="mailto:hey@jeffamzn.com" className="pricebtn">
-            Start a campaign
-        </a>
-      </div>
-      </div>
-      </div>
-
-<div className="footer">
-  <img src={logo} alt="Logo" />
-<div className="footer-top">
-  <div className="footer-signup">
-    <p>Subscribe to Jeffamzn.</p>
-    <form method="post" action="https://app.jeffamzn.com/subscription/form">
-      <div className="input-wrapper">
-        <input className="email" type="email" name="email" required placeholder="Email Address *" />
-        <button className="submit" type="submit">Sign up</button>
-      </div>
-      <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-      <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
-      <input type="hidden" name="nonce" />
-    </form>
-  </div>
-  
-<div className="footer-links">
-  <div className="column">
-    <h4>Company</h4>
-    <Link to="#">Home</Link>
-    <Link to="/about">About</Link>
-    <Link to="/ads/advertise-with-us">Advertise With Us</Link>
-  </div>
-  <div className="column">
-    <h4>Support</h4>
-    <a href="mailto:hey@jeffamzn.com">Contact</a>
-    <a href="mailto:press@jeffamzn.com">Press</a>
-    <Link to="#">Sign Up</Link>
-  </div>
-</div>
-</div>
-
-<div className="footer-bottom">
-  <div className="footer-meta">
-  <a href="https://policies.google.com/privacy?hl=en-US" target="_blank" rel="noopener noreferrer">
-    Privacy Policy
-  </a>
-  <a href="https://policies.google.com/terms?hl=en-US" target="_blank" rel="noopener noreferrer">
-    Terms of Service
-  </a>
-  </div>
-  <div className="footer-social">
-  <a href="https://instagram.com/jeffamzn" target="_blank" rel="noopener noreferrer">
-    <img src={ig} alt="Instagram" />
-  </a>
-  <a href="https://x.com/jeffamzn" target="_blank" rel="noopener noreferrer">
-    <img src={x} alt="X (formerly Twitter)" />
-  </a>
-  <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
-    <img src={linkedin} alt="LinkedIn" />
-  </a>
-  <a href="mailto:hey@jeffamzn.com">
-    <img src={email} alt="Email us" />
-  </a>
-  </div>
-</div>
-</div>
+    </div>
+    </div>
   </div>
   );
 }
