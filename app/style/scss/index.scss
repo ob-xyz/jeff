@@ -178,7 +178,7 @@ p {
             margin-left: 0;
         }
         p{
-            margin-top:.75rem;
+            margin-bottom:.4rem;
             color: #71717A;
             width:67.5%;
         }
@@ -315,41 +315,7 @@ p {
     border-bottom: 1px solid #333;
     padding-bottom: 4rem;
     margin-bottom: 2rem;
-.footer-links {
-      display: flex;
-      margin:0 0;
-      padding-top:4.75rem;
-.column {
-  display: flex;
-  flex-direction: column;
-  padding: 0 2rem;
-  margin-top: 0;
 
-  h4,
-  a {
-    text-align: left;
-    width: 100%;
-  }
-
-  h4 {
-    font-family: bold;
-    margin-bottom: 1rem;
-    font-size: 0.85rem;
-  }
-
-  a {
-    color: #000;
-    text-decoration: none;
-    margin-bottom: 0.75rem;
-    font-size: 0.825rem;
-    &:hover {
-      color: #808182;
-      text-decoration: underline;
-    }
-  }
-}
-
-    }
   .footer-signup {
     display:flex;
     align-items: flex-start;
@@ -413,7 +379,41 @@ button.submit {
 }
 }
     }
+.footer-links {
+  display: flex;
+  margin:0 0;
+  padding-top:4.75rem;
+.column {
+display: flex;
+flex-direction: column;
+padding: 0 2rem;
+margin-top: 0;
 
+h4,
+a {
+text-align: left;
+width: 100%;
+}
+
+h4 {
+font-family: bold;
+margin-bottom: 1rem;
+font-size: 0.85rem;
+}
+
+a {
+color: #000;
+text-decoration: none;
+margin-bottom: 0.75rem;
+font-size: 0.825rem;
+&:hover {
+  color: #808182;
+  text-decoration: underline;
+}
+}
+}
+
+}
   }
 
   .footer-bottom {
@@ -498,12 +498,6 @@ button.submit {
 .content{
   margin-top:8rem;
   margin-bottom:3.5rem;
-  img{
-    position:relative;
-    top:-12.5rem;
-    left:-19rem;
-    width:16rem;
-  }
 .inner-content{
         margin-top:5rem;
         margin-left:2.5rem;
@@ -585,12 +579,6 @@ form {
 .content{
   margin-top:8rem;
   margin-bottom:3.5rem;
-  img{
-    position:relative;
-    top:-12.5rem;
-    left:-19rem;
-    width:16rem;
-  }
 .inner-content{
         margin-top:5rem;
         margin-left:2.5rem;
@@ -661,6 +649,8 @@ form {
 }
 
 .footer {
+  padding-left:2.5rem;
+  padding-right:2.5rem;
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
@@ -715,12 +705,6 @@ form {
 .content{
   margin-top:8rem;
   margin-bottom:4rem;
-  img{
-    position:relative;
-    top:-12.5rem;
-    left:-19rem;
-    width:16rem;
-  }
 .inner-content{
         margin-top:5rem;
         margin-left:1rem;
@@ -793,6 +777,8 @@ form {
     margin: 2rem 1rem;
 }
 .footer {
+  padding-left:1.25rem;
+  padding-right:1.25rem;
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
