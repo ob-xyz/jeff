@@ -156,9 +156,9 @@ export default function Index() {
   </ul>
 </div>
     <div className="footer">
+        <img src={logo} alt="Logo" />
       <div className="footer-top">
-        <div className="footer-logo">
-          <img src={logo} alt="Logo" />
+        <div className="footer-signup">
           <p>Subscribe to Jeffamzn.</p>
           <form method="post" action="https://app.jeffamzn.com/subscription/form">
             <div className="input-wrapper">
