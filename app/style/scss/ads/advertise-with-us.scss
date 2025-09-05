@@ -511,6 +511,7 @@ font-size: 0.825rem;
       flex-wrap: wrap;
       gap: 1.25rem;
       margin-left:0;
+      margin-top:0;
       a {
         font-size:.825rem;
         color: #000;
@@ -588,6 +589,9 @@ font-size: 0.825rem;
 }
 }
 .footer {
+  padding-left:2.5rem;
+  padding-right:2.5rem;
+  padding-top:2.5rem;
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
@@ -693,6 +697,7 @@ font-size: 0.825rem;
 .footer {
   padding-left:1.25rem;
   padding-right:1.25rem;
+  padding-top:2.5rem;
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;

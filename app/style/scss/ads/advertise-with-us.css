@@ -494,6 +494,7 @@
   flex-wrap: wrap;
   gap: 1.25rem;
   margin-left: 0;
+  margin-top: 0;
 }
 .content-awu .footer .footer-bottom .footer-meta a {
   font-size: 0.825rem;
@@ -556,6 +557,11 @@
   }
   .content-awu .content-awu3 .grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .content-awu .footer {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 2.5rem;
   }
   .content-awu .footer .footer-top {
     flex-direction: column-reverse;
@@ -655,6 +661,7 @@
   .content-awu .footer {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+    padding-top: 2.5rem;
   }
   .content-awu .footer .footer-top {
     flex-direction: column-reverse;
