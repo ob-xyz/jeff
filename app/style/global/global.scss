@@ -44,7 +44,7 @@ h1 {
   font-weight: 100;
   color: $black;
   text-decoration: none;
-  
+  line-height: normal;
 }
 h2 {
   font-size: 0.8rem;
@@ -52,7 +52,7 @@ h2 {
   font-weight: 100;
   color: $black;
   text-decoration: none;
-  
+  line-height: normal;
 }
 h3,
 h4,
@@ -60,13 +60,13 @@ h5,
 h6 {
   font-family: 'medium';
   color: $black;
-  
+  line-height: normal;
 }
 p {
   font-family: 'book';
   font-size: 1.1rem;
   color: $black;
-  
+  line-height: normal;
 }
 ul,
 ol {
@@ -76,9 +76,11 @@ ol {
 span {
   font-family: bold;
   color: $black;
+  line-height: normal;
 }
 button {
   font-size: 0.8rem;
   font-family: medium;
   font-weight: 100;
+  line-height: normal;
 }

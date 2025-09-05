@@ -56,7 +56,6 @@
 }
 .container h3 {
   font-size: 2.75rem;
-  line-height: 3.5rem;
 }
 .container h4 {
   font-family: kl;
@@ -84,7 +83,6 @@
 }
 .container .content .inner-content .text p {
   text-align: left;
-  line-height: 1.65rem;
   font-size: 1.15rem;
   padding: 1rem 0rem .5rem 0;
   margin-left: 0;
@@ -277,7 +275,6 @@
   color: #c60424;
 }
 .container .inner-blog .header h3 {
-  line-height: 3.5rem;
   margin-left: 0;
 }
 .container .inner-blog .grid {
@@ -347,7 +344,6 @@
 }
 .container .footer .footer-top .footer-signup p {
   margin: 0;
-  line-height: 0;
   padding-top: 2rem;
   padding-bottom: .5rem;
   font-family: ku;
@@ -402,7 +398,7 @@
 .container .footer .footer-top .footer-links {
   display: flex;
   margin: 0;
-  padding-top: 4.75rem;
+  padding-top: 3.75rem;
 }
 .container .footer .footer-top .footer-links .column {
   display: flex;
@@ -438,6 +434,7 @@
   flex-wrap: wrap;
   gap: 1.25rem;
   margin-left: 0;
+  margin-top: 0;
 }
 .container .footer .footer-bottom .footer-meta a {
   font-size: .825rem;
@@ -492,7 +489,6 @@
 @media (min-width: 875px) and (max-width: 1100px) {
   .container h3 {
     font-size: 2.75rem;
-    line-height: 3.25rem;
   }
   .container h4 {
     font-size: 1rem;
@@ -568,7 +564,6 @@
 @media (min-width: 660px) and (max-width: 874px) {
   .container h3 {
     font-size: 2.75rem;
-    line-height: 3.25rem;
   }
   .container h4 {
     font-size: 1rem;
@@ -685,7 +680,6 @@
 @media (max-width: 659px) {
   .container h3 {
     font-size: 2.25rem;
-    line-height: 2.75rem;
   }
   .container h4 {
     font-size: 1rem;
@@ -832,7 +826,6 @@
 }
 .content-aboutus h3 {
   font-size: 2.75rem;
-  line-height: 3.5rem;
 }
 .content-aboutus h4 {
   font-family: kl;
@@ -1004,7 +997,6 @@
 }
 .content-aboutus .footer .footer-top .footer-signup p {
   margin: 0;
-  line-height: 0;
   padding-top: 2rem;
   padding-bottom: .5rem;
   font-family: ku;
@@ -1059,7 +1051,7 @@
 .content-aboutus .footer .footer-top .footer-links {
   display: flex;
   margin: 0;
-  padding-top: 4.75rem;
+  padding-top: 3.75rem;
 }
 .content-aboutus .footer .footer-top .footer-links .column {
   display: flex;
@@ -1128,7 +1120,6 @@
 @media (min-width: 660px) and (max-width: 874px) {
   .content-aboutus h3 {
     font-size: 2.25rem;
-    line-height: 2.75rem;
   }
   .content-aboutus h4 {
     font-size: 1rem;
@@ -1212,7 +1203,6 @@
 @media (max-width: 659px) {
   .content-aboutus h3 {
     font-size: 2.25rem;
-    line-height: 2.75rem;
   }
   .content-aboutus h4 {
     font-size: 1rem;
@@ -1326,7 +1316,6 @@
 }
 .content-awu h3 {
   font-size: 2.75rem;
-  line-height: 3.5rem;
 }
 .content-awu h4 {
   font-family: kl;
@@ -1706,7 +1695,6 @@
 }
 .content-awu .footer .footer-top .footer-signup p {
   margin: 0;
-  line-height: 0;
   padding-top: 2rem;
   padding-bottom: .5rem;
   font-family: ku;
@@ -1761,7 +1749,7 @@
 .content-awu .footer .footer-top .footer-links {
   display: flex;
   margin: 0;
-  padding-top: 4.75rem;
+  padding-top: 3.75rem;
 }
 .content-awu .footer .footer-top .footer-links .column {
   display: flex;
@@ -2030,6 +2018,7 @@ h1 {
   font-weight: 100;
   color: #121212;
   text-decoration: none;
+  line-height: normal;
 }
 h2 {
   font-size: .8rem;
@@ -2037,6 +2026,7 @@ h2 {
   font-weight: 100;
   color: #121212;
   text-decoration: none;
+  line-height: normal;
 }
 h3,
 h4,
@@ -2044,11 +2034,13 @@ h5,
 h6 {
   font-family: medium;
   color: #121212;
+  line-height: normal;
 }
 p {
   font-family: book;
   font-size: 1.1rem;
   color: #121212;
+  line-height: normal;
 }
 ul,
 ol {
@@ -2058,9 +2050,11 @@ ol {
 span {
   font-family: bold;
   color: #121212;
+  line-height: normal;
 }
 button {
   font-size: .8rem;
   font-family: medium;
   font-weight: 100;
+  line-height: normal;
 }

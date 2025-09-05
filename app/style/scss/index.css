@@ -24,7 +24,6 @@
 }
 .container h3 {
   font-size: 2.75rem;
-  line-height: 3.5rem;
 }
 .container h4 {
   font-family: kl;
@@ -52,7 +51,6 @@
 }
 .container .content .inner-content .text p {
   text-align: left;
-  line-height: 1.65rem;
   font-size: 1.15rem;
   padding: 1rem 0rem 0.5rem 0;
   margin-left: 0;
@@ -244,7 +242,6 @@
   color: rgb(198, 4, 36);
 }
 .container .inner-blog .header h3 {
-  line-height: 3.5rem;
   margin-left: 0;
 }
 .container .inner-blog .grid {
@@ -314,7 +311,6 @@
 }
 .container .footer .footer-top .footer-signup p {
   margin: 0;
-  line-height: 0;
   padding-top: 2rem;
   padding-bottom: 0.5rem;
   font-family: "ku";
@@ -369,7 +365,7 @@
 .container .footer .footer-top .footer-links {
   display: flex;
   margin: 0 0;
-  padding-top: 4.75rem;
+  padding-top: 3.75rem;
 }
 .container .footer .footer-top .footer-links .column {
   display: flex;
@@ -405,6 +401,7 @@
   flex-wrap: wrap;
   gap: 1.25rem;
   margin-left: 0;
+  margin-top: 0;
 }
 .container .footer .footer-bottom .footer-meta a {
   font-size: 0.825rem;
@@ -459,7 +456,6 @@
 @media (min-width: 875px) and (max-width: 1100px) {
   .container h3 {
     font-size: 2.75rem;
-    line-height: 3.25rem;
   }
   .container h4 {
     font-size: 1rem;
@@ -534,7 +530,6 @@
 @media (min-width: 660px) and (max-width: 874px) {
   .container h3 {
     font-size: 2.75rem;
-    line-height: 3.25rem;
   }
   .container h4 {
     font-size: 1rem;
@@ -651,7 +646,6 @@
 @media (max-width: 659px) {
   .container h3 {
     font-size: 2.25rem;
-    line-height: 2.75rem;
   }
   .container h4 {
     font-size: 1rem;
