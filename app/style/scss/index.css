@@ -637,6 +637,9 @@
   .container .footer .footer-top .footer-bottom {
     padding-bottom: 1.25rem;
   }
+  .container .footer .footer-top .footer-bottom .footer-meta {
+    gap: 0.75rem;
+  }
   .container .footer .footer-top .footer-bottom .footer-social {
     gap: 1.25rem;
   }
@@ -757,6 +760,9 @@
   }
   .container .footer .footer-top .footer-bottom {
     padding-bottom: 1.25rem;
+  }
+  .container .footer .footer-top .footer-bottom .footer-meta {
+    gap: 0.75rem;
   }
   .container .footer .footer-top .footer-bottom .footer-social {
     gap: 1.25rem;

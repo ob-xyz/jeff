@@ -4,6 +4,8 @@
 @import '../scss/index.scss';
 @import '../scss/about.scss';
 @import '../scss/ads/advertise-with-us.scss';
+@import '../scss/policies/privacy.scss';
+
 
 
 * {
@@ -68,10 +70,11 @@ p {
   color: $black;
   line-height: normal;
 }
-ul,
-ol {
-  list-style: none;
-  margin: 0;
+li {
+  font-family: 'book';
+  font-size: 1.1rem;
+  color: $black;
+  line-height: normal;
 }
 span {
   font-family: bold;

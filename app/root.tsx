@@ -1,5 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
-import type { LinksFunction } from "@remix-run/node"; // or cloudflare/deno
+import type { LinksFunction } from "@remix-run/node";
 import {
   Links,
   LiveReload,
@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Jeffamzn : Business News You Can Trust",
-  description: "Jeffamzn is a daily newsletter for go-getters who make things.",
+  description: "Jeffamzn is a daily newsletter for tech execs, founders, and venture capitalists who build and buy things.",
   viewport: "width=device-width,initial-scale=1",
 });
 
