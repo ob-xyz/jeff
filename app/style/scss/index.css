@@ -51,7 +51,6 @@
 }
 .container .content .inner-content .text p {
   text-align: left;
-  font-size: 1.15rem;
   padding: 1rem 0rem 0.5rem 0;
   margin-left: 0;
 }
@@ -66,7 +65,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 28rem;
+  width: 32.5rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -89,7 +88,7 @@
   top: 2px;
   right: 2px;
   bottom: 2px;
-  padding: 0 1rem;
+  padding: 0 2rem;
   background-color: #fafafa;
   color: black;
   border: none;
@@ -284,141 +283,6 @@
   color: #71717A;
   margin: 0;
   flex-grow: 1;
-}
-.container .footer {
-  width: 100%;
-  padding: 10rem 5rem 3rem 5rem;
-  box-sizing: border-box;
-}
-.container .footer img {
-  margin: 0;
-  width: 3rem;
-  border-radius: 10rem;
-}
-.container .footer .footer-top {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  border-bottom: 1px solid #333;
-  padding-bottom: 4rem;
-  margin-bottom: 2rem;
-}
-.container .footer .footer-top .footer-signup {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  margin: 0;
-}
-.container .footer .footer-top .footer-signup p {
-  margin: 0;
-  padding-top: 2rem;
-  padding-bottom: 0.5rem;
-  font-family: "ku";
-  font-size: 2.5rem;
-}
-.container .footer .footer-top .footer-signup form {
-  display: flex;
-  flex-direction: column;
-  margin-left: 0;
-  margin-top: 1.25rem;
-}
-.container .footer .footer-top .footer-signup form .h-captcha {
-  margin: 0;
-  padding-top: 0.25rem;
-}
-.container .footer .footer-top .footer-signup form .input-wrapper {
-  position: relative;
-  width: 29.75rem;
-}
-.container .footer .footer-top .footer-signup form input.email {
-  width: 100%;
-  padding: 0.85rem 6rem 0.85rem 0.75rem;
-  color: #000;
-  border: 0.15rem solid #02090A;
-  border-radius: 0.2rem;
-  font-size: 1.1rem;
-  box-sizing: border-box;
-}
-.container .footer .footer-top .footer-signup form input.email:focus {
-  outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
-}
-.container .footer .footer-top .footer-signup form button.submit {
-  position: absolute;
-  top: 2px;
-  right: 2px;
-  bottom: 2px;
-  padding: 0 2rem;
-  background-color: #fafafa;
-  color: black;
-  border: none;
-  border-left: 0.12rem solid #02090A;
-  border-radius: 0 0.2rem 0.2rem 0;
-  font-size: 1rem;
-}
-.container .footer .footer-top .footer-signup form button.submit:hover {
-  background-color: #F5F5F5;
-  cursor: pointer;
-}
-.container .footer .footer-top .footer-links {
-  display: flex;
-  margin: 0 0;
-  padding-top: 3.75rem;
-}
-.container .footer .footer-top .footer-links .column {
-  display: flex;
-  flex-direction: column;
-  padding: 0 2rem;
-  margin-top: 0;
-}
-.container .footer .footer-top .footer-links .column h4,
-.container .footer .footer-top .footer-links .column a {
-  text-align: left;
-  width: 100%;
-}
-.container .footer .footer-top .footer-links .column h4 {
-  font-family: bold;
-  margin-bottom: 1rem;
-  font-size: 0.85rem;
-}
-.container .footer .footer-top .footer-links .column a {
-  color: #000;
-  text-decoration: none;
-  margin-bottom: 0.75rem;
-  font-size: 0.825rem;
-}
-.container .footer .footer-top .footer-links .column a:hover {
-  color: #808182;
-  text-decoration: underline;
-}
-.container .footer .footer-bottom {
-  display: flex;
-}
-.container .footer .footer-bottom .footer-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.25rem;
-  margin-left: 0;
-  margin-top: 0;
-}
-.container .footer .footer-bottom .footer-meta a {
-  font-size: 0.825rem;
-  color: #000;
-}
-.container .footer .footer-bottom .footer-meta a:hover {
-  color: #808182;
-  text-decoration: underline;
-}
-.container .footer .footer-bottom .footer-social {
-  display: flex;
-  gap: 1.25rem;
-  margin-right: 0;
-}
-.container .footer .footer-bottom .footer-social img {
-  width: 1.15rem;
-  border-radius: 0;
 }
 .container .fade-in {
   animation: scrollFadeIn 0.55s ease-in-out forwards;

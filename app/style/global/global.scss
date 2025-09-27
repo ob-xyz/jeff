@@ -1,12 +1,11 @@
-@import '../global/Fonts.scss';
-@import '../global/Colors.scss';
-@import '../global/Buttons.scss';
-@import '../scss/index.scss';
-@import '../scss/about.scss';
-@import '../scss/ads/advertise-with-us.scss';
-@import '../scss/policies/privacy.scss';
-
-
+@import '../global/Fonts.scss',
+'../global/Colors.scss',
+'../global/Buttons.scss',
+'../scss/index.scss',
+'../scss/about.scss',
+'../scss/ads/advertise-with-us.scss',
+'../scss/policies/privacy.scss',
+'../scss/components/footer.scss';
 
 * {
   box-sizing: border-box;

@@ -1,5 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 import type { LinksFunction } from "@remix-run/node";
+import Footer from "./components/footer";
+
 import {
   Links,
   LiveReload,
@@ -41,6 +43,7 @@ export default function App() {
       </head>
       <body>
         <Outlet />
+        <Footer />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
