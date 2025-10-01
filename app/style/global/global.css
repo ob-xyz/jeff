@@ -146,6 +146,7 @@
   font-family: ku;
 }
 .container .inner-content2 p {
+  width: 90%;
   padding-top: 1.5rem;
   font-size: 3rem;
   margin-left: 0;

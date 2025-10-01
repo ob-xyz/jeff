@@ -58,7 +58,7 @@ export default function Index() {
                 {rotatingWords[index]}
               </span>
             </h1>
-          <p>Sign up to know what's really going on in the business world</p>
+          <p>Sign up to know what's really going on in the business world.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -72,8 +72,8 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>The <span>one newsletter</span> you can trust</h2>
-        <Link to="#"><p>Every day of the week Jeffamzn helps you know what's really going on in the business world.</p></Link>
+        <h2>The <span>one newsletter</span> for people who actually hate newsletters</h2>
+        <Link to="#"><p>Every day is a business day. And to help get you through it is Jeffamzn—the one business newsletter for people who actually hate newsletters.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -88,23 +88,23 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Read by go-getters who make things.</p>
+            <p>Read by people who don't always have time to read the latest, and greatest business news.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
-          <h1>Go-getters who make things</h1>
-          <p>Join tech execs, founders, and venture capitalists who make things.</p>
+          <h1>We're people who build new things</h1>
+          <p>Join tech execs, founders, and venture capitalists who like to build new things.</p>
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>Every story that matters</h1>
-          <p>Get every business news story that matters — delivered to you.</p>
+          <h1>Get every news story that matters</h1>
+          <p>Get every business news story that matters — delivered straight to you.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Sunday Dive</h1>
-          <p>Enjoy our weekly Sunday Dive into one current thing happening in your life.</p>
+          <h1>Our Sunday Special is to die for</h1>
+          <p>Enjoy our once-a-week deep dive into one current thing that actually matters.</p>
         </div>
       </div>
       <div className="btn">
