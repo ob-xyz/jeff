@@ -1739,7 +1739,7 @@
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
-    padding-top: 0.75rem;
+    padding-top: 1rem;
   }
   .footer .footer-top .footer-links .column {
     margin: 0;
