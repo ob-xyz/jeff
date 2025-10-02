@@ -561,7 +561,7 @@
   }
   .container .content .inner-content .text h1,
   .container .content .inner-content .text span {
-    font-size: 1.5975rem;
+    font-size: 1.3rem;
   }
   .container .content .inner-content .text h1 {
     width: 100%;
@@ -583,16 +583,16 @@
   }
   .container .inner-content2 h2 {
     padding-top: 3.5rem;
-    font-size: 1.75rem;
+    font-size: 1.2rem;
     width: 100%;
   }
   .container .inner-content2 span {
-    font-size: 1.75rem;
+    font-size: 1.2rem;
   }
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     width: 100%;
   }
   .container .inner-content3 {
@@ -1717,9 +1717,7 @@
 }
 @media (max-width: 659px) {
   .footer {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    padding-top: 2.5rem;
+    padding: 1.25rem 2.5rem 1.25rem 0.5rem;
   }
   .footer .footer-top {
     flex-direction: column-reverse;
