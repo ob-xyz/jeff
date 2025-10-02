@@ -216,16 +216,17 @@ font-size: 0.825rem;
       }
       }
   }
-}
+
 .footer-links {
       flex-direction: column;
-      padding-top:1.5rem;
+      padding-top:1.25rem;
 .column {
     margin:0;
     padding:0;
 }
 .column:nth-child(2){
-  padding-top:.75rem;
+  padding-top:.5rem;
+}
 }
 }
 .footer-bottom {
