@@ -88,7 +88,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Read by people who don't always have time to read the latest, and greatest business news.</p>
+            <p>Read by people who usually hate newsletters.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
