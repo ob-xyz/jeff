@@ -36,7 +36,7 @@ export default function Footer() {
     <h4>Support</h4>
     <a href="mailto:hey@jeffamzn.com">Contact</a>
     <a href="mailto:press@jeffamzn.com">Press</a>
-    <Link to="/">Sign Up</Link>
+    <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">Sign Up</a>
   </div>
 </div>
 </div>
