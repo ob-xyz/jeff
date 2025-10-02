@@ -72,7 +72,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>The <span>one business newsletter</span> for people who usually hate newsletters</h2>
+        <h2>We're the <span>business newsletter</span> for people who usually hate newsletters</h2>
         <Link to="#"><p>Every day is a business day at Jeffamzn—the one newsletter for people who usually hate newsletters.</p></Link>
       </div>
       <div className="inner-content3">
