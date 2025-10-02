@@ -195,6 +195,9 @@
   .footer .footer-top .footer-signup {
     padding-top: 1rem;
   }
+  .footer .footer-top .footer-signup h1 {
+    font-size: 2rem;
+  }
   .footer .footer-top .footer-signup p {
     font-size: 0.925rem;
   }
