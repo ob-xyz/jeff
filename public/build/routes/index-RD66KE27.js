@@ -150,7 +150,7 @@ function Index() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
         "The ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "one newsletter" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "one business newsletter" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 75,
           columnNumber: 17
@@ -161,7 +161,7 @@ function Index() {
         lineNumber: 75,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day is a business day. And to help get you through it\u2014Jeffamzn\u2014the one business newsletter for people who actually hate newsletters." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "#", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day is a business day at Jeffamzn\u2014the one newsletter for people who actually hate newsletters." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 76,
         columnNumber: 22
@@ -373,4 +373,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-Q2VQPKEU.js.map
+//# sourceMappingURL=/build/routes/index-RD66KE27.js.map
