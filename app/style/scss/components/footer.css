@@ -156,7 +156,7 @@
     font-size: 1.2rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
-    width: 30.5rem;
+    width: 31rem;
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
@@ -184,7 +184,7 @@
 }
 @media (max-width: 659px) {
   .footer {
-    padding: 1.25rem 2.5rem 1.25rem 0.5rem;
+    padding: 1.25rem 0.5rem 1.25rem 0.5rem;
   }
   .footer .footer-top {
     flex-direction: column-reverse;
@@ -200,7 +200,7 @@
     font-size: 0.875rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
-    width: 21.5rem;
+    width: 22rem;
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
