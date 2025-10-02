@@ -216,9 +216,10 @@ font-size: 0.825rem;
       }
       }
   }
+}
 .footer-links {
       flex-direction: column;
-      padding-top:1rem;
+      padding-top:1.5rem;
 .column {
     margin:0;
     padding:0;
@@ -230,8 +231,8 @@ font-size: 0.825rem;
 .footer-bottom {
       padding-bottom:1.25rem;
     .footer-meta {
-      gap: .75rem;
-    }
+      gap: .5rem;
+      }
     .footer-social {
       gap:1.25rem;
       img {
@@ -239,6 +240,5 @@ font-size: 0.825rem;
       }
     }
   }
-}
 }
 }

@@ -204,27 +204,27 @@
   .footer .footer-top .footer-signup form .input-wrapper {
     width: 21.5rem;
   }
-  .footer .footer-top .footer-links {
+  .footer .footer-links {
     flex-direction: column;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
   }
-  .footer .footer-top .footer-links .column {
+  .footer .footer-links .column {
     margin: 0;
     padding: 0;
   }
-  .footer .footer-top .footer-links .column:nth-child(2) {
+  .footer .footer-links .column:nth-child(2) {
     padding-top: 0.75rem;
   }
-  .footer .footer-top .footer-bottom {
+  .footer .footer-bottom {
     padding-bottom: 1.25rem;
   }
-  .footer .footer-top .footer-bottom .footer-meta {
-    gap: 0.75rem;
+  .footer .footer-bottom .footer-meta {
+    gap: 0.5rem;
   }
-  .footer .footer-top .footer-bottom .footer-social {
+  .footer .footer-bottom .footer-social {
     gap: 1.25rem;
   }
-  .footer .footer-top .footer-bottom .footer-social img {
+  .footer .footer-bottom .footer-social img {
     width: 1.1rem;
   }
 }
