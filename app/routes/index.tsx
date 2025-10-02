@@ -72,8 +72,8 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>The <span>one business newsletter</span> for people who actually hate newsletters</h2>
-        <Link to="#"><p>Every day is a business day at Jeffamzn—the one newsletter for people who actually hate newsletters.</p></Link>
+        <h2>The <span>one business newsletter</span> for people who usually hate newsletters</h2>
+        <Link to="#"><p>Every day is a business day at Jeffamzn—the one newsletter for people who usually hate newsletters.</p></Link>
       </div>
       <div className="inner-content3">
         <div className="box">
@@ -104,7 +104,7 @@ export default function Index() {
         <div className="box">
           <img src={jensen} />
           <h1>Our Sunday Special is to die for</h1>
-          <p>Enjoy our once-a-week deep dive into one current thing that actually matters.</p>
+          <p>Enjoy our once-a-week deep dive into one current thing that matters.</p>
         </div>
       </div>
       <div className="btn">
