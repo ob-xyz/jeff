@@ -88,23 +88,23 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Read by people who usually hate newsletters.</p>
+            <p>Read by people like me and you.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
-          <h1>We're people who build new things</h1>
-          <p>Join tech execs, founders, and venture capitalists who like to build new things.</p>
+          <h1>We're big time builders</h1>
+          <p>Join tech execs, founders, and venture capitalists who like to build things.</p>
         </div>
         <div className="box">
           <img src={tobi} />
           <h1>Get every news story that matters</h1>
-          <p>Get every business news story that matters — delivered straight to you.</p>
+          <p>Get every business story that matters — delivered to your email inbox.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Our Sunday Special is to die for</h1>
-          <p>Enjoy our once-a-week deep dive into one current thing that matters.</p>
+          <p>Enjoy our once-a-week deep dive into high culture trends.</p>
         </div>
       </div>
       <div className="btn">
