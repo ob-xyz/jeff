@@ -72,7 +72,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2>We're the <span>business newsletter</span> for people who usually hate newsletters</h2>
+      <h2>We're the <span>business newsletter</span> for people who usually hate newsletters</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
       <p>Every day is a business day at Jeffamzn—the one newsletter for people who usually hate newsletters.</p>
       </a>
@@ -111,7 +111,7 @@ export default function Index() {
       </div>
       <div className="btn">
         <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer" className="pricebtn">
-            Sign up for free
+            Subscribe for free
       </a>
       </div>
 {/* <div className="inner-blog">
