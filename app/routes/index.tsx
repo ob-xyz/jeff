@@ -58,7 +58,7 @@ export default function Index() {
                 {rotatingWords[index]}
               </span>
             </h1>
-          <p>Sign up to know what's really going on in the business world.</p>
+          <p>Sign up to know what's going on in the business world</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
