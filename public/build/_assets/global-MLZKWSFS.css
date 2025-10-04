@@ -577,7 +577,7 @@
     font-size: .925rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 22.25rem;
+    width: 22rem;
   }
   .container .inner-content2 {
     margin-left: 0;
@@ -1747,10 +1747,10 @@
     font-size: 2rem;
   }
   .footer .footer-top .footer-signup p {
-    font-size: 1rem;
+    font-size: .925rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
-    width: 21.5rem;
+    width: 22rem;
   }
   .footer .footer-top .footer-links {
     flex-direction: column;

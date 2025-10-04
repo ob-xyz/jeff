@@ -43,7 +43,7 @@ function Footer() {
           lineNumber: 15,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Sign Up to Jeffamzn's one minute business newsletter." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Sign up to Jeffamzn for our one minute business newsletter." }, void 0, false, {
           fileName: "app/components/footer.tsx",
           lineNumber: 16,
           columnNumber: 11
@@ -225,7 +225,7 @@ function Footer() {
 }
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-PJKDC3JI.css";
+var global_default = "/build/_assets/global-MLZKWSFS.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
@@ -244,8 +244,8 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "One Minute Daily Newsletter : Jeffamzn",
-  description: "Sign up for the free, one minute newsletter keeping 10,000+ people updated about the business world.",
+  title: "One Minute Business Newsletter : Jeffamzn",
+  description: "Sign up for the free, one minute business newsletter keeping 10,000+ people updated about the business world.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -308,4 +308,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-O6SJMWFI.js.map
+//# sourceMappingURL=/build/root-UIN54GDD.js.map

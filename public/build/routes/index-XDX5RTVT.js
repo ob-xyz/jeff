@@ -66,7 +66,7 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "ONE MINUTE NEWSLETTER" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "ONE MINUTE BUSINESS NEWSLETTER" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 53,
           columnNumber: 13
@@ -88,7 +88,7 @@ function Index() {
           lineNumber: 54,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Sign up to Jeffamzn the one minute business newsletter." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Sign up to Jeffamzn for our free one minute newsletter." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 60,
           columnNumber: 11
@@ -158,7 +158,7 @@ function Index() {
         lineNumber: 74,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day is a business day at Jeffamzn where we deliver a free one minute business newsletter for people who hate newsletters." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day is a business day at Jeffamzn where we deliver a free one minute newsletter for people who hate newsletters." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 76,
         columnNumber: 7
@@ -370,4 +370,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-PHL2ATLB.js.map
+//# sourceMappingURL=/build/routes/index-XDX5RTVT.js.map
