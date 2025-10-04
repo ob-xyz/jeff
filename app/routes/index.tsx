@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
 import sama from "~/../public/img/samae.jpg";
@@ -51,14 +50,14 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>JEFFAMZN</h4>
+            <h4>ONE MINUTE NEWSLETTER</h4>
             <h1>
               Don't start your day without knowing what's happening <br />
               <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>
                 {rotatingWords[index]}
               </span>
             </h1>
-          <p>Sign up to know what's going on in the business world</p>
+          <p>Sign Up to Jeffamzn the daily one minute newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -72,9 +71,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're the <span>business newsletter</span> for people who usually hate newsletters</h2>
+      <h2>We're the <span>one minute newsletter</span> for people who hate newsletters</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day is a business day at Jeffamzn—the one newsletter for people who usually hate newsletters.</p>
+      <p>Every day is a business day at Jeffamzn—the one minute business newsletter for people who hate newsletters.</p>
       </a>
       </div>
       <div className="inner-content3">
