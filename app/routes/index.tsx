@@ -73,7 +73,7 @@ export default function Index() {
       <div className="inner-content2">
       <h2>We're the <span>one minute business newsletter</span> for people who hate newsletters.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day is a business day at Jeffamzn where we deliver a one minute business newsletter for people who hate newsletters.</p>
+      <p>At Jeffamzn we deliver a one minute business newsletter you can't doomscroll, even if you wanted to.</p>
       </a>
       </div>
       <div className="inner-content3">
