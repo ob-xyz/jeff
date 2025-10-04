@@ -225,7 +225,7 @@ function Footer() {
 }
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-RUZQR3UF.css";
+var global_default = "/build/_assets/global-NKM5LFLT.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
@@ -308,4 +308,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-7U4SVABO.js.map
+//# sourceMappingURL=/build/root-2YB63XLZ.js.map

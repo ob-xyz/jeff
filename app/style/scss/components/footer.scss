@@ -44,7 +44,7 @@
 }
 .input-wrapper {
   position: relative;
-  width: 26rem;
+  width: 29.5rem;
 }
 input.email {
   width: 100%;
@@ -149,7 +149,7 @@ font-size: 0.825rem;
     }
   }
 }
-@media (min-width: 660px) and (max-width: 874px) {
+@media (min-width: 660px) and (max-width: 930px) {
 .footer {
   padding-left:2.5rem;
   padding-right:2.5rem;
@@ -164,7 +164,7 @@ font-size: 0.825rem;
       }
       form{
       .input-wrapper{
-          width: 26rem;
+          width: 29.5rem;
       }
       }
   }

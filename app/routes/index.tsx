@@ -57,7 +57,7 @@ export default function Index() {
                 {rotatingWords[index]}
               </span>
             </h1>
-          <p>Sign up to Jeffamzn's free one minute newsletter.</p>
+          <p>Sign up to Jeffamzn's one minute business newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -73,7 +73,7 @@ export default function Index() {
       <div className="inner-content2">
       <h2>We're the <span>one minute business newsletter</span> for people who hate newsletters.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day is a business day at Jeffamzn where we deliver a free one minute newsletter for people who hate newsletters.</p>
+      <p>Every day is a business day at Jeffamzn where we deliver a one minute business newsletter for people who hate newsletters.</p>
       </a>
       </div>
       <div className="inner-content3">
@@ -94,18 +94,18 @@ export default function Index() {
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
-          <h1>We're big time builders</h1>
-          <p>Join tech execs, founders, and venture capitalists who like to build things.</p>
+          <h1>We're developers and builders</h1>
+          <p>Join tech execs, founders, and venture capitalists who like to develop and build things.</p>
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>Get every news story that matters</h1>
-          <p>Get every business story that matters — delivered to your email inbox.</p>
+          <h1>Get business stories that matter</h1>
+          <p>Get every business story that matters delivered straight to your email inbox.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Our Sunday Special is to die for</h1>
-          <p>Enjoy our once-a-week deep dive into high culture trends.</p>
+          <h1>Sunday thread</h1>
+          <p>Enjoy our once-a-week deep dive into an interesting trend you should know about.</p>
         </div>
       </div>
       <div className="btn">

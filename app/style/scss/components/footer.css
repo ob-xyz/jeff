@@ -46,7 +46,7 @@
 }
 .footer .footer-top .footer-signup form .input-wrapper {
   position: relative;
-  width: 26rem;
+  width: 29.5rem;
 }
 .footer .footer-top .footer-signup form input.email {
   width: 100%;
@@ -139,7 +139,7 @@
   border-radius: 0;
 }
 
-@media (min-width: 660px) and (max-width: 874px) {
+@media (min-width: 660px) and (max-width: 930px) {
   .footer {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -156,7 +156,7 @@
     font-size: 1.2rem;
   }
   .footer .footer-top .footer-signup form .input-wrapper {
-    width: 26rem;
+    width: 29.5rem;
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
