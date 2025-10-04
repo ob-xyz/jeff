@@ -6,8 +6,8 @@ export default function Index() {
         <img src={logo} alt="The Poast Logo" />
       </div>
       <div className="content-aboutus2">
-        <h2><span>Staying informed is hard.</span><br />We make it easy.</h2>
-        <p>Jeffamzn is the one newsletter for people who actually hate newsletters.</p>
+        <h2>Every day is a <span>businesss day.</span></h2>
+        <p>Jeffamzn is a daily and free one minute business newsletter for people who hate newsletters.</p>
       </div>
   </div>
   );

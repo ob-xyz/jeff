@@ -21,23 +21,18 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content-aboutus2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Staying informed is hard." }, void 0, false, {
+        "Every day is a ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "businesss day." }, void 0, false, {
           fileName: "app/routes/about.tsx",
           lineNumber: 9,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
-          fileName: "app/routes/about.tsx",
-          lineNumber: 9,
-          columnNumber: 51
-        }, this),
-        "We make it easy."
+          columnNumber: 28
+        }, this)
       ] }, void 0, true, {
         fileName: "app/routes/about.tsx",
         lineNumber: 9,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn is the one newsletter for people who actually hate newsletters." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn is a daily and free one minute business newsletter for people who hate newsletters." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 10,
         columnNumber: 9
@@ -56,4 +51,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-YFLNPZ22.js.map
+//# sourceMappingURL=/build/routes/about-42L24T2S.js.map
