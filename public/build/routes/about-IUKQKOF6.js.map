@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/about.tsx"],
+  "sourcesContent": ["import logo from \"~/../public/img/ja1.png\";\nexport default function Index() {\n  return (\n    <div className=\"content-aboutus\">\n      <div className=\"logo\">\n        <img src={logo} alt=\"The Poast Logo\" />\n      </div>\n      <div className=\"content-aboutus2\">\n        <h2>Every day is a <span>businesss day.</span></h2>\n        <p>Every day of the week Jeffamzn delivers a free one minute business newsletter for people who hate newsletters.</p>\n      </div>\n  </div>\n  );\n}"],
+  "mappings": ";;;;;;;;;AAKQ;AAJO,SAAR,QAAyB;AAC9B,SACE,mDAAC,SAAI,WAAU,mBACb;AAAA,uDAAC,SAAI,WAAU,QACb,6DAAC,SAAI,KAAK,aAAM,KAAI,oBAApB;AAAA;AAAA;AAAA;AAAA,WAAqC,KADvC;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACA,mDAAC,SAAI,WAAU,oBACb;AAAA,yDAAC,QAAG;AAAA;AAAA,QAAe,mDAAC,UAAK,8BAAN;AAAA;AAAA;AAAA;AAAA,eAAoB;AAAA,WAAvC;AAAA;AAAA;AAAA;AAAA,aAA8C;AAAA,MAC9C,mDAAC,OAAE,8HAAH;AAAA;AAAA;AAAA;AAAA,aAAiH;AAAA,SAFnH;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,OAPF;AAAA;AAAA;AAAA;AAAA,SAQF;AAEF;",
+  "names": []
+}
