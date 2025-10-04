@@ -57,7 +57,7 @@ export default function Index() {
                 {rotatingWords[index]}
               </span>
             </h1>
-          <p>Sign Up to Jeffamzn the one minute daily newsletter.</p>
+          <p>Sign up to Jeffamzn the one minute business newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -71,9 +71,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're the <span>one minute newsletter</span> for people who hate newsletters</h2>
+      <h2>We're the <span>one minute business newsletter</span> for people who hate newsletters.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day is a business day at Jeffamzn where we deliver the one minute business newsletter for people who hate newsletters.</p>
+      <p>Every day is a business day at Jeffamzn where we deliver a free one minute business newsletter for people who hate newsletters.</p>
       </a>
       </div>
       <div className="inner-content3">
