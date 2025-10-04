@@ -95,7 +95,7 @@ export default function Index() {
         <div className="box">
           <img src={sama} />
           <h1>We're developers and builders</h1>
-          <p>Join tech execs, founders, and venture capitalists who like to develop and build things.</p>
+          <p>Join tech execs, founders, and entrepreneurs who like to develop and build things.</p>
         </div>
         <div className="box">
           <img src={tobi} />
@@ -105,7 +105,7 @@ export default function Index() {
         <div className="box">
           <img src={jensen} />
           <h1>Sunday thread</h1>
-          <p>Enjoy our once-a-week deep dive into an interesting trend you should know about.</p>
+          <p>Enjoy our once-a-week deep dive highlighting one interesting trend you should see.</p>
         </div>
       </div>
       <div className="btn">
