@@ -88,7 +88,7 @@ function Index() {
           lineNumber: 54,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Sign up to Jeffamzn for our free one minute newsletter." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Sign up to Jeffamzn's free one minute newsletter." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 60,
           columnNumber: 11
@@ -370,4 +370,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-XDX5RTVT.js.map
+//# sourceMappingURL=/build/routes/index-3ILM3ZXL.js.map
