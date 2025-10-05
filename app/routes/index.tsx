@@ -57,7 +57,7 @@ export default function Index() {
                 {rotatingWords[index]}
               </span>
             </h1>
-          <p>Sign up to Jeffamzn's one minute business newsletter.</p>
+          <p>Sign up to Jeffamzn's daily one minute newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -71,9 +71,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're the <span>one minute business newsletter</span> for people who hate newsletters.</h2>
+      <h2>Business news you can't <span>doomscroll.</span></h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>At Jeffamzn we deliver a one minute daily newsletter you can't doomscroll, even if you wanted to. It's the one newsletter for people who hate newsletters.</p>
+      <p>Enjoy our one minute newsletter with all the latest and greatest stories happening in business and tech—with special attention on bustling startups, bizarre business models, and newly minted hot takes from people like me and you. We're the <span>one minute newsletter</span> for people who hate newsletters.</p>
       </a>
       </div>
       <div className="inner-content3">
@@ -89,13 +89,13 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Enjoy our one minute daily newsletter keeping 10,000+ tech execs, founders, and entrepreneurs informed about what's happening in the business world.</p>
+            <p>Join 10,000+ tech execs, founders, and entrepreneurs staying informed about the business world.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
-          <h1>We're developers and builders</h1>
-          <p>Join tech execs, founders, and entrepreneurs who like to develop and build things.</p>
+          <h1>We're builders and developers</h1>
+          <p>Join tech execs, founders, and entrepreneurs who like to build and develop all kinds of things.</p>
         </div>
         <div className="box">
           <img src={tobi} />

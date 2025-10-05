@@ -18,8 +18,11 @@
         font-size:4rem;
     }
     h2 {
-        font-size:4rem;
+        font-size:3.75rem;
         font-family: kl;
+    }
+    h2 span{
+      font-family: ku;
     }
     h3 {
         font-size:2.75rem;
@@ -63,7 +66,7 @@ form {
 }
 .input-wrapper {
   position: relative;
-  width: 29.5rem;
+  width: 27rem;
 }
 input.email {
   width: 100%;
@@ -110,15 +113,11 @@ button.submit {
   border-top-left-radius:3rem;
   border-top-right-radius:3rem;
   padding:0 5rem;
-  h2, span{
+  h2, h2 span{
       padding-top:6rem;
       margin-left:0;
       color:#fff;
     }
-  span{
-      font-size:4rem;
-      font-family:ku;
-  }
 p {
   width:90%;
   padding-top: 1.5rem;
@@ -141,7 +140,6 @@ p {
       animation: shimmer 1.5s linear infinite;
   }
 }
-
 @keyframes shimmer {
   0% {
       background-position: -100% 0;
@@ -365,7 +363,7 @@ p {
     }
 form {
 .input-wrapper {
-  width: 29.5rem;
+  width: 27rem;
   }
     }
   }
@@ -446,7 +444,7 @@ form {
     }
 form {
 .input-wrapper {
-  width: 29.5rem;
+  width: 27rem;
   }
     }
   }
@@ -573,7 +571,7 @@ form {
       p{
         padding-top:2.5rem;
         padding-bottom:.5rem;
-        font-size:.925rem;
+        font-size:.975rem;
       }
     }
 form {
