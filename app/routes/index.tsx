@@ -71,9 +71,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Business news you can't <span>doomscroll.</span></h2>
+      <h2>Breaking <span>business</span> news.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Enjoy Jeffamzn's daily update of the latest and greatest stories happening in business and tech—with extra eyes on startups, strange business models, and newly minted hot takes. We're the <span>one minute newsletter</span> for people who hate newsletters.</p>
+      <p>Enjoy Jeffamzn's daily update of the latest and greatest stories happening in business and tech—with extra eyes on startups, strange business models, and newly minted hot takes. We're the <span>one minute newsletter</span> for people who hate five minute newsletters.</p>
       </a>
       </div>
       <div className="inner-content3">
