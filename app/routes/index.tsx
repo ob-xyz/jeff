@@ -89,7 +89,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Join 10,000+ tech execs, founders, and entrepreneurs staying informed about the business world.</p>
+            <p>Join 10,000+ tech execs, founders, and entrepreneurs who like staying informed about the business world.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
