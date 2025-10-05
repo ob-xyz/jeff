@@ -73,7 +73,7 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Business news you can't <span>doomscroll.</span></h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Enjoy our one minute newsletter with all the latest and greatest stories happening in business and tech—with special attention on bustling startups, bizarre business models, and newly minted hot takes from people like me and you. We're the <span>one minute newsletter</span> for people who hate newsletters.</p>
+      <p>Enjoy our one minute newsletter with all the latest and greatest stories happening in business and tech—with extra eyes on bustling startups, bizarre business models, and newly minted hot takes from people like me and you. We're the <span>one minute newsletter</span> for people who hate newsletters.</p>
       </a>
       </div>
       <div className="inner-content3">
