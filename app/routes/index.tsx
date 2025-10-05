@@ -73,7 +73,7 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Business news you can't <span>doomscroll.</span></h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Enjoy our one minute newsletter with all the latest and greatest stories happening in business and tech—with extra eyes on bustling startups, bizarre business models, and newly minted hot takes from people like me and you. We're the <span>one minute newsletter</span> for people who hate newsletters.</p>
+      <p>Enjoy Jeffamzn's daily update of the latest and greatest stories happening in business and tech—with extra eyes on startups, strange business models, and newly minted hot takes. We're the <span>one minute newsletter</span> for people who hate newsletters.</p>
       </a>
       </div>
       <div className="inner-content3">
@@ -95,17 +95,17 @@ export default function Index() {
         <div className="box">
           <img src={sama} />
           <h1>We're builders and developers</h1>
-          <p>Join tech execs, founders, and entrepreneurs who like to build and develop all kinds of things.</p>
+          <p>Join people who like to build and develop things.</p>
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>Get business stories that matter</h1>
+          <h1>Business stories that matter</h1>
           <p>Get every business story that matters delivered straight to your email inbox.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Sunday thread</h1>
-          <p>Enjoy our once-a-week deep dive highlighting one interesting trend you should see.</p>
+          <h1>Sunday's special thread</h1>
+          <p>Enjoy our once-a-week deep dive into one interesting trend to learn.</p>
         </div>
       </div>
       <div className="btn">
