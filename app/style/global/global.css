@@ -674,7 +674,7 @@
 }
 .content-aboutus .logo {
   background: none;
-  margin: 1.25rem 0 0 5rem;
+  margin: 1.25rem 0 0 0rem;
   width: 3.5rem;
 }
 .content-aboutus .logo img {
@@ -714,6 +714,10 @@
   padding-top: 6rem;
   margin-left: 0;
   color: #fff;
+}
+.content-aboutus .content-aboutus2 span {
+  font-size: 3.75rem;
+  font-family: ku;
 }
 .content-aboutus .content-aboutus2 p {
   padding-top: 1.5rem;

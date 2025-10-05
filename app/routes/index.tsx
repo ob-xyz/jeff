@@ -50,14 +50,14 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>ONE MINUTE BUSINESS NEWSLETTER</h4>
+            <h4>NEWS THAT FEELS GOOD TO READ</h4>
             <h1>
               Don't start your day without knowing what's happening <br />
               <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>
                 {rotatingWords[index]}
               </span>
             </h1>
-          <p>Sign up to Jeffamzn's daily one minute newsletter.</p>
+          <p>Subscribe to Jeffamzn one minute daily newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -71,9 +71,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Breaking <span>business</span> news.</h2>
+      <h2>The one minute <span>business</span> newsletter.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Enjoy Jeffamzn's daily update of the latest and greatest stories happening in business and tech—with extra eyes on startups, strange business models, and newly minted hot takes. We're the <span>one minute newsletter</span> for people who hate five minute newsletters.</p>
+      <p>Every day Jeffamzn delivers a quick update on the latest and greatest stories happening in business and tech—with extra eyes on startups, strange business models, smart insights, and freshly minted hot takes. We're the <span>one minute newsletter</span> for people who hate five minute newsletters.</p>
       </a>
       </div>
       <div className="inner-content3">
