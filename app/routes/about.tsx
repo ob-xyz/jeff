@@ -7,7 +7,7 @@ export default function Index() {
       </div>
       <div className="content-aboutus2">
         <h2>Business news you can't <span>doomscroll.</span></h2>
-        <p>Every day of the week Jeffamzn delivers a one minute newsletter for people who hate newsletters.</p>
+        <p>Enjoy Jeffamzn's daily update of the latest and greatest stories happening in business and tech—with extra eyes on startups, strange business models, and newly minted hot takes. We're the <span>one minute newsletter</span> for people who hate newsletters.</p>
       </div>
   </div>
   );
