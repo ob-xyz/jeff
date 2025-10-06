@@ -51,12 +51,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>NEWS THAT FEELS GOOD TO READ</h4>
-            <h1>
-              Don't start your day without knowing what's happening <br />
-              <span className={`${fadeOut ? "fade-out" : "fade-in"}`}>
-                {rotatingWords[index]}
-              </span>
-            </h1>
+            <h1>Get smarter about business in just 1 minute.</h1>
           <p>Subscribe to Jeffamzn one minute daily newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
