@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import logo from "~/../public/img/ja1.png";
 import sama from "~/../public/img/samae.jpg";
@@ -6,7 +6,7 @@ import tobi from "~/../public/img/tobic.jpg";
 import jensen from "~/../public/img/jensene.jpg";
 import trump from "~/../public/img/trump.webp";
 import dd from "~/../public/img/rocket.jpg";
-import handcoin from "~/../public/img/handcoin.jpg";
+import handcoin from "~/../public/img/news.png";
 
 export default function Index() {
     useEffect(() => {
