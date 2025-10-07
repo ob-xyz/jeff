@@ -31,7 +31,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>YOUR FAVE BUSINESS NEWSLETTER</h4>
+            <h4>YOUR FAVE NEWSLETTER</h4>
             <h1>Get smarter about business.</h1>
           <p>Subscribe to Jeffamzn daily newsletter.</p>
           </div>
@@ -47,9 +47,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're <span>your fave business newsletter.</span></h2>
+      <h2>We're your fave <span>business</span> newsletter.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day <span>Jeffamzn</span> delivers business and tech news that feels good to read—with extra eyes on startups, strange business models, smart insights, and newly minted hot takes.</p>
+      <p>Every day of the week Jeffamzn delivers business and tech news that feels good to read—with extra eyes on startups, strange business models, smart insights, and newly minted hot takes.</p>
       </a>
       </div>
       <div className="inner-content3">
@@ -65,18 +65,18 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Join 10,000+ tech execs, founders, and entrepreneurs who like staying informed about the business world.</p>
+            <p>Join 10,000+ tech execs, founders, and entrepreneurs who stay informed about financial markets, tech trends, and breaking business news.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
-          <h1>We're builders and developers</h1>
-          <p>Join people who like to build and develop things.</p>
+          <h1>We're thinkers and doers</h1>
+          <p>Join people who like to develop and build things.</p>
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>Business stories that matter</h1>
-          <p>Get every business story that matters delivered to your inbox.</p>
+          <h1>Delivered to your inbox daily</h1>
+          <p>Get every breaking business news story that matters.</p>
         </div>
         <div className="box">
           <img src={jensen} />
