@@ -50,9 +50,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>NEWS THAT FEELS GOOD TO READ</h4>
-            <h1>Get smarter about business in just 1 minute.</h1>
-          <p>Subscribe to Jeffamzn one minute daily newsletter.</p>
+            <h4>YOUR FAVE BUSINESS NEWSLETTER</h4>
+            <h1>Become smarter about business and tech.</h1>
+          <p>Subscribe to Jeffamzn daily newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -66,9 +66,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>The one minute <span>business</span> newsletter.</h2>
+      <h2>We're <span>your fave business newsletter.</span></h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day Jeffamzn delivers a quick update on the latest and greatest stories happening in business and tech—with extra eyes on startups, strange business models, smart insights, and freshly minted hot takes. We're the <span>one minute newsletter</span> for people who hate five minute newsletters.</p>
+      <p>Every day <span>Jeffamzn</span> delivers business and tech news that feels good to read—with extra eyes on startups, strange business models, smart insights, and newly minted hot takes.</p>
       </a>
       </div>
       <div className="inner-content3">
@@ -95,12 +95,12 @@ export default function Index() {
         <div className="box">
           <img src={tobi} />
           <h1>Business stories that matter</h1>
-          <p>Get every business story that matters delivered straight to your email inbox.</p>
+          <p>Get every business story that matters delivered to your inbox.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Sunday's special thread</h1>
-          <p>Enjoy our once-a-week deep dive into one interesting trend to learn.</p>
+          <p>Enjoy our Sunday deep dive into one cool trend happening now.</p>
         </div>
       </div>
       <div className="btn">
