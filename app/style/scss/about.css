@@ -15,6 +15,7 @@
   border-radius: 10rem;
 }
 .content-aboutus h1, .content-aboutus h2, .content-aboutus h3, .content-aboutus span {
+  font-style: normal;
   text-align: left;
   font-family: ku;
   font-size: 4rem;

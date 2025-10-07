@@ -8,26 +8,7 @@ import trump from "~/../public/img/trump.webp";
 import dd from "~/../public/img/rocket.jpg";
 import handcoin from "~/../public/img/handcoin.jpg";
 
-
-
-const rotatingWords = ["on Wall Street.", "in Silicon Valley.", "across the world."];
 export default function Index() {
-  const [index, setIndex] = useState(0);
-  const [fadeOut, setFadeOut] = useState(false);
-
-
-  // Word rotation effect (unchanged)
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFadeOut(true);
-      setTimeout(() => {
-        setIndex((prev) => (prev + 1) % rotatingWords.length);
-        setFadeOut(false);
-      }, 300);
-    }, 2500);
-    return () => clearInterval(interval);
-  }, []);
-
     useEffect(() => {
     // Dynamically load the hCaptcha script
     const script = document.createElement("script");
@@ -51,7 +32,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>YOUR FAVE BUSINESS NEWSLETTER</h4>
-            <h1>Become smarter about business and tech.</h1>
+            <h1>Get smarter about business.</h1>
           <p>Subscribe to Jeffamzn daily newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
