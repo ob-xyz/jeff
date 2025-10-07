@@ -80,7 +80,7 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Sunday's special thread</h1>
+          <h1>Check out our Sunday thread</h1>
           <p>Enjoy our Sunday deep dive into one cool trend happening now.</p>
         </div>
       </div>
