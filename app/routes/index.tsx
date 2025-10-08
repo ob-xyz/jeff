@@ -49,7 +49,7 @@ export default function Index() {
       <div className="inner-content2">
       <h2>We're your <span>fave</span> newsletter.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Jeffamzn delivers a daily email of good stuff for you to know about in business and tech—like cool startups, strange business models, smart insights, and newly minted hot takes.</p>
+      <p>Got a minute? We'll make you smarter about business and tech with one daily email of good stuff for you to know about.</p>
       </a>
       </div>
       <div className="inner-content3">
