@@ -70,7 +70,7 @@ export default function Index() {
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
-          <h1>We're thinkers and doers</h1>
+          <h1>Strategic thinkers</h1>
           <p>Join people who like to develop and build things.</p>
         </div>
         <div className="box">
@@ -80,8 +80,8 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Check out our Sunday thread</h1>
-          <p>Enjoy our Sunday deep dive into one cool trend happening now.</p>
+          <h1>Get our Sunday thread</h1>
+          <p>Get our Sunday deep dive into one cool trend happening now.</p>
         </div>
       </div>
       <div className="btn">
