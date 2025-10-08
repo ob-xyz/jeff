@@ -49,7 +49,7 @@ export default function Index() {
       <div className="inner-content2">
       <h2>We're your fave <span>business</span> newsletter.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day of the week Jeffamzn delivers business and tech news that feels good to read—with extra eyes on startups, strange business models, smart insights, and newly minted hot takes. We're your fave newsletter.</p>
+      <p>Every day Jeffamzn delivers an email of good stuff for you to know about in business and tech—like cool startups, strange business models, smart insights, and newly minted hot takes.</p>
       </a>
       </div>
       <div className="inner-content3">
@@ -65,7 +65,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Join 10,000+ tech execs, founders, and entrepreneurs who enjoy reading breaking business news.</p>
+            <p>Join 10,000+ tech execs, founders, and entrepreneurs who like knowing about the good stuff happening in business and tech.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
@@ -75,13 +75,13 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>Delivered to your inbox daily</h1>
-          <p>Get every breaking business news story that matters.</p>
+          <h1>Delivered daily</h1>
+          <p>Get a daily email of good stuff for you to know about.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Get our Sunday thread</h1>
-          <p>Get our Sunday deep dive into one cool trend happening now.</p>
+          <h1>Sunday thread</h1>
+          <p>Enjoy our Sunday deep dive into one newly emerging trend.</p>
         </div>
       </div>
       <div className="btn">
