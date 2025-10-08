@@ -32,7 +32,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>YOUR FAVE NEWSLETTER</h4>
-            <h1>Get smarter about business.</h1>
+            <h1>Become smarter in just 1 minute.</h1>
           <p>Subscribe to Jeffamzn daily newsletter.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -47,7 +47,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're your fave <span>business</span> newsletter.</h2>
+      <h2>We're your <span>fave</span> newsletter.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
       <p>Jeffamzn delivers a daily email of good stuff for you to know about in business and tech—like cool startups, strange business models, smart insights, and newly minted hot takes.</p>
       </a>
@@ -65,7 +65,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Join 10,000+ tech execs, founders, and entrepreneurs who like knowing about the good stuff happening in business and tech.</p>
+            <p>Join 10,000+ tech execs, founders, and entrepreneurs who like knowing about all the good stuff going on in business and tech.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
@@ -75,7 +75,7 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>Delivered daily</h1>
+          <h1>One daily email</h1>
           <p>Get a daily email of good stuff for you to know about.</p>
         </div>
         <div className="box">
