@@ -51,7 +51,7 @@
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
-  max-width: 60%;
+  width: 60%;
 }
 .container .content .inner-content .text p {
   text-align: left;
@@ -409,8 +409,7 @@
     margin-top: 5rem;
     margin-left: 2.5rem;
   }
-  .container .content .inner-content .text h1,
-  .container .content .inner-content .text span {
+  .container .content .inner-content .text h1 {
     font-size: 3.5rem;
     width: 100%;
   }
