@@ -44,17 +44,17 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "THE INTERNET'S FAVE NEWSLETTER" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "THE INTERNET'S FAVE EMAIL" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 31,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Become smarter in just 1 minute." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Stay informed in just 1 minute." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 32,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe to Jeffamzn daily newsletter." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe to Jeffamzn daily email." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 33,
           columnNumber: 11
@@ -118,13 +118,13 @@ function Index() {
           lineNumber: 47,
           columnNumber: 17
         }, this),
-        " fave newsletter."
+        " fave email."
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
         lineNumber: 47,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Got a minute? We'll make you smarter about business and tech with one daily email of good stuff for you to know about." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamzn is a daily email of good stuff for you to know in business and tech. Got a minute? that's all it takes to stay informed by the internet's fave email." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 49,
         columnNumber: 7
@@ -144,7 +144,7 @@ function Index() {
         lineNumber: 53,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join 10,000+ tech execs, founders, and entrepreneurs who like knowing about all the good stuff going on in business and tech." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join 10,000+ tech execs, founders, and entrepreneurs who read one daily email to stay informed about good stuff happening in business and tech." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 54,
         columnNumber: 13
@@ -182,12 +182,12 @@ function Index() {
           lineNumber: 63,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "One daily email" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Your fave email" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 64,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get a daily email of good stuff for you to know about." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get one daily email of good stuff for you to know about." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 65,
           columnNumber: 11
@@ -303,4 +303,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-7MS2HAPZ.js.map
+//# sourceMappingURL=/build/routes/index-OIDQCRMJ.js.map

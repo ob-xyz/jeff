@@ -43,7 +43,7 @@ function Footer() {
           lineNumber: 15,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe to Jeffamzn daily newsletter." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe to Jeffamzn daily email." }, void 0, false, {
           fileName: "app/components/footer.tsx",
           lineNumber: 16,
           columnNumber: 11
@@ -244,8 +244,8 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "Subscribe to Jeffamzn Daily Newsletter - Jeffamzn",
-  description: "Sign up for the free, business newsletter keeping 10,000+ tech execs, founders, and entrepreneurs smarter about the world.",
+  title: "Subscribe to Jeffamzn Daily Email - Jeffamzn",
+  description: "Sign up for the free, daily email keeping 10,000+ tech execs, founders, and entrepreneurs smarter about the world.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -308,4 +308,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-AHRPM7GV.js.map
+//# sourceMappingURL=/build/root-KLZBGHK3.js.map

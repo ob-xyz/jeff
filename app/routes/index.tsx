@@ -28,9 +28,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>THE INTERNET'S FAVE NEWSLETTER</h4>
-            <h1>Become smarter in just 1 minute.</h1>
-          <p>Subscribe to Jeffamzn daily newsletter.</p>
+            <h4>THE INTERNET'S FAVE EMAIL</h4>
+            <h1>Stay informed in just 1 minute.</h1>
+          <p>Subscribe to Jeffamzn daily email.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -44,14 +44,14 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're <span>the internet's</span> fave newsletter.</h2>
+      <h2>We're <span>the internet's</span> fave email.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Got a minute? We'll make you smarter about business and tech with one daily email of good stuff for you to know about.</p>
+      <p>Jeffamzn is a daily email of good stuff for you to know in business and tech. Got a minute? that's all it takes to stay informed by the internet's fave email.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Join 10,000+ tech execs, founders, and entrepreneurs who like knowing about all the good stuff going on in business and tech.</p>
+            <p>Join 10,000+ tech execs, founders, and entrepreneurs who read one daily email to stay informed about good stuff happening in business and tech.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
@@ -61,8 +61,8 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>One daily email</h1>
-          <p>Get a daily email of good stuff for you to know about.</p>
+          <h1>Your fave email</h1>
+          <p>Get one daily email of good stuff for you to know about.</p>
         </div>
         <div className="box">
           <img src={jensen} />
