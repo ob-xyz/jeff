@@ -200,7 +200,7 @@
 }
 .container .inner-content4 {
   display: flex;
-  margin: 2rem 5rem 5rem 5rem;
+  margin: 6rem 5rem 5rem 5rem;
 }
 .container .inner-content4 h3 {
   margin-left: 0;
@@ -1464,8 +1464,7 @@
 }
 .footer img {
   margin: 0;
-  width: 3rem;
-  border-radius: 10rem;
+  width: 10rem;
 }
 .footer .footer-top {
   display: flex;

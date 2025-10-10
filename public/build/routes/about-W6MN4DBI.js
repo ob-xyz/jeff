@@ -22,12 +22,12 @@ function Index() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content-aboutus2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
         "We're ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "the internet's fave" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "the internet's" }, void 0, false, {
           fileName: "app/routes/about.tsx",
           lineNumber: 9,
           columnNumber: 17
         }, this),
-        " newsletter."
+        " fave newsletter."
       ] }, void 0, true, {
         fileName: "app/routes/about.tsx",
         lineNumber: 9,
@@ -52,4 +52,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-RCOUXEVJ.js.map
+//# sourceMappingURL=/build/routes/about-W6MN4DBI.js.map

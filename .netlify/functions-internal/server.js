@@ -272,7 +272,7 @@ function Footer() {
 var import_react3 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-3EO2ECW2.css";
+var global_default = "/build/_assets/global-WKAEUUZY.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), links = () => [
@@ -1620,12 +1620,12 @@ function Index4() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "content-aboutus2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h2", { children: [
         "We're ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { children: "the internet's fave" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { children: "the internet's" }, void 0, !1, {
           fileName: "app/routes/about.tsx",
           lineNumber: 9,
           columnNumber: 17
         }, this),
-        " newsletter."
+        " fave newsletter."
       ] }, void 0, !0, {
         fileName: "app/routes/about.tsx",
         lineNumber: 9,
@@ -1753,12 +1753,12 @@ function Index5() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h2", { children: [
         "We're ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("span", { children: "the internet's fave" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("span", { children: "the internet's" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 47,
           columnNumber: 17
         }, this),
-        " newsletter."
+        " fave newsletter."
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
         lineNumber: 47,
@@ -1942,7 +1942,7 @@ function Index5() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-WZ6NJVAJ.js", imports: ["/build/_shared/chunk-UWAZYJMR.js", "/build/_shared/chunk-4QJKEWZT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-AQUSY7FX.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-RCOUXEVJ.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise-with-us": { id: "routes/ads/advertise-with-us", parentId: "root", path: "ads/advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-with-us-KIYZYKZX.js", imports: ["/build/_shared/chunk-E7AKTGCF.js", "/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-6O2NNGMY.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-VH3O4EM5.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-W7VNV2SV.js", imports: ["/build/_shared/chunk-E7AKTGCF.js", "/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "a1670579", hmr: void 0, url: "/build/manifest-A1670579.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-WZ6NJVAJ.js", imports: ["/build/_shared/chunk-UWAZYJMR.js", "/build/_shared/chunk-4QJKEWZT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-AHRPM7GV.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-W6MN4DBI.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise-with-us": { id: "routes/ads/advertise-with-us", parentId: "root", path: "ads/advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-with-us-KIYZYKZX.js", imports: ["/build/_shared/chunk-E7AKTGCF.js", "/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-7MS2HAPZ.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-VH3O4EM5.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-W7VNV2SV.js", imports: ["/build/_shared/chunk-E7AKTGCF.js", "/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "bd28fab4", hmr: void 0, url: "/build/manifest-BD28FAB4.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
