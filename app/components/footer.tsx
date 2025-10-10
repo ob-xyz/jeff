@@ -1,6 +1,6 @@
 import { Link } from "@remix-run/react";
 
-import logo from "~/../public/img/ja1.png";
+import handcoin from "~/../public/img/news.png";
 import linkedin from "~/../public/img/in.png";
 import ig from "~/../public/img/ig.png";
 import x from "~/../public/img/x.png";
@@ -9,7 +9,7 @@ import email from "~/../public/img/email.png";
 export default function Footer() {
   return (
 <footer className="footer">
-  <img src={logo} alt="Logo" />
+  <img src={handcoin} alt="Jeffamzn Logo" />
 <div className="footer-top">
   <div className="footer-signup">
     <h1>Screw it, let's do it.</h1>

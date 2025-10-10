@@ -4,9 +4,6 @@ import logo from "~/../public/img/ja1.png";
 import sama from "~/../public/img/samae.jpg";
 import tobi from "~/../public/img/tobic.jpg";
 import jensen from "~/../public/img/jensene.jpg";
-import trump from "~/../public/img/trump.webp";
-import dd from "~/../public/img/rocket.jpg";
-import handcoin from "~/../public/img/news.png";
 
 export default function Index() {
     useEffect(() => {
@@ -31,7 +28,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>YOUR FAVE NEWSLETTER</h4>
+            <h4>THE INTERNET'S FAVE NEWSLETTER</h4>
             <h1>Become smarter in just 1 minute.</h1>
           <p>Subscribe to Jeffamzn daily newsletter.</p>
           </div>
@@ -47,21 +44,10 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're your <span>fave</span> newsletter.</h2>
+      <h2>We're <span>the internet's fave</span> newsletter.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
       <p>Got a minute? We'll make you smarter about business and tech with one daily email of good stuff for you to know about.</p>
       </a>
-      </div>
-      <div className="inner-content3">
-        <div className="box">
-          <img src={trump} />
-        </div>
-        <div className="box">
-          <img src={handcoin} />
-        </div>
-        <div className="box">
-          <img src={dd} />
-        </div>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
