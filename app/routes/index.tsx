@@ -46,23 +46,23 @@ export default function Index() {
       <div className="inner-content2">
       <h2>We're <span>the internet's</span> fave email.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Jeffamzn is a daily email of good stuff for you to know in business and tech. Got a minute? that's all it takes to stay informed by the internet's fave email.</p>
+      <p>Got a minute? We'll help you stay informed about what drives the world with a daily email of good stuff happening in business and tech.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Join 10,000+ tech execs, founders, and entrepreneurs who read one daily email to stay informed about good stuff happening in business and tech.</p>
+            <p>Join 10,000+ tech execs, founders, and entrepreneurs who like staying informed about what's driving the world forward.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
-          <h1>Strategic thinkers</h1>
-          <p>Join people who like to develop and build things.</p>
+          <h1>Join the drivers</h1>
+          <p>Join people who drive the world by developing and building things.</p>
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>Your fave email</h1>
-          <p>Get one daily email of good stuff for you to know about.</p>
+          <h1>One daily email</h1>
+          <p>Get a daily email of good stuff happening in business and tech.</p>
         </div>
         <div className="box">
           <img src={jensen} />
