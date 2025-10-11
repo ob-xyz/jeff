@@ -51,7 +51,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Enjoy our free, daily email that helps 10,000+ tech execs, founders, and entrepreneurs stay informed about real conversations happening across the world.</p>
+            <p>Enjoy our free, daily email that helps 10,000+ tech execs, founders, and entrepreneurs stay informed about what's happening across the world.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
@@ -62,12 +62,12 @@ export default function Index() {
         <div className="box">
           <img src={tobi} />
           <h1>One quick read</h1>
-          <p>Enjoy our one minute daily email.</p>
+          <p>Get our one minute daily email.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Sunday thread</h1>
-          <p>Get our Sunday deep dive into one hot trend.</p>
+          <p>Enjoy our Sunday deep dive into one hot trend.</p>
         </div>
       </div>
       <div className="btn">
