@@ -56,12 +56,12 @@ export default function Index() {
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
-          <h1>The good stuff</h1>
+          <h1>Know what's happening</h1>
           <p>Catch the good stuff happening in business and tech.</p>
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>One quick read</h1>
+          <h1>One quick email</h1>
           <p>Get our one minute daily email.</p>
         </div>
         <div className="box">
