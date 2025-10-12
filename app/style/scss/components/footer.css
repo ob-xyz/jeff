@@ -10,7 +10,9 @@
 }
 .footer img {
   margin: 0;
+  padding: 0;
   width: 10rem;
+  margin-left: -2rem;
 }
 .footer .footer-top {
   display: flex;

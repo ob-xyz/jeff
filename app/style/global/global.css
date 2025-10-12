@@ -175,29 +175,6 @@
     background-position: 200% 0;
   }
 }
-.container .inner-content3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 2rem 5rem 0 5rem;
-  align-items: stretch;
-}
-.container .inner-content3 .box {
-  display: flex;
-  flex-direction: column;
-  background: transparent;
-  text-align: left;
-}
-.container .inner-content3 .box img {
-  border-radius: 0.5rem;
-  width: 100%;
-  height: auto;
-}
-.container .inner-content3 .box:nth-child(2) {
-  width: 110%;
-  padding: 1rem 0 0 0;
-  margin-left: -1.5rem;
-}
 .container .inner-content4 {
   display: flex;
   margin: 6rem 5rem 5rem 5rem;
@@ -394,9 +371,6 @@
     padding-top: 1rem;
     width: 100%;
   }
-  .container .inner-content3 {
-    margin: 4rem 2.5rem 0 2.5rem;
-  }
   .container .inner-content4 {
     margin: 4rem 2.5rem 0 2.5rem;
     flex-direction: column;
@@ -468,12 +442,6 @@
     font-size: 2rem;
     width: 100%;
   }
-  .container .inner-content3 {
-    margin: 4rem 2.5rem 0 2.5rem;
-  }
-  .container .inner-content3 .box:nth-child(2) {
-    margin-left: -1rem;
-  }
   .container .inner-content4 {
     margin: 4rem 2.5rem 0 2.5rem;
     flex-direction: column;
@@ -519,8 +487,8 @@
     margin-left: 1rem;
   }
   .container .content .inner-content .text h1 {
-    font-size: 2rem;
-    width: 100%;
+    font-size: 2.25rem;
+    width: 80%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
@@ -539,7 +507,7 @@
   }
   .container .inner-content2 h2, .container .inner-content2 span {
     padding-top: 3.5rem;
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     width: 100%;
   }
   .container .inner-content2 p {
@@ -547,12 +515,6 @@
     padding-top: 1rem;
     font-size: 1.5rem;
     width: 100%;
-  }
-  .container .inner-content3 {
-    margin: 3rem 1rem 0 1rem;
-  }
-  .container .inner-content3 .box:nth-child(2) {
-    margin-left: -0.75rem;
   }
   .container .inner-content4 {
     margin: 3rem 1rem 0 1rem;
@@ -1464,7 +1426,9 @@
 }
 .footer img {
   margin: 0;
+  padding: 0;
   width: 10rem;
+  margin-left: -2rem;
 }
 .footer .footer-top {
   display: flex;
