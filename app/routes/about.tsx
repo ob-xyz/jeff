@@ -6,8 +6,8 @@ export default function Index() {
         <img src={logo} alt="The Poast Logo" />
       </div>
       <div className="content-aboutus2">
-      <h2>We're <span>the internet's</span> fave email.</h2>
-      <p>Got a minute? We'll help you catch the business news that actually matters.</p>
+      <h2>We're <span>Silicon Valley's</span> fave email.</h2>
+      <p>Got a minute? We'll help you catch conversations in business and tech that actually matter.</p>
       </div>
   </div>
   );

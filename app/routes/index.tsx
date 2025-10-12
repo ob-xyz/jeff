@@ -28,7 +28,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>THE INTERNET'S FAVE EMAIL</h4>
+            <h4>SILICON VALLEY'S FAVE EMAIL</h4>
             <h1>Stay informed in just 1 minute.</h1>
           <p>Subscribe to Jeffamzn daily email.</p>
           </div>
@@ -44,9 +44,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're <span>the internet's</span> fave email.</h2>
+      <h2>We're <span>Silicon Valley's</span> fave email.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Got a minute? We'll help you catch the business news that actually matters.</p>
+      <p>Got a minute? We'll help you catch conversations in business and tech that actually matter.</p>
       </a>
       </div>
       <div className="inner-content4">
