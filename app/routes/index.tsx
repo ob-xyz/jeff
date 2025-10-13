@@ -28,9 +28,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>SILICON VALLEY'S FAVE EMAIL</h4>
-            <h1>Stay informed in just 1 minute.</h1>
-          <p>Subscribe to Jeffamzn daily email.</p>
+            <h4>YOUR FAVE NEWSLETTER</h4>
+            <h1>Become informed in just 1 minute.</h1>
+          <p>Every day of the week, Jeffamzn delivers hot takes and insights from real people doing business in the business world.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -44,30 +44,30 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're <span>Silicon Valley's</span> fave email.</h2>
+      <h2>We're <span>your new fave</span> newsletter.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Got a minute? We'll help you catch conversations in business and tech that actually matter.</p>
+      <p>Every day of the week, Jeffamzn covers the latest news on business, the economy, and everything that actually matters to real people doing business in the business world.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Enjoy our free, daily email that helps 10,000+ tech execs, founders, and entrepreneurs stay informed about what's happening across the world.</p>
+            <p>Enjoy hot takes and insights from the most powerful and influential people in the most powerful and influential companies.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
-          <h1>Know what's happening</h1>
-          <p>Catch the good stuff happening in business and tech.</p>
+          <h1>Real people</h1>
+          <p>Hot takes from real people doing business in the business world.</p>
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>One quick email</h1>
-          <p>Get our one minute daily email.</p>
+          <h1>Quick insights</h1>
+          <p>Get one minute of quick insights.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Sunday thread</h1>
-          <p>Enjoy our Sunday deep dive into one hot trend.</p>
+          <p>Enjoy our Sunday thread on one new interesting trend.</p>
         </div>
       </div>
       <div className="btn">
