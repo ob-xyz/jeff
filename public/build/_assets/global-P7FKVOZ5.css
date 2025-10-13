@@ -489,13 +489,13 @@
   }
   .container .content .inner-content .text h1 {
     font-size: 2.25rem;
-    width: 75%;
+    width: 80%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: .5rem;
-    font-size: 1.25rem;
-    width: 85%;
+    font-size: 1.15rem;
+    width: 87.5%;
   }
   .container .content .inner-content form .input-wrapper {
     width: 22rem;
