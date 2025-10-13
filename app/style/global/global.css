@@ -86,7 +86,7 @@
   text-align: left;
   padding: 1rem 0rem 0.5rem 0;
   margin-left: 0;
-  width: 55%;
+  width: 60%;
 }
 .container .content .inner-content form {
   display: flex;
@@ -99,7 +99,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 34.5rem;
+  width: 40rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -352,7 +352,7 @@
     width: 77.5%;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 34.25rem;
+    width: 40rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
