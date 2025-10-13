@@ -29,8 +29,8 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>YOUR FAVE NEWSLETTER</h4>
-            <h1>Become informed in just 1 minute.</h1>
-          <p>Every day of the week, Jeffamzn delivers hot takes and insights from real people doing business in the business world.</p>
+            <h1>Stay informed in just 1 minute.</h1>
+          <p>Every day of the week, Jeffamzn delivers hot takes and insights from informed people doing business in the business world.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -46,7 +46,7 @@ export default function Index() {
       <div className="inner-content2">
       <h2>We're <span>your new fave</span> newsletter.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day of the week, Jeffamzn covers the latest news on business, the economy, and everything that actually matters to real people doing business in the business world.</p>
+      <p>Every day of the week, Jeffamzn covers the latest news on business, the economy, and everything that actually matters to informed people doing business in the business world.</p>
       </a>
       </div>
       <div className="inner-content4">
@@ -56,13 +56,13 @@ export default function Index() {
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
-          <h1>Real people</h1>
-          <p>Hot takes from real people doing business in the business world.</p>
+          <h1>Quick insights</h1>
+          <p>Quick insights from informed people doing business.</p>
         </div>
         <div className="box">
           <img src={tobi} />
-          <h1>Quick insights</h1>
-          <p>Get one minute of quick insights.</p>
+          <h1>Hot takes</h1>
+          <p>Hot takes by people in the business world.</p>
         </div>
         <div className="box">
           <img src={jensen} />

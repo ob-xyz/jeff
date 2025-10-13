@@ -80,7 +80,7 @@
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
-  width: 47.5%;
+  width: 37.5%;
 }
 .container .content .inner-content .text p {
   text-align: left;
@@ -324,7 +324,7 @@
   }
 }
 
-@media (min-width: 875px) and (max-width: 1142px) {
+@media (min-width: 875px) and (max-width: 1246px) {
   .container h3 {
     font-size: 2.75rem;
   }
@@ -344,12 +344,12 @@
   }
   .container .content .inner-content .text h1, .container .content .inner-content .text span {
     font-size: 3.5rem;
-    width: 60%;
+    width: 55%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
-    width: 70%;
+    width: 77.5%;
   }
   .container .content .inner-content form .input-wrapper {
     width: 34.25rem;
