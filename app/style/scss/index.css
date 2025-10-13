@@ -70,7 +70,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 40rem;
+  width: 38.5rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -323,7 +323,7 @@
     width: 77.5%;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 40rem;
+    width: 38.5rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
@@ -481,12 +481,12 @@
   }
   .container .inner-content2 h2, .container .inner-content2 span {
     padding-top: 3.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     width: 100%;
   }
   .container .inner-content4 {
@@ -497,9 +497,10 @@
     padding-top: 0.5rem;
     margin-left: 0;
     width: 100%;
+    font-size: 1.1rem;
   }
   .container .inner-content4 h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .container .inner-content5 {
     margin: 0rem 1rem 0rem 1rem;
@@ -512,6 +513,10 @@
   .container .inner-content5 .box h1 {
     text-align: center;
     padding-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .container .inner-content5 .box p {
+    font-size: 1.1rem;
   }
   .container .btn {
     margin: 2rem 1rem;
