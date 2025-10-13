@@ -57,7 +57,7 @@ function Index() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day of the week, Jeffamzn delivers hot takes and insights from the most informed people doing business in the business world." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 33,
-          columnNumber: 11
+          columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
@@ -303,4 +303,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-BNAY7MUE.js.map
+//# sourceMappingURL=/build/routes/index-V2E7JHVF.js.map

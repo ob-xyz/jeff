@@ -473,21 +473,25 @@ form {
     margin-left:1rem;
   }
 .content{
-  margin-top:5rem;
+  margin-top:2.5rem;
   margin-bottom:4rem;
 .inner-content{
-        margin-top:5rem;
+        margin-top:0rem;
         margin-left:1rem;
+
     .text{
+      h4{
+          font-size:.825rem;
+        }
       h1{
-        font-size:2.25rem;
-        width:80%;
+        font-size:1.75rem;
+        width:70%;
       }
       p{
         padding-top:2.5rem;
         padding-bottom:.5rem;
-        font-size:1.15rem;
-        width:87.5%;
+        font-size:1.1rem;
+        width:85%;
       }
     }
 form {
