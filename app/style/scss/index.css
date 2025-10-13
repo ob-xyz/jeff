@@ -511,8 +511,9 @@
   }
   .container .inner-content5 .box h1 {
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 0.65rem;
     font-size: 1.1rem;
+    padding-bottom: 0.35rem;
   }
   .container .inner-content5 .box p {
     font-size: 1.1rem;
