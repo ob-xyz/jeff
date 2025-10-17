@@ -30,7 +30,8 @@ export default function Footer() {
     <h4>Company</h4>
     <Link to="/">Home</Link>
     <Link to="/about">About</Link>
-    <Link to="/ads/advertise-with-us">Advertise With Us</Link>
+    <Link to="/ads/advertise">Advertise</Link>
+    {/* <Link to="/ads/ad-formats">Ad Formats</Link> */}
   </div>
   <div className="column">
     <h4>Support</h4>

@@ -88,12 +88,14 @@ button.submit {
   display: flex;
   margin:0 0;
   padding-top:3.75rem;
+
 .column {
 display: flex;
 flex-direction: column;
 padding: 0 2rem;
 margin-top: 0;
-
+padding-right:0;
+margin-left:2rem;
 h4,
 a {
 text-align: left;
@@ -143,9 +145,11 @@ font-size: 0.825rem;
       display: flex;
       gap: 1.25rem;
       margin-right:0;
+      padding-right:0;
       img {
         width:1.15rem;
         border-radius: 0;
+        margin-left:0;
       }
     }
   }
@@ -231,7 +235,7 @@ font-size: 0.825rem;
       gap: .5rem;
       }
     .footer-social {
-      gap:1.75rem;
+      gap:1.25rem;
       img {
         width:1.1rem;
       }
