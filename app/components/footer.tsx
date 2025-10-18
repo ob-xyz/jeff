@@ -31,6 +31,7 @@ export default function Footer() {
     <Link to="/">Home</Link>
     <Link to="/about">About</Link>
     <Link to="/ads/advertise">Advertise</Link>
+    <a title="media kit" href="https://app.jeffamzn.com/campaign/326965e9-08ca-45d8-8949-df43df3bdbfe/e0b14610-4448-4657-ae89-21598fe78de2"  rel="noopener noreferrer">Media Kit</a>
     {/* <Link to="/ads/ad-formats">Ad Formats</Link> */}
   </div>
   <div className="column">
