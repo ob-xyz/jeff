@@ -58,7 +58,7 @@ export default function Index() {
           <h4>ADVERTISE</h4>
           <h3>Jeffamzn ad formats.</h3>
           </div>
-          <p>Jeffamzn offers a variety of formats for advertisers to showcase their content.</p>
+          <p>Jeffamzn offers a variety of formats for advertisers to showcase their content to our audience of over 10,000 tech execs, founders, and entrepreneurs.</p>
     </div>
     <div className="ads-carousel-txt">
     <div className="adsbox">
@@ -110,7 +110,7 @@ export default function Index() {
 
     <div className="content-awu6">
     <div className="header">
-      <h4>AD FACT</h4>
+      <h4>ADVERTISE WITH US</h4>
       <h3>Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</h3>
       <p>Source: Nielsen Brand Effect (US/UK/JP/CA), Q3 2015 - Q3 2018 Connect campaigns. Comparison is v. 1 ad format alone.</p>
     </div>
