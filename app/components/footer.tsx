@@ -9,7 +9,9 @@ import email from "~/../public/img/email.png";
 export default function Footer() {
   return (
 <footer className="footer">
-  <img src={handcoin} alt="Jeffamzn Logo" />
+
+  <h1>Jeffamzn</h1>
+
 <div className="footer-top">
   <div className="footer-signup">
     <h1>Screw it, let's do it.</h1>
@@ -24,7 +26,7 @@ export default function Footer() {
       <input type="hidden" name="nonce" />
     </form>
   </div>
-  
+
 <div className="footer-links">
   <div className="column">
     <h4>Company</h4>
@@ -40,9 +42,11 @@ export default function Footer() {
     <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">Subscribe</a>
   </div>
 </div>
+
 </div>
 
 <div className="footer-bottom">
+
   <div className="footer-meta">
     <Link to="/policies/privacy">Privacy Policy</Link>
   <a href="https://policies.google.com/terms?hl=en-US" target="_blank" rel="noopener noreferrer">

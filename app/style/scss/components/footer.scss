@@ -3,17 +3,15 @@
   width: 100%;
   padding: 10rem 5rem 3rem 5rem;
   box-sizing: border-box;
+    h1{
+      font-size:14.4rem;
+      font-family: ku;
+    }
     p{
         font-family:kl;
         font-size:1.4rem;
         margin-left:0;
     }
-  img {
-        margin:0;
-        padding:0;
-        width:10rem;
-        margin-left:-2rem;
-      }
   .footer-top {
     display: flex;
     flex-wrap: nowrap;
@@ -159,6 +157,9 @@ font-size: 0.825rem;
   padding-left:2.5rem;
   padding-right:2.5rem;
   padding-top:2.5rem;
+        h1{
+      font-size:7.75rem;
+    }
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
@@ -199,6 +200,9 @@ font-size: 0.825rem;
 @media (max-width: 659px) {
 .footer {
   padding:1.25rem .5rem 1.25rem .5rem;
+      h1{
+      font-size:6.5rem;
+    }
   .footer-top {
         flex-direction: column-reverse;
         align-items: left;
