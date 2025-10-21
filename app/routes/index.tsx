@@ -28,9 +28,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>THE STREETS FAVE NEWSLETTER</h4>
+            <h4>GREAT THINKING STARTS HERE</h4>
             <h1>Stay informed in just 1 minute</h1>
-            <p>Every day of the week, Jeffamzn delivers hot takes and insights from highly informed people doing business in the business world.</p>
+            <p>Every day of the week, Jeffamzn delivers great takes and insights from highly informed people doing business in the business world.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -51,7 +51,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Enjoy real conversations and stories from highly informed people at the world's most powerful and influential companies.</p>
+            <p>Enjoy real conversations and stories from highly informed people running some of the world's most powerful and influential companies.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
