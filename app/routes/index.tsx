@@ -28,7 +28,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>GREAT THINKING STARTS HERE</h4>
+            <h4>GREAT TAKES STARTS HERE</h4>
             <h1>Stay informed in just 1 minute</h1>
             <p>Every day of the week, Jeffamzn delivers great takes and insights from highly informed people doing business in the business world.</p>
           </div>
@@ -44,9 +44,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're <span>the streets</span> fave newsletter.</h2>
+      <h2>We're <span>the internet's</span> fave newsletter.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day of the week, Jeffamzn delivers the latest news on trends, the economy, and everything that actually matters to people doing business in the business world.</p>
+      <p>Every day of the week, Jeffamzn delivers the great takes on news, trends, the economy, and everything that actually matters to people doing business in the business world.</p>
       </a>
       </div>
       <div className="inner-content4">
@@ -57,17 +57,17 @@ export default function Index() {
         <div className="box">
           <img src={sama} />
           <h1>Quick insights</h1>
-          <p>Quick insights from highly informed and influential people.</p>
+          <p>Quick insights from highly informed people.</p>
         </div>
         <div className="box">
           <img src={tobi} />
           <h1>Real stories</h1>
-          <p>Real stories from leaders in the business world.</p>
+          <p>Real stories from influential leaders.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Sunday thread</h1>
-          <p>Enjoy our Sunday thread on one new interesting trend.</p>
+          <h1>Deep dive threads</h1>
+          <p>Enjoy two (free) deep dive threads every week.</p>
         </div>
       </div>
       <div className="btn">
