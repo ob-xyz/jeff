@@ -28,9 +28,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>GREAT TAKES STARTS HERE</h4>
+            <h4>GREAT TAKES START HERE</h4>
             <h1>Stay informed in just 1 minute</h1>
-            <p>Every day of the week, Jeffamzn delivers great takes and insights from highly informed people doing business in the business world.</p>
+            <p>Enjoy daily conversations and insights from highly informed people running some of the most powerful and influential companies across the world.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -46,12 +46,12 @@ export default function Index() {
       <div className="inner-content2">
       <h2>We're <span>the internet's</span> fave newsletter.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Jeffamzn is a daily email delivering great takes on news, trends, the economy, and everything that actually matters to people doing business in the business world.</p>
+      <p>Every day of the week, Jeffamzn delivers great takes on news, trends, the economy, and everything else that actually matters to people doing business in the business world.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Enjoy real conversations and stories from highly informed people running some of the most powerful and influential companies across the world.</p>
+            <p>Enjoy real conversations and insights from highly informed people running some of the most powerful and influential companies across the world.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
