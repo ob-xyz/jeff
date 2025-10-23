@@ -28,9 +28,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>GREAT TAKES START HERE</h4>
+            <h4>HOT TAKES, BUSINESS STAKES</h4>
             <h1>Stay informed in just 1 minute</h1>
-            <p>Enjoy daily conversations and insights from highly informed people running some of the most powerful and influential companies across the world.</p>
+            <p>Enjoy daily conversations and insights from highly informed people running some of the world's most powerful and influential companies.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -44,20 +44,20 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're <span>the internet's</span> fave newsletter.</h2>
+      <h2>We're <span>the streets</span> fave newsletter.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day of the week, Jeffamzn delivers great takes on news, trends, the economy, and everything else that actually matters to people doing business in the business world.</p>
+      <p>Every day of the week, Jeffamzn delivers hot takes on news, trends, the economy, and everything else that actually matters to people doing business in the business world.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Enjoy real conversations and insights from highly informed people running some of the most powerful and influential companies across the world.</p>
+            <p>Enjoy real conversations and insights from highly informed people running some of the world's most powerful and influential companies.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
           <img src={sama} />
           <h1>Quick insights</h1>
-          <p>Quick insights from highly informed people.</p>
+          <p>Quick insights from informed people.</p>
         </div>
         <div className="box">
           <img src={tobi} />
