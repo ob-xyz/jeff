@@ -4,12 +4,11 @@ import logo from "~/../public/img/ja1.png";
 import promoads from "~/../public/img/promoted-ads.png";
 import takeoverads from "~/../public/img/takeover-ads.png";
 import textads from "~/../public/img/text-ads.png";
-import bg1 from "~/../public/img/bg.jpg";
 
 const ads = [
   {
     image: promoads,
-    title: "Promoted Ads",
+    title: "Images Ads",
     description:
       "Showcase your product or service with a single image, six-images, or a short video.",
   },  
@@ -21,7 +20,7 @@ const ads = [
   },
   {
     image: takeoverads,
-    title: "Takeover Ads",
+    title: "Widescreen Ads",
     description:
       "Highlight your product or service with a full screen image and bolded header.",
   },
@@ -54,11 +53,11 @@ export default function Index() {
       <img src={logo} alt="Jeffamzn Logo" />
     </div>
     <div className="content-awu2">
+          <h1>Reach 15,000+ tech execs, founders, and entrepreneurs.</h1>
           <div className="text">
           <h4>ADVERTISE</h4>
           <h3>Jeffamzn ad formats.</h3>
           </div>
-          <p>Jeffamzn offers a variety of formats for advertisers to showcase their content to our audience of over 10,000 tech execs, founders, and entrepreneurs.</p>
     </div>
     <div className="ads-carousel-txt">
     <div className="adsbox">

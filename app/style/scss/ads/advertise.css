@@ -36,26 +36,18 @@
 }
 .content-awu .content-awu2 {
   display: flex;
-  flex-direction: row;
-  margin: 3.5rem 5rem 5rem 5rem;
+  flex-direction: column;
+  margin: 3.5rem 5rem 2.5rem 5rem;
+}
+.content-awu .content-awu2 h1 {
+  padding-bottom: 2.5rem;
 }
 .content-awu .content-awu2 .text {
-  display: flex;
-  flex-direction: column;
+  margin: 0;
 }
 .content-awu .content-awu2 .text h4 {
   padding-bottom: 0.6rem;
-  margin-left: 0;
   color: rgb(198, 4, 36);
-}
-.content-awu .content-awu2 .text h3 {
-  margin-left: 0;
-}
-.content-awu .content-awu2 p {
-  padding-top: 0.25rem;
-  width: 40%;
-  color: #71717A;
-  margin-bottom: 0.5rem;
 }
 .content-awu .ads-carousel-txt {
   display: flex;
@@ -97,12 +89,13 @@
   position: relative;
   width: 35%;
   overflow: hidden;
-  margin-left: 3.5rem;
+  margin-left: 4rem;
 }
 .content-awu .ads-carousel-txt .ads-carousel .carousel-track {
   display: flex;
   transition: transform 0.5s ease;
   width: 100%;
+  padding-left: 0.2rem;
 }
 .content-awu .ads-carousel-txt .ads-carousel .carousel-slide {
   flex: 0 0 100%;
@@ -115,7 +108,7 @@
   border-radius: 0.25rem;
 }
 .content-awu .ads-carousel-txt .ads-carousel .box img {
-  width: 62.5%;
+  width: 60%;
   border-radius: 2.5rem;
 }
 .content-awu .ads-carousel-txt .ads-carousel .box h1 {
@@ -123,7 +116,7 @@
   font-size: 1.25rem;
   padding-top: 2rem;
   padding-bottom: 0.75rem;
-  margin: 0;
+  margin: 0 auto;
   font-family: bold;
 }
 .content-awu .ads-carousel-txt .ads-carousel .box p {
