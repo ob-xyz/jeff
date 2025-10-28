@@ -23,6 +23,7 @@
         font-family: kl;
     }
     h2 span{
+      font-size:4rem;
       font-family: ku;
     }
     h3 {
@@ -34,7 +35,7 @@
       }
     p{
         font-family:kl;
-        font-size:1.15rem;
+        font-size:1.5rem;
     }
 .content{
   display:flex;
@@ -45,17 +46,17 @@
       display: flex;
       flex-direction: column;
       margin-left:5rem;
-      margin-top:8rem;
+      margin-top:6rem;
 .text{
     h1{
         margin-left:0;
-        width:37.5%;
+        width:55%;
     }
     p{
         text-align: left;
-        padding:1rem 0rem .5rem 0;
+        padding:2rem 0rem .5rem 0;
         margin-left:0;
-        width:55%;
+        width:70%;
     }
 }
 form {
