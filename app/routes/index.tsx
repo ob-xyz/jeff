@@ -28,7 +28,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>THE WORLD'S BEST NEWSLETTER</h4>
+            <h4>DAILY NEWSLETTER</h4>
             <h1>Stay informed in just 1 minute</h1>
             <p>Enjoy hot takes and insights from people who do business in the business world.</p>
           </div>
