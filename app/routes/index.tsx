@@ -44,7 +44,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're the <span>business newsletter</span> that actually feels good to read.</h2>
+      <h2>We're the <span>daily newsletter</span> that actually feels good to read.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
       <p>Every day of the week, Jeffamzn delivers quick insights on news, trends, the economy, and everything else that matters to people like me and you.</p>
       </a>
