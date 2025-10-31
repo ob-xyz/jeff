@@ -51,18 +51,18 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Join 10,000+ people who start their day with a quick feed of markets, deals, and real stories from people doing business in the business world.</p>
+            <p>Join 10,000+ people who start their day with a quick and visual feed of markets, deals, and real stories from real people.</p>
       </div>
       <div className="inner-content5">
           <div className="box">
           <img src={tobi} />
           <h1>Know what's happening</h1>
-          <p>Real deals happening across the world.</p>
+          <p>Enjoy a quick feed of information.</p>
         </div>
         <div className="box">
           <img src={sama} />
-          <h1>Get the detail</h1>
-          <p>Quick feed of real information.</p>
+          <h1>Get the details</h1>
+          <p>Find out what's really going on.</p>
         </div>
         <div className="box">
           <img src={jensen} />
