@@ -28,9 +28,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>DAILY NEWSLETTER</h4>
+            <h4>JEFFAMZN DAILY NEWSLETTER</h4>
             <h1>Stay informed in just 1 minute</h1>
-            <p>Enjoy hot takes and insights from people who do business in the business world.</p>
+            <p>Real stories and insights from people doing business in the business world.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -46,28 +46,28 @@ export default function Index() {
       <div className="inner-content2">
       <h2>We're the <span>daily newsletter</span> that actually feels good to read.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day of the week, Jeffamzn delivers quick insights on news, trends, the economy, and everything else that matters to people like me and you.</p>
+      <p>Jeffamzn delivers real stories and insights on markets, trends, deals, and the economy every day of the week.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Enjoy hot takes and insights from highly informed people running some of the world's most powerful and influential companies.</p>
+            <p>Join 10,000+ people who start their day with a quick feed of markets, deals, and real stories from people doing business in the business world.</p>
       </div>
       <div className="inner-content5">
-        <div className="box">
-          <img src={sama} />
-          <h1>Quick insights</h1>
-          <p>Quick insights from informed people.</p>
+          <div className="box">
+          <img src={tobi} />
+          <h1>Know what's happening</h1>
+          <p>Real deals happening across the world.</p>
         </div>
         <div className="box">
-          <img src={tobi} />
-          <h1>Real stories</h1>
-          <p>Real stories from influential leaders.</p>
+          <img src={sama} />
+          <h1>Get the detail</h1>
+          <p>Quick feed of real information.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Deep dive threads</h1>
-          <p>Enjoy two weekly deep dive threads.</p>
+          <h1>Sunday dive</h1>
+          <p>Enjoy our Sunday deep dive on one new trend.</p>
         </div>
       </div>
       <div className="btn">
