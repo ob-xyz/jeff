@@ -873,7 +873,6 @@
   margin: 3.5rem 5rem 2.5rem 5rem;
 }
 .content-awu .content-awu2 h1 {
-  font-size: 5rem;
   padding-bottom: 2.5rem;
 }
 .content-awu .content-awu2 .text {
@@ -921,7 +920,7 @@
 }
 .content-awu .ads-carousel-txt .ads-carousel {
   position: relative;
-  width: 27.5%;
+  width: 35%;
   overflow: hidden;
   margin-left: 4rem;
   margin-top: -7.5rem;

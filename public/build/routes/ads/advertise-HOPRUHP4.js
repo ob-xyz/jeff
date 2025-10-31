@@ -11,13 +11,13 @@ import {
 var import_react = __toESM(require_react());
 
 // public/img/promoted-ads.png
-var promoted_ads_default = "/build/_assets/promoted-ads-TJUGNT3E.png";
+var promoted_ads_default = "/build/_assets/promoted-ads-MTYK46D3.png";
 
 // public/img/takeover-ads.png
-var takeover_ads_default = "/build/_assets/takeover-ads-BMLVBIZQ.png";
+var takeover_ads_default = "/build/_assets/takeover-ads-XEIRTT47.png";
 
 // public/img/text-ads.png
-var text_ads_default = "/build/_assets/text-ads-JSPI37U2.png";
+var text_ads_default = "/build/_assets/text-ads-SMBDQWID.png";
 
 // app/routes/ads/advertise.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -259,4 +259,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/advertise-3FFVM2ZC.js.map
+//# sourceMappingURL=/build/routes/ads/advertise-HOPRUHP4.js.map
