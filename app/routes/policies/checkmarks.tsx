@@ -4,6 +4,7 @@ import logo from "~/../public/img/ja1.png";
 import bluecheck from "~/../public/img/bluecheck.png";
 import goldcheck from "~/../public/img/goldcheck.png";
 import graycheck from "~/../public/img/graycheck.png";
+import whitecheck from "~/../public/img/whitecheck.png";
 import pinkcheck from "~/../public/img/pinkcheck.png";
 
 
@@ -47,6 +48,12 @@ export default function Index() {
         <h2>Gray checkmark</h2>
         <p>The gray checkmark indicates that an account represents a government organization or is an official government representative.</p>
         <img src={graycheck} alt="Checkmark" />
+        </div>
+
+        <div className="box">
+        <h2>White checkmark</h2>
+        <p>The white checkmark indicates that an account is anonymous, pseudonymous, or a parody.</p>
+        <img src={whitecheck} alt="Checkmark" />
         </div>
 
         <div className="box">

@@ -41,7 +41,6 @@ export default function Footer() {
     <Link to="/policies/checkmarks">Content Checkmarks</Link>
   </div>
 </div>
-
 </div>
 
 <div className="footer-bottom">
