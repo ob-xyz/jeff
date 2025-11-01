@@ -51,8 +51,8 @@ export default function Index() {
         </div>
 
         <div className="box">
-        <h2>White checkmark</h2>
-        <p>The white checkmark indicates that an account is anonymous, pseudonymous, or a parody.</p>
+        <h2>White or black checkmarks</h2>
+        <p>The white or black checkmarks indicate that an account is anonymous, pseudonymous, or a parody.</p>
         <img src={whitecheck} alt="Checkmark" />
         </div>
 
