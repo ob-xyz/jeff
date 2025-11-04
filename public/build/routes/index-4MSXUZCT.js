@@ -54,7 +54,7 @@ function Index() {
           lineNumber: 32,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The world is changing dramatically\u2014from AI breakthroughs to TACO tariffs. Jeffamzn cuts through the noise with daily insights that empower you to make smarter decisions with your money." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The world is changing dramatically\u2014from AI breakthroughs to TACO tariffs. Jeffamzn cuts through the noise with direct information, empowering you to make smarter decisions with your money." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 33,
           columnNumber: 13
@@ -113,7 +113,7 @@ function Index() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
         "Start your day smarter with ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "business news that feels good to read." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamzn" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 47,
           columnNumber: 39
@@ -302,4 +302,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-PTH4DEEE.js.map
+//# sourceMappingURL=/build/routes/index-4MSXUZCT.js.map
