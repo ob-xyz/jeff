@@ -84,7 +84,7 @@ function Footer() {
           lineNumber: 17,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Subscribe to Jeffamzn daily newsletter." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Start your day smarter with Jeffamzn." }, void 0, !1, {
           fileName: "app/components/footer.tsx",
           lineNumber: 18,
           columnNumber: 11
@@ -174,7 +174,7 @@ function Footer() {
             lineNumber: 40,
             columnNumber: 5
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Link, { to: "/policies/verification", children: "Content Verification" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Link, { to: "/policies/checkmarks", children: "Content Checkmarks" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
             lineNumber: 41,
             columnNumber: 5
@@ -198,64 +198,64 @@ function Footer() {
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "footer-meta", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Link, { to: "/policies/privacy", children: "Privacy Policy" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 50,
+          lineNumber: 49,
           columnNumber: 5
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://policies.google.com/terms?hl=en-US", target: "_blank", rel: "noopener noreferrer", children: "Terms of Service" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 51,
+          lineNumber: 50,
           columnNumber: 3
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/footer.tsx",
-        lineNumber: 49,
+        lineNumber: 48,
         columnNumber: 3
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "footer-social", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://instagram.com/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: ig_default, alt: "Instagram" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 57,
+          lineNumber: 56,
           columnNumber: 5
         }, this) }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 56,
+          lineNumber: 55,
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://x.com/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: x_default, alt: "X (formerly Twitter)" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 60,
+          lineNumber: 59,
           columnNumber: 5
         }, this) }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 59,
+          lineNumber: 58,
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 63,
+          lineNumber: 62,
           columnNumber: 5
         }, this) }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 62,
+          lineNumber: 61,
           columnNumber: 3
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: email_default, alt: "Email us" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 66,
+          lineNumber: 65,
           columnNumber: 5
         }, this) }, void 0, !1, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 65,
+          lineNumber: 64,
           columnNumber: 3
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/footer.tsx",
-        lineNumber: 55,
+        lineNumber: 54,
         columnNumber: 3
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/footer.tsx",
-      lineNumber: 47,
+      lineNumber: 46,
       columnNumber: 1
     }, this)
   ] }, void 0, !0, {
@@ -269,7 +269,7 @@ function Footer() {
 var import_react3 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-5SYDJTGC.css";
+var global_default = "/build/_assets/global-PCNMBSGS.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), links = () => [
@@ -285,7 +285,7 @@ var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), links = () => [
 ], meta = () => ({
   charset: "utf-8",
   title: "Subscribe to Jeffamzn Daily Newsletter - Jeffamzn",
-  description: "Sign up for the free, daily newsletter for real stories and insights from people doing business in the business world.",
+  description: "Sign up for the free, daily newsletter that helps you start your day smarter.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -344,9 +344,9 @@ function App() {
   }, this);
 }
 
-// app/routes/policies/verification.tsx
-var verification_exports = {};
-__export(verification_exports, {
+// app/routes/policies/checkmarks.tsx
+var checkmarks_exports = {};
+__export(checkmarks_exports, {
   default: () => Index
 });
 var import_react4 = require("react");
@@ -355,18 +355,21 @@ var import_react4 = require("react");
 var ja1_default = "/build/_assets/ja1-B66P6XQH.png";
 
 // public/img/bluecheck.png
-var bluecheck_default = "/build/_assets/bluecheck-FRIADKDD.png";
+var bluecheck_default = "/build/_assets/bluecheck-6AAKQDGW.png";
 
 // public/img/goldcheck.png
-var goldcheck_default = "/build/_assets/goldcheck-BWRZ53TY.png";
+var goldcheck_default = "/build/_assets/goldcheck-N7WYYUKF.png";
 
 // public/img/graycheck.png
-var graycheck_default = "/build/_assets/graycheck-O7OV4L5X.png";
+var graycheck_default = "/build/_assets/graycheck-OLA53YRN.png";
+
+// public/img/whitecheck.png
+var whitecheck_default = "/build/_assets/whitecheck-LCQZ4VS5.png";
 
 // public/img/pinkcheck.png
-var pinkcheck_default = "/build/_assets/pinkcheck-62NR7VWQ.png";
+var pinkcheck_default = "/build/_assets/pinkcheck-U4BM52KD.png";
 
-// app/routes/policies/verification.tsx
+// app/routes/policies/checkmarks.tsx
 var import_jsx_dev_runtime4 = require("react/jsx-dev-runtime");
 function Index() {
   return (0, import_react4.useEffect)(() => {
@@ -376,117 +379,138 @@ function Index() {
     };
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "content-verification", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: ja1_default, alt: "Jeffamzn Logo" }, void 0, !1, {
-      fileName: "app/routes/policies/verification.tsx",
-      lineNumber: 29,
+      fileName: "app/routes/policies/checkmarks.tsx",
+      lineNumber: 30,
       columnNumber: 9
     }, this) }, void 0, !1, {
-      fileName: "app/routes/policies/verification.tsx",
-      lineNumber: 28,
+      fileName: "app/routes/policies/checkmarks.tsx",
+      lineNumber: 29,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "content-verification2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h1", { children: "About checkmarks in the Jeffamzn newsletter." }, void 0, !1, {
-        fileName: "app/routes/policies/verification.tsx",
-        lineNumber: 32,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "Jeffamzn applies checkmarks as visual identity signals on account profiles to provide more context about\u2014and help distinguish\u2014different types of profiles. All of these indicators are applied by Jeffamzn, not the profile holder." }, void 0, !1, {
-        fileName: "app/routes/policies/verification.tsx",
+        fileName: "app/routes/policies/checkmarks.tsx",
         lineNumber: 33,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { children: "Blue checkmark" }, void 0, !1, {
-          fileName: "app/routes/policies/verification.tsx",
-          lineNumber: 35,
-          columnNumber: 9
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "The blue checkmark means that a account is a real person who meets our eligibility requirements. These accounts typically always represent an individual and have under gone review and confirmation that confirms they meet the authentic content and people standards we ahere to." }, void 0, !1, {
-          fileName: "app/routes/policies/verification.tsx",
-          lineNumber: 36,
-          columnNumber: 9
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: bluecheck_default, alt: "Checkmark" }, void 0, !1, {
-          fileName: "app/routes/policies/verification.tsx",
-          lineNumber: 37,
-          columnNumber: 9
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/routes/policies/verification.tsx",
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "Jeffamzn applies checkmarks as visual identity signals on account profiles to provide more context about\u2014and help distinguish\u2014different types of profiles. All of these indicators are applied by Jeffamzn, not the profile holder." }, void 0, !1, {
+        fileName: "app/routes/policies/checkmarks.tsx",
         lineNumber: 34,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { children: "Gold checkmark" }, void 0, !1, {
-          fileName: "app/routes/policies/verification.tsx",
-          lineNumber: 41,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { children: "Blue checkmark" }, void 0, !1, {
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 36,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "The gold checkmark indicates that the account is an official organization, company, or business." }, void 0, !1, {
-          fileName: "app/routes/policies/verification.tsx",
-          lineNumber: 42,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "The blue checkmark means that a account is a real person who meets our eligibility requirements. These accounts typically always represent an individual and have under gone review and confirmation that confirms they meet the authentic content and people standards we ahere to." }, void 0, !1, {
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 37,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: goldcheck_default, alt: "Checkmark" }, void 0, !1, {
-          fileName: "app/routes/policies/verification.tsx",
-          lineNumber: 43,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: bluecheck_default, alt: "Checkmark" }, void 0, !1, {
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 38,
           columnNumber: 9
         }, this)
       ] }, void 0, !0, {
-        fileName: "app/routes/policies/verification.tsx",
-        lineNumber: 40,
+        fileName: "app/routes/policies/checkmarks.tsx",
+        lineNumber: 35,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "box", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { children: "Gold checkmark" }, void 0, !1, {
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 42,
+          columnNumber: 9
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "The gold checkmark indicates that the account is an official organization, company, or business." }, void 0, !1, {
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 43,
+          columnNumber: 9
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: goldcheck_default, alt: "Checkmark" }, void 0, !1, {
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 44,
+          columnNumber: 9
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/policies/checkmarks.tsx",
+        lineNumber: 41,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "box", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { children: "Gray checkmark" }, void 0, !1, {
-          fileName: "app/routes/policies/verification.tsx",
-          lineNumber: 47,
-          columnNumber: 9
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "The gray checkmark indicates that an account represents a government organization or is an official government representative." }, void 0, !1, {
-          fileName: "app/routes/policies/verification.tsx",
+          fileName: "app/routes/policies/checkmarks.tsx",
           lineNumber: 48,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: graycheck_default, alt: "Checkmark" }, void 0, !1, {
-          fileName: "app/routes/policies/verification.tsx",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "The gray checkmark indicates that an account represents a government organization or is an official government representative." }, void 0, !1, {
+          fileName: "app/routes/policies/checkmarks.tsx",
           lineNumber: 49,
+          columnNumber: 9
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: graycheck_default, alt: "Checkmark" }, void 0, !1, {
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 50,
           columnNumber: 9
         }, this)
       ] }, void 0, !0, {
-        fileName: "app/routes/policies/verification.tsx",
-        lineNumber: 46,
+        fileName: "app/routes/policies/checkmarks.tsx",
+        lineNumber: 47,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "box", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { children: "White or black checkmarks" }, void 0, !1, {
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 54,
+          columnNumber: 9
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "The white or black checkmarks indicate that an account is anonymous, pseudonymous, or a parody." }, void 0, !1, {
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 55,
+          columnNumber: 9
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: whitecheck_default, alt: "Checkmark" }, void 0, !1, {
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 56,
+          columnNumber: 9
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/policies/checkmarks.tsx",
+        lineNumber: 53,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "box", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { children: "Pink checkmark" }, void 0, !1, {
-          fileName: "app/routes/policies/verification.tsx",
-          lineNumber: 53,
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 60,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "The pink checkmark indicates that an account is an advertiser." }, void 0, !1, {
-          fileName: "app/routes/policies/verification.tsx",
-          lineNumber: 54,
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 61,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: pinkcheck_default, alt: "Checkmark" }, void 0, !1, {
-          fileName: "app/routes/policies/verification.tsx",
-          lineNumber: 55,
+          fileName: "app/routes/policies/checkmarks.tsx",
+          lineNumber: 62,
           columnNumber: 9
         }, this)
       ] }, void 0, !0, {
-        fileName: "app/routes/policies/verification.tsx",
-        lineNumber: 52,
+        fileName: "app/routes/policies/checkmarks.tsx",
+        lineNumber: 59,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
-      fileName: "app/routes/policies/verification.tsx",
-      lineNumber: 31,
+      fileName: "app/routes/policies/checkmarks.tsx",
+      lineNumber: 32,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
-    fileName: "app/routes/policies/verification.tsx",
-    lineNumber: 27,
+    fileName: "app/routes/policies/checkmarks.tsx",
+    lineNumber: 28,
     columnNumber: 5
   }, this);
 }
@@ -1989,7 +2013,7 @@ function Index6() {
         lineNumber: 9,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Jeffamzn delivers real stories and insights on markets, trends, deals, and the economy every day of the week." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Every day Jeffamzn delivers a quick and insightful newsletter that helps you know what's really going on in the business world." }, void 0, !1, {
         fileName: "app/routes/about.tsx",
         lineNumber: 10,
         columnNumber: 7
@@ -2052,7 +2076,7 @@ function Index7() {
           lineNumber: 32,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Real stories and insights from people doing business in the business world." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "The world is changing dramatically\u2014from AI breakthroughs to TACO tariffs. Jeffamzn cuts through the noise with daily insights that empower you to make smarter decisions with your money." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 33,
           columnNumber: 13
@@ -2110,19 +2134,18 @@ function Index7() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { children: [
-        "We're the ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { children: "daily newsletter" }, void 0, !1, {
+        "Start your day smarter with ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { children: "business news that feels good to read." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 47,
-          columnNumber: 21
-        }, this),
-        " that actually feels good to read."
+          columnNumber: 39
+        }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/index.tsx",
         lineNumber: 47,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Jeffamzn delivers real stories and insights on markets, trends, deals, and the economy every day of the week." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Every day Jeffamzn delivers a quick and insightful newsletter that helps you make sense of markets, technology, and trends." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 49,
         columnNumber: 7
@@ -2142,7 +2165,7 @@ function Index7() {
         lineNumber: 53,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Join 10,000+ people who start their day with a quick and visual feed of markets, deals, and real stories from real people." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Join thousands who start their day with clear and timely coverage of the business world." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 54,
         columnNumber: 13
@@ -2159,12 +2182,12 @@ function Index7() {
           lineNumber: 58,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { children: "Know what's happening" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { children: "Know what's going on" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 59,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Enjoy a quick feed of information." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Know what's really going on in the world." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 60,
           columnNumber: 11
@@ -2180,12 +2203,12 @@ function Index7() {
           lineNumber: 63,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { children: "Get the details" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { children: "Good stuff to know" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 64,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Find out what's really going on." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Get clear signals with smart insights." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 65,
           columnNumber: 11
@@ -2206,7 +2229,7 @@ function Index7() {
           lineNumber: 69,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Enjoy our Sunday deep dive on one new trend." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Enjoy our Sunday deep dive on one current trend." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 70,
           columnNumber: 11
@@ -2300,7 +2323,7 @@ function Index7() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-WZ6NJVAJ.js", imports: ["/build/_shared/chunk-UWAZYJMR.js", "/build/_shared/chunk-4QJKEWZT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-GQLJSNKU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-Q7KHPTB6.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-formats": { id: "routes/ads/ad-formats", parentId: "root", path: "ads/ad-formats", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-formats-YKPMXEFC.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise": { id: "routes/ads/advertise", parentId: "root", path: "ads/advertise", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-45SVFCB3.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-CQON3J5S.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-VH3O4EM5.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-DVFSEXDK.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/verification": { id: "routes/policies/verification", parentId: "root", path: "policies/verification", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/verification-ZKH4OUQ3.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "f977a8c3", hmr: void 0, url: "/build/manifest-F977A8C3.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-WZ6NJVAJ.js", imports: ["/build/_shared/chunk-UWAZYJMR.js", "/build/_shared/chunk-4QJKEWZT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CHU42Y3B.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-RB3QIO2P.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-formats": { id: "routes/ads/ad-formats", parentId: "root", path: "ads/ad-formats", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-formats-YKPMXEFC.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise": { id: "routes/ads/advertise", parentId: "root", path: "ads/advertise", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-45SVFCB3.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-PTH4DEEE.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/checkmarks": { id: "routes/policies/checkmarks", parentId: "root", path: "policies/checkmarks", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/checkmarks-3HSHY7R3.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-VH3O4EM5.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-DVFSEXDK.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "afd1d7cc", hmr: void 0, url: "/build/manifest-AFD1D7CC.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
@@ -2312,13 +2335,13 @@ var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postc
     caseSensitive: void 0,
     module: root_exports
   },
-  "routes/policies/verification": {
-    id: "routes/policies/verification",
+  "routes/policies/checkmarks": {
+    id: "routes/policies/checkmarks",
     parentId: "root",
-    path: "policies/verification",
+    path: "policies/checkmarks",
     index: void 0,
     caseSensitive: void 0,
-    module: verification_exports
+    module: checkmarks_exports
   },
   "routes/policies/privacy": {
     id: "routes/policies/privacy",

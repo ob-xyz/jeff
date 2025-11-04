@@ -30,7 +30,7 @@ export default function Index() {
           <div className="text">
             <h4>JEFFAMZN DAILY NEWSLETTER</h4>
             <h1>Stay informed in just 1 minute</h1>
-            <p>The world is changing dramatically—from AI breakthroughs to TACO tariffs. Jeffamzn cuts through the noise with daily insights, empowering you make smarter decisions with your money.</p>
+            <p>The world is changing dramatically—from AI breakthroughs to TACO tariffs. Jeffamzn cuts through the noise with daily insights that empower you to make smarter decisions with your money.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -44,7 +44,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We deliver <span>business news</span> that feels good to read.</h2>
+      <h2>Start your day smarter with <span>business news that feels good to read.</span></h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
       <p>Every day Jeffamzn delivers a quick and insightful newsletter that helps you make sense of markets, technology, and trends.</p>
       </a>
@@ -56,18 +56,18 @@ export default function Index() {
       <div className="inner-content5">
           <div className="box">
           <img src={tobi} />
-          <h1>Know what's happening</h1>
-          <p>Find out what's really happening.</p>
+          <h1>Know what's going on</h1>
+          <p>Know what's really going on in the world.</p>
         </div>
         <div className="box">
           <img src={sama} />
-          <h1>Find smart insights</h1>
-          <p>Get real stories with smart insights.</p>
+          <h1>Good stuff to know</h1>
+          <p>Get clear signals with smart insights.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Sunday dive</h1>
-          <p>Enjoy our Sunday deep dive on one new trend.</p>
+          <p>Enjoy our Sunday deep dive on one current trend.</p>
         </div>
       </div>
       <div className="btn">
