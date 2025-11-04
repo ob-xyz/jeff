@@ -46,12 +46,12 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Start your day smarter with <span>Jeffamzn</span></h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day Jeffamzn delivers a quick and insightful newsletter that helps you make sense of markets, technology, and trends.</p>
+      <p>Every day Jeffamzn delivers quick and insightful updates that helps you make sense of markets, technology, and trends happening in the business world.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Join thousands who start their day with clear and timely coverage of the business world.</p>
+            <p>Join thousands who start their day with clear and timely coverage of markets and trends.</p>
       </div>
       <div className="inner-content5">
           <div className="box">
