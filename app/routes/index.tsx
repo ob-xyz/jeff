@@ -30,7 +30,7 @@ export default function Index() {
           <div className="text">
             <h4>JEFFAMZN DAILY NEWSLETTER</h4>
             <h1>Stay informed in just 1 minute</h1>
-            <p>Business news that feels good to read.</p>
+            <p>The world is changing dramatically—from AI breakthroughs to TACO tariffs. Jeffamzn cuts through the noise with daily insights, empowering you make smarter decisions with your money.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -44,14 +44,14 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>We're the <span>daily newsletter</span> that actually feels good to read.</h2>
+      <h2>We deliver <span>business news</span> that feels good to read.</h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day Jeffamzn delivers a quick and insightful newsletter that helps you know what's really going on in the business world.</p>
+      <p>Every day Jeffamzn delivers a quick and insightful newsletter that helps you make sense of markets, technology, and trends.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Join thousands who start their day with a quick overview of markets, deals, and smart insights from real people doing business in the business world.</p>
+            <p>Join thousands who start their day with clear and timely coverage of the business world.</p>
       </div>
       <div className="inner-content5">
           <div className="box">
