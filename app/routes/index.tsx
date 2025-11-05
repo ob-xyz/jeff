@@ -30,7 +30,7 @@ export default function Index() {
           <div className="text">
             <h4>JEFFAMZN DAILY NEWSLETTER</h4>
             <h1>Stay informed in just 1 minute</h1>
-            <p>The world is changing dramatically—from AI breakthroughs to TACO tariffs. Jeffamzn cuts through the noise with the inside scoop, empowering you to make smarter decisions with your money.</p>
+            <p>The world is changing dramatically—from AI breakthroughs to TACO tariffs. Jeffamzn cuts through the noise with the inside scoop, empowering you to make smarter moves with your money.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -46,28 +46,28 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Start your day smarter with <span>Jeffamzn</span></h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day Jeffamzn delivers quick and insightful updates that helps you make sense of markets, technology, and trends happening in the business world.</p>
+      <p>Every day Jeffamzn delivers quick and insightful updates, helping you make sense of markets, technology, and trends.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Join thousands who start their day with clear and timely coverage of markets and trends.</p>
+            <p>Join thousands who start their day with clear and timely coverage of markets and business trends.</p>
       </div>
       <div className="inner-content5">
           <div className="box">
           <img src={tobi} />
           <h1>Know what's going on</h1>
-          <p>Know what's really going on in the world.</p>
+          <p>Know what's really going on in the business world every day.</p>
         </div>
         <div className="box">
           <img src={sama} />
-          <h1>Good stuff to know</h1>
-          <p>Get clear signals with smart insights.</p>
+          <h1>Cut the noise</h1>
+          <p>Get a clear signal from people who own and operate companies.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Sunday dive</h1>
-          <p>Enjoy our Sunday deep dive on one current trend.</p>
+          <h1>Sunday threads</h1>
+          <p>Enjoy our Sunday thread into one trend happening right now.</p>
         </div>
       </div>
       <div className="btn">
