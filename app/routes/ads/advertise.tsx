@@ -53,7 +53,7 @@ export default function Index() {
       <img src={logo} alt="Jeffamzn Logo" />
     </div>
     <div className="content-awu2">
-          <h1>Reach 15,000+ tech execs, founders, and entrepreneurs.</h1>
+          <h1>Reach thousands of tech execs, founders, and entrepreneurs.</h1>
           <div className="text">
           <h4>ADVERTISE</h4>
           <h3>Jeffamzn ad formats.</h3>
