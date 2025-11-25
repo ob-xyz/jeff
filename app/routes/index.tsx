@@ -30,7 +30,7 @@ export default function Index() {
           <div className="text">
             <h4>JEFFAMAZON DAILY NEWSLETTER</h4>
             <h1>Stay informed in just 1 minute</h1>
-            <p>The world is changing dramatically—from AI breakthroughs to TACO tariffs. Jeffamazon cuts through the noise with timely information, empowering you to make smarter decisions without wasting time.</p>
+            <p>The world is changing dramatically—from AI breakthroughs to TACO tariffs. Jeffamazon cuts through the noise with timely info, empowering you to make informed decisions without wasting time.</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -44,30 +44,30 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Start your day smarter with <span>Jeffamazon</span></h2>
+      <h2>Stay informed about the news with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers quick and insightful updates, helping you make sense of markets, technology, and trends.</p>
+      <p>Every day Jeffamazon delivers quick and insightful updates, helping you make sense of markets, technology, and current trends.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox daily.</h3>
-            <p>Join thousands who start their day with clear and timely coverage of business and technology trends.</p>
+            <p>Join thousands who start their day with clear and timely coverage of business and technology news.</p>
       </div>
       <div className="inner-content5">
           <div className="box">
           <img src={tobi} />
           <h1>Know what's going on</h1>
-          <p>Know what's really going on in the business world every day.</p>
+          <p>Know what's going on in the world every day.</p>
         </div>
         <div className="box">
           <img src={sama} />
           <h1>Cut the noise</h1>
-          <p>Get a clear signal from people who own and operate companies.</p>
+          <p>Get real comments from familiar people.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Sunday threads</h1>
-          <p>Enjoy our Sunday thread into one trend happening right now.</p>
+          <h1>Sunday thread</h1>
+          <p>Enjoy our something new, Sunday thread.</p>
         </div>
       </div>
       <div className="btn">

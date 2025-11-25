@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/about.tsx"],
+  "sourcesContent": ["import logo from \"~/../public/img/ja1.png\";\nexport default function Index() {\n  return (\n    <div className=\"content-aboutus\">\n      <div className=\"logo\">\n        <img src={logo} alt=\"Jeffamazon Logo\" />\n      </div>\n      <div className=\"content-aboutus2\">\n      <h2>Stay informed about the news with <span>Jeffamazon</span></h2>\n      <p>Every day Jeffamazon delivers quick and insightful updates, helping you make sense of markets, technology, and current trends.</p>\n      </div>\n  </div>\n  );\n}"],
+  "mappings": ";;;;;;;;;AAKQ;AAJO,SAAR,QAAyB;AAC9B,SACE,mDAAC,SAAI,WAAU,mBACb;AAAA,uDAAC,SAAI,WAAU,QACb,6DAAC,SAAI,KAAK,aAAM,KAAI,qBAApB;AAAA;AAAA;AAAA;AAAA,WAAsC,KADxC;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACA,mDAAC,SAAI,WAAU,oBACf;AAAA,yDAAC,QAAG;AAAA;AAAA,QAAkC,mDAAC,UAAK,0BAAN;AAAA;AAAA;AAAA;AAAA,eAAgB;AAAA,WAAtD;AAAA;AAAA;AAAA;AAAA,aAA6D;AAAA,MAC7D,mDAAC,OAAE,8IAAH;AAAA;AAAA;AAAA;AAAA,aAAiI;AAAA,SAFjI;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,OAPF;AAAA;AAAA;AAAA;AAAA,SAQF;AAEF;",
+  "names": []
+}
