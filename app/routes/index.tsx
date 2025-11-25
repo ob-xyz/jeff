@@ -62,7 +62,7 @@ export default function Index() {
         <div className="box">
           <img src={sama} />
           <h1>Cut the noise</h1>
-          <p>Get actual comments from familiar people.</p>
+          <p>Get hot takes from familiar faces.</p>
         </div>
         <div className="box">
           <img src={jensen} />
