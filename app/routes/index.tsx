@@ -44,7 +44,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Stay informed about the news with <span>Jeffamazon</span></h2>
+      <h2>Stay informed about the daily business news with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
       <p>Every day Jeffamazon delivers quick and insightful updates, helping you make sense of markets, technology, and current trends.</p>
       </a>
@@ -62,12 +62,12 @@ export default function Index() {
         <div className="box">
           <img src={sama} />
           <h1>Cut the noise</h1>
-          <p>Get real comments from familiar people.</p>
+          <p>Get actual comments from familiar people.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Sunday thread</h1>
-          <p>Enjoy our something new, Sunday thread.</p>
+          <h1>Enjoy our Sunday thread</h1>
+          <p>Enjoy our thread on something new, every Sunday.</p>
         </div>
       </div>
       <div className="btn">
