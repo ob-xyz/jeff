@@ -50,13 +50,13 @@ export default function Index() {
   return (
   <div className="content-awu">
     <div className="logo">
-      <img src={logo} alt="Jeffamzn Logo" />
+      <img src={logo} alt="Jeffamazon Logo" />
     </div>
     <div className="content-awu2">
           <h1>Reach thousands of tech execs, founders, and entrepreneurs.</h1>
           <div className="text">
           <h4>ADVERTISE</h4>
-          <h3>Jeffamzn ad formats.</h3>
+          <h3>Jeffamazon ad formats.</h3>
           </div>
     </div>
     <div className="ads-carousel-txt">
@@ -81,7 +81,7 @@ export default function Index() {
       </li>
     </ul>
     <div className="btn">
-    <a href="mailto:hey@jeffamzn.com" className="pricebtn">
+    <a href="mailto:hey@jeffamazon.com" className="pricebtn">
           Start a campaign
     </a>
     </div>

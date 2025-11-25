@@ -21,16 +21,16 @@ export default function Index() {
   return (
     <div className="content-aboutus">
       <div className="logo">
-        <img src={logo} alt="Jeffamzn Logo" />
+        <img src={logo} alt="Jeffamazon Logo" />
       </div>
       <div className="content-aboutus2">
         <h2><span>Staying informed is hard.</span><br />We make it easy.</h2>
-        <p>Jeffamzn is a daily newsletter for go-getters who like to stay informed about the business world.</p>
+        <p>Jeffamazon is a daily newsletter for go-getters who like to stay informed about the business world.</p>
       </div>
       <div className="content-aboutus3">
       <div className="header">
         <h4>GETTING STARTED</h4>
-        <h3>Start your journey with Jeffamzn.</h3>
+        <h3>Start your journey with Jeffamazon.</h3>
       </div>
               <div className="grid">
           <div className="box">
@@ -52,8 +52,8 @@ export default function Index() {
       <div className="box">
         <img src={bg1} />
         <h1>Advertise with us</h1>
-        <p>Jeffamzn helps you diversify your brand by placing your content where people do business — the email inbox. <br /><br />Get started today by promoting just one of your existing LinkedIn, Instagram, Facebook, or X posts.</p>
-        <a href="mailto:hey@jeffamzn.com" className="pricebtn">
+        <p>Jeffamazon helps you diversify your brand by placing your content where people do business — the email inbox. <br /><br />Get started today by promoting just one of your existing LinkedIn, Instagram, Facebook, or X posts.</p>
+        <a href="mailto:chris@jeffamazon.com" className="pricebtn">
             Start a campaign
         </a>
       </div>

@@ -27,11 +27,11 @@ export default function Index() {
   return (
     <div className="content-verification">
       <div className="logo">
-        <img src={logo} alt="Jeffamzn Logo" />
+        <img src={logo} alt="Jeffamazon Logo" />
       </div>
       <div className="content-verification2">
-        <h1>About checkmarks in the Jeffamzn newsletter.</h1>
-        <p>Jeffamzn applies checkmarks as visual identity signals on account profiles to provide more context about—and help distinguish—different types of profiles. All of these indicators are applied by Jeffamzn, not the profile holder.</p>
+        <h1>About checkmarks in the Jeffamazon newsletter.</h1>
+        <p>Jeffamazon applies checkmarks as visual identity signals on account profiles to provide more context about—and help distinguish—different types of profiles. All of these indicators are applied by Jeffamzn, not the profile holder.</p>
         <div className="box">
         <h2>Blue checkmark</h2>
         <p>The blue checkmark means that a account is a real person who meets our eligibility requirements. These accounts typically always represent an individual and have under gone review and confirmation that confirms they meet the authentic content and people standards we ahere to.</p>
@@ -55,12 +55,12 @@ export default function Index() {
         <p>The white or black checkmarks indicate that an account is anonymous, pseudonymous, or a parody.</p>
         <img src={whitecheck} alt="Checkmark" />
         </div>
-
+{/* 
         <div className="box">
         <h2>Pink checkmark</h2>
         <p>The pink checkmark indicates that an account is an advertiser.</p>
         <img src={pinkcheck} alt="Checkmark" />
-        </div>
+        </div> */}
       </div>
   </div>
   );

@@ -24,7 +24,7 @@ export default function Index() {
   return (
   <div className="content-adformats">
     <div className="logo">
-      <img src={logo} alt="Jeffamzn Logo" />
+      <img src={logo} alt="Jeffamazon Logo" />
     </div>
  <div className="content-awu3">
       <div className="header">
@@ -40,7 +40,7 @@ export default function Index() {
       <div className="box">
         <img src={newads} />
         <h1>Use existing Meta and LinkedIn ads</h1>
-        <p>Give your existing Instagram, Facebook, or LinkedIn ads an extra boost as Jeffamzn ads.</p>
+        <p>Give your existing Instagram, Facebook, or LinkedIn ads an extra boost as Jeffamazon ads.</p>
       </div>
       </div>
     </div>

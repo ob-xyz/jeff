@@ -72,7 +72,7 @@ var email_default = "/build/_assets/email-KANKX45L.png";
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime");
 function Footer() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("footer", { className: "footer", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h1", { children: "Jeffamzn" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h1", { children: "Jeffamazon" }, void 0, !1, {
       fileName: "app/components/footer.tsx",
       lineNumber: 13,
       columnNumber: 3
@@ -84,7 +84,7 @@ function Footer() {
           lineNumber: 17,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Start your day smarter with Jeffamzn" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Start your day smarter with Jeffamazon" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
           lineNumber: 18,
           columnNumber: 11
@@ -174,7 +174,7 @@ function Footer() {
             lineNumber: 40,
             columnNumber: 5
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Link, { to: "/policies/checkmarks", children: "Content Checkmarks" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Link, { to: "/policies/checkmarks", children: "Checkmarks" }, void 0, !1, {
             fileName: "app/components/footer.tsx",
             lineNumber: 41,
             columnNumber: 5
@@ -239,7 +239,7 @@ function Footer() {
           lineNumber: 61,
           columnNumber: 3
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: email_default, alt: "Email us" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("a", { href: "mailto:chris@jeffamazon.com", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: email_default, alt: "Email us" }, void 0, !1, {
           fileName: "app/components/footer.tsx",
           lineNumber: 65,
           columnNumber: 5
@@ -269,7 +269,7 @@ function Footer() {
 var import_react3 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-OQ6PRKNZ.css";
+var global_default = "/build/_assets/global-2LW76UOP.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), links = () => [
@@ -284,8 +284,8 @@ var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), links = () => [
   }
 ], meta = () => ({
   charset: "utf-8",
-  title: "Jeffamzn",
-  description: "Jeffamzn delivers business news and updates that help you start your day smarter.",
+  title: "Jeffamazon",
+  description: "Jeffamazon delivers business news and updates that help you start your day smarter.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -366,9 +366,6 @@ var graycheck_default = "/build/_assets/graycheck-OLA53YRN.png";
 // public/img/whitecheck.png
 var whitecheck_default = "/build/_assets/whitecheck-LCQZ4VS5.png";
 
-// public/img/pinkcheck.png
-var pinkcheck_default = "/build/_assets/pinkcheck-U4BM52KD.png";
-
 // app/routes/policies/checkmarks.tsx
 var import_jsx_dev_runtime4 = require("react/jsx-dev-runtime");
 function Index() {
@@ -378,7 +375,7 @@ function Index() {
       document.body.removeChild(script);
     };
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "content-verification", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: ja1_default, alt: "Jeffamzn Logo" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: ja1_default, alt: "Jeffamazon Logo" }, void 0, !1, {
       fileName: "app/routes/policies/checkmarks.tsx",
       lineNumber: 30,
       columnNumber: 9
@@ -388,12 +385,12 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "content-verification2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h1", { children: "About checkmarks in the Jeffamzn newsletter." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h1", { children: "About checkmarks in the Jeffamazon newsletter." }, void 0, !1, {
         fileName: "app/routes/policies/checkmarks.tsx",
         lineNumber: 33,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "Jeffamzn applies checkmarks as visual identity signals on account profiles to provide more context about\u2014and help distinguish\u2014different types of profiles. All of these indicators are applied by Jeffamzn, not the profile holder." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "Jeffamazon applies checkmarks as visual identity signals on account profiles to provide more context about\u2014and help distinguish\u2014different types of profiles. All of these indicators are applied by Jeffamzn, not the profile holder." }, void 0, !1, {
         fileName: "app/routes/policies/checkmarks.tsx",
         lineNumber: 34,
         columnNumber: 9
@@ -481,27 +478,6 @@ function Index() {
         fileName: "app/routes/policies/checkmarks.tsx",
         lineNumber: 53,
         columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h2", { children: "Pink checkmark" }, void 0, !1, {
-          fileName: "app/routes/policies/checkmarks.tsx",
-          lineNumber: 60,
-          columnNumber: 9
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { children: "The pink checkmark indicates that an account is an advertiser." }, void 0, !1, {
-          fileName: "app/routes/policies/checkmarks.tsx",
-          lineNumber: 61,
-          columnNumber: 9
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: pinkcheck_default, alt: "Checkmark" }, void 0, !1, {
-          fileName: "app/routes/policies/checkmarks.tsx",
-          lineNumber: 62,
-          columnNumber: 9
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/routes/policies/checkmarks.tsx",
-        lineNumber: 59,
-        columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/policies/checkmarks.tsx",
@@ -529,7 +505,7 @@ function Index2() {
       document.body.removeChild(script);
     };
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "content-privacy", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("img", { src: ja1_default, alt: "Jeffamzn Logo" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("img", { src: ja1_default, alt: "Jeffamazon Logo" }, void 0, !1, {
       fileName: "app/routes/policies/privacy.tsx",
       lineNumber: 22,
       columnNumber: 9
@@ -556,13 +532,13 @@ function Index2() {
         lineNumber: 25,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Jeffamzn respects your privacy and values your trust. This Privacy Policy (\u201CPolicy\u201D) describes how we collect and use your information and explains your rights and options. This Policy applies to these services (which we call the \u201CServices\u201D in this Policy):" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Jeffamazon respects your privacy and values your trust. This Privacy Policy (\u201CPolicy\u201D) describes how we collect and use your information and explains your rights and options. This Policy applies to these services (which we call the \u201CServices\u201D in this Policy):" }, void 0, !1, {
         fileName: "app/routes/policies/privacy.tsx",
         lineNumber: 26,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("ul", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("li", { children: "websites, the Jeffamzn Store, paid products" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("li", { children: "websites, the Jeffamazon Store, paid products" }, void 0, !1, {
           fileName: "app/routes/policies/privacy.tsx",
           lineNumber: 28,
           columnNumber: 11
@@ -625,7 +601,7 @@ function Index2() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: [
         "We encourage you to read this Policy carefully. If you have questions, please contact us at ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("a", { href: "mailto:privacyrequest@jeffamzn.com", children: "privacyrequest@jeffamzn.com" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("a", { href: "mailto:privacyrequest@jeffamazon.com", children: "privacyrequest@jeffamazon.com" }, void 0, !1, {
           fileName: "app/routes/policies/privacy.tsx",
           lineNumber: 41,
           columnNumber: 104
@@ -646,7 +622,7 @@ function Index2() {
         lineNumber: 43,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Jeffamzn, Inc. (\u201CJeffamzn,\u201D \u201Cwe\u201D, \u201Cour\u201D or \u201Cus\u201D) operates the Services. This Policy supplements and is governed by our Terms of Service (\u201CTerms\u201D). Capitalized terms used but not defined in this Policy are defined in our Terms. The Terms describe how the Services work in general and its conditions and requirements of use." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Jeffamazon, Inc. (\u201CJeffamazon,\u201D \u201Cwe\u201D, \u201Cour\u201D or \u201Cus\u201D) operates the Services. This Policy supplements and is governed by our Terms of Service (\u201CTerms\u201D). Capitalized terms used but not defined in this Policy are defined in our Terms. The Terms describe how the Services work in general and its conditions and requirements of use." }, void 0, !1, {
         fileName: "app/routes/policies/privacy.tsx",
         lineNumber: 44,
         columnNumber: 9
@@ -684,7 +660,7 @@ function Index2() {
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("li", { children: [
           "If you are a current or former employee or contractor of ours, this Policy does not apply to you. You may contact us about your privacy practices and rights at ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("a", { href: "mailto:privacyrequest@jeffamzn.com", children: "privacyrequest@jeffamzn.com" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("a", { href: "mailto:privacyrequest@jeffamazon.com", children: "privacyrequest@jeffamazon.com" }, void 0, !1, {
             fileName: "app/routes/policies/privacy.tsx",
             lineNumber: 52,
             columnNumber: 175
@@ -756,7 +732,7 @@ function Index2() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: [
         "If those sections apply to you, they override any contrary descriptions elsewhere in the Policy as they relate to you. Please contact us at ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("a", { href: "mailto:privacyrequest@jeffamzn.com", children: "privacyrequest@jeffamzn.com" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("a", { href: "mailto:privacyrequest@jeffamazon.com", children: "privacyrequest@jeffamazon.com" }, void 0, !1, {
           fileName: "app/routes/policies/privacy.tsx",
           lineNumber: 64,
           columnNumber: 152
@@ -838,7 +814,7 @@ function Index2() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("ul", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("li", { children: "\u201CCommercial Information\u201D about your orders of Offerings or other products or services from us and interactions with Jeffamzn Store products." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("li", { children: "\u201CCommercial Information\u201D about your orders of Offerings or other products or services from us and interactions with Jeffamazon Store products." }, void 0, !1, {
           fileName: "app/routes/policies/privacy.tsx",
           lineNumber: 82,
           columnNumber: 11
@@ -1168,7 +1144,7 @@ function Index2() {
             columnNumber: 15
           }, this),
           ": From time to time, we may ask for your consent to collect specific information, such as your precise geolocation, or use your information for certain specific reasons, like providing your email address or phone number for direct marketing purposes, or for the use of certain types of cookies for personalized advertising. In general, you may withdraw your consent by changing your settings (such as browser or device settings) or following instructions provided with information we send you on a consent basis (such as clicking \u2018unsubscribe\u2019 in any email we send you). You may always withdraw your consent at any time \u2013 just contact us at ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("a", { href: "mailto:privacyrequest@jeffamzn.com", children: "privacyrequest@jeffamzn.com" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("a", { href: "mailto:privacyrequest@jeffamazon.com", children: "privacyrequest@jeffamazon.com" }, void 0, !1, {
             fileName: "app/routes/policies/privacy.tsx",
             lineNumber: 144,
             columnNumber: 670
@@ -1224,7 +1200,7 @@ function Index3() {
       document.body.removeChild(script);
     };
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "content-adformats", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: ja1_default, alt: "Jeffamzn Logo" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: ja1_default, alt: "Jeffamazon Logo" }, void 0, !1, {
       fileName: "app/routes/ads/ad-formats.tsx",
       lineNumber: 27,
       columnNumber: 7
@@ -1283,7 +1259,7 @@ function Index3() {
             lineNumber: 42,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { children: "Give your existing Instagram, Facebook, or LinkedIn ads an extra boost as Jeffamzn ads." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { children: "Give your existing Instagram, Facebook, or LinkedIn ads an extra boost as Jeffamazon ads." }, void 0, !1, {
             fileName: "app/routes/ads/ad-formats.tsx",
             lineNumber: 43,
             columnNumber: 9
@@ -1567,7 +1543,7 @@ function Index4() {
       document.body.removeChild(script);
     };
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "content-aboutus", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: ja1_default, alt: "Jeffamzn Logo" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("img", { src: ja1_default, alt: "Jeffamazon Logo" }, void 0, !1, {
       fileName: "app/routes/policies/terms.tsx",
       lineNumber: 24,
       columnNumber: 9
@@ -1594,7 +1570,7 @@ function Index4() {
         lineNumber: 27,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Jeffamzn is a daily newsletter for go-getters who like to stay informed about the business world." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: "Jeffamazon is a daily newsletter for go-getters who like to stay informed about the business world." }, void 0, !1, {
         fileName: "app/routes/policies/terms.tsx",
         lineNumber: 28,
         columnNumber: 9
@@ -1611,7 +1587,7 @@ function Index4() {
           lineNumber: 32,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h3", { children: "Start your journey with Jeffamzn." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h3", { children: "Start your journey with Jeffamazon." }, void 0, !1, {
           fileName: "app/routes/policies/terms.tsx",
           lineNumber: 33,
           columnNumber: 9
@@ -1692,16 +1668,16 @@ function Index4() {
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("p", { children: [
-            "Jeffamzn helps you diversify your brand by placing your content where people do business \u2014 the email inbox. ",
+            "Jeffamazon helps you diversify your brand by placing your content where people do business \u2014 the email inbox. ",
             /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/policies/terms.tsx",
               lineNumber: 55,
-              columnNumber: 120
+              columnNumber: 122
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/policies/terms.tsx",
               lineNumber: 55,
-              columnNumber: 126
+              columnNumber: 128
             }, this),
             "Get started today by promoting just one of your existing LinkedIn, Instagram, Facebook, or X posts."
           ] }, void 0, !0, {
@@ -1709,7 +1685,7 @@ function Index4() {
             lineNumber: 55,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", className: "pricebtn", children: "Start a campaign" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("a", { href: "mailto:chris@jeffamazon.com", className: "pricebtn", children: "Start a campaign" }, void 0, !1, {
             fileName: "app/routes/policies/terms.tsx",
             lineNumber: 56,
             columnNumber: 9
@@ -1778,7 +1754,7 @@ function Index5() {
       document.body.removeChild(script);
     };
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "content-awu", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { src: ja1_default, alt: "Jeffamzn Logo" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("img", { src: ja1_default, alt: "Jeffamazon Logo" }, void 0, !1, {
       fileName: "app/routes/ads/advertise.tsx",
       lineNumber: 53,
       columnNumber: 7
@@ -1799,7 +1775,7 @@ function Index5() {
           lineNumber: 58,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h3", { children: "Jeffamzn ad formats." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h3", { children: "Jeffamazon ad formats." }, void 0, !1, {
           fileName: "app/routes/ads/advertise.tsx",
           lineNumber: 59,
           columnNumber: 11
@@ -1875,7 +1851,7 @@ function Index5() {
           lineNumber: 65,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("a", { href: "mailto:hey@jeffamzn.com", className: "pricebtn", children: "Start a campaign" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("a", { href: "mailto:hey@jeffamazon.com", className: "pricebtn", children: "Start a campaign" }, void 0, !1, {
           fileName: "app/routes/ads/advertise.tsx",
           lineNumber: 84,
           columnNumber: 5
@@ -1990,7 +1966,7 @@ __export(about_exports, {
 var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime");
 function Index6() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "content-aboutus", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("img", { src: ja1_default, alt: "The Poast Logo" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("img", { src: ja1_default, alt: "Jeffamazon Logo" }, void 0, !1, {
       fileName: "app/routes/about.tsx",
       lineNumber: 6,
       columnNumber: 9
@@ -2002,7 +1978,7 @@ function Index6() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "content-aboutus2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h2", { children: [
         "Start your day smarter with ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { children: "Jeffamzn" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("span", { children: "Jeffamazon" }, void 0, !1, {
           fileName: "app/routes/about.tsx",
           lineNumber: 9,
           columnNumber: 39
@@ -2012,7 +1988,7 @@ function Index6() {
         lineNumber: 9,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Every day Jeffamzn delivers quick and insightful updates, helping you make sense of markets, technology, and trends." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { children: "Every day Jeffamazon delivers quick and insightful updates, helping you make sense of markets, technology, and trends." }, void 0, !1, {
         fileName: "app/routes/about.tsx",
         lineNumber: 10,
         columnNumber: 7
@@ -2054,7 +2030,7 @@ function Index7() {
       document.body.removeChild(script);
     };
   }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "container", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("img", { src: ja1_default, alt: "Jeffamzn Logo" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("img", { src: ja1_default, alt: "Jeffamazon Logo" }, void 0, !1, {
       fileName: "app/routes/index.tsx",
       lineNumber: 26,
       columnNumber: 9
@@ -2065,7 +2041,7 @@ function Index7() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "inner-content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "text", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { children: "JEFFAMZN DAILY NEWSLETTER" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { children: "JEFFAMAZON DAILY NEWSLETTER" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 31,
           columnNumber: 13
@@ -2075,7 +2051,7 @@ function Index7() {
           lineNumber: 32,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "The world is changing dramatically\u2014from AI breakthroughs to TACO tariffs. Jeffamzn cuts through the noise with the inside scoop, empowering you to make smarter moves with your money." }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "The world is changing dramatically\u2014from AI breakthroughs to TACO tariffs. Jeffamazon cuts through the noise with timely information, empowering you to make smarter decisions." }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 33,
           columnNumber: 13
@@ -2134,7 +2110,7 @@ function Index7() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h2", { children: [
         "Start your day smarter with ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { children: "Jeffamzn" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("span", { children: "Jeffamazon" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 47,
           columnNumber: 39
@@ -2144,7 +2120,7 @@ function Index7() {
         lineNumber: 47,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Every day Jeffamzn delivers quick and insightful updates, helping you make sense of markets, technology, and trends." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("a", { title: "subscription form", href: "https://app.jeffamzn.com/subscription/form", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Every day Jeffamazon delivers quick and insightful updates, helping you make sense of markets, technology, and trends." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 49,
         columnNumber: 7
@@ -2164,7 +2140,7 @@ function Index7() {
         lineNumber: 53,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Join thousands who start their day with clear and timely coverage of markets and business trends." }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { children: "Join thousands who start their day with clear and timely coverage of business and technology trends." }, void 0, !1, {
         fileName: "app/routes/index.tsx",
         lineNumber: 54,
         columnNumber: 13
@@ -2254,7 +2230,7 @@ function Index7() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "inner-blog", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "header", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { children: "JEFFAMZN NEWS" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h4", { children: "JEFFAMAZON NEWS" }, void 0, !1, {
           fileName: "app/routes/index.tsx",
           lineNumber: 102,
           columnNumber: 11
@@ -2322,7 +2298,7 @@ function Index7() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-WZ6NJVAJ.js", imports: ["/build/_shared/chunk-UWAZYJMR.js", "/build/_shared/chunk-4QJKEWZT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-YYVKTMVT.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-GK3IQUFM.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-formats": { id: "routes/ads/ad-formats", parentId: "root", path: "ads/ad-formats", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-formats-YKPMXEFC.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise": { id: "routes/ads/advertise", parentId: "root", path: "ads/advertise", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-SY2FRWEL.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-HAPH53RT.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/checkmarks": { id: "routes/policies/checkmarks", parentId: "root", path: "policies/checkmarks", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/checkmarks-3HSHY7R3.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-VH3O4EM5.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-DVFSEXDK.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "9b81c11b", hmr: void 0, url: "/build/manifest-9B81C11B.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-WZ6NJVAJ.js", imports: ["/build/_shared/chunk-UWAZYJMR.js", "/build/_shared/chunk-4QJKEWZT.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-IUWVYXTB.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-QN6ECTTG.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-formats": { id: "routes/ads/ad-formats", parentId: "root", path: "ads/ad-formats", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-formats-MKJGL2W2.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise": { id: "routes/ads/advertise", parentId: "root", path: "ads/advertise", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-5WTE3GQL.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-FL3LUBME.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/checkmarks": { id: "routes/policies/checkmarks", parentId: "root", path: "policies/checkmarks", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/checkmarks-ZODPRYIY.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-BXRMLRAV.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-H2HPRNFW.js", imports: ["/build/_shared/chunk-3UAG7PBE.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "8162d882", hmr: void 0, url: "/build/manifest-8162D882.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

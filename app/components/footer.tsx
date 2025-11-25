@@ -10,12 +10,12 @@ export default function Footer() {
   return (
 <footer className="footer">
 
-  <h1>Jeffamzn</h1>
+  <h1>Jeffamazon</h1>
 
 <div className="footer-top">
   <div className="footer-signup">
     <h1>Screw it, let's do it.</h1>
-          <p>Start your day smarter with Jeffamzn</p>
+          <p>Start your day smarter with Jeffamazon</p>
     <form method="post" action="https://app.jeffamzn.com/subscription/form">
       <div className="input-wrapper">
         <input className="email" type="email" name="email" required placeholder="Email Address *" />
@@ -38,7 +38,7 @@ export default function Footer() {
     <h4>Support</h4>
     <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">Subscribe</a>
     <a title="media kit" href="https://app.jeffamzn.com/campaign/326965e9-08ca-45d8-8949-df43df3bdbfe/e0b14610-4448-4657-ae89-21598fe78de2"  rel="noopener noreferrer">Media Kit</a>
-    <Link to="/policies/checkmarks">Content Checkmarks</Link>
+    <Link to="/policies/checkmarks">Checkmarks</Link>
   </div>
 </div>
 </div>
@@ -61,7 +61,7 @@ export default function Footer() {
   <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
     <img src={linkedin} alt="LinkedIn" />
   </a>
-  <a href="mailto:hey@jeffamzn.com">
+  <a href="mailto:chris@jeffamazon.com">
     <img src={email} alt="Email us" />
   </a>
   </div>

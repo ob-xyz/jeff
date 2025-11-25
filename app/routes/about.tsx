@@ -3,11 +3,11 @@ export default function Index() {
   return (
     <div className="content-aboutus">
       <div className="logo">
-        <img src={logo} alt="The Poast Logo" />
+        <img src={logo} alt="Jeffamazon Logo" />
       </div>
       <div className="content-aboutus2">
-      <h2>Start your day smarter with <span>Jeffamzn</span></h2>
-      <p>Every day Jeffamzn delivers quick and insightful updates, helping you make sense of markets, technology, and trends.</p>
+      <h2>Start your day smarter with <span>Jeffamazon</span></h2>
+      <p>Every day Jeffamazon delivers quick and insightful updates, helping you make sense of markets, technology, and trends.</p>
       </div>
   </div>
   );
