@@ -54,7 +54,7 @@ function Index() {
           lineNumber: 32,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The world is changing dramatically\u2014from AI breakthroughs to tariff Trump. Jeffamazon cuts through the noise with timely information, empowering you to stay informed without having to doomscroll." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The world is changing dramatically\u2014from AI breakthroughs to Trump's tariffs. Jeffamazon cuts through the noise with timely information, empowering you to make informed decisions." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 33,
           columnNumber: 13
@@ -112,11 +112,11 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
-        "Stay informed about business news with ",
+        "Stay informed about the news with ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 47,
-          columnNumber: 50
+          columnNumber: 45
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
@@ -302,4 +302,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-4BU2ZXRF.js.map
+//# sourceMappingURL=/build/routes/index-UN4QQORI.js.map

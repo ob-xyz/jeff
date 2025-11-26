@@ -14,7 +14,7 @@ var import_react = __toESM(require_react());
 var newads_default = "/build/_assets/newads-A2NPDGWT.jpg";
 
 // public/img/convertads.jpg
-var convertads_default = "/build/_assets/convertads-SBXTVORY.jpg";
+var convertads_default = "/build/_assets/convertads-A3VA6G33.jpg";
 
 // public/img/takeoverbg.jpg
 var takeoverbg_default = "/build/_assets/takeoverbg-Y5YO6SS6.jpg";
@@ -359,4 +359,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-formats-MKJGL2W2.js.map
+//# sourceMappingURL=/build/routes/ads/ad-formats-JMLRKB22.js.map

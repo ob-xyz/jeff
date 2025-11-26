@@ -1,6 +1,5 @@
 import { Link } from "@remix-run/react";
 
-import handcoin from "~/../public/img/news.png";
 import linkedin from "~/../public/img/in.png";
 import ig from "~/../public/img/ig.png";
 import x from "~/../public/img/x.png";
