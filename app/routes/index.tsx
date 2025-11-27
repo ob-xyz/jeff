@@ -44,14 +44,14 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Stay informed about the news with <span>Jeffamazon</span></h2>
+      <h2>Get your update from <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers quick and insightful updates, helping you make sense of markets, technology, and current trends.</p>
+      <p>Every day Jeffamazon delivers a quick and insightful update, helping you make sense of markets, technology, and current trends.</p>
       </a>
       </div>
       <div className="inner-content4">
-            <h3>Delivered straight to your inbox daily.</h3>
-            <p>Join thousands who start their day with clear and timely coverage of business and technology news.</p>
+            <h3>Delivered straight to your inbox.</h3>
+            <p>Join thousands who enjoy one clear and timely daily update about business and technology.</p>
       </div>
       <div className="inner-content5">
           <div className="box">
