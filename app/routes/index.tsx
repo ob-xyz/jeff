@@ -51,23 +51,23 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join thousands who enjoy one clear and timely daily update about business and technology.</p>
+            <p>Join thousands who start their day with a clear and timely update of what's going on in the world.</p>
       </div>
       <div className="inner-content5">
           <div className="box">
           <img src={tobi} />
           <h1>Know what's going on</h1>
-          <p>Know what's going on in the world every day.</p>
+          <p>Every day of the week, you'll know what's really going on in the world.</p>
         </div>
         <div className="box">
           <img src={sama} />
           <h1>Cut the noise</h1>
-          <p>Get hot takes from familiar faces.</p>
+          <p>Get hot takes and opinions from familiar faces you know and trust.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Enjoy our Sunday thread</h1>
-          <p>Enjoy our thread on something new, every Sunday.</p>
+          <h1>Sunday snack</h1>
+          <p>Enjoy our Sunday Snack into something new.</p>
         </div>
       </div>
       <div className="btn">
