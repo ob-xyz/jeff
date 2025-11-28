@@ -44,7 +44,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Stay informed about the news from <span>Jeffamazon</span></h2>
+      <h2>Stay informed in a good way from <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
       <p>Every day Jeffamazon delivers a quick and insightful update, helping you make sense of markets, technology, and current trends.</p>
       </a>
