@@ -23,12 +23,12 @@ export default function Index() {
   return (
     <div className="container">
       <div className="logo">
-        <img src={logo} alt="Jeffamzn Logo" />
+        <img src={logo} alt="Jeffamazon Logo" />
       </div>
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>JEFFAMZN DAILY NEWSLETTER</h4>
+            <h4>JEFFAMAZON DAILY NEWSLETTER</h4>
             <h1>Stay informed in just 1 minute</h1>
             <p>The world is changing dramatically—from AI breakthroughs to Trumps' tariffs. Jeffamazon cuts through the noise with timely information, empowering you to make informed decisions in your life.</p>
           </div>
@@ -99,7 +99,7 @@ export default function Index() {
 
 <div className="inner-blog">
       <div className="header">
-          <h4>JEFFAMZN NEWS</h4>
+          <h4>JEFFAMAZON NEWS</h4>
           <h3>The latest and greatest.</h3>
       </div>
   <ul className="grid">
