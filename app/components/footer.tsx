@@ -9,12 +9,12 @@ export default function Footer() {
   return (
 <footer className="footer">
 
-  <h1>Jeffamazon</h1>
+  <h1>Jeffamzn</h1>
 
 <div className="footer-top">
   <div className="footer-signup">
     <h1>Screw it, let's do it.</h1>
-          <p>Stay informed with Jeffamazon</p>
+          <p>Stay informed with Jeffamzn</p>
     <form method="post" action="https://app.jeffamzn.com/subscription/form">
       <div className="input-wrapper">
         <input className="email" type="email" name="email" required placeholder="Email Address *" />
@@ -60,7 +60,7 @@ export default function Footer() {
   <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
     <img src={linkedin} alt="LinkedIn" />
   </a>
-  <a href="mailto:chris@jeffamazon.com">
+  <a href="mailto:chris@jeffamzn.com">
     <img src={email} alt="Email us" />
   </a>
   </div>
