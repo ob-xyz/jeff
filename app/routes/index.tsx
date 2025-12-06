@@ -32,7 +32,7 @@ export default function Index() {
             <h1>Stay informed in just 1 minute</h1>
             <p>The world is changing dramatically—from AI breakthroughs to Trumps' tariffs. Jeffamazon cuts through the noise with timely information, empowering you to make informed decisions in your life.</p>
           </div>
-      <form method="post" action="https://app.jeffamzn.com/subscription/form">
+      <form method="post" action="https://app.thepoast.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
           <button className="submit" type="submit">Let's do it</button>
@@ -45,7 +45,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Stay informed in a good way with <span>Jeffamazon</span></h2>
-      <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer">
+      <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
       <p>Every day Jeffamazon delivers a quick and insightful update, helping you make sense of markets, technology, and current trends.</p>
       </a>
       </div>
@@ -71,7 +71,7 @@ export default function Index() {
         </div>
       </div>
       <div className="btn">
-        <a title="subscription form" href="https://app.jeffamzn.com/subscription/form"  rel="noopener noreferrer" className="pricebtn">
+        <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
             Subscribe for free
       </a>
       </div>
