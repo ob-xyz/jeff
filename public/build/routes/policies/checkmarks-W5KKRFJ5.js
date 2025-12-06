@@ -125,7 +125,7 @@ function Index() {
           lineNumber: 51,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The black checkmarks indicate that an account is anonymous, pseudonymous, or a parody." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The black checkmark indicates that an account is anonymous, pseudonymous, or a parody." }, void 0, false, {
           fileName: "app/routes/policies/checkmarks.tsx",
           lineNumber: 52,
           columnNumber: 9
@@ -154,4 +154,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/policies/checkmarks-2RKDBBFT.js.map
+//# sourceMappingURL=/build/routes/policies/checkmarks-W5KKRFJ5.js.map
