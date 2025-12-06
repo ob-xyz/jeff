@@ -120,7 +120,7 @@ function Index() {
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: "Black checkmarks" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: "Black checkmark" }, void 0, false, {
           fileName: "app/routes/policies/checkmarks.tsx",
           lineNumber: 51,
           columnNumber: 9
@@ -154,4 +154,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/policies/checkmarks-W5KKRFJ5.js.map
+//# sourceMappingURL=/build/routes/policies/checkmarks-AHZHEQ6L.js.map

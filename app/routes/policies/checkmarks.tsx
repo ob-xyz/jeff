@@ -48,7 +48,7 @@ export default function Index() {
         </div>
 
         <div className="box">
-        <h2>Black checkmarks</h2>
+        <h2>Black checkmark</h2>
         <p>The black checkmark indicates that an account is anonymous, pseudonymous, or a parody.</p>
         <img src={blackcheck} alt="Checkmark" />
         </div>
