@@ -4,10 +4,7 @@ import logo from "~/../public/img/ja1.png";
 import bluecheck from "~/../public/img/bluecheck.png";
 import goldcheck from "~/../public/img/goldcheck.png";
 import graycheck from "~/../public/img/graycheck.png";
-import whitecheck from "~/../public/img/whitecheck.png";
-import pinkcheck from "~/../public/img/pinkcheck.png";
-
-
+import blackcheck from "~/../public/img/blackcheck.png";
 
 export default function Index() {
     useEffect(() => {
@@ -51,16 +48,10 @@ export default function Index() {
         </div>
 
         <div className="box">
-        <h2>White or black checkmarks</h2>
-        <p>The white or black checkmarks indicate that an account is anonymous, pseudonymous, or a parody.</p>
-        <img src={whitecheck} alt="Checkmark" />
+        <h2>Black checkmarks</h2>
+        <p>The black checkmarks indicate that an account is anonymous, pseudonymous, or a parody.</p>
+        <img src={blackcheck} alt="Checkmark" />
         </div>
-{/* 
-        <div className="box">
-        <h2>Pink checkmark</h2>
-        <p>The pink checkmark indicates that an account is an advertiser.</p>
-        <img src={pinkcheck} alt="Checkmark" />
-        </div> */}
       </div>
   </div>
   );
