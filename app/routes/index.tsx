@@ -29,7 +29,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>JEFFAMAZON DAILY NEWSLETTER</h4>
-            <h1>Start your day with a big win.</h1>
+            <h1>There ain't nothing changed but our address</h1>
             <p>Subscribe for your daily dose of business news that feels good to read 🚀</p>
           </div>
       <form method="post" action="https://app.thepoast.com/subscription/form">
@@ -51,7 +51,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join thousands and start your day with a daily dose of business news that feels good to read.</p>
+            <p>Join over 10,000 people and start your day with business news that's not boring.</p>
       </div>
       <div className="inner-content5">
         <div className="box">
@@ -62,12 +62,12 @@ export default function Index() {
           <div className="box">
           <img src={tobi} />
           <h1>Stay informed every day</h1>
-          <p>Stay informed and feel good with the latest business news.</p>
+          <p>Stay informed and feel good knowing all the latest stories.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Sunday special</h1>
-          <p>Enjoy our Sunday dig into something new happening now.</p>
+          <p>Enjoy our quick Sunday dig into one big thing happening right now.</p>
         </div>
       </div>
       <div className="btn">

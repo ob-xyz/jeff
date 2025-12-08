@@ -40,7 +40,7 @@ function Footer() {
           lineNumber: 16,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Start your day with Jeffamazon" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Start your day with Jeffamazon." }, void 0, false, {
           fileName: "app/components/footer.tsx",
           lineNumber: 17,
           columnNumber: 11
@@ -222,7 +222,7 @@ function Footer() {
 }
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-ZENSHMVI.css";
+var global_default = "/build/_assets/global-UJKXZ6LO.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
@@ -305,4 +305,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-INAMTND3.js.map
+//# sourceMappingURL=/build/root-PROQHRRD.js.map

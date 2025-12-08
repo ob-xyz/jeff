@@ -38,12 +38,12 @@ function Index() {
           lineNumber: 28,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Stay informed in just 1 minute" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Stay informed in one minute or less" }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 29,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "The world is changing dramatically\u2014from AI breakthroughs to Trumps' tariffs. Jeffamazon cuts through the noise with timely information, empowering you to make informed decisions in your life." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe for your daily dose of business news that feels good to read \u{1F680}" }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 30,
           columnNumber: 13
@@ -108,4 +108,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-GIVIJVDX.js.map
+//# sourceMappingURL=/build/routes/subscribe-D7WRBRWK.js.map
