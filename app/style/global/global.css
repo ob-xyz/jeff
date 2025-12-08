@@ -81,13 +81,12 @@
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
-  width: 45%;
+  width: 65%;
 }
 .container .content .inner-content .text p {
   text-align: left;
   padding: 2rem 0rem 0.5rem 0;
   margin-left: 0;
-  width: 57.5%;
 }
 .container .content .inner-content form {
   display: flex;
@@ -349,7 +348,6 @@
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
-    width: 77.5%;
   }
   .container .content .inner-content form .input-wrapper {
     width: 38.5rem;
@@ -417,7 +415,7 @@
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
-    width: 80%;
+    width: 65%;
   }
   .container .content .inner-content form .input-wrapper {
     width: 28rem;
@@ -496,7 +494,7 @@
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
     font-size: 1.1rem;
-    width: 85%;
+    width: 70%;
   }
   .container .content .inner-content form .input-wrapper {
     width: 22rem;
