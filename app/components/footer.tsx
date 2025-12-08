@@ -31,13 +31,13 @@ export default function Footer() {
     <h4>Company</h4>
     <Link to="/">Home</Link>
     <Link to="/about">About</Link>
-    <Link to="/ads/advertise">Advertise</Link>
+    <Link to="/policies/checkmarks">Checkmarks</Link>
   </div>
   <div className="column">
     <h4>Support</h4>
     <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe</a>
+    <Link to="/ads/advertise">Advertise</Link>
     <a title="media kit" href="https://app.thepoast.com/campaign/326965e9-08ca-45d8-8949-df43df3bdbfe/e0b14610-4448-4657-ae89-21598fe78de2"  rel="noopener noreferrer">Media Kit</a>
-    <Link to="/policies/checkmarks">Checkmarks</Link>
   </div>
 </div>
 </div>
