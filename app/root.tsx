@@ -30,7 +30,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "Jeffamazon",
-  description: "Subscribe to the free, 1-minute newsletter delivering business news straight from the horse's mouth.",
+  description: "Subscribe to the free, 1-minute newsletter delivering business news that feels good to read.",
   viewport: "width=device-width,initial-scale=1",
 });
 
