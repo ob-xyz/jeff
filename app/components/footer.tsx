@@ -31,11 +31,12 @@ export default function Footer() {
     <h4>Company</h4>
     <Link to="/">Home</Link>
     <Link to="/about">About</Link>
+    <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe</a>
     <Link to="/policies/checkmarks">Checkmarks</Link>
   </div>
   <div className="column">
-    <h4>Support</h4>
-    <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe</a>
+    <h4>Business</h4>
+    <Link to="/ads/ad-formats">Ad Formats</Link>
     <Link to="/ads/advertise">Advertise</Link>
     <a title="media kit" href="https://app.thepoast.com/campaign/326965e9-08ca-45d8-8949-df43df3bdbfe/e0b14610-4448-4657-ae89-21598fe78de2"  rel="noopener noreferrer">Media Kit</a>
   </div>
@@ -60,7 +61,7 @@ export default function Footer() {
   <a href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
     <img src={linkedin} alt="LinkedIn" />
   </a>
-  <a href="mailto:chris@jeffamzn.com">
+  <a href="mailto:chris@jeffamazon.com">
     <img src={email} alt="Email us" />
   </a>
   </div>

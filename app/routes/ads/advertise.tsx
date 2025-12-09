@@ -1,28 +1,35 @@
 import { useEffect, useState } from "react";
 
 import logo from "~/../public/img/ja1.png";
-import promoads from "~/../public/img/promoted-ads.png";
-import takeoverads from "~/../public/img/takeover-ads.png";
+import imageads from "~/../public/img/promoted-ads.png";
+import carouselads from "~/../public/img/ads/carouselads.gif";
+import videoads from "~/../public/img/ads/videoads.gif";
 import textads from "~/../public/img/text-ads.png";
 
 const ads = [
   {
-    image: promoads,
+    image: imageads,
     title: "Images Ads",
     description:
       "Showcase your product or service with a single image, six-images, or a short video.",
   },  
   {
+    image: carouselads,
+    title: "Carousel Ads",
+    description:
+      "Rotate up to six images to showcase multiple products or promotions.",
+  },
+  {
+    image: videoads,
+    title: "Video Ads",
+    description:
+      "Make products feel alive and drive engagement to your website, app, or brand message.",
+  },
+    {
     image: textads,
     title: "Text Ads",
     description:
-      "Use plain jane words to get your brand in front of our audience.",
-  },
-  {
-    image: takeoverads,
-    title: "Widescreen Ads",
-    description:
-      "Highlight your product or service with a full screen image and bolded header.",
+      "Use plain jane words to say something that gets your brands message across our audience.",
   },
 ];
 
@@ -61,23 +68,23 @@ export default function Index() {
     </div>
     <div className="ads-carousel-txt">
     <div className="adsbox">
-      <p>Promoted Ads can support a variety of media formats through the following sub-categories:</p>
+      <p>Jeffamazon Ads can support a variety of media formats through the following sub-categories:</p>
     <ul>
       <li>
         <b>Image Ads </b>
-        allow you to showcase your product or service with a single photo
-      </li>
-      <li>
-        <b>Video Ads </b>
-        make products feel alive while driving people to your website, app, or brand message.
+        allow you to showcase your product or service with a single photo.
       </li>
       <li>
         <b>Carousel Ads </b>
         automatically rotate up to six horizontally-shaped images to showcase multiple products or promotions.
       </li>
       <li>
+        <b>Video Ads </b>
+        make products feel alive while driving people to your website, app, or brand message.
+      </li>
+      <li>
         <b>Text Ads </b>
-        are the most simple and low touch way to introduce something or communicate a message straight to our audience.
+        are the most simple and frictionless way to say something and get a message directly to our audience.
       </li>
     </ul>
     <div className="btn">

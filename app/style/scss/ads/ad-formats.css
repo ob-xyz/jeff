@@ -64,21 +64,35 @@
 }
 .content-adformats .content-awu3 .grid .box img {
   border-radius: 0.5rem;
-  width: 100%;
+  width: 42.5%;
   height: auto;
 }
 .content-adformats .content-awu3 .grid .box h1 {
   font-size: 1.25rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 0.75rem;
   margin: 0;
   font-family: bold;
   color: #fff;
+  text-align: center;
 }
 .content-adformats .content-awu3 .grid .box p {
   color: #71717A;
   margin: 0;
   flex-grow: 1;
+  text-align: center;
+}
+.content-adformats .content-awu3:nth-child(2) .header {
+  margin-top: 2rem;
+}
+.content-adformats .content-awu3:nth-child(2) .grid .box img {
+  width: 100%;
+}
+.content-adformats .content-awu3:nth-child(2) .grid .box h1 {
+  text-align: left;
+}
+.content-adformats .content-awu3:nth-child(2) .grid .box p {
+  text-align: left;
 }
 .content-adformats .content-awu4 {
   margin: 9rem 5rem 3rem 5rem;
@@ -124,50 +138,6 @@
   margin: 0;
   flex-grow: 1;
 }
-.content-adformats .content-awu5 {
-  margin: 9rem 5rem 3rem 5rem;
-}
-.content-adformats .content-awu5 .header {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 3rem;
-}
-.content-adformats .content-awu5 .header h4 {
-  padding-bottom: 0.6rem;
-  margin-left: 0;
-  color: rgb(198, 4, 36);
-}
-.content-adformats .content-awu5 .header h3 {
-  margin-left: 0;
-}
-.content-adformats .content-awu5 .box {
-  display: flex;
-  flex-direction: column;
-  background: transparent;
-  text-align: left;
-  height: 100%;
-  background: #000;
-  padding: 1rem 1rem 1.5rem 1rem;
-  border-radius: 0.5rem;
-}
-.content-adformats .content-awu5 .box img {
-  border-radius: 0.5rem;
-  width: 100%;
-  height: auto;
-}
-.content-adformats .content-awu5 .box h1 {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-bottom: 0.75rem;
-  margin: 0;
-  font-family: bold;
-  color: #fff;
-}
-.content-adformats .content-awu5 .box p {
-  color: #71717A;
-  margin: 0;
-  flex-grow: 1;
-}
 
 @media (min-width: 660px) and (max-width: 874px) {
   .content-adformats .content-awu3 {
@@ -187,16 +157,6 @@
     margin-bottom: 1.5rem;
   }
   .content-adformats .content-awu4 .grid {
-    margin: 0rem;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .content-adformats .content-awu5 {
-    margin: 3rem 1.25rem 0 1.25rem;
-  }
-  .content-adformats .content-awu5 .header {
-    margin-bottom: 1.5rem;
-  }
-  .content-adformats .content-awu5 .grid {
     margin: 0rem;
     grid-template-columns: repeat(1, 1fr);
   }
