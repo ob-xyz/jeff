@@ -29,13 +29,13 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>JEFFAMAZON DAILY NEWSLETTER</h4>
-            <h1>Ain't nothing changed but our address</h1>
+            <h1>Thank God it's Morning</h1>
             <p>Subscribe for your daily dose of business news that feels good to read 🚀</p>
           </div>
       <form method="post" action="https://app.thepoast.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">Let's do it</button>
+          <button className="submit" type="submit">Send it</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
         <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
@@ -51,23 +51,23 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join over 10,000 people and start your day with business news that's not boring.</p>
+            <p>Join 10,000+ people who start their day with business news that actually feels good to read.</p>
       </div>
       <div className="inner-content5">
+         <div className="box">
+          <img src={tobi} />
+          <h1>Cut through the noise</h1>
+          <p>Stay informed with every story that matters.</p>
+        </div>
         <div className="box">
           <img src={sama} />
-          <h1>Cut through noise</h1>
+          <h1>Curated conversations</h1>
           <p>Get hot takes and insights from real leaders in business and technology.</p>
-        </div>
-          <div className="box">
-          <img src={tobi} />
-          <h1>Stay informed every day</h1>
-          <p>Stay informed and feel good knowing all the latest stories.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Sunday special</h1>
-          <p>Enjoy our quick Sunday dig into one big thing happening right now.</p>
+          <p>Enjoy our quick Sunday dig into one big thing happening now.</p>
         </div>
       </div>
       <div className="btn">

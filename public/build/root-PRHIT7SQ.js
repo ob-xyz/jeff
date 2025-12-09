@@ -222,7 +222,7 @@ function Footer() {
 }
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-ZENSHMVI.css";
+var global_default = "/build/_assets/global-LHYZFLX3.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
@@ -242,7 +242,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "Subscribe to Jeffamazon Daily Newsletter - Jeffamazon",
-  description: "Subscribe to the free, 1-minute newsletter keeping 10K+ innovators informed with real stories about business, technology, and the golden age of the internet.",
+  description: "Subscribe to the free, 1-minute newsletter keeping 10K+ entrepreneurs informed with real stories about business, technology, and the golden age of the internet.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -305,4 +305,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-QLHI4XUB.js.map
+//# sourceMappingURL=/build/root-PRHIT7SQ.js.map

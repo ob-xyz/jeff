@@ -46,7 +46,7 @@
   font-style: normal;
   text-align: left;
   font-family: ku;
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
 .container h2 {
   font-size: 3.5rem;
@@ -71,17 +71,17 @@
   display: flex;
   flex-direction: row;
   margin-left: 0;
-  margin-bottom: 3.5rem;
+  margin-bottom: 5rem;
 }
 .container .content .inner-content {
   display: flex;
   flex-direction: column;
   margin-left: 5rem;
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
-  width: 65%;
+  width: 100%;
 }
 .container .content .inner-content .text p {
   text-align: left;
@@ -99,7 +99,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 38.5rem;
+  width: 43rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
