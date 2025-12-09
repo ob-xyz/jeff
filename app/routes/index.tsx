@@ -51,7 +51,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join 10,000+ people who start their day with business news that actually feels good to read.</p>
+            <p>Our business ain't boring. Join 10,000+ people who start their day with curated conversations and business news that actually feels good to read.</p>
       </div>
       <div className="inner-content5">
          <div className="box">
