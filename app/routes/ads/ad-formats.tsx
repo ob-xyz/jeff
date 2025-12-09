@@ -96,6 +96,11 @@ export default function Index() {
       </div>
       </div>
     </div>
+    <div className="btn">
+    <a href="mailto:chris@jeffamazon.com" className="pricebtn">
+          Start a campaign
+    </a>
+    </div>
   </div>
   );
 }

@@ -17,10 +17,10 @@
 .content-adformats h1, .content-adformats h2, .content-adformats h3, .content-adformats span {
   text-align: left;
   font-family: ku;
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
 .content-adformats h2 {
-  font-size: 4rem;
+  font-size: 3.75rem;
   font-family: kl;
 }
 .content-adformats h3 {
@@ -137,6 +137,25 @@
   color: #71717A;
   margin: 0;
   flex-grow: 1;
+}
+.content-adformats .btn {
+  display: flex;
+  margin-top: 9rem;
+}
+.content-adformats .btn .pricebtn {
+  border-radius: 5rem;
+  padding: 1rem 1.75rem;
+  border: 0.15rem solid #000;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background: transparent;
+  cursor: pointer;
+  font-family: bold;
+}
+.content-adformats .btn .pricebtn:hover {
+  background-color: #fafafa;
+  color: #000;
 }
 
 @media (min-width: 660px) and (max-width: 874px) {

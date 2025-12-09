@@ -60,7 +60,7 @@ export default function Index() {
       <img src={logo} alt="Jeffamazon Logo" />
     </div>
     <div className="content-awu2">
-          <h1>Reach thousands of tech execs, founders, and entrepreneurs.</h1>
+          <h1>Reach 10K+ tech execs, founders, and entrepreneurs</h1>
           <div className="text">
           <h4>ADVERTISE</h4>
           <h3>Jeffamazon ad formats.</h3>
@@ -88,7 +88,7 @@ export default function Index() {
       </li>
     </ul>
     <div className="btn">
-    <a href="mailto:hey@jeffamazon.com" className="pricebtn">
+    <a href="mailto:chris@jeffamazon.com" className="pricebtn">
           Start a campaign
     </a>
     </div>
@@ -120,6 +120,12 @@ export default function Index() {
       <h3>Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</h3>
       <p>Source: Nielsen Brand Effect (US/UK/JP/CA), Q3 2015 - Q3 2018 Connect campaigns. Comparison is v. 1 ad format alone.</p>
     </div>
+    </div>
+
+    <div className="btn">
+    <a href="mailto:chris@jeffamazon.com" className="pricebtn">
+          Start a campaign
+    </a>
     </div>
   </div>
   );

@@ -308,6 +308,15 @@ function Index() {
       fileName: "app/routes/ads/ad-formats.tsx",
       lineNumber: 86,
       columnNumber: 9
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:chris@jeffamazon.com", className: "pricebtn", children: "Start a campaign" }, void 0, false, {
+      fileName: "app/routes/ads/ad-formats.tsx",
+      lineNumber: 100,
+      columnNumber: 5
+    }, this) }, void 0, false, {
+      fileName: "app/routes/ads/ad-formats.tsx",
+      lineNumber: 99,
+      columnNumber: 5
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/ads/ad-formats.tsx",
@@ -318,4 +327,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-formats-YXFLF7QE.js.map
+//# sourceMappingURL=/build/routes/ads/ad-formats-3S7TQPFN.js.map

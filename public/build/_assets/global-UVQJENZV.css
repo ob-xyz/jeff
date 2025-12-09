@@ -863,10 +863,10 @@
 .content-awu span {
   text-align: left;
   font-family: ku;
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
 .content-awu h2 {
-  font-size: 4rem;
+  font-size: 3.75rem;
   font-family: kl;
 }
 .content-awu h3 {
@@ -886,7 +886,7 @@
   margin: 3.5rem 5rem 2.5rem;
 }
 .content-awu .content-awu2 h1 {
-  padding-bottom: 2.5rem;
+  padding-bottom: 4rem;
 }
 .content-awu .content-awu2 .text {
   margin: 0;
@@ -989,7 +989,7 @@
   right: .5rem;
 }
 .content-awu .content-awu6 {
-  margin: 9rem 5rem 3rem;
+  margin: 12rem 5rem 3rem;
 }
 .content-awu .content-awu6 .header {
   display: flex;
@@ -1007,6 +1007,25 @@
   margin-left: 0;
   margin-top: .65rem;
   font-size: 1rem;
+}
+.content-awu .btn {
+  display: flex;
+  margin-top: 9rem;
+}
+.content-awu .btn .pricebtn {
+  border-radius: 5rem;
+  padding: 1rem 1.75rem;
+  border: .15rem solid #000;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background: transparent;
+  cursor: pointer;
+  font-family: bold;
+}
+.content-awu .btn .pricebtn:hover {
+  background-color: #fafafa;
+  color: #000;
 }
 @media (min-width: 875px) and (max-width: 1100px) {
   .content-awu .content-awu2 {
@@ -1153,10 +1172,10 @@
 .content-adformats span {
   text-align: left;
   font-family: ku;
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
 .content-adformats h2 {
-  font-size: 4rem;
+  font-size: 3.75rem;
   font-family: kl;
 }
 .content-adformats h3 {
@@ -1273,6 +1292,25 @@
   color: #71717a;
   margin: 0;
   flex-grow: 1;
+}
+.content-adformats .btn {
+  display: flex;
+  margin-top: 9rem;
+}
+.content-adformats .btn .pricebtn {
+  border-radius: 5rem;
+  padding: 1rem 1.75rem;
+  border: .15rem solid #000;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background: transparent;
+  cursor: pointer;
+  font-family: bold;
+}
+.content-adformats .btn .pricebtn:hover {
+  background-color: #fafafa;
+  color: #000;
 }
 @media (min-width: 660px) and (max-width: 874px) {
   .content-adformats .content-awu3 {

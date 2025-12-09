@@ -69,7 +69,7 @@ function Index() {
       columnNumber: 5
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content-awu2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach thousands of tech execs, founders, and entrepreneurs." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 10K+ tech execs, founders, and entrepreneurs" }, void 0, false, {
         fileName: "app/routes/ads/advertise.tsx",
         lineNumber: 63,
         columnNumber: 11
@@ -156,7 +156,7 @@ function Index() {
           lineNumber: 72,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:hey@jeffamazon.com", className: "pricebtn", children: "Start a campaign" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:chris@jeffamazon.com", className: "pricebtn", children: "Start a campaign" }, void 0, false, {
           fileName: "app/routes/ads/advertise.tsx",
           lineNumber: 91,
           columnNumber: 5
@@ -255,6 +255,15 @@ function Index() {
       fileName: "app/routes/ads/advertise.tsx",
       lineNumber: 117,
       columnNumber: 5
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:chris@jeffamazon.com", className: "pricebtn", children: "Start a campaign" }, void 0, false, {
+      fileName: "app/routes/ads/advertise.tsx",
+      lineNumber: 126,
+      columnNumber: 5
+    }, this) }, void 0, false, {
+      fileName: "app/routes/ads/advertise.tsx",
+      lineNumber: 125,
+      columnNumber: 5
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/ads/advertise.tsx",
@@ -265,4 +274,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/advertise-PWXFXIYF.js.map
+//# sourceMappingURL=/build/routes/ads/advertise-5TDD2GUW.js.map
