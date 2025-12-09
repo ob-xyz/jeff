@@ -38,7 +38,7 @@ function Index() {
           lineNumber: 28,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Stay informed in one minute or less" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Thank God it's Morning" }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 29,
           columnNumber: 13
@@ -108,4 +108,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-D7WRBRWK.js.map
+//# sourceMappingURL=/build/routes/subscribe-6Y2XOC6P.js.map
