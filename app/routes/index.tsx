@@ -57,7 +57,7 @@ export default function Index() {
          <div className="box">
           <img src={tobi} />
           <h1>Cut through the noise</h1>
-          <p>Stay informed with every story that matters.</p>
+          <p>Stay informed every day with every story that matters.</p>
         </div>
         <div className="box">
           <img src={sama} />
