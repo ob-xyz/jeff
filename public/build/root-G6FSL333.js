@@ -130,12 +130,12 @@ function Footer() {
             lineNumber: 39,
             columnNumber: 5
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/ads/advertise", children: "Advertise" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "media kit", href: "https://app.thepoast.com/campaign/326965e9-08ca-45d8-8949-df43df3bdbfe/e0b14610-4448-4657-ae89-21598fe78de2", rel: "noopener noreferrer", children: "Media Kit" }, void 0, false, {
             fileName: "app/components/footer.tsx",
             lineNumber: 40,
             columnNumber: 5
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "media kit", href: "https://app.thepoast.com/campaign/326965e9-08ca-45d8-8949-df43df3bdbfe/e0b14610-4448-4657-ae89-21598fe78de2", rel: "noopener noreferrer", children: "Media Kit" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/ads/advertise", children: "Advertise" }, void 0, false, {
             fileName: "app/components/footer.tsx",
             lineNumber: 41,
             columnNumber: 5
@@ -310,4 +310,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-WPLUAPDM.js.map
+//# sourceMappingURL=/build/root-G6FSL333.js.map
