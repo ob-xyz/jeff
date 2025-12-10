@@ -11,6 +11,7 @@ import imageads from "~/../public/img/ads/imageads.png";
 import textads from "~/../public/img/ads/textads.png";
 import quickads from "~/../public/img/ads/quickads.png";
 import recads from "~/../public/img/ads/recads.png";
+import takeoverads from "~/../public/img/ads/takeoverads.png";
 
 export default function Index() {
     useEffect(() => {
@@ -111,7 +112,7 @@ export default function Index() {
       </div>
       <div className="grid">
       <div className="box">
-        <img src={takeoverbg} />
+        <img src={takeoverads} />
         <h1>Takeover Ads</h1>
         <p>Give your favorite ads a big experience that takes over our timeline with a widescreen image and a CTA button to maximize engagement to your website or app.</p>
       </div>
