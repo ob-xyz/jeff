@@ -14,7 +14,7 @@ export default function Footer() {
 <div className="footer-top">
   <div className="footer-signup">
     <h1>Screw it, let's do it.</h1>
-          <p>Start your day with Jeffamazon.</p>
+          <p>Get ahead with Jeffamazon.</p>
     <form method="post" action="https://app.thepoast.com/subscription/form">
       <div className="input-wrapper">
         <input className="email" type="email" name="email" required placeholder="Email Address *" />
