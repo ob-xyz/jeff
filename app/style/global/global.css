@@ -1074,7 +1074,7 @@
 }
 @media (max-width: 659px) {
   .content-awu h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   .content-awu h4 {
     font-size: 1rem;
@@ -1092,6 +1092,10 @@
     display: flex;
     flex-direction: column;
   }
+  .content-awu .content-awu2 .text h3, .content-awu .content-awu2 .text h4 {
+    text-align: left;
+    margin: 0;
+  }
   .content-awu .content-awu2 p {
     display: none;
   }
@@ -1101,7 +1105,7 @@
     flex-direction: column;
   }
   .content-awu .ads-carousel-txt p {
-    text-align: center;
+    text-align: left;
   }
   .content-awu .ads-carousel-txt .adsbox {
     flex-direction: column;
