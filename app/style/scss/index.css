@@ -381,7 +381,6 @@
   }
   .container .content .inner-content .text h1 {
     font-size: 3.5rem;
-    width: 90%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
@@ -441,7 +440,7 @@
     font-size: 2.25rem;
   }
   .container h4 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .container .logo {
     margin-left: 1rem;
@@ -459,7 +458,6 @@
   }
   .container .content .inner-content .text h1 {
     font-size: 1.75rem;
-    width: 50%;
   }
   .container .content .inner-content .text p {
     padding-top: 1.5rem;
