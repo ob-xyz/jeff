@@ -181,6 +181,12 @@
   }
 }
 @media (max-width: 659px) {
+  .content-adformats h3 {
+    font-size: 1.65rem;
+  }
+  .content-adformats h4 {
+    font-size: 1rem;
+  }
   .content-adformats .content-awu3 {
     margin-top: 3rem;
   }

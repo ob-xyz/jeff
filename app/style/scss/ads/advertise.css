@@ -252,19 +252,16 @@
   }
   .content-awu .content-awu2 {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin-bottom: 0rem;
+    margin: 3.25rem 1.25rem 0 1.25rem;
+  }
+  .content-awu .content-awu2 h1 {
+    font-size: 2rem;
+    text-align: center;
   }
   .content-awu .content-awu2 .text {
     display: flex;
     flex-direction: column;
-  }
-  .content-awu .content-awu2 .text h4 {
-    margin-left: auto;
-  }
-  .content-awu .content-awu2 .text h3 {
-    margin-left: auto;
   }
   .content-awu .content-awu2 p {
     display: none;
@@ -297,7 +294,7 @@
     display: none;
   }
   .content-awu .content-awu6 {
-    margin: 5rem 1.25rem 5rem 1.25rem;
+    margin: 4rem 1.25rem -3rem 1.25rem;
   }
   .content-awu .content-awu6 .header {
     margin-bottom: 1.5rem;
@@ -305,6 +302,10 @@
   .content-awu .content-awu6 .grid {
     margin: 0rem;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .btn {
+    margin-top: 0rem;
+    margin-bottom: 6rem;
   }
 }
 

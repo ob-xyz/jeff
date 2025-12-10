@@ -9,6 +9,9 @@ import carouselads from "~/../public/img/ads/carouselads.gif";
 import videoads from "~/../public/img/ads/videoads.gif";
 import imageads from "~/../public/img/ads/imageads.png";
 import textads from "~/../public/img/ads/textads.png";
+import quickads from "~/../public/img/ads/quickads.png";
+import recads from "~/../public/img/ads/recads.png";
+
 export default function Index() {
     useEffect(() => {
     // Dynamically load the hCaptcha script
@@ -44,6 +47,24 @@ export default function Index() {
         <img src={newads} />
         <h1>Promote your campaigns</h1>
         <p>Give your existing ad campaigns on LinkedIn, Instagram, Facebook, or X a new place to perform—the email inbox.</p>
+      </div>
+      </div>
+    </div>
+     <div className="content-awu3">
+      <div className="header">
+          <h4>NEWEST</h4>
+          <h3>Quick Ads</h3>
+      </div>
+      <div className="grid">
+      <div className="box">
+        <img src={quickads} />
+        <h1>Quick Ads</h1>
+        <p>Quick Ads appear in the "Today's News" section, and gives you the chance to promote your product or service.</p>
+      </div>
+      <div className="box">
+        <img src={recads} />
+        <h1>Content Ads</h1>
+        <p>Content Ads appear in the "Recs" section, making it easy for you to recommend a YouTube video, Spotify podcast, or new book to our audience.</p>
       </div>
       </div>
     </div>

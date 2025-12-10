@@ -488,13 +488,13 @@
   }
   .container .content .inner-content .text h1 {
     font-size: 1.75rem;
-    width: 60%;
+    width: 50%;
   }
   .container .content .inner-content .text p {
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
     font-size: 1.1rem;
-    width: 70%;
+    width: 90%;
   }
   .container .content .inner-content form .input-wrapper {
     width: 22rem;
@@ -1083,19 +1083,16 @@
   }
   .content-awu .content-awu2 {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin-bottom: 0rem;
+    margin: 3.25rem 1.25rem 0 1.25rem;
+  }
+  .content-awu .content-awu2 h1 {
+    font-size: 2rem;
+    text-align: center;
   }
   .content-awu .content-awu2 .text {
     display: flex;
     flex-direction: column;
-  }
-  .content-awu .content-awu2 .text h4 {
-    margin-left: auto;
-  }
-  .content-awu .content-awu2 .text h3 {
-    margin-left: auto;
   }
   .content-awu .content-awu2 p {
     display: none;
@@ -1128,7 +1125,7 @@
     display: none;
   }
   .content-awu .content-awu6 {
-    margin: 5rem 1.25rem 5rem 1.25rem;
+    margin: 4rem 1.25rem -3rem 1.25rem;
   }
   .content-awu .content-awu6 .header {
     margin-bottom: 1.5rem;
@@ -1136,6 +1133,10 @@
   .content-awu .content-awu6 .grid {
     margin: 0rem;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .btn {
+    margin-top: 0rem;
+    margin-bottom: 6rem;
   }
 }
 .content-adformats {
@@ -1321,6 +1322,12 @@
   }
 }
 @media (max-width: 659px) {
+  .content-adformats h3 {
+    font-size: 1.65rem;
+  }
+  .content-adformats h4 {
+    font-size: 1rem;
+  }
   .content-adformats .content-awu3 {
     margin-top: 3rem;
   }
@@ -1589,7 +1596,7 @@
   }
   .content-verification .content-verification2 .box img {
     padding-top: 2rem;
-    width: 50%;
+    width: 75%;
   }
 }
 .footer {
@@ -1784,7 +1791,7 @@
     padding: 1.25rem 0.5rem 1.25rem 0.5rem;
   }
   .footer h1 {
-    font-size: 5.5rem;
+    font-size: 3rem;
   }
   .footer .footer-top {
     flex-direction: column-reverse;
