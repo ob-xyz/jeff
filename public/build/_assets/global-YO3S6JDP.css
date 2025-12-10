@@ -1328,7 +1328,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .content-adformats .content-awu3 .grid .box p {
-    width: 85%;
+    width: 92.5%;
   }
   .content-adformats .content-awu4 {
     margin: 3rem 1.25rem 0;
@@ -1344,7 +1344,7 @@
     width: 42.5%;
   }
   .content-adformats .content-awu4 .grid .box p {
-    width: 85%;
+    width: 92.5%;
   }
 }
 @media (max-width: 659px) {
@@ -1365,7 +1365,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .content-adformats .content-awu3 .grid .box p {
-    width: 85%;
+    width: 92.5%;
   }
   .content-adformats .content-awu4 {
     margin: 3rem 1.25rem 0;
@@ -1381,7 +1381,7 @@
     width: 42.5%;
   }
   .content-adformats .content-awu4 .grid .box p {
-    width: 85%;
+    width: 92.5%;
   }
 }
 .content-privacy {
