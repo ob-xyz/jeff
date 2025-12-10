@@ -71,13 +71,13 @@
   display: flex;
   flex-direction: row;
   margin-left: 0;
-  margin-bottom: 6.5rem;
+  margin-bottom: 9rem;
 }
 .container .content .inner-content {
   display: flex;
   flex-direction: column;
   margin-left: 5rem;
-  margin-top: 6.5rem;
+  margin-top: 7rem;
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
@@ -99,7 +99,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 43rem;
+  width: 35rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
