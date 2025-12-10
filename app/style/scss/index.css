@@ -123,8 +123,8 @@
   font-size: 3rem;
   margin-left: 0;
   margin-bottom: 5rem;
-  color: #71717A;
-  background: #71717A;
+  color: #cfcfcf;
+  background: #cfcfcf;
   transition: all 0.4s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
@@ -156,7 +156,7 @@
 }
 .container .inner-content4 p {
   margin-bottom: 0.4rem;
-  color: #71717A;
+  color: #cfcfcf;
   width: 67.5%;
 }
 .container .inner-content5 {
@@ -186,7 +186,7 @@
   margin: 0;
 }
 .container .inner-content5 .box p {
-  color: #71717A;
+  color: #cfcfcf;
   margin: 0;
   flex-grow: 1;
 }
@@ -263,7 +263,7 @@
   font-family: bold;
 }
 .container .inner-blog .grid .box a p {
-  color: #71717A;
+  color: #cfcfcf;
   margin: 0;
   flex-grow: 1;
 }

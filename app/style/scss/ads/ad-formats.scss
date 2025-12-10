@@ -69,16 +69,15 @@
       font-size: 1.25rem;
       padding-top: 1rem;
       padding-bottom: 0.75rem;
-      margin: 0;
       font-family: bold;
       color:#fff;
       text-align: center;
     }
     p {
-      color: #71717A;
-      margin: 0;
+      color: #cfcfcf;
       flex-grow: 1;
       text-align: center;
+      width:60%;
     }
   }
 }
@@ -93,11 +92,13 @@
     img {
       width: 100%;
     }
-        h1 {
+    h1 {
       text-align: left;
+      margin:0;
     }
     p {
       text-align: left;
+      width: 100%;
     }
   }
 }
@@ -142,9 +143,10 @@
       text-align: center;
     }
     p {
-      color: #71717A;
-      margin: 0;
+      color: #cfcfcf;
       flex-grow: 1;
+      width:40%;
+      text-align: center;
     }
   }
 }
@@ -174,7 +176,6 @@
 
 @media (min-width: 660px) and (max-width: 874px) {
 .content-adformats{
-
 .content-awu3{
   margin-top:3rem;
   .header{
@@ -189,6 +190,14 @@
   margin:3rem 1.25rem 0 1.25rem;
 .header{
   margin-bottom: 1.5rem;
+}
+.box{
+      img {
+      width: 42.5%;
+    }
+  p {
+      width:60%;
+    }
 }
 .grid{
   margin:0rem;
@@ -220,15 +229,13 @@
 .header{
   margin-bottom: 1.5rem;
 }
-.grid{
-  margin:0rem;
-  grid-template-columns: repeat(1, 1fr);
-}
-}
-.content-awu5{
-  margin:3rem 1.25rem 0 1.25rem;
-.header{
-  margin-bottom: 1.5rem;
+.box{
+      img {
+      width: 42.5%;
+    }
+   p {
+      width:60%;
+    }
 }
 .grid{
   margin:0rem;

@@ -78,7 +78,7 @@ export default function Index() {
       <div className="box">
         <img src={imageads} />
         <h1>Image Ads</h1>
-        <p>Image ads allow you to showcase your product or service with a single photo.</p>
+        <p>Image ads allow you to showcase your product or service with plain jane text and a single photo.</p>
       </div>
       <div className="box">
         <img src={textads} />
