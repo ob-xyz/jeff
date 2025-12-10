@@ -179,12 +179,14 @@
   .header{
   margin:1.25rem;
 }
-p{
-  width:90%;
-}
 .grid{
   margin:1.25rem;
   grid-template-columns: repeat(1, 1fr);
+  .box{
+  p {
+      width:85%;
+    }
+}
 }
 }
 .content-awu4{
@@ -192,17 +194,18 @@ p{
 .header{
   margin-bottom: 1.5rem;
 }
-.box{
+
+.grid{
+  margin:0rem;
+  grid-template-columns: repeat(1, 1fr);
+  .box{
   img {
       width: 42.5%;
     }
   p {
-      width:90%;
+      width:85%;
     }
 }
-.grid{
-  margin:0rem;
-  grid-template-columns: repeat(1, 1fr);
 }
 }
 }
@@ -220,12 +223,14 @@ p{
   .header{
   margin:1.25rem;
 }
-p{
-  width:90%;
-}
 .grid{
   margin:1.25rem;
   grid-template-columns: repeat(1, 1fr);
+.box{
+   p {
+      width:85%;
+    }
+}
 }
 }
 .content-awu4{
@@ -233,17 +238,17 @@ p{
 .header{
   margin-bottom: 1.5rem;
 }
+.grid{
+  margin:0rem;
+  grid-template-columns: repeat(1, 1fr);
 .box{
       img {
       width: 42.5%;
     }
    p {
-      width:90%;
+      width:85%;
     }
 }
-.grid{
-  margin:0rem;
-  grid-template-columns: repeat(1, 1fr);
 }
 }
 }
