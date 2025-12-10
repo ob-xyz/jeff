@@ -168,6 +168,9 @@
   .content-adformats .content-awu3 .header {
     margin: 1.25rem;
   }
+  .content-adformats .content-awu3 p {
+    width: 72.5%;
+  }
   .content-adformats .content-awu3 .grid {
     margin: 1.25rem;
     grid-template-columns: repeat(1, 1fr);
@@ -182,7 +185,7 @@
     width: 42.5%;
   }
   .content-adformats .content-awu4 .box p {
-    width: 60%;
+    width: 77.5%;
   }
   .content-adformats .content-awu4 .grid {
     margin: 0rem;
@@ -202,6 +205,9 @@
   .content-adformats .content-awu3 .header {
     margin: 1.25rem;
   }
+  .content-adformats .content-awu3 p {
+    width: 72.5%;
+  }
   .content-adformats .content-awu3 .grid {
     margin: 1.25rem;
     grid-template-columns: repeat(1, 1fr);
@@ -216,7 +222,7 @@
     width: 42.5%;
   }
   .content-adformats .content-awu4 .box p {
-    width: 60%;
+    width: 77.5%;
   }
   .content-adformats .content-awu4 .grid {
     margin: 0rem;
