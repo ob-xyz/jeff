@@ -219,6 +219,9 @@
   .header{
   margin:1.25rem;
 }
+p{
+  width:72.5%;
+}
 .grid{
   margin:1.25rem;
   grid-template-columns: repeat(1, 1fr);
@@ -234,7 +237,7 @@
       width: 42.5%;
     }
    p {
-      width:60%;
+      width:77.5%;
     }
 }
 .grid{
