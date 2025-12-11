@@ -29,8 +29,8 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>JEFFAMAZON DAILY NEWSLETTER</h4>
-            <h1>Don't get left behind</h1>
-            <p>Subscribe for your daily dose of breaking business news 🚀</p>
+            <h1>Your 1 minute vibe check</h1>
+            <p>Subscribe for your daily dose of business news that feels good 🚀</p>
           </div>
       <form method="post" action="https://app.thepoast.com/subscription/form">
         <div className="input-wrapper">
@@ -44,7 +44,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Get ahead with <span>Jeffamazon</span></h2>
+      <h2>Stay ahead with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
       <p>Every day Jeffamazon delivers a quick and insightful email newsletter that helps you make sense of markets, technology, and economic trends.</p>
       </a>

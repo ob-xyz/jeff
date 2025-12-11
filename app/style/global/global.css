@@ -99,7 +99,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 35rem;
+  width: 38.25rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -950,7 +950,7 @@
 }
 .content-awu .ads-carousel-txt .ads-carousel .box p {
   text-align: center;
-  color: #cfcfcf;
+  color: #7a7a7a;
   margin: 0;
   flex-grow: 1;
 }
