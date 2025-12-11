@@ -173,7 +173,7 @@ function Index() {
             lineNumber: 66,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Content Ads" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Quick Content Ads" }, void 0, false, {
             fileName: "app/routes/ads/ad-formats.tsx",
             lineNumber: 67,
             columnNumber: 9
@@ -403,4 +403,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-formats-JWTY7FSM.js.map
+//# sourceMappingURL=/build/routes/ads/ad-formats-IEOB2CHZ.js.map
