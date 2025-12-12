@@ -30,7 +30,7 @@ export default function Index() {
           <div className="text">
             <h4>JEFFAMAZON DAILY NEWSLETTER</h4>
             <h1>Your 1 minute vibe check</h1>
-            <p>Subscribe for your daily dose of business news that feels good 🚀</p>
+            <p>Subscribe for your daily dose of business news and unfiltered insights 🚀</p>
           </div>
       <form method="post" action="https://app.thepoast.com/subscription/form">
         <div className="input-wrapper">
@@ -44,30 +44,30 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Stay ahead with <span>Jeffamazon</span></h2>
+      <h2>Start your day with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers a quick and insightful email newsletter that helps you make sense of markets, technology, and economic trends.</p>
+      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and economic trends.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Our business ain't boring. Join 10,000+ people who get ahead with curated conversations and business news that actually feels good to read.</p>
+            <p>Join 10,000+ innovatively entrepreneurial people who enjoy one daily dose of business news mixed with unfiltered and curated conversations.</p>
       </div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
-          <h1>Cut through the noise</h1>
-          <p>Stay informed every day with every story that matters.</p>
+          <h1>Your daily dose</h1>
+          <p>Enjoy 1-minute or less of business news that matters.</p>
         </div>
         <div className="box">
           <img src={sama} />
-          <h1>Curated conversations</h1>
-          <p>Get hot takes and insights from real leaders in business and technology.</p>
+          <h1>Unfiltered convos</h1>
+          <p>Get unfiltered insights from real people in business and tech.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Sunday special</h1>
-          <p>Enjoy our quick Sunday dig into one big thing happening now.</p>
+          <h1>Free deep dive</h1>
+          <p>Every Sunday is a deep dive into one trending asymmetric idea.</p>
         </div>
       </div>
       <div className="btn">
