@@ -143,7 +143,7 @@ function Index() {
         lineNumber: 53,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join 10,000+ innovatively entrepreneurial people who enjoy one daily dose of business news mixed with unfiltered and curated conversations." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join 10,000+ innovatively smart people who enjoy one daily dose of business news mixed with unfiltered and curated conversations." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 54,
         columnNumber: 13
@@ -240,4 +240,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-J2YXX52Y.js.map
+//# sourceMappingURL=/build/routes/index-66CHF6EO.js.map

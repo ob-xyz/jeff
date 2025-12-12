@@ -32,7 +32,7 @@ function Index() {
         lineNumber: 9,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day Jeffamazon delivers a quick and insightful email newsletter that helps you make sense of markets, technology, and economic trends." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and economic trends." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 10,
         columnNumber: 7
@@ -51,4 +51,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-XQBIUKC4.js.map
+//# sourceMappingURL=/build/routes/about-FSZ7Z45L.js.map
