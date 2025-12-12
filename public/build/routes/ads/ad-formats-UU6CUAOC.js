@@ -178,7 +178,7 @@ function Index() {
             lineNumber: 67,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: 'Content Ads appear in the "Recs" section, making it easy for you to recommend a YouTube video, Spotify podcast, or new book to our audience.' }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: 'Quick Content Ads appear in the "Recs" section, making it easy for you to recommend a podcast or video.' }, void 0, false, {
             fileName: "app/routes/ads/ad-formats.tsx",
             lineNumber: 68,
             columnNumber: 9
@@ -403,4 +403,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-formats-IEOB2CHZ.js.map
+//# sourceMappingURL=/build/routes/ads/ad-formats-UU6CUAOC.js.map

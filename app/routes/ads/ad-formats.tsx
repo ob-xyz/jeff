@@ -65,7 +65,7 @@ export default function Index() {
       <div className="box">
         <img src={recads} />
         <h1>Quick Content Ads</h1>
-        <p>Content Ads appear in the "Recs" section, making it easy for you to recommend a YouTube video, Spotify podcast, or new book to our audience.</p>
+        <p>Quick Content Ads appear in the "Recs" section, making it easy for you to recommend a podcast or video.</p>
       </div>
       </div>
     </div>
