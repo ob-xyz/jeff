@@ -30,7 +30,7 @@ export default function Index() {
           <div className="text">
             <h4>JEFFAMAZON DAILY NEWSLETTER</h4>
             <h1>Your 1 minute vibe check</h1>
-            <p>Subscribe for your daily dose of business news and unfiltered insights 🚀</p>
+            <p>Subscribe for your daily dose of business news and insights 🚀</p>
           </div>
       <form method="post" action="https://app.thepoast.com/subscription/form">
         <div className="input-wrapper">
