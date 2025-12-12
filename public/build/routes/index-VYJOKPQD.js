@@ -143,7 +143,7 @@ function Index() {
         lineNumber: 53,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join 10,000+ innovatively smart people who enjoy one daily dose of business news mixed with unfiltered and curated conversations." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join 10,000+ innovatively smart people who start every day with a quick dose of business news and insights." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 54,
         columnNumber: 13
@@ -160,7 +160,7 @@ function Index() {
           lineNumber: 58,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Your daily dose" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Quick daily dose" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 59,
           columnNumber: 11
@@ -240,4 +240,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-66CHF6EO.js.map
+//# sourceMappingURL=/build/routes/index-VYJOKPQD.js.map

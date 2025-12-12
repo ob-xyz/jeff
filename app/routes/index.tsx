@@ -51,12 +51,12 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join 10,000+ innovatively smart people who enjoy one daily dose of business news mixed with unfiltered and curated conversations.</p>
+            <p>Join 10,000+ innovatively smart people who start every day with a quick dose of business news and insights.</p>
       </div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
-          <h1>Your daily dose</h1>
+          <h1>Quick daily dose</h1>
           <p>Enjoy 1-minute or less of business news that matters.</p>
         </div>
         <div className="box">
