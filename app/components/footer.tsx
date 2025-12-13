@@ -14,8 +14,8 @@ export default function Footer() {
 <div className="footer-top">
   <div className="footer-signup">
     <h1>Screw it, let's do it.</h1>
-          <p>Get ahead with Jeffamazon.</p>
-    <form method="post" action="https://app.thepoast.com/subscription/form">
+          <p>Start your day with Jeffamazon.</p>
+    <form method="post" action="https://app.jeffamzn.com/subscription/form">
       <div className="input-wrapper">
         <input className="email" type="email" name="email" required placeholder="Email Address *" />
         <button className="submit" type="submit">Let's do it</button>
@@ -37,7 +37,7 @@ export default function Footer() {
   <div className="column">
     <h4>Business</h4>
     <Link to="/ads/advertise">Advertise</Link>
-    <a title="media kit" href="https://app.thepoast.com/campaign/326965e9-08ca-45d8-8949-df43df3bdbfe/e0b14610-4448-4657-ae89-21598fe78de2"  rel="noopener noreferrer">Media Kit</a>
+    <a title="media kit" href="https://app.jeffamzn.com/campaign/326965e9-08ca-45d8-8949-df43df3bdbfe/e0b14610-4448-4657-ae89-21598fe78de2"  rel="noopener noreferrer">Media Kit</a>
     <Link to="/ads/ad-formats">Ad Formats</Link>
   </div>
 </div>

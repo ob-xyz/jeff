@@ -32,7 +32,7 @@ export default function Index() {
             <h1>Your 1 minute vibe check</h1>
             <p>Subscribe for your daily dose of business news and insights 🚀</p>
           </div>
-      <form method="post" action="https://app.thepoast.com/subscription/form">
+      <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
           <button className="submit" type="submit">Send it</button>
