@@ -49,7 +49,7 @@ function Index() {
           lineNumber: 31,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Your 1 minute vibe check" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Business is our sport" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 32,
           columnNumber: 13
@@ -240,4 +240,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-GRADCR43.js.map
+//# sourceMappingURL=/build/routes/index-O6RZYTT6.js.map
