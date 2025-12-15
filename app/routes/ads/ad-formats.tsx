@@ -51,24 +51,7 @@ export default function Index() {
       </div>
       </div>
     </div>
-     <div className="content-awu3">
-      <div className="header">
-          <h4>NEWEST</h4>
-          <h3>Quick Ads</h3>
-      </div>
-      <div className="grid">
-      <div className="box">
-        <img src={quickads} />
-        <h1>Quick Ads</h1>
-        <p>Quick Ads appear in the "Today's News" section, and gives you the chance to promote your product or service.</p>
-      </div>
-      <div className="box">
-        <img src={recads} />
-        <h1>Quick Content Ads</h1>
-        <p>Quick Content Ads appear in the "Recs" section, making it easy for you to recommend a podcast or video.</p>
-      </div>
-      </div>
-    </div>
+    
      <div className="content-awu3">
       <div className="header">
           <h4>MOST POPULAR</h4>
@@ -102,6 +85,24 @@ export default function Index() {
         <img src={videoads} />
         <h1>Video Ads</h1>
         <p>Video Ads are short clips that make your products feel alive and invested to learn more through your website, app, or brand message.</p>
+      </div>
+      </div>
+    </div>
+     <div className="content-awu3">
+      <div className="header">
+          <h4>NEWEST</h4>
+          <h3>Quick Ads</h3>
+      </div>
+      <div className="grid">
+      <div className="box">
+        <img src={quickads} />
+        <h1>Quick Ads</h1>
+        <p>Quick Ads appear in the "Today's News" section, and gives you the chance to promote your product or service.</p>
+      </div>
+      <div className="box">
+        <img src={recads} />
+        <h1>Quick Content Ads</h1>
+        <p>Quick Content Ads appear in the "Recs" section, making it easy for you to recommend a podcast or video.</p>
       </div>
       </div>
     </div>
