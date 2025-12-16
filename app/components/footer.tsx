@@ -13,7 +13,7 @@ export default function Footer() {
 
 <div className="footer-top">
   <div className="footer-signup">
-    <h1>Screw it, let's go.</h1>
+    <h1>Screw it, let's do it.</h1>
           <p>Stay ahead with Jeffamazon.</p>
     <form method="post" action="https://app.jeffamzn.com/subscription/form">
       <div className="input-wrapper">
@@ -30,15 +30,12 @@ export default function Footer() {
   <div className="column">
     <h4>Company</h4>
     <Link to="/">Home</Link>
-    <Link to="/about">About</Link>
-    <a title="sample issue" href="https://jeffamazon.com/sample-issue"  rel="noopener noreferrer">Sample Issue</a>
-    <Link to="/policies/checkmarks">Checkmarks</Link>
+    <a title="sample issue" href="https://jeffamazon.com/sample-issue"  rel="noopener noreferrer">Sample</a>
     <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe</a>
   </div>
   <div className="column">
     <h4>Business</h4>
     <Link to="/ads/advertise">Advertise</Link>
-    <a title="rate card" href="https://jeffamazon.com/rate-card"  rel="noopener noreferrer">Rate Card</a>
     <a title="media kit" href="https://jeffamazon.com/media-kit"  rel="noopener noreferrer">Media Kit</a>
     <Link to="/ads/ad-formats">Ad Formats</Link>
   </div>

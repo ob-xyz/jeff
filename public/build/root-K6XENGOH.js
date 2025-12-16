@@ -35,7 +35,7 @@ function Footer() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "footer-top", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "footer-signup", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Screw it, let's go." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Screw it, let's do it." }, void 0, false, {
           fileName: "app/components/footer.tsx",
           lineNumber: 16,
           columnNumber: 5
@@ -99,24 +99,14 @@ function Footer() {
             lineNumber: 32,
             columnNumber: 5
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/about", children: "About" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "sample issue", href: "https://jeffamazon.com/sample-issue", rel: "noopener noreferrer", children: "Sample" }, void 0, false, {
             fileName: "app/components/footer.tsx",
             lineNumber: 33,
             columnNumber: 5
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "sample issue", href: "https://jeffamazon.com/sample-issue", rel: "noopener noreferrer", children: "Sample Issue" }, void 0, false, {
-            fileName: "app/components/footer.tsx",
-            lineNumber: 34,
-            columnNumber: 5
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/policies/checkmarks", children: "Checkmarks" }, void 0, false, {
-            fileName: "app/components/footer.tsx",
-            lineNumber: 35,
-            columnNumber: 5
-          }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: "Subscribe" }, void 0, false, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 36,
+            lineNumber: 34,
             columnNumber: 5
           }, this)
         ] }, void 0, true, {
@@ -127,32 +117,27 @@ function Footer() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "column", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "Business" }, void 0, false, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 39,
+            lineNumber: 37,
             columnNumber: 5
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/ads/advertise", children: "Advertise" }, void 0, false, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 40,
-            columnNumber: 5
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "rate card", href: "https://jeffamazon.com/rate-card", rel: "noopener noreferrer", children: "Rate Card" }, void 0, false, {
-            fileName: "app/components/footer.tsx",
-            lineNumber: 41,
+            lineNumber: 38,
             columnNumber: 5
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "media kit", href: "https://jeffamazon.com/media-kit", rel: "noopener noreferrer", children: "Media Kit" }, void 0, false, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 42,
+            lineNumber: 39,
             columnNumber: 5
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/ads/ad-formats", children: "Ad Formats" }, void 0, false, {
             fileName: "app/components/footer.tsx",
-            lineNumber: 43,
+            lineNumber: 40,
             columnNumber: 5
           }, this)
         ] }, void 0, true, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 38,
+          lineNumber: 36,
           columnNumber: 3
         }, this)
       ] }, void 0, true, {
@@ -169,21 +154,30 @@ function Footer() {
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "footer-meta", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/policies/privacy", children: "Privacy Policy" }, void 0, false, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 51,
+          lineNumber: 48,
           columnNumber: 5
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://policies.google.com/terms?hl=en-US", target: "_blank", rel: "noopener noreferrer", children: "Terms of Service" }, void 0, false, {
           fileName: "app/components/footer.tsx",
-          lineNumber: 52,
+          lineNumber: 49,
           columnNumber: 3
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/footer.tsx",
-        lineNumber: 50,
+        lineNumber: 47,
         columnNumber: 3
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "footer-social", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://instagram.com/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: ig_default, alt: "Instagram" }, void 0, false, {
+          fileName: "app/components/footer.tsx",
+          lineNumber: 55,
+          columnNumber: 5
+        }, this) }, void 0, false, {
+          fileName: "app/components/footer.tsx",
+          lineNumber: 54,
+          columnNumber: 3
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://x.com/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: x_default, alt: "X (formerly Twitter)" }, void 0, false, {
           fileName: "app/components/footer.tsx",
           lineNumber: 58,
           columnNumber: 5
@@ -192,7 +186,7 @@ function Footer() {
           lineNumber: 57,
           columnNumber: 3
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://x.com/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: x_default, alt: "X (formerly Twitter)" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, false, {
           fileName: "app/components/footer.tsx",
           lineNumber: 61,
           columnNumber: 5
@@ -201,7 +195,7 @@ function Footer() {
           lineNumber: 60,
           columnNumber: 3
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: in_default, alt: "LinkedIn" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:chris@jeffamazon.com", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: email_default, alt: "Email us" }, void 0, false, {
           fileName: "app/components/footer.tsx",
           lineNumber: 64,
           columnNumber: 5
@@ -209,24 +203,15 @@ function Footer() {
           fileName: "app/components/footer.tsx",
           lineNumber: 63,
           columnNumber: 3
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { href: "mailto:chris@jeffamazon.com", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: email_default, alt: "Email us" }, void 0, false, {
-          fileName: "app/components/footer.tsx",
-          lineNumber: 67,
-          columnNumber: 5
-        }, this) }, void 0, false, {
-          fileName: "app/components/footer.tsx",
-          lineNumber: 66,
-          columnNumber: 3
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/footer.tsx",
-        lineNumber: 56,
+        lineNumber: 53,
         columnNumber: 3
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/footer.tsx",
-      lineNumber: 48,
+      lineNumber: 45,
       columnNumber: 1
     }, this)
   ] }, void 0, true, {
@@ -320,4 +305,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-7JDZV7KD.js.map
+//# sourceMappingURL=/build/root-K6XENGOH.js.map

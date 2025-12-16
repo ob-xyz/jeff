@@ -46,28 +46,28 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Stay ahead with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and distruptive trends.</p>
+      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and economic trends.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join 10,000+ disruptors across business and technology.</p>
+            <p>Join 10,000+ disruptors staying ahead on what's happening in the world.</p>
       </div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
           <h1>Business news</h1>
-          <p>Enjoy 1-minute of news that actually matters.</p>
+          <p>Enjoy a quick dose of business news that actually matters.</p>
         </div>
         <div className="box">
           <img src={sama} />
           <h1>Technology trends</h1>
-          <p>Get unfiltered insights into tech.</p>
+          <p>Get unfiltered insights and curated conversations happening in tech.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Sunday dive</h1>
-          <p>Enjoy our Sunday dive into one big asymmetric bet.</p>
+          <p>Enjoy our Sunday dive into one trending asymmetric bet.</p>
         </div>
       </div>
       <div className="btn">

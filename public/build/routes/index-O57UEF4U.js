@@ -123,7 +123,7 @@ function Index() {
         lineNumber: 47,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and distruptive trends." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and economic trends." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 49,
         columnNumber: 7
@@ -143,7 +143,7 @@ function Index() {
         lineNumber: 53,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join 10,000+ disruptors across business and technology." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join 10,000+ disruptors staying ahead on what's happening in the world." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 54,
         columnNumber: 13
@@ -165,7 +165,7 @@ function Index() {
           lineNumber: 59,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy 1-minute of news that actually matters." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy a quick dose of business news that actually matters." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 60,
           columnNumber: 11
@@ -186,7 +186,7 @@ function Index() {
           lineNumber: 64,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get unfiltered insights into tech." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get unfiltered insights and curated conversations happening in tech." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 65,
           columnNumber: 11
@@ -207,7 +207,7 @@ function Index() {
           lineNumber: 69,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our Sunday dive into one big asymmetric bet." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our Sunday dive into one trending asymmetric bet." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 70,
           columnNumber: 11
@@ -240,4 +240,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-BOTWYWHT.js.map
+//# sourceMappingURL=/build/routes/index-O57UEF4U.js.map
