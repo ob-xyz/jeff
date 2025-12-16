@@ -46,28 +46,28 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Stay ahead with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and economic trends.</p>
+      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and distruptive trends.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join 10,000+ innovatively smart people who start every day with a quick dose of business news and insights.</p>
+            <p>Join 10,000+ disruptors across business and technology.</p>
       </div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
-          <h1>Quick daily dose</h1>
-          <p>Enjoy 1-minute or less of business news that matters.</p>
+          <h1>Business news</h1>
+          <p>Enjoy 1-minute of news that actually matters.</p>
         </div>
         <div className="box">
           <img src={sama} />
-          <h1>Unfiltered convos</h1>
-          <p>Get unfiltered insights from real people in business and tech.</p>
+          <h1>Technology trends</h1>
+          <p>Get unfiltered insights into tech.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Free deep dive</h1>
-          <p>Every Sunday is a deep dive into one trending asymmetric idea.</p>
+          <h1>Sunday dive</h1>
+          <p>Enjoy our Sunday dive into one big asymmetric bet.</p>
         </div>
       </div>
       <div className="btn">
