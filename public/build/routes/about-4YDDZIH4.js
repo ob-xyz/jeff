@@ -21,11 +21,11 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content-aboutus2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
-        "Start your day with ",
+        "Stay ahead with ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon" }, void 0, false, {
           fileName: "app/routes/about.tsx",
           lineNumber: 9,
-          columnNumber: 31
+          columnNumber: 27
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/about.tsx",
@@ -51,4 +51,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-FSZ7Z45L.js.map
+//# sourceMappingURL=/build/routes/about-4YDDZIH4.js.map

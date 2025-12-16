@@ -35,12 +35,12 @@ function Footer() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "footer-top", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "footer-signup", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Screw it, let's do it." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Screw it, let's go." }, void 0, false, {
           fileName: "app/components/footer.tsx",
           lineNumber: 16,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Start your day with Jeffamazon." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Stay ahead with Jeffamazon." }, void 0, false, {
           fileName: "app/components/footer.tsx",
           lineNumber: 17,
           columnNumber: 11
@@ -104,7 +104,7 @@ function Footer() {
             lineNumber: 33,
             columnNumber: 5
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: "Subscribe" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "sample issue", href: "https://jeffamazon.com/sample-issue", rel: "noopener noreferrer", children: "Sample Issue" }, void 0, false, {
             fileName: "app/components/footer.tsx",
             lineNumber: 34,
             columnNumber: 5
@@ -114,7 +114,7 @@ function Footer() {
             lineNumber: 35,
             columnNumber: 5
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "sample issue", href: "https://jeffamazon.com/sample-issue", rel: "noopener noreferrer", children: "Sample Issue" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: "Subscribe" }, void 0, false, {
             fileName: "app/components/footer.tsx",
             lineNumber: 36,
             columnNumber: 5
@@ -257,7 +257,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "Subscribe to Jeffamazon Daily Newsletter - Jeffamazon",
-  description: "Subscribe to the free, 1-minute newsletter empowering 10K+ entrepreneurs to stay informed about what's trending across business and technology.",
+  description: "Subscribe to the free, 1-minute newsletter keeping 10K+ disruptors in the loop on business, technology, and dead internet theories.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -320,4 +320,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-EGXBOFKG.js.map
+//# sourceMappingURL=/build/root-7JDZV7KD.js.map

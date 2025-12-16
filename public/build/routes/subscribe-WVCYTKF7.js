@@ -38,7 +38,7 @@ function Index() {
           lineNumber: 28,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Your 1 minute dose" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Become a real disruptor" }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 29,
           columnNumber: 13
@@ -108,4 +108,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-BPTMA754.js.map
+//# sourceMappingURL=/build/routes/subscribe-WVCYTKF7.js.map
