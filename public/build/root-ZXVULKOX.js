@@ -242,7 +242,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "Subscribe to Jeffamazon Daily Newsletter - Jeffamazon",
-  description: "Subscribe to the free, 1-minute newsletter keeping 10K+ disruptors in the loop on business, technology, and dead internet theories.",
+  description: "Subscribe to the free, 1-minute newsletter keeping 10K+ people ahead of the curvew.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -305,4 +305,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-K6XENGOH.js.map
+//# sourceMappingURL=/build/root-ZXVULKOX.js.map
