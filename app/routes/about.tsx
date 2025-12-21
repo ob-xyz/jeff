@@ -6,8 +6,8 @@ export default function Index() {
         <img src={logo} alt="Jeffamazon Logo" />
       </div>
       <div className="content-aboutus2">
-      <h2>Become a real disruptor with <span>Jeffamazon</span></h2>
-      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and distruptive business trends.</p>
+      <h2>This is how I started Jeffamazon.</h2>
+      <p>....</p>
       </div>
   </div>
   );
