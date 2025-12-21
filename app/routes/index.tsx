@@ -46,12 +46,12 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Stay ahead in just 1 minute with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and economic trends.</p>
+      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and uncanny business models.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join 10,000+ professional people understanding how business defines the world.</p>
+            <p>Join 10,000+ professional people already understanding how business defines the world.</p>
       </div>
       <div className="inner-content5">
          <div className="box">
