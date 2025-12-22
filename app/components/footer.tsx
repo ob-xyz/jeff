@@ -35,8 +35,8 @@ export default function Footer() {
   </div>
   <div className="column">
     <h4>Business</h4>
-    <a title="media kit" href="https://jeffamazon.com/media-kit"  rel="noopener noreferrer">Media kit</a>
     <Link to="/ads/advertise">Advertise</Link>
+    <a title="media kit" href="https://jeffamazon.com/media-kit"  rel="noopener noreferrer">Media kit</a>
     <Link to="/ads/ad-formats">Ad formats</Link>
     <a title="get in touch" href="mailto:chris@jeffamazon.com"  rel="noopener noreferrer">Get in touch</a>
   </div>
