@@ -30,14 +30,15 @@ export default function Footer() {
   <div className="column">
     <h4>Company</h4>
     <Link to="/">Home</Link>
-    <a title="sample issue" href="https://jeffamazon.com/sample-issue"  rel="noopener noreferrer">Sample</a>
     <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe</a>
+    <a title="sample issue" href="https://jeffamazon.com/sample-issue"  rel="noopener noreferrer">Sample issue</a>
+    <a title="get in touch" href="mailto:chris@jeffamazon.com"  rel="noopener noreferrer">Get in touch</a>
   </div>
   <div className="column">
     <h4>Business</h4>
     <Link to="/ads/advertise">Advertise</Link>
-    <a title="media kit" href="https://jeffamazon.com/media-kit"  rel="noopener noreferrer">Media Kit</a>
-    <Link to="/ads/ad-formats">Ad Formats</Link>
+    <a title="media kit" href="https://jeffamazon.com/media-kit"  rel="noopener noreferrer">Media kit</a>
+    <Link to="/ads/ad-formats">Ad formats</Link>
   </div>
 </div>
 </div>
