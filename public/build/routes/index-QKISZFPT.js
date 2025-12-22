@@ -49,12 +49,12 @@ function Index() {
           lineNumber: 31,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Seriously fun and professional people" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Stay ahead of the curve" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 32,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe for your daily dose of serious business news \u{1F680}" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe for your daily dose of serious business news for seriously professional people \u{1F680}" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 33,
           columnNumber: 13
@@ -143,7 +143,7 @@ function Index() {
         lineNumber: 53,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join 10,000+ seriously professional people who love starting their day with something fun from Jeffamazon." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Join 10,000+ seriously professional people who enjoy serious and fun business news from Jeffamazon." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 54,
         columnNumber: 13
@@ -160,12 +160,12 @@ function Index() {
           lineNumber: 58,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Daily business news" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Serious business news" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 59,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy a dose of news that actually matters." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy a daily dose of business news that actually matters." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 60,
           columnNumber: 11
@@ -181,12 +181,12 @@ function Index() {
           lineNumber: 63,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Happening convos" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Serious people" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 64,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get curated conversations happening now." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get curated conversations from seriously professional people." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 65,
           columnNumber: 11
@@ -202,12 +202,12 @@ function Index() {
           lineNumber: 68,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Sunday trend" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Asymmetric bets" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 69,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our Sunday dive into one asymmetric bet." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our Sunday dive into one asymmetric bet you can take." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 70,
           columnNumber: 11
@@ -240,4 +240,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-N2BQ7ZCW.js.map
+//# sourceMappingURL=/build/routes/index-QKISZFPT.js.map

@@ -29,8 +29,8 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>JEFFAMAZON DAILY NEWSLETTER</h4>
-            <h1>Seriously fun and professional people</h1>
-            <p>Subscribe for your daily dose of serious business news 🚀</p>
+            <h1>Stay ahead of the curve</h1>
+            <p>Subscribe for your daily dose of serious business news for seriously professional people 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -51,23 +51,23 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join 10,000+ seriously professional people who love starting their day with something fun from Jeffamazon.</p>
+            <p>Join 10,000+ seriously professional people who enjoy serious and fun business news from Jeffamazon.</p>
       </div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
-          <h1>Daily business news</h1>
-          <p>Enjoy a dose of news that actually matters.</p>
+          <h1>Serious business news</h1>
+          <p>Enjoy a daily dose of business news that actually matters.</p>
         </div>
         <div className="box">
           <img src={sama} />
-          <h1>Happening convos</h1>
-          <p>Get curated conversations happening now.</p>
+          <h1>Serious people</h1>
+          <p>Get curated conversations from seriously professional people.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Sunday trend</h1>
-          <p>Enjoy our Sunday dive into one asymmetric bet.</p>
+          <h1>Asymmetric bets</h1>
+          <p>Enjoy our Sunday dive into one asymmetric bet you can take.</p>
         </div>
       </div>
       <div className="btn">
