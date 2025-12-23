@@ -30,7 +30,7 @@ export default function Index() {
           <div className="text">
             <h4>JEFFAMAZON DAILY NEWSLETTER</h4>
             <h1>Stay ahead of the curve</h1>
-            <p>Subscribe for your daily dose of serious business news for seriously professional people 🚀</p>
+            <p>Subscribe for your daily dose of serious business news 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -44,14 +44,14 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Stay ahead in just 1 minute with <span>Jeffamazon</span></h2>
+      <h2>Stay ahead with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and serious business news.</p>
+      <p>Start your day with a 1-minute newsletter that helps you make sense of markets, technology, and business models.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join 10,000+ seriously professional people who enjoy serious and fun business news from Jeffamazon.</p>
+            <p>Join 10,000+ seriously professional people who start their day ahead of the curve.</p>
       </div>
       <div className="inner-content5">
          <div className="box">
@@ -61,13 +61,13 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={sama} />
-          <h1>Serious people</h1>
+          <h1>Seriously professional people</h1>
           <p>Get curated conversations from seriously professional people.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Asymmetric bets</h1>
-          <p>Enjoy our Sunday dive into one asymmetric bet you can take.</p>
+          <p>Enjoy our Sunday dive into one asymmetric bet happening now.</p>
         </div>
       </div>
       <div className="btn">
