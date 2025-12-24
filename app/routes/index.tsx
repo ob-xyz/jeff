@@ -46,13 +46,12 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Stay ahead with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Start your day with a 1-minute newsletter that helps you make sense of markets, technology, and business models.</p>
+      <p>Start your day with a 1-minute newsletter that helps you make sense of markets, technology, and economic trends.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Join 10,000+ seriously professional people who start their day ahead of the curve.</p>
-      </div>
+            <p>In a world where the average 18 year old spends 8 hours and 39 minutes per day on their phone—often scrolling AI slop on TikTok, Instagram, X, and even LinkedIn—Jeffamazon takes only 1-minute to read and helps over 10,000 seriously professional people avoid the AI slop tour across social. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here</a> for free.</p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
@@ -61,13 +60,13 @@ export default function Index() {
         </div>
         <div className="box">
           <img src={sama} />
-          <h1>Seriously professional people</h1>
-          <p>Get curated conversations from seriously professional people.</p>
+          <h1>Avoid AI slop</h1>
+          <p>Get curated conversations from builders in business and technology.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Asymmetric bets</h1>
-          <p>Enjoy our Sunday dive into one asymmetric bet happening now.</p>
+          <p>Read our Sunday dive into one asymmetric bet with upside.</p>
         </div>
       </div>
       <div className="btn">

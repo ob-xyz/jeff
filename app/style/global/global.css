@@ -182,11 +182,16 @@
 }
 .container .inner-content4 h3 {
   margin-left: 0;
+  margin-top: 0;
 }
 .container .inner-content4 p {
   margin-bottom: 0.4rem;
   color: #7a7a7a;
   width: 67.5%;
+}
+.container .inner-content4 p a {
+  font-family: kl;
+  color: rgb(205, 27, 27);
 }
 .container .inner-content5 {
   display: grid;
