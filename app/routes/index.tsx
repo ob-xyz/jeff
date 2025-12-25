@@ -30,7 +30,7 @@ export default function Index() {
           <div className="text">
             <h4>JEFFAMAZON DAILY NEWSLETTER</h4>
             <h1>Stay ahead of the curve</h1>
-            <p>Subscribe for your daily dose of serious business news 🚀</p>
+            <p>Subscribe for your daily dose of business news that's seriously fun to read 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -46,27 +46,27 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Stay ahead with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Start your day with a 1-minute newsletter that helps you make sense of markets, technology, and economic trends.</p>
+      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you make sense of markets, technology, and economic trends.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>In a world where the average 18 year old spends 8 hours and 39 minutes per day on their phone—often scrolling AI slop on TikTok, Instagram, X, and even LinkedIn—Jeffamazon takes only 1-minute to read and helps over 10,000 seriously professional people avoid the AI slop tour across social. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here</a> for free.</p></div>
+            <p>The average 18 year old spends 8 hours and 39 minutes per day scrolling AI slop on TikTok, Instagram, YouTube, X, and even LinkedIn—Jeffamazon is a daily newsletter that cuts through the noise and keeps you ahead of the curve with business news that's seriously fun to read. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here</a> for free.</p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
           <h1>Serious business news</h1>
-          <p>Enjoy a daily dose of business news that actually matters.</p>
+          <p>Enjoy a daily dose of business news that seriously fun to read.</p>
         </div>
         <div className="box">
           <img src={sama} />
-          <h1>Avoid AI slop</h1>
+          <h1>Zero AI slop</h1>
           <p>Get curated conversations from builders in business and technology.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Asymmetric bets</h1>
-          <p>Read our Sunday dive into one asymmetric bet with upside.</p>
+          <p>Open our Sunday dives into asymmetric bets with huge upside.</p>
         </div>
       </div>
       <div className="btn">
