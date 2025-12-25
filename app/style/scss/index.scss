@@ -68,7 +68,7 @@ form {
 }
 .input-wrapper {
   position: relative;
-  width: 45.5rem;
+  width: 41rem;
 }
 input.email {
   width: 100%;
@@ -165,6 +165,12 @@ p {
             a{
               font-family:kl;
               color:rgb(205, 27, 27);
+              text-decoration: underline;
+              }
+              b{
+                color:#000;
+                font-family: bold;
+                font-weight: 400;
               }
         }
 }
