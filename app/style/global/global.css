@@ -80,7 +80,7 @@
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
-  width: 85%;
+  width: 75%;
 }
 .container .content .inner-content .text p {
   text-align: left;
@@ -310,7 +310,7 @@
   flex-grow: 1;
 }
 
-@media (min-width: 875px) and (max-width: 1246px) {
+@media (min-width: 875px) and (max-width: 1283px) {
   .container h3 {
     font-size: 2.75rem;
   }
@@ -320,17 +320,12 @@
   .container .logo {
     margin-left: 2.5rem;
   }
-  .container .content {
-    margin-top: 8rem;
-    margin-bottom: 3.5rem;
-  }
   .container .content .inner-content {
-    margin-top: 5rem;
     margin-left: 2.5rem;
   }
   .container .content .inner-content .text h1, .container .content .inner-content .text span {
     font-size: 3.5rem;
-    width: 55%;
+    width: 60%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
@@ -387,24 +382,22 @@
   .container .logo {
     margin-left: 2.5rem;
   }
-  .container .content {
-    margin-top: 8rem;
-    margin-bottom: 3.5rem;
-  }
   .container .content .inner-content {
-    margin-top: 5rem;
     margin-left: 2.5rem;
   }
   .container .content .inner-content .text h1 {
     font-size: 3.5rem;
+    width: 85%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
-    width: 65%;
   }
   .container .content .inner-content form .input-wrapper {
     width: 28rem;
+  }
+  .container .content .inner-content1 img {
+    margin-bottom: -10rem;
   }
   .container .inner-content2 {
     padding: 0 2.5rem;
@@ -461,19 +454,14 @@
   .container .logo {
     margin-left: 1rem;
   }
-  .container .content {
-    margin-top: 2.5rem;
-    margin-bottom: 4rem;
-  }
   .container .content .inner-content {
-    margin-top: 0rem;
     margin-left: 1rem;
   }
   .container .content .inner-content .text h4 {
     font-size: 0.825rem;
   }
   .container .content .inner-content .text h1 {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
   .container .content .inner-content .text p {
     padding-top: 1.5rem;
@@ -483,6 +471,11 @@
   }
   .container .content .inner-content form .input-wrapper {
     width: 22rem;
+  }
+  .container .content .inner-content1 img {
+    width: 90%;
+    margin-bottom: -10rem;
+    margin-left: 1rem;
   }
   .container .inner-content2 {
     margin-left: 0;
