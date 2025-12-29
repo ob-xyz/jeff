@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 
 import logo from "~/../public/img/ja1.png";
+import header from "~/../public/img/ja3.png";
 import sama from "~/../public/img/samae.jpg";
 import tobi from "~/../public/img/tobic.jpg";
 import jensen from "~/../public/img/jensene.jpg";
@@ -41,6 +42,9 @@ export default function Index() {
         <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
         <input type="hidden" name="nonce" />
       </form>
+        </div>
+        <div className="inner-content1">
+            <img src={header} alt="Jeffamazon newsletter image" />
         </div>
       </div>
       <div className="inner-content2">
