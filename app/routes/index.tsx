@@ -51,7 +51,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Regular news makes you feel bad and platforms just want you to doom-scroll to infinity. <b>Jeffamazon is the antidote</b>. It's my 1-minute business newsletter that actually feels good to read. Join <b>20,000+ seriously smart people</b> who've stopped doom-scrolling as their first morning ritual. Start your mornings with <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">a better ritual</a>.</p></div>
+            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. <b>Jeffamazon is the antidote</b>. It's our 1-minute business newsletter that actually feels good to read. Join <b>20,000+ wickedly smart people</b> who are serious about their morning ritual. Start your day with <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">a better ritual</a>.</p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
