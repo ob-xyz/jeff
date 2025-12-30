@@ -232,7 +232,7 @@ function Footer() {
 }
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-3PHPGQ5I.css";
+var global_default = "/build/_assets/global-V7DQDX27.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
@@ -252,7 +252,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "Subscribe to Jeffamazon Daily Newsletter - Jeffamazon",
-  description: "Subscribe to the free, 1-minute business newsletter keeping 10K+ seriously professional people ahead of the curve.",
+  description: "Subscribe to the free, 1-minute business newsletter keeping 20K+ wickedly smart people ahead of the curve.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -315,4 +315,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-ZVI7OHEU.js.map
+//# sourceMappingURL=/build/root-LY2KIFQF.js.map

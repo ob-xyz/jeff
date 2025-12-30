@@ -158,17 +158,17 @@ function Index() {
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-        "Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. Jeffamazon is the antidote that helps you scroll less so you can live more. Join ",
+        "Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. Jeffamazon is the antidote that helps you scroll less so you can live more. Start to elevate your life by joining ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("b", { children: "20,000+ wickedly smart people" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 58,
-          columnNumber: 189
+          columnNumber: 222
         }, this),
-        " who are elevating their daily life with our 1-minute business newsletter you can get for free ",
+        " who read our 1-minute newsletter daily. Sign up for free ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: "right here \u2192" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 58,
-          columnNumber: 320
+          columnNumber: 316
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
@@ -267,4 +267,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-OYWSOIR6.js.map
+//# sourceMappingURL=/build/routes/index-2CVAM7TS.js.map
