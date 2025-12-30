@@ -102,7 +102,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 40.25rem;
+  width: 42.25rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -139,6 +139,7 @@
 }
 .container .content .inner-content1 img {
   margin-left: 3.5rem;
+  margin-bottom: -1.5rem;
   width: 70%;
 }
 .container .inner-content2 {
@@ -314,7 +315,7 @@
   margin: 0;
   flex-grow: 1;
 }
-@media (min-width: 875px) and (max-width: 1283px) {
+@media (min-width: 875px) and (max-width: 1264px) {
   .container h3 {
     font-size: 2.75rem;
   }
@@ -332,11 +333,12 @@
     padding-bottom: .5rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 40.25rem;
+    width: 42.25rem;
   }
   .container .content .inner-content1 {
     width: 100%;
-    margin-left: 5rem;
+    margin-left: 2.5rem;
+    margin-bottom: -1.5rem;
   }
   .container .inner-content2 {
     margin: 0 auto;

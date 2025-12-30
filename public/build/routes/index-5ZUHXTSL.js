@@ -48,17 +48,17 @@ function Index() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "Jeffamazon Daily Newsletter" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "Stay ahead of the curve" }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 32,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Stay ahead of the curve" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Scroll Less. Win More." }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 33,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe for your daily dose of business news that feels good \u{1F680}" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe for your daily dose of business news that actually slaps \u{1F680}" }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 34,
             columnNumber: 13
@@ -137,7 +137,7 @@ function Index() {
         lineNumber: 51,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day Jeffamazon delivers a quick and insightful newsletter that helps you understand business strategy, technology, companies and economic trends." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day Jeffamazon delivers a quick and insightful newsletter that helps you understand business strategy, technology, and economic trends." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 53,
         columnNumber: 7
@@ -158,17 +158,17 @@ function Index() {
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
-        "Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. Jeffamazon is the antidote that helps you scroll less so you can live more. Start to elevate your life by joining ",
+        "Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. Jeffamazon is the antidote that slaps. Join ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("b", { children: "20,000+ wickedly smart people" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 58,
-          columnNumber: 222
+          columnNumber: 152
         }, this),
-        " who read our 1-minute newsletter daily. Sign up for free ",
+        " who scroll less and win more with our 1-minute daily newsletter available for free ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: "right here \u2192" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 58,
-          columnNumber: 316
+          columnNumber: 272
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
@@ -192,7 +192,7 @@ function Index() {
           lineNumber: 62,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "All the strategies and trends you need, without the noise. It's business news that actually feels good to read." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "All the strategies and trends you need, without the noise. It's business news that slaps." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 63,
           columnNumber: 11
@@ -213,7 +213,7 @@ function Index() {
           lineNumber: 67,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Real conversations and insights from people who have a seat at the table, delivered in 60 seconds or less." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Real conversations and insights from around the web, delivered in 60 seconds or less." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 68,
           columnNumber: 11
@@ -234,7 +234,7 @@ function Index() {
           lineNumber: 72,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Our Sunday deep-dives into high-upside opportunities that regular news misses." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our Sunday deep dives into high-upside ideas that traditional media often gets wrong." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 73,
           columnNumber: 11
@@ -267,4 +267,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-HJIQ7AS3.js.map
+//# sourceMappingURL=/build/routes/index-5ZUHXTSL.js.map

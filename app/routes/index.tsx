@@ -29,9 +29,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>Jeffamazon Daily Newsletter</h4>
-            <h1>Stay ahead of the curve</h1>
-            <p>Subscribe for your daily dose of business news that feels good 🚀</p>
+            <h4>Stay ahead of the curve</h4>
+            <h1>Scroll Less. Win More.</h1>
+            <p>Subscribe for your daily dose of business news that actually slaps 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -50,27 +50,27 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Stay ahead with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you understand business strategy, technology, companies and economic trends.</p>
+      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you understand business strategy, technology, and economic trends.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. Jeffamazon is the antidote that helps you scroll less so you can live more. Start to elevate your life by joining <b>20,000+ wickedly smart people</b> who read our 1-minute business newsletter daily. Sign up for free <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">right here →</a></p></div>
+            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. Jeffamazon is the antidote that slaps. Join <b>20,000+ wickedly smart people</b> who scroll less and win more with our 1-minute daily newsletter available for free <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">right here →</a></p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
           <h1>Daily business news</h1>
-          <p>All the strategies and trends you need, without the noise. It's business news that actually feels good to read.</p>
+          <p>All the strategies and trends you need, without the noise. It's business news that slaps.</p>
         </div>
         <div className="box">
           <img src={sama} />
           <h1>60 seconds or less</h1>
-          <p>Real conversations and insights from people who have a seat at the table, delivered in 60 seconds or less.</p>
+          <p>Real conversations and insights from around the web, delivered in 60 seconds or less.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Asymmetric bets</h1>
-          <p>Our Sunday deep-dives into high-upside opportunities that regular news misses.</p>
+          <p>Enjoy our Sunday deep dives into high-upside ideas that traditional media often gets wrong.</p>
         </div>
       </div>
       <div className="btn">
