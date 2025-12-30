@@ -55,7 +55,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. Jeffamazon is the antidote that slaps. Join <b>20,000+ wickedly smart people</b> who scroll less and win more with our 1-minute daily newsletter available for free <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">right here →</a></p></div>
+            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. Jeffamazon is the antidote that actually slaps. Join <b>20,000+ wickedly smart people</b> who scroll less and win more with our 1-minute daily newsletter available for free <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">right here →</a></p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
