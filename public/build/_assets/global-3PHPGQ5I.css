@@ -102,7 +102,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 36rem;
+  width: 40.25rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -199,7 +199,6 @@
 .container .inner-content4 p a {
   font-family: kl;
   color: #cd1b1b;
-  text-decoration: underline;
 }
 .container .inner-content4 p b {
   color: #000;
@@ -332,7 +331,7 @@
     padding-bottom: .5rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 38.5rem;
+    width: 40.25rem;
   }
   .container .content .inner-content1 {
     width: 100%;
