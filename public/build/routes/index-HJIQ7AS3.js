@@ -48,7 +48,7 @@ function Index() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "JEFFAMAZON DAILY NEWSLETTER" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "Jeffamazon Daily Newsletter" }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 32,
             columnNumber: 13
@@ -267,4 +267,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-2CVAM7TS.js.map
+//# sourceMappingURL=/build/routes/index-HJIQ7AS3.js.map
