@@ -152,6 +152,13 @@ font-size: 0.825rem;
     }
   }
 }
+@media (min-width: 875px) and (max-width: 1162px) {
+.footer {
+  h1{
+    font-size: 8.5rem;
+  }
+}
+}
 @media (min-width: 660px) and (max-width: 930px) {
 .footer {
   padding-left:2.5rem;

@@ -400,6 +400,7 @@
   .container .content .inner-content1 img {
     width: 100%;
     margin-bottom: -10rem;
+    margin-left: 0;
   }
   .container .inner-content2 {
     padding: 0 2.5rem;
@@ -465,7 +466,7 @@
   }
   .container .content .inner-content .text h1 {
     font-size: 3rem;
-    width: 90%;
+    width: 70%;
   }
   .container .content .inner-content .text p {
     padding-top: 1.5rem;
@@ -1739,6 +1740,11 @@
   margin-left: 0;
 }
 
+@media (min-width: 875px) and (max-width: 1162px) {
+  .footer h1 {
+    font-size: 8.5rem;
+  }
+}
 @media (min-width: 660px) and (max-width: 930px) {
   .footer {
     padding-left: 2.5rem;
