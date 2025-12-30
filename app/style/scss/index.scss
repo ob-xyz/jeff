@@ -462,6 +462,7 @@ form {
     margin-left:1rem;
   }
 .content{
+  flex-direction: column;
 .inner-content{
         margin-left:1rem;
     .text{
@@ -469,7 +470,7 @@ form {
           font-size:.825rem;
         }
       h1{
-        font-size:2rem;
+        font-size:2.25rem;
       }
       p{
         padding-top:1.5rem;
@@ -484,11 +485,15 @@ form {
   }
     }
   }
- .inner-content1{
-  img{
-    display: none;
+.inner-content1 {
+  margin-top: 4rem;
+  img {
+    display: block;        // Required for margin: auto to work on an image
+    margin-left: auto;
+    margin-right: auto;
+    width: 67.5%;
   }
- }
+}
 }
 .inner-content2{
   margin-left:0;
@@ -538,7 +543,7 @@ form {
   }
 }
 .btn{
-    margin: 2rem 1rem;
+    margin: 2rem 1rem
 }
 }
 }
