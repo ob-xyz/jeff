@@ -32,11 +32,12 @@
 }
 .container h4 {
   font-family: kl;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
+  color: rgb(198, 4, 36);
 }
 .container p {
   font-family: kl;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
 }
 .container .content {
   display: flex;
@@ -285,9 +286,6 @@
   .container h3 {
     font-size: 2.75rem;
   }
-  .container h4 {
-    font-size: 1rem;
-  }
   .container .logo {
     margin-left: 2.5rem;
   }
@@ -304,6 +302,10 @@
   }
   .container .content .inner-content form .input-wrapper {
     width: 38.5rem;
+  }
+  .container .content .inner-content1 {
+    width: 100%;
+    margin-left: 5rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
@@ -347,9 +349,6 @@
   .container h3 {
     font-size: 2.75rem;
   }
-  .container h4 {
-    font-size: 1.1rem;
-  }
   .container .logo {
     margin-left: 2.5rem;
   }
@@ -368,6 +367,7 @@
     width: 28rem;
   }
   .container .content .inner-content1 img {
+    width: 100%;
     margin-bottom: -10rem;
   }
   .container .inner-content2 {
@@ -419,34 +419,35 @@
   .container h3 {
     font-size: 2.25rem;
   }
-  .container h4 {
-    font-size: 1.1rem;
-  }
   .container .logo {
     margin-left: 1rem;
   }
+  .container .content {
+    flex-direction: column;
+  }
   .container .content .inner-content {
     margin-left: 1rem;
-  }
-  .container .content .inner-content .text h4 {
-    font-size: 0.825rem;
+    margin-top: 1rem;
   }
   .container .content .inner-content .text h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .container .content .inner-content .text p {
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
-    font-size: 1.25rem;
-    width: 90%;
+    width: 70%;
   }
   .container .content .inner-content form .input-wrapper {
     width: 22rem;
   }
+  .container .content .inner-content1 {
+    margin-top: 2.5rem;
+  }
   .container .content .inner-content1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 90%;
-    margin-bottom: -10rem;
-    margin-left: 1rem;
   }
   .container .inner-content2 {
     margin-left: 0;
