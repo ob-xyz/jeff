@@ -6,7 +6,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration
-} from "/build/_shared/chunk-UWAZYJMR.js";
+} from "/build/_shared/chunk-CR4DM7IH.js";
 import {
   __toESM,
   require_jsx_dev_runtime
@@ -232,7 +232,7 @@ function Footer() {
 }
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-HH3VLJ5W.css";
+var global_default = "/build/_assets/global-5JDZ6GTH.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
@@ -315,4 +315,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-3QU5RZ67.js.map
+//# sourceMappingURL=/build/root-TWPWKPZ2.js.map

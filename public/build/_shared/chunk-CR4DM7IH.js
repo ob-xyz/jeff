@@ -4833,7 +4833,7 @@ function useMatches2() {
   });
 }
 var LiveReload = false ? () => null : function LiveReload2({
-  port = Number(8002),
+  port = Number(60536),
   nonce = void 0
 }) {
   let js = String.raw;
@@ -5470,4 +5470,4 @@ use-sync-external-store/cjs/use-sync-external-store-shim.development.js:
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/_shared/chunk-UWAZYJMR.js.map
+//# sourceMappingURL=/build/_shared/chunk-CR4DM7IH.js.map

@@ -31,7 +31,7 @@ export default function Index() {
           <div className="text">
             <h4>Stay ahead of the curve</h4>
             <h1>Scroll Less. Win More.</h1>
-            <p>Subscribe for your daily dose of business news that slaps 🚀</p>
+            <p>Subscribe for your 1-minute daily dose of business news 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -50,12 +50,12 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Stay ahead with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you understand business strategy, technology, and economic trends.</p>
+      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you understand business strategy, technology, and economic trends happening across the world.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. <b>Jeffamazon is the antidote.</b> It's our 1-minute daily newsletter that helps <b>40,000+</b> people scroll less and win more. Sign up for free <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">right here →</a></p></div>
+            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. <b>Jeffamazon is the antidote.</b> It's our 1-minute newsletter that helps <b>40,000+</b> people scroll less and win more. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here →</a></p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
