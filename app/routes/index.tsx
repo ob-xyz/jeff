@@ -65,7 +65,7 @@ export default function Index() {
         <div className="box">
           <img src={sama} />
           <h1>60 seconds or less</h1>
-          <p>Get 60 seconds or less of updates and insights that actually matter, delivered straight to your inbox.</p>
+          <p>Get 60 seconds or less of updates and insights that actually matter, delivered to your email inbox.</p>
         </div>
         <div className="box">
           <img src={jensen} />
