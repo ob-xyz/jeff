@@ -102,7 +102,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 42.25rem;
+  width: 37rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -333,7 +333,7 @@
     padding-bottom: .5rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 42.25rem;
+    width: 37rem;
   }
   .container .content .inner-content1 {
     width: 100%;

@@ -164,7 +164,13 @@ function Index() {
           lineNumber: 58,
           columnNumber: 108
         }, this),
-        " It's our 1-minute daily newsletter that helps wickedly smart people scroll less and win more. Sign up for free ",
+        " It's our 1-minute daily newsletter that helps ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("b", { children: "25,000+" }, void 0, false, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 58,
+          columnNumber: 189
+        }, this),
+        " people scroll less and win more. Sign up for free ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: "right here \u2192" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 58,
@@ -267,4 +273,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-OVBN6YWC.js.map
+//# sourceMappingURL=/build/routes/index-CSWRPMHB.js.map
