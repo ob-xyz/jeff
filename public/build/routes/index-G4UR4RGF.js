@@ -165,7 +165,7 @@ function Index() {
           columnNumber: 108
         }, this),
         " It's our 1-minute daily newsletter that helps ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("b", { children: "25,000+" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("b", { children: "40,000+" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 58,
           columnNumber: 189
@@ -273,4 +273,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-CSWRPMHB.js.map
+//# sourceMappingURL=/build/routes/index-G4UR4RGF.js.map
