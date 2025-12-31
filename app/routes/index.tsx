@@ -31,7 +31,7 @@ export default function Index() {
           <div className="text">
             <h4>Stay ahead of the curve</h4>
             <h1>Scroll Less. Win More.</h1>
-            <p>Subscribe for your daily dose of business news that actually slaps 🚀</p>
+            <p>Subscribe for your daily dose of business news that slaps 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -60,17 +60,17 @@ export default function Index() {
          <div className="box">
           <img src={tobi} />
           <h1>Daily business news</h1>
-          <p>All the strategies and trends you need, without the noise. It's business news that slaps.</p>
+          <p>All the strategies and trends you need, without the noise. It's daily business news that slaps.</p>
         </div>
         <div className="box">
           <img src={sama} />
           <h1>60 seconds or less</h1>
-          <p>Real conversations and insights from around the web, delivered in 60 seconds or less.</p>
+          <p>Get 60 seconds or less of updates and insights that actually matter, delivered straight to your inbox.</p>
         </div>
         <div className="box">
           <img src={jensen} />
           <h1>Asymmetric bets</h1>
-          <p>Enjoy our Sunday deep dives into high-upside ideas that traditional media often gets wrong.</p>
+          <p>Enjoy our Sunday deep dives into high-upside ideas that regular media often gets wrong.</p>
         </div>
       </div>
       <div className="btn">

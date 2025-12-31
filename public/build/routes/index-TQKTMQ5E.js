@@ -58,7 +58,7 @@ function Index() {
             lineNumber: 33,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe for your daily dose of business news that actually slaps \u{1F680}" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe for your daily dose of business news that slaps \u{1F680}" }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 34,
             columnNumber: 13
@@ -192,7 +192,7 @@ function Index() {
           lineNumber: 62,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "All the strategies and trends you need, without the noise. It's business news that slaps." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "All the strategies and trends you need, without the noise. It's daily business news that slaps." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 63,
           columnNumber: 11
@@ -213,7 +213,7 @@ function Index() {
           lineNumber: 67,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Real conversations and insights from around the web, delivered in 60 seconds or less." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get 60 seconds or less of updates and insights that actually matter, delivered straight to your inbox." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 68,
           columnNumber: 11
@@ -234,7 +234,7 @@ function Index() {
           lineNumber: 72,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our Sunday deep dives into high-upside ideas that traditional media often gets wrong." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Enjoy our Sunday deep dives into high-upside ideas that regular media often gets wrong." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 73,
           columnNumber: 11
@@ -267,4 +267,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-CR5FE6IP.js.map
+//# sourceMappingURL=/build/routes/index-TQKTMQ5E.js.map
