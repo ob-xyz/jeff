@@ -325,7 +325,7 @@
     width: 100%;
   }
   .container .inner-content4 {
-    margin: 4rem 2.5rem 0 2.5rem;
+    margin: 8rem 2.5rem 0rem 2.5rem;
     flex-direction: column;
   }
   .container .inner-content4 p {
@@ -344,7 +344,8 @@
     text-align: center;
   }
   .container .btn {
-    margin: 2rem auto;
+    margin: 3rem auto;
+    margin-bottom: 7rem;
   }
 }
 @media (min-width: 660px) and (max-width: 874px) {
@@ -354,24 +355,32 @@
   .container .logo {
     margin-left: 2.5rem;
   }
+  .container .content {
+    flex-direction: column;
+  }
   .container .content .inner-content {
     margin-left: 2.5rem;
   }
   .container .content .inner-content .text h1 {
     font-size: 3.5rem;
-    width: 85%;
+    width: 60%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 28rem;
+    width: 36.5rem;
+  }
+  .container .content .inner-content1 {
+    margin-top: 2.5rem;
   }
   .container .content .inner-content1 img {
-    width: 100%;
-    margin-bottom: -10rem;
-    margin-left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 0;
   }
   .container .inner-content2 {
     padding: 0 2.5rem;
@@ -393,7 +402,7 @@
     width: 100%;
   }
   .container .inner-content4 {
-    margin: 4rem 2.5rem 0 2.5rem;
+    margin: 8rem 2.5rem 2rem 2.5rem;
     flex-direction: column;
   }
   .container .inner-content4 p {
@@ -415,7 +424,8 @@
     padding-top: 1rem;
   }
   .container .btn {
-    margin: 2rem auto;
+    margin: 3rem auto;
+    margin-bottom: 7rem;
   }
 }
 @media (max-width: 659px) {
@@ -455,6 +465,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    margin-bottom: 0;
   }
   .container .inner-content2 {
     margin-left: 0;

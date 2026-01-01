@@ -344,7 +344,7 @@ form {
   }
 }
 .inner-content4 {
-    margin: 4rem 2.5rem 0 2.5rem;
+    margin: 8rem 2.5rem 0rem 2.5rem;
     flex-direction: column;
     p{
         padding-top:.5rem;
@@ -363,8 +363,9 @@ form {
   }
 }
 .btn{
-    margin: 2rem auto;
-}
+    margin: 3rem auto;
+    margin-bottom:7rem;
+  }
 }
 }
 @media (min-width: 660px) and (max-width: 874px) {
@@ -382,7 +383,7 @@ form {
     .text{
       h1{
         font-size:3.5rem;
-        width:85%;
+        width:60%;
       }
       p{
         padding-top:2.5rem;
@@ -391,7 +392,7 @@ form {
     }
 form {
 .input-wrapper {
-  width: 28rem;
+  width: 36.5rem;
   }
     }
   }
@@ -401,7 +402,7 @@ form {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 50%;
     margin-bottom:0;
   }
  }
@@ -426,7 +427,7 @@ form {
   }
 }
 .inner-content4 {
-    margin: 4rem 2.5rem 0 2.5rem;
+    margin: 8rem 2.5rem 2rem 2.5rem;
     flex-direction: column;
     p{
         padding-top:.5rem;
@@ -448,7 +449,8 @@ form {
   }
 }
 .btn{
-    margin: 2rem auto;
+    margin: 3rem auto;
+    margin-bottom:7rem;
 }
 }
 }
