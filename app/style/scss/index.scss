@@ -376,6 +376,7 @@ form {
     margin-left:2.5rem;
   }
 .content{
+  flex-direction: column;
 .inner-content{
         margin-left:2.5rem;
     .text{
@@ -395,10 +396,13 @@ form {
     }
   }
  .inner-content1{
-  img{
-    width: 100%;
-    margin-bottom: -10rem;
-    margin-left:0;
+  margin-top: 2.5rem;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom:0;
   }
  }
 }
@@ -488,6 +492,7 @@ form {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    margin-bottom:0;
   }
 }
 }
