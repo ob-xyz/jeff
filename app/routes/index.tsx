@@ -29,7 +29,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>Stay ahead of the curve</h4>
+            <h4>1-MINUTE DAILY NEWSLETTER</h4>
             <h1>Scroll Less. Do More.</h1>
             <p>Subscribe for your 1-minute daily dose of business news 🚀</p>
           </div>
@@ -48,14 +48,14 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Stay ahead with <span>Jeffamazon</span></h2>
+      <h2>Scroll less. Do more with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers a quick and insightful newsletter that helps you understand business strategy, technology, and economic trends happening right now.</p>
+      <p>Every day Jeffamazon delivers a quick and insightful 1-minute daily newsletter that helps you understand business strategy, technology, and economic trends happening right now.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. <b>Jeffamazon is the antidote.</b> It's our 1-minute newsletter keeping <b>40,000+</b> people ahead of the curve. Sign up for free <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here →</a></p></div>
+            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. <b>Jeffamazon is the antidote.</b> It's our 1-minute daily newsletter that keeps <b>40,000+</b> people informed about the business world. Sign up for free <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here →</a></p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
