@@ -161,7 +161,7 @@ export default function Index() {
       </div>
       <div className="box">
         <h1>5X</h1>
-        <p>More likely to click on a Jeffamazon ad over a social media ad.</p>
+        <p>More likely to click Jeffamazon ads over social media ads.</p>
       </div>
       </div>
     </div>
