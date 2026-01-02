@@ -153,7 +153,7 @@ export default function Index() {
       <div className="grid">
       <div className="box">
         <h1>82%</h1>
-        <p>More likely to enjoy discovering something new</p>
+        <p>More likely to try something new</p>
       </div>
       <div className="box">
         <h1>10X</h1>
