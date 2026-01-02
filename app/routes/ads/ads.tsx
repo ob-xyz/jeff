@@ -157,11 +157,11 @@ export default function Index() {
       </div>
       <div className="box">
         <h1>10X</h1>
-        <p>More engagement per subscriber than the average newsletter, increasing your ad CTR</p>
+        <p>More engagement per subscriber than the average newsletter.</p>
       </div>
       <div className="box">
         <h1>5X</h1>
-        <p>More likely to click on a Jeffamazon ad than a social media ad.</p>
+        <p>More likely to click on a Jeffamazon ad over a social media ad.</p>
       </div>
       </div>
     </div>
