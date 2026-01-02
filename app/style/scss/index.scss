@@ -32,7 +32,7 @@
     h4{
       font-family: kl;
       font-size:1.35rem;
-      color:rgb(198, 4, 36);
+      color:$darkred;
       }
     p{
         font-family:kl;
@@ -68,7 +68,7 @@ form {
 }
 .input-wrapper {
   position: relative;
-  width: 36.5rem;
+  width: 39rem;
 }
 input.email {
   width: 100%;
@@ -243,7 +243,7 @@ p {
   h4{
     padding-bottom:.6rem;
     margin-left:0;
-    color:rgb(198, 4, 36);
+    color:$darkred;
   }
   h3{
     margin-left: 0;
@@ -318,7 +318,7 @@ p {
     }
 form {
 .input-wrapper {
-  width: 36.5rem;
+  width: 39rem;
   }
     }
   }

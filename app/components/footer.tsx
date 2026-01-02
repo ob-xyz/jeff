@@ -32,12 +32,10 @@ export default function Footer() {
     <Link to="/">Home</Link>
     <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe</a>
     <a title="sample issue" href="https://jeffamazon.com/sample-issue"  rel="noopener noreferrer">Sample issue</a>
-    <a title="get in touch" href="mailto:chris@jeffamazon.com"  rel="noopener noreferrer">Get in touch</a>
   </div>
   <div className="column">
     <h4>Business</h4>
-    <Link to="/ads/advertise">Advertise</Link>
-    <Link to="/ads/ad-formats">Ad formats</Link>
+    <Link to="/ads/ads">Advertising</Link>
       <a title="media kit" href="https://jeffamazon.com/media-kit"  rel="noopener noreferrer">Media kit</a>
       <a title="rate card" href="https://jeffamazon.com/rate-card"  rel="noopener noreferrer">Rate card</a>
   </div>

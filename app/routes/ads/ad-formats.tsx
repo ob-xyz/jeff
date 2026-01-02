@@ -91,18 +91,18 @@ export default function Index() {
      <div className="content-awu3">
       <div className="header">
           <h4>NEWEST</h4>
-          <h3>Mini Ads</h3>
+          <h3>News Ads</h3>
       </div>
       <div className="grid">
       <div className="box">
         <img src={quickads} />
-        <h1>Mini Ads</h1>
-        <p>Mini Ads appear in the "Today's News" section, and gives you the chance to promote your product or service.</p>
+        <h1>News Ads</h1>
+        <p>News Ads appear in the "Today's News" section, and gives you the chance to promote your product or service.</p>
       </div>
       <div className="box">
         <img src={recads} />
-        <h1>Mini Content Ads</h1>
-        <p>Mini Content Ads appear in the "Recs" section, making it easy for you to recommend a podcast or video.</p>
+        <h1>News Content Ads</h1>
+        <p>News Content Ads appear in the "Recs" section, making it easy for you to recommend a podcast or video.</p>
       </div>
       </div>
     </div>
