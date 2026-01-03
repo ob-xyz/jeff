@@ -2,9 +2,6 @@ import { useEffect } from "react";
 
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ja3.png";
-import newads from "~/../public/img/newads.jpg";
-import convertads from "~/../public/img/convertads.jpg";
-import takeoverbg from "~/../public/img/takeoverbg.jpg";
 
 import carouselads from "~/../public/img/ads/carouselads.gif";
 import videoads from "~/../public/img/ads/videoads.gif";
