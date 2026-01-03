@@ -99,7 +99,7 @@
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 39rem;
+  width: 36rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
@@ -324,14 +324,14 @@
   }
   .container .content .inner-content .text h1, .container .content .inner-content .text span {
     font-size: 3.5rem;
-    width: 70%;
+    width: 62.5%;
   }
   .container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 39rem;
+    width: 36rem;
   }
   .container .content .inner-content1 {
     width: 100%;
@@ -399,7 +399,7 @@
     padding-bottom: 0.5rem;
   }
   .container .content .inner-content form .input-wrapper {
-    width: 36.5rem;
+    width: 36rem;
   }
   .container .content .inner-content1 {
     margin-top: 2.5rem;

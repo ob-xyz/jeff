@@ -48,7 +48,7 @@ function Index() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "1-MINUTE NEWSLETTER" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "ELEVATE YOUR CONSCIOUSNESS" }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 32,
             columnNumber: 13
@@ -58,7 +58,7 @@ function Index() {
             lineNumber: 33,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe for your 1-minute daily dose of news that matters \u{1F680}" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe for your 1-minute daily dose of what matters \u{1F680}" }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 34,
             columnNumber: 13
@@ -137,7 +137,7 @@ function Index() {
         lineNumber: 51,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day Jeffamazon delivers a quick and insightful 1-minute newsletter that helps you understand business strategy, technology, and economic trends happening across the world." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day Jeffamazon delivers a quick and insightful 1-minute newsletter that helps you stay informed with an elevated perspective about business strategy, technology, and economic trends." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 53,
         columnNumber: 7
@@ -164,17 +164,17 @@ function Index() {
           lineNumber: 58,
           columnNumber: 108
         }, this),
-        " It's our 1-minute daily newsletter that keeps ",
+        " It's our 1-minute daily newsletter keeping ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("b", { children: "40,000+" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 58,
-          columnNumber: 189
+          columnNumber: 186
         }, this),
-        " people informed about the business world. Sign up for free ",
+        " people ahead of the curve. Sign up ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: "here \u2192" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 58,
-          columnNumber: 263
+          columnNumber: 236
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
@@ -273,4 +273,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-AASDZCK3.js.map
+//# sourceMappingURL=/build/routes/index-YZZVJ7JT.js.map
