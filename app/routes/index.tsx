@@ -29,7 +29,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>ELEVATE YOUR CONSCIOUSNESS</h4>
+            <h4>ELEVATE YOUR MIND</h4>
             <h1>Scroll Less. Do More.</h1>
             <p>Subscribe for your 1-minute daily dose of what matters 🚀</p>
           </div>
