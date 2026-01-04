@@ -50,7 +50,7 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Scroll less. Do more with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers a quick and insightful 1-minute newsletter that helps you stay informed with an elevated perspective about business strategy, technology, and economic trends.</p>
+      <p>Every day Jeffamazon delivers a quick and insightful 1-minute newsletter that helps you stay informed and elevate your mind on business strategy, technology, and economic trends.</p>
       </a>
       </div>
       <div className="inner-content4">
