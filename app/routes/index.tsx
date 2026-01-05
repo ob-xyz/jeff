@@ -29,9 +29,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>ELEVATE YOUR MIND</h4>
+            <h4>STAY INFORMED IN JUST 1 MINUTE</h4>
             <h1>Scroll Less. Do More.</h1>
-            <p>Subscribe for your 1-minute daily dose of what matters 🚀</p>
+            <p>Subscribe for your daily dose of what actually matters 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -55,7 +55,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Regular news makes you feel bad and social media just wants you to doom-scroll to infinity. <b>Jeffamazon is the antidote.</b> It's our 1-minute daily newsletter keeping <b>40,000+</b> people ahead of the curve. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here →</a></p></div>
+            <p>Today you need to spend 2 hours or more scrolling just to "stay informed". <b>Jeffamazon is the antidote.</b> It's our 1-minute daily newsletter keeping <b>40,000+</b> people - like me and you - informed. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here →</a></p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
