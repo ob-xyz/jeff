@@ -30,7 +30,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>STAY INFORMED IN JUST 1 MINUTE</h4>
-            <h1>Scroll Less. Do More.</h1>
+            <h1>Scroll Less. Know More.</h1>
             <p>Subscribe for your daily dose of what matters 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -48,9 +48,9 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Scroll less. Do more with <span>Jeffamazon</span></h2>
+      <h2>Scroll less. Know more with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers a quick and insightful 1-minute newsletter that helps you stay informed and elevate your mind on business strategy, technology, and economic trends.</p>
+      <p>Every day Jeffamazon delivers a quick and insightful 1-minute newsletter that helps you elevate your mind across business strategy, technology, and economic trends.</p>
       </a>
       </div>
       <div className="inner-content4">
