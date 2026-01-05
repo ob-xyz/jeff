@@ -55,7 +55,7 @@ export default function Index() {
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Today you need to spend 2 hours or more scrolling just to "stay informed". <b>Jeffamazon is the antidote.</b> It's our 1-minute daily newsletter keeping <b>40,000+</b> people - like me and you - informed. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here →</a></p></div>
+            <p>Today you need to spend 2 hours or more scrolling just to stay informed. <b>Jeffamazon is the antidote.</b> It's our 1-minute daily newsletter keeping <b>40,000+</b> people - like me and you - informed. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here →</a></p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
