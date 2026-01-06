@@ -2,6 +2,7 @@ import { useEffect } from "react";
 
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ja3.png";
+import header2 from "~/../public/img/ja4.png";
 import sama from "~/../public/img/samae.jpg";
 import tobi from "~/../public/img/tobic.jpg";
 import jensen from "~/../public/img/jensene.jpg";
@@ -49,18 +50,18 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Scroll less. Know more with <span>Jeffamazon</span></h2>
+      <h2>Delivered straight to your <span>email</span> inbox</h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Jeffamazon is a quick and insightful 1-minute newsletter that helps you easily stay informed on business strategy, technology, and economic trends happening across the world.</p>
+      <p>Today you need to spend 2 hours scrolling just to stay informed. <span>Jeffamazon is the antidote.</span> It's our 1-minute newsletter keeping <span>32,000+</span> people highly informed about what matters.</p>
       </a>
       </div>
       <div className="floatimg">
-            <img src={header} alt="Jeffamazon newsletter image" />
+            <img src={header2} alt="Jeffamazon newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
       <a title="jeffamazon home page" href="https://jeffamazon.com/"  rel="noopener noreferrer">
-      <p>Daily business newsletter</p>
+      <p>Jeffamazon is a quick and insightful 1-minute newsletter that helps you stay informed on business strategy, technology, and economic trends that matter.</p>
       </a>
       <div className="btn">
         <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
@@ -68,19 +69,32 @@ export default function Index() {
         </a>
       </div>
       </div>
-            <div className="floatimg">
-            <img src={header} alt="Jeffamazon newsletter image" />
+        <div className="floatimg">
+            <img src={tobi} alt="Jeffamazon newsletter image" />
         </div>
-      <div className="inner-content25">
-       <h2><span>The Poast</span></h2>
+      <div className="inner-content25sm">
+       <h2><span>One minute news</span></h2>
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>Weekly local newsletter</p>
+      <p>Get a 1-minute update on what matters, delivered straight to your email inbox.</p>
       </a>
-      <div className="btn">
-        <a title="subscription form" href="https://thepoast.com/"  rel="noopener noreferrer" className="pricebtn">
-            Subscribe for free
-        </a>
       </div>
+      <div className="floatimg">
+          <img src={sama} alt="Jeffamazon newsletter image" />
+      </div>
+      <div className="inner-content25sm">
+       <h2><span>Know what matters</span></h2>
+      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
+      <p>All the strategies and trends you need, without the noise. It's a quick digest of the news.</p>
+      </a>
+      </div>
+      <div className="floatimg">
+          <img src={jensen} alt="Jeffamazon newsletter image" />
+      </div>
+      <div className="inner-content25sm">
+       <h2><span>Asymmetric bets</span></h2>
+      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
+      <p>Enjoy our Sunday deep dives into one asymmetric bet with huge upside.</p>
+      </a>
       </div>
       <div className="inner-content255">
         <div className="side1">
@@ -99,7 +113,7 @@ export default function Index() {
       </div>
       <div className="inner-content2555">
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>" We're building a future of media that empowers individuals to live more.</p>
+      <p>" Jeffamazon is the only thing that helps me scroll less and stay informed.</p>
       </a>
       <div className="tag">
       <p>
@@ -113,42 +127,17 @@ export default function Index() {
        <div className="inner-content3">
       <div className="grid">
       <div className="box">
-        <h1>Build</h1>
-        <p>Want to start & build a newsletter with us?</p>
-        <a title="get in touch" href="mailto:chris@shilll.com"  rel="noopener noreferrer">Get in touch →</a>
+        <h1>Subscribe</h1>
+        <p>Want to know what matters?</p>
+        <a title="get in touch" href="mailto:chris@shilll.com"  rel="noopener noreferrer">Subscribe →</a>
       </div>
       <div className="box">
-        <h1>Grow</h1>
-        <p>Raising funding? We're occasional investors.</p>
+        <h1>Advertise</h1>
+        <p>Want to post? We're looking for new advertisers.</p>
         <a title="get in touch" href="mailto:chris@shilll.com"  rel="noopener noreferrer">Get in touch →</a>
       </div>
       </div>
     </div>
-      <div className="inner-content4">
-            <h3>Delivered straight to your inbox.</h3>
-            <p>Today you need to spend 2 hours scrolling apps to stay informed. <b>Jeffamazon is the antidote.</b> It's our 1-minute newsletter keeping <b>32,000+</b> people highly informed. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here →</a></p></div>
-      <div className="inner-content5">
-         <div className="box">
-          <img src={tobi} />
-          <h1>Quick digest</h1>
-          <p>All the strategies and trends you need, without the noise. It's a quick digest of the news.</p>
-        </div>
-        <div className="box">
-          <img src={sama} />
-          <h1>Know what matters</h1>
-          <p>Get a 1-minute update on what matters, delivered straight to your email inbox.</p>
-        </div>
-        <div className="box">
-          <img src={jensen} />
-          <h1>Asymmetric bets</h1>
-          <p>Enjoy our Sunday deep dives into one asymmetric bet with huge upside.</p>
-        </div>
-      </div>
-      <div className="btn">
-        <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
-            Subscribe for free
-      </a>
-      </div>
 {/* <div className="inner-blog">
     <div className="header">
           <h4>JEFFAMAZON NEWS</h4>
