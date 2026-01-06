@@ -113,7 +113,7 @@ export default function Index() {
       </div>
       <div className="inner-content2555">
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>" Jeffamazon is the only thing that helps me scroll less and stay informed.</p>
+      <p>" It's the one thing that actually lets me know what matters.</p>
       </a>
       <div className="tag">
       <p>
