@@ -5,6 +5,7 @@ import header from "~/../public/img/ja3.png";
 import sama from "~/../public/img/samae.jpg";
 import tobi from "~/../public/img/tobic.jpg";
 import jensen from "~/../public/img/jensene.jpg";
+import cs from "~/../public/img/cs.jpg";
 
 export default function Index() {
     useEffect(() => {
@@ -50,26 +51,96 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Scroll less. Know more with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Jeffamazon delivers a quick and insightful 1-minute newsletter that helps you always stay informed on business strategy, technology, and economic trends.</p>
+      <p>Jeffamazon is a quick and insightful 1-minute newsletter that helps you easily stay informed on business strategy, technology, and economic trends happening across the world.</p>
       </a>
       </div>
+      <div className="floatimg">
+            <img src={header} alt="Jeffamazon newsletter image" />
+        </div>
+      <div className="inner-content25">
+       <h2><span>Jeffamazon</span></h2>
+      <a title="jeffamazon home page" href="https://jeffamazon.com/"  rel="noopener noreferrer">
+      <p>Daily business newsletter</p>
+      </a>
+      <div className="btn">
+        <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
+            Subscribe for free
+        </a>
+      </div>
+      </div>
+            <div className="floatimg">
+            <img src={header} alt="Jeffamazon newsletter image" />
+        </div>
+      <div className="inner-content25">
+       <h2><span>The Poast</span></h2>
+      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
+      <p>Weekly local newsletter</p>
+      </a>
+      <div className="btn">
+        <a title="subscription form" href="https://thepoast.com/"  rel="noopener noreferrer" className="pricebtn">
+            Subscribe for free
+        </a>
+      </div>
+      </div>
+      <div className="inner-content255">
+        <div className="side1">
+       <h2><span>LEADERSHIP</span></h2>
+      <p className="noclick">Founder</p>
+      <p className="noclick">Chris Signore</p>
+      <div className="btn">
+        <a title="subscription form" href="https://thepoast.com/"  rel="noopener noreferrer" className="pricebtn">
+            About
+        </a>
+      </div>
+        </div>
+        <div className="side2">
+          <img src={cs} alt="Founder image" />
+        </div>
+      </div>
+      <div className="inner-content2555">
+      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
+      <p>" We're building a future of media that empowers individuals to live more.</p>
+      </a>
+      <div className="tag">
+      <p>
+        CHRIS SIGNORE
+      </p>
+      <p>
+        Founder
+      </p>
+      </div>
+      </div>
+       <div className="inner-content3">
+      <div className="grid">
+      <div className="box">
+        <h1>Build</h1>
+        <p>Want to start & build a newsletter with us?</p>
+        <a title="get in touch" href="mailto:chris@shilll.com"  rel="noopener noreferrer">Get in touch →</a>
+      </div>
+      <div className="box">
+        <h1>Grow</h1>
+        <p>Raising funding? We're occasional investors.</p>
+        <a title="get in touch" href="mailto:chris@shilll.com"  rel="noopener noreferrer">Get in touch →</a>
+      </div>
+      </div>
+    </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Today you need to spend 2 hours scrolling to stay informed. <b>Jeffamazon is the antidote.</b> It's our 1-minute newsletter keeping <b>32,000+</b> decision-makers always informed. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here →</a></p></div>
+            <p>Today you need to spend 2 hours scrolling apps to stay informed. <b>Jeffamazon is the antidote.</b> It's our 1-minute newsletter keeping <b>32,000+</b> people highly informed. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here →</a></p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
-          <h1>Quick business news</h1>
-          <p>All the strategies and trends you need, without the noise. It's a quick digest of business news.</p>
+          <h1>Quick digest</h1>
+          <p>All the strategies and trends you need, without the noise. It's a quick digest of the news.</p>
         </div>
         <div className="box">
           <img src={sama} />
-          <h1>1-minute or less</h1>
+          <h1>Know what matters</h1>
           <p>Get a 1-minute update on what matters, delivered straight to your email inbox.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Sunday bets</h1>
+          <h1>Asymmetric bets</h1>
           <p>Enjoy our Sunday deep dives into one asymmetric bet with huge upside.</p>
         </div>
       </div>
