@@ -34,7 +34,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 40K+ people in the business world</h1>
+            <h1>Reach 32K+ decision-makers who make decisions</h1>
             <p>We're the 1-minute newsletter helping businesses do more 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -54,7 +54,7 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Connect with your next customers on <span>Jeffamazon</span></h2>
       <a title="email us" href="mailto:chris@jeffamazon.com"  rel="noopener noreferrer">
-      <p>Our audience is authoritative, always on, and enjoys discovering something new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you do more where it matters most - the email inbox.</p>
+      <p>Our audience is authoritative, high-energy, and always looking for something new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach the world's most authorative audience.</p>
       </a>
       </div>
         <div className="floatimg">

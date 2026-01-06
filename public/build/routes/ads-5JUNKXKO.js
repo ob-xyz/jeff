@@ -51,7 +51,7 @@ function Index() {
             lineNumber: 36,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 40K+ people in the business world" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 32K+ decision-makers who make decisions" }, void 0, false, {
             fileName: "app/routes/ads.tsx",
             lineNumber: 37,
             columnNumber: 13
@@ -458,4 +458,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads-VLY5CRFC.js.map
+//# sourceMappingURL=/build/routes/ads-5JUNKXKO.js.map

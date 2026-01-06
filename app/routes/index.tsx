@@ -29,9 +29,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>STAY INFORMED IN JUST 1 MINUTE</h4>
+            <h4>JEFFAMAZON NEWSLETTER</h4>
             <h1>Scroll Less. Know More.</h1>
-            <p>Subscribe for your daily dose of what matters 🚀</p>
+            <p>Subscribe for your 1-minute dose of what matters 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -50,27 +50,27 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Scroll less. Know more with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Every day Jeffamazon delivers a quick and insightful 1-minute newsletter that helps you elevate your mind across business strategy, technology, and economic trends.</p>
+      <p>Jeffamazon delivers a quick and insightful 1-minute newsletter that helps you always stay informed on business strategy, technology, and economic trends.</p>
       </a>
       </div>
       <div className="inner-content4">
             <h3>Delivered straight to your inbox.</h3>
-            <p>Today you need to spend 2 hours scrolling to stay informed. <b>Jeffamazon is the antidote.</b> It's our daily newsletter keeping <b>40,000+</b> people informed in just 1-minute. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here →</a></p></div>
+            <p>Today you need to spend 2 hours scrolling to stay informed. <b>Jeffamazon is the antidote.</b> It's our 1-minute newsletter keeping <b>32,000+</b> decision-makers always informed. Sign up <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">here →</a></p></div>
       <div className="inner-content5">
          <div className="box">
           <img src={tobi} />
-          <h1>Daily business news</h1>
-          <p>All the strategies and trends you need, without the noise. It's daily business news that slaps.</p>
+          <h1>Quick business news</h1>
+          <p>All the strategies and trends you need, without the noise. It's a quick digest of business news.</p>
         </div>
         <div className="box">
           <img src={sama} />
-          <h1>60 seconds or less</h1>
-          <p>Get 60 seconds or less of updates and insights that actually matter, delivered to your email inbox.</p>
+          <h1>1-minute or less</h1>
+          <p>Get a 1-minute update on what matters, delivered straight to your email inbox.</p>
         </div>
         <div className="box">
           <img src={jensen} />
-          <h1>Asymmetric bets</h1>
-          <p>Enjoy our Sunday deep dives into high-upside ideas that regular media often gets wrong.</p>
+          <h1>Sunday bets</h1>
+          <p>Enjoy our Sunday deep dives into one asymmetric bet with huge upside.</p>
         </div>
       </div>
       <div className="btn">
