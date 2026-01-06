@@ -77,9 +77,9 @@ export default function Index() {
           <img src={jensen} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Asymmetric betting</span></h2>
+       <h2><span>Asymmetric upside</span></h2>
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>Enjoy our Sunday deep dives into one asymmetric bet with huge upside.</p>
+      <p>Enjoy our Sunday deep dives into smart bets with asymmetric upside.</p>
       </a>
       </div>
             <div className="floatimg">
