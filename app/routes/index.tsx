@@ -50,18 +50,18 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Be more decisive and make smarter decisions with <span>Jeffamazon</span></h2>
+      <h2>Know what matters with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Today you need to spend 2 hours scrolling just to stay informed so you can make smarter decisions. <span>Jeffamazon is the antidote.</span> It's our 1-minute daily newsletter keeping <span>32,000+ decisive people</span> in the know about what actually matters.</p>
+      <p>Today you need to spend 2 hours scrolling just to stay informed and make smarter decisions. <span>Jeffamazon is the antidote.</span> It's our 1-minute daily newsletter keeping <span>32,000+ decisive people</span> in the know about what actually matters.</p>
       </a>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Be more decisive</span></h2>
+       <h2><span>Be decisive</span></h2>
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>Make smarter decisions. All the strategies and trends you need, without the noise.</p>
+      <p>Become a decisive person who makes smarter decisions.</p>
       </a>
       </div>
       <div className="floatimg">
@@ -70,7 +70,7 @@ export default function Index() {
       <div className="inner-content25sm">
        <h2><span>Stay in the know</span></h2>
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>Get a quick update on what matters, delivered straight to your inbox.</p>
+      <p>Get a quick update about what matters in the business world.</p>
       </a>
       </div>
       <div className="floatimg">
@@ -79,7 +79,7 @@ export default function Index() {
       <div className="inner-content25sm">
        <h2><span>Asymmetric upside</span></h2>
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>Enjoy our Sunday deep dives into smart bets with asymmetric upside.</p>
+      <p>Enjoy our Sunday deep dives into easy bets with asymmetric upside.</p>
       </a>
       </div>
             <div className="floatimg">
@@ -88,7 +88,7 @@ export default function Index() {
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
       <a title="jeffamazon home page" href="https://jeffamazon.com/"  rel="noopener noreferrer">
-      <p>Jeffamazon is a quick and insightful 1-minute daily newsletter that helps you make sense of what matters across business strategy, technology, and economic trends.</p>
+      <p>Jeffamazon is a quick and insightful 1-minute daily newsletter that helps you be decisive and make smarter decisions across business strategy, technology, and economic trends.</p>
       </a>
       <div className="btn">
         <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
