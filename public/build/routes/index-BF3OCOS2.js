@@ -172,17 +172,17 @@ function Index() {
       lineNumber: 52,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: tobic_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: samae_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
       fileName: "app/routes/index.tsx",
       lineNumber: 59,
-      columnNumber: 13
+      columnNumber: 11
     }, this) }, void 0, false, {
       fileName: "app/routes/index.tsx",
       lineNumber: 58,
-      columnNumber: 9
+      columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content25sm", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "One minute news" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Know what matters" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 62,
         columnNumber: 12
@@ -191,7 +191,7 @@ function Index() {
         lineNumber: 62,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "the poast home", href: "https://thepoast.com/", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get a 1-minute update on what matters, delivered straight to your email inbox." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "the poast home", href: "https://thepoast.com/", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "All the strategies and trends you need, without the noise. It's a quick digest of the news." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 64,
         columnNumber: 7
@@ -205,17 +205,17 @@ function Index() {
       lineNumber: 61,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: samae_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: tobic_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
       fileName: "app/routes/index.tsx",
       lineNumber: 68,
-      columnNumber: 11
+      columnNumber: 13
     }, this) }, void 0, false, {
       fileName: "app/routes/index.tsx",
       lineNumber: 67,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content25sm", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Know what matters" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "1-minute or less" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 71,
         columnNumber: 12
@@ -224,7 +224,7 @@ function Index() {
         lineNumber: 71,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "the poast home", href: "https://thepoast.com/", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "All the strategies and trends you need, without the noise. It's a quick digest of the news." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "the poast home", href: "https://thepoast.com/", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get a quick update on what matters, delivered straight to your inbox." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 73,
         columnNumber: 7
@@ -405,7 +405,7 @@ function Index() {
           lineNumber: 131,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "get in touch", href: "mailto:chris@shilll.com", rel: "noopener noreferrer", children: "Subscribe \u2192" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscribe today", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: "Subscribe today \u2192" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 132,
           columnNumber: 9
@@ -426,7 +426,7 @@ function Index() {
           lineNumber: 136,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "get in touch", href: "mailto:chris@shilll.com", rel: "noopener noreferrer", children: "Get in touch \u2192" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "get in touch", href: "mailto:ads@jeffamazon.com", rel: "noopener noreferrer", children: "Get in touch \u2192" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 137,
           columnNumber: 9
@@ -454,4 +454,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-4QR7JYFW.js.map
+//# sourceMappingURL=/build/routes/index-BF3OCOS2.js.map

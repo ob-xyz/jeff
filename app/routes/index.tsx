@@ -55,15 +55,6 @@ export default function Index() {
       <p>Today you need to spend 2 hours scrolling just to stay informed. <span>Jeffamazon is the antidote.</span> It's our 1-minute newsletter keeping <span>32,000+</span> people highly informed about what matters.</p>
       </a>
       </div>
-        <div className="floatimg">
-            <img src={tobi} alt="Jeffamazon newsletter image" />
-        </div>
-      <div className="inner-content25sm">
-       <h2><span>One minute news</span></h2>
-      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>Get a 1-minute update on what matters, delivered straight to your email inbox.</p>
-      </a>
-      </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon newsletter image" />
       </div>
@@ -71,6 +62,15 @@ export default function Index() {
        <h2><span>Know what matters</span></h2>
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
       <p>All the strategies and trends you need, without the noise. It's a quick digest of the news.</p>
+      </a>
+      </div>
+      <div className="floatimg">
+            <img src={tobi} alt="Jeffamazon newsletter image" />
+        </div>
+      <div className="inner-content25sm">
+       <h2><span>1-minute or less</span></h2>
+      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
+      <p>Get a quick update on what matters, delivered straight to your inbox.</p>
       </a>
       </div>
       <div className="floatimg">
@@ -129,12 +129,12 @@ export default function Index() {
       <div className="box">
         <h1>Subscribe</h1>
         <p>Want to know what matters?</p>
-        <a title="get in touch" href="mailto:chris@shilll.com"  rel="noopener noreferrer">Subscribe →</a>
+        <a title="subscribe today" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe today →</a>
       </div>
       <div className="box">
         <h1>Advertise</h1>
         <p>Want to post? We're looking for new advertisers.</p>
-        <a title="get in touch" href="mailto:chris@shilll.com"  rel="noopener noreferrer">Get in touch →</a>
+        <a title="get in touch" href="mailto:ads@jeffamazon.com"  rel="noopener noreferrer">Get in touch →</a>
       </div>
       </div>
     </div>
