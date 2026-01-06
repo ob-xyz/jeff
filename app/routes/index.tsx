@@ -55,20 +55,6 @@ export default function Index() {
       <p>Today you need to spend 2 hours scrolling just to stay informed. <span>Jeffamazon is the antidote.</span> It's our 1-minute newsletter keeping <span>32,000+</span> people highly informed about what matters.</p>
       </a>
       </div>
-      <div className="floatimg">
-            <img src={header2} alt="Jeffamazon newsletter image" />
-        </div>
-      <div className="inner-content25">
-       <h2><span>Jeffamazon</span></h2>
-      <a title="jeffamazon home page" href="https://jeffamazon.com/"  rel="noopener noreferrer">
-      <p>Jeffamazon is a quick and insightful 1-minute newsletter that helps you stay informed on business strategy, technology, and economic trends that matter.</p>
-      </a>
-      <div className="btn">
-        <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
-            Subscribe for free
-        </a>
-      </div>
-      </div>
         <div className="floatimg">
             <img src={tobi} alt="Jeffamazon newsletter image" />
         </div>
@@ -95,6 +81,20 @@ export default function Index() {
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
       <p>Enjoy our Sunday deep dives into one asymmetric bet with huge upside.</p>
       </a>
+      </div>
+            <div className="floatimg">
+            <img src={header2} alt="Jeffamazon newsletter image" />
+        </div>
+      <div className="inner-content25">
+       <h2><span>Jeffamazon</span></h2>
+      <a title="jeffamazon home page" href="https://jeffamazon.com/"  rel="noopener noreferrer">
+      <p>Jeffamazon is a quick and insightful 1-minute newsletter that helps you stay informed on business strategy, technology, and economic trends that matter.</p>
+      </a>
+      <div className="btn">
+        <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
+            Subscribe for free
+        </a>
+      </div>
       </div>
       <div className="inner-content255">
         <div className="side1">
