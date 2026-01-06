@@ -50,7 +50,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Become a more decisive person in just <span>one minute</span></h2>
+      <h2>Be more decisive and make smarter decisions with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
       <p>Today you need to spend 2 hours scrolling just to stay informed so you can make smarter decisions. <span>Jeffamazon is the antidote.</span> It's our 1-minute daily newsletter keeping <span>32,000+ decisive people</span> in the know about what actually matters.</p>
       </a>
@@ -77,7 +77,7 @@ export default function Index() {
           <img src={jensen} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Get asymmetric bets</span></h2>
+       <h2><span>Asymmetric betting</span></h2>
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
       <p>Enjoy our Sunday deep dives into one asymmetric bet with huge upside.</p>
       </a>

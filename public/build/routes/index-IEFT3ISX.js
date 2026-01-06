@@ -132,11 +132,11 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
-        "Become a more decisive person in just ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "one minute" }, void 0, false, {
+        "Be more decisive and make smarter decisions with ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 53,
-          columnNumber: 49
+          columnNumber: 60
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
@@ -247,7 +247,7 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content25sm", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Get asymmetric bets" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Asymmetric betting" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 80,
         columnNumber: 12
@@ -453,4 +453,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-XINRAERX.js.map
+//# sourceMappingURL=/build/routes/index-IEFT3ISX.js.map
