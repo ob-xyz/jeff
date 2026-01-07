@@ -31,9 +31,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>JEFFAMAZON DAILY NEWSLETTER</h4>
+            <h4>JEFFAMAZON 1-MINUTE NEWSLETTER</h4>
             <h1>Scroll Less. Know More.</h1>
-            <p>Start your day with a 1-minute dose of what matters 🚀</p>
+            <p>Start your day with a daily dose of what matters 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
