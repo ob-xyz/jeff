@@ -91,7 +91,7 @@ export default function Index() {
       <div className="box">
         <h1>Subscribe</h1>
         <p>Want to know what matters?</p>
-        <a title="subscribe today" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe today →</a>
+        <a title="subscribe today" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe →</a>
       </div>
       <div className="box">
         <h1>Advertise</h1>

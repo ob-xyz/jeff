@@ -244,7 +244,7 @@ function Index() {
           lineNumber: 93,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscribe today", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: "Subscribe today \u2192" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscribe today", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: "Subscribe \u2192" }, void 0, false, {
           fileName: "app/routes/about.tsx",
           lineNumber: 94,
           columnNumber: 9
@@ -293,4 +293,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-OPAMKFCB.js.map
+//# sourceMappingURL=/build/routes/about-YWWJEJCN.js.map
