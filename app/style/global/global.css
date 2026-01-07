@@ -736,6 +736,9 @@
     padding-top: 1rem;
     font-size: 1.75rem;
   }
+  .container .inner-content25 .btn .pricebtn {
+    font-size: 1rem;
+  }
   .container .inner-content255 {
     flex-direction: column-reverse;
     margin-top: 7rem;
@@ -750,6 +753,9 @@
   }
   .container .inner-content255 .side1 .btn {
     margin-bottom: 2rem;
+  }
+  .container .inner-content255 .side1 .btn a {
+    font-size: 1rem;
   }
   .container .inner-content255 img {
     border-radius: 2rem;
@@ -777,8 +783,9 @@
     padding: 0 2rem;
   }
   .container .inner-content3 .grid {
-    margin: 1.25rem;
     grid-template-columns: repeat(1, 1fr);
+    margin-left: 0;
+    margin-right: 0;
   }
   .container .inner-content3 .grid .box h1 {
     font-size: 2.25rem;
