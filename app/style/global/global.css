@@ -141,8 +141,8 @@
 }
 .container .inner-content2 {
   background: #02090A;
-  border-top-left-radius: 3rem;
-  border-top-right-radius: 3rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
   padding: 0 5rem;
 }
 .container .inner-content2 h2, .container .inner-content2 h2 span {
@@ -200,8 +200,7 @@
 .container .inner-content255,
 .container .inner-content2555 {
   background: #02090A;
-  border-top-left-radius: 3rem;
-  border-top-right-radius: 3rem;
+  border-radius: 2rem;
   padding: 0 5rem;
   margin-left: 5rem;
   margin-right: 5rem;
@@ -287,7 +286,7 @@
 .container .inner-content25sm {
   margin-left: 5rem;
   margin-right: 5rem;
-  border-radius: 3rem;
+  border-radius: 2rem;
   width: auto;
 }
 .container .inner-content255 {
@@ -591,7 +590,7 @@
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size: 2rem;
+    font-size: 2.25rem;
     width: 100%;
   }
   .container .inner-content2 p span {
@@ -703,10 +702,10 @@
   }
   .container .inner-content2 h2, .container .inner-content2 h2 span {
     padding-top: 3.5rem;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
   .container .inner-content2 h2 span {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .container .inner-content2 p {
     margin-bottom: 3.5rem;
@@ -715,7 +714,7 @@
     width: 100%;
   }
   .container .inner-content2 p span {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .container .floatimg img {
     width: 65%;
@@ -730,7 +729,7 @@
   .container .inner-content25sm h2,
   .container .inner-content25sm h2 span {
     padding-top: 2.25rem;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
   .container .inner-content25 p,
   .container .inner-content25sm p {
@@ -789,133 +788,86 @@
     font-size: 1.75rem;
   }
 }
-.content-aboutus {
+.container-about {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
-.content-aboutus b {
+.container-about b {
   font-family: "bold";
 }
-.content-aboutus .logo {
+.container-about .logo {
   background: none;
-  margin: 1.25rem 0 0 0;
+  margin: 1.25rem 0 1.25rem 5rem;
   width: 3.5rem;
 }
-.content-aboutus .logo img {
+.container-about .logo img {
   border-radius: 10rem;
 }
-.content-aboutus h1, .content-aboutus h2, .content-aboutus h3, .content-aboutus span {
+.container-about h1, .container-about h2, .container-about h3, .container-about span {
   font-style: normal;
   text-align: left;
   font-family: ku;
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
-.content-aboutus h2, .content-aboutus span {
-  font-size: 3.75rem;
+.container-about h2 {
+  font-size: 4.5rem;
   font-family: kl;
 }
-.content-aboutus h2 span {
+.container-about h2 span {
+  font-size: 4.5rem;
   font-family: ku;
 }
-.content-aboutus h3 {
+.container-about h3 {
   font-size: 2.75rem;
 }
-.content-aboutus h4 {
+.container-about h4 {
   font-family: kl;
-  font-size: 1.4rem;
-}
-.content-aboutus p {
-  font-family: kl;
-  font-size: 1.2rem;
-}
-.content-aboutus .content-aboutus2 {
-  margin-top: 2.5rem;
-  background: #02090A;
-  border-top-left-radius: 3rem;
-  border-top-right-radius: 3rem;
-  padding: 0 5rem;
-}
-.content-aboutus .content-aboutus2 h2, .content-aboutus .content-aboutus2 span {
-  padding-top: 6rem;
-  margin-left: 0;
-  color: #fff;
-}
-.content-aboutus .content-aboutus2 span {
-  font-size: 3.75rem;
-  font-family: ku;
-}
-.content-aboutus .content-aboutus2 p {
-  padding-top: 1.5rem;
-  font-size: 3rem;
-  margin-left: 0;
-  margin-bottom: 5rem;
-  color: #cfcfcf;
-}
-.content-aboutus .content-aboutus3 {
-  margin: 9rem 5rem 3rem 5rem;
-}
-.content-aboutus .content-aboutus3 .header {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 3rem;
-}
-.content-aboutus .content-aboutus3 .header h4 {
-  padding-bottom: 0.6rem;
-  margin-left: 0;
+  font-size: 1.35rem;
   color: rgb(198, 4, 36);
 }
-.content-aboutus .content-aboutus3 .header h3 {
+.container-about p {
+  font-family: kl;
+  font-size: 1.35rem;
+}
+.container-about .content {
+  display: flex;
+  flex-direction: row;
   margin-left: 0;
 }
-.content-aboutus .content-aboutus3 .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-}
-.content-aboutus .content-aboutus3 .grid .box {
+.container-about .content .inner-content {
   display: flex;
   flex-direction: column;
-  background: transparent;
+  margin-left: 5rem;
+  margin-top: 2.5rem;
+}
+.container-about .content .inner-content .text h1 {
+  margin-left: 0;
+  width: 95%;
+  font-size: 2.5rem;
+}
+.container-about .content .inner-content .text p {
   text-align: left;
-  height: 100%;
-  background: #000;
-  padding: 1rem 1rem 1.5rem 1rem;
-  border-radius: 0.5rem;
+  padding: 2rem 0rem 0.5rem 0;
+  margin-left: 0;
+  width: 95%;
 }
-.content-aboutus .content-aboutus3 .grid .box img {
-  border-radius: 0.5rem;
-  width: 100%;
-  height: auto;
+.container-about .content .inner-content .text p span {
+  font-size: 1.5rem;
 }
-.content-aboutus .content-aboutus3 .grid .box h1 {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-bottom: 0.75rem;
-  margin: 0;
-  font-family: bold;
-  color: #fff;
-}
-.content-aboutus .content-aboutus3 .grid .box p {
-  color: #cfcfcf;
-  margin: 0;
-  flex-grow: 1;
-}
-.content-aboutus .content-aboutus3 .grid .box form {
+.container-about .content .inner-content form {
   display: flex;
   flex-direction: column;
   margin-left: 0;
-  margin-top: 1.25rem;
 }
-.content-aboutus .content-aboutus3 .grid .box form .h-captcha {
+.container-about .content .inner-content form .h-captcha {
   margin: 0;
   padding-top: 0.25rem;
 }
-.content-aboutus .content-aboutus3 .grid .box form .input-wrapper {
+.container-about .content .inner-content form .input-wrapper {
   position: relative;
-  width: 29.75rem;
+  width: 34rem;
 }
-.content-aboutus .content-aboutus3 .grid .box form input.email {
+.container-about .content .inner-content form input.email {
   width: 100%;
   padding: 0.85rem 6rem 0.85rem 0.75rem;
   font-family: Arial, sans-serif;
@@ -925,13 +877,13 @@
   font-size: 1.1rem;
   box-sizing: border-box;
 }
-.content-aboutus .content-aboutus3 .grid .box form input.email:focus {
+.container-about .content .inner-content form input.email:focus {
   outline: none;
   box-shadow: 0 0 1px 1px #02090A;
   border-color: #02090A;
   caret-color: #02090A;
 }
-.content-aboutus .content-aboutus3 .grid .box form button.submit {
+.container-about .content .inner-content form button.submit {
   position: absolute;
   top: 2px;
   right: 2px;
@@ -944,15 +896,126 @@
   border-radius: 0 0.2rem 0.2rem 0;
   font-size: 1rem;
 }
-.content-aboutus .content-aboutus3 .grid .box form button.submit:hover {
+.container-about .content .inner-content form button.submit:hover {
   background-color: #F5F5F5;
   cursor: pointer;
 }
-.content-aboutus .content-aboutus3 .grid .box .pricebtn {
-  margin-top: 1.25rem;
+.container-about .content .inner-content1 img {
+  margin: -10rem 35rem 0 0rem;
+  width: 100%;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.container-about .inner-content2 {
+  background: #02090A;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  padding: 0 5rem;
+}
+.container-about .inner-content2 h2, .container-about .inner-content2 h2 span {
+  padding-top: 6rem;
+  margin-left: 0;
+  color: #fafafa;
+}
+.container-about .inner-content2 h2 span {
+  font-size: 4.5rem;
+}
+.container-about .inner-content2 p {
+  width: 95%;
+  padding-top: 1.5rem;
+  font-size: 3rem;
+  margin-left: 0;
+  color: #7a7a7a;
+  background: #7a7a7a;
+  transition: all 0.5s ease-in-out;
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.container-about .inner-content2 p:hover {
+  background-size: 100% 100%;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 1.5s linear infinite;
+}
+.container-about .inner-content2 p:nth-last-child(1) {
+  margin-bottom: 5rem;
+}
+.container-about .inner-content2 p span {
+  font-size: 3.5rem;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+.container-about .floatimg {
+  margin-top: 8rem;
+}
+.container-about .floatimg img {
+  margin: 0 auto;
+  width: 55%;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+.container-about .inner-content25,
+.container-about .inner-content2555 {
+  background: #02090A;
+  border-radius: 2rem;
+  padding: 0 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: auto;
+  text-align: center;
+}
+.container-about .inner-content25 h2, .container-about .inner-content25 h2 span,
+.container-about .inner-content2555 h2,
+.container-about .inner-content2555 h2 span {
+  text-align: center;
+  padding-top: 3.5rem;
+  margin: 0 auto;
+  color: #fafafa;
+}
+.container-about .inner-content25 p,
+.container-about .inner-content2555 p {
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 3rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  color: #7a7a7a;
+  background: #7a7a7a;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(90deg, #ff6600, #ff0044);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.container-about .inner-content25 p:hover,
+.container-about .inner-content2555 p:hover {
+  background-size: 100% 100%;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 1.5s linear infinite;
+}
+.container-about .inner-content25 .btn,
+.container-about .inner-content2555 .btn {
+  display: flex;
+  margin: 0 auto 6rem auto;
+}
+.container-about .inner-content25 .btn .pricebtn,
+.container-about .inner-content2555 .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  border: 0.15rem solid #fafafa;
+  border: 0.2rem solid #fafafa;
   color: #fafafa;
   text-decoration: none;
   font-size: 1.2rem;
@@ -960,112 +1023,363 @@
   cursor: pointer;
   font-family: bold;
 }
-.content-aboutus .content-aboutus3 .grid .box .pricebtn:hover {
-  background-color: #1f1f1f;
-  color: #fff;
+.container-about .inner-content25 .btn .pricebtn:hover,
+.container-about .inner-content2555 .btn .pricebtn:hover {
+  background-color: #3a3a3a;
+  color: #fafafa;
 }
-
-@media (min-width: 1101px) and (max-width: 1224px) {
-  .content-aboutus1 .content-aboutus2 h2, .content-aboutus1 .content-aboutus2 span {
-    font-size: 4rem;
+@keyframes shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 200% 0;
   }
 }
-@media (min-width: 875px) and (max-width: 1100px) {
-  .content-aboutus .content-aboutus2 h2, .content-aboutus .content-aboutus2 span {
+.container-about .inner-content2555 {
+  margin-top: 14rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 2rem;
+  padding: 8rem 8rem;
+  width: auto;
+}
+.container-about .inner-content2555 p {
+  text-align: left;
+  font-family: ku;
+  background-color: #fafafa;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.container-about .inner-content2555 .tag {
+  padding-top: 2rem;
+}
+.container-about .inner-content2555 .tag p {
+  text-align: left;
+  font-size: 1.25rem;
+  padding: 0;
+  margin-bottom: 0;
+  background-image: none;
+  user-select: none;
+  pointer-events: none;
+  font-family: bold;
+}
+.container-about .inner-content2555 .tag p:nth-child(2) {
+  font-family: ku;
+  padding-top: 0.5rem;
+  background-color: #7a7a7a;
+}
+.container-about .inner-content3 {
+  margin: 14rem auto 0 auto;
+}
+.container-about .inner-content3 .grid {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: auto;
+}
+.container-about .inner-content3 .grid .box {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  padding: 2rem 1rem 2rem 1rem;
+  border-radius: 2rem;
+}
+.container-about .inner-content3 .grid .box h1 {
+  padding-top: 1rem;
+  padding-bottom: 0.75rem;
+  font-family: ku;
+  color: #7a7a7a;
+  text-align: center;
+}
+.container-about .inner-content3 .grid .box p, .container-about .inner-content3 .grid .box a {
+  color: #fafafa;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 2.5rem;
+  width: 100%;
+}
+.container-about .inner-content3 .grid .box a {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #a0a0a0;
+  background: #a0a0a0;
+  transition: all 0.2s ease-in-out;
+  background-image: linear-gradient(90deg, #ff8738, #ff0044);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.container-about .inner-content3 .grid .box a:hover {
+  background-size: 100% 100%;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 1.5s linear infinite;
+}
+@keyframes shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@media (min-width: 875px) and (max-width: 1264px) {
+  .container-about h3 {
+    font-size: 2.75rem;
+  }
+  .container-about .logo {
+    margin-left: 2.5rem;
+  }
+  .container-about .content .inner-content {
+    margin-left: 2.5rem;
+  }
+  .container-about .content .inner-content .text h1, .container-about .content .inner-content .text span {
     font-size: 3.5rem;
+    width: 75%;
+  }
+  .container-about .content .inner-content .text p {
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .container-about .content .inner-content form .input-wrapper {
+    width: 34rem;
+  }
+  .container-about .content .inner-content1 {
+    width: 100%;
+    margin-left: 2.5rem;
+    margin-bottom: -1.5rem;
+  }
+  .container-about .inner-content2 {
+    margin: 0 auto;
+    padding: 0 2.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+  }
+  .container-about .inner-content2 h2, .container-about .inner-content2 h2 span {
+    padding-top: 3.5rem;
+    font-size: 3.5rem;
+  }
+  .container-about .inner-content2 h2 span {
+    font-size: 4rem;
+  }
+  .container-about .inner-content2 p {
+    margin-bottom: 3.5rem;
+    padding-top: 1rem;
+    width: 100%;
+  }
+  .container-about .floatimg img {
+    width: 65%;
   }
 }
 @media (min-width: 660px) and (max-width: 874px) {
-  .content-aboutus h3 {
-    font-size: 2.25rem;
+  .container-about h3 {
+    font-size: 2.75rem;
   }
-  .content-aboutus h4 {
-    font-size: 1rem;
+  .container-about .logo {
+    margin-left: 2.5rem;
   }
-  .content-aboutus .logo {
-    margin-left: 1rem;
+  .container-about .content {
+    flex-direction: column;
   }
-  .content-aboutus .content-aboutus2 {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0 2rem;
+  .container-about .content .inner-content {
+    margin-left: 2.5rem;
+  }
+  .container-about .content .inner-content .text h1 {
+    font-size: 3.5rem;
+    width: 60%;
+  }
+  .container-about .content .inner-content .text p {
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .container-about .content .inner-content form .input-wrapper {
+    width: 34rem;
+  }
+  .container-about .content .inner-content1 {
+    margin-top: 2.5rem;
+  }
+  .container-about .content .inner-content1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 0;
+  }
+  .container-about .inner-content2 {
+    padding: 0 2.5rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .content-aboutus .content-aboutus2 h2 {
+  .container-about .inner-content2 h2 {
     padding-top: 3.5rem;
-    font-size: 1.75rem;
+    font-size: 3rem;
     width: 100%;
   }
-  .content-aboutus .content-aboutus2 span {
-    font-size: 1.75rem;
+  .container-about .inner-content2 h2 span {
+    font-size: 3.5rem;
   }
-  .content-aboutus .content-aboutus2 p {
+  .container-about .inner-content2 p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 100%;
   }
-  .content-aboutus .content-aboutus3 {
-    margin: 7rem 1rem 0 1rem;
+  .container-about .inner-content2 p span {
+    font-size: 2.5rem;
   }
-  .content-aboutus .content-aboutus3 .header {
-    margin-bottom: 1.5rem;
-    flex-direction: column;
+  .container-about .floatimg img {
+    width: 65%;
   }
-  .content-aboutus .content-aboutus3 .header h4 {
-    padding-bottom: 0.25rem;
+  .container-about .inner-content25 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
-  .content-aboutus .content-aboutus3 .grid {
+  .container-about .inner-content2555 {
+    margin-top: 14rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 4rem 2rem;
+  }
+  .container-about .inner-content2555 p {
+    font-size: 2rem;
+  }
+  .container-about .inner-content2555 .tag p {
+    font-size: 1rem;
+  }
+  .container-about .inner-content2555 .tag p:nth-child(2) {
+    padding-top: 0.35rem;
+  }
+  .container-about .inner-content3 {
+    margin-top: 12rem;
+    margin-bottom: 8rem;
+  }
+  .container-about .inner-content3 .grid {
+    margin: 1.25rem;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .container-about .inner-content3 .grid .box p {
+    width: 92.5%;
   }
 }
 @media (max-width: 659px) {
-  .content-aboutus h3 {
+  .container-about h3 {
     font-size: 2.25rem;
   }
-  .content-aboutus h4 {
-    font-size: 1rem;
+  .container-about h4 {
+    font-size: 1.15rem;
   }
-  .content-aboutus .logo {
+  .container-about .logo {
     margin-left: 1rem;
   }
-  .content-aboutus .content-aboutus2 {
+  .container-about .content {
+    flex-direction: column;
+  }
+  .container-about .content .inner-content {
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .container-about .content .inner-content .text h1 {
+    font-size: 3rem;
+    width: 90%;
+  }
+  .container-about .content .inner-content .text p {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    width: 87.5%;
+  }
+  .container-about .content .inner-content form .input-wrapper {
+    width: 22rem;
+  }
+  .container-about .content .inner-content1 {
+    margin-top: 2.5rem;
+  }
+  .container-about .content .inner-content1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 0;
+  }
+  .container-about .inner-content2 {
     margin-left: 0;
     margin-right: 0;
     padding: 0 2rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .content-aboutus .content-aboutus2 h2 {
+  .container-about .inner-content2 h2, .container-about .inner-content2 h2 span {
     padding-top: 3.5rem;
-    font-size: 1.75rem;
-    width: 100%;
+    font-size: 2.5rem;
   }
-  .content-aboutus .content-aboutus2 span {
-    font-size: 1.75rem;
+  .container-about .inner-content2 h2 span {
+    font-size: 3rem;
   }
-  .content-aboutus .content-aboutus2 p {
+  .container-about .inner-content2 p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 1.5rem;
     width: 100%;
   }
-  .content-aboutus .content-aboutus3 {
-    margin: 7rem 1rem 0 1rem;
+  .container-about .inner-content2 p span {
+    font-size: 2rem;
   }
-  .content-aboutus .content-aboutus3 .header {
-    margin-bottom: 1.5rem;
-    flex-direction: column;
+  .container-about .floatimg img {
+    width: 65%;
   }
-  .content-aboutus .content-aboutus3 .header h4 {
-    padding-bottom: 0.25rem;
+  .container-about .inner-content25 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0 2rem;
   }
-  .content-aboutus .content-aboutus3 .grid {
+  .container-about .inner-content25 h2, .container-about .inner-content25 h2 span {
+    padding-top: 2.25rem;
+    font-size: 2.5rem;
+  }
+  .container-about .inner-content25 p {
+    padding-top: 1rem;
+    font-size: 1.75rem;
+  }
+  .container-about .inner-content2555 {
+    margin-top: 7rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 4rem 2rem;
+  }
+  .container-about .inner-content2555 p {
+    font-size: 2rem;
+  }
+  .container-about .inner-content2555 .tag p {
+    font-size: 1rem;
+  }
+  .container-about .inner-content2555 .tag p:nth-child(2) {
+    padding-top: 0.35rem;
+  }
+  .container-about .inner-content3 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding: 0 2rem;
+  }
+  .container-about .inner-content3 .grid {
+    margin: 1.25rem;
     grid-template-columns: repeat(1, 1fr);
   }
-  .content-aboutus .content-aboutus3 .grid .box form .input-wrapper {
-    width: 20.25rem;
+  .container-about .inner-content3 .grid .box h1 {
+    font-size: 2.25rem;
+  }
+  .container-about .inner-content3 .grid .box p {
+    width: 92.5%;
+    font-size: 1.75rem;
   }
 }
 .content-awu {
