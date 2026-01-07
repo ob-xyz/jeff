@@ -64,7 +64,7 @@ function Index() {
             lineNumber: 35,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Subscribe for your 1-minute dose of what matters \u{1F680}" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Start your day with a 1-minute dose of what matters \u{1F680}" }, void 0, false, {
             fileName: "app/routes/index.tsx",
             lineNumber: 36,
             columnNumber: 13
@@ -453,4 +453,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-4KO5UBVQ.js.map
+//# sourceMappingURL=/build/routes/index-OFEQDBDU.js.map
