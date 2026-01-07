@@ -717,7 +717,7 @@
     font-size: 2rem;
   }
   .container .floatimg {
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
   .container .floatimg img {
     width: 74%;
@@ -1977,7 +1977,7 @@
   font-family: kl;
 }
 .ads-container h2 span {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-family: ku;
 }
 .ads-container h3 {
@@ -1996,7 +1996,6 @@
   display: flex;
   flex-direction: row;
   margin-left: 0;
-  margin-bottom: 0rem;
 }
 .ads-container .content .inner-content {
   display: flex;
@@ -2006,7 +2005,7 @@
 }
 .ads-container .content .inner-content .text h1 {
   margin-left: 0;
-  width: 100%;
+  width: 90%;
 }
 .ads-container .content .inner-content .text p {
   text-align: left;
@@ -2024,7 +2023,7 @@
 }
 .ads-container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 36.25rem;
+  width: 37.25rem;
 }
 .ads-container .content .inner-content form input.email {
   width: 100%;
@@ -2060,30 +2059,33 @@
   cursor: pointer;
 }
 .ads-container .content .inner-content1 img {
-  margin-left: 0rem;
-  margin-bottom: -4.25rem;
-  width: 90%;
+  margin-left: -4.5rem;
+  margin-bottom: -16rem;
+  width: 100%;
 }
 .ads-container .inner-content2 {
   background: #02090A;
-  border-top-left-radius: 3rem;
-  border-top-right-radius: 3rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
   padding: 0 5rem;
 }
 .ads-container .inner-content2 h2, .ads-container .inner-content2 h2 span {
-  padding-top: 3.5rem;
+  padding-top: 6rem;
   margin-left: 0;
   color: #fafafa;
 }
+.ads-container .inner-content2 h2 span {
+  font-size: 4.5rem;
+}
 .ads-container .inner-content2 p {
-  width: 100%;
+  width: 95%;
   padding-top: 1.5rem;
   font-size: 3rem;
   margin-left: 0;
   margin-bottom: 5rem;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -2096,6 +2098,9 @@
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
+}
+.ads-container .inner-content2 p span {
+  font-size: 3.5rem;
 }
 @keyframes shimmer {
   0% {
@@ -2111,26 +2116,42 @@
 .ads-container .floatimg img {
   margin: 0 auto;
   width: 55%;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
 }
-.ads-container .inner-content25 {
+.ads-container .inner-content25,
+.ads-container .inner-content25sm,
+.ads-container .inner-content255,
+.ads-container .inner-content2555 {
   background: #02090A;
-  border-top-left-radius: 3rem;
-  border-top-right-radius: 3rem;
+  border-radius: 2rem;
   padding: 0 5rem;
-  width: 100%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: auto;
   text-align: center;
 }
-.ads-container .inner-content25 h2, .ads-container .inner-content25 h2 span {
+.ads-container .inner-content25 h2, .ads-container .inner-content25 h2 span,
+.ads-container .inner-content25sm h2,
+.ads-container .inner-content25sm h2 span,
+.ads-container .inner-content255 h2,
+.ads-container .inner-content255 h2 span,
+.ads-container .inner-content2555 h2,
+.ads-container .inner-content2555 h2 span {
   text-align: center;
   padding-top: 3.5rem;
-  margin-left: 0;
+  margin: 0 auto;
   color: #fafafa;
 }
-.ads-container .inner-content25 p {
+.ads-container .inner-content25 p,
+.ads-container .inner-content25sm p,
+.ads-container .inner-content255 p,
+.ads-container .inner-content2555 p {
   text-align: center;
   padding-top: 1.5rem;
   font-size: 3rem;
   margin: 0 auto;
+  margin-bottom: 4rem;
   color: #7a7a7a;
   background: #7a7a7a;
   transition: all 0.4s ease-in-out;
@@ -2142,16 +2163,25 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.ads-container .inner-content25 p:hover {
+.ads-container .inner-content25 p:hover,
+.ads-container .inner-content25sm p:hover,
+.ads-container .inner-content255 p:hover,
+.ads-container .inner-content2555 p:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
-.ads-container .inner-content25 .btn {
+.ads-container .inner-content25 .btn,
+.ads-container .inner-content25sm .btn,
+.ads-container .inner-content255 .btn,
+.ads-container .inner-content2555 .btn {
   display: flex;
-  margin: 2rem auto 6rem auto;
+  margin: 0 auto 6rem auto;
 }
-.ads-container .inner-content25 .btn .pricebtn {
+.ads-container .inner-content25 .btn .pricebtn,
+.ads-container .inner-content25sm .btn .pricebtn,
+.ads-container .inner-content255 .btn .pricebtn,
+.ads-container .inner-content2555 .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
   border: 0.2rem solid #fafafa;
@@ -2162,7 +2192,10 @@
   cursor: pointer;
   font-family: bold;
 }
-.ads-container .inner-content25 .btn .pricebtn:hover {
+.ads-container .inner-content25 .btn .pricebtn:hover,
+.ads-container .inner-content25sm .btn .pricebtn:hover,
+.ads-container .inner-content255 .btn .pricebtn:hover,
+.ads-container .inner-content2555 .btn .pricebtn:hover {
   background-color: #3a3a3a;
   color: #fafafa;
 }
@@ -2174,50 +2207,156 @@
     background-position: 200% 0;
   }
 }
-.ads-container .inner-content3 {
-  margin: 14rem auto 0 auto;
-  width: 100%;
-}
-.ads-container .inner-content3 .text {
+.ads-container .inner-content25sm {
   margin-left: 5rem;
   margin-right: 5rem;
-  margin-bottom: 6rem;
+  border-radius: 2rem;
+  width: auto;
 }
-.ads-container .inner-content3 .text p {
-  margin-top: 0.65rem;
-  font-size: 1rem;
+.ads-container .inner-content255 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 14rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 2rem;
+  padding: 0;
+  width: auto;
 }
-.ads-container .inner-content3 .grid {
+.ads-container .inner-content255 .side1 {
+  padding: 0 0 0 2rem;
+  width: 100%;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ads-container .inner-content255 .side1 h2, .ads-container .inner-content255 .side1 h2 span {
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.ads-container .inner-content255 .side1 p {
+  text-align: left;
+  padding: 0;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.ads-container .inner-content255 .side1 .btn {
+  margin: 0;
+  margin-top: 2rem;
+}
+.ads-container .inner-content255 .side1 .btn .pricebtn {
+  margin: 0;
+}
+.ads-container .inner-content255 img {
+  width: 100%;
+  border-radius: 2rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.ads-container .inner-content255 .noclick {
+  user-select: none;
+  pointer-events: none;
+}
+.ads-container .inner-content2555 {
+  margin-top: 14rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 2rem;
+  padding: 8rem 8rem;
+  width: auto;
+}
+.ads-container .inner-content2555 p {
+  text-align: left;
+  font-family: ku;
+  background-color: #fafafa;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.ads-container .inner-content2555 .tag {
+  padding-top: 2rem;
+}
+.ads-container .inner-content2555 .tag p {
+  text-align: left;
+  font-size: 1.25rem;
+  padding: 0;
+  margin-bottom: 0;
+  background-image: none;
+  user-select: none;
+  pointer-events: none;
+  font-family: bold;
+}
+.ads-container .inner-content2555 .tag p:nth-child(2) {
+  font-family: ku;
+  padding-top: 0.5rem;
+  background-color: #7a7a7a;
+}
+.ads-container .inner-content3,
+.ads-container .inner-content3sm {
+  margin: 14rem auto 0 auto;
+}
+.ads-container .inner-content3 .grid,
+.ads-container .inner-content3sm .grid {
   margin-left: 5rem;
   margin-right: 5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  width: auto;
 }
-.ads-container .inner-content3 .grid .box {
+.ads-container .inner-content3 .grid .box,
+.ads-container .inner-content3sm .grid .box {
   display: flex;
   flex-direction: column;
   background: transparent;
   text-align: left;
-  width: 100%;
   height: 100%;
+  width: 100%;
   background: #000;
   padding: 2rem 1rem 2rem 1rem;
   border-radius: 2rem;
 }
-.ads-container .inner-content3 .grid .box h1 {
+.ads-container .inner-content3 .grid .box h1,
+.ads-container .inner-content3sm .grid .box h1 {
   padding-top: 1rem;
   padding-bottom: 0.75rem;
   font-family: ku;
   color: #fafafa;
   text-align: center;
 }
-.ads-container .inner-content3 .grid .box p {
+.ads-container .inner-content3 .grid .box p, .ads-container .inner-content3 .grid .box a,
+.ads-container .inner-content3sm .grid .box p,
+.ads-container .inner-content3sm .grid .box a {
   color: #7a7a7a;
   flex-grow: 1;
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 2.5rem;
   width: 100%;
+  padding-bottom: 2rem;
+}
+.ads-container .inner-content3 .grid .box a,
+.ads-container .inner-content3sm .grid .box a {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #a0a0a0;
+  background: #a0a0a0;
+  transition: all 0.2s ease-in-out;
+  background-image: linear-gradient(90deg, #ff8738, #ff0044);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.ads-container .inner-content3 .grid .box a:hover,
+.ads-container .inner-content3sm .grid .box a:hover {
+  background-size: 100% 100%;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 1.5s linear infinite;
 }
 @keyframes shimmer {
   0% {
@@ -2227,27 +2366,62 @@
     background-position: 200% 0;
   }
 }
-.ads-container .btn {
+.ads-container .inner-content3sm .grid {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: auto;
+}
+.ads-container .inner-content3sm .grid .box {
   display: flex;
-  margin-top: 14rem;
-}
-.ads-container .btn .pricebtn {
-  border-radius: 5rem;
-  padding: 1rem 1.75rem;
-  border: 0.2rem solid #000;
-  color: #000;
-  text-decoration: none;
-  font-size: 1.2rem;
+  flex-direction: column;
   background: transparent;
-  cursor: pointer;
-  font-family: bold;
+  text-align: left;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  padding: 2rem 1rem 2rem 1rem;
+  border-radius: 2rem;
 }
-.ads-container .btn .pricebtn:hover {
-  background-color: #fafafa;
-  color: #000;
+.ads-container .inner-content3sm .grid .box h1 {
+  padding-top: 1rem;
+  padding-bottom: 0.75rem;
+  font-family: ku;
+  color: #7a7a7a;
+  text-align: center;
+}
+.ads-container .inner-content3sm .grid .box p, .ads-container .inner-content3sm .grid .box a {
+  padding-bottom: 0rem;
+  color: #fafafa;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 2.5rem;
+  width: 100%;
+}
+.ads-container .inner-content3sm .grid .box a {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #a0a0a0;
+  background: #a0a0a0;
+  transition: all 0.2s ease-in-out;
+  background-image: linear-gradient(90deg, #ff8738, #ff0044);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.ads-container .inner-content3sm .grid .box a:hover {
+  background-size: 100% 100%;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 1.5s linear infinite;
 }
 
-@media (min-width: 875px) and (max-width: 1246px) {
+@media (min-width: 875px) and (max-width: 1264px) {
   .ads-container h3 {
     font-size: 2.75rem;
   }
@@ -2266,12 +2440,12 @@
     padding-bottom: 0.5rem;
   }
   .ads-container .content .inner-content form .input-wrapper {
-    width: 36.25rem;
+    width: 34rem;
   }
   .ads-container .content .inner-content1 {
-    width: 100%;
-    margin-left: 0.5rem;
-    margin-bottom: 0rem;
+    width: 80%;
+    margin-left: 5rem;
+    margin-bottom: 14rem;
   }
   .ads-container .inner-content2 {
     margin: 0 auto;
@@ -2282,6 +2456,9 @@
   .ads-container .inner-content2 h2, .ads-container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 3.5rem;
+  }
+  .ads-container .inner-content2 h2 span {
+    font-size: 4rem;
   }
   .ads-container .inner-content2 p {
     margin-bottom: 3.5rem;
@@ -2307,15 +2484,14 @@
   }
   .ads-container .content .inner-content .text h1 {
     font-size: 3.5rem;
-    width: 55%;
+    width: 60%;
   }
   .ads-container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
-    width: 85%;
   }
   .ads-container .content .inner-content form .input-wrapper {
-    width: 28rem;
+    width: 34rem;
   }
   .ads-container .content .inner-content1 {
     margin-top: 2.5rem;
@@ -2324,7 +2500,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 50%;
     margin-bottom: 0;
   }
   .ads-container .inner-content2 {
@@ -2337,34 +2513,85 @@
     font-size: 3rem;
     width: 100%;
   }
-  .ads-container .inner-content2 span {
-    font-size: 3rem;
+  .ads-container .inner-content2 h2 span {
+    font-size: 3.5rem;
   }
   .ads-container .inner-content2 p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size: 2rem;
+    font-size: 2.25rem;
     width: 100%;
+  }
+  .ads-container .inner-content2 p span {
+    font-size: 2.5rem;
   }
   .ads-container .floatimg img {
     width: 65%;
   }
-  .ads-container .inner-content3 {
+  .ads-container .inner-content25 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .ads-container .inner-content25sm {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .ads-container .inner-content255 {
+    flex-direction: column-reverse;
+    margin-top: 14rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .ads-container .inner-content255 .side1 h2, .ads-container .inner-content255 .side1 h2 span {
+    font-size: 1.25rem;
+  }
+  .ads-container .inner-content255 .side1 p {
+    font-size: 1.5rem;
+  }
+  .ads-container .inner-content255 .side1 .btn {
+    margin-bottom: 2rem;
+  }
+  .ads-container .inner-content255 img {
+    border-radius: 2rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .ads-container .inner-content2555 {
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 4rem 2rem;
+  }
+  .ads-container .inner-content2555 p {
+    font-size: 2rem;
+  }
+  .ads-container .inner-content2555 .tag p {
+    font-size: 1rem;
+  }
+  .ads-container .inner-content2555 .tag p:nth-child(2) {
+    padding-top: 0.35rem;
+  }
+  .ads-container .inner-content3,
+  .ads-container .inner-content3sm {
     margin-top: 12rem;
     margin-bottom: 8rem;
   }
-  .ads-container .inner-content3 .grid {
+  .ads-container .inner-content3 .grid,
+  .ads-container .inner-content3sm .grid {
     margin: 1.25rem;
     grid-template-columns: repeat(1, 1fr);
   }
-  .ads-container .inner-content3 .grid .box p {
+  .ads-container .inner-content3 .grid .box p,
+  .ads-container .inner-content3sm .grid .box p {
     width: 92.5%;
-    padding-bottom: 2rem;
   }
 }
 @media (max-width: 659px) {
   .ads-container h3 {
     font-size: 2.25rem;
+  }
+  .ads-container h4 {
+    font-size: 1.15rem;
   }
   .ads-container .logo {
     margin-left: 1rem;
@@ -2383,8 +2610,7 @@
   .ads-container .content .inner-content .text p {
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
-    font-size: 1.35rem;
-    width: 90%;
+    width: 87.5%;
   }
   .ads-container .content .inner-content form .input-wrapper {
     width: 22rem;
@@ -2406,11 +2632,11 @@
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .ads-container .inner-content2 h2, .ads-container .inner-content2 span {
+  .ads-container .inner-content2 h2, .ads-container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 2.25rem;
   }
-  .ads-container .inner-content2 span {
+  .ads-container .inner-content2 h2 span {
     font-size: 2.5rem;
   }
   .ads-container .inner-content2 p {
@@ -2419,44 +2645,99 @@
     font-size: 1.75rem;
     width: 100%;
   }
+  .ads-container .inner-content2 p span {
+    font-size: 2rem;
+  }
+  .ads-container .floatimg {
+    margin-top: 6rem;
+  }
   .ads-container .floatimg img {
-    width: 65%;
+    width: 74%;
   }
-  .ads-container .inner-content25 h2, .ads-container .inner-content25 h2 span {
+  .ads-container .inner-content25,
+  .ads-container .inner-content25sm {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0 1rem;
+  }
+  .ads-container .inner-content25 h2, .ads-container .inner-content25 h2 span,
+  .ads-container .inner-content25sm h2,
+  .ads-container .inner-content25sm h2 span {
     padding-top: 2.25rem;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
-  .ads-container .inner-content25 p {
+  .ads-container .inner-content25 p,
+  .ads-container .inner-content25sm p {
     padding-top: 1rem;
     font-size: 1.75rem;
   }
-  .ads-container .inner-content3 {
-    margin-top: 8rem;
-    margin-bottom: -6rem;
+  .ads-container .inner-content25 p {
+    margin-bottom: 2rem;
   }
-  .ads-container .inner-content3 .text {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+  .ads-container .inner-content25 .btn {
     margin-bottom: 4rem;
   }
-  .ads-container .inner-content3 .text h1 {
-    font-size: 2.5rem;
+  .ads-container .inner-content25 .btn .pricebtn {
+    font-size: 1rem;
   }
-  .ads-container .inner-content3 .grid {
-    margin: 1.25rem;
+  .ads-container .inner-content255 {
+    flex-direction: column-reverse;
+    margin-top: 7rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .ads-container .inner-content255 .side1 h2, .ads-container .inner-content255 .side1 h2 span {
+    font-size: 1.25rem;
+  }
+  .ads-container .inner-content255 .side1 p {
+    font-size: 1.5rem;
+  }
+  .ads-container .inner-content255 .side1 .btn {
+    margin-bottom: 2rem;
+  }
+  .ads-container .inner-content255 .side1 .btn a {
+    font-size: 1rem;
+  }
+  .ads-container .inner-content255 img {
+    border-radius: 2rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .ads-container .inner-content2555 {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 4rem 2rem;
+  }
+  .ads-container .inner-content2555 p {
+    font-size: 2rem;
+  }
+  .ads-container .inner-content2555 .tag p {
+    font-size: 1rem;
+  }
+  .ads-container .inner-content2555 .tag p:nth-child(2) {
+    padding-top: 0.35rem;
+  }
+  .ads-container .inner-content3,
+  .ads-container .inner-content3sm {
+    margin-top: 7rem;
+    margin-bottom: 6rem;
+    padding: 0 2rem;
+  }
+  .ads-container .inner-content3 .grid,
+  .ads-container .inner-content3sm .grid {
     grid-template-columns: repeat(1, 1fr);
+    margin-left: 0;
+    margin-right: 0;
   }
-  .ads-container .inner-content3 .grid .box h1 {
+  .ads-container .inner-content3 .grid .box h1,
+  .ads-container .inner-content3sm .grid .box h1 {
     font-size: 2.25rem;
   }
-  .ads-container .inner-content3 .grid .box p {
+  .ads-container .inner-content3 .grid .box p,
+  .ads-container .inner-content3sm .grid .box p {
     width: 92.5%;
     font-size: 1.75rem;
-    margin-bottom: 1.5rem;
-  }
-  .btn {
-    margin-top: 0rem;
-    margin-bottom: 6rem;
   }
 }
 .content-privacy {

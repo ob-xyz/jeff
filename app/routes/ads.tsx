@@ -34,7 +34,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 32K+ decision-makers who like to stay informed</h1>
+            <h1>Reach 32K+ decision-makers who like knowing what matters</h1>
             <p>We're the 1-minute newsletter helping businesses do more 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -142,11 +142,6 @@ export default function Index() {
       </div>
       </div> */}
        <div className="inner-content3">
-        <div className="text">
-            <h4>INCREASE AWARENESS</h4>
-            <h1>Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</h1>
-            <p>Source: Nielsen Brand Effect (US/UK/JP/CA), Q3 2015 - Q3 2018 Connect campaigns. Comparison is v. 1 ad format alone.</p>
-        </div>
       <div className="grid">
       <div className="box">
         <h1>82%</h1>
@@ -162,10 +157,32 @@ export default function Index() {
       </div>
       </div>
     </div>
-    <div className="btn">
-    <a href="mailto:chris@jeffamazon.com" className="pricebtn">
-          Start a campaign
-    </a>
+          <div className="inner-content2555">
+      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
+      <p>" Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</p>
+      </a>
+      <div className="tag">
+      <p>
+        SOURCE
+      </p>
+      <p>
+        Nielsen Brand Effect (US/UK/JP/CA), Q3 2015 - Q3 2018 Connect campaigns. Comparison is v. 1 ad format alone.
+      </p>
+      </div>
+      </div>
+       <div className="inner-content3sm">
+      <div className="grid">
+      <div className="box">
+        <h1>Advertise</h1>
+        <p>Want to post? We're looking for new advertisers.</p>
+        <a title="get in touch" href="mailto:ads@jeffamazon.com"  rel="noopener noreferrer">Get in touch →</a>
+      </div>
+      <div className="box">
+        <h1>Subscribe</h1>
+        <p>Want to know what matters?</p>
+        <a title="subscribe today" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe →</a>
+      </div>
+      </div>
     </div>
     </div>
   );

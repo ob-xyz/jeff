@@ -82,9 +82,9 @@ export default function Index() {
       <p>Enjoy our Sunday deep dives into smart bets with asymmetric upside.</p>
       </a>
       </div>
-            <div className="floatimg">
-            <img src={header2} alt="Jeffamazon newsletter image" />
-        </div>
+      <div className="floatimg">
+          <img src={header2} alt="Jeffamazon newsletter image" />
+      </div>
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
       <a title="jeffamazon home page" href="https://jeffamazon.com/"  rel="noopener noreferrer">
