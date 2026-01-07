@@ -716,6 +716,9 @@
   .container .inner-content2 p span {
     font-size: 2rem;
   }
+  .container .floatimg {
+    margin-top: 6rem;
+  }
   .container .floatimg img {
     width: 74%;
   }
@@ -784,7 +787,7 @@
     padding-top: 0.35rem;
   }
   .container .inner-content3 {
-    margin-top: 6rem;
+    margin-top: 7rem;
     margin-bottom: 6rem;
     padding: 0 2rem;
   }
