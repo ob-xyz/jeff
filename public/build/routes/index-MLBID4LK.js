@@ -145,18 +145,12 @@ function Index() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
         "Stop spending your mornings scrolling just to stay informed. ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is the one minute antidote" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is the antidote keeping 32,000+ people" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 55,
           columnNumber: 71
         }, this),
-        " keeping ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "32,000+" }, void 0, false, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 55,
-          columnNumber: 130
-        }, this),
-        " people in the lopp about what matters across the business world."
+        " in the loop about what matters across the business world in one minute or less."
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
         lineNumber: 55,
@@ -289,7 +283,7 @@ function Index() {
         lineNumber: 89,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "jeffamazon home page", href: "https://jeffamazon.com/", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamazon is a quick and insightful one minute daily newsletter that helps you make smarter decisions and know more across business strategy, technology, and economic trends." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "jeffamazon home page", href: "https://jeffamazon.com/", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Jeffamazon is an informative and insightful 1-minute daily newsletter that helps you make smarter decisions and know more about business strategy, technology, and economic trends." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 91,
         columnNumber: 7
@@ -453,4 +447,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-OFEQDBDU.js.map
+//# sourceMappingURL=/build/routes/index-MLBID4LK.js.map

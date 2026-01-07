@@ -52,7 +52,7 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Start your day with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Stop spending your mornings scrolling just to stay informed. <span>Jeffamazon is the one minute antidote</span> keeping <span>32,000+</span> people in the lopp about what matters across the business world.</p>
+      <p>Stop spending your mornings scrolling just to stay informed. <span>Jeffamazon is the antidote keeping 32,000+ people</span> in the loop about what matters across the business world in one minute or less.</p>
       </a>
       </div>
       <div className="floatimg">
@@ -88,7 +88,7 @@ export default function Index() {
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
       <a title="jeffamazon home page" href="https://jeffamazon.com/"  rel="noopener noreferrer">
-      <p>Jeffamazon is a quick and insightful one minute daily newsletter that helps you make smarter decisions and know more across business strategy, technology, and economic trends.</p>
+      <p>Jeffamazon is an informative and insightful 1-minute daily newsletter that helps you make smarter decisions and know more about business strategy, technology, and economic trends.</p>
       </a>
       <div className="btn">
         <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
