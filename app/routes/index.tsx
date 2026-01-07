@@ -52,14 +52,14 @@ export default function Index() {
       <div className="inner-content2">
       <h2>Start your day with <span>Jeffamazon</span></h2>
       <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Stop spending your mornings scrolling just to stay informed. <span>Jeffamazon is the antidote keeping 32,000+ people</span> in the loop about what matters across the business world in one minute or less.</p>
+      <p>Stop spending your mornings scrolling to stay informed. <span>Jeffamazon is the antidote keeping 32,000+ people</span> in the loop about what matters across the business world in one minute or less.</p>
       </a>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Be more decisive</span></h2>
+       <h2><span>Be decisive</span></h2>
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
       <p>Become a decision making machine who makes smarter decisions.</p>
       </a>
