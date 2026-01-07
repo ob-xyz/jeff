@@ -68,7 +68,7 @@ export default function Index() {
             <img src={tobi} alt="Jeffamazon newsletter image" />
         </div>
       <div className="inner-content25sm">
-       <h2><span>In the loop</span></h2>
+       <h2><span>Know more</span></h2>
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
       <p>Get a quick update about what matters across the business world.</p>
       </a>
