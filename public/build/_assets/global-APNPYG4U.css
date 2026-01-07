@@ -1249,121 +1249,121 @@
   }
 }
 @media (max-width: 659px) {
-  .container h3 {
+  .container-about h3 {
     font-size: 2.25rem;
   }
-  .container h4 {
+  .container-about h4 {
     font-size: 1.15rem;
   }
-  .container .logo {
+  .container-about .logo {
     margin-left: 1rem;
   }
-  .container .content {
+  .container-about .content {
     flex-direction: column;
   }
-  .container .content .inner-content {
+  .container-about .content .inner-content {
     margin-left: 1rem;
     margin-top: 1rem;
   }
-  .container .content .inner-content .text h1 {
+  .container-about .content .inner-content .text h1 {
     font-size: 3rem;
     width: 90%;
   }
-  .container .content .inner-content .text p {
+  .container-about .content .inner-content .text p {
     padding-top: 1.5rem;
     padding-bottom: .5rem;
     width: 87.5%;
   }
-  .container .content .inner-content form .input-wrapper {
+  .container-about .content .inner-content form .input-wrapper {
     width: 22rem;
   }
-  .container .content .inner-content1 {
+  .container-about .content .inner-content1 {
     margin-top: 2.5rem;
   }
-  .container .content .inner-content1 img {
+  .container-about .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     margin-bottom: 0;
   }
-  .container .inner-content2 {
+  .container-about .inner-content2 {
     margin-left: 0;
     margin-right: 0;
     padding: 0 2rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .container .inner-content2 h2,
-  .container .inner-content2 h2 span {
+  .container-about .inner-content2 h2,
+  .container-about .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 2.25rem;
   }
-  .container .inner-content2 h2 span {
+  .container-about .inner-content2 h2 span {
     font-size: 2.5rem;
   }
-  .container .inner-content2 p {
+  .container-about .inner-content2 p {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 1.75rem;
     width: 100%;
   }
-  .container .inner-content2 p span {
+  .container-about .inner-content2 p span {
     font-size: 2rem;
   }
-  .container .floatimg img {
+  .container-about .floatimg img {
     width: 74%;
   }
-  .container .inner-content25 {
+  .container-about .inner-content25 {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding: 0 1rem;
   }
-  .container .inner-content25 h2,
-  .container .inner-content25 h2 span {
+  .container-about .inner-content25 h2,
+  .container-about .inner-content25 h2 span {
     padding-top: 2.25rem;
     font-size: 2.25rem;
   }
-  .container .inner-content25 p {
+  .container-about .inner-content25 p {
     padding-top: 1rem;
     font-size: 1.75rem;
     margin-bottom: 2rem;
   }
-  .container .inner-content25 .btn {
+  .container-about .inner-content25 .btn {
     margin-bottom: 4rem;
   }
-  .container .inner-content25 .btn .pricebtn {
+  .container-about .inner-content25 .btn .pricebtn {
     font-size: 1rem;
   }
-  .container .inner-content2555 {
+  .container-about .inner-content2555 {
     margin-top: 7rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding: 4rem 2rem;
   }
-  .container .inner-content2555 p {
+  .container-about .inner-content2555 p {
     font-size: 2rem;
   }
-  .container .inner-content2555 .tag p {
+  .container-about .inner-content2555 .tag p {
     font-size: 1rem;
   }
-  .container .inner-content2555 .tag p:nth-child(2) {
+  .container-about .inner-content2555 .tag p:nth-child(2) {
     padding-top: .35rem;
   }
-  .container .inner-content3 {
+  .container-about .inner-content3 {
     margin-top: 6rem;
     margin-bottom: 6rem;
     padding: 0 2rem;
   }
-  .container .inner-content3 .grid {
+  .container-about .inner-content3 .grid {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 0;
     margin-right: 0;
   }
-  .container .inner-content3 .grid .box h1 {
+  .container-about .inner-content3 .grid .box h1 {
     font-size: 2.25rem;
   }
-  .container .inner-content3 .grid .box p {
+  .container-about .inner-content3 .grid .box p {
     width: 92.5%;
     font-size: 1.75rem;
   }
