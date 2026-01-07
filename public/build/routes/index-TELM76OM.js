@@ -143,12 +143,12 @@ function Index() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { title: "subscription form", href: "https://jeffamazon.com/subscribe", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: [
         "Stop spending your mornings scrolling to stay informed. ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is the antidote keeping 32,000+ people" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is the antidote keeping 32,000+ people in the loop" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 55,
           columnNumber: 66
         }, this),
-        " in the loop about what matters across the business world in one minute or less."
+        " about what matters in the business world."
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
         lineNumber: 55,
@@ -445,4 +445,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-CCTDABRF.js.map
+//# sourceMappingURL=/build/routes/index-TELM76OM.js.map
