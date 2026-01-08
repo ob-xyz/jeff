@@ -1,4 +1,4 @@
-.container-about{
+.about-container{
     display:flex;
     flex-direction: column;
     b{
@@ -125,25 +125,27 @@ button.submit {
     }
   }
 }
+
 .inner-content2{
   background:#02090A;
-  border-top-left-radius:3rem;
-  border-top-right-radius:3rem;
+  border-top-left-radius:2rem;
+  border-top-right-radius:2rem;
   padding:0 5rem;
+  padding-bottom:5rem;
   h2, h2 span{
       padding-top:6rem;
       margin-left:0;
       color:#fafafa;
     }
   h2 span{
-    font-size:4.5rem;
+    font-size:5rem;
   }
-p {
+p, .text{
   width:95%;
   padding-top: 1.5rem;
   font-size: 3rem;
   margin-left: 0;
-  color: #7a7a7a;
+  color: #7a7a7a; //fb
   background:#7a7a7a;
   transition: all 0.5s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
@@ -152,17 +154,14 @@ p {
   background-position: left;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  cursor: pointer; 
+  cursor: pointer;
   &:hover {
       background-size: 100% 100%;
       -webkit-text-fill-color: transparent;
       animation: shimmer 1.5s linear infinite;
   }
 }
-p:nth-last-child(1){
-  margin-bottom: 5rem;
-}
-p span{
+p span, .text span{
   font-size:3.5rem;
 }
 @keyframes shimmer {
@@ -184,22 +183,16 @@ p span{
   }
 }
 .inner-content25,
-.inner-content2555{
+.inner-content251{
   background:#02090A;
   border-radius:2rem;
   padding:0 5rem;
   margin-left:5rem;
   margin-right:5rem;
   width: auto;
-  text-align: center;
-  h2, h2 span{
-      text-align: center;
-      padding-top:3.5rem;
-      margin:0 auto;
-      color:#fafafa;
-    }
-p {
-  text-align: center;
+  text-align: left;
+p, .text{
+  text-align: left;
   padding-top: 1.5rem;
   font-size: 3rem;
   margin: 0 auto;
@@ -248,14 +241,15 @@ p {
   }
 }
 }
-.inner-content2555{
+.inner-content25,
+.inner-content251{
   margin-top:14rem;
   margin-left:5rem;
   margin-right:5rem;
   border-radius:2rem;
   padding:8rem 8rem;
   width:auto;
-  p{
+  p, .text{
     text-align: left;
     font-family: ku;
     background-color:#fafafa;
@@ -281,12 +275,20 @@ p {
     }
   }
 }
-.inner-content3{
-  margin:14rem auto 0 auto;
-.grid{
+.inner-content251{
+  margin-top:8rem;
+  margin-bottom:0;
+  text-align: center;
+}
+.inner-content3sm{
+  .boxmat{
+    width:100%;
+    height:auto;
+  }
+  .grid{
   margin-left:5rem;
   margin-right:5rem;
-  display: grid;
+  display:grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   width: auto;
@@ -307,40 +309,32 @@ p {
       color:#7a7a7a;
       text-align: center;
     }
-    p, a {
+    p{
+      padding-bottom: 0rem;
       color: #fafafa;
       flex-grow: 1;
       text-align: center;
       font-size:2.5rem;
       width:100%;
     }
-    a{
-      margin-top: 1.5rem;
-      margin-bottom:1.5rem;
-      font-size:1.5rem;
-      color: #a0a0a0;
-      background:#a0a0a0;
-      transition: all .2s ease-in-out;
-      background-image: linear-gradient(90deg, #ff8738, #ff0044);
-      background-size: 0% 100%;
-      background-repeat: no-repeat;
-      background-position: left;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-  cursor: pointer;
-  &:hover {
-      background-size: 100% 100%;
-      -webkit-text-fill-color: transparent;
-      animation: shimmer 1.5s linear infinite;
-  }
-
+.btn { 
+  display: flex;
+  margin:3rem auto 3rem auto;
+  color:#fafafa;
+  .pricebtn {
+    border-radius: 5rem;
+    padding: 1rem 1.75rem;
+    border: 0.2rem solid #fafafa;
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 1.2rem;
+    background: transparent;
+    cursor: pointer;
+    font-family:bold;
+    &:hover {
+      background-color: #3a3a3a;
+      color: #fafafa;
     }
-    @keyframes shimmer {
-  0% {
-      background-position: -100% 0;
-  }
-  100% {
-      background-position: 200% 0;
   }
 }
   }
@@ -348,7 +342,7 @@ p {
 }
 }
 @media (min-width: 875px) and (max-width: 1264px) {
-.container-about{
+.about-container{
   h3{
       font-size:2.75rem;
   }
@@ -375,9 +369,9 @@ form {
     }
   }
   .inner-content1{
-    width: 100%;
-    margin-left: 2.5rem;
-    margin-bottom:-1.5rem;
+    width: 80%;
+    margin-left: 5rem;
+    margin-bottom:14rem;
   }
 }
 .inner-content2{
@@ -385,6 +379,7 @@ form {
   padding:0 2.5rem;
   border-top-left-radius:1.5rem;
   border-top-right-radius:1.5rem;
+  padding-bottom:5rem;
   h2, h2 span{
     padding-top:3.5rem;
     font-size:3.5rem;
@@ -392,7 +387,7 @@ form {
     h2 span{
       font-size:4rem;
     }
-  p {
+  p, .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     width:100%;
@@ -406,7 +401,7 @@ form {
 }
 }
 @media (min-width: 660px) and (max-width: 874px) {
-.container-about{
+.about-container{
   h3{
       font-size:2.75rem;
   }
@@ -448,6 +443,7 @@ form {
   padding:0 2.5rem;
   border-top-left-radius:1.5rem;
   border-top-right-radius:1.5rem;
+  padding-bottom:3rem;
   h2{
     padding-top:3.5rem;
     font-size:3rem;
@@ -456,10 +452,10 @@ form {
     h2 span{
       font-size:3.5rem;
     }
-  p {
+  p, .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
-    font-size:2rem;
+    font-size:2.25rem;
     width:100%;
   }
     p span{
@@ -471,16 +467,14 @@ form {
     width: 65%;
   }
 }
-.inner-content25{
-  margin-left:1.5rem;
-  margin-right:1.5rem;
-}
-.inner-content2555{
-  margin-top:14rem;
+.inner-content25,
+.inner-content251{
+  margin-top:8rem;
+  margin-bottom:6rem;
   margin-left:1.5rem;
   margin-right:1.5rem;
   padding:4rem 2rem;
-  p{
+  p, .text{
     font-size: 2rem;
   }
   .tag{
@@ -492,14 +486,14 @@ form {
     }
   }
 }
-.inner-content3{
-  margin-top:12rem;
-  margin-bottom:8rem;
+.inner-content3sm{
+  margin-top:7rem;
+  margin-bottom:-2rem;
 .grid{
   margin:1.25rem;
   grid-template-columns: repeat(1, 1fr);
   .box{
-  p {
+  p, .text {
       width:92.5%;
     }
 }
@@ -508,8 +502,8 @@ form {
 }
 }
 @media (max-width: 659px) {
-.container-about{
-  h3{
+.about-container{
+ h3{
       font-size:2.25rem;
   }
   h4{
@@ -554,7 +548,9 @@ form {
 .inner-content2{
   margin-left:0;
   margin-right:0;
+  margin-bottom: 4rem;
   padding:0 2rem;
+  padding-bottom:3rem;
   border-top-left-radius:1.5rem;
   border-top-right-radius:1.5rem;
   h2, h2 span{
@@ -564,22 +560,24 @@ form {
     h2 span{
       font-size:2.5rem;
     }
-  p {
+  p, .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size:1.75rem;
     width:100%;
   }
-  p span{
+  p span, .text span{
     font-size:2rem;
   }
 }
 .floatimg{
+  margin-top:6rem;
   img{
     width: 74%;
   }
 }
-.inner-content25{
+.inner-content25,
+.inner-content251{
   margin-left:1.5rem;
   margin-right:1.5rem;
   padding:0 1rem;
@@ -587,9 +585,14 @@ form {
       padding-top:2.25rem;
       font-size:2.25rem;
     }
-p {
+p, .text{
   padding-top: 1rem;
   font-size: 1.75rem;
+}
+}
+.inner-content25,
+.inner-content251{
+  p, .text{
     margin-bottom:2rem;
   }
     .btn{
@@ -599,12 +602,13 @@ p {
       }
     }
 }
-.inner-content2555{
-  margin-top:7rem;
-  margin-left:1.5rem;
-  margin-right:1.5rem;
+
+.inner-content25,
+.inner-content251{
+  margin-top:0rem;
+  margin-bottom:4rem;
   padding:4rem 2rem;
-  p{
+  p, .text{
     font-size: 2rem;
   }
   .tag{
@@ -616,8 +620,11 @@ p {
     }
   }
 }
-.inner-content3{
-  margin-top:6rem;
+.inner-content251{
+  margin-bottom:1rem;
+}
+.inner-content3sm{
+  margin-top:-3rem;
   margin-bottom:6rem;
   padding:0 2rem;
 .grid{
@@ -628,10 +635,14 @@ p {
   h1{
     font-size: 2.25rem;
   }
-   p {
+   p, .text {
       width:92.5%;
       font-size: 1.75rem; 
     }
+  .btn{
+    margin-top:2rem;
+    margin-bottom:1.5rem;
+  }
 }
 }
 }

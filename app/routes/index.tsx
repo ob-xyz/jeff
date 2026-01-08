@@ -113,13 +113,13 @@ export default function Index() {
       <div className="grid">
       <div className="box">
         <h1>Subscribe</h1>
-        <p>Want to know what matters?</p>
+        <p>Want to know what matters in one minute or less?</p>
           <Link className="text" to="/subscribe">Subscribe →</Link>
       </div>
       <div className="box">
         <h1>Advertise</h1>
         <p>Want to post? We're looking for new advertisers.</p>
-        <a title="get in touch" href="mailto:ads@jeffamazon.com"  rel="noopener noreferrer">Get in touch →</a>
+          <Link className="text" to="/subscribe">Get in touch →</Link>
       </div>
       </div>
     </div>

@@ -124,6 +124,7 @@ button.submit {
   border-top-left-radius:2rem;
   border-top-right-radius:2rem;
   padding:0 5rem;
+  padding-bottom: 5rem;
   h2, h2 span{
       padding-top:6rem;
       margin-left:0;
@@ -132,7 +133,7 @@ button.submit {
   h2 span{
     font-size:4.5rem;
   }
-p {
+p, .text {
   width:95%;
   padding-top: 1.5rem;
   font-size: 3rem;
@@ -154,7 +155,7 @@ p {
       animation: shimmer 1.5s linear infinite;
   }
 }
-p span{
+p span, .text span{
   font-size:3.5rem;
 }
 @keyframes shimmer {
@@ -176,8 +177,6 @@ p span{
   }
 }
 .inner-content25,
-.inner-content25sm,
-.inner-content255,
 .inner-content2555{
   background:#02090A;
   border-radius:2rem;
@@ -192,7 +191,7 @@ p span{
       margin:0 auto;
       color:#fafafa;
     }
-p {
+p, .text {
   text-align: center;
   padding-top: 1.5rem;
   font-size: 3rem;
@@ -216,7 +215,7 @@ p {
 }
 .btn { 
   display: flex;
-  margin:0 auto 6rem auto;
+  margin:2rem auto 4rem auto;
   .pricebtn {
     border-radius: 5rem;
     padding: 1rem 1.75rem;
@@ -242,67 +241,15 @@ p {
   }
 }
 }
-.inner-content25sm{
- margin-left: 5rem;
- margin-right: 5rem;
- border-radius:2rem;
- width: auto;
-}
-.inner-content255{
-  display: flex;
-  flex-direction: row;
-  margin-top:14rem;
-  margin-left:5rem;
-  margin-right:5rem;
-  border-radius:2rem;
-  padding:0;
-  width:auto;
-  .side1{
-    padding:0 0 0 2rem;
-    width:100%;
-    padding-top:0;
-    margin-top:0;
-    margin-bottom:0;
-  h2, h2 span{
-    margin: 0;
-    margin-top:0;
-    margin-bottom:1.5rem;
-    font-size:1.5rem;
-    text-align: left;
-  }
-  p{
-    text-align: left;
-    padding:0;
-    font-size: 2rem;
-    margin-bottom: 0;
-  }
-  .btn{
-    margin: 0;
-    margin-top:2rem;
-    .pricebtn{
-      margin: 0;
-    }
-  }
-  }
-  img{
-    width:100%;
-    border-radius: 2rem;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  .noclick{
-      user-select: none;
-      pointer-events: none;
-  }
-}
 .inner-content2555{
   margin-top:14rem;
   margin-left:5rem;
   margin-right:5rem;
   border-radius:2rem;
   padding:8rem 8rem;
+  text-align: left;
   width:auto;
-  p{
+  p, .text{
     text-align: left;
     font-family: ku;
     background-color:#fafafa;
@@ -355,7 +302,7 @@ p {
       color:#fafafa;
       text-align: center;
     }
-    p, a {
+    p, a , .text {
       color: #7a7a7a;
       flex-grow: 1;
       text-align: center;
@@ -363,7 +310,7 @@ p {
       width:100%;
       padding-bottom: 2rem;
     }
-    a{
+    a, .text{
       margin-top: 1.5rem;
       margin-bottom:1.5rem;
       font-size:1.5rem;
@@ -491,6 +438,7 @@ form {
   padding:0 2.5rem;
   border-top-left-radius:1.5rem;
   border-top-right-radius:1.5rem;
+  padding-bottom:5rem;
   h2, h2 span{
     padding-top:3.5rem;
     font-size:3.5rem;
@@ -554,6 +502,8 @@ form {
   padding:0 2.5rem;
   border-top-left-radius:1.5rem;
   border-top-right-radius:1.5rem;
+  padding-bottom:3rem;
+
   h2{
     padding-top:3.5rem;
     font-size:3rem;
@@ -688,6 +638,7 @@ form {
   margin-left:0;
   margin-right:0;
   padding:0 2rem;
+  padding-bottom: 3rem;
   border-top-left-radius:1.5rem;
   border-top-right-radius:1.5rem;
   h2, h2 span{
@@ -697,13 +648,13 @@ form {
     h2 span{
       font-size:2.5rem;
     }
-  p {
+  p, .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size:1.75rem;
     width:100%;
   }
-  p span{
+  p span, .text span{
     font-size:2rem;
   }
 }
@@ -713,8 +664,7 @@ form {
     width: 74%;
   }
 }
-.inner-content25,
-.inner-content25sm{
+.inner-content25{
   margin-left:1.5rem;
   margin-right:1.5rem;
   padding:0 1rem;
@@ -722,13 +672,13 @@ form {
       padding-top:2.25rem;
       font-size:2.25rem;
     }
-p {
+p, .text {
   padding-top: 1rem;
   font-size: 1.75rem;
 }
 }
 .inner-content25{
-  p{
+  p, .text{
     margin-bottom:2rem;
   }
     .btn{
@@ -738,37 +688,12 @@ p {
       }
     }
 }
-.inner-content255{
-  flex-direction: column-reverse;
-  margin-top:7rem;
-  margin-left:1.5rem;
-  margin-right:1.5rem;
-  .side1{
-  h2, h2 span{
-    font-size:1.25rem;
-  }
-  p{
-    font-size: 1.5rem;
-  }
-  .btn{
-    margin-bottom:2rem;
-      a{
-      font-size: 1rem;
-      }
-    }
-  }
-  img{
-    border-radius: 2rem;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-}
 .inner-content2555{
   margin-top:1rem;
   margin-left:1.5rem;
   margin-right:1.5rem;
   padding:4rem 2rem;
-  p{
+  p, .text{
     font-size: 2rem;
   }
   .tag{

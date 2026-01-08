@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ja3.png";
@@ -34,7 +35,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 32K+ decision-makers who like knowing what matters</h1>
+            <h1>Reach 32K+ of the world's most decisive people</h1>
             <p>We're the 1-minute newsletter helping businesses do more 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
@@ -53,9 +54,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Connect with your next customers on <span>Jeffamazon</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com"  rel="noopener noreferrer">
-      <p>Our audience is highly vetted, more informed, and always looking for something new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach the world's most authorative audience.</p>
-      </a>
+          <Link className="text" to="/subscribe">Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience.</Link>
       </div>
       <div className="inner-content3sm">
       <div className="grid">
@@ -67,9 +66,7 @@ export default function Index() {
         <h1>Image Ads</h1>
         <p>Image ads allow you to showcase your product or service with plain jane text and a single photo.</p>
       <div className="btn">
-        <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Launch campaign
-        </a>
+          <Link className="pricebtn" to="/subscribe">Launch campaign</Link>
       </div>
       </div>
       </div>
@@ -81,9 +78,7 @@ export default function Index() {
         <h1>Video Ads</h1>
         <p>Video ads are short clips that turn your offer into content people are more likely to engage in.</p>
       <div className="btn">
-        <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Launch campaign
-        </a>
+          <Link className="pricebtn" to="/subscribe">Launch campaign</Link>
       </div>
       </div>
      </div>
@@ -99,9 +94,7 @@ export default function Index() {
         <h1>Carousel Ads</h1>
         <p>Carousel ads automatically rotate up to six horizontally-shaped images to showcase multiple products.</p>
       <div className="btn">
-        <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Launch campaign
-        </a>
+          <Link className="pricebtn" to="/subscribe">Launch campaign</Link>
       </div>
       </div>
       </div>
@@ -113,9 +106,7 @@ export default function Index() {
         <h1>Text Ads</h1>
         <p>Text ads are the most simple and frictionless way to get your brands message across our audience.</p>
       <div className="btn">
-        <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Launch campaign
-        </a>
+          <Link className="pricebtn" to="/subscribe">Launch campaign</Link>
       </div>
       </div>
      </div>
@@ -131,9 +122,7 @@ export default function Index() {
         <h1>Mini Ads</h1>
         <p>Mini ads appear above our feed, giving you an early chance to promote your product or service.</p>
       <div className="btn">
-        <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Launch campaign
-        </a>
+          <Link className="pricebtn" to="/subscribe">Launch campaign</Link>
       </div>
       </div>
       </div>
@@ -145,9 +134,7 @@ export default function Index() {
         <h1>Takeover Ads</h1>
         <p>Takeover ads give you a widescreen image and a CTA button to maximizes your engagement.</p>
       <div className="btn">
-        <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Launch campaign
-        </a>
+          <Link className="pricebtn" to="/subscribe">Launch campaign</Link>
       </div>
       </div>
      </div>
@@ -170,9 +157,7 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>" Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</p>
-      </a>
+          <Link className="text" to="/subscribe">" Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</Link>
       <div className="tag">
       <p>
         SOURCE

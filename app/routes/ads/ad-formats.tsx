@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ja3.png";
@@ -53,22 +54,16 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Connect with your next customers on <span>Jeffamazon</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com"  rel="noopener noreferrer">
-      <p>Our audience is highly vetted, more informed, and always looking for something new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach the world's most authorative audience.</p>
-      </a>
+          <Link className="text" to="/subscribe">Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience.</Link>
       </div>
         <div className="floatimg">
             <img src={imageads} alt="Jeffamazon newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Image Ads</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer">
-        <p>Image ads allow you to showcase your product or service with plain jane text and a single photo.</p>
-      </a>
+            <Link className="text" to="/subscribe">Image ads allow you to showcase your product or service with plain jane text and a single photo.</Link>
       <div className="btn">
-        <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Learn more
-        </a>
+            <Link className="pricebtn" to="/subscribe">Learn more</Link>
       </div>
       </div>
       <div className="floatimg">
@@ -76,13 +71,9 @@ export default function Index() {
         </div>
       <div className="inner-content25">
        <h2><span>Video Ads</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer">
-        <p>Video ads are short clips that turn your offer into content people are more likely to engage in.</p>
-      </a>
+            <Link className="text" to="/subscribe">Video ads are short clips that turn your offer into content people are more likely to engage in.</Link>
       <div className="btn">
-        <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Learn more
-        </a>
+            <Link className="pricebtn" to="/subscribe">Learn more</Link>
       </div>
       </div>
      <div className="floatimg">
@@ -90,41 +81,29 @@ export default function Index() {
         </div>
       <div className="inner-content25">
        <h2><span>Carousel Ads</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer">
-        <p>Carousel ads automatically rotate up to six horizontally-shaped images to showcase multiple products.</p>
-      </a>
+            <Link className="text" to="/subscribe">Carousel ads automatically rotate up to six horizontally-shaped images to showcase multiple products.</Link>
       <div className="btn">
-        <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Learn more
-        </a>
+            <Link className="pricebtn" to="/subscribe">Learn more</Link>
       </div>
       </div>
       <div className="floatimg">
             <img src={textads} alt="Jeffamazon newsletter image" />
-        </div>
+      </div>
       <div className="inner-content25">
        <h2><span>Text Ads</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer">
-        <p>Text ads are the most simple and frictionless way to get your brands message across our audience.</p>
-      </a>
+            <Link className="text" to="/subscribe">Text ads are the most simple and frictionless way to get your brands message across our audience.</Link>
       <div className="btn">
-        <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Learn more
-        </a>
+            <Link className="pricebtn" to="/subscribe">Learn more</Link>
       </div>
       </div>
-              <div className="floatimg">
+      <div className="floatimg">
             <img src={newsads} alt="Jeffamazon newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Mini Ads</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer">
-        <p>Mini ads appear above our feed, giving you an early chance to promote your product or service.</p>
-      </a>
+            <Link className="text" to="/subscribe">Mini ads appear above our feed, giving you an early chance to promote your product or service.</Link>
       <div className="btn">
-        <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Learn more
-        </a>
+            <Link className="pricebtn" to="/subscribe">Learn more</Link>
       </div>
       </div>
       <div className="floatimg">
@@ -132,13 +111,9 @@ export default function Index() {
         </div>
       <div className="inner-content25">
        <h2><span>Takeover Ads</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer">
-        <p>Takeover ads give you a widescreen image and a CTA button to maximizes your engagement.</p>
-      </a>
+            <Link className="text" to="/subscribe">Takeover ads give you a widescreen image and a CTA button to maximizes your engagement.</Link>
       <div className="btn">
-        <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Learn more
-        </a>
+            <Link className="pricebtn" to="/subscribe">Learn more</Link>
       </div>
       </div>
        <div className="inner-content3">
@@ -157,10 +132,8 @@ export default function Index() {
       </div>
       </div>
     </div>
-          <div className="inner-content2555">
-      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>" Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</p>
-      </a>
+      <div className="inner-content2555">
+            <Link className="text" to="/subscribe">" Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</Link>
       <div className="tag">
       <p>
         SOURCE
@@ -175,12 +148,12 @@ export default function Index() {
       <div className="box">
         <h1>Advertise</h1>
         <p>Want to post? We're looking for new advertisers.</p>
-        <a title="get in touch" href="mailto:ads@jeffamazon.com"  rel="noopener noreferrer">Get in touch →</a>
+        <Link className="text" to="/subscribe">Get in touch →</Link>
       </div>
       <div className="box">
         <h1>Subscribe</h1>
-        <p>Want to know what matters?</p>
-        <a title="subscribe today" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe →</a>
+        <p>Want to scroll what matters in one minute or less?</p>
+            <Link className="text" to="/subscribe">Subscribe →</Link>
       </div>
       </div>
     </div>
