@@ -1,11 +1,8 @@
 import { useEffect } from "react";
 
 import logo from "~/../public/img/ja1.png";
-import header from "~/../public/img/ja3.png";
+import thepoast from "~/../public/img/thepoast.png";
 import header2 from "~/../public/img/ja4.png";
-import sama from "~/../public/img/samae.jpg";
-import tobi from "~/../public/img/tobic.jpg";
-import jensen from "~/../public/img/jensene.jpg";
 import cs from "~/../public/img/cs.jpg";
 
 export default function Index() {
@@ -65,10 +62,24 @@ export default function Index() {
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
       <a title="jeffamazon home page" href="https://jeffamazon.com/"  rel="noopener noreferrer">
-      <p>Jeffamazon is an informative and insightful 1-minute daily newsletter that helps you make smarter decisions and know more about business strategy, technology, and economic trends.</p>
+      <p>Jeffamazon is a quick and insightful daily newsletter that helps you make sense of business strategy, technology, and economic trends.</p>
       </a>
       <div className="btn">
         <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
+            Subscribe for free
+        </a>
+      </div>
+      </div>
+      <div className="floatimg">
+            <img src={thepoast} alt="Jeffamazon newsletter image" />
+      </div>
+      <div className="inner-content25">
+       <h2><span>The Poast</span></h2>
+      <a title="The Poast home page" href="https://thepoast.com/"  rel="noopener noreferrer">
+      <p>The Poast is a quick and insightful weekly newsletter that helps you make sense of business strategy, technology, and economic trends.</p>
+      </a>
+      <div className="btn">
+        <a title="subscription form" href="https://thepoast.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
             Subscribe for free
         </a>
       </div>

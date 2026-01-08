@@ -57,90 +57,102 @@ export default function Index() {
       <p>Our audience is highly vetted, more informed, and always looking for something new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach the world's most authorative audience.</p>
       </a>
       </div>
-        <div className="floatimg">
-            <img src={imageads} alt="Jeffamazon newsletter image" />
-        </div>
-      <div className="inner-content25">
-       <h2><span>Image Ads</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer">
-      <p>Image ads allow you to showcase your product or service with plain jane text and a single photo.</p>
-      </a>
+      <div className="inner-content3sm">
+      <div className="grid">
+      <div className="boxmat">
+         <div className="floatimg">
+          <img src={imageads} alt="Jeffamazon newsletter image" />
+      </div>
+      <div className="box">
+        <h1>Image Ads</h1>
+        <p>Image ads allow you to showcase your product or service with plain jane text and a single photo.</p>
       <div className="btn">
         <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Learn more
+            Launch campaign
         </a>
       </div>
       </div>
-      <div className="floatimg">
+      </div>
+            <div className="boxmat">
+        <div className="floatimg">
             <img src={videoads} alt="Jeffamazon newsletter image" />
         </div>
-      <div className="inner-content25">
-       <h2><span>Video Ads</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer">
-      <p>Video Ads are short clips that make your products feel alive and invested to learn more through your website, app, or brand message.</p>
-      </a>
+      <div className="box">
+        <h1>Video Ads</h1>
+        <p>Video ads are short clips that turn your offer into content people are more likely to engage in.</p>
       <div className="btn">
         <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Learn more
+            Launch campaign
         </a>
       </div>
       </div>
-     <div className="floatimg">
-            <img src={carouselads} alt="Jeffamazon newsletter image" />
-        </div>
-      <div className="inner-content25">
-       <h2><span>Carousel Ads</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer">
-      <p>Carousel Ads automatically rotate up to six horizontally-shaped images to showcase multiple products or promotions.</p>
-      </a>
+     </div>
+      </div>
+    </div>
+      <div className="inner-content3sm">
+      <div className="grid">
+      <div className="boxmat">
+         <div className="floatimg">
+          <img src={carouselads} alt="Jeffamazon newsletter image" />
+      </div>
+      <div className="box">
+        <h1>Carousel Ads</h1>
+        <p>Carousel ads automatically rotate up to six horizontally-shaped images to showcase multiple products.</p>
       <div className="btn">
         <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Learn more
+            Launch campaign
         </a>
       </div>
       </div>
-      <div className="floatimg">
+      </div>
+     <div className="boxmat">
+        <div className="floatimg">
             <img src={textads} alt="Jeffamazon newsletter image" />
         </div>
-      <div className="inner-content25">
-       <h2><span>Text Ads</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer">
-      <p>Text Ads are the most simple and frictionless way to get your brands message across our audience.</p>
-      </a>
+        <div className="box">
+        <h1>Text Ads</h1>
+        <p>Text ads are the most simple and frictionless way to get your brands message across our audience.</p>
       <div className="btn">
         <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Learn more
+            Launch campaign
         </a>
       </div>
       </div>
-              <div className="floatimg">
-            <img src={newsads} alt="Jeffamazon newsletter image" />
-        </div>
-      <div className="inner-content25">
-       <h2><span>Mini Ads</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer">
-      <p>Mini Ads appear in the "Today's News" section, and gives you the chance to promote your product or service.</p>
-      </a>
+     </div>
+      </div>
+    </div>      
+    <div className="inner-content3sm">
+      <div className="grid">
+      <div className="boxmat">
+         <div className="floatimg">
+          <img src={newsads} alt="Jeffamazon newsletter image" />
+      </div>
+      <div className="box">
+        <h1>Mini Ads</h1>
+        <p>Mini ads appear above our feed, giving you an early chance to promote your product or service.</p>
       <div className="btn">
         <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Learn more
+            Launch campaign
         </a>
       </div>
       </div>
-      {/* <div className="floatimg">
+      </div>
+     <div className="boxmat">
+        <div className="floatimg">
             <img src={takeoverads} alt="Jeffamazon newsletter image" />
         </div>
-      <div className="inner-content25">
-       <h2><span>Takeover Ads</span></h2>
-      <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer">
-      <p>Give your favorite ads a big experience that takes over our timeline with a widescreen image and a CTA button to maximize engagement to your website or app.</p>
-      </a>
+      <div className="box">
+        <h1>Takeover Ads</h1>
+        <p>Takeover ads give you a widescreen image and a CTA button to maximizes your engagement.</p>
       <div className="btn">
         <a title="email us" href="mailto:chris@jeffamazon.com" rel="noopener noreferrer" className="pricebtn">
-            Learn more
+            Launch campaign
         </a>
       </div>
-      </div> */}
+      </div>
+     </div>
+      </div>
+    </div>
        <div className="inner-content3">
       <div className="grid">
       <div className="box">
@@ -157,7 +169,7 @@ export default function Index() {
       </div>
       </div>
     </div>
-          <div className="inner-content2555">
+      <div className="inner-content25">
       <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
       <p>" Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</p>
       </a>
@@ -170,20 +182,7 @@ export default function Index() {
       </p>
       </div>
       </div>
-       <div className="inner-content3sm">
-      <div className="grid">
-      <div className="box">
-        <h1>Advertise</h1>
-        <p>Want to post? We're looking for new advertisers.</p>
-        <a title="get in touch" href="mailto:ads@jeffamazon.com"  rel="noopener noreferrer">Get in touch →</a>
-      </div>
-      <div className="box">
-        <h1>Subscribe</h1>
-        <p>Want to know what matters?</p>
-        <a title="subscribe today" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe →</a>
-      </div>
-      </div>
-    </div>
+
     </div>
   );
 }

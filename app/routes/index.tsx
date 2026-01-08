@@ -88,7 +88,7 @@ export default function Index() {
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
       <a title="jeffamazon home page" href="https://jeffamazon.com/"  rel="noopener noreferrer">
-      <p>Jeffamazon is an informative and insightful 1-minute daily newsletter that helps you make smarter decisions and know more about business strategy, technology, and economic trends.</p>
+      <p>Jeffamazon is a quick and insightful daily newsletter that helps you make sense of business strategy, technology, and economic trends.</p>
       </a>
       <div className="btn">
         <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
