@@ -152,7 +152,7 @@ export default function Index() {
       </div>
       <div className="box">
         <h1>Subscribe</h1>
-        <p>Want to scroll what matters in one minute or less?</p>
+        <p>Get what matters delivered straight to your inbox.</p>
             <Link className="text" to="/subscribe">Subscribe →</Link>
       </div>
       </div>

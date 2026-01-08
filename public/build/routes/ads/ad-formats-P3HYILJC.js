@@ -492,7 +492,7 @@ function Index() {
           lineNumber: 154,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Want to scroll what matters in one minute or less?" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get what matters delivered straight to your inbox." }, void 0, false, {
           fileName: "app/routes/ads/ad-formats.tsx",
           lineNumber: 155,
           columnNumber: 9
@@ -525,4 +525,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-formats-WVTGR5P3.js.map
+//# sourceMappingURL=/build/routes/ads/ad-formats-P3HYILJC.js.map

@@ -65,7 +65,7 @@ export default function Index() {
             <img src={tobi} alt="Jeffamazon newsletter image" />
         </div>
       <div className="inner-content25sm">
-       <h2><span>Know more</span></h2>
+       <h2><span>Stay updated</span></h2>
              <Link className="text" to="/subscribe">Get a quick update about what matters across the business world.</Link>
       </div>
       <div className="floatimg">
@@ -113,7 +113,7 @@ export default function Index() {
       <div className="grid">
       <div className="box">
         <h1>Subscribe</h1>
-        <p>Want to know what matters in one minute or less?</p>
+        <p>Get what matters delivered straight to your inbox.</p>
           <Link className="text" to="/subscribe">Subscribe →</Link>
       </div>
       <div className="box">
