@@ -29,9 +29,9 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>Hey I'm Chris Signore</h4>
-            <h1>I started Jeffamazon to know what really matters in the world. And every morning I share what I know with you in a 1-minute email that's actually fun to read.</h1>
-            <p>Join <span>32,000+ people</span> getting what matters across busines and technology every day of the week, along with the ocassional architectural digest gone wild, cool car pic, or just some weird looking AI robot - I'll help you know more 🚀</p>
+            <h4>Hey, I'm Chris</h4>
+            <h1>Aspiring writer.<br />Aspiring entrepreneur.<br />Aspiring morning person.</h1>
+            <p>But I'm best known for my daily newsletter - Jeffamazon 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
@@ -49,13 +49,13 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Hey I'm <span>Chris Signore</span></h2>
-          <Link className="text" to="/subscribe">I'm the founder of Shilll.com, the parent company for all my ideas like Jeffamazon - my daily business newsletter reaching over 32,000 people, or The Poast - my weekly local newsletter reaching over 11,000 people.</Link>
+          <Link className="text" to="/subscribe">I'm best known for my daily newsletter Jeffamazon. It's a 1-minute scroll through the morning news  that helps 32,000 people stay ahead of the curve.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">I'm "retired" in the sense that I'm not chasing a traditional career - instead I spend my time focusing on building products that I believe should exist in the world.</Link>
+          <Link className="text" to="/subscribe">But I'm also an expert in company building, and designing, engineering, and developing products I can freely share with others.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">Before starting this journey I worked at ProSlide Technology for 5 years - to the day - for a guy named Rick Hunter. And as cool as his water slides were, every project started to feel the exact same to me. I got bored, read a lot of TechCrunch and thought I could do TechCrunch, but better.</Link>          
+          <Link className="text" to="/subscribe">Because the trust is a big part of my life is actually building products I can freely share with YOU.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">I'm a proud commerce grad, but I actually like to think of myself as a desgign engineer who graduated from ProSlide University.</Link>
+          <Link className="text" to="/subscribe">So if you ever want your money back, the best way to reach me is <span>chris@jeffamazon.com</span></Link>
       </div>
       <div className="inner-content251">
           <Link className="text" to="/subscribe">My newsletters.</Link>

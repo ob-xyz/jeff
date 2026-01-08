@@ -60,7 +60,6 @@
         text-align: left;
         padding:2rem 0rem .5rem 0;
         margin-left:0;
-        width:95%;
     }
     p span{
       font-size: 1.5rem;
@@ -76,7 +75,7 @@ form {
 }
 .input-wrapper {
   position: relative;
-  width: 34rem;
+  width: 36.5rem;
 }
 input.email {
   width: 100%;
@@ -117,8 +116,8 @@ button.submit {
 }
   }
 .inner-content1{
+      margin:-2rem 0 0 4rem; 
     img{
-      margin:-10rem 35rem 0 0rem; 
       width: 100%;
       border-top-left-radius: 2rem;
       border-bottom-left-radius: 2rem;
@@ -364,7 +363,7 @@ p, .text{
     }
 form {
 .input-wrapper {
-  width: 34rem; 
+  width: 36.5rem;
   }
     }
   }
@@ -424,7 +423,7 @@ form {
     }
 form {
 .input-wrapper {
-  width: 34rem;
+  width: 36.5rem;
   }
     }
   }
