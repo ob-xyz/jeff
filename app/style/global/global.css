@@ -205,7 +205,6 @@
   background: #02090A;
   border-radius: 2rem;
   padding: 0 5rem;
-  padding-bottom: 5rem;
   margin-left: 5rem;
   margin-right: 5rem;
   width: auto;
@@ -298,6 +297,7 @@
   margin-left: 5rem;
   margin-right: 5rem;
   border-radius: 2rem;
+  padding-bottom: 5rem;
   width: auto;
 }
 .container .inner-content255 {
@@ -535,6 +535,7 @@
   .container .inner-content2 {
     margin: 0 auto;
     padding: 0 2.5rem;
+    padding-bottom: 5rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
