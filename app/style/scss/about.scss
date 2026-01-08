@@ -38,6 +38,9 @@
         font-family:kl;
         font-size:1.35rem;
     }
+    a{
+      font-family: kl;
+    }
 .content{
   display:flex;
   flex-direction:row;
@@ -269,7 +272,7 @@ p {
       background-image: none;
       user-select: none;
       pointer-events: none;
-      font-family: bold;
+      font-family: kl;
     }
     p:nth-child(2){
       font-family: ku;

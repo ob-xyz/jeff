@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ja3.png";
@@ -51,49 +52,37 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Start your day with <span>Jeffamazon</span></h2>
-      <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">
-      <p>Don't waste good mornings scrolling to stay informed. <span>Jeffamazon is the antidote keeping 32,000+ people in the loop</span> about what matters in the business world.</p>
-      </a>
+        <Link className="text" to="/subscribe">Don't waste good mornings scrolling to stay informed. <span>Jeffamazon is the antidote keeping 32,000+ people in the loop</span> about what matters in the business world.</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
        <h2><span>Be decisive</span></h2>
-      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>Become a decision making machine who makes smarter decisions.</p>
-      </a>
+          <Link className="text" to="/subscribe">Become a decision making machine who makes smarter decisions.</Link>
       </div>
       <div className="floatimg">
             <img src={tobi} alt="Jeffamazon newsletter image" />
         </div>
       <div className="inner-content25sm">
        <h2><span>Know more</span></h2>
-      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>Get a quick update about what matters across the business world.</p>
-      </a>
+             <Link className="text" to="/subscribe">Get a quick update about what matters across the business world.</Link>
       </div>
       <div className="floatimg">
           <img src={jensen} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
        <h2><span>Asymmetric upside</span></h2>
-      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>Enjoy our Sunday deep dives into smart bets with asymmetric upside.</p>
-      </a>
+      <Link className="text" to="/subscribe">Enjoy our Sunday deep dives into smart bets with asymmetric upside.</Link>
       </div>
       <div className="floatimg">
           <img src={header2} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
-      <a title="jeffamazon home page" href="https://jeffamazon.com/"  rel="noopener noreferrer">
-      <p>Jeffamazon is a quick and insightful daily newsletter that helps you make sense of business strategy, technology, and economic trends.</p>
-      </a>
+            <Link className="text" to="/subscribe">Jeffamazon is a quick and insightful daily newsletter that helps you make sense of business strategy, technology, and economic trends.</Link>
       <div className="btn">
-        <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer" className="pricebtn">
-            Subscribe for free
-        </a>
+          <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
       </div>
       <div className="inner-content255">
@@ -102,9 +91,7 @@ export default function Index() {
       <p className="noclick">Founder</p>
       <p className="noclick">Chris Signore</p>
       <div className="btn">
-        <a title="subscription form" href="https://thepoast.com/"  rel="noopener noreferrer" className="pricebtn">
-            About
-        </a>
+          <Link className="pricebtn" to="/about">About</Link>
       </div>
         </div>
         <div className="side2">
@@ -112,9 +99,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-      <a title="the poast home" href="https://thepoast.com/"  rel="noopener noreferrer">
-      <p>" It's the one thing that actually lets me know what matters.</p>
-      </a>
+          <Link className="text" to="/about">" It's the one thing that actually lets me know what matters.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
@@ -129,7 +114,7 @@ export default function Index() {
       <div className="box">
         <h1>Subscribe</h1>
         <p>Want to know what matters?</p>
-        <a title="subscribe today" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe →</a>
+          <Link className="text" to="/subscribe">Subscribe →</Link>
       </div>
       <div className="box">
         <h1>Advertise</h1>

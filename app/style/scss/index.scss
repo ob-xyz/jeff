@@ -34,9 +34,12 @@
       font-size:1.35rem;
       color:$darkred;
       }
-    p{
+    p, .text{
         font-family:kl;
         font-size:1.35rem;
+    }
+    a{
+      font-family: kl;
     }
 .content{
   display:flex;
@@ -121,6 +124,7 @@ button.submit {
   border-top-left-radius:2rem;
   border-top-right-radius:2rem;
   padding:0 5rem;
+  padding-bottom: 5rem;
   h2, h2 span{
       padding-top:6rem;
       margin-left:0;
@@ -129,12 +133,11 @@ button.submit {
   h2 span{
     font-size:4.5rem;
   }
-p {
+p, .text {
   width:95%;
   padding-top: 1.5rem;
   font-size: 3rem;
   margin-left: 0;
-  margin-bottom: 5rem;
   color: #7a7a7a; //fb
   background:#7a7a7a;
   transition: all 0.5s ease-in-out;
@@ -179,6 +182,7 @@ p span{
   background:#02090A;
   border-radius:2rem;
   padding:0 5rem;
+  padding-bottom: 5rem;
   margin-left:5rem;
   margin-right:5rem;
   width: auto;
@@ -189,10 +193,11 @@ p span{
       margin:0 auto;
       color:#fafafa;
     }
-p {
+p, .text {
   text-align: center;
   padding-top: 1.5rem;
   font-size: 3rem;
+  font-family: kl;
   margin: 0 auto;
   margin-bottom:4rem;
   color: #7a7a7a; //fb
@@ -213,7 +218,7 @@ p {
 }
 .btn { 
   display: flex;
-  margin:0 auto 6rem auto;
+  margin:3rem auto 5rem auto;
   .pricebtn {
     border-radius: 5rem;
     padding: 1rem 1.75rem;
@@ -299,7 +304,8 @@ p {
   border-radius:2rem;
   padding:8rem 8rem;
   width:auto;
-  p{
+  text-align: left;
+  p, .text{
     text-align: left;
     font-family: ku;
     background-color:#fafafa;
@@ -317,6 +323,7 @@ p {
       user-select: none;
       pointer-events: none;
       font-family: bold;
+      font-family: kl;
     }
     p:nth-child(2){
       font-family: ku;
@@ -351,14 +358,15 @@ p {
       color:#7a7a7a;
       text-align: center;
     }
-    p, a {
+    p, a, .text {
       color: #fafafa;
       flex-grow: 1;
       text-align: center;
+      font-family: kl;
       font-size:2.5rem;
       width:100%;
     }
-    a{
+    a, .text{
       margin-top: 1.5rem;
       margin-bottom:1.5rem;
       font-size:1.5rem;
@@ -553,6 +561,7 @@ form {
   padding:0 2.5rem;
   border-top-left-radius:1.5rem;
   border-top-right-radius:1.5rem;
+  padding-bottom:4rem;
   h2{
     padding-top:3.5rem;
     font-size:3rem;
@@ -561,13 +570,13 @@ form {
     h2 span{
       font-size:3.5rem;
     }
-  p {
+  p, .text{
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size:2.25rem;
     width:100%;
   }
-    p span{
+    p span, .text span{
     font-size:2.5rem;
   }
 }
@@ -593,7 +602,7 @@ form {
   h2, h2 span{
     font-size:1.25rem;
   }
-  p{
+  p, .text{
     font-size: 1.5rem;
   }
   .btn{
@@ -611,7 +620,7 @@ form {
   margin-left:1.5rem;
   margin-right:1.5rem;
   padding:4rem 2rem;
-  p{
+  p, .text{
     font-size: 2rem;
   }
   .tag{
@@ -686,6 +695,7 @@ form {
   margin-left:0;
   margin-right:0;
   padding:0 2rem;
+  padding-bottom:4rem;
   border-top-left-radius:1.5rem;
   border-top-right-radius:1.5rem;
   h2, h2 span{
@@ -695,13 +705,13 @@ form {
     h2 span{
       font-size:2.5rem;
     }
-  p {
+  p, .text{
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size:1.75rem;
     width:100%;
   }
-  p span{
+  p span, .text span{
     font-size:2rem;
   }
 }
@@ -716,21 +726,22 @@ form {
   margin-left:1.5rem;
   margin-right:1.5rem;
   padding:0 1rem;
+  padding-bottom:3rem;
   h2, h2 span{
       padding-top:2.25rem;
       font-size:2.25rem;
     }
-p {
+p, .text {
   padding-top: 1rem;
   font-size: 1.75rem;
 }
 }
 .inner-content25{
-  p{
+  padding-bottom: 0;
+  p, .text{
     margin-bottom:2rem;
   }
     .btn{
-        margin-bottom:4rem;
       .pricebtn{
       font-size: 1rem;
       }
@@ -766,7 +777,7 @@ p {
   margin-left:1.5rem;
   margin-right:1.5rem;
   padding:4rem 2rem;
-  p{
+  p, .text{
     font-size: 2rem;
   }
   .tag{
