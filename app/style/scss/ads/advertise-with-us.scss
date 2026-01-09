@@ -438,7 +438,6 @@ p, .text{
   padding-top:.25rem;
 }
 .input-wrapper {
-  position: relative;
   width: 38rem;
 }
 input.email {
@@ -658,7 +657,30 @@ form {
 .inner-content3{
   margin-top:7rem;
 }
+.ad-form{
+  margin-left:1.5rem;
+  margin-right:1.5rem;
+  margin-top: 0;
+  margin-bottom: 4rem;
+  .inner-form{
+    padding:2rem 1.5rem 2rem 1.5rem;
+.text{
+    h1{
+        font-size: 2rem;
+    }
+}
+.inner-content{
+  margin-left: 0;
+  form {
+      margin-left: 0;
 
+.input-wrapper {
+  width: 35rem;
+}
+}
+}
+}
+}
 }
 }
 @media (max-width: 659px) {
@@ -803,6 +825,30 @@ p, .text{
 }
 .inner-content3sm{
   margin-top:-4rem; 
+}
+.ad-form{
+  margin-left:1.5rem;
+  margin-right:1.5rem;
+  margin-top: 0;
+  margin-bottom: 4rem;
+  .inner-form{
+    padding:2rem 1.5rem 2rem 1.5rem;
+.text{
+    h1{
+        font-size: 2rem;
+    }
+}
+.inner-content{
+  margin-left: 0;
+  form {
+      margin-left: 0;
+
+.input-wrapper {
+  width: 28.75rem;
+}
+}
+}
+}
 }
 }
 }

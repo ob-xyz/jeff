@@ -4823,7 +4823,6 @@
   padding-top: .25rem;
 }
 .ads-container .ad-form .inner-form .inner-content form .input-wrapper {
-  position: relative;
   width: 38rem;
 }
 .ads-container .ad-form .inner-form .inner-content form input.email {
@@ -5009,6 +5008,25 @@
   .ads-container .inner-content3 {
     margin-top: 7rem;
   }
+  .ads-container .ad-form {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+  }
+  .ads-container .ad-form .inner-form {
+    padding: 2rem 1.5rem;
+  }
+  .ads-container .ad-form .inner-form .text h1 {
+    font-size: 2rem;
+  }
+  .ads-container .ad-form .inner-form .inner-content,
+  .ads-container .ad-form .inner-form .inner-content form {
+    margin-left: 0;
+  }
+  .ads-container .ad-form .inner-form .inner-content form .input-wrapper {
+    width: 35rem;
+  }
 }
 @media (max-width: 659px) {
   .ads-container h3 {
@@ -5152,6 +5170,25 @@
   }
   .ads-container .inner-content3sm {
     margin-top: -4rem;
+  }
+  .ads-container .ad-form {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+  }
+  .ads-container .ad-form .inner-form {
+    padding: 2rem 1.5rem;
+  }
+  .ads-container .ad-form .inner-form .text h1 {
+    font-size: 2rem;
+  }
+  .ads-container .ad-form .inner-form .inner-content,
+  .ads-container .ad-form .inner-form .inner-content form {
+    margin-left: 0;
+  }
+  .ads-container .ad-form .inner-form .inner-content form .input-wrapper {
+    width: 28.75rem;
   }
 }
 .content-privacy {
