@@ -53,70 +53,40 @@
 .text{
     h1{
         margin-left:0;
-        width:95%;
+        width:100%;
         font-size:2.5rem;
     }
     p{
         text-align: left;
-        padding:2rem 0rem .5rem 0;
+        padding-top: .35rem;
         margin-left:0;
-    }
-    p span{
-      font-size: 1.5rem;
+        width:100%;
     }
 }
-form {
+.btn { 
   display: flex;
-  flex-direction: column;
   margin-left: 0;
-.h-captcha{
-  margin:0;
-  padding-top:.25rem;
-}
-.input-wrapper {
-  position: relative;
-  width: 36.5rem;
-}
-input.email {
-  width: 100%;
-  padding: 0.85rem 6rem 0.85rem 0.75rem;
-  font-family: Arial, sans-serif;
-  color: #000;
-  border: .15rem solid #02090A;
-  border-radius: 0.2rem;
-  font-size: 1.1rem;
-  box-sizing: border-box;
-
-  &:focus {
-    outline: none;
-    box-shadow: 0 0 1px 1px #02090A;
-    border-color: #02090A;
-    caret-color: #02090A;
-  }
-}
-
-button.submit {
-  position: absolute;
-  top: 0px;
-  right: 2px;
-  bottom: 0px;
-  padding: 0 2rem;
-  background-color: #02090A;
-  color: #fafafa;
-  border: none;
-  border-left: .15rem solid #02090a;
-  border-radius: 0 0.2rem 0.2rem 0;
-  font-size: 1rem;
-
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  .pricebtn {
+    border-radius: 5rem;
+    padding: 1rem 1.75rem;
+    background-color: #02090A;
+    color: #fafafa;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-family: bold;
   &:hover {
     opacity: .85;
     cursor: pointer;
   }
-}
+  }
 }
   }
 .inner-content1{
-      margin:-2rem 0 0 0rem;
+      margin:-3rem -3rem 0 0rem;
+      width:50%;
     img{
       width: 80%;
       border-radius: 2rem;
@@ -400,15 +370,11 @@ form {
         font-size: 2.5rem;
       }
     }
-form {
-.input-wrapper {
-  width: 36.5rem;
-  }
-    }
   }
  .inner-content1{
   margin:0 auto;
   margin-top: 3rem;
+  width:100%;
   img {
     display: block;
     margin:0 auto;
@@ -511,15 +477,11 @@ form {
         width:87.5%;
       }
     }
-form {
-.input-wrapper {
-  width: 22rem;
-  }
-    }
   }
  .inner-content1{
   margin:0 auto;
   margin-top: 3rem;
+  width:100%;
   img {
     display: block;
     margin:0 auto;

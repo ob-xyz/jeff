@@ -36,7 +36,7 @@ export default function Index() {
           <input className="email" type="text" name="lastName" required placeholder="Last Name *" />
           <input className="email" type="text" name="company" required placeholder="Company *" />
           <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
-          <button className="submit" type="submit">Get in touch</button>
+          <button className="submit" type="submit">Request quote</button>
         </div>
         <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
         <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />

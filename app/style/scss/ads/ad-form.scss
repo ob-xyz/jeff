@@ -88,17 +88,16 @@ input.email {
 }
 
 button.submit {
-  margin-top:.3rem;
-  padding: .75rem 1.75rem;
-  background-color: #02090A;
-  color: #fafafa;
-  border: none;
-  border: .15rem solid #02090A;
-  border-radius: 0.2rem;
-  font-size: 1rem;
-
+    margin-top:.3rem;
+    padding: 1rem 1.75rem;
+    background-color: #02090A;
+    color: #fafafa;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-family: bold;
   &:hover {
-    opacity:.85;
+    opacity: .85;
     cursor: pointer;
   }
 }

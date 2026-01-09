@@ -77,7 +77,7 @@ function Index() {
               lineNumber: 38,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "submit", type: "submit", children: "Get in touch" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "submit", type: "submit", children: "Request quote" }, void 0, false, {
               fileName: "app/routes/ads/ad-form.tsx",
               lineNumber: 39,
               columnNumber: 11
@@ -158,4 +158,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-form-3ABIEE2M.js.map
+//# sourceMappingURL=/build/routes/ads/ad-form-VJP4UQU4.js.map
