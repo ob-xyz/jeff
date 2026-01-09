@@ -476,7 +476,7 @@ function Index() {
           lineNumber: 150,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the 1-minute newsletter helping businesses do more \u{1F680}" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the 1-minute newsletter helping businesses do more." }, void 0, false, {
           fileName: "app/routes/ads/ad-formats.tsx",
           lineNumber: 151,
           columnNumber: 13
@@ -567,4 +567,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-formats-R3XQ2BM7.js.map
+//# sourceMappingURL=/build/routes/ads/ad-formats-QECKQ3TV.js.map
