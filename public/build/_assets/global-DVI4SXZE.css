@@ -936,12 +936,11 @@
   cursor: pointer;
 }
 .about-container .content .inner-content1 {
-  margin: -1rem 0 0 4rem;
+  margin: -2rem 0 0 0rem;
 }
 .about-container .content .inner-content1 img {
-  width: 100%;
-  border-top-left-radius: 2rem;
-  border-bottom-left-radius: 2rem;
+  width: 80%;
+  border-radius: 2rem;
 }
 .about-container .inner-content2 {
   background: #02090A;
@@ -1219,7 +1218,8 @@
     display: block;
     margin: 0 auto;
     width: 80%;
-    border-bottom-left-radius: 0;
+    border-radius: 0;
+    border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
   }
   .about-container .inner-content2 {
@@ -1316,7 +1316,8 @@
     display: block;
     margin: 0 auto;
     width: 80%;
-    border-bottom-left-radius: 0;
+    border-radius: 0;
+    border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
   }
   .about-container .inner-content2 {
