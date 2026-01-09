@@ -119,7 +119,7 @@ export default function Index() {
       <div className="box">
         <h1>Advertise</h1>
         <p>Want to post? We're looking for new advertisers.</p>
-          <Link className="text" to="/subscribe">Get in touch →</Link>
+          <Link className="text" to="/ads/ad-form">Get in touch →</Link>
       </div>
       </div>
     </div>

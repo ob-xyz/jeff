@@ -54,7 +54,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Connect with your next customers on <span>Jeffamazon</span></h2>
-          <Link className="text" to="/subscribe">Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience.</Link>
+          <Link className="text" to="/ads/ad-form">Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience.</Link>
       </div>
       <div className="inner-content3sm">
       <div className="grid">
@@ -66,7 +66,7 @@ export default function Index() {
         <h1>Image Ads</h1>
         <p>Image ads allow you to showcase your product or service with plain jane text and a single photo.</p>
       <div className="btn">
-          <Link className="pricebtn" to="/subscribe">Launch campaign</Link>
+          <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
       </div>
       </div>
       </div>
@@ -78,7 +78,7 @@ export default function Index() {
         <h1>Video Ads</h1>
         <p>Video ads are short clips that turn your offer into content people are more likely to engage in.</p>
       <div className="btn">
-          <Link className="pricebtn" to="/subscribe">Launch campaign</Link>
+          <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
       </div>
       </div>
      </div>
@@ -94,7 +94,7 @@ export default function Index() {
         <h1>Carousel Ads</h1>
         <p>Carousel ads automatically rotate up to six horizontally-shaped images to showcase multiple products.</p>
       <div className="btn">
-          <Link className="pricebtn" to="/subscribe">Launch campaign</Link>
+          <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
       </div>
       </div>
       </div>
@@ -106,7 +106,7 @@ export default function Index() {
         <h1>Text Ads</h1>
         <p>Text ads are the most simple and frictionless way to get your brands message across our audience.</p>
       <div className="btn">
-          <Link className="pricebtn" to="/subscribe">Launch campaign</Link>
+          <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
       </div>
       </div>
      </div>
@@ -122,7 +122,7 @@ export default function Index() {
         <h1>Mini Ads</h1>
         <p>Mini ads appear above our feed, giving you an early chance to promote your product or service.</p>
       <div className="btn">
-          <Link className="pricebtn" to="/subscribe">Launch campaign</Link>
+          <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
       </div>
       </div>
       </div>
@@ -134,7 +134,7 @@ export default function Index() {
         <h1>Takeover Ads</h1>
         <p>Takeover ads give you a widescreen image and a CTA button to maximizes your engagement.</p>
       <div className="btn">
-          <Link className="pricebtn" to="/subscribe">Launch campaign</Link>
+          <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
       </div>
       </div>
      </div>
@@ -157,7 +157,7 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-          <Link className="text" to="/subscribe">" Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</Link>
+            <Link className="text" to="/ads/ad-form">" Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</Link>
       <div className="tag">
       <p>
         SOURCE
@@ -167,7 +167,6 @@ export default function Index() {
       </p>
       </div>
       </div>
-
-    </div>
+    </div> 
   );
 }

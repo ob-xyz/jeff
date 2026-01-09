@@ -54,16 +54,16 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Connect with your next customers on <span>Jeffamazon</span></h2>
-          <Link className="text" to="/subscribe">Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience.</Link>
+          <Link className="text" to="/ads/ad-form">Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience.</Link>
       </div>
         <div className="floatimg">
             <img src={imageads} alt="Jeffamazon newsletter image" />
         </div>
       <div className="inner-content25">
        <h2><span>Image Ads</span></h2>
-            <Link className="text" to="/subscribe">Image ads allow you to showcase your product or service with plain jane text and a single photo.</Link>
+            <Link className="text" to="/ads/ad-form">Image ads allow you to showcase your product or service with plain jane text and a single photo.</Link>
       <div className="btn">
-            <Link className="pricebtn" to="/subscribe">Learn more</Link>
+            <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
       </div>
       </div>
       <div className="floatimg">
@@ -71,9 +71,9 @@ export default function Index() {
         </div>
       <div className="inner-content25">
        <h2><span>Video Ads</span></h2>
-            <Link className="text" to="/subscribe">Video ads are short clips that turn your offer into content people are more likely to engage in.</Link>
+            <Link className="text" to="/ads/ad-form">Video ads are short clips that turn your offer into content people are more likely to engage in.</Link>
       <div className="btn">
-            <Link className="pricebtn" to="/subscribe">Learn more</Link>
+            <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
       </div>
       </div>
      <div className="floatimg">
@@ -81,9 +81,9 @@ export default function Index() {
         </div>
       <div className="inner-content25">
        <h2><span>Carousel Ads</span></h2>
-            <Link className="text" to="/subscribe">Carousel ads automatically rotate up to six horizontally-shaped images to showcase multiple products.</Link>
+            <Link className="text" to="/ads/ad-form">Carousel ads automatically rotate up to six horizontally-shaped images to showcase multiple products.</Link>
       <div className="btn">
-            <Link className="pricebtn" to="/subscribe">Learn more</Link>
+            <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
       </div>
       </div>
       <div className="floatimg">
@@ -91,9 +91,9 @@ export default function Index() {
       </div>
       <div className="inner-content25">
        <h2><span>Text Ads</span></h2>
-            <Link className="text" to="/subscribe">Text ads are the most simple and frictionless way to get your brands message across our audience.</Link>
+            <Link className="text" to="/ads/ad-form">Text ads are the most simple and frictionless way to get your brands message across our audience.</Link>
       <div className="btn">
-            <Link className="pricebtn" to="/subscribe">Learn more</Link>
+            <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
       </div>
       </div>
       <div className="floatimg">
@@ -101,9 +101,9 @@ export default function Index() {
         </div>
       <div className="inner-content25">
        <h2><span>Mini Ads</span></h2>
-            <Link className="text" to="/subscribe">Mini ads appear above our feed, giving you an early chance to promote your product or service.</Link>
+            <Link className="text" to="/ads/ad-form">Mini ads appear above our feed, giving you an early chance to promote your product or service.</Link>
       <div className="btn">
-            <Link className="pricebtn" to="/subscribe">Learn more</Link>
+            <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
       </div>
       </div>
       <div className="floatimg">
@@ -111,9 +111,9 @@ export default function Index() {
         </div>
       <div className="inner-content25">
        <h2><span>Takeover Ads</span></h2>
-            <Link className="text" to="/subscribe">Takeover ads give you a widescreen image and a CTA button to maximizes your engagement.</Link>
+            <Link className="text" to="/ads/ad-form">Takeover ads give you a widescreen image and a CTA button to maximizes your engagement.</Link>
       <div className="btn">
-            <Link className="pricebtn" to="/subscribe">Learn more</Link>
+            <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
       </div>
       </div>
        <div className="inner-content3">
@@ -133,7 +133,7 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content2555">
-            <Link className="text" to="/subscribe">" Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</Link>
+            <Link className="text" to="/ads/ad-form">" Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</Link>
       <div className="tag">
       <p>
         SOURCE
@@ -148,7 +148,7 @@ export default function Index() {
       <div className="box">
         <h1>Advertise</h1>
         <p>Want to post? We're looking for new advertisers.</p>
-        <Link className="text" to="/subscribe">Get in touch →</Link>
+        <Link className="text" to="/ads/ad-form">Get in touch →</Link>
       </div>
       <div className="box">
         <h1>Subscribe</h1>
