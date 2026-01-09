@@ -171,7 +171,7 @@ function Index() {
         lineNumber: 53,
         columnNumber: 23
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "But I'm also an expert in company building and designing and engineering products I can easily share with others." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "But I'm also an expert in company building and designing and engineering products I can share with YOU." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 54,
         columnNumber: 11
@@ -191,7 +191,7 @@ function Index() {
         lineNumber: 55,
         columnNumber: 23
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Because the truth is - a big joy in my life is building things I can easily share with YOU." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "A big joy in my life has been building things I can open source and freely share with others." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 56,
         columnNumber: 11
@@ -328,7 +328,7 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content25", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: '" A big joy in my life is building things I can easily share with YOU.' }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: '" A big joy in my life is building things I can share with YOU.' }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 92,
         columnNumber: 11
@@ -363,4 +363,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-XVHZO4QW.js.map
+//# sourceMappingURL=/build/routes/about-42LJUNUO.js.map

@@ -51,9 +51,9 @@ export default function Index() {
       <h2>Hey I'm <span>Chris Signore</span></h2>
           <Link className="text" to="/subscribe">I'm best known for my daily newsletter Jeffamazon.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">But I'm also an expert in company building and designing and engineering products I can easily share with others.</Link>
+          <Link className="text" to="/subscribe">But I'm also an expert in company building and designing and engineering products I can share with YOU.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">Because the truth is - a big joy in my life is building things I can easily share with YOU.</Link>
+          <Link className="text" to="/subscribe">A big joy in my life has been building things I can open source and freely share with others.</Link>
           <br /><br /><br />
           <Link className="text" to="/subscribe">So if you ever want your money back, the best way to reach me is <span>chris@jeffamazon.com</span></Link>
       </div>
@@ -89,7 +89,7 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-          <Link className="text" to="/subscribe">" A big joy in my life is building things I can easily share with YOU.</Link>
+          <Link className="text" to="/subscribe">" A big joy in my life is building things I can share with YOU.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
