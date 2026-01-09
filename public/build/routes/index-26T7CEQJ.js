@@ -1,4 +1,10 @@
 import {
+  ja4_default,
+  jensene_default,
+  samae_default,
+  tobic_default
+} from "/build/_shared/chunk-GZSPDYTP.js";
+import {
   cs_default
 } from "/build/_shared/chunk-EJTSO6MN.js";
 import {
@@ -18,20 +24,6 @@ import {
 
 // app/routes/index.tsx
 var import_react = __toESM(require_react());
-
-// public/img/ja4.png
-var ja4_default = "/build/_assets/ja4-CQ7U7DWC.png";
-
-// public/img/samae.jpg
-var samae_default = "/build/_assets/samae-CWPSNLTO.jpg";
-
-// public/img/tobic.jpg
-var tobic_default = "/build/_assets/tobic-6TILYHMG.jpg";
-
-// public/img/jensene.jpg
-var jensene_default = "/build/_assets/jensene-E5P7OGL2.jpg";
-
-// app/routes/index.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
 function Index() {
   (0, import_react.useEffect)(() => {
@@ -426,4 +418,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-BOVFTINT.js.map
+//# sourceMappingURL=/build/routes/index-26T7CEQJ.js.map

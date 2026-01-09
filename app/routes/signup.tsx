@@ -1,0 +1,128 @@
+import { useEffect } from "react";
+import { Link } from "@remix-run/react";
+
+import logo from "~/../public/img/ja1.png";
+import header from "~/../public/img/ja3.png";
+import header2 from "~/../public/img/ja4.png";
+import sama from "~/../public/img/samae.jpg";
+import tobi from "~/../public/img/tobic.jpg";
+import jensen from "~/../public/img/jensene.jpg";
+import cs from "~/../public/img/cs.jpg";
+
+export default function Index() {
+    useEffect(() => {
+    // Dynamically load the hCaptcha script
+    const script = document.createElement("script");
+    script.src = "https://js.hcaptcha.com/1/api.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+
+    // Clean up script on component unmount
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
+  return (
+    <div className="container">
+      <div className="logo">
+        <img src={logo} alt="Jeffamazon Logo" />
+      </div>
+      <div className="content">
+        <div className="inner-content">
+          <div className="text">
+            <h4>JEFFAMAZON 1-MINUTE NEWSLETTER</h4>
+            <h1>Scroll Less. Know More.</h1>
+            <p>Subscribe for your daily dose of what matters 🚀</p>
+          </div>
+      <form method="post" action="https://app.jeffamzn.com/subscription/form">
+        <div className="input-wrapper">
+          <input className="email" type="email" name="email" required placeholder="Email Address *" />
+          <button className="submit" type="submit">Send it</button>
+        </div>
+        <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
+        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+        <input type="hidden" name="nonce" />
+      </form>
+        </div>
+        <div className="inner-content1">
+            <img src={header} alt="Jeffamazon newsletter image" />
+        </div>
+      </div>
+      <div className="inner-content2">
+      <h2>Start your day with <span>Jeffamazon</span></h2>
+        <Link className="text" to="/subscribe">Don't waste good mornings scrolling to stay ahead. <span>Jeffamazon is the antidote keeping 32,000+ people in the loop</span> about what matters in the business world.</Link>
+      </div>
+      <div className="floatimg">
+          <img src={sama} alt="Jeffamazon newsletter image" />
+      </div>
+      <div className="inner-content25sm">
+       <h2><span>Be decisive</span></h2>
+          <Link className="text" to="/subscribe">Become a more decisive person who makes smarter decisions.</Link>
+      </div>
+      <div className="floatimg">
+            <img src={tobi} alt="Jeffamazon newsletter image" />
+        </div>
+      <div className="inner-content25sm">
+       <h2><span>Stay updated</span></h2>
+             <Link className="text" to="/subscribe">Get a quick update about what matters across the business world.</Link>
+      </div>
+      <div className="floatimg">
+          <img src={jensen} alt="Jeffamazon newsletter image" />
+      </div>
+      <div className="inner-content25sm">
+       <h2><span>Asymmetric upside</span></h2>
+      <Link className="text" to="/subscribe">Enjoy our Sunday deep dives into smart bets with asymmetric upside.</Link>
+      </div>
+      <div className="floatimg">
+          <img src={header2} alt="Jeffamazon newsletter image" />
+      </div>
+      <div className="inner-content25">
+       <h2><span>Jeffamazon</span></h2>
+            <Link className="text" to="/subscribe">Jeffamazon is a quick and insightful daily newsletter that helps you make sense of business strategy, technology, and economic trends.</Link>
+      <div className="btn">
+          <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
+      </div>
+      </div>
+      <div className="inner-content255">
+        <div className="side1">
+       <h2><span>LEADERSHIP</span></h2>
+      <p className="noclick">Founder</p>
+      <p className="noclick">Chris Signore</p>
+      <div className="btn">
+          <Link className="pricebtn" to="/about">About</Link>
+      </div>
+        </div>
+        <div className="side2">
+          <img src={cs} alt="Founder image" />
+        </div>
+      </div>
+      <div className="inner-content2555">
+          <Link className="text" to="/about">" It's the one thing that lets me know what really matters right now.</Link>
+      <div className="tag">
+      <p>
+        CHRIS SIGNORE
+      </p>
+      <p>
+        Founder
+      </p>
+      </div>
+      </div>
+       <div className="inner-content3">
+      <div className="grid">
+      <div className="box">
+        <h1>Subscribe</h1>
+        <p>Get what matters delivered straight to your inbox.</p>
+          <Link className="text" to="/subscribe">Subscribe →</Link>
+      </div>
+      <div className="box">
+        <h1>Advertise</h1>
+        <p>Want to post? We're looking for new advertisers.</p>
+          <Link className="text" to="/subscribe">Get in touch →</Link>
+      </div>
+      </div>
+    </div>
+    </div>
+  );
+}
