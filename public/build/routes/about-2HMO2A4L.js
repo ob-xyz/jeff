@@ -191,7 +191,7 @@ function Index() {
         lineNumber: 55,
         columnNumber: 23
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Because the truth is - a big joy in my life is building cool products I can easily share with YOU." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Because the truth is - a big joy in my life is building things I can easily share with YOU." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 56,
         columnNumber: 11
@@ -328,18 +328,18 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content25", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: '" Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.' }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: '" A big joy in my life is building things I can easily share with YOU.' }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 92,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "tag", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "SOURCE" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "CHRIS SIGNORE" }, void 0, false, {
           fileName: "app/routes/about.tsx",
           lineNumber: 94,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Nielsen Brand Effect (US/UK/JP/CA), Q3 2015 - Q3 2018 Connect campaigns. Comparison is v. 1 ad format alone." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Founder" }, void 0, false, {
           fileName: "app/routes/about.tsx",
           lineNumber: 97,
           columnNumber: 7
@@ -363,4 +363,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-I7TSJSCO.js.map
+//# sourceMappingURL=/build/routes/about-2HMO2A4L.js.map

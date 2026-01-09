@@ -53,7 +53,7 @@ export default function Index() {
           <br /><br /><br />
           <Link className="text" to="/subscribe">But I'm also an expert in company building and designing and engineering products I can easily share with others.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">Because the truth is - a big joy in my life is building cool products I can easily share with YOU.</Link>
+          <Link className="text" to="/subscribe">Because the truth is - a big joy in my life is building things I can easily share with YOU.</Link>
           <br /><br /><br />
           <Link className="text" to="/subscribe">So if you ever want your money back, the best way to reach me is <span>chris@jeffamazon.com</span></Link>
       </div>
@@ -89,13 +89,13 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-          <Link className="text" to="/subscribe">" Using 3 or more ad formats increases campaign awareness by 20% and purchase intent by 7%.</Link>
+          <Link className="text" to="/subscribe">" A big joy in my life is building things I can easily share with YOU.</Link>
       <div className="tag">
       <p>
-        SOURCE
+        CHRIS SIGNORE
       </p>
       <p>
-        Nielsen Brand Effect (US/UK/JP/CA), Q3 2015 - Q3 2018 Connect campaigns. Comparison is v. 1 ad format alone.
+        Founder
       </p>
       </div>
       </div>
