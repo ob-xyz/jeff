@@ -93,19 +93,19 @@ input.email {
 
 button.submit {
   position: absolute;
-  top: 2px;
+  top: 0px;
   right: 2px;
-  bottom: 2px;
+  bottom: 0px;
   padding: 0 2rem;
-  background-color: #fafafa;
-  color: black;
+  background-color: #02090A;
+  color: #fafafa;
   border: none;
-  border-left: .12rem solid #02090A;
+  border-left: .15rem solid #02090a;
   border-radius: 0 0.2rem 0.2rem 0;
   font-size: 1rem;
 
   &:hover {
-    background-color: #F5F5F5;
+    opacity: .85;
     cursor: pointer;
   }
 }
@@ -397,6 +397,82 @@ p, .text{
 }
   }
 }
+}
+.ad-form{
+  margin-left:5rem;
+  margin-right:5rem;
+  margin-top:8rem;
+  width: auto;
+  .inner-form{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    background:#000;
+    padding:4rem 8rem 4rem 8rem;
+    border-radius: 2rem;
+.text{
+    h1{
+        margin-left:0;
+        color:#fafafa;
+    }
+    p{
+        text-align: left;
+        padding:2rem 0rem .5rem 0;
+        margin-left:0;
+        color:#fafafa;
+    }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+.h-captcha{
+  margin:0;
+  padding-top:.25rem;
+}
+.input-wrapper {
+  position: relative;
+  width: 38rem;
+}
+input.email {
+  margin-top:.2rem;
+  width: 100%;
+  padding: 0.85rem 6rem 0.85rem 0.75rem;
+  font-family: Arial, sans-serif;
+  color: #000;
+  border: .15rem solid #02090A;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #02090A;
+    border-color: #02090A;
+    caret-color: #02090A;
+  }
+}
+
+button.submit {
+  margin-top:.5rem;
+    border-radius: 5rem;
+    padding: 1rem 1.75rem;
+    border: 0.2rem solid #fafafa;
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 1.2rem;
+    background: transparent;
+  &:hover {
+    opacity:.85;
+    cursor: pointer;
+  }
+}
+}
+  }
+
 }
 }
 @media (min-width: 875px) and (max-width: 1264px) {

@@ -167,6 +167,27 @@ export default function Index() {
       </p>
       </div>
       </div>
+      <div className="ad-form">
+        <div className="inner-form">
+          <div className="text">
+            <h4>ADVERTISE WITH US</h4>
+            <h1>Reach 32K+ of the world's most decisive people</h1>
+            <p>We're the 1-minute newsletter helping businesses do more 🚀</p>
+          </div>
+      <form method="post" action="https://app.jeffamzn.com/subscription/form">
+        <div className="input-wrapper">
+          <input className="email" type="text" name="firstName" required placeholder="First Name *" />
+          <input className="email" type="text" name="lastName" required placeholder="Last Name *" />
+          <input className="email" type="text" name="company" required placeholder="Company *" />
+          <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
+          <button className="submit" type="submit">Get in touch</button>
+        </div>
+        <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
+        <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
+        <input type="hidden" name="nonce" />
+      </form>
+      </div>
+        </div>
     </div> 
   );
 }

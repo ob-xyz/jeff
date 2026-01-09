@@ -125,7 +125,7 @@ function Footer() {
             lineNumber: 38,
             columnNumber: 5
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/ads/ads", children: "Advertise with us" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/ads/advertise-with-us", children: "Advertise with us" }, void 0, false, {
             fileName: "app/components/footer.tsx",
             lineNumber: 39,
             columnNumber: 5
@@ -232,7 +232,7 @@ function Footer() {
 }
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-KXAEZ4V3.css";
+var global_default = "/build/_assets/global-I3R43ZZI.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
@@ -315,4 +315,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-KWKYWSMO.js.map
+//# sourceMappingURL=/build/root-K2WRDPAP.js.map
