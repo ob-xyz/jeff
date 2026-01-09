@@ -116,6 +116,7 @@ button.submit {
       margin-left:-4.5rem;
       margin-bottom:-16rem;
       width: 100%;
+
     }
   }
 }
@@ -425,10 +426,13 @@ p, .text{
         color:#fafafa;
     }
 }
-form {
+.inner-content{
+  display: flex;
+  form {
   display: flex;
   flex-direction: column;
   margin-left: 0;
+  margin-top: 0;
 .h-captcha{
   margin:0;
   padding-top:.25rem;
@@ -471,8 +475,26 @@ button.submit {
   }
 }
 }
+    img{
+      margin-top: -2.5rem;
+      margin-left:3rem;
+      width: 27.5%;
+    }
+}
+
   }
 
+}
+}
+@media (max-width: 1175px){
+.ad-form{
+.inner-form{
+.inner-content{
+    img{
+      display:none;
+    }
+}
+}
 }
 }
 @media (min-width: 875px) and (max-width: 1264px) {
@@ -636,6 +658,7 @@ form {
 .inner-content3{
   margin-top:7rem;
 }
+
 }
 }
 @media (max-width: 659px) {

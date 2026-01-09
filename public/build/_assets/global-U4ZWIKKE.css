@@ -4809,20 +4809,24 @@
   margin-left: 0;
   color: #fafafa;
 }
-.ads-container .ad-form .inner-form form {
+.ads-container .ad-form .inner-form .inner-content {
+  display: flex;
+}
+.ads-container .ad-form .inner-form .inner-content form {
   display: flex;
   flex-direction: column;
   margin-left: 0;
+  margin-top: 0;
 }
-.ads-container .ad-form .inner-form form .h-captcha {
+.ads-container .ad-form .inner-form .inner-content form .h-captcha {
   margin: 0;
   padding-top: .25rem;
 }
-.ads-container .ad-form .inner-form form .input-wrapper {
+.ads-container .ad-form .inner-form .inner-content form .input-wrapper {
   position: relative;
   width: 38rem;
 }
-.ads-container .ad-form .inner-form form input.email {
+.ads-container .ad-form .inner-form .inner-content form input.email {
   margin-top: .2rem;
   width: 100%;
   padding: .85rem 6rem .85rem .75rem;
@@ -4833,13 +4837,13 @@
   font-size: 1.1rem;
   box-sizing: border-box;
 }
-.ads-container .ad-form .inner-form form input.email:focus {
+.ads-container .ad-form .inner-form .inner-content form input.email:focus {
   outline: none;
   box-shadow: 0 0 1px 1px #02090a;
   border-color: #02090a;
   caret-color: #02090a;
 }
-.ads-container .ad-form .inner-form form button.submit {
+.ads-container .ad-form .inner-form .inner-content form button.submit {
   margin-top: .5rem;
   border-radius: 5rem;
   padding: 1rem 1.75rem;
@@ -4849,9 +4853,19 @@
   font-size: 1.2rem;
   background: transparent;
 }
-.ads-container .ad-form .inner-form form button.submit:hover {
+.ads-container .ad-form .inner-form .inner-content form button.submit:hover {
   opacity: .85;
   cursor: pointer;
+}
+.ads-container .ad-form .inner-form .inner-content img {
+  margin-top: -2.5rem;
+  margin-left: 3rem;
+  width: 27.5%;
+}
+@media (max-width: 1175px) {
+  .ad-form .inner-form .inner-content img {
+    display: none;
+  }
 }
 @media (min-width: 875px) and (max-width: 1264px) {
   .ads-container h3 {

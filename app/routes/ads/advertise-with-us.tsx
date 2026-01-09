@@ -3,6 +3,7 @@ import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ja3.png";
+import header2 from "~/../public/img/ja4.png";
 
 import carouselads from "~/../public/img/ads/carouselads.gif";
 import videoads from "~/../public/img/ads/videoads.gif";
@@ -174,6 +175,7 @@ export default function Index() {
             <h1>Reach 32K+ of the world's most decisive people</h1>
             <p>We're the 1-minute newsletter helping businesses do more 🚀</p>
           </div>
+        <div className="inner-content">
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="text" name="firstName" required placeholder="First Name *" />
@@ -186,6 +188,8 @@ export default function Index() {
         <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
         <input type="hidden" name="nonce" />
       </form>
+            <img src={imageads} alt="Jeffamazon newsletter image" />
+        </div>
       </div>
         </div>
     </div> 
