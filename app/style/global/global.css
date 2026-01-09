@@ -1316,6 +1316,9 @@
     margin-left: 1rem;
     margin-top: 1rem;
   }
+  .about-container .content .inner-content .text h1 {
+    font-size: 2rem;
+  }
   .about-container .content .inner-content .text p {
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
@@ -1348,10 +1351,10 @@
   }
   .about-container .inner-content2 h2, .about-container .inner-content2 h2 span {
     padding-top: 3.5rem;
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
   .about-container .inner-content2 h2 span {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
   .about-container .inner-content2 p, .about-container .inner-content2 .text {
     margin-bottom: 3.5rem;
