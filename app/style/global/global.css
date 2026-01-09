@@ -1466,7 +1466,7 @@
 .subscribe-container .content .inner-content {
   display: flex;
   flex-direction: column;
-  margin-top: 0rem;
+  margin-top: 5rem;
   margin-left: 5rem;
 }
 .subscribe-container .content .inner-content .text {
@@ -2252,7 +2252,7 @@
 .adform-container .content .inner-content {
   display: flex;
   flex-direction: column;
-  margin-top: 0rem;
+  margin-top: 4rem;
   margin-left: 5rem;
 }
 .adform-container .content .inner-content .text {

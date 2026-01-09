@@ -37,35 +37,35 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Start your day with <span>Jeffamazon</span></h2>
-        <Link className="text" to="/subscribe">Don't waste good mornings scrolling to stay informed. <span>Jeffamazon is the antidote keeping 32,000+ people in the loop</span> about what matters in the business world.</Link>
+        <Link className="text" to="/subscribe">Don't waste good mornings scrolling to stay informed. <span>Jeffamazon is the 1 min antidote keeping 32,000+ people in the loop</span> about what matters across the business world.</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Be decisive</span></h2>
-          <Link className="text" to="/subscribe">Become a decision making machine who makes smarter decisions.</Link>
+       <h2><span>Stay ahead</span></h2>
+          <Link className="text" to="/subscribe">Make decisive decisions and stay ahead of the curve.</Link>
       </div>
       <div className="floatimg">
             <img src={tobi} alt="Jeffamazon newsletter image" />
         </div>
       <div className="inner-content25sm">
-       <h2><span>Stay updated</span></h2>
-             <Link className="text" to="/subscribe">Get a quick update about what matters across the business world.</Link>
+       <h2><span>1 min or less</span></h2>
+             <Link className="text" to="/subscribe">Get a quick update about what matters in the business world.</Link>
       </div>
       <div className="floatimg">
           <img src={jensen} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Asymmetric upside</span></h2>
-      <Link className="text" to="/subscribe">Enjoy our Sunday deep dives into smart bets with asymmetric upside.</Link>
+       <h2><span>Asymmetric bets</span></h2>
+      <Link className="text" to="/subscribe">Enjoy our Sunday deep dives into asymmetric bets with huge upside.</Link>
       </div>
       <div className="floatimg">
           <img src={header2} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
-            <Link className="text" to="/subscribe">Jeffamazon is a quick and insightful daily newsletter that helps you make sense of business strategy, technology, and economic trends.</Link>
+            <Link className="text" to="/subscribe">Jeffamazon is a quick and insightful daily newsletter that helps you stay ahead in business strategy, technology, and economic trends.</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
@@ -84,7 +84,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-          <Link className="text" to="/about">" It's the one thing that lets me know what really matters right now.</Link>
+          <Link className="text" to="/about">" It's the one thing that lets me know what really matters.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
