@@ -122,19 +122,19 @@
 }
 .container .content .inner-content form button.submit {
   position: absolute;
-  top: 2px;
+  top: 0px;
   right: 2px;
-  bottom: 2px;
+  bottom: 0px;
   padding: 0 2rem;
-  background-color: #fafafa;
-  color: black;
+  background-color: #02090A;
+  color: #fafafa;
   border: none;
-  border-left: 0.12rem solid #02090A;
+  border-left: 0.15rem solid #02090a;
   border-radius: 0 0.2rem 0.2rem 0;
   font-size: 1rem;
 }
 .container .content .inner-content form button.submit:hover {
-  background-color: #F5F5F5;
+  opacity: 0.85;
   cursor: pointer;
 }
 .container .content .inner-content1 img {
@@ -922,19 +922,19 @@
 }
 .about-container .content .inner-content form button.submit {
   position: absolute;
-  top: 2px;
+  top: 0px;
   right: 2px;
-  bottom: 2px;
+  bottom: 0px;
   padding: 0 2rem;
-  background-color: #fafafa;
-  color: black;
+  background-color: #02090A;
+  color: #fafafa;
   border: none;
-  border-left: 0.12rem solid #02090A;
+  border-left: 0.15rem solid #02090a;
   border-radius: 0 0.2rem 0.2rem 0;
   font-size: 1rem;
 }
 .about-container .content .inner-content form button.submit:hover {
-  background-color: #F5F5F5;
+  opacity: 0.85;
   cursor: pointer;
 }
 .about-container .content .inner-content1 {
@@ -3814,19 +3814,19 @@
 }
 .adformats-container .content .inner-content form button.submit {
   position: absolute;
-  top: 2px;
+  top: 0px;
   right: 2px;
-  bottom: 2px;
+  bottom: 0px;
   padding: 0 2rem;
-  background-color: #fafafa;
-  color: black;
+  background-color: #02090A;
+  color: #fafafa;
   border: none;
-  border-left: 0.12rem solid #02090A;
+  border-left: 0.15rem solid #02090a;
   border-radius: 0 0.2rem 0.2rem 0;
   font-size: 1rem;
 }
 .adformats-container .content .inner-content form button.submit:hover {
-  background-color: #F5F5F5;
+  opacity: 0.85;
   cursor: pointer;
 }
 .adformats-container .content .inner-content1 img {
@@ -5584,19 +5584,19 @@
 }
 .footer .footer-top .footer-signup form button.submit {
   position: absolute;
-  top: 2px;
+  top: 0px;
   right: 2px;
-  bottom: 2px;
+  bottom: 0px;
   padding: 0 2rem;
-  background-color: #fafafa;
-  color: black;
+  background-color: #02090A;
+  color: #fafafa;
   border: none;
-  border-left: 0.12rem solid #02090A;
+  border-left: 0.15rem solid #02090a;
   border-radius: 0 0.2rem 0.2rem 0;
   font-size: 1rem;
 }
 .footer .footer-top .footer-signup form button.submit:hover {
-  background-color: #F5F5F5;
+  opacity: 0.85;
   cursor: pointer;
 }
 .footer .footer-top .footer-links {

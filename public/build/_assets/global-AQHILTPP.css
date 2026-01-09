@@ -126,19 +126,19 @@
 }
 .container .content .inner-content form button.submit {
   position: absolute;
-  top: 2px;
+  top: 0;
   right: 2px;
-  bottom: 2px;
+  bottom: 0;
   padding: 0 2rem;
-  background-color: #fafafa;
-  color: #000;
+  background-color: #02090a;
+  color: #fafafa;
   border: none;
-  border-left: .12rem solid #02090A;
+  border-left: .15rem solid #02090a;
   border-radius: 0 .2rem .2rem 0;
   font-size: 1rem;
 }
 .container .content .inner-content form button.submit:hover {
-  background-color: #f5f5f5;
+  opacity: .85;
   cursor: pointer;
 }
 .container .content .inner-content1 img {
@@ -920,19 +920,19 @@
 }
 .about-container .content .inner-content form button.submit {
   position: absolute;
-  top: 2px;
+  top: 0;
   right: 2px;
-  bottom: 2px;
+  bottom: 0;
   padding: 0 2rem;
-  background-color: #fafafa;
-  color: #000;
+  background-color: #02090a;
+  color: #fafafa;
   border: none;
-  border-left: .12rem solid #02090A;
+  border-left: .15rem solid #02090a;
   border-radius: 0 .2rem .2rem 0;
   font-size: 1rem;
 }
 .about-container .content .inner-content form button.submit:hover {
-  background-color: #f5f5f5;
+  opacity: .85;
   cursor: pointer;
 }
 .about-container .content .inner-content1 {
@@ -3796,19 +3796,19 @@
 }
 .adformats-container .content .inner-content form button.submit {
   position: absolute;
-  top: 2px;
+  top: 0;
   right: 2px;
-  bottom: 2px;
+  bottom: 0;
   padding: 0 2rem;
-  background-color: #fafafa;
-  color: #000;
+  background-color: #02090a;
+  color: #fafafa;
   border: none;
-  border-left: .12rem solid #02090A;
+  border-left: .15rem solid #02090a;
   border-radius: 0 .2rem .2rem 0;
   font-size: 1rem;
 }
 .adformats-container .content .inner-content form button.submit:hover {
-  background-color: #f5f5f5;
+  opacity: .85;
   cursor: pointer;
 }
 .adformats-container .content .inner-content1 img {
@@ -5540,19 +5540,19 @@
 }
 .footer .footer-top .footer-signup form button.submit {
   position: absolute;
-  top: 2px;
+  top: 0;
   right: 2px;
-  bottom: 2px;
+  bottom: 0;
   padding: 0 2rem;
-  background-color: #fafafa;
-  color: #000;
+  background-color: #02090a;
+  color: #fafafa;
   border: none;
-  border-left: .12rem solid #02090A;
+  border-left: .15rem solid #02090a;
   border-radius: 0 .2rem .2rem 0;
   font-size: 1rem;
 }
 .footer .footer-top .footer-signup form button.submit:hover {
-  background-color: #f5f5f5;
+  opacity: .85;
   cursor: pointer;
 }
 .footer .footer-top .footer-links {
