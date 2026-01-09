@@ -1345,7 +1345,7 @@
   }
   .about-container .inner-content2 p span,
   .about-container .inner-content2 .text span {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .about-container .floatimg {
     margin-top: 6rem;
@@ -2074,7 +2074,7 @@
   }
   .subscribe-container .content .inner-content .text h1 {
     font-size: 3rem;
-    width: 90%;
+    width: 190%;
   }
   .subscribe-container .content .inner-content .text p {
     padding-top: 1.5rem;
@@ -2855,7 +2855,7 @@
   }
   .adform-container .content .inner-content .text h1 {
     font-size: 3rem;
-    width: 90%;
+    width: 100%;
   }
   .adform-container .content .inner-content .text p {
     padding-top: 1.5rem;
@@ -4431,7 +4431,7 @@
     margin-left: 0;
   }
   .adformats-container .ad-form .inner-form .inner-content form .input-wrapper {
-    width: 28.75rem;
+    width: 22.5rem;
   }
 }
 .ads-container {
@@ -5226,7 +5226,7 @@
     margin-left: 0;
   }
   .ads-container .ad-form .inner-form .inner-content form .input-wrapper {
-    width: 28.75rem;
+    width: 22.5rem;
   }
 }
 .content-privacy {
