@@ -151,7 +151,7 @@ function Index() {
         lineNumber: 51,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "I'm best known for my daily newsletter Jeffamazon. It's a 1-minute scroll through the morning news  that helps 32,000 people stay ahead of the curve." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "I'm best known for my daily newsletter Jeffamazon." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 52,
         columnNumber: 11
@@ -171,7 +171,7 @@ function Index() {
         lineNumber: 53,
         columnNumber: 23
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "But I'm also an expert in company building, and designing, engineering, and developing products I can freely share with others." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "But I'm also an expert in company building and designing and engineering products I can easily share with others." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 54,
         columnNumber: 11
@@ -191,7 +191,7 @@ function Index() {
         lineNumber: 55,
         columnNumber: 23
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Because the trust is a big part of my life is actually building products I can freely share with YOU." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Because the truth is - a big joy in my life is building cool products I can easily share with YOU." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 56,
         columnNumber: 11
@@ -363,4 +363,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-UAUHBHQT.js.map
+//# sourceMappingURL=/build/routes/about-I7TSJSCO.js.map

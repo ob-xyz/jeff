@@ -49,11 +49,11 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Hey I'm <span>Chris Signore</span></h2>
-          <Link className="text" to="/subscribe">I'm best known for my daily newsletter Jeffamazon. It's a 1-minute scroll through the morning news  that helps 32,000 people stay ahead of the curve.</Link>
+          <Link className="text" to="/subscribe">I'm best known for my daily newsletter Jeffamazon.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">But I'm also an expert in company building, and designing, engineering, and developing products I can freely share with others.</Link>
+          <Link className="text" to="/subscribe">But I'm also an expert in company building and designing and engineering products I can easily share with others.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">Because the trust is a big part of my life is actually building products I can freely share with YOU.</Link>
+          <Link className="text" to="/subscribe">Because the truth is - a big joy in my life is building cool products I can easily share with YOU.</Link>
           <br /><br /><br />
           <Link className="text" to="/subscribe">So if you ever want your money back, the best way to reach me is <span>chris@jeffamazon.com</span></Link>
       </div>
