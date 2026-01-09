@@ -58,7 +58,7 @@ export default function Index() {
           <Link className="text" to="/subscribe">So if you ever want your money back, the best way to reach me is <span>chris@jeffamazon.com</span></Link>
       </div>
       <div className="inner-content251">
-          <Link className="text" to="/subscribe">My newsletters.</Link>
+          <Link className="text" to="/subscribe">My first products.</Link>
       </div>
       <div className="inner-content3sm">
       <div className="grid">
