@@ -464,57 +464,99 @@ function Index() {
       lineNumber: 135,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content3sm", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "grid", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Advertise" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "ad-form", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-form", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "ADVERTISE WITH US" }, void 0, false, {
           fileName: "app/routes/ads/ad-formats.tsx",
           lineNumber: 149,
-          columnNumber: 9
+          columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Want to post? We're looking for new advertisers." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 32K+ of the world's most decisive people" }, void 0, false, {
           fileName: "app/routes/ads/ad-formats.tsx",
           lineNumber: 150,
-          columnNumber: 9
+          columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/ads/ad-form", children: "Get in touch \u2192" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the 1-minute newsletter helping businesses do more \u{1F680}" }, void 0, false, {
           fileName: "app/routes/ads/ad-formats.tsx",
           lineNumber: 151,
-          columnNumber: 9
+          columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/ads/ad-formats.tsx",
         lineNumber: 148,
-        columnNumber: 7
+        columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Subscribe" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("form", { method: "post", action: "https://app.jeffamzn.com/subscription/form", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "input-wrapper", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "text", name: "firstName", required: true, placeholder: "First Name *" }, void 0, false, {
+              fileName: "app/routes/ads/ad-formats.tsx",
+              lineNumber: 156,
+              columnNumber: 11
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "text", name: "lastName", required: true, placeholder: "Last Name *" }, void 0, false, {
+              fileName: "app/routes/ads/ad-formats.tsx",
+              lineNumber: 157,
+              columnNumber: 11
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "text", name: "company", required: true, placeholder: "Company *" }, void 0, false, {
+              fileName: "app/routes/ads/ad-formats.tsx",
+              lineNumber: 158,
+              columnNumber: 11
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { className: "email", type: "email", name: "email", required: true, placeholder: "Business Email Address *" }, void 0, false, {
+              fileName: "app/routes/ads/ad-formats.tsx",
+              lineNumber: 159,
+              columnNumber: 11
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "submit", type: "submit", children: "Get in touch" }, void 0, false, {
+              fileName: "app/routes/ads/ad-formats.tsx",
+              lineNumber: 160,
+              columnNumber: 11
+            }, this)
+          ] }, void 0, true, {
+            fileName: "app/routes/ads/ad-formats.tsx",
+            lineNumber: 155,
+            columnNumber: 9
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "h-captcha", "data-sitekey": "7e96e6a6-eef8-4624-be9c-e468b5a8b230" }, void 0, false, {
+            fileName: "app/routes/ads/ad-formats.tsx",
+            lineNumber: 162,
+            columnNumber: 9
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { id: "82687", type: "hidden", name: "l", value: "82687238-ae68-46c7-98ad-183fbf4cfea0" }, void 0, false, {
+            fileName: "app/routes/ads/ad-formats.tsx",
+            lineNumber: 163,
+            columnNumber: 9
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, false, {
+            fileName: "app/routes/ads/ad-formats.tsx",
+            lineNumber: 164,
+            columnNumber: 9
+          }, this)
+        ] }, void 0, true, {
           fileName: "app/routes/ads/ad-formats.tsx",
           lineNumber: 154,
-          columnNumber: 9
+          columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get what matters delivered straight to your inbox." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: imageads_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
           fileName: "app/routes/ads/ad-formats.tsx",
-          lineNumber: 155,
-          columnNumber: 9
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Subscribe \u2192" }, void 0, false, {
-          fileName: "app/routes/ads/ad-formats.tsx",
-          lineNumber: 156,
+          lineNumber: 166,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/ads/ad-formats.tsx",
         lineNumber: 153,
-        columnNumber: 7
+        columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/ads/ad-formats.tsx",
       lineNumber: 147,
-      columnNumber: 7
+      columnNumber: 9
     }, this) }, void 0, false, {
       fileName: "app/routes/ads/ad-formats.tsx",
       lineNumber: 146,
-      columnNumber: 8
+      columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/ads/ad-formats.tsx",
@@ -525,4 +567,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-formats-DUMAZCTL.js.map
+//# sourceMappingURL=/build/routes/ads/ad-formats-R3XQ2BM7.js.map

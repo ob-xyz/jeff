@@ -3972,12 +3972,10 @@
   padding-top: .5rem;
   background-color: #7a7a7a;
 }
-.adformats-container .inner-content3,
-.adformats-container .inner-content3sm {
+.adformats-container .inner-content3 {
   margin: 14rem auto 0;
 }
-.adformats-container .inner-content3 .grid,
-.adformats-container .inner-content3sm .grid {
+.adformats-container .inner-content3 .grid {
   margin-left: 5rem;
   margin-right: 5rem;
   display: grid;
@@ -3985,8 +3983,7 @@
   gap: 1rem;
   width: auto;
 }
-.adformats-container .inner-content3 .grid .box,
-.adformats-container .inner-content3sm .grid .box {
+.adformats-container .inner-content3 .grid .box {
   display: flex;
   flex-direction: column;
   background: transparent;
@@ -3997,8 +3994,7 @@
   padding: 2rem 1rem;
   border-radius: 2rem;
 }
-.adformats-container .inner-content3 .grid .box h1,
-.adformats-container .inner-content3sm .grid .box h1 {
+.adformats-container .inner-content3 .grid .box h1 {
   padding-top: 1rem;
   padding-bottom: .75rem;
   font-family: ku;
@@ -4007,10 +4003,7 @@
 }
 .adformats-container .inner-content3 .grid .box p,
 .adformats-container .inner-content3 .grid .box a,
-.adformats-container .inner-content3 .grid .box .text,
-.adformats-container .inner-content3sm .grid .box p,
-.adformats-container .inner-content3sm .grid .box a,
-.adformats-container .inner-content3sm .grid .box .text {
+.adformats-container .inner-content3 .grid .box .text {
   color: #7a7a7a;
   flex-grow: 1;
   text-align: center;
@@ -4019,9 +4012,7 @@
   padding-bottom: 2rem;
 }
 .adformats-container .inner-content3 .grid .box a,
-.adformats-container .inner-content3 .grid .box .text,
-.adformats-container .inner-content3sm .grid .box a,
-.adformats-container .inner-content3sm .grid .box .text {
+.adformats-container .inner-content3 .grid .box .text {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
@@ -4037,22 +4028,18 @@
   cursor: pointer;
 }
 .adformats-container .inner-content3 .grid .box a:hover,
-.adformats-container .inner-content3 .grid .box .text:hover,
-.adformats-container .inner-content3sm .grid .box a:hover,
-.adformats-container .inner-content3sm .grid .box .text:hover {
+.adformats-container .inner-content3 .grid .box .text:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
-.adformats-container .inner-content3sm .grid {
+.adformats-container .ad-form {
   margin-left: 5rem;
   margin-right: 5rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  margin-top: 8rem;
   width: auto;
 }
-.adformats-container .inner-content3sm .grid .box {
+.adformats-container .ad-form .inner-form {
   display: flex;
   flex-direction: column;
   background: transparent;
@@ -4060,44 +4047,70 @@
   height: 100%;
   width: 100%;
   background: #000;
-  padding: 2rem 1rem;
+  padding: 4rem 8rem;
   border-radius: 2rem;
 }
-.adformats-container .inner-content3sm .grid .box h1 {
-  padding-top: 1rem;
-  padding-bottom: .75rem;
-  font-family: ku;
-  color: #7a7a7a;
-  text-align: center;
-}
-.adformats-container .inner-content3sm .grid .box p,
-.adformats-container .inner-content3sm .grid .box a {
-  padding-bottom: 0rem;
+.adformats-container .ad-form .inner-form .text h1 {
+  margin-left: 0;
   color: #fafafa;
-  flex-grow: 1;
-  text-align: center;
-  font-size: 2.5rem;
-  width: 100%;
 }
-.adformats-container .inner-content3sm .grid .box a {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  font-size: 1.5rem;
-  color: #a0a0a0;
-  background: #a0a0a0;
-  transition: all .2s ease-in-out;
-  background-image: linear-gradient(90deg, #ff8738, #ff0044);
-  background-size: 0% 100%;
-  background-repeat: no-repeat;
-  background-position: left;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.adformats-container .ad-form .inner-form .text p {
+  text-align: left;
+  padding: 2rem 0rem .5rem 0;
+  margin-left: 0;
+  color: #fafafa;
+}
+.adformats-container .ad-form .inner-form .inner-content {
+  display: flex;
+}
+.adformats-container .ad-form .inner-form .inner-content form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 0;
+}
+.adformats-container .ad-form .inner-form .inner-content form .h-captcha {
+  margin: 0;
+  padding-top: .25rem;
+}
+.adformats-container .ad-form .inner-form .inner-content form .input-wrapper {
+  width: 38rem;
+}
+.adformats-container .ad-form .inner-form .inner-content form input.email {
+  margin-top: .2rem;
+  width: 100%;
+  padding: .85rem 6rem .85rem .75rem;
+  font-family: Arial, sans-serif;
+  color: #000;
+  border: .15rem solid #02090A;
+  border-radius: .2rem;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+}
+.adformats-container .ad-form .inner-form .inner-content form input.email:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
+}
+.adformats-container .ad-form .inner-form .inner-content form button.submit {
+  margin-top: .5rem;
+  border-radius: 5rem;
+  padding: 1rem 1.75rem;
+  border: .2rem solid #fafafa;
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background: transparent;
+}
+.adformats-container .ad-form .inner-form .inner-content form button.submit:hover {
+  opacity: .85;
   cursor: pointer;
 }
-.adformats-container .inner-content3sm .grid .box a:hover {
-  background-size: 100% 100%;
-  -webkit-text-fill-color: transparent;
-  animation: shimmer 1.5s linear infinite;
+.adformats-container .ad-form .inner-form .inner-content img {
+  margin-top: -6rem;
+  margin-left: 3rem;
+  width: 27.5%;
 }
 @media (min-width: 875px) and (max-width: 1264px) {
   .adformats-container h3 {
@@ -4247,19 +4260,32 @@
   .adformats-container .inner-content2555 .tag p:nth-child(2) {
     padding-top: .35rem;
   }
-  .adformats-container .inner-content3,
-  .adformats-container .inner-content3sm {
+  .adformats-container .inner-content3 {
     margin-top: 12rem;
     margin-bottom: 8rem;
   }
-  .adformats-container .inner-content3 .grid,
-  .adformats-container .inner-content3sm .grid {
+  .adformats-container .inner-content3 .grid {
     margin: 1.25rem;
     grid-template-columns: repeat(1, 1fr);
   }
-  .adformats-container .inner-content3 .grid .box p,
-  .adformats-container .inner-content3sm .grid .box p {
+  .adformats-container .inner-content3 .grid .box p {
     width: 92.5%;
+  }
+  .adformats-container .ad-form {
+    margin: 14rem 1.5rem 4rem;
+  }
+  .adformats-container .ad-form .inner-form {
+    padding: 2rem 1.5rem;
+  }
+  .adformats-container .ad-form .inner-form .text h1 {
+    font-size: 2rem;
+  }
+  .adformats-container .ad-form .inner-form .inner-content,
+  .adformats-container .ad-form .inner-form .inner-content form {
+    margin-left: 0;
+  }
+  .adformats-container .ad-form .inner-form .inner-content form .input-wrapper {
+    width: 35rem;
   }
 }
 @media (max-width: 659px) {
@@ -4359,7 +4385,7 @@
     font-size: 1rem;
   }
   .adformats-container .inner-content2555 {
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     padding: 4rem 2rem;
@@ -4374,26 +4400,38 @@
   .adformats-container .inner-content2555 .tag p:nth-child(2) {
     padding-top: .35rem;
   }
-  .adformats-container .inner-content3,
-  .adformats-container .inner-content3sm {
-    margin-top: 7rem;
-    margin-bottom: 6rem;
+  .adformats-container .inner-content3 {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
     padding: 0 2rem;
   }
-  .adformats-container .inner-content3 .grid,
-  .adformats-container .inner-content3sm .grid {
+  .adformats-container .inner-content3 .grid {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 0;
     margin-right: 0;
   }
-  .adformats-container .inner-content3 .grid .box h1,
-  .adformats-container .inner-content3sm .grid .box h1 {
+  .adformats-container .inner-content3 .grid .box h1 {
     font-size: 2.25rem;
   }
-  .adformats-container .inner-content3 .grid .box p,
-  .adformats-container .inner-content3sm .grid .box p {
+  .adformats-container .inner-content3 .grid .box p {
     width: 92.5%;
     font-size: 1.75rem;
+  }
+  .adformats-container .ad-form {
+    margin: 6rem 1.5rem 4rem;
+  }
+  .adformats-container .ad-form .inner-form {
+    padding: 2rem 1.5rem;
+  }
+  .adformats-container .ad-form .inner-form .text h1 {
+    font-size: 2rem;
+  }
+  .adformats-container .ad-form .inner-form .inner-content,
+  .adformats-container .ad-form .inner-form .inner-content form {
+    margin-left: 0;
+  }
+  .adformats-container .ad-form .inner-form .inner-content form .input-wrapper {
+    width: 28.75rem;
   }
 }
 .ads-container {
@@ -5143,7 +5181,7 @@
   .ads-container .inner-content3,
   .ads-container .inner-content3sm {
     margin-top: 1rem;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
     padding: 0 2rem;
   }
   .ads-container .inner-content3 .grid,

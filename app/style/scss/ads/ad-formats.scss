@@ -275,8 +275,7 @@ p, .text {
     }
   }
 }
-.inner-content3,
-.inner-content3sm{
+.inner-content3{
   margin:14rem auto 0 auto;
 .grid{
   margin-left:5rem;
@@ -342,15 +341,12 @@ p, .text {
   }
 }
 }
-.inner-content3sm{
-  .grid{
+.ad-form{
   margin-left:5rem;
   margin-right:5rem;
-  display:grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  margin-top:8rem;
   width: auto;
-  .box {
+  .inner-form{
     display: flex;
     flex-direction: column;
     background: transparent;
@@ -358,45 +354,87 @@ p, .text {
     height: 100%;
     width: 100%;
     background:#000;
-    padding:2rem 1rem 2rem 1rem;
+    padding:4rem 8rem 4rem 8rem;
     border-radius: 2rem;
-    h1 {
-      padding-top: 1rem;
-      padding-bottom: 0.75rem;
-      font-family: ku;
-      color:#7a7a7a;
-      text-align: center;
+.text{
+    h1{
+        margin-left:0;
+        color:#fafafa;
     }
-    p, a {
-      padding-bottom: 0rem;
-      color: #fafafa;
-      flex-grow: 1;
-      text-align: center;
-      font-size:2.5rem;
-      width:100%;
+    p{
+        text-align: left;
+        padding:2rem 0rem .5rem 0;
+        margin-left:0;
+        color:#fafafa;
     }
-    a{
-      margin-top: 1.5rem;
-      margin-bottom:1.5rem;
-      font-size:1.5rem;
-      color: #a0a0a0;
-      background:#a0a0a0;
-      transition: all .2s ease-in-out;
-      background-image: linear-gradient(90deg, #ff8738, #ff0044);
-      background-size: 0% 100%;
-      background-repeat: no-repeat;
-      background-position: left;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-  cursor: pointer;
+}
+.inner-content{
+  display: flex;
+  form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 0;
+.h-captcha{
+  margin:0;
+  padding-top:.25rem;
+}
+.input-wrapper {
+  width: 38rem;
+}
+input.email {
+  margin-top:.2rem;
+  width: 100%;
+  padding: 0.85rem 6rem 0.85rem 0.75rem;
+  font-family: Arial, sans-serif;
+  color: #000;
+  border: .15rem solid #02090A;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #02090A;
+    border-color: #02090A;
+    caret-color: #02090A;
+  }
+}
+
+button.submit {
+  margin-top:.5rem;
+    border-radius: 5rem;
+    padding: 1rem 1.75rem;
+    border: 0.2rem solid #fafafa;
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 1.2rem;
+    background: transparent;
   &:hover {
-      background-size: 100% 100%;
-      -webkit-text-fill-color: transparent;
-      animation: shimmer 1.5s linear infinite;
+    opacity:.85;
+    cursor: pointer;
+  }
+}
+}
+    img{
+      margin-top: -6rem;
+      margin-left:3rem;
+      width: 27.5%;
+    }
+}
+
   }
 
+}
+}
+@media (max-width: 1175px){
+.ad-form{
+.inner-form{
+.inner-content{
+    img{
+      display:none;
     }
-  }
+}
 }
 }
 }
@@ -574,8 +612,7 @@ form {
     }
   }
 }
-.inner-content3,
-.inner-content3sm{
+.inner-content3{
   margin-top:12rem;
   margin-bottom:8rem;
 .grid{
@@ -585,6 +622,30 @@ form {
   p {
       width:92.5%;
     }
+}
+}
+}
+.ad-form{
+  margin-left:1.5rem;
+  margin-right:1.5rem;
+  margin-top: 14rem;
+  margin-bottom: 4rem;
+  .inner-form{
+    padding:2rem 1.5rem 2rem 1.5rem;
+.text{
+    h1{
+        font-size: 2rem;
+    }
+}
+.inner-content{
+  margin-left: 0;
+  form {
+      margin-left: 0;
+
+.input-wrapper {
+  width: 35rem;
+}
+}
 }
 }
 }
@@ -689,7 +750,7 @@ p, .text {
     }
 }
 .inner-content2555{
-  margin-top:1rem;
+  margin-top:2rem;
   margin-left:1.5rem;
   margin-right:1.5rem;
   padding:4rem 2rem;
@@ -705,10 +766,9 @@ p, .text {
     }
   }
 }
-.inner-content3,
-.inner-content3sm{
-  margin-top:7rem;
-  margin-bottom:6rem;
+.inner-content3{
+  margin-top:6rem; 
+  margin-bottom:4rem;
   padding:0 2rem;
 .grid{
   grid-template-columns: repeat(1, 1fr);
@@ -722,6 +782,30 @@ p, .text {
       width:92.5%;
       font-size: 1.75rem; 
     }
+}
+}
+}
+.ad-form{
+  margin-left:1.5rem;
+  margin-right:1.5rem;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  .inner-form{
+    padding:2rem 1.5rem 2rem 1.5rem;
+.text{
+    h1{
+        font-size: 2rem;
+    }
+}
+.inner-content{
+  margin-left: 0;
+  form {
+      margin-left: 0;
+
+.input-wrapper {
+  width: 28.75rem;
+}
+}
 }
 }
 }
