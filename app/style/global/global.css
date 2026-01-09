@@ -910,8 +910,8 @@
   cursor: pointer;
 }
 .about-container .content .inner-content1 {
-  margin: -3rem 4rem 0 0rem;
-  width: 50%;
+  margin: 0rem 3.5rem 0 0rem;
+  width: 49%;
 }
 .about-container .content .inner-content1 img {
   width: 80%;
@@ -1151,9 +1151,6 @@
   }
   .about-container .content .inner-content {
     margin-left: 2.5rem;
-  }
-  .about-container .content .inner-content form .input-wrapper {
-    width: 36.5rem;
   }
   .about-container .inner-content2 {
     margin: 0 auto;
