@@ -82,7 +82,7 @@ function Index() {
           lineNumber: 31,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "pricebtn", to: "/ads/ad-form", children: "Subscribe" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "pricebtn", to: "/subscribe", children: "Subscribe" }, void 0, false, {
           fileName: "app/routes/about.tsx",
           lineNumber: 37,
           columnNumber: 13
@@ -335,4 +335,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-6GFPHGWS.js.map
+//# sourceMappingURL=/build/routes/about-XOZXGJVF.js.map
