@@ -21,7 +21,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 32K+ decision-makers who like knowing what matters</h1>
+            <h1>Reach 32K+ decisive people who make decisions</h1>
             <p>We're the 1-minute newsletter helping businesses do more 🚀</p>
           </div>
       <div className="btn">
