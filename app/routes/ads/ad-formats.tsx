@@ -22,7 +22,7 @@ export default function Index() {
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
             <h1>Reach 32K+ decisive people who make decisions</h1>
-            <p>We're the 1-minute newsletter helping businesses do more 🚀</p>
+            <p>We're the daily newsletter helping businesses do more 🚀</p>
           </div>
       <div className="btn">
             <Link className="pricebtn" to="/ads/ad-form">Request quote</Link>
@@ -128,7 +128,7 @@ export default function Index() {
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
             <h1>Reach 32K+ of the world's most decisive people</h1>
-            <p>We're the 1-minute newsletter helping businesses do more.</p>
+            <p>We're the daily newsletter helping businesses do more.</p>
           </div>
         <div className="inner-content">
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
