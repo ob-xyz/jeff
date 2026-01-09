@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import logo from "~/../public/img/ja1.png";
 import imageads from "~/../public/img/promoted-ads.png";
@@ -39,20 +39,6 @@ export default function Index() {
   // Ads carousel handlers (unchanged)
   const next = () => setAdIndex((prev) => (prev + 1) % ads.length);
   const prev = () => setAdIndex((prev) => (prev - 1 + ads.length) % ads.length);
-  
-    useEffect(() => {
-    // Dynamically load the hCaptcha script
-    const script = document.createElement("script");
-    script.src = "https://js.hcaptcha.com/1/api.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-
-    // Clean up script on component unmount
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
 
   return (
   <div className="content-awu">

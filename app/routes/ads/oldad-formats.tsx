@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 import logo from "~/../public/img/ja1.png";
 import newads from "~/../public/img/newads.jpg";
 import convertads from "~/../public/img/convertads.jpg";
@@ -12,20 +10,6 @@ import quickads from "~/../public/img/ads/quickads.png";
 import recads from "~/../public/img/ads/recads.png";
 
 export default function Index() {
-    useEffect(() => {
-    // Dynamically load the hCaptcha script
-    const script = document.createElement("script");
-    script.src = "https://js.hcaptcha.com/1/api.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-
-    // Clean up script on component unmount
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
   <div className="content-adformats">
     <div className="logo">

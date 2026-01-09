@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
@@ -10,20 +9,6 @@ import jensen from "~/../public/img/jensene.jpg";
 import cs from "~/../public/img/cs.jpg";
 
 export default function Index() {
-    useEffect(() => {
-    // Dynamically load the hCaptcha script
-    const script = document.createElement("script");
-    script.src = "https://js.hcaptcha.com/1/api.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-
-    // Clean up script on component unmount
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
     <div className="container">
       <div className="logo">

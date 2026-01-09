@@ -32,7 +32,7 @@ export default function Footer() {
     <Link to="/">Home</Link>
     <Link to="/about">About</Link>
     <a title="sample issue" href="https://jeffamazon.com/sample-issue"  rel="noopener noreferrer">Sample</a>
-    <a title="subscription form" href="https://jeffamazon.com/subscribe"  rel="noopener noreferrer">Subscribe</a>
+    <Link to="/subscribe">Subscribe</Link>
   </div>
   <div className="column">
     <h4>Business</h4>
