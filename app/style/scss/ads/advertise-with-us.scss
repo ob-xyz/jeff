@@ -84,10 +84,9 @@
   }
 .inner-content1{
     img{
-      margin-left:-4.5rem;
-      margin-bottom:-8rem;
-      width: 100%;
-
+      margin-left:2rem;
+      margin-bottom:8rem;
+      width: 70%;
     }
   }
 }
@@ -456,7 +455,7 @@ button.submit {
 }
 }
     img{
-      margin-top: -7rem;
+      margin-top: -2.5rem;
       margin-left:2rem;
       width: 25%;
     }
@@ -658,10 +657,7 @@ button.submit {
     }
 }
 .inner-content{
-  margin-left: 0;
   form {
-      margin-left: 0;
-
 .input-wrapper {
   width: 35rem;
 }
@@ -819,10 +815,13 @@ p, .text{
 .inner-content3sm{
   margin-top:-4rem; 
 }
+.inner-content3smm{
+  margin-top:0rem;
+}
 .ad-form{
   margin-left:1.5rem;
   margin-right:1.5rem;
-  margin-top: 6rem;
+  margin-top: 0;
   margin-bottom: 4rem;
   .inner-form{
     padding:2rem 1.5rem 2rem 1.5rem;

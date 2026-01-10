@@ -138,8 +138,8 @@
   cursor: pointer;
 }
 .container .content .inner-content1 img {
-  margin-left: 0;
-  margin-bottom: -9rem;
+  margin-left: 3rem;
+  margin-bottom: 0rem;
   width: 70%;
 }
 .container .inner-content2 {
@@ -529,8 +529,8 @@
   }
   .container .content .inner-content1 {
     width: 100%;
-    margin-left: 12rem;
-    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-bottom: 0rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
@@ -3717,9 +3717,9 @@
   cursor: pointer;
 }
 .adformats-container .content .inner-content1 img {
-  margin-left: -4.5rem;
-  margin-bottom: -8rem;
-  width: 100%;
+  margin-left: 2rem;
+  margin-bottom: 8rem;
+  width: 70%;
 }
 .adformats-container .inner-content2 {
   background: #02090A;
@@ -4026,7 +4026,7 @@
   cursor: pointer;
 }
 .adformats-container .ad-form .inner-form .inner-content img {
-  margin-top: -7rem;
+  margin-top: -2.5rem;
   margin-left: 2rem;
   width: 25%;
 }
@@ -4111,7 +4111,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    margin-bottom: -8rem;
+    margin-bottom: -6.5rem;
   }
   .adformats-container .inner-content2 {
     padding: 0 2.5rem;
@@ -4441,9 +4441,9 @@
   cursor: pointer;
 }
 .ads-container .content .inner-content1 img {
-  margin-left: -4.5rem;
-  margin-bottom: -8rem;
-  width: 100%;
+  margin-left: 2rem;
+  margin-bottom: 8rem;
+  width: 70%;
 }
 .ads-container .inner-content2 {
   background: #02090A;
@@ -4812,7 +4812,7 @@
   cursor: pointer;
 }
 .ads-container .ad-form .inner-form .inner-content img {
-  margin-top: -7rem;
+  margin-top: -2.5rem;
   margin-left: 2rem;
   width: 25%;
 }
@@ -4991,12 +4991,6 @@
   .ads-container .ad-form .inner-form .text h1 {
     font-size: 2rem;
   }
-  .ads-container .ad-form .inner-form .inner-content {
-    margin-left: 0;
-  }
-  .ads-container .ad-form .inner-form .inner-content form {
-    margin-left: 0;
-  }
   .ads-container .ad-form .inner-form .inner-content form .input-wrapper {
     width: 35rem;
   }
@@ -5148,10 +5142,13 @@
   .ads-container .inner-content3sm {
     margin-top: -4rem;
   }
+  .ads-container .inner-content3smm {
+    margin-top: 0rem;
+  }
   .ads-container .ad-form {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    margin-top: 6rem;
+    margin-top: 0;
     margin-bottom: 4rem;
   }
   .ads-container .ad-form .inner-form {

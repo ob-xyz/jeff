@@ -1,8 +1,8 @@
 import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
-import header from "~/../public/img/ja4.png";
-import header2 from "~/../public/img/ja3.png";
+import header from "~/../public/img/ja3.png";
+import header2 from "~/../public/img/ja5.png";
 import sama from "~/../public/img/samae.jpg";
 import tobi from "~/../public/img/tobic.jpg";
 import jensen from "~/../public/img/jensene.jpg";
