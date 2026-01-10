@@ -10,6 +10,7 @@ import imageads from "~/../public/img/ads/imageads.png";
 import imageads2 from "~/../public/img/ads/imageads2.png";
 import textads from "~/../public/img/ads/textads.png";
 import newsads from "~/../public/img/ads/quickads.png";
+import recads from "~/../public/img/ads/recads.png";
 import takeoverads from "~/../public/img/ads/takeoverads.png";
 
 export default function Index() {
@@ -109,6 +110,22 @@ export default function Index() {
       </div>
      <div className="boxmat">
         <div className="floatimg">
+            <img src={recads} alt="Jeffamazon newsletter image" />
+        </div>
+      <div className="box">
+        <h1>Rec Ads</h1>
+        <p>Rec ads give you a widescreen image and a CTA button to maximizes your.</p>
+      <div className="btn">
+          <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
+      </div>
+      </div>
+     </div>
+      </div>
+    </div>
+    <div className="inner-content3smm">
+      <div className="grid">
+     <div className="boxmat">
+        <div className="floatimg2">
             <img src={takeoverads} alt="Jeffamazon newsletter image" />
         </div>
       <div className="box">
@@ -121,6 +138,7 @@ export default function Index() {
      </div>
       </div>
     </div>
+
        <div className="inner-content3">
       <div className="grid">
       <div className="box">

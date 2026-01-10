@@ -138,7 +138,8 @@ p span, .text span{
   }
 }
 }
-.floatimg{
+.floatimg,
+.floatimg2{
   margin-top: 8rem;
   img{
     margin: 0 auto;
@@ -310,10 +311,11 @@ p, .text{
   }
 }
 }
-.inner-content3sm{
+.inner-content3sm,
+.inner-content3smm{
   .boxmat{
     width:100%;
-    height:auto;
+    height:100%;
   }
   .grid{
   margin-left:5rem;
@@ -321,13 +323,11 @@ p, .text{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  width: auto;
   .box {
     display: flex;
     flex-direction: column;
     background: transparent;
     text-align: left;
-    height: 100%;
     width: 100%;
     background:#000;
     padding:2rem 1rem 2rem 1rem;
@@ -369,6 +369,16 @@ p, .text{
 }
   }
 }
+}
+.floatimg2{
+  width: 50%;
+}
+.inner-content3smm{
+  .grid{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  width: auto;
+  }
 }
 .ad-form{
   margin-left:5rem;
@@ -446,9 +456,9 @@ button.submit {
 }
 }
     img{
-      margin-top: -2rem;
+      margin-top: -7rem;
       margin-left:2rem;
-      width: 27.5%;
+      width: 25%;
     }
 }
 
@@ -519,6 +529,14 @@ button.submit {
     width: 65%;
   }
 }
+.floatimg2{
+  display: flex;
+  justify-content: center;
+  margin-top:8rem;
+  img{
+    width: 65%;
+  }
+}
 }
 }
 @media (min-width: 660px) and (max-width: 874px) {
@@ -583,6 +601,14 @@ button.submit {
     width: 65%;
   }
 }
+.floatimg2{
+  display: flex;
+  justify-content: center;
+  margin-top:8rem;
+  img{
+    width: 130%;
+  }
+}
 .inner-content25{
   margin-top:8rem;
   margin-bottom:6rem;
@@ -602,7 +628,8 @@ button.submit {
   }
 }
 .inner-content3,
-.inner-content3sm{
+.inner-content3sm,
+.inner-content3smm{
   margin-top:0rem;
   margin-bottom:-2rem;
 .grid{
@@ -715,6 +742,14 @@ button.submit {
     width: 74%;
   }
 }
+.floatimg2{
+  display: flex;
+  justify-content: center;
+  margin-top:2rem;
+  img{
+    width: 147%;
+  }
+}
 .inner-content25{
   margin-left:1.5rem;
   margin-right:1.5rem;
@@ -757,7 +792,8 @@ p, .text{
   }
 }
 .inner-content3,
-.inner-content3sm{
+.inner-content3sm,
+.inner-content3smm{
   margin-top:1rem;
   margin-bottom:5rem;
   padding:0 2rem;
