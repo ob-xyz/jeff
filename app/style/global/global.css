@@ -3717,9 +3717,9 @@
   cursor: pointer;
 }
 .adformats-container .content .inner-content1 img {
-  margin-left: 2rem;
-  margin-bottom: 8rem;
-  width: 70%;
+  margin-left: -7.5rem;
+  margin-bottom: -5rem;
+  width: 100%;
 }
 .adformats-container .inner-content2 {
   background: #02090A;
@@ -4056,8 +4056,8 @@
   }
   .adformats-container .content .inner-content1 {
     width: 100%;
-    margin-left: 5rem;
-    margin-bottom: -8rem;
+    margin-left: 15rem;
+    margin-bottom: 0rem;
   }
   .adformats-container .inner-content2 {
     margin: 0 auto;
@@ -4441,9 +4441,9 @@
   cursor: pointer;
 }
 .ads-container .content .inner-content1 img {
-  margin-left: 2rem;
-  margin-bottom: 8rem;
-  width: 70%;
+  margin-left: -7.5rem;
+  margin-bottom: -5rem;
+  width: 100%;
 }
 .ads-container .inner-content2 {
   background: #02090A;
@@ -4842,8 +4842,8 @@
   }
   .ads-container .content .inner-content1 {
     width: 100%;
-    margin-left: 5rem;
-    margin-bottom: -8rem;
+    margin-left: 15rem;
+    margin-bottom: 0rem;
   }
   .ads-container .inner-content2 {
     margin: 0 auto;
