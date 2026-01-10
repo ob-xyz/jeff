@@ -138,8 +138,8 @@
   cursor: pointer;
 }
 .container .content .inner-content1 img {
-  margin-left: 3.5rem;
-  margin-bottom: -1.5rem;
+  margin-left: 0;
+  margin-bottom: -9rem;
   width: 70%;
 }
 .container .inner-content2 {
@@ -529,8 +529,8 @@
   }
   .container .content .inner-content1 {
     width: 100%;
-    margin-left: 2.5rem;
-    margin-bottom: -1.5rem;
+    margin-left: 12rem;
+    margin-bottom: 4rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
@@ -587,7 +587,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    margin-bottom: 0;
+    margin-bottom: -8rem;
   }
   .container .inner-content2 {
     padding: 0 2.5rem;
@@ -707,7 +707,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    margin-bottom: 0;
+    margin-bottom: -8rem;
   }
   .container .inner-content2 {
     margin-left: 0;
@@ -3718,7 +3718,7 @@
 }
 .adformats-container .content .inner-content1 img {
   margin-left: -4.5rem;
-  margin-bottom: -16rem;
+  margin-bottom: -8rem;
   width: 100%;
 }
 .adformats-container .inner-content2 {
@@ -4048,16 +4048,16 @@
   }
   .adformats-container .content .inner-content .text h1, .adformats-container .content .inner-content .text span {
     font-size: 3.5rem;
-    width: 75%;
+    width: 100%;
   }
   .adformats-container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
   }
   .adformats-container .content .inner-content1 {
-    width: 80%;
+    width: 100%;
     margin-left: 5rem;
-    margin-bottom: 14rem;
+    margin-bottom: -8rem;
   }
   .adformats-container .inner-content2 {
     margin: 0 auto;
@@ -4110,8 +4110,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    margin-bottom: 0;
+    width: 60%;
+    margin-bottom: -8rem;
   }
   .adformats-container .inner-content2 {
     padding: 0 2.5rem;
@@ -4249,7 +4249,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    margin-bottom: 0;
+    margin-bottom: -8rem;
   }
   .adformats-container .inner-content2 {
     margin-left: 0;
@@ -4343,6 +4343,7 @@
   }
   .adformats-container .ad-form .inner-form {
     padding: 2rem 1.5rem 2rem 1.5rem;
+    margin: 0 auto;
   }
   .adformats-container .ad-form .inner-form .text h1 {
     font-size: 2rem;
@@ -4350,10 +4351,8 @@
   .adformats-container .ad-form .inner-form .inner-content {
     margin-left: 0;
   }
-  .adformats-container .ad-form .inner-form .inner-content form {
-    margin-left: 0;
-  }
   .adformats-container .ad-form .inner-form .inner-content form .input-wrapper {
+    margin-left: 0;
     width: 17.5rem;
   }
 }
@@ -4443,7 +4442,7 @@
 }
 .ads-container .content .inner-content1 img {
   margin-left: -4.5rem;
-  margin-bottom: -16rem;
+  margin-bottom: -8rem;
   width: 100%;
 }
 .ads-container .inner-content2 {
@@ -4819,16 +4818,16 @@
   }
   .ads-container .content .inner-content .text h1, .ads-container .content .inner-content .text span {
     font-size: 3.5rem;
-    width: 75%;
+    width: 100%;
   }
   .ads-container .content .inner-content .text p {
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
   }
   .ads-container .content .inner-content1 {
-    width: 80%;
+    width: 100%;
     margin-left: 5rem;
-    margin-bottom: 14rem;
+    margin-bottom: -8rem;
   }
   .ads-container .inner-content2 {
     margin: 0 auto;
@@ -4881,8 +4880,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    margin-bottom: 0;
+    width: 60%;
+    margin-bottom: -6.5rem;
   }
   .ads-container .inner-content2 {
     padding: 0 2.5rem;
@@ -5000,7 +4999,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    margin-bottom: 0;
+    margin-bottom: -8rem;
   }
   .ads-container .inner-content2 {
     margin-left: 0;
@@ -5102,11 +5101,12 @@
   .ads-container .ad-form {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    margin-top: 0;
+    margin-top: 6rem;
     margin-bottom: 4rem;
   }
   .ads-container .ad-form .inner-form {
     padding: 2rem 1.5rem 2rem 1.5rem;
+    margin: 0 auto;
   }
   .ads-container .ad-form .inner-form .text h1 {
     font-size: 2rem;
@@ -5114,10 +5114,8 @@
   .ads-container .ad-form .inner-form .inner-content {
     margin-left: 0;
   }
-  .ads-container .ad-form .inner-form .inner-content form {
-    margin-left: 0;
-  }
   .ads-container .ad-form .inner-form .inner-content form .input-wrapper {
+    margin-left: 0;
     width: 17.5rem;
   }
 }
