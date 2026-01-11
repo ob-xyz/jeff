@@ -21,7 +21,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 32K+ of the world's most decisive people</h1>
+            <h1>Reach 32K+ of the world's most bold, decisive people</h1>
             <p>We're the daily newsletter helping businesses do more 🚀</p>
           </div>
       <div className="btn">
@@ -34,7 +34,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Connect with your next customers on <span>Jeffamazon</span></h2>
-          <Link className="text" to="/ads/ad-form">Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience.</Link>
+          <Link className="text" to="/ads/ad-form">Our audience is bold, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience.</Link>
       </div>
         <div className="floatimg">
             <img src={imageads} alt="Jeffamazon newsletter image" />
@@ -127,7 +127,7 @@ export default function Index() {
         <div className="inner-form">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 32K+ of the world's most decisive people</h1>
+            <h1>Reach 32K+ of the world's most bold, decisive people</h1>
             <p>We're the daily newsletter helping businesses do more.</p>
           </div>
         <div className="inner-content">

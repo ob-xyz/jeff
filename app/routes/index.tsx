@@ -45,7 +45,7 @@ export default function Index() {
       </div>
       <div className="inner-content25sm">
        <h2><span>Stay ahead</span></h2>
-          <Link className="text" to="/subscribe">Make decisive decisions and stay ahead of the curve.</Link>
+          <Link className="text" to="/subscribe">Make bold, decisive decisions that keep you ahead of the curve.</Link>
       </div>
       <div className="floatimg">
             <img src={tobi} alt="Jeffamazon newsletter image" />
