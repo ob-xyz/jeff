@@ -53,7 +53,7 @@
 .text{
     h1{
         margin-left:0;
-        width:77.5%;
+        width:70%;
     }
     p{
         text-align: left;
@@ -113,9 +113,9 @@ button.submit {
   }
 .inner-content1{
     img{
-      margin-left:2rem;
+      margin-left:-7rem;
       margin-bottom:0rem; 
-      width: 75%;
+      width: 80%;
     }
   }
 }
@@ -489,7 +489,7 @@ form {
   }
   .inner-content1{
     width: 100%;
-    margin-left: 5rem;
+    margin-left: 20rem;
     margin-bottom:0rem;
   }
 }
@@ -529,6 +529,7 @@ form {
   }
 .content{
   flex-direction: column;
+  margin-top: -2rem;
 .inner-content{
         margin-left:2.5rem;
     .text{
@@ -549,12 +550,14 @@ form {
   }
  .inner-content1{
   margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    margin-bottom:-8rem;
+    width: 70%;
+    margin-bottom:0;
   }
  }
 }
@@ -661,9 +664,9 @@ form {
   }
 .content{
   flex-direction: column;
+    margin-top: -2.5rem;
 .inner-content{
         margin-left:1rem;
-        margin-top: 1rem;
     .text{
       h1{
         font-size:3rem;
@@ -683,12 +686,14 @@ form {
   }
 .inner-content1 {
   margin-top: 2.5rem;
+      margin-left: auto;
+    margin-right: auto;
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    margin-bottom:-8rem;
+    width: 70%;
+    margin-bottom:0;
   }
 }
 }

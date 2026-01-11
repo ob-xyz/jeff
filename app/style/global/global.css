@@ -53,7 +53,7 @@
   font-family: kl;
 }
 .container h2 span {
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-family: ku;
 }
 .container h3 {
@@ -84,7 +84,7 @@
 }
 .container .content .inner-content .text h1 {
   margin-left: 0;
-  width: 77.5%;
+  width: 70%;
 }
 .container .content .inner-content .text p {
   text-align: left;
@@ -138,9 +138,9 @@
   cursor: pointer;
 }
 .container .content .inner-content1 img {
-  margin-left: 2rem;
+  margin-left: -7rem;
   margin-bottom: 0rem;
-  width: 75%;
+  width: 80%;
 }
 .container .inner-content2 {
   background: #02090A;
@@ -178,7 +178,7 @@
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
-.container .inner-content2 p span {
+.container .inner-content2 p span, .container .inner-content2 .text span {
   font-size: 3.5rem;
 }
 @keyframes shimmer {
@@ -529,7 +529,7 @@
   }
   .container .content .inner-content1 {
     width: 100%;
-    margin-left: 5rem;
+    margin-left: 20rem;
     margin-bottom: 0rem;
   }
   .container .inner-content2 {
@@ -564,6 +564,7 @@
   }
   .container .content {
     flex-direction: column;
+    margin-top: -2rem;
   }
   .container .content .inner-content {
     margin-left: 2.5rem;
@@ -581,13 +582,15 @@
   }
   .container .content .inner-content1 {
     margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .container .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    margin-bottom: -8rem;
+    width: 70%;
+    margin-bottom: 0;
   }
   .container .inner-content2 {
     padding: 0 2.5rem;
@@ -682,10 +685,10 @@
   }
   .container .content {
     flex-direction: column;
+    margin-top: -2.5rem;
   }
   .container .content .inner-content {
     margin-left: 1rem;
-    margin-top: 1rem;
   }
   .container .content .inner-content .text h1 {
     font-size: 3rem;
@@ -701,13 +704,15 @@
   }
   .container .content .inner-content1 {
     margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .container .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    margin-bottom: -8rem;
+    width: 70%;
+    margin-bottom: 0;
   }
   .container .inner-content2 {
     margin-left: 0;
@@ -3718,7 +3723,6 @@
 }
 .adformats-container .content .inner-content1 img {
   margin-left: -7.5rem;
-  margin-bottom: -5rem;
   width: 100%;
 }
 .adformats-container .inner-content2 {
@@ -4103,15 +4107,11 @@
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
   }
-  .adformats-container .content .inner-content1 {
-    margin-top: 2.5rem;
-  }
   .adformats-container .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    margin-bottom: -6.5rem;
+    width: 70%;
   }
   .adformats-container .inner-content2 {
     padding: 0 2.5rem;
@@ -4241,15 +4241,11 @@
     padding-bottom: 0.5rem;
     width: 87.5%;
   }
-  .adformats-container .content .inner-content1 {
-    margin-top: 2.5rem;
-  }
   .adformats-container .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    margin-bottom: -8rem;
+    width: 70%;
   }
   .adformats-container .inner-content2 {
     margin-left: 0;
@@ -4442,7 +4438,6 @@
 }
 .ads-container .content .inner-content1 img {
   margin-left: -7.5rem;
-  margin-bottom: -5rem;
   width: 100%;
 }
 .ads-container .inner-content2 {
@@ -4897,15 +4892,11 @@
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
   }
-  .ads-container .content .inner-content1 {
-    margin-top: 2.5rem;
-  }
   .ads-container .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    margin-bottom: -6.5rem;
+    width: 70%;
   }
   .ads-container .inner-content2 {
     padding: 0 2.5rem;
@@ -5021,15 +5012,11 @@
     padding-bottom: 0.5rem;
     width: 87.5%;
   }
-  .ads-container .content .inner-content1 {
-    margin-top: 2.5rem;
-  }
   .ads-container .content .inner-content1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    margin-bottom: -8rem;
+    width: 70%;
   }
   .ads-container .inner-content2 {
     margin-left: 0;

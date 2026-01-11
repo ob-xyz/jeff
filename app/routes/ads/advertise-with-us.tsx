@@ -1,7 +1,7 @@
 import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
-import header from "~/../public/img/ja3.png";
+import header from "~/../public/img/ja7.png";
 import header2 from "~/../public/img/ja5.png";
 
 import carouselads from "~/../public/img/ads/carouselads.gif";
@@ -186,7 +186,7 @@ export default function Index() {
         <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
         <input type="hidden" name="nonce" />
       </form>
-            <img src={recads} alt="Jeffamazon newsletter image" />
+            <img src={header} alt="Jeffamazon newsletter image" />
         </div>
       </div>
         </div>
