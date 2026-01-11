@@ -62,7 +62,7 @@ export default function Index() {
       <Link className="text" to="/subscribe">Enjoy our Sunday deep dives into asymmetric bets with huge upside.</Link>
       </div>
       <div className="floatimg">
-          <img src={header2} alt="Jeffamazon newsletter image" />
+          <img src={header3} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
