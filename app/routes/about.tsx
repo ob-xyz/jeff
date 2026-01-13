@@ -40,7 +40,7 @@ export default function Index() {
           <br /><br /><br />
           <Link className="text" to="/subscribe">Made it my thing. Doubled down. Iterated a million more times. And nowadays that's still pretty much all I do.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">Voted most likely to never sell a course or write a book. But my newsletters will always be free. If you have feedback or just want to talk the best way to reach me is <span>chris@jeffamazon.com</span></Link>
+          <Link className="text" to="/subscribe">Voted most likely to never sell a course or write a book. But my newsletter will always be free. If you have feedback or just want to talk the best way to reach me is <span>chris@jeffamazon.com</span></Link>
       </div>
       <div className="inner-content3sm">
       <div className="grid">
