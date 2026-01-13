@@ -32,11 +32,11 @@ export default function Index() {
       <h2>Hey I'm <span>Chris Signore</span></h2>
           <Link className="text" to="/subscribe">I'm best known for my daily newsletter Jeffamazon.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">But I'm also an expert in company building and designing and engineering products mostly from scratch.</Link>
+          <Link className="text" to="/subscribe">But I'm also an expert in company and product building. And I love to design and engineer things from scratch.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">A big joy in my life is building things I can easily share with others.</Link>
+          <Link className="text" to="/subscribe">For the past few years this has mostly been newsletters.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">So thank you for just being here.</Link>
+          <Link className="text" to="/subscribe">Check them out below.</Link>
       </div>
       <div className="inner-content251">
           <Link className="text" to="/subscribe">My newsletters.</Link>
