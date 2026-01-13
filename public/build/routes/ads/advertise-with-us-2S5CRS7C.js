@@ -9,7 +9,7 @@ import {
 } from "/build/_shared/chunk-L3PUT425.js";
 import {
   Link
-} from "/build/_shared/chunk-7P2A5ER2.js";
+} from "/build/_shared/chunk-R73PZJSD.js";
 import {
   imageads_default,
   quickads_default,
@@ -622,4 +622,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/advertise-with-us-XHOAIMTW.js.map
+//# sourceMappingURL=/build/routes/ads/advertise-with-us-2S5CRS7C.js.map

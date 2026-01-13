@@ -5258,7 +5258,6 @@ function ScrollRestoration2({
 }
 
 export {
-  useLocation,
   Outlet,
   Link2 as Link,
   Links,
@@ -5473,4 +5472,4 @@ use-sync-external-store/cjs/use-sync-external-store-shim.development.js:
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/_shared/chunk-7P2A5ER2.js.map
+//# sourceMappingURL=/build/_shared/chunk-R73PZJSD.js.map

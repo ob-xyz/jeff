@@ -8,19 +8,14 @@ import {
   Meta,
   Outlet,
   Scripts,
-  ScrollRestoration,
-  useLocation
-} from "/build/_shared/chunk-7P2A5ER2.js";
+  ScrollRestoration
+} from "/build/_shared/chunk-R73PZJSD.js";
 import {
-  require_jsx_dev_runtime,
-  require_react
+  require_jsx_dev_runtime
 } from "/build/_shared/chunk-HYDBX6IC.js";
 import {
   __toESM
 } from "/build/_shared/chunk-IU43IUTG.js";
-
-// app/root.tsx
-var import_react2 = __toESM(require_react());
 
 // public/img/in.png
 var in_default = "/build/_assets/in-4S25RRTW.png";
@@ -266,81 +261,57 @@ var meta = () => ({
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
-  const location = useLocation();
-  (0, import_react2.useEffect)(() => {
-    const renderCaptchas = () => {
-      if (window.hcaptcha) {
-        const captchaElements = document.querySelectorAll(".h-captcha");
-        captchaElements.forEach((el) => {
-          if (el.innerHTML === "") {
-            window.hcaptcha.render(el);
-          }
-        });
-      }
-    };
-    let script = document.querySelector('script[src="https://js.hcaptcha.com/1/api.js"]');
-    if (!script) {
-      script = document.createElement("script");
-      script.src = "https://js.hcaptcha.com/1/api.js";
-      script.async = true;
-      script.defer = true;
-      script.onload = renderCaptchas;
-      document.body.appendChild(script);
-    } else {
-      renderCaptchas();
-    }
-  }, [location.key]);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("html", { lang: "en", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 70,
+        lineNumber: 41,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 71,
+        lineNumber: 42,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 69,
+      lineNumber: 40,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("body", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Outlet, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 74,
+        lineNumber: 45,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Footer, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 75,
+        lineNumber: 46,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(ScrollRestoration, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 76,
+        lineNumber: 47,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 77,
+        lineNumber: 48,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 78,
+        lineNumber: 49,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 73,
+      lineNumber: 44,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 68,
+    lineNumber: 39,
     columnNumber: 5
   }, this);
 }
@@ -349,4 +320,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-CSCMBB7F.js.map
+//# sourceMappingURL=/build/root-CPH6DC4U.js.map

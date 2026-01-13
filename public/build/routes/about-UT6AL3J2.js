@@ -6,7 +6,7 @@ import {
 } from "/build/_shared/chunk-L3PUT425.js";
 import {
   Link
-} from "/build/_shared/chunk-7P2A5ER2.js";
+} from "/build/_shared/chunk-R73PZJSD.js";
 import {
   ja1_default
 } from "/build/_shared/chunk-3DAMEOYN.js";
@@ -316,4 +316,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-JAZ7DXEV.js.map
+//# sourceMappingURL=/build/routes/about-UT6AL3J2.js.map
