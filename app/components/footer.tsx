@@ -1,4 +1,5 @@
 import { Link } from "@remix-run/react";
+import Altcha from "./altcha";
 
 import linkedin from "~/../public/img/in.png";
 import ig from "~/../public/img/ig.png";
@@ -15,15 +16,15 @@ export default function Footer() {
   <div className="footer-signup">
     <h1>Screw it, let's do it.</h1>
           <p>Start your day with Jeffamazon</p>
-    <form method="post" action="https://app.jeffamzn.com/subscription/form">
-      <div className="input-wrapper">
-        <input className="email" type="email" name="email" required placeholder="Email Address *" />
-        <button className="submit" type="submit">Let's do it</button>
-      </div>
-      <div className="h-captcha" data-sitekey="7e96e6a6-eef8-4624-be9c-e468b5a8b230"></div>
-      <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
-      <input type="hidden" name="nonce" />
-    </form>
+      <form method="post" action="https://app.jeffamzn.com/subscription/form">
+        <div className="input-wrapper">
+          <input className="email" type="email" name="email" required placeholder="Email Address *" />
+          <button className="submit" type="submit">Send it</button>
+        </div>
+        <Altcha />
+        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+        <input type="hidden" name="nonce" />
+      </form>
   </div>
 
 <div className="footer-links">

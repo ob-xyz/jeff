@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import type { LinksFunction } from "@remix-run/node";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Footer from "./components/footer";
 
 import {
