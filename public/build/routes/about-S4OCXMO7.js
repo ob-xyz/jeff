@@ -1,0 +1,325 @@
+import {
+  cs_default
+} from "/build/_shared/chunk-EJTSO6MN.js";
+import {
+  ja7_default
+} from "/build/_shared/chunk-L3PUT425.js";
+import {
+  Link
+} from "/build/_shared/chunk-R73PZJSD.js";
+import {
+  ja1_default
+} from "/build/_shared/chunk-3DAMEOYN.js";
+import {
+  require_jsx_dev_runtime
+} from "/build/_shared/chunk-HYDBX6IC.js";
+import {
+  __toESM
+} from "/build/_shared/chunk-IU43IUTG.js";
+
+// app/routes/about.tsx
+var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
+function Index() {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "about-container", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: ja1_default, alt: "Jeffamazon Logo" }, void 0, false, {
+      fileName: "app/routes/about.tsx",
+      lineNumber: 14,
+      columnNumber: 9
+    }, this) }, void 0, false, {
+      fileName: "app/routes/about.tsx",
+      lineNumber: 13,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "text", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h4", { children: "Hey, I'm Chris" }, void 0, false, {
+            fileName: "app/routes/about.tsx",
+            lineNumber: 19,
+            columnNumber: 13
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: [
+            "Aspiring writer.",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/routes/about.tsx",
+              lineNumber: 20,
+              columnNumber: 33
+            }, this),
+            "Aspiring entrepreneur.",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/routes/about.tsx",
+              lineNumber: 20,
+              columnNumber: 61
+            }, this),
+            "Aspiring morning person."
+          ] }, void 0, true, {
+            fileName: "app/routes/about.tsx",
+            lineNumber: 20,
+            columnNumber: 13
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "But I'm best known for my newsletter Jeffamazon \u{1F680}" }, void 0, false, {
+            fileName: "app/routes/about.tsx",
+            lineNumber: 21,
+            columnNumber: 13
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/routes/about.tsx",
+          lineNumber: 18,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "pricebtn", to: "/subscribe", children: "Subscribe" }, void 0, false, {
+          fileName: "app/routes/about.tsx",
+          lineNumber: 24,
+          columnNumber: 13
+        }, this) }, void 0, false, {
+          fileName: "app/routes/about.tsx",
+          lineNumber: 23,
+          columnNumber: 7
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 17,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: cs_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 28,
+        columnNumber: 13
+      }, this) }, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 27,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/routes/about.tsx",
+      lineNumber: 16,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: "Is there ever a good time to brag?" }, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 32,
+        columnNumber: 7
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "I'm best known for my newsletter Jeffamazon. And being voted most likely to never sell a course online." }, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 33,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 34,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 34,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 34,
+        columnNumber: 23
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "But I'm also a bootstrapped founder building a company that makes it easy for me to design and engineer things I actually want to shill." }, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 35,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 36,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 36,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 36,
+        columnNumber: 23
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Born and raised in a samll town. Commerce university grad. First job was a 5 year stint at ProSlide before leaping." }, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 37,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 38,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 38,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 38,
+        columnNumber: 23
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Landed head first in email newsletters. Slowly built my list. Vetted everyone. And slowly taught myself figma and how to write code." }, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 39,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 40,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 40,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 40,
+        columnNumber: 23
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "I started working on this crazy idea that newsletters could be a content format I enjoyed. Less text. More visual. Feels like scrolling a feed." }, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 41,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 42,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 42,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 42,
+        columnNumber: 23
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "And I called it Jeffamazon...." }, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 43,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 44,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 44,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 44,
+        columnNumber: 23
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: [
+        "Have feedback? best way to reach me is ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "chris@jeffamazon.com" }, void 0, false, {
+          fileName: "app/routes/about.tsx",
+          lineNumber: 45,
+          columnNumber: 89
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 45,
+        columnNumber: 11
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/routes/about.tsx",
+      lineNumber: 31,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content3sm", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "grid", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "boxmat", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: ja7_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 51,
+        columnNumber: 11
+      }, this) }, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 50,
+        columnNumber: 10
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Jeffamazon" }, void 0, false, {
+          fileName: "app/routes/about.tsx",
+          lineNumber: 54,
+          columnNumber: 9
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Daily business news" }, void 0, false, {
+          fileName: "app/routes/about.tsx",
+          lineNumber: 55,
+          columnNumber: 9
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "pricebtn", to: "/subscribe", children: "Subscribe for free" }, void 0, false, {
+          fileName: "app/routes/about.tsx",
+          lineNumber: 57,
+          columnNumber: 11
+        }, this) }, void 0, false, {
+          fileName: "app/routes/about.tsx",
+          lineNumber: 56,
+          columnNumber: 7
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 53,
+        columnNumber: 7
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/routes/about.tsx",
+      lineNumber: 49,
+      columnNumber: 7
+    }, this) }, void 0, false, {
+      fileName: "app/routes/about.tsx",
+      lineNumber: 48,
+      columnNumber: 7
+    }, this) }, void 0, false, {
+      fileName: "app/routes/about.tsx",
+      lineNumber: 47,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content25", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: '" A big joy in my life is building things I can easily share with others.' }, void 0, false, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 64,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "tag", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "CHRIS SIGNORE" }, void 0, false, {
+          fileName: "app/routes/about.tsx",
+          lineNumber: 66,
+          columnNumber: 7
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Founder" }, void 0, false, {
+          fileName: "app/routes/about.tsx",
+          lineNumber: 69,
+          columnNumber: 7
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 65,
+        columnNumber: 7
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/routes/about.tsx",
+      lineNumber: 63,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/routes/about.tsx",
+    lineNumber: 12,
+    columnNumber: 5
+  }, this);
+}
+export {
+  Index as default
+};
+//# sourceMappingURL=/build/routes/about-S4OCXMO7.js.map
