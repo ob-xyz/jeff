@@ -30,23 +30,14 @@ export default function Footer() {
 <div className="footer-links">
   <div className="column">
     <h4>Company</h4>
-    <Link to="/">Home</Link>
-    <Link to="/about">About</Link>
-    <a title="sample issue" href="https://jeffamazon.com/sample-issue"  rel="noopener noreferrer">Sample</a>
+        <Link to="/ads/advertise-with-us">Advertise with us</Link>
     <Link to="/subscribe">Subscribe</Link>
-  </div>
-  <div className="column">
-    <h4>Business</h4>
-    <Link to="/ads/advertise-with-us">Advertise with us</Link>
-      <a title="media kit" href="https://jeffamazon.com/media-kit"  rel="noopener noreferrer">Media kit</a>
-      <a title="rate card" href="https://jeffamazon.com/rate-card"  rel="noopener noreferrer">Rate card</a>
-          <Link to="/ads/ad-formats">Ad formats</Link>
+    <Link to="/">Home</Link>
   </div>
 </div>
 </div>
 
 <div className="footer-bottom">
-
   <div className="footer-meta">
     <Link to="/policies/privacy">Privacy Policy</Link>
   <a href="https://policies.google.com/terms?hl=en-US" target="_blank" rel="noopener noreferrer">
