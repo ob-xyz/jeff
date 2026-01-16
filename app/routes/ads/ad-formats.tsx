@@ -87,6 +87,16 @@ export default function Index() {
             <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
       </div>
       </div>
+            <div className="floatimg">
+            <img src={recads} alt="Jeffamazon newsletter image" />
+        </div>
+      <div className="inner-content25">
+       <h2><span>Podcast Ads</span></h2>
+            <Link className="text" to="/ads/ad-form">Podcast ads give you a widescreen image and a CTA button to maximizes your</Link>
+      <div className="btn">
+            <Link className="pricebtn" to="/ads/ad-form">Learn more</Link>
+      </div>
+      </div>
       <div className="floatimg">
             <img src={takeoverads} alt="Jeffamazon newsletter image" />
         </div>

@@ -113,8 +113,8 @@ export default function Index() {
             <img src={recads} alt="Jeffamazon newsletter image" />
         </div>
       <div className="box">
-        <h1>Rec Ads</h1>
-        <p>Rec ads give you a widescreen image and a CTA button to maximizes your.</p>
+        <h1>Podcast Ads</h1>
+        <p>Podcast ads give you a widescreen image and a CTA button to maximizes your.</p>
       <div className="btn">
           <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
       </div>
