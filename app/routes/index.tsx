@@ -2,8 +2,7 @@ import { Link } from "@remix-run/react";
 import Altcha from '../components/altcha'
 
 import logo from "~/../public/img/ja1.png";
-import header from "~/../public/img/ja3.png";
-import header2 from "~/../public/img/ja5.png";
+import header from "~/../public/img/ads/recads.png";
 import header3 from "~/../public/img/ja7.png";
 import sama from "~/../public/img/samae.jpg";
 import tobi from "~/../public/img/tobic.jpg";
@@ -63,7 +62,7 @@ export default function Index() {
       <Link className="text" to="/subscribe">Enjoy our Sunday deep dives into asymmetric bets with huge upside.</Link>
       </div>
       <div className="floatimg">
-          <img src={header3} alt="Jeffamazon newsletter image" />
+          <img src={header} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
