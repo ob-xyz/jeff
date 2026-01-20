@@ -96,7 +96,14 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: "Is there ever a good time to brag?" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
+        "Is it ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "go time?" }, void 0, false, {
+          fileName: "app/routes/about.tsx",
+          lineNumber: 32,
+          columnNumber: 17
+        }, this)
+      ] }, void 0, true, {
         fileName: "app/routes/about.tsx",
         lineNumber: 32,
         columnNumber: 7
@@ -121,7 +128,7 @@ function Index() {
         lineNumber: 34,
         columnNumber: 23
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "But I'm also a bootstrapped founder building a company that designs and engineers things from scratch." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "But I'm also a bootstrapped solo entrepreneur designing and engineering things I want to exist." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 35,
         columnNumber: 11
@@ -141,7 +148,7 @@ function Index() {
         lineNumber: 36,
         columnNumber: 23
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Born and raised in a samll town. Commerce university grad. First job was a 5 year stint at ProSlide before leaping." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Born and raised in a samll town. Commerce university grad. I spent years working for others before finally taking a leap on my own ideas." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 37,
         columnNumber: 11
@@ -161,7 +168,7 @@ function Index() {
         lineNumber: 38,
         columnNumber: 23
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Landed head first in email newsletters. Started posting every day to build a list. Then vetted everyone to see who's who in the Jeffamazon zoo." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Landed head first in email newsletters. Started posting every day. Slowly built a list. Then got insanely technical about the details." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 39,
         columnNumber: 11
@@ -181,7 +188,7 @@ function Index() {
         lineNumber: 40,
         columnNumber: 23
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Turns out it's a lot of people like me and you." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "That's when I actually built The Poast, a 1-minute newsletter designed for people who value signal over noise." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 41,
         columnNumber: 11
@@ -302,4 +309,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-7T53KRCZ.js.map
+//# sourceMappingURL=/build/routes/about-HMOQICTH.js.map
