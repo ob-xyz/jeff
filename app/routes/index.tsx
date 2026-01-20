@@ -38,7 +38,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Start your day with <span>Jeffamazon</span></h2>
-        <Link className="text" to="/subscribe">Don't waste good mornings scrolling to stay informed. <span>Jeffamazon is the 1 min antidote keeping 32,000+ people in the loop</span> about what matters across the business world.</Link>
+        <Link className="text" to="/subscribe">Don't waste good mornings trying to stay informed. Jeffamazon is the <span>1 minute antidote keeping 32,000+ people in the loop</span> about what really matters across the world.</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon newsletter image" />
@@ -85,7 +85,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-          <Link className="text" to="/about">" It's the one thing that lets me know what really matters.</Link>
+          <Link className="text" to="/about">" It's the one thing that lets me know what matters in the world.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
