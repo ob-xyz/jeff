@@ -18,7 +18,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>JEFFAMAZON 1-MINUTE NEWSLETTER</h4>
+            <h4>GIVE YOUR MIND A BOOST</h4>
             <h1>Scroll Less. Win More.</h1>
             <p>Subscribe for your daily dose of what matters 🚀</p>
           </div>
