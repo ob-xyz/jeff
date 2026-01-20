@@ -19,7 +19,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>JEFFAMAZON 1-MINUTE NEWSLETTER</h4>
-            <h1>Scroll Less. Know More.</h1>
+            <h1>Scroll Less. Win More.</h1>
             <p>Subscribe for your daily dose of what matters 🚀</p>
           </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
