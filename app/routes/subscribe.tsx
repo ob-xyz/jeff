@@ -2,7 +2,7 @@ import { Link } from "@remix-run/react";
 import Altcha from '../components/altcha'
 
 import logo from "~/../public/img/ja1.png";
-import header from "~/../public/img/ja3.png";
+import header from "~/../public/img/ja5.png";
 
 export default function Index() {
   return (
@@ -34,7 +34,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Start your day with <span>Jeffamazon</span></h2>
-        <Link className="text" to="/subscribe">Don't waste good mornings scrolling to stay ahead. <span>Jeffamazon is the 1 min antidote keeping 32,000+ people in the loop</span> about what matters across the business world.</Link>
+        <Link className="text" to="/subscribe">Don't waste good mornings trying to stay informed. Jeffamazon is the <span>1 minute antidote keeping 32,000+ people in the loop</span> about what really matters across the world.</Link>
       </div>
     </div>
   );

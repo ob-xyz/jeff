@@ -1,7 +1,4 @@
 import {
-  ja3_default
-} from "/build/_shared/chunk-D4EY7YBX.js";
-import {
   AltchaWrapper
 } from "/build/_shared/chunk-6JSE4DMW.js";
 import {
@@ -16,6 +13,9 @@ import {
 import {
   __toESM
 } from "/build/_shared/chunk-IU43IUTG.js";
+
+// public/img/ja3.png
+var ja3_default = "/build/_assets/ja3-TQCME3XT.png";
 
 // app/routes/ads/ad-form.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -132,7 +132,7 @@ function Index() {
         lineNumber: 38,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/ads/ad-form", children: "Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience." }, void 0, false, {
         fileName: "app/routes/ads/ad-form.tsx",
         lineNumber: 39,
         columnNumber: 9
@@ -151,4 +151,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-form-NBDCECOT.js.map
+//# sourceMappingURL=/build/routes/ads/ad-form-WMKPKZJQ.js.map

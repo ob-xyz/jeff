@@ -2,11 +2,11 @@ import {
   cs_default
 } from "/build/_shared/chunk-EJTSO6MN.js";
 import {
-  AltchaWrapper
-} from "/build/_shared/chunk-6JSE4DMW.js";
-import {
   ja7_default
 } from "/build/_shared/chunk-WL6VMGN3.js";
+import {
+  AltchaWrapper
+} from "/build/_shared/chunk-6JSE4DMW.js";
 import {
   Link
 } from "/build/_shared/chunk-R73PZJSD.js";
@@ -363,7 +363,7 @@ function Index() {
           lineNumber: 101,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get what matters delivered straight to your inbox." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get it delivered straight to your email inbox." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 102,
           columnNumber: 9
@@ -417,4 +417,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-D64CZWDB.js.map
+//# sourceMappingURL=/build/routes/index-3WRSKE27.js.map

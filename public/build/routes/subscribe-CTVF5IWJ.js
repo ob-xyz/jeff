@@ -1,6 +1,6 @@
 import {
-  ja3_default
-} from "/build/_shared/chunk-D4EY7YBX.js";
+  ja5_default
+} from "/build/_shared/chunk-YCPLRSO3.js";
 import {
   AltchaWrapper
 } from "/build/_shared/chunk-6JSE4DMW.js";
@@ -100,7 +100,7 @@ function Index() {
         lineNumber: 14,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: ja3_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: ja5_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
         fileName: "app/routes/subscribe.tsx",
         lineNumber: 32,
         columnNumber: 13
@@ -128,13 +128,13 @@ function Index() {
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: [
-        "Don't waste good mornings scrolling to stay ahead. ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is the 1 min antidote keeping 32,000+ people in the loop" }, void 0, false, {
+        "Don't waste good mornings trying to stay informed. Jeffamazon is the ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "1 minute antidote keeping 32,000+ people in the loop" }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 37,
-          columnNumber: 99
+          columnNumber: 117
         }, this),
-        " about what matters across the business world."
+        " about what really matters across the world."
       ] }, void 0, true, {
         fileName: "app/routes/subscribe.tsx",
         lineNumber: 37,
@@ -154,4 +154,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-DMME75X2.js.map
+//# sourceMappingURL=/build/routes/subscribe-CTVF5IWJ.js.map

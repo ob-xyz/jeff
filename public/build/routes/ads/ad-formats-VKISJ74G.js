@@ -1,12 +1,12 @@
 import {
-  AltchaWrapper
-} from "/build/_shared/chunk-6JSE4DMW.js";
+  ja7_default
+} from "/build/_shared/chunk-WL6VMGN3.js";
 import {
   takeoverads_default
 } from "/build/_shared/chunk-WYQW6F5F.js";
 import {
-  ja7_default
-} from "/build/_shared/chunk-WL6VMGN3.js";
+  AltchaWrapper
+} from "/build/_shared/chunk-6JSE4DMW.js";
 import {
   Link
 } from "/build/_shared/chunk-R73PZJSD.js";
@@ -573,4 +573,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-formats-XVOBZBUQ.js.map
+//# sourceMappingURL=/build/routes/ads/ad-formats-VKISJ74G.js.map
