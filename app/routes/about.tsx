@@ -26,18 +26,12 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Is it <span>go time?</span></h2>
+      <h2><span>Is it go time?</span></h2>
           <Link className="text" to="/subscribe">I'm best known for my newsletter Jeffamazon.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">But I'm also a bootstrapped solo entrepreneur designing and engineering things I want to exist.</Link>
+          <Link className="text" to="/subscribe">But I'm really a bootstrapped solo entrepreneur who just enjoys designing and engineering things I want to exist in the world.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">Born and raised in a samll town. Commerce university grad. I spent years working for others before finally taking a leap on my own ideas.</Link>
-          <br /><br /><br />
-          <Link className="text" to="/subscribe">Landed head first in email newsletters. Started posting every day. Slowly built a list. Then got insanely technical about the details.</Link>
-          <br /><br /><br />
-          <Link className="text" to="/subscribe">That's when I actually built The Poast, a 1-minute newsletter designed for people who value signal over noise.</Link>
-          <br /><br /><br />
-          <Link className="text" to="/subscribe">Have feedback? best way to reach me is <span>chris@jeffamazon.com</span></Link>
+          <Link className="text" to="/subscribe">Wanna get in touch? the best way to reach me is <span>chris@jeffamazon.com</span></Link>
       </div>
       <div className="inner-content3sm">
       <div className="grid">
@@ -56,7 +50,7 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-          <Link className="text" to="/subscribe">" A big joy in my life is building things I can easily share with others.</Link>
+          <Link className="text" to="/subscribe">" Just make something.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
