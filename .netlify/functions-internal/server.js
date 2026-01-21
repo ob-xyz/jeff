@@ -277,7 +277,7 @@ function Footer() {
 var import_react4 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-UUDA2XPT.css";
+var global_default = "/build/_assets/global-RFEEV4YP.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime4 = require("react/jsx-dev-runtime"), links = () => [
@@ -292,8 +292,8 @@ var import_jsx_dev_runtime4 = require("react/jsx-dev-runtime"), links = () => [
   }
 ], meta = () => ({
   charset: "utf-8",
-  title: "Subscribe to Jeffamazon 1-Minute Newsletter - Jeffamazon",
-  description: "Subscribe to the free, 1-minute daily newsletter keeping 32K+ decisive people in the know about what matters.",
+  title: "Jeffamazon : 1-Minute Daily Newsletter",
+  description: "Subscribe to the free, 1-minute daily newsletter keeping 32K+ people in the know about what matters in the world.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -301,53 +301,53 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react4.Meta, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 41,
+        lineNumber: 43,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react4.Links, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 42,
+        lineNumber: 44,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.tsx",
-      lineNumber: 40,
+      lineNumber: 42,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("body", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react4.Outlet, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 45,
+        lineNumber: 47,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Footer, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 46,
+        lineNumber: 48,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react4.ScrollRestoration, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 47,
+        lineNumber: 49,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react4.Scripts, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 48,
+        lineNumber: 50,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react4.LiveReload, {}, void 0, !1, {
         fileName: "app/root.tsx",
-        lineNumber: 49,
+        lineNumber: 51,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/root.tsx",
-      lineNumber: 44,
+      lineNumber: 46,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/root.tsx",
-    lineNumber: 39,
+    lineNumber: 41,
     columnNumber: 5
   }, this);
 }
@@ -3489,11 +3489,11 @@ function Index10() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "about-container", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: ja1_default, alt: "Jeffamazon Logo" }, void 0, !1, {
       fileName: "app/routes/about.tsx",
-      lineNumber: 14,
+      lineNumber: 11,
       columnNumber: 9
     }, this) }, void 0, !1, {
       fileName: "app/routes/about.tsx",
-      lineNumber: 13,
+      lineNumber: 10,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "content", children: [
@@ -3501,274 +3501,211 @@ function Index10() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "text", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h4", { children: "Hey, I'm Chris" }, void 0, !1, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 19,
+            lineNumber: 16,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h1", { children: [
             "Aspiring writer.",
             /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/about.tsx",
-              lineNumber: 20,
+              lineNumber: 17,
               columnNumber: 33
             }, this),
             "Aspiring entrepreneur.",
             /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/about.tsx",
-              lineNumber: 20,
+              lineNumber: 17,
               columnNumber: 61
             }, this),
             "Aspiring morning person."
           ] }, void 0, !0, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 20,
+            lineNumber: 17,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "But I'm best known for my newsletter Jeffamazon \u{1F680}" }, void 0, !1, {
             fileName: "app/routes/about.tsx",
-            lineNumber: 21,
+            lineNumber: 18,
             columnNumber: 13
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/about.tsx",
-          lineNumber: 18,
+          lineNumber: 15,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react10.Link, { className: "pricebtn", to: "/subscribe", children: "Subscribe" }, void 0, !1, {
           fileName: "app/routes/about.tsx",
-          lineNumber: 24,
+          lineNumber: 21,
           columnNumber: 13
         }, this) }, void 0, !1, {
           fileName: "app/routes/about.tsx",
-          lineNumber: 23,
+          lineNumber: 20,
           columnNumber: 7
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 17,
+        lineNumber: 14,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "inner-content1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: cs_default, alt: "Jeffamazon newsletter image" }, void 0, !1, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 28,
+        lineNumber: 25,
         columnNumber: 13
       }, this) }, void 0, !1, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 27,
+        lineNumber: 24,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/about.tsx",
-      lineNumber: 16,
+      lineNumber: 13,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "inner-content2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { children: [
-        "Is it ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { children: "go time?" }, void 0, !1, {
-          fileName: "app/routes/about.tsx",
-          lineNumber: 32,
-          columnNumber: 17
-        }, this)
-      ] }, void 0, !0, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { children: "Is it go time?" }, void 0, !1, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 32,
+        lineNumber: 29,
+        columnNumber: 11
+      }, this) }, void 0, !1, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 29,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react10.Link, { className: "text", to: "/subscribe", children: "I'm best known for my newsletter Jeffamazon." }, void 0, !1, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 30,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 31,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 31,
+        columnNumber: 17
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 31,
+        columnNumber: 23
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react10.Link, { className: "text", to: "/subscribe", children: "But I'm really a bootstrapped solo entrepreneur who just enjoys designing and engineering things I want to exist in the world." }, void 0, !1, {
+        fileName: "app/routes/about.tsx",
+        lineNumber: 32,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
         fileName: "app/routes/about.tsx",
         lineNumber: 33,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 34,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 34,
+        lineNumber: 33,
         columnNumber: 17
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 34,
-        columnNumber: 23
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react10.Link, { className: "text", to: "/subscribe", children: "But I'm also a bootstrapped solo entrepreneur designing and engineering things I want to exist." }, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 35,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 36,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 36,
-        columnNumber: 17
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 36,
-        columnNumber: 23
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react10.Link, { className: "text", to: "/subscribe", children: "Born and raised in a samll town. Commerce university grad. I spent years working for others before finally taking a leap on my own ideas." }, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 37,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 38,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 38,
-        columnNumber: 17
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 38,
-        columnNumber: 23
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react10.Link, { className: "text", to: "/subscribe", children: "Landed head first in email newsletters. Started posting every day. Slowly built a list. Then got insanely technical about the details." }, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 39,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 40,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 40,
-        columnNumber: 17
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 40,
-        columnNumber: 23
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react10.Link, { className: "text", to: "/subscribe", children: "That's when I actually built The Poast, a 1-minute newsletter designed for people who value signal over noise." }, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 41,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 42,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 42,
-        columnNumber: 17
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("br", {}, void 0, !1, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 42,
+        lineNumber: 33,
         columnNumber: 23
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react10.Link, { className: "text", to: "/subscribe", children: [
-        "Have feedback? best way to reach me is ",
+        "Wanna get in touch? the best way to reach me is ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("span", { children: "chris@jeffamazon.com" }, void 0, !1, {
           fileName: "app/routes/about.tsx",
-          lineNumber: 43,
-          columnNumber: 89
+          lineNumber: 34,
+          columnNumber: 98
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 43,
+        lineNumber: 34,
         columnNumber: 11
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/about.tsx",
-      lineNumber: 31,
+      lineNumber: 28,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "inner-content3sm", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "grid", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "boxmat", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: ja7_default, alt: "Jeffamazon newsletter image" }, void 0, !1, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 49,
+        lineNumber: 40,
         columnNumber: 11
       }, this) }, void 0, !1, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 48,
+        lineNumber: 39,
         columnNumber: 10
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "box", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("h1", { children: "Jeffamazon" }, void 0, !1, {
           fileName: "app/routes/about.tsx",
-          lineNumber: 52,
+          lineNumber: 43,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "Daily business news" }, void 0, !1, {
           fileName: "app/routes/about.tsx",
-          lineNumber: 53,
+          lineNumber: 44,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "btn", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react10.Link, { className: "pricebtn", to: "/subscribe", children: "Subscribe for free" }, void 0, !1, {
           fileName: "app/routes/about.tsx",
-          lineNumber: 55,
+          lineNumber: 46,
           columnNumber: 11
         }, this) }, void 0, !1, {
           fileName: "app/routes/about.tsx",
-          lineNumber: 54,
+          lineNumber: 45,
           columnNumber: 7
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 51,
+        lineNumber: 42,
         columnNumber: 7
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/about.tsx",
-      lineNumber: 47,
+      lineNumber: 38,
       columnNumber: 7
     }, this) }, void 0, !1, {
       fileName: "app/routes/about.tsx",
-      lineNumber: 46,
+      lineNumber: 37,
       columnNumber: 7
     }, this) }, void 0, !1, {
       fileName: "app/routes/about.tsx",
-      lineNumber: 45,
+      lineNumber: 36,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "inner-content25", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react10.Link, { className: "text", to: "/subscribe", children: '" A big joy in my life is building things I can easily share with others.' }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react10.Link, { className: "text", to: "/subscribe", children: '" Just make something.' }, void 0, !1, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 62,
+        lineNumber: 53,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "tag", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "CHRIS SIGNORE" }, void 0, !1, {
           fileName: "app/routes/about.tsx",
-          lineNumber: 64,
+          lineNumber: 55,
           columnNumber: 7
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("p", { children: "Founder" }, void 0, !1, {
           fileName: "app/routes/about.tsx",
-          lineNumber: 67,
+          lineNumber: 58,
           columnNumber: 7
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/about.tsx",
-        lineNumber: 63,
+        lineNumber: 54,
         columnNumber: 7
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/about.tsx",
-      lineNumber: 61,
+      lineNumber: 52,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/about.tsx",
-    lineNumber: 12,
+    lineNumber: 9,
     columnNumber: 5
   }, this);
 }
@@ -3805,7 +3742,7 @@ function Index11() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "content", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "inner-content", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "text", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h4", { children: "GIVE YOUR MIND A BOOST" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h4", { children: "1-MINUTE DAILY NEWSLETTER" }, void 0, !1, {
             fileName: "app/routes/index.tsx",
             lineNumber: 21,
             columnNumber: 13
@@ -4173,7 +4110,7 @@ function Index11() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-O2B7R5WX.js", imports: ["/build/_shared/chunk-R73PZJSD.js", "/build/_shared/chunk-HYDBX6IC.js", "/build/_shared/chunk-IU43IUTG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CF4D7GCD.js", imports: ["/build/_shared/chunk-6JSE4DMW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-HMOQICTH.js", imports: ["/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-WL6VMGN3.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-form": { id: "routes/ads/ad-form", parentId: "root", path: "ads/ad-form", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-form-WMKPKZJQ.js", imports: ["/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-formats": { id: "routes/ads/ad-formats", parentId: "root", path: "ads/ad-formats", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-formats-2353ZRAG.js", imports: ["/build/_shared/chunk-WYQW6F5F.js", "/build/_shared/chunk-WL6VMGN3.js", "/build/_shared/chunk-YRPAN2Y7.js", "/build/_shared/chunk-Y5WHSHSQ.js", "/build/_shared/chunk-HL642WJ4.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise": { id: "routes/ads/advertise", parentId: "root", path: "ads/advertise", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-PKWCYHR4.js", imports: ["/build/_shared/chunk-Y5WHSHSQ.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise-with-us": { id: "routes/ads/advertise-with-us", parentId: "root", path: "ads/advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-with-us-56OYHTSP.js", imports: ["/build/_shared/chunk-UREDJS3E.js", "/build/_shared/chunk-WYQW6F5F.js", "/build/_shared/chunk-WL6VMGN3.js", "/build/_shared/chunk-YRPAN2Y7.js", "/build/_shared/chunk-Y5WHSHSQ.js", "/build/_shared/chunk-HL642WJ4.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/oldad-formats": { id: "routes/ads/oldad-formats", parentId: "root", path: "ads/oldad-formats", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/oldad-formats-A2LQAARF.js", imports: ["/build/_shared/chunk-YRPAN2Y7.js", "/build/_shared/chunk-Y5WHSHSQ.js", "/build/_shared/chunk-HL642WJ4.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-3WRSKE27.js", imports: ["/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-WL6VMGN3.js", "/build/_shared/chunk-HL642WJ4.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/checkmarks": { id: "routes/policies/checkmarks", parentId: "root", path: "policies/checkmarks", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/checkmarks-R4ZCK4FQ.js", imports: ["/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-PODJ7S6O.js", imports: ["/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-K52SJ4CH.js", imports: ["/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/subscribe": { id: "routes/subscribe", parentId: "root", path: "subscribe", index: void 0, caseSensitive: void 0, module: "/build/routes/subscribe-FPVYATCV.js", imports: ["/build/_shared/chunk-UREDJS3E.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "05cab06a", hmr: void 0, url: "/build/manifest-05CAB06A.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-O2B7R5WX.js", imports: ["/build/_shared/chunk-R73PZJSD.js", "/build/_shared/chunk-HYDBX6IC.js", "/build/_shared/chunk-IU43IUTG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-LLL45PZH.js", imports: ["/build/_shared/chunk-6JSE4DMW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-XGX4YND6.js", imports: ["/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-WL6VMGN3.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-form": { id: "routes/ads/ad-form", parentId: "root", path: "ads/ad-form", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-form-YI6ZKF22.js", imports: ["/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-formats": { id: "routes/ads/ad-formats", parentId: "root", path: "ads/ad-formats", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-formats-2UJJ4PEL.js", imports: ["/build/_shared/chunk-WYQW6F5F.js", "/build/_shared/chunk-WL6VMGN3.js", "/build/_shared/chunk-YRPAN2Y7.js", "/build/_shared/chunk-Y5WHSHSQ.js", "/build/_shared/chunk-HL642WJ4.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise": { id: "routes/ads/advertise", parentId: "root", path: "ads/advertise", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-PKWCYHR4.js", imports: ["/build/_shared/chunk-Y5WHSHSQ.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise-with-us": { id: "routes/ads/advertise-with-us", parentId: "root", path: "ads/advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-with-us-RCNBLO5T.js", imports: ["/build/_shared/chunk-UREDJS3E.js", "/build/_shared/chunk-WYQW6F5F.js", "/build/_shared/chunk-WL6VMGN3.js", "/build/_shared/chunk-YRPAN2Y7.js", "/build/_shared/chunk-Y5WHSHSQ.js", "/build/_shared/chunk-HL642WJ4.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/oldad-formats": { id: "routes/ads/oldad-formats", parentId: "root", path: "ads/oldad-formats", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/oldad-formats-A2LQAARF.js", imports: ["/build/_shared/chunk-YRPAN2Y7.js", "/build/_shared/chunk-Y5WHSHSQ.js", "/build/_shared/chunk-HL642WJ4.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-KDAZ4IR5.js", imports: ["/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-WL6VMGN3.js", "/build/_shared/chunk-HL642WJ4.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/checkmarks": { id: "routes/policies/checkmarks", parentId: "root", path: "policies/checkmarks", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/checkmarks-R4ZCK4FQ.js", imports: ["/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-PODJ7S6O.js", imports: ["/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-K52SJ4CH.js", imports: ["/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/subscribe": { id: "routes/subscribe", parentId: "root", path: "subscribe", index: void 0, caseSensitive: void 0, module: "/build/routes/subscribe-RDAXGYQE.js", imports: ["/build/_shared/chunk-UREDJS3E.js", "/build/_shared/chunk-3DAMEOYN.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "8c869b1c", hmr: void 0, url: "/build/manifest-8C869B1C.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

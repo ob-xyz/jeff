@@ -201,8 +201,8 @@
 .container .floatimg img {
   margin: 0 auto;
   width: 55%;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 .container .inner-content25,
 .container .inner-content25sm,
@@ -345,7 +345,7 @@
 }
 .container .inner-content255 img {
   width: 100%;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -408,7 +408,7 @@
   width: 100%;
   background: #000;
   padding: 2rem 1rem 2rem 1rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 .container .inner-content3 .grid .box h1 {
   padding-top: 1rem;
@@ -648,7 +648,7 @@
     margin-bottom: 2rem;
   }
   .container .inner-content255 img {
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
@@ -799,7 +799,7 @@
     font-size: 1rem;
   }
   .container .inner-content255 img {
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
@@ -929,7 +929,7 @@
 }
 .about-container .content .inner-content1 img {
   width: 80%;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 .about-container .inner-content2 {
   background: #02090A;
@@ -1075,8 +1075,8 @@
 .about-container .floatimg img {
   margin: 0 auto;
   width: 30%;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 .about-container .inner-content3sm {
   margin: 0 5rem;
@@ -1100,7 +1100,7 @@
   width: 100%;
   background: #000;
   padding: 2rem 1rem 2rem 1rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 .about-container .inner-content3sm .grid .box h1 {
   padding-top: 1rem;
@@ -1198,8 +1198,8 @@
     width: 80%;
     margin-bottom: 0;
     border-radius: 0;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
   }
   .about-container .inner-content2 {
     padding: 0 2.5rem;
@@ -1293,8 +1293,8 @@
     width: 80%;
     margin-bottom: 0;
     border-radius: 0;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
   }
   .about-container .inner-content2 {
     margin-left: 0;
@@ -1496,16 +1496,16 @@
   cursor: pointer;
 }
 .subscribe-container .content .inner-content1 img {
-  margin-left: 6rem;
-  width: 50%;
+  margin-left: 5rem;
+  width: 75%;
 }
 .subscribe-container .inner-content2 {
-  margin-top: 2.5rem;
   background: #02090A;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   padding: 0 5rem;
   padding-bottom: 5rem;
+  margin-top: 2.5rem;
 }
 .subscribe-container .inner-content2 h2, .subscribe-container .inner-content2 h2 span {
   padding-top: 6rem;
@@ -1630,6 +1630,7 @@
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
     padding-bottom: 3rem;
+    margin-top: 0;
   }
   .subscribe-container .inner-content2 h2 {
     padding-top: 3.5rem;
@@ -1668,7 +1669,6 @@
   }
   .subscribe-container .content .inner-content .text h1 {
     font-size: 3rem;
-    width: 190%;
   }
   .subscribe-container .content .inner-content .text p {
     padding-top: 1.5rem;
@@ -1685,12 +1685,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
     margin-bottom: 0;
+    width: 90%;
   }
   .subscribe-container .inner-content2 {
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 5rem;
+    margin-top: 0;
     padding: 0 2rem;
     padding-bottom: 4rem;
     border-top-left-radius: 1.5rem;
@@ -1880,8 +1882,8 @@
 .adform-container .floatimg img {
   margin: 0 auto;
   width: 55%;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 .adform-container .inner-content25,
 .adform-container .inner-content25sm,
@@ -2024,7 +2026,7 @@
 }
 .adform-container .inner-content255 img {
   width: 100%;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -2087,7 +2089,7 @@
   width: 100%;
   background: #000;
   padding: 2rem 1rem 2rem 1rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 .adform-container .inner-content3 .grid .box h1 {
   padding-top: 1rem;
@@ -2264,7 +2266,7 @@
     margin-bottom: 2rem;
   }
   .adform-container .inner-content255 img {
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
@@ -2411,7 +2413,7 @@
     font-size: 1rem;
   }
   .adform-container .inner-content255 img {
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
@@ -2712,7 +2714,7 @@
   width: 100%;
   background: #000;
   padding: 2rem 1rem 2rem 1rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 .content-awu .inner-content3sm .grid .box h1 {
   padding-top: 1rem;
@@ -3294,8 +3296,8 @@
 .adformats-container .floatimg img {
   margin: 0 auto;
   width: 55%;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 .adformats-container .inner-content25,
 .adformats-container .inner-content2555 {
@@ -3425,7 +3427,7 @@
   width: 100%;
   background: #000;
   padding: 2rem 1rem 2rem 1rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 .adformats-container .inner-content3 .grid .box h1 {
   padding-top: 1rem;
@@ -3485,7 +3487,7 @@
   width: 100%;
   background: #000;
   padding: 4rem 4rem 4rem 4rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 .adformats-container .ad-form .inner-form .text h1 {
   margin-left: 0;
@@ -3687,7 +3689,7 @@
     margin-bottom: 2rem;
   }
   .adformats-container .inner-content255 img {
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
@@ -4022,8 +4024,8 @@
 .ads-container .floatimg2 img {
   margin: 0 auto;
   width: 55%;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 .ads-container .inner-content25 {
   background: #02090A;
@@ -4142,7 +4144,7 @@
   width: 100%;
   background: #000;
   padding: 2rem 1rem 2rem 1rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 .ads-container .inner-content3 .grid .box h1 {
   padding-top: 1rem;
@@ -4209,7 +4211,7 @@
   width: 100%;
   background: #000;
   padding: 2rem 1rem 2rem 1rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 .ads-container .inner-content3sm .grid .box h1,
 .ads-container .inner-content3smm .grid .box h1 {
@@ -4274,7 +4276,7 @@
   width: 100%;
   background: #000;
   padding: 4rem 4rem 4rem 4rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 .ads-container .ad-form .inner-form .text h1 {
   margin-left: 0;
