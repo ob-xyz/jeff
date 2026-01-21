@@ -1,10 +1,7 @@
 import { Link } from "@remix-run/react";
 
 import logo from "~/../public/img/ja1.png";
-import thepoast from "~/../public/img/thepoast.png";
-import header3 from "~/../public/img/ja6.png";
 import header4 from "~/../public/img/ja7.png";
-import header2 from "~/../public/img/ja3.png";
 import cs from "~/../public/img/cs.jpg";
 
 export default function Index() {

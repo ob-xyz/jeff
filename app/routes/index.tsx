@@ -1,5 +1,5 @@
 import { Link } from "@remix-run/react";
-import Altcha from '../components/altcha'
+import Altcha from "../components/altcha";
 
 import logo from "~/../public/img/ja1.png";
 import header from "~/../public/img/ads/recads.png";
@@ -18,7 +18,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>GIVE YOUR MIND A BOOST</h4>
+            <h4>1-MINUTE DAILY NEWSLETTER</h4>
             <h1>Scroll Less. Win More.</h1>
             <p>Subscribe for your daily dose of what matters 🚀</p>
           </div>
