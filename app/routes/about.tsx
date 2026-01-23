@@ -50,7 +50,7 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-          <Link className="text" to="/subscribe">" Just make something.</Link>
+          <Link className="text" to="/subscribe">" It's the one thing that lets me know what matters in the world.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
