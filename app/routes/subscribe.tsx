@@ -34,7 +34,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Start your day with <span>Jeffamazon</span></h2>
-        <Link className="text" to="/subscribe">Don't waste good mornings trying to stay informed. Jeffamazon is the <span>1 minute antidote keeping 32,000+ people in the loop</span> about what really matters across the world.</Link>
+        <Link className="text" to="/subscribe">Don't waste good mornings scrolling to stay informed. Jeffamazon is the <span>1 minute antidote keeping 32,000+ people in the loop</span> about what really matters across the world.</Link>
       </div>
     </div>
   );
