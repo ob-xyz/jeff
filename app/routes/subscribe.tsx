@@ -21,7 +21,7 @@ export default function Index() {
           <input className="email" type="text" name="firstName" placeholder="First Name *" />
           <input className="email" type="text" name="lastName" placeholder="Last Name *" />
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">Send it</button>
+          <button className="submit" type="submit">Let's do it</button>
         </div>
         <Altcha />
         <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
