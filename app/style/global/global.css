@@ -95,6 +95,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 0;
+  margin-top: 0.45rem;
 }
 .container .content .inner-content form altcha-widget {
   position: relative;
@@ -102,23 +103,23 @@
   margin-top: 0.1rem;
   max-width: 200px;
   --altcha-max-width: 200px;
-  --altcha-border-radius: 0.5rem;
+  --altcha-border-radius: 5rem;
   font-size: 1.1rem;
   font-family: kl;
 }
 .container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 29.5rem;
+  width: 30rem;
 }
 .container .content .inner-content form input.email {
   width: 100%;
   padding: 0.85rem 6rem 0.85rem 0.75rem;
-  font-family: Arial, sans-serif;
   color: #000;
   border: 0.15rem solid #02090A;
-  border-radius: 0.5rem;
+  border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
+  padding: 1.25rem;
 }
 .container .content .inner-content form input.email:focus {
   outline: none;
@@ -129,14 +130,14 @@
 .container .content .inner-content form button.submit {
   position: absolute;
   top: 0px;
-  right: 2px;
+  right: 0px;
   bottom: 0px;
   padding: 0 2rem;
+  margin: 0.35rem;
   background-color: #02090A;
   color: #fafafa;
   border: none;
-  border-left: 0.15rem solid #02090a;
-  border-radius: 0 0.5rem 0.5rem 0;
+  border-radius: 5rem;
   font-size: 1rem;
 }
 .container .content .inner-content form button.submit:hover {
@@ -915,7 +916,6 @@
   background-color: #02090A;
   color: #fafafa;
   border: none;
-  border-radius: 0.5rem;
   font-size: 1rem;
   font-family: bold;
 }
@@ -3230,7 +3230,6 @@
   background-color: #02090A;
   color: #fafafa;
   border: none;
-  border-radius: 0.5rem;
   font-size: 1rem;
   font-family: bold;
 }
@@ -3957,7 +3956,6 @@
   background-color: #02090A;
   color: #fafafa;
   border: none;
-  border-radius: 0.5rem;
   font-size: 1rem;
   font-family: bold;
 }
@@ -4981,7 +4979,7 @@
   margin-top: 0.1rem;
   max-width: 200px;
   --altcha-max-width: 200px;
-  --altcha-border-radius: 0.5rem;
+  --altcha-border-radius: 5rem;
   font-size: 1.1rem;
   font-family: kl;
 }
@@ -4994,9 +4992,10 @@
   padding: 0.85rem 6rem 0.85rem 0.75rem;
   color: #000;
   border: 0.15rem solid #02090A;
-  border-radius: 0.5rem;
+  border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
+  padding: 1.25rem;
 }
 .footer .footer-top .footer-signup form input.email:focus {
   outline: none;
@@ -5007,14 +5006,14 @@
 .footer .footer-top .footer-signup form button.submit {
   position: absolute;
   top: 0px;
-  right: 2px;
+  right: 0px;
   bottom: 0px;
   padding: 0 2rem;
+  margin: 0.35rem;
   background-color: #02090A;
   color: #fafafa;
   border: none;
-  border-left: 0.15rem solid #02090a;
-  border-radius: 0 0.5rem 0.5rem 0;
+  border-radius: 5rem;
   font-size: 1rem;
 }
 .footer .footer-top .footer-signup form button.submit:hover {
