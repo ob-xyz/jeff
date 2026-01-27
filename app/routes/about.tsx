@@ -26,10 +26,10 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2><span>Is it go time?</span></h2>
-          <Link className="text" to="/subscribe">I'm best known for my newsletter Jeffamazon.</Link>
+      <h2>Is it time to share?</h2>
+          <Link className="text" to="/about">I'm best known for my newsletter Jeffamazon.</Link>
           <br /><br /><br />
-          <Link className="text" to="/subscribe">But I'm actually just a bootstrapped founder trying to find out what matters in the world so I can share it with more people like me and you.</Link>
+          <Link className="text" to="/about">But I'm actually just a solo entrepreneur who's bootstrapping small things that open the spectrum of entrepreneurship to everyone.</Link>
           <br /><br /><br />
           <Link className="text" to="/subscribe">Wanna get in touch? the best way to reach me is <span>chris@jeffamazon.com</span></Link>
       </div>
