@@ -65,7 +65,7 @@ function Index() {
               lineNumber: 23,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "submit", type: "submit", children: "Send it" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "submit", type: "submit", children: "Let's do it" }, void 0, false, {
               fileName: "app/routes/subscribe.tsx",
               lineNumber: 24,
               columnNumber: 11
@@ -154,4 +154,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-Z6QGS4SI.js.map
+//# sourceMappingURL=/build/routes/subscribe-3LRFSBAR.js.map

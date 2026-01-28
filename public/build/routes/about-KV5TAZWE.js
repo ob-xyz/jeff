@@ -96,16 +96,12 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Is it go time?" }, void 0, false, {
-        fileName: "app/routes/about.tsx",
-        lineNumber: 29,
-        columnNumber: 11
-      }, this) }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: "Is it time to spill the beans?" }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 29,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "I'm best known for my newsletter Jeffamazon." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/about", children: "I'm best known for my newsletter Jeffamazon." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 30,
         columnNumber: 11
@@ -125,7 +121,7 @@ function Index() {
         lineNumber: 31,
         columnNumber: 23
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "But I'm actually just a bootstrapped founder trying to find out what matters in the world so I can share it with more people like me and you." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/about", children: "But I'm actually just a solo entrepreneur who's bootstrapping small things that open the spectrum of entrepreneurship to everyone." }, void 0, false, {
         fileName: "app/routes/about.tsx",
         lineNumber: 32,
         columnNumber: 11
@@ -246,4 +242,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-EHT67SZ5.js.map
+//# sourceMappingURL=/build/routes/about-KV5TAZWE.js.map

@@ -57,7 +57,7 @@ function Footer() {
               lineNumber: 21,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "submit", type: "submit", children: "Send it" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "submit", type: "submit", children: "Let's do it" }, void 0, false, {
               fileName: "app/components/footer.tsx",
               lineNumber: 22,
               columnNumber: 11
@@ -199,7 +199,7 @@ function Footer() {
 }
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-JRBPRSZZ.css";
+var global_default = "/build/_assets/global-EGGP2VIL.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
@@ -282,4 +282,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-L3UYLSXQ.js.map
+//# sourceMappingURL=/build/root-PJMGDDPK.js.map

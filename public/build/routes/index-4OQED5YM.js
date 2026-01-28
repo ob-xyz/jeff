@@ -75,7 +75,7 @@ function Index() {
               lineNumber: 27,
               columnNumber: 11
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "submit", type: "submit", children: "Send it" }, void 0, false, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { className: "submit", type: "submit", children: "Let's do it" }, void 0, false, {
               fileName: "app/routes/index.tsx",
               lineNumber: 28,
               columnNumber: 11
@@ -417,4 +417,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-WEHZDKQQ.js.map
+//# sourceMappingURL=/build/routes/index-4OQED5YM.js.map
