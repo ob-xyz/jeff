@@ -113,7 +113,7 @@ export default function Index() {
         </div>
       <div className="box">
         <h1>Podcast Ads</h1>
-        <p>Podcast ads give you a widescreen image and a CTA button to maximizes your.</p>
+        <p>Podcast ads give you a place to share your video and audio content from YouTube and Spotify.</p>
       <div className="btn">
           <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
       </div>
