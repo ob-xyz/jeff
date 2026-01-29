@@ -99,12 +99,12 @@ export default function Index() {
       <div className="grid">
       <div className="box">
         <h1>Subscribe</h1>
-        <p>Get it delivered straight to your email inbox.</p>
+        <p>Get Jeffamazon delivered straight to your inbox.</p>
           <Link className="text" to="/subscribe">Subscribe →</Link>
       </div>
       <div className="box">
         <h1>Advertise</h1>
-        <p>Want to post? We are looking for advertisers.</p>
+        <p>Become an advertiser to post in Jeffamazon.</p>
           <Link className="text" to="/ads/ad-form">Get in touch →</Link>
       </div>
       </div>
