@@ -1,7 +1,7 @@
 import { Link } from "@remix-run/react";
 import Altcha from "../components/altcha";
 
-import logo from "~/../public/img/ja1.png";
+import logo from "~/../public/img/ja2.png";
 import header from "~/../public/img/ads/recads.png";
 import header3 from "~/../public/img/ja7.png";
 import sama from "~/../public/img/samae.jpg";
@@ -104,7 +104,7 @@ export default function Index() {
       </div>
       <div className="box">
         <h1>Advertise</h1>
-        <p>Become an advertiser to post in Jeffamazon.</p>
+        <p>Become an advertiser in Jeffamazon.</p>
           <Link className="text" to="/ads/ad-form">Get in touch →</Link>
       </div>
       </div>

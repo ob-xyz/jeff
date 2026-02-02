@@ -1,4 +1,4 @@
-import logo from "~/../public/img/ja1.png";
+import logo from "~/../public/img/ja2.png";
 export default function Index() {
 return (
     <div className="content-privacy">

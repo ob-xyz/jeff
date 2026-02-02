@@ -1,6 +1,6 @@
 import { Link } from "@remix-run/react";
 
-import logo from "~/../public/img/ja1.png";
+import logo from "~/../public/img/ja2.png";
 import header4 from "~/../public/img/ja7.png";
 import cs from "~/../public/img/cs.jpg";
 

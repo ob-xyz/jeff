@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import logo from "~/../public/img/ja1.png";
+import logo from "~/../public/img/ja2.png";
 import imageads from "~/../public/img/promoted-ads.png";
 import carouselads from "~/../public/img/ads/carouselads.gif";
 import videoads from "~/../public/img/ads/videoads.gif";

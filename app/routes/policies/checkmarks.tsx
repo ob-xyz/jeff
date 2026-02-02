@@ -1,4 +1,4 @@
-import logo from "~/../public/img/ja1.png";
+import logo from "~/../public/img/ja2.png";
 import bluecheck from "~/../public/img/bluecheck.png";
 import goldcheck from "~/../public/img/goldcheck.png";
 import graycheck from "~/../public/img/graycheck.png";

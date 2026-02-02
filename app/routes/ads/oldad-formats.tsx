@@ -1,4 +1,4 @@
-import logo from "~/../public/img/ja1.png";
+import logo from "~/../public/img/ja2.png";
 import newads from "~/../public/img/newads.jpg";
 import convertads from "~/../public/img/convertads.jpg";
 

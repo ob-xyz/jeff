@@ -1,7 +1,7 @@
 import { Link } from "@remix-run/react";
 import Altcha from "../components/altcha";
 
-import logo from "~/../public/img/ja1.png";
+import logo from "~/../public/img/ja2.png";
 import header from "~/../public/img/ja5.png";
 
 export default function Index() {
