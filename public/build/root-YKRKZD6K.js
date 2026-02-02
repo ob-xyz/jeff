@@ -45,7 +45,7 @@ function Footer() {
           lineNumber: 17,
           columnNumber: 5
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Start your day with Jeffamazon" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Start winning with Jeffamazon" }, void 0, false, {
           fileName: "app/components/footer.tsx",
           lineNumber: 18,
           columnNumber: 11
@@ -282,4 +282,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-VPPKQGTC.js.map
+//# sourceMappingURL=/build/root-YKRKZD6K.js.map
