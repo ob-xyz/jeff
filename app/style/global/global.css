@@ -1426,7 +1426,7 @@
 .subscribe-container .content .inner-content {
   display: flex;
   flex-direction: column;
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   margin-left: 15rem;
 }
 .subscribe-container .content .inner-content .text {
@@ -1436,21 +1436,20 @@
   display: flex;
   flex-direction: column;
   margin-left: 0;
+  margin-top: 0.45rem;
 }
 .subscribe-container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 29.5rem;
+  width: 26.5rem;
 }
 .subscribe-container .content .inner-content form input.email {
-  margin-top: 0.2rem;
   width: 100%;
-  padding: 0.85rem 6rem 0.85rem 0.75rem;
-  font-family: Arial, sans-serif;
   color: #000;
   border: 0.15rem solid #02090A;
-  border-radius: 0.5rem;
+  border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
+  padding: 1.25rem;
 }
 .subscribe-container .content .inner-content form input.email:focus {
   outline: none;
@@ -1458,15 +1457,21 @@
   border-color: #02090A;
   caret-color: #02090A;
 }
+.subscribe-container .content .inner-content form .mb {
+  margin-bottom: 0.35rem;
+}
 .subscribe-container .content .inner-content form button.submit {
-  margin-top: 0.3rem;
-  padding: 1rem 1.75rem;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 0 2rem;
+  margin: 0.35rem;
   background-color: #02090A;
   color: #fafafa;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 5rem;
   font-size: 1rem;
-  font-family: bold;
 }
 .subscribe-container .content .inner-content form button.submit:hover {
   opacity: 0.85;
@@ -1754,21 +1759,20 @@
   display: flex;
   flex-direction: column;
   margin-left: 0;
+  margin-top: 0.45rem;
 }
 .adform-container .content .inner-content form .input-wrapper {
   position: relative;
-  width: 29.5rem;
+  width: 26.5rem;
 }
 .adform-container .content .inner-content form input.email {
-  margin-top: 0.2rem;
   width: 100%;
-  padding: 0.85rem 6rem 0.85rem 0.75rem;
-  font-family: Arial, sans-serif;
   color: #000;
   border: 0.15rem solid #02090A;
-  border-radius: 0.5rem;
+  border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
+  padding: 1.25rem;
 }
 .adform-container .content .inner-content form input.email:focus {
   outline: none;
@@ -1776,15 +1780,21 @@
   border-color: #02090A;
   caret-color: #02090A;
 }
+.adform-container .content .inner-content form .mb {
+  margin-bottom: 0.35rem;
+}
 .adform-container .content .inner-content form button.submit {
-  margin-top: 0.3rem;
-  padding: 1rem 1.75rem;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 0 2rem;
+  margin: 0.35rem;
   background-color: #02090A;
   color: #fafafa;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 5rem;
   font-size: 1rem;
-  font-family: bold;
 }
 .adform-container .content .inner-content form button.submit:hover {
   opacity: 0.85;
@@ -3471,21 +3481,20 @@
   display: flex;
   flex-direction: column;
   margin-left: 0;
-  margin-top: 0;
+  margin-top: 0.45rem;
 }
 .adformats-container .ad-form .inner-form .inner-content form .input-wrapper {
-  width: 38rem;
+  position: relative;
+  width: 34rem;
 }
 .adformats-container .ad-form .inner-form .inner-content form input.email {
-  margin-top: 0.2rem;
   width: 100%;
-  padding: 0.85rem 6rem 0.85rem 0.75rem;
-  font-family: Arial, sans-serif;
   color: #000;
   border: 0.15rem solid #02090A;
-  border-radius: 0.5rem;
+  border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
+  padding: 1.25rem;
 }
 .adformats-container .ad-form .inner-form .inner-content form input.email:focus {
   outline: none;
@@ -3493,15 +3502,24 @@
   border-color: #02090A;
   caret-color: #02090A;
 }
-.adformats-container .ad-form .inner-form .inner-content form button.submit {
-  margin-top: 0.5rem;
-  border-radius: 5rem;
-  padding: 1rem 1.75rem;
-  border: 0.2rem solid #fafafa;
+.adformats-container .ad-form .inner-form .inner-content form .mb {
+  margin-bottom: 0.35rem;
+}
+.adformats-container .ad-form .inner-form .inner-content form altcha-widget {
   color: #fafafa;
-  text-decoration: none;
-  font-size: 1.2rem;
-  background: transparent;
+}
+.adformats-container .ad-form .inner-form .inner-content form button.submit {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 0 2rem;
+  margin: 0.35rem;
+  background-color: #02090A;
+  color: #fafafa;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1rem;
 }
 .adformats-container .ad-form .inner-form .inner-content form button.submit:hover {
   opacity: 0.85;
@@ -4246,24 +4264,20 @@
   display: flex;
   flex-direction: column;
   margin-left: 0;
-  margin-top: 0;
-}
-.ads-container .ad-form .inner-form .inner-content form altcha-widget {
-  color: #fafafa;
+  margin-top: 0.45rem;
 }
 .ads-container .ad-form .inner-form .inner-content form .input-wrapper {
-  width: 38rem;
+  position: relative;
+  width: 34rem;
 }
 .ads-container .ad-form .inner-form .inner-content form input.email {
-  margin-top: 0.2rem;
   width: 100%;
-  padding: 0.85rem 6rem 0.85rem 0.75rem;
-  font-family: Arial, sans-serif;
   color: #000;
   border: 0.15rem solid #02090A;
-  border-radius: 0.2rem;
+  border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
+  padding: 1.25rem;
 }
 .ads-container .ad-form .inner-form .inner-content form input.email:focus {
   outline: none;
@@ -4271,15 +4285,24 @@
   border-color: #02090A;
   caret-color: #02090A;
 }
-.ads-container .ad-form .inner-form .inner-content form button.submit {
-  margin-top: 0.5rem;
-  border-radius: 5rem;
-  padding: 1rem 1.75rem;
-  border: 0.2rem solid #fafafa;
+.ads-container .ad-form .inner-form .inner-content form .mb {
+  margin-bottom: 0.35rem;
+}
+.ads-container .ad-form .inner-form .inner-content form altcha-widget {
   color: #fafafa;
-  text-decoration: none;
-  font-size: 1.2rem;
-  background: transparent;
+}
+.ads-container .ad-form .inner-form .inner-content form button.submit {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 0 2rem;
+  margin: 0.35rem;
+  background-color: #02090A;
+  color: #fafafa;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1rem;
 }
 .ads-container .ad-form .inner-form .inner-content form button.submit:hover {
   opacity: 0.85;

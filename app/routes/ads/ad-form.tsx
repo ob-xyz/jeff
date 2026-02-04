@@ -17,18 +17,18 @@ export default function Index() {
             <h4>ADVERTISE WITH US</h4>
             <h1>Reach 32K+</h1>
           </div>
-          <form method="post" action="https://app.jeffamzn.com/subscription/form">
-            <div className="input-wrapper">
-              <input className="email" type="text" name="firstName" required placeholder="First Name *" />
-              <input className="email" type="text" name="lastName" required placeholder="Last Name *" />
-              <input className="email" type="text" name="company" required placeholder="Company *" />
-              <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
-              <button className="submit" type="submit">Request quote</button>
-            </div>
-            <Altcha />
-            <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
-            <input type="hidden" name="nonce" />
-          </form>
+                      <form method="post" action="https://app.jeffamzn.com/subscription/form">
+                        <input className="email mb" type="text" name="firstName" required placeholder="First Name *" />
+                        <input className="email mb" type="text" name="lastName" required placeholder="Last Name *" />
+                        <input className="email mb" type="text" name="company" required placeholder="Company *" />
+                        <div className="input-wrapper">
+                          <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
+                          <button className="submit" type="submit">Let's do it</button>
+                        </div>
+                        <Altcha />
+                        <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
+                        <input type="hidden" name="nonce" />
+                      </form>
         </div>
         <div className="inner-content1">
           <img src={header} alt="Jeffamazon newsletter image" />

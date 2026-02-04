@@ -173,18 +173,18 @@ export default function Index() {
             <p>We're the daily newsletter helping businesses do more.</p>
           </div>
         <div className="inner-content">
-      <form method="post" action="https://app.jeffamzn.com/subscription/form">
-        <div className="input-wrapper">
-          <input className="email" type="text" name="firstName" required placeholder="First Name *" />
-          <input className="email" type="text" name="lastName" required placeholder="Last Name *" />
-          <input className="email" type="text" name="company" required placeholder="Company *" />
-          <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
-          <button className="submit" type="submit">Request quote</button>
-        </div>
-        <Altcha />
-        <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
-        <input type="hidden" name="nonce" />
-      </form>
+              <form method="post" action="https://app.jeffamzn.com/subscription/form">
+                  <input className="email" type="text" name="firstName" required placeholder="First Name *" />
+                  <input className="email" type="text" name="lastName" required placeholder="Last Name *" />
+                  <input className="email" type="text" name="company" required placeholder="Company *" />
+                <div className="input-wrapper">
+                  <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
+                  <button className="submit" type="submit">Let's do it</button>
+                </div>
+                <Altcha />
+                <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
+                <input type="hidden" name="nonce" />
+            </form>
             <img src={header} alt="Jeffamazon newsletter image" />
         </div>
       </div>
