@@ -1426,8 +1426,7 @@
 .subscribe-container .content .inner-content {
   display: flex;
   flex-direction: column;
-  margin-top: 2.5rem;
-  margin-left: 15rem;
+  margin-left: 12.5rem;
 }
 .subscribe-container .content .inner-content .text {
   margin-left: 0;
@@ -1478,8 +1477,8 @@
   cursor: pointer;
 }
 .subscribe-container .content .inner-content1 img {
-  margin-left: 5rem;
-  width: 60%;
+  margin-left: 10rem;
+  width: 42.5%;
 }
 .subscribe-container .inner-content2 {
   background: #02090A;
@@ -1749,8 +1748,7 @@
 .adform-container .content .inner-content {
   display: flex;
   flex-direction: column;
-  margin-top: 4rem;
-  margin-left: 5rem;
+  margin-left: 12.5rem;
 }
 .adform-container .content .inner-content .text {
   margin-left: 0;
@@ -1801,9 +1799,8 @@
   cursor: pointer;
 }
 .adform-container .content .inner-content1 img {
-  margin-left: 6rem;
-  margin-bottom: -1.5rem;
-  width: 70%;
+  margin-left: 10rem;
+  width: 42.5%;
 }
 .adform-container .inner-content2 {
   background: #02090A;
@@ -1811,6 +1808,7 @@
   border-top-right-radius: 2rem;
   padding: 0 5rem;
   padding-bottom: 5rem;
+  margin-top: 2rem;
 }
 .adform-container .inner-content2 h2, .adform-container .inner-content2 h2 span {
   padding-top: 6rem;
@@ -3903,7 +3901,7 @@
 .ads-container .content .inner-content {
   display: flex;
   flex-direction: column;
-  margin-left: 5rem;
+  margin-left: 12.5rem;
   margin-top: 2.5rem;
 }
 .ads-container .content .inner-content .text h1 {
@@ -3935,8 +3933,8 @@
   cursor: pointer;
 }
 .ads-container .content .inner-content1 img {
-  margin-left: -15rem;
-  width: 150%;
+  margin-left: -17.5rem;
+  width: 185%;
 }
 .ads-container .inner-content2 {
   background: #02090A;

@@ -3,7 +3,7 @@ import Altcha from "../../components/altcha";
 
 
 import logo from "~/../public/img/ja2.png";
-import header from "~/../public/img/ja3.png";
+import header from "~/../public/img/ads/imageads.png";
 
 export default function Index() {
   return (

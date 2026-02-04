@@ -48,8 +48,7 @@
 .inner-content{
       display: flex;
       flex-direction: column;
-      margin-top:4rem;
-      margin-left:5rem;
+      margin-left:12.5rem;
 
 .text{
     margin-left:0;
@@ -103,9 +102,8 @@ button.submit {
   }
 .inner-content1{
     img{
-      margin-left:6rem;
-      margin-bottom:-1.5rem;
-      width: 70%;
+      margin-left:10rem;
+      width: 42.5%;
     }
   }
 }
@@ -115,6 +113,7 @@ button.submit {
   border-top-right-radius:2rem;
   padding:0 5rem;
   padding-bottom: 5rem;
+  margin-top:2rem;
   h2, h2 span{
       padding-top:6rem;
       margin-left:0;
