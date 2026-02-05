@@ -46,7 +46,7 @@ export default function Index() {
       <img src={logo} alt="Jeffamazon Logo" />
     </div>
     <div className="content-awu2">
-          <h1>Reach 32K+ decision makers who like knowing what matters.</h1>
+          <h1>Reach 45K+ decision makers who like knowing what matters.</h1>
           <div className="text">
           <h4>MOST POPULAR</h4>
           <h3>Jeffamazon ad formats</h3>

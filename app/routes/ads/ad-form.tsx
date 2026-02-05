@@ -15,7 +15,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 32K+</h1>
+            <h1>Reach 45K+</h1>
           </div>
                       <form method="post" action="https://app.jeffamzn.com/subscription/form">
                         <input className="email mb" type="text" name="firstName" required placeholder="First Name *" />
