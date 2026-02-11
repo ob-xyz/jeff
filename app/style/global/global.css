@@ -34,15 +34,6 @@
 .container b {
   font-family: "bold";
 }
-.container .logo {
-  background: none;
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-  width: 3.5rem;
-}
-.container .logo img {
-  border-radius: 10rem;
-}
 .container h1, .container h2, .container h3, .container span {
   font-style: normal;
   text-align: left;
@@ -76,7 +67,7 @@
   margin-top: 0.5rem;
 }
 .container .content .inner-content img {
-  width: 32%;
+  width: 35%;
 }
 .container .content .inner-content .box {
   border: 2px solid #02090a;
@@ -536,7 +527,7 @@
     font-size: 2.75rem;
   }
   .container .content .inner-content img {
-    width: 45%;
+    width: 65%;
   }
   .container .content .inner-content .box {
     padding: 2rem 0;
@@ -1330,14 +1321,6 @@
 .subscribe-container b {
   font-family: "bold";
 }
-.subscribe-container .logo {
-  background: none;
-  margin: 1.25rem 0 1.25rem 5rem;
-  width: 3.5rem;
-}
-.subscribe-container .logo img {
-  border-radius: 10rem;
-}
 .subscribe-container h1, .subscribe-container h2, .subscribe-container h3, .subscribe-container span {
   font-style: normal;
   text-align: left;
@@ -1367,30 +1350,38 @@
 .subscribe-container a {
   font-family: kl;
 }
-.subscribe-container .content {
-  display: flex;
-  flex-direction: row;
-  margin-left: 0;
-}
 .subscribe-container .content .inner-content {
-  display: flex;
-  flex-direction: column;
-  margin-left: 12.5rem;
+  margin-top: 0.5rem;
 }
-.subscribe-container .content .inner-content .text {
-  margin-left: 0;
+.subscribe-container .content .inner-content img {
+  width: 35%;
 }
-.subscribe-container .content .inner-content form {
-  display: flex;
-  flex-direction: column;
-  margin-left: 0;
+.subscribe-container .content .inner-content .box {
+  border: 2px solid #02090a;
+  border-bottom: none;
+  background: #02090A;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  padding: 2rem 10rem;
+}
+.subscribe-container .content .inner-content .box h1 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  color: #7a7a7a;
+}
+.subscribe-container .content .inner-content .box p {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: #fafafa;
+}
+.subscribe-container .content .inner-content .box form {
   margin-top: 0.45rem;
 }
-.subscribe-container .content .inner-content form .input-wrapper {
+.subscribe-container .content .inner-content .box form .input-wrapper {
   position: relative;
-  width: 26.5rem;
 }
-.subscribe-container .content .inner-content form input.email {
+.subscribe-container .content .inner-content .box form input.email {
   width: 100%;
   color: #000;
   border: 0.15rem solid #02090A;
@@ -1399,16 +1390,16 @@
   box-sizing: border-box;
   padding: 1.25rem;
 }
-.subscribe-container .content .inner-content form input.email:focus {
+.subscribe-container .content .inner-content .box form input.email:focus {
   outline: none;
   box-shadow: 0 0 1px 1px #02090A;
   border-color: #02090A;
   caret-color: #02090A;
 }
-.subscribe-container .content .inner-content form .mb {
-  margin-bottom: 0.35rem;
+.subscribe-container .content .inner-content .box form altcha-widget {
+  color: #fafafa;
 }
-.subscribe-container .content .inner-content form button.submit {
+.subscribe-container .content .inner-content .box form button.submit {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -1421,13 +1412,9 @@
   border-radius: 5rem;
   font-size: 1rem;
 }
-.subscribe-container .content .inner-content form button.submit:hover {
+.subscribe-container .content .inner-content .box form button.submit:hover {
   opacity: 0.85;
   cursor: pointer;
-}
-.subscribe-container .content .inner-content1 img {
-  margin-left: 10rem;
-  width: 42.5%;
 }
 .subscribe-container .inner-content2 {
   background: #02090A;
@@ -1482,26 +1469,6 @@
   .subscribe-container h3 {
     font-size: 2.75rem;
   }
-  .subscribe-container .logo {
-    margin-left: 2.5rem;
-  }
-  .subscribe-container .content .inner-content {
-    margin-left: 2.5rem;
-  }
-  .subscribe-container .content .inner-content .text h1, .subscribe-container .content .inner-content .text span {
-    font-size: 3.5rem;
-  }
-  .subscribe-container .content .inner-content .text p {
-    padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
-  }
-  .subscribe-container .content .inner-content form .input-wrapper {
-    width: 30rem;
-  }
-  .subscribe-container .content .inner-content1 {
-    width: 100%;
-    margin-left: 2.5rem;
-  }
   .subscribe-container .inner-content2 {
     margin: 0 auto;
     padding: 0 2.5rem;
@@ -1526,34 +1493,20 @@
   .subscribe-container h3 {
     font-size: 2.75rem;
   }
-  .subscribe-container .logo {
-    margin-left: 2.5rem;
+  .subscribe-container .content .inner-content img {
+    width: 65%;
   }
-  .subscribe-container .content {
-    flex-direction: column;
+  .subscribe-container .content .inner-content .box {
+    padding: 2rem 0;
   }
-  .subscribe-container .content .inner-content {
-    margin-left: 2.5rem;
+  .subscribe-container .content .inner-content .box h1 {
+    font-size: 2rem;
   }
-  .subscribe-container .content .inner-content .text h1 {
-    font-size: 3.5rem;
+  .subscribe-container .content .inner-content .box p {
+    font-size: 1rem;
   }
-  .subscribe-container .content .inner-content .text p {
-    padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
-  }
-  .subscribe-container .content .inner-content form .input-wrapper {
-    width: 30rem;
-  }
-  .subscribe-container .content .inner-content1 {
-    margin-top: 2.5rem;
-  }
-  .subscribe-container .content .inner-content1 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-bottom: 0;
+  .subscribe-container .content .inner-content .box form .input-wrapper, .subscribe-container .content .inner-content .box form .input-wrapper1 {
+    width: 25rem;
   }
   .subscribe-container .inner-content2 {
     padding: 0 2.5rem;
@@ -1587,36 +1540,25 @@
   .subscribe-container h4 {
     font-size: 1.15rem;
   }
-  .subscribe-container .logo {
-    margin-left: 1rem;
-  }
-  .subscribe-container .content {
-    flex-direction: column;
-  }
   .subscribe-container .content .inner-content {
-    margin-left: 1rem;
-    margin-top: 1rem;
+    margin-bottom: -1rem;
   }
-  .subscribe-container .content .inner-content .text h1 {
-    font-size: 3rem;
+  .subscribe-container .content .inner-content img {
+    width: 65%;
   }
-  .subscribe-container .content .inner-content .text p {
-    padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
-    width: 87.5%;
+  .subscribe-container .content .inner-content .box {
+    padding: 2rem 0;
+    width: 91%;
   }
-  .subscribe-container .content .inner-content form .input-wrapper {
-    width: 22rem;
+  .subscribe-container .content .inner-content .box h1 {
+    margin-top: 0;
+    font-size: 1.75rem;
   }
-  .subscribe-container .content .inner-content1 {
-    margin-top: 2.5rem;
+  .subscribe-container .content .inner-content .box p {
+    font-size: 0.95rem;
   }
-  .subscribe-container .content .inner-content1 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    width: 90%;
+  .subscribe-container .content .inner-content .box form .input-wrapper, .subscribe-container .content .inner-content .box form .input-wrapper1 {
+    width: 20rem;
   }
   .subscribe-container .inner-content2 {
     margin-left: 0;
