@@ -1,7 +1,6 @@
 import { Link } from "@remix-run/react";
 import Altcha from "../components/altcha";
 
-import logo from "~/../public/img/ja2.png";
 import header from "~/../public/img/ads/recads.png";
 import header3 from "~/../public/img/ja7.png";
 import sama from "~/../public/img/samae.jpg";
@@ -16,12 +15,12 @@ export default function Index() {
         <div className="inner-content">
             <img src={header3} alt="Jeffamazon newsletter image" />
           <div className="box">
-            <h1>Scroll Less. Win More.</h1>
+            <h1>Start winning more.</h1>
             <p>Subscribe for your daily dose of winning 🚀</p>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">Let's do it</button>
+          <button className="submit" type="submit">I'm in</button>
         </div>
         <Altcha />
         <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
@@ -31,8 +30,8 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Know more with <span>Jeffamazon</span></h2>
-        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. <span>Jeffamazon is the 1 minute antidote that keeps 42,000+ people in the loop</span> about what matters across the world.</Link>
+      <h2>Win more with <span>Jeffamazon</span></h2>
+        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. <span>Jeffamazon is the 1 minute antidote that keeps 42,000+ people in the loop</span> about what matters across the business world.</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon newsletter image" />
