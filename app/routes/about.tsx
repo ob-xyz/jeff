@@ -29,7 +29,7 @@ export default function Index() {
       <h2>Time to spill the beans?</h2>
           <Link className="text" to="/about">I'm best known for my newsletter Jeffamazon.</Link>
           <br /><br /><br />
-          <Link className="text" to="/about">But I'm actually just a bootstrapped entrepreneur building all kinds of different things.</Link>
+          <Link className="text" to="/about">But I'm actually a bootstrapped entrepreneur just trying to build something in the world.</Link>
           <br /><br /><br />
           <Link className="text" to="/subscribe">Wanna get in touch? the best way to reach me is <span>chris@jeffamazon.com</span></Link>
       </div>
