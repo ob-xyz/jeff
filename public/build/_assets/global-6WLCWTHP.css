@@ -643,10 +643,10 @@
     font-size: 1.75rem;
   }
   .container .content .inner-content .box p {
-    font-size: 1rem;
+    font-size: .95rem;
   }
   .container .content .inner-content .box form .input-wrapper {
-    width: 19rem;
+    width: 20rem;
   }
   .container .inner-content2 {
     margin-left: 0;
