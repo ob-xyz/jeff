@@ -36,7 +36,8 @@
 }
 .container .logo {
   background: none;
-  margin: 1.25rem 0 1.25rem 5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
   width: 3.5rem;
 }
 .container .logo img {
@@ -66,44 +67,45 @@
 }
 .container p, .container .text {
   font-family: kl;
-  font-size: 1.35rem;
+  font-size: 1.25rem;
 }
 .container a {
   font-family: kl;
 }
-.container .content {
-  display: flex;
-  flex-direction: row;
-  margin-left: 0;
-}
 .container .content .inner-content {
-  display: flex;
-  flex-direction: column;
-  margin-left: 12.5rem;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
-.container .content .inner-content .text h1 {
-  margin-left: 0;
-  width: 60%;
+.container .content .inner-content img {
+  width: 32%;
 }
-.container .content .inner-content .text p {
-  text-align: left;
-  padding: 2rem 0rem 0.5rem 0;
-  margin-left: 0;
+.container .content .inner-content .box {
+  border: 2px solid #02090a;
+  border-bottom: none;
+  background: #02090A;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  padding: 2rem 10rem;
 }
-.container .content .inner-content form {
-  display: flex;
-  flex-direction: column;
-  margin-left: 0;
+.container .content .inner-content .box h1 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  color: #7a7a7a;
+}
+.container .content .inner-content .box p {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: #fafafa;
+}
+.container .content .inner-content .box form {
   margin-top: 0.45rem;
 }
-.container .content .inner-content form .input-wrapper {
+.container .content .inner-content .box form .input-wrapper {
   position: relative;
-  width: 26.5rem;
+  width: 25rem;
 }
-.container .content .inner-content form input.email {
+.container .content .inner-content .box form input.email {
   width: 100%;
-  padding: 0.85rem 6rem 0.85rem 0.75rem;
   color: #000;
   border: 0.15rem solid #02090A;
   border-radius: 5rem;
@@ -111,13 +113,17 @@
   box-sizing: border-box;
   padding: 1.25rem;
 }
-.container .content .inner-content form input.email:focus {
+.container .content .inner-content .box form input.email:focus {
   outline: none;
   box-shadow: 0 0 1px 1px #02090A;
   border-color: #02090A;
   caret-color: #02090A;
 }
-.container .content .inner-content form button.submit {
+.container .content .inner-content .box form altcha-widget {
+  color: #000;
+  color: #fafafa;
+}
+.container .content .inner-content .box form button.submit {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -130,21 +136,16 @@
   border-radius: 5rem;
   font-size: 1rem;
 }
-.container .content .inner-content form button.submit:hover {
+.container .content .inner-content .box form button.submit:hover {
   opacity: 0.85;
   cursor: pointer;
-}
-.container .content .inner-content1 img {
-  margin-left: -7rem;
-  margin-bottom: 0rem;
-  width: 80%;
 }
 .container .inner-content2 {
   background: #02090A;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   padding: 0 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
 }
 .container .inner-content2 h2, .container .inner-content2 h2 span {
   padding-top: 6rem;
@@ -507,29 +508,6 @@
   .container h3 {
     font-size: 2.75rem;
   }
-  .container .logo {
-    margin-left: 2.5rem;
-  }
-  .container .content .inner-content {
-    margin-left: 10rem;
-    margin-bottom: 5rem;
-  }
-  .container .content .inner-content .text h1, .container .content .inner-content .text span {
-    font-size: 3.5rem;
-    width: 80%;
-  }
-  .container .content .inner-content .text p {
-    padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
-  }
-  .container .content .inner-content form .input-wrapper {
-    width: 26.5rem;
-  }
-  .container .content .inner-content1 {
-    width: 100%;
-    margin-left: 20rem;
-    margin-bottom: 0rem;
-  }
   .container .inner-content2 {
     margin: 0 auto;
     padding: 0 2.5rem;
@@ -557,38 +535,20 @@
   .container h3 {
     font-size: 2.75rem;
   }
-  .container .logo {
-    margin-left: 2.5rem;
+  .container .content .inner-content img {
+    width: 45%;
   }
-  .container .content {
-    flex-direction: column;
-    margin-top: -2rem;
+  .container .content .inner-content .box {
+    padding: 2rem 0;
   }
-  .container .content .inner-content {
-    margin-left: 10rem;
+  .container .content .inner-content .box h1 {
+    font-size: 2rem;
   }
-  .container .content .inner-content .text h1 {
-    font-size: 3.5rem;
-    width: 60%;
+  .container .content .inner-content .box p {
+    font-size: 1rem;
   }
-  .container .content .inner-content .text p {
-    padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
-  }
-  .container .content .inner-content form .input-wrapper {
-    width: 26.5rem;
-  }
-  .container .content .inner-content1 {
-    margin-top: 2.5rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .container .content .inner-content1 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    margin-bottom: 0;
+  .container .content .inner-content .box form .input-wrapper {
+    width: 22.5rem;
   }
   .container .inner-content2 {
     padding: 0 2.5rem;
@@ -680,36 +640,25 @@
   .container h4 {
     font-size: 1.15rem;
   }
-  .container .logo {
-    margin-left: 1rem;
-  }
-  .container .content {
-    flex-direction: column;
-    margin-top: -2.5rem;
-  }
   .container .content .inner-content {
-    margin-left: 1rem;
+    margin-bottom: -1rem;
   }
-  .container .content .inner-content .text h1 {
-    font-size: 3rem;
+  .container .content .inner-content img {
+    width: 50%;
+  }
+  .container .content .inner-content .box {
+    padding: 2rem 0;
     width: 90%;
   }
-  .container .content .inner-content .text p {
-    padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
-    width: 87.5%;
+  .container .content .inner-content .box h1 {
+    margin-top: 0;
+    font-size: 2rem;
   }
-  .container .content .inner-content form .input-wrapper {
-    width: 22rem;
+  .container .content .inner-content .box p {
+    font-size: 1rem;
   }
-  .container .content .inner-content1 {
-    margin-top: 2.5rem;
-  }
-  .container .content .inner-content1 img {
-    display: block;
-    width: 70%;
-    margin-bottom: 0;
-    margin: 0 auto;
+  .container .content .inner-content .box form .input-wrapper {
+    width: 22.5rem;
   }
   .container .inner-content2 {
     margin-left: 0;

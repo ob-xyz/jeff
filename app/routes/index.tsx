@@ -12,16 +12,12 @@ import cs from "~/../public/img/cs.jpg";
 export default function Index() {
   return (
     <div className="container">
-      <div className="logo">
-        <img src={logo} alt="Jeffamazon Logo" />
-      </div>
       <div className="content">
         <div className="inner-content">
-          <div className="text">
-            <h4>1-MINUTE DAILY NEWSLETTER</h4>
+            <img src={header3} alt="Jeffamazon newsletter image" />
+          <div className="box">
             <h1>Scroll Less. Win More.</h1>
             <p>Subscribe for your daily dose of winning 🚀</p>
-          </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
@@ -31,42 +27,40 @@ export default function Index() {
         <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
         <input type="hidden" name="nonce" />
       </form>
-        </div>
-        <div className="inner-content1">
-            <img src={header3} alt="Jeffamazon newsletter image" />
+          </div>
         </div>
       </div>
       <div className="inner-content2">
       <h2>Start winning with <span>Jeffamazon</span></h2>
-        <Link className="text" to="/subscribe">Don't waste your time scrolling to stay ahead. Jeffamazon is the <span>1 minute antidote that keeps 45,000+ people in the loop</span> about what matters across the world.</Link>
+        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. Jeffamazon is the <span>1 minute antidote that keeps 45,000+ people in the loop</span> about what matters across the world.</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Know more</span></h2>
-          <Link className="text" to="/subscribe">Make bold, decisive decisions because you know more.</Link>
+       <h2><span>Stay informed</span></h2>
+          <Link className="text" to="/subscribe">Become a decisive decision maker who stays informed.</Link>
       </div>
       <div className="floatimg">
             <img src={tobi} alt="Jeffamazon newsletter image" />
         </div>
       <div className="inner-content25sm">
        <h2><span>1 min or less</span></h2>
-             <Link className="text" to="/subscribe">Understand what really matters.</Link>
+             <Link className="text" to="/subscribe">Every business news story that matters in one minute or less.</Link>
       </div>
       <div className="floatimg">
           <img src={jensen} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Sunday dig</span></h2>
-      <Link className="text" to="/subscribe">Enjoy our Sunday dig into one hot take with real upside.</Link>
+       <h2><span>Always free</span></h2>
+      <Link className="text" to="/subscribe">Enjoy our Sunday dig into one hot take with asymmetric upside.</Link>
       </div>
       <div className="floatimg">
           <img src={header} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
-            <Link className="text" to="/subscribe">Jeffamazon is a quick and insightful daily newsletter that helps you stay ahead in business strategy, technology, and economic trends.</Link>
+            <Link className="text" to="/subscribe">Jeffamazon is a quick and insightful daily newsletter that helps you stay ahead in business, technology, and economic trends.</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
