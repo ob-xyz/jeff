@@ -640,13 +640,13 @@
   }
   .container .content .inner-content .box h1 {
     margin-top: 0;
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .container .content .inner-content .box p {
     font-size: 1rem;
   }
   .container .content .inner-content .box form .input-wrapper {
-    width: 22.5rem;
+    width: 19rem;
   }
   .container .inner-content2 {
     margin-left: 0;
