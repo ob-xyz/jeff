@@ -116,7 +116,7 @@ function Index() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: [
         "Don't waste time scrolling to stay ahead. ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is the 1 minute antidote that keeps 45,000+ people in the loop" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is the 1 minute antidote that keeps 42,000+ people in the loop" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 35,
           columnNumber: 90
@@ -394,4 +394,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-ZOW5MXUH.js.map
+//# sourceMappingURL=/build/routes/index-OOH4K5QL.js.map

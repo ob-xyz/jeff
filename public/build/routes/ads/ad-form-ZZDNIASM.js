@@ -38,7 +38,7 @@ function Index() {
             lineNumber: 17,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 45K+" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 42K+" }, void 0, false, {
             fileName: "app/routes/ads/ad-form.tsx",
             lineNumber: 18,
             columnNumber: 13
@@ -151,4 +151,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-form-VHYSSIRX.js.map
+//# sourceMappingURL=/build/routes/ads/ad-form-ZZDNIASM.js.map

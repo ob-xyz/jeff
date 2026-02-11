@@ -14,7 +14,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>SIGN UP FOR JEFFAMAZON</h4>
-            <h1>Join 45K+</h1>
+            <h1>Join 42K+</h1>
           </div>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
                 <input className="email mb" type="text" name="firstName" placeholder="First Name *" />
@@ -34,7 +34,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Start winning with <span>Jeffamazon</span></h2>
-        <Link className="text" to="/subscribe">Don't waste your time scrolling to stay ahead. Jeffamazon is the <span>1 minute antidote that keeps 45,000+ people in the loop</span> about what matters across the world.</Link>
+        <Link className="text" to="/subscribe">Don't waste your time scrolling to stay ahead. Jeffamazon is the <span>1 minute antidote that keeps 42,000+ people in the loop</span> about what matters across the world.</Link>
       </div>
     </div>
   );
