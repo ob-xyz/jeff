@@ -32,7 +32,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Win more with <span>Jeffamazon</span></h2>
-        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. Jeffamazon is the <span>1 minute antidote that keeps 45,000+ people in the loop</span> about what matters across the world.</Link>
+        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. <span>Jeffamazon is the 1 minute antidote that keeps 45,000+ people in the loop</span> about what matters across the world.</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon newsletter image" />

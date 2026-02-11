@@ -115,11 +115,11 @@ function Index() {
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: [
-        "Don't waste time scrolling to stay ahead. Jeffamazon is the ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "1 minute antidote that keeps 45,000+ people in the loop" }, void 0, false, {
+        "Don't waste time scrolling to stay ahead. ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is the 1 minute antidote that keeps 45,000+ people in the loop" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 35,
-          columnNumber: 108
+          columnNumber: 90
         }, this),
         " about what matters across the world."
       ] }, void 0, true, {
@@ -394,4 +394,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-42HXTI2A.js.map
+//# sourceMappingURL=/build/routes/index-YLH5RIHV.js.map
