@@ -15,24 +15,28 @@ import takeoverads from "~/../public/img/ads/takeoverads.png";
 export default function Index() {
   return (
     <div className="ads-container">
-      <div className="logo">
-        <img src={logo} alt="Jeffamazon Logo" />
-      </div>
-      <div className="content">
-        <div className="inner-content">
-          <div className="text">
-            <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 42K+ of the world's most decisive people</h1>
-            <p>We're the daily newsletter helping businesses do more 🚀</p>
-          </div>
-      <div className="btn">
-            <Link className="pricebtn" to="/ads/ad-form">Request quote</Link>
-      </div>
-        </div>
-        <div className="inner-content1">
-            <img src={header2} alt="Jeffamazon newsletter image" />
-        </div>
-      </div>
+            <div className="content">
+              <div className="inner-content">
+                  <img src={header2} alt="Jeffamazon newsletter image" />
+                <div className="box">
+                  <h1>Reach 42K+ of the world's most decisive people.</h1>
+                  <p>We're the daily newsletter helping businesses win more 🚀</p>
+            <form method="post" action="https://app.jeffamzn.com/subscription/form">
+              <div className="input-wrapper1">
+                <input className="email" type="text" name="firstName" placeholder="First Name *" />
+                <input className="email" type="text" name="lastName" placeholder="Last Name *" />
+              </div>
+              <div className="input-wrapper">
+                <input className="email" type="email" name="email" required placeholder="Email Address *" />
+                <button className="submit" type="submit">Let's do it</button>
+              </div>
+              <Altcha />
+              <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+              <input type="hidden" name="nonce" />
+            </form>
+                </div>
+              </div>
+            </div>
       <div className="inner-content2">
       <h2>Connect with your next customers on <span>Jeffamazon</span></h2>
           <Link className="text" to="/ads/ad-form">Our audience is bold, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience.</Link>
@@ -169,7 +173,7 @@ export default function Index() {
         <div className="inner-form">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 42K+ of the world's most decisive people</h1>
+            <h1>Reach 45K+ of the world's most decisive people</h1>
             <p>We're the daily newsletter helping businesses do more.</p>
           </div>
         <div className="inner-content">

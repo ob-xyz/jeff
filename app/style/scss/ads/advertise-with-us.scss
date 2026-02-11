@@ -42,49 +42,72 @@
       font-family: kl;
     }
 .content{
-  display:flex;
-  flex-direction:row;
-  margin-left:0;
 .inner-content{
-      display: flex;
-      flex-direction: column;
-      margin-left:12.5rem;
-      margin-top:2.5rem;
-.text{
+    margin-top: .5rem;
+    img{
+      width:25%;
+    }
+    .box{
+      border:2px solid #02090a;
+      border-bottom: none;
+      background:#02090A;
+      border-top-left-radius:2rem;
+      border-top-right-radius:2rem;
+      padding:2rem 5rem;
     h1{
-        margin-left:0;
-        width:60%;
+      text-align: center;
+      margin-top:1rem;
+      font-size:2.5rem;
+      color:#7a7a7a;
     }
     p{
-        text-align: left;
-        padding-top: .35rem;
-        margin-left:0;
+        text-align: center;
+        padding-bottom:.5rem;
+        color:#fafafa;
     }
-}
-.btn { 
-  display: flex;
-  margin-left: 0;
-  margin-top: 1rem;
-  margin-bottom: 4rem;
-  .pricebtn {
+  form {
+  margin-top:.45rem;
+  .input-wrapper, .input-wrapper1 {
+    position: relative;
+    width:32.50rem;
+  }
+  input.email {
+    width: 100%;
+    color: #000;
+    border: .15rem solid #02090A;
     border-radius: 5rem;
-    padding: 1rem 1.75rem;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    padding:1.25rem;
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 1px 1px #02090A;
+      border-color: #02090A;
+      caret-color: #02090A;
+    }
+  }
+  altcha-widget {
+      color:#fafafa;
+  }
+  button.submit {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 0 2rem;
+    margin: .35rem; 
     background-color: #02090A;
     color: #fafafa;
     border: none;
+    border-radius: 5rem;
     font-size: 1rem;
-    font-family: bold;
-  &:hover {
-    opacity: .85;
-    cursor: pointer;
-  }
+
+    &:hover {
+      opacity: .85;
+      cursor: pointer;
+    }
   }
 }
-  }
-.inner-content1{
-    img{
-      margin-left:-17.5rem;
-      width: 185%;
     }
   }
 }
@@ -93,7 +116,7 @@
   border-top-left-radius:2rem;
   border-top-right-radius:2rem;
   padding:0 5rem;
-  padding-bottom:5rem;
+  padding-bottom:10rem;
   h2, h2 span{
       padding-top:6rem;
       margin-left:0;
@@ -544,32 +567,26 @@ button.submit {
   h3{
       font-size:2.75rem;
   }
-  .logo{
-    margin-left:2.5rem;
-  }
 .content{
-  flex-direction: column;
 .inner-content{
-        margin-left:2.5rem;
-    .text{
-      h1{
-        font-size:3.5rem;
-        width:60%;
-      }
-      p{
-        padding-top:2.5rem;
-        padding-bottom:.5rem;
-      }
+    img{
+      width:65%;
+    }
+    .box{
+      padding:2rem 0;
+    h1{
+      font-size:2rem;
+    }
+    p{
+        font-size:1rem;
+    }
+  form {
+  .input-wrapper, .input-wrapper1 {
+    width: 25rem;
+  }
+}
     }
   }
- .inner-content1{
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-  }
- }
 }
 .inner-content2{
   padding:0 2.5rem;
@@ -676,35 +693,29 @@ button.submit {
   h4{
     font-size:1.15rem;
   }
-  .logo{
-    margin-left:1rem;
-  }
 .content{
-  flex-direction: column;
 .inner-content{
-        margin-left:1rem;
-        margin-top: 1rem;
-    .text{
-      h1{
-        font-size:3rem;
-        width:90%;
-      }
-      p{
-        padding-top:1.5rem;
-        padding-bottom:.5rem;
-        width:87.5%;
-      }
+    margin-bottom: -1rem;
+    img{
+      width:65%;
     }
-
-  }
-.inner-content1 {
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:70%;
+    .box{
+      padding:2rem 0;
+      width:91%;
+    h1{
+      margin-top:0;
+      font-size:1.75rem;
+    }
+    p{
+        font-size:.95rem;
+    }
+  form {
+  .input-wrapper, .input-wrapper1 {
+    width: 20rem;
   }
 }
+    }
+  }
 }
 .inner-content2{
   margin-left:0;

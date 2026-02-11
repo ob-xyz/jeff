@@ -1421,8 +1421,7 @@
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   padding: 0 5rem;
-  padding-bottom: 5rem;
-  margin-top: 2.5rem;
+  padding-bottom: 10rem;
 }
 .subscribe-container .inner-content2 h2, .subscribe-container .inner-content2 h2 span {
   padding-top: 6rem;
@@ -3784,55 +3783,79 @@
 .ads-container a {
   font-family: kl;
 }
-.ads-container .content {
-  display: flex;
-  flex-direction: row;
-  margin-left: 0;
-}
 .ads-container .content .inner-content {
-  display: flex;
-  flex-direction: column;
-  margin-left: 12.5rem;
-  margin-top: 2.5rem;
+  margin-top: 0.5rem;
 }
-.ads-container .content .inner-content .text h1 {
-  margin-left: 0;
-  width: 60%;
+.ads-container .content .inner-content img {
+  width: 25%;
 }
-.ads-container .content .inner-content .text p {
-  text-align: left;
-  padding-top: 0.35rem;
-  margin-left: 0;
+.ads-container .content .inner-content .box {
+  border: 2px solid #02090a;
+  border-bottom: none;
+  background: #02090A;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  padding: 2rem 5rem;
 }
-.ads-container .content .inner-content .btn {
-  display: flex;
-  margin-left: 0;
+.ads-container .content .inner-content .box h1 {
+  text-align: center;
   margin-top: 1rem;
-  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  color: #7a7a7a;
 }
-.ads-container .content .inner-content .btn .pricebtn {
+.ads-container .content .inner-content .box p {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: #fafafa;
+}
+.ads-container .content .inner-content .box form {
+  margin-top: 0.45rem;
+}
+.ads-container .content .inner-content .box form .input-wrapper, .ads-container .content .inner-content .box form .input-wrapper1 {
+  position: relative;
+  width: 32.5rem;
+}
+.ads-container .content .inner-content .box form input.email {
+  width: 100%;
+  color: #000;
+  border: 0.15rem solid #02090A;
   border-radius: 5rem;
-  padding: 1rem 1.75rem;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  padding: 1.25rem;
+}
+.ads-container .content .inner-content .box form input.email:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #02090A;
+  border-color: #02090A;
+  caret-color: #02090A;
+}
+.ads-container .content .inner-content .box form altcha-widget {
+  color: #fafafa;
+}
+.ads-container .content .inner-content .box form button.submit {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 0 2rem;
+  margin: 0.35rem;
   background-color: #02090A;
   color: #fafafa;
   border: none;
+  border-radius: 5rem;
   font-size: 1rem;
-  font-family: bold;
 }
-.ads-container .content .inner-content .btn .pricebtn:hover {
+.ads-container .content .inner-content .box form button.submit:hover {
   opacity: 0.85;
   cursor: pointer;
-}
-.ads-container .content .inner-content1 img {
-  margin-left: -17.5rem;
-  width: 185%;
 }
 .ads-container .inner-content2 {
   background: #02090A;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   padding: 0 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
 }
 .ads-container .inner-content2 h2, .ads-container .inner-content2 h2 span {
   padding-top: 6rem;
@@ -4266,28 +4289,20 @@
   .ads-container h3 {
     font-size: 2.75rem;
   }
-  .ads-container .logo {
-    margin-left: 2.5rem;
+  .ads-container .content .inner-content img {
+    width: 65%;
   }
-  .ads-container .content {
-    flex-direction: column;
+  .ads-container .content .inner-content .box {
+    padding: 2rem 0;
   }
-  .ads-container .content .inner-content {
-    margin-left: 2.5rem;
+  .ads-container .content .inner-content .box h1 {
+    font-size: 2rem;
   }
-  .ads-container .content .inner-content .text h1 {
-    font-size: 3.5rem;
-    width: 60%;
+  .ads-container .content .inner-content .box p {
+    font-size: 1rem;
   }
-  .ads-container .content .inner-content .text p {
-    padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
-  }
-  .ads-container .content .inner-content1 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+  .ads-container .content .inner-content .box form .input-wrapper, .ads-container .content .inner-content .box form .input-wrapper1 {
+    width: 25rem;
   }
   .ads-container .inner-content2 {
     padding: 0 2.5rem;
@@ -4386,30 +4401,25 @@
   .ads-container h4 {
     font-size: 1.15rem;
   }
-  .ads-container .logo {
-    margin-left: 1rem;
-  }
-  .ads-container .content {
-    flex-direction: column;
-  }
   .ads-container .content .inner-content {
-    margin-left: 1rem;
-    margin-top: 1rem;
+    margin-bottom: -1rem;
   }
-  .ads-container .content .inner-content .text h1 {
-    font-size: 3rem;
-    width: 90%;
+  .ads-container .content .inner-content img {
+    width: 65%;
   }
-  .ads-container .content .inner-content .text p {
-    padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
-    width: 87.5%;
+  .ads-container .content .inner-content .box {
+    padding: 2rem 0;
+    width: 91%;
   }
-  .ads-container .content .inner-content1 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+  .ads-container .content .inner-content .box h1 {
+    margin-top: 0;
+    font-size: 1.75rem;
+  }
+  .ads-container .content .inner-content .box p {
+    font-size: 0.95rem;
+  }
+  .ads-container .content .inner-content .box form .input-wrapper, .ads-container .content .inner-content .box form .input-wrapper1 {
+    width: 20rem;
   }
   .ads-container .inner-content2 {
     margin-left: 0;
