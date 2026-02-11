@@ -142,7 +142,7 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content25sm", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Stay informed" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Stay ahead" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 41,
         columnNumber: 12
@@ -151,7 +151,7 @@ function Index() {
         lineNumber: 41,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Become a decisive decision maker who stays informed." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Become a decisive decision maker who stays ahead." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 42,
         columnNumber: 11
@@ -394,4 +394,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-QII2ZWYV.js.map
+//# sourceMappingURL=/build/routes/index-DC5MYPFC.js.map
