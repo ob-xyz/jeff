@@ -20,7 +20,7 @@ export default function Index() {
                   <img src={header2} alt="Jeffamazon newsletter image" />
                 <div className="box">
                   <h1>Reach 42K+ of the world's most decisive people.</h1>
-                  <p>We're the daily newsletter helping businesses win more 🚀</p>
+                  <p>Every day Jeffamazon helps businesses win more 🚀</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper1">
                 <input className="email" type="text" name="firstName" placeholder="First Name *" />
@@ -39,7 +39,7 @@ export default function Index() {
             </div>
       <div className="inner-content2">
       <h2>Connect with your next customers on <span>Jeffamazon</span></h2>
-          <Link className="text" to="/ads/ad-form">Our audience is bold, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience.</Link>
+          <Link className="text" to="/ads/ad-form">Our audience is bold, decisive, and always looking for something new. So whether you want to use videos, images, or words - there's a Jeffamazon ad format that will help you reach your goals.</Link>
       </div>
       <div className="inner-content3sm">
       <div className="grid">

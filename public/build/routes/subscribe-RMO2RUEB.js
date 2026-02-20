@@ -25,7 +25,7 @@ function Index() {
         columnNumber: 19
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Stay ahead of the curve." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Roll out of bed ahead." }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 12,
           columnNumber: 17
@@ -117,12 +117,12 @@ function Index() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: [
         "Don't waste time scrolling to stay ahead. ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is a one minute newsletter that keeps 42,000+ people ahead of the curve." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is a one minute newsletter that keeps 42,000+ people ahead of the curve" }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 32,
           columnNumber: 90
         }, this),
-        " "
+        " every day of the week."
       ] }, void 0, true, {
         fileName: "app/routes/subscribe.tsx",
         lineNumber: 32,
@@ -142,4 +142,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-QZV37C7A.js.map
+//# sourceMappingURL=/build/routes/subscribe-RMO2RUEB.js.map

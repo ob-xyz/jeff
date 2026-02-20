@@ -47,7 +47,7 @@ function Index() {
           lineNumber: 22,
           columnNumber: 19
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "We're the daily newsletter helping businesses win more \u{1F680}" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Every day Jeffamazon helps businesses win more \u{1F680}" }, void 0, false, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
           lineNumber: 23,
           columnNumber: 19
@@ -132,7 +132,7 @@ function Index() {
         lineNumber: 41,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/ads/ad-form", children: "Our audience is bold, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/ads/ad-form", children: "Our audience is bold, decisive, and always looking for something new. So whether you want to use videos, images, or words - there's a Jeffamazon ad format that will help you reach your goals." }, void 0, false, {
         fileName: "app/routes/ads/advertise-with-us.tsx",
         lineNumber: 42,
         columnNumber: 11
@@ -648,4 +648,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/advertise-with-us-WGKMBBJI.js.map
+//# sourceMappingURL=/build/routes/ads/advertise-with-us-FDLAUOVI.js.map

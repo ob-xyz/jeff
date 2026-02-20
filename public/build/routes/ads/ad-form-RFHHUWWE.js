@@ -132,10 +132,10 @@ function Index() {
         lineNumber: 38,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/ads/ad-form", children: "Our audience is highly vetted, decisive, and always looking for what's new. So whether you want to use videos, images, or words, there's a Jeffamazon ad format that'll help you reach our audience." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/ads/ad-form", children: "Our audience is bold, decisive, and always looking for something new. So whether you want to use videos, images, or words - there's a Jeffamazon ad format that will help you reach your goals." }, void 0, false, {
         fileName: "app/routes/ads/ad-form.tsx",
         lineNumber: 39,
-        columnNumber: 9
+        columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/ads/ad-form.tsx",
@@ -151,4 +151,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-form-ZZDNIASM.js.map
+//# sourceMappingURL=/build/routes/ads/ad-form-RFHHUWWE.js.map
