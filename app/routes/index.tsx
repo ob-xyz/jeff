@@ -37,14 +37,14 @@ export default function Index() {
           <img src={sama} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Daily news</span></h2>
+       <h2><span>Business news</span></h2>
           <Link className="text" to="/subscribe">Put the business world in the palm of your hand every day.</Link>
       </div>
       <div className="floatimg">
           <img src={jensen} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Always free</span></h2>
+       <h2><span>Sunday dig</span></h2>
       <Link className="text" to="/subscribe">Enjoy our Sunday dig into one unconventional idea.</Link>
       </div>
             <div className="floatimg">
