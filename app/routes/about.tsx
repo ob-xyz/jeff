@@ -50,7 +50,7 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-          <Link className="text" to="/subscribe">" It's the one thing I read to stay ahead as I roll out of bed.</Link>
+          <Link className="text" to="/about">" It's the one thing that actually helps me do great work.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
