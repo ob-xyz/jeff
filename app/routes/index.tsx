@@ -30,7 +30,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-      <h2>Most fast with <span>Jeffamazon</span></h2>
+      <h2>Move fast with <span>Jeffamazon</span></h2>
         <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. Jeffamazon is the <span>one minute newsletter keeping 42,000+ people ahead of the curve</span> every day of the week.</Link>
       </div>
       <div className="floatimg">
