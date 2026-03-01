@@ -40,7 +40,7 @@ function Index() {
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Roll out of bed ahead." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Read by builders who go all the way." }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 18,
           columnNumber: 17
@@ -103,11 +103,11 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
-        "Stay ahead with ",
+        "Move fast with ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 33,
-          columnNumber: 27
+          columnNumber: 26
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/index.tsx",
@@ -115,11 +115,11 @@ function Index() {
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: [
-        "Don't waste time scrolling to stay ahead. ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is a one minute newsletter that keeps 42,000+ people ahead of the curve" }, void 0, false, {
+        "Don't waste time scrolling to stay ahead. Jeffamazon is the ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "one minute newsletter keeping 42,000+ people ahead of the curve" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 34,
-          columnNumber: 90
+          columnNumber: 108
         }, this),
         " every day of the week."
       ] }, void 0, true, {
@@ -142,7 +142,7 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content25sm", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Business news" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Daily business news" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 40,
         columnNumber: 12
@@ -151,7 +151,7 @@ function Index() {
         lineNumber: 40,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Put the business world in the palm of your hand every day." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Get the latest and greatest business news." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 41,
         columnNumber: 11
@@ -161,17 +161,17 @@ function Index() {
       lineNumber: 39,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: jensene_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: tobic_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
       fileName: "app/routes/index.tsx",
       lineNumber: 44,
-      columnNumber: 11
+      columnNumber: 13
     }, this) }, void 0, false, {
       fileName: "app/routes/index.tsx",
       lineNumber: 43,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content25sm", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Sunday dig" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "1 min or less" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 47,
         columnNumber: 12
@@ -180,27 +180,27 @@ function Index() {
         lineNumber: 47,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Enjoy our Sunday dig into one unconventional idea." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Enjoy a quick scroll of news stories that matters." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 48,
-        columnNumber: 7
+        columnNumber: 14
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/index.tsx",
       lineNumber: 46,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: tobic_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "floatimg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: jensene_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
       fileName: "app/routes/index.tsx",
       lineNumber: 51,
-      columnNumber: 13
+      columnNumber: 11
     }, this) }, void 0, false, {
       fileName: "app/routes/index.tsx",
       lineNumber: 50,
-      columnNumber: 13
+      columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content25sm", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "1 min or less" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Sunday dig" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 54,
         columnNumber: 12
@@ -209,10 +209,10 @@ function Index() {
         lineNumber: 54,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Every news story that matters in one minute or less." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: "Discover something new in our Sunday dig into one unconventional idea." }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 55,
-        columnNumber: 14
+        columnNumber: 7
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/index.tsx",
@@ -307,7 +307,7 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2555", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/about", children: `" It's the one thing that helps me stay ahead as I roll out of bed.` }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/about", children: `" It's the one thing that actually helps me do great work.` }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 81,
         columnNumber: 11
@@ -394,4 +394,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-7ZG55NWY.js.map
+//# sourceMappingURL=/build/routes/index-VVV4FZGV.js.map
