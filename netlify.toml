@@ -22,6 +22,61 @@
   status = 301
 
 [[redirects]]
+  from = "/anthropic"
+  to = "https://app.jeffamzn.com/campaign/c3532b3b-c14a-48f7-9e93-f4ccacac445a/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 301
+
+[[redirects]]
+  from = "/perplexity"
+  to = "https://app.jeffamzn.com/campaign/1566f42a-ce41-4dd2-93f9-a3de5820faaa/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 301
+
+[[redirects]]
+  from = "/vanta"
+  to = "https://app.jeffamzn.com/campaign/0860355d-3e01-401a-8cb2-1c252af4b18e/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 301
+
+[[redirects]]
+  from = "/snowflake"
+  to = "https://app.jeffamzn.com/campaign/37470068-f973-4ec9-8c54-1cf632f5b9bf/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 301
+
+[[redirects]]
+  from = "/plaid"
+  to = "https://app.jeffamzn.com/campaign/c5584ee0-e254-4931-870f-7da46c59282f/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 301
+
+[[redirects]]
+  from = "/teads"
+  to = "https://app.jeffamzn.com/campaign/5f8dc8ec-c0fc-44f0-9fc2-b84f0302d75f/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 301
+  
+[[redirects]]
+  from = "/nebius"
+  to = "https://app.jeffamzn.com/campaign/b434f8c2-41df-46c7-9ac1-c92e4d56fb32/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 301
+
+[[redirects]]
+  from = "/headway"
+  to = "https://app.jeffamzn.com/campaign/0b1f0365-172c-49e2-9c4e-3a741ab576c8/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 301
+
+[[redirects]]
+  from = "/blacksky"
+  to = "https://app.jeffamzn.com/campaign/31629ed4-c2da-4296-bbf5-bf2ecdf685a3/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 301
+
+[[redirects]]
+  from = "/qa-wolf"
+  to = "https://app.jeffamzn.com/campaign/36c15cd9-5eb6-4c7c-9fd5-1ba81e6abe74/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 301
+
+[[redirects]]
+  from = "/smartasset"
+  to = "https://app.jeffamzn.com/campaign/fe1a8617-7985-4086-bb9b-8bef88624e33/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 301
+
+[[redirects]]
   from = "/*"
   to = "/.netlify/functions/server"
   status = 200
