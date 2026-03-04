@@ -1,40 +1,43 @@
-/* FONTS */
+/* app/style/global/global.css */
 @font-face {
-  font-family: "book";
-  src: url("../global/fonts/bal-book.woff2") format("woff2");
+  font-family: book;
+  src: url(/build/_assets/bal-book-RPKGHEBY.woff2) format("woff2");
 }
 @font-face {
-  font-family: "medium";
-  src: url("../global/fonts/bal-medium.woff2") format("woff2");
+  font-family: medium;
+  src: url(/build/_assets/bal-medium-X4OF47SR.woff2) format("woff2");
 }
 @font-face {
-  font-family: "bold";
-  src: url("../global/fonts/bal-bold.woff2") format("woff2");
+  font-family: bold;
+  src: url(/build/_assets/bal-bold-MFTBU4WP.woff2) format("woff2");
 }
 @font-face {
-  font-family: "arial";
-  src: url("../global/fonts/bal-arial.woff2") format("woff2");
+  font-family: arial;
+  src: url(/build/_assets/bal-arial-AQMYFA4H.woff2) format("woff2");
 }
 @font-face {
-  font-family: "bw";
-  src: url("../global/fonts/BroadwayD.woff2") format("woff2");
+  font-family: bw;
+  src: url(/build/_assets/BroadwayD-OO56KZYB.woff2) format("woff2");
 }
 @font-face {
-  font-family: "kl";
-  src: url("../global/fonts/Kinetika-Light.woff2") format("woff2");
+  font-family: kl;
+  src: url(/build/_assets/Kinetika-Light-7UIUEB2Z.woff2) format("woff2");
 }
 @font-face {
-  font-family: "ku";
-  src: url("../global/fonts/Kinetika-Ultra.woff2") format("woff2");
+  font-family: ku;
+  src: url(/build/_assets/Kinetika-Ultra-D4N5IGMQ.woff2) format("woff2");
 }
 .container {
   display: flex;
   flex-direction: column;
 }
 .container b {
-  font-family: "bold";
+  font-family: bold;
 }
-.container h1, .container h2, .container h3, .container span {
+.container h1,
+.container h2,
+.container h3,
+.container span {
   font-style: normal;
   text-align: left;
   font-family: ku;
@@ -54,9 +57,10 @@
 .container h4 {
   font-family: kl;
   font-size: 1.35rem;
-  color: rgb(198, 4, 36);
+  color: #c60424;
 }
-.container p, .container .text {
+.container p,
+.container .text {
   font-family: kl;
   font-size: 1.25rem;
 }
@@ -64,7 +68,7 @@
   font-family: kl;
 }
 .container .content .inner-content {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 .container .content .inner-content img {
   width: 35%;
@@ -85,11 +89,11 @@
 }
 .container .content .inner-content .box p {
   text-align: center;
-  padding-bottom: 0.5rem;
+  padding-bottom: .5rem;
   color: #fafafa;
 }
 .container .content .inner-content .box form {
-  margin-top: 0.45rem;
+  margin-top: .45rem;
 }
 .container .content .inner-content .box form .input-wrapper {
   position: relative;
@@ -98,7 +102,7 @@
 .container .content .inner-content .box form input.email {
   width: 100%;
   color: #000;
-  border: 0.15rem solid #02090A;
+  border: .15rem solid #02090A;
   border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
@@ -106,9 +110,9 @@
 }
 .container .content .inner-content .box form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
 }
 .container .content .inner-content .box form altcha-widget {
   color: #000;
@@ -116,29 +120,29 @@
 }
 .container .content .inner-content .box form button.submit {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 2rem;
-  margin: 0.35rem;
-  background-color: #02090A;
+  margin: .35rem;
+  background-color: #02090a;
   color: #fafafa;
   border: none;
   border-radius: 5rem;
   font-size: 1rem;
 }
 .container .content .inner-content .box form button.submit:hover {
-  opacity: 0.85;
+  opacity: .85;
   cursor: pointer;
 }
 .container .inner-content2 {
   background: #02090A;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
-  padding: 0 5rem;
-  padding-bottom: 10rem;
+  padding: 0 5rem 10rem;
 }
-.container .inner-content2 h2, .container .inner-content2 h2 span {
+.container .inner-content2 h2,
+.container .inner-content2 h2 span {
   padding-top: 6rem;
   margin-left: 0;
   color: #fafafa;
@@ -146,14 +150,15 @@
 .container .inner-content2 h2 span {
   font-size: 5rem;
 }
-.container .inner-content2 p, .container .inner-content2 .text {
+.container .inner-content2 p,
+.container .inner-content2 .text {
   width: 95%;
   padding-top: 1.5rem;
   font-size: 3rem;
   margin-left: 0;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -162,21 +167,15 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.container .inner-content2 p:hover, .container .inner-content2 .text:hover {
+.container .inner-content2 p:hover,
+.container .inner-content2 .text:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
-.container .inner-content2 p span, .container .inner-content2 .text span {
+.container .inner-content2 p span,
+.container .inner-content2 .text span {
   font-size: 3.5rem;
-}
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
 }
 .container .floatimg {
   margin-top: 8rem;
@@ -199,7 +198,8 @@
   width: auto;
   text-align: center;
 }
-.container .inner-content25 h2, .container .inner-content25 h2 span,
+.container .inner-content25 h2,
+.container .inner-content25 h2 span,
 .container .inner-content25sm h2,
 .container .inner-content25sm h2 span,
 .container .inner-content255 h2,
@@ -211,7 +211,8 @@
   margin: 0 auto;
   color: #fafafa;
 }
-.container .inner-content25 p, .container .inner-content25 .text,
+.container .inner-content25 p,
+.container .inner-content25 .text,
 .container .inner-content25sm p,
 .container .inner-content25sm .text,
 .container .inner-content255 p,
@@ -226,7 +227,7 @@
   margin-bottom: 4rem;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.4s ease-in-out;
+  transition: all .4s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -235,7 +236,8 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.container .inner-content25 p:hover, .container .inner-content25 .text:hover,
+.container .inner-content25 p:hover,
+.container .inner-content25 .text:hover,
 .container .inner-content25sm p:hover,
 .container .inner-content25sm .text:hover,
 .container .inner-content255 p:hover,
@@ -251,7 +253,7 @@
 .container .inner-content255 .btn,
 .container .inner-content2555 .btn {
   display: flex;
-  margin: 3rem auto 5rem auto;
+  margin: 3rem auto 5rem;
 }
 .container .inner-content25 .btn .pricebtn,
 .container .inner-content25sm .btn .pricebtn,
@@ -259,7 +261,7 @@
 .container .inner-content2555 .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  border: 0.2rem solid #fafafa;
+  border: .2rem solid #fafafa;
   color: #fafafa;
   text-decoration: none;
   font-size: 1.2rem;
@@ -273,14 +275,6 @@
 .container .inner-content2555 .btn .pricebtn:hover {
   background-color: #3a3a3a;
   color: #fafafa;
-}
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
 }
 .container .inner-content25sm {
   margin-left: 5rem;
@@ -306,9 +300,9 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.container .inner-content255 .side1 h2, .container .inner-content255 .side1 h2 span {
+.container .inner-content255 .side1 h2,
+.container .inner-content255 .side1 h2 span {
   margin: 0;
-  margin-top: 0;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   text-align: left;
@@ -341,11 +335,12 @@
   margin-left: 5rem;
   margin-right: 5rem;
   border-radius: 2rem;
-  padding: 8rem 8rem;
+  padding: 8rem;
   width: auto;
   text-align: left;
 }
-.container .inner-content2555 p, .container .inner-content2555 .text {
+.container .inner-content2555 p,
+.container .inner-content2555 .text {
   text-align: left;
   font-family: ku;
   background-color: #fafafa;
@@ -368,11 +363,11 @@
 }
 .container .inner-content2555 .tag p:nth-child(2) {
   font-family: ku;
-  padding-top: 0.5rem;
+  padding-top: .5rem;
   background-color: #7a7a7a;
 }
 .container .inner-content3 {
-  margin: 14rem auto 0 auto;
+  margin: 14rem auto 0;
 }
 .container .inner-content3 .grid {
   margin-left: 5rem;
@@ -390,17 +385,19 @@
   height: 100%;
   width: 100%;
   background: #000;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem;
   border-radius: 1.5rem;
 }
 .container .inner-content3 .grid .box h1 {
   padding-top: 1rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: .75rem;
   font-family: ku;
   color: #7a7a7a;
   text-align: center;
 }
-.container .inner-content3 .grid .box p, .container .inner-content3 .grid .box a, .container .inner-content3 .grid .box .text {
+.container .inner-content3 .grid .box p,
+.container .inner-content3 .grid .box a,
+.container .inner-content3 .grid .box .text {
   color: #fafafa;
   flex-grow: 1;
   text-align: center;
@@ -408,13 +405,14 @@
   font-size: 2.5rem;
   width: 100%;
 }
-.container .inner-content3 .grid .box a, .container .inner-content3 .grid .box .text {
+.container .inner-content3 .grid .box a,
+.container .inner-content3 .grid .box .text {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   color: #a0a0a0;
   background: #a0a0a0;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
   background-image: linear-gradient(90deg, #ff8738, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -423,22 +421,15 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.container .inner-content3 .grid .box a:hover, .container .inner-content3 .grid .box .text:hover {
+.container .inner-content3 .grid .box a:hover,
+.container .inner-content3 .grid .box .text:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
-}
 .container .inner-blog {
   display: none;
-  margin: 9rem 5rem 0 5rem;
+  margin: 9rem 5rem 0;
 }
 .container .inner-blog .header {
   margin-bottom: 3rem;
@@ -446,9 +437,9 @@
   flex-direction: column;
 }
 .container .inner-blog .header h4 {
-  padding-bottom: 0.6rem;
+  padding-bottom: .6rem;
   margin-left: 0;
-  color: rgb(198, 4, 36);
+  color: #c60424;
 }
 .container .inner-blog .header h3 {
   margin-left: 0;
@@ -462,7 +453,7 @@
 }
 .container .inner-blog .grid .box {
   overflow: hidden;
-  transition: transform 0.3s ease;
+  transition: transform .3s ease;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -480,12 +471,12 @@
   width: 100%;
   height: 12.5rem;
   object-fit: cover;
-  border-radius: 0.5rem;
+  border-radius: .5rem;
 }
 .container .inner-blog .grid .box a h2 {
   font-size: 1.25rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.25rem;
+  padding-top: .5rem;
+  padding-bottom: .25rem;
   margin: 0;
   font-family: bold;
 }
@@ -494,19 +485,18 @@
   margin: 0;
   flex-grow: 1;
 }
-
 @media (min-width: 875px) and (max-width: 1264px) {
   .container h3 {
     font-size: 2.75rem;
   }
   .container .inner-content2 {
     margin: 0 auto;
-    padding: 0 2.5rem;
-    padding-bottom: 5rem;
+    padding: 0 2.5rem 5rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .container .inner-content2 h2, .container .inner-content2 h2 span {
+  .container .inner-content2 h2,
+  .container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 3.5rem;
   }
@@ -542,10 +532,9 @@
     width: 22.5rem;
   }
   .container .inner-content2 {
-    padding: 0 2.5rem;
+    padding: 0 2.5rem 3rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-    padding-bottom: 3rem;
   }
   .container .inner-content2 h2 {
     padding-top: 3.5rem;
@@ -555,22 +544,21 @@
   .container .inner-content2 h2 span {
     font-size: 3.5rem;
   }
-  .container .inner-content2 p, .container .inner-content2 .text {
+  .container .inner-content2 p,
+  .container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 2.25rem;
     width: 100%;
   }
-  .container .inner-content2 p span, .container .inner-content2 .text span {
+  .container .inner-content2 p span,
+  .container .inner-content2 .text span {
     font-size: 2.5rem;
   }
   .container .floatimg img {
     width: 65%;
   }
-  .container .inner-content25 {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
+  .container .inner-content25,
   .container .inner-content25sm {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -581,10 +569,12 @@
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
-  .container .inner-content255 .side1 h2, .container .inner-content255 .side1 h2 span {
+  .container .inner-content255 .side1 h2,
+  .container .inner-content255 .side1 h2 span {
     font-size: 1.25rem;
   }
-  .container .inner-content255 .side1 p, .container .inner-content255 .side1 .text {
+  .container .inner-content255 .side1 p,
+  .container .inner-content255 .side1 .text {
     font-size: 1.5rem;
   }
   .container .inner-content255 .side1 .btn {
@@ -601,20 +591,18 @@
     margin-right: 1.5rem;
     padding: 4rem 2rem;
   }
-  .container .inner-content2555 p, .container .inner-content2555 .text {
+  .container .inner-content2555 p,
+  .container .inner-content2555 .text {
     font-size: 2rem;
   }
   .container .inner-content2555 .tag p {
     font-size: 1rem;
   }
   .container .inner-content2555 .tag p:nth-child(2) {
-    padding-top: 0.35rem;
+    padding-top: .35rem;
   }
   .container .inner-content3 {
-    margin-top: 12rem;
-    margin-bottom: 8rem;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
+    margin: 12rem .25rem 8rem;
   }
   .container .inner-content3 .grid {
     margin: 1.25rem;
@@ -655,25 +643,27 @@
   .container .inner-content2 {
     margin-left: 0;
     margin-right: 0;
-    padding: 0 2rem;
-    padding-bottom: 4rem;
+    padding: 0 2rem 4rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .container .inner-content2 h2, .container .inner-content2 h2 span {
+  .container .inner-content2 h2,
+  .container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 2.25rem;
   }
   .container .inner-content2 h2 span {
     font-size: 2.5rem;
   }
-  .container .inner-content2 p, .container .inner-content2 .text {
+  .container .inner-content2 p,
+  .container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 1.75rem;
     width: 100%;
   }
-  .container .inner-content2 p span, .container .inner-content2 .text span {
+  .container .inner-content2 p span,
+  .container .inner-content2 .text span {
     font-size: 2rem;
   }
   .container .floatimg {
@@ -686,16 +676,17 @@
   .container .inner-content25sm {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    padding: 0 1rem;
-    padding-bottom: 3rem;
+    padding: 0 1rem 3rem;
   }
-  .container .inner-content25 h2, .container .inner-content25 h2 span,
+  .container .inner-content25 h2,
+  .container .inner-content25 h2 span,
   .container .inner-content25sm h2,
   .container .inner-content25sm h2 span {
     padding-top: 2.25rem;
     font-size: 2.25rem;
   }
-  .container .inner-content25 p, .container .inner-content25 .text,
+  .container .inner-content25 p,
+  .container .inner-content25 .text,
   .container .inner-content25sm p,
   .container .inner-content25sm .text {
     padding-top: 1rem;
@@ -704,7 +695,8 @@
   .container .inner-content25 {
     padding-bottom: 0;
   }
-  .container .inner-content25 p, .container .inner-content25 .text {
+  .container .inner-content25 p,
+  .container .inner-content25 .text {
     margin-bottom: 2rem;
   }
   .container .inner-content25 .btn .pricebtn {
@@ -716,7 +708,8 @@
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
-  .container .inner-content255 .side1 h2, .container .inner-content255 .side1 h2 span {
+  .container .inner-content255 .side1 h2,
+  .container .inner-content255 .side1 h2 span {
     font-size: 1.25rem;
   }
   .container .inner-content255 .side1 p {
@@ -739,17 +732,18 @@
     margin-right: 1.5rem;
     padding: 4rem 2rem;
   }
-  .container .inner-content2555 p, .container .inner-content2555 .text {
+  .container .inner-content2555 p,
+  .container .inner-content2555 .text {
     font-size: 2rem;
   }
   .container .inner-content2555 .tag p {
     font-size: 1rem;
   }
   .container .inner-content2555 .tag p:nth-child(2) {
-    padding-top: 0.35rem;
+    padding-top: .35rem;
   }
   .container .inner-content3 {
-    margin: 0 0;
+    margin: 0;
     margin-top: 7rem;
     margin-bottom: 6rem;
     padding: 0 1.5rem;
@@ -772,7 +766,7 @@
   flex-direction: column;
 }
 .about-container b {
-  font-family: "bold";
+  font-family: bold;
 }
 .about-container .logo {
   background: none;
@@ -782,7 +776,10 @@
 .about-container .logo img {
   border-radius: 10rem;
 }
-.about-container h1, .about-container h2, .about-container h3, .about-container span {
+.about-container h1,
+.about-container h2,
+.about-container h3,
+.about-container span {
   font-style: normal;
   text-align: left;
   font-family: ku;
@@ -802,7 +799,7 @@
 .about-container h4 {
   font-family: kl;
   font-size: 1.35rem;
-  color: rgb(198, 4, 36);
+  color: #c60424;
 }
 .about-container p {
   font-family: kl;
@@ -829,7 +826,7 @@
 }
 .about-container .content .inner-content .text p {
   text-align: left;
-  padding-top: 0.35rem;
+  padding-top: .35rem;
   margin-left: 0;
   width: 100%;
 }
@@ -842,14 +839,14 @@
 .about-container .content .inner-content .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  background-color: #02090A;
+  background-color: #02090a;
   color: #fafafa;
   border: none;
   font-size: 1rem;
   font-family: bold;
 }
 .about-container .content .inner-content .btn .pricebtn:hover {
-  opacity: 0.85;
+  opacity: .85;
   cursor: pointer;
 }
 .about-container .content .inner-content1 {
@@ -864,10 +861,10 @@
   background: #02090A;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
-  padding: 0 5rem;
-  padding-bottom: 5rem;
+  padding: 0 5rem 5rem;
 }
-.about-container .inner-content2 h2, .about-container .inner-content2 h2 span {
+.about-container .inner-content2 h2,
+.about-container .inner-content2 h2 span {
   padding-top: 6rem;
   margin-left: 0;
   color: #fafafa;
@@ -875,14 +872,15 @@
 .about-container .inner-content2 h2 span {
   font-size: 5rem;
 }
-.about-container .inner-content2 p, .about-container .inner-content2 .text {
+.about-container .inner-content2 p,
+.about-container .inner-content2 .text {
   width: 95%;
   padding-top: 1.5rem;
   font-size: 3rem;
   margin-left: 0;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -891,21 +889,15 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.about-container .inner-content2 p:hover, .about-container .inner-content2 .text:hover {
+.about-container .inner-content2 p:hover,
+.about-container .inner-content2 .text:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
-.about-container .inner-content2 p span, .about-container .inner-content2 .text span {
+.about-container .inner-content2 p span,
+.about-container .inner-content2 .text span {
   font-size: 3.5rem;
-}
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
 }
 .about-container .inner-content25 {
   background: #02090A;
@@ -916,7 +908,8 @@
   width: auto;
   text-align: left;
 }
-.about-container .inner-content25 p, .about-container .inner-content25 .text {
+.about-container .inner-content25 p,
+.about-container .inner-content25 .text {
   text-align: left;
   padding-top: 1.5rem;
   font-size: 3rem;
@@ -924,7 +917,7 @@
   margin-bottom: 4rem;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.4s ease-in-out;
+  transition: all .4s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -933,19 +926,20 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.about-container .inner-content25 p:hover, .about-container .inner-content25 .text:hover {
+.about-container .inner-content25 p:hover,
+.about-container .inner-content25 .text:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
 .about-container .inner-content25 .btn {
   display: flex;
-  margin: 0 auto 6rem auto;
+  margin: 0 auto 6rem;
 }
 .about-container .inner-content25 .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  border: 0.2rem solid #fafafa;
+  border: .2rem solid #fafafa;
   color: #fafafa;
   text-decoration: none;
   font-size: 1.2rem;
@@ -957,23 +951,16 @@
   background-color: #3a3a3a;
   color: #fafafa;
 }
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
-}
 .about-container .inner-content25 {
   margin-top: 14rem;
   margin-left: 5rem;
   margin-right: 5rem;
   border-radius: 2rem;
-  padding: 8rem 8rem;
+  padding: 8rem;
   width: auto;
 }
-.about-container .inner-content25 p, .about-container .inner-content25 .text {
+.about-container .inner-content25 p,
+.about-container .inner-content25 .text {
   text-align: left;
   font-family: ku;
   background-color: #fafafa;
@@ -995,7 +982,7 @@
 }
 .about-container .inner-content25 .tag p:nth-child(2) {
   font-family: ku;
-  padding-top: 0.5rem;
+  padding-top: .5rem;
   background-color: #7a7a7a;
 }
 .about-container .floatimg {
@@ -1028,12 +1015,12 @@
   height: 100%;
   width: 100%;
   background: #000;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem;
   border-radius: 1.5rem;
 }
 .about-container .inner-content3sm .grid .box h1 {
   padding-top: 1rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: .75rem;
   font-family: ku;
   color: #7a7a7a;
   text-align: center;
@@ -1048,13 +1035,13 @@
 }
 .about-container .inner-content3sm .grid .box .btn {
   display: flex;
-  margin: 3rem auto 3rem auto;
+  margin: 3rem auto;
   color: #fafafa;
 }
 .about-container .inner-content3sm .grid .box .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  border: 0.2rem solid #fafafa;
+  border: .2rem solid #fafafa;
   color: #fafafa;
   text-decoration: none;
   font-size: 1.2rem;
@@ -1066,32 +1053,30 @@
   background-color: #3a3a3a;
   color: #fafafa;
 }
-
 @media (min-width: 875px) and (max-width: 1264px) {
   .about-container h3 {
     font-size: 2.75rem;
   }
-  .about-container .logo {
-    margin-left: 2.5rem;
-  }
+  .about-container .logo,
   .about-container .content .inner-content {
     margin-left: 2.5rem;
   }
   .about-container .inner-content2 {
     margin: 0 auto;
-    padding: 0 2.5rem;
+    padding: 0 2.5rem 5rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-    padding-bottom: 5rem;
   }
-  .about-container .inner-content2 h2, .about-container .inner-content2 h2 span {
+  .about-container .inner-content2 h2,
+  .about-container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 3.5rem;
   }
   .about-container .inner-content2 h2 span {
     font-size: 4rem;
   }
-  .about-container .inner-content2 p, .about-container .inner-content2 .text {
+  .about-container .inner-content2 p,
+  .about-container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     width: 100%;
@@ -1125,16 +1110,14 @@
     display: block;
     margin: 0 auto;
     width: 80%;
-    margin-bottom: 0;
     border-radius: 0;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
   .about-container .inner-content2 {
-    padding: 0 2.5rem;
+    padding: 0 2.5rem 3rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-    padding-bottom: 3rem;
   }
   .about-container .inner-content2 h2 {
     padding-top: 3.5rem;
@@ -1144,7 +1127,8 @@
   .about-container .inner-content2 h2 span {
     font-size: 3.5rem;
   }
-  .about-container .inner-content2 p, .about-container .inner-content2 .text {
+  .about-container .inner-content2 p,
+  .about-container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 2.25rem;
@@ -1157,32 +1141,28 @@
     width: 55%;
   }
   .about-container .inner-content25 {
-    margin-top: 8rem;
-    margin-bottom: 6rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin: 8rem 1.5rem 6rem;
     padding: 4rem 2rem;
   }
-  .about-container .inner-content25 p, .about-container .inner-content25 .text {
+  .about-container .inner-content25 p,
+  .about-container .inner-content25 .text {
     font-size: 2rem;
   }
   .about-container .inner-content25 .tag p {
     font-size: 1rem;
   }
   .about-container .inner-content25 .tag p:nth-child(2) {
-    padding-top: 0.35rem;
+    padding-top: .35rem;
   }
   .about-container .inner-content3sm {
-    margin-top: 0rem;
-    margin-bottom: -2rem;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
+    margin: 0rem .25rem -2rem;
   }
   .about-container .inner-content3sm .grid {
     margin: 1.25rem;
     grid-template-columns: repeat(1, 1fr);
   }
-  .about-container .inner-content3sm .grid .box p, .about-container .inner-content3sm .grid .box .text {
+  .about-container .inner-content3sm .grid .box p,
+  .about-container .inner-content3sm .grid .box .text {
     width: 92.5%;
   }
 }
@@ -1208,7 +1188,7 @@
   }
   .about-container .content .inner-content .text p {
     padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: .5rem;
     width: 87.5%;
   }
   .about-container .content .inner-content1 {
@@ -1220,7 +1200,6 @@
     display: block;
     margin: 0 auto;
     width: 80%;
-    margin-bottom: 0;
     border-radius: 0;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
@@ -1229,25 +1208,27 @@
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 4rem;
-    padding: 0 2rem;
-    padding-bottom: 3rem;
+    padding: 0 2rem 3rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .about-container .inner-content2 h2, .about-container .inner-content2 h2 span {
+  .about-container .inner-content2 h2,
+  .about-container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 1.5rem;
   }
   .about-container .inner-content2 h2 span {
     font-size: 1.75rem;
   }
-  .about-container .inner-content2 p, .about-container .inner-content2 .text {
+  .about-container .inner-content2 p,
+  .about-container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 1.75rem;
     width: 100%;
   }
-  .about-container .inner-content2 p span, .about-container .inner-content2 .text span {
+  .about-container .inner-content2 p span,
+  .about-container .inner-content2 .text span {
     font-size: 1.75rem;
   }
   .about-container .floatimg {
@@ -1261,15 +1242,18 @@
     margin-right: 1.5rem;
     padding: 0 1rem;
   }
-  .about-container .inner-content25 h2, .about-container .inner-content25 h2 span {
+  .about-container .inner-content25 h2,
+  .about-container .inner-content25 h2 span {
     padding-top: 2.25rem;
     font-size: 2.25rem;
   }
-  .about-container .inner-content25 p, .about-container .inner-content25 .text {
+  .about-container .inner-content25 p,
+  .about-container .inner-content25 .text {
     padding-top: 1rem;
     font-size: 1.75rem;
   }
-  .about-container .inner-content25 p, .about-container .inner-content25 .text {
+  .about-container .inner-content25 p,
+  .about-container .inner-content25 .text {
     margin-bottom: 2rem;
   }
   .about-container .inner-content25 .btn {
@@ -1283,17 +1267,18 @@
     margin-bottom: 4rem;
     padding: 4rem 2rem;
   }
-  .about-container .inner-content25 p, .about-container .inner-content25 .text {
+  .about-container .inner-content25 p,
+  .about-container .inner-content25 .text {
     font-size: 2rem;
   }
   .about-container .inner-content25 .tag p {
     font-size: 1rem;
   }
   .about-container .inner-content25 .tag p:nth-child(2) {
-    padding-top: 0.35rem;
+    padding-top: .35rem;
   }
   .about-container .inner-content3sm {
-    margin: 0 0;
+    margin: 0;
     margin-top: -3rem;
     margin-bottom: 6rem;
     padding: 0 1.5rem;
@@ -1306,7 +1291,8 @@
   .about-container .inner-content3sm .grid .box h1 {
     font-size: 2.25rem;
   }
-  .about-container .inner-content3sm .grid .box p, .about-container .inner-content3sm .grid .box .text {
+  .about-container .inner-content3sm .grid .box p,
+  .about-container .inner-content3sm .grid .box .text {
     width: 92.5%;
     font-size: 1.75rem;
   }
@@ -1320,9 +1306,12 @@
   flex-direction: column;
 }
 .subscribe-container b {
-  font-family: "bold";
+  font-family: bold;
 }
-.subscribe-container h1, .subscribe-container h2, .subscribe-container h3, .subscribe-container span {
+.subscribe-container h1,
+.subscribe-container h2,
+.subscribe-container h3,
+.subscribe-container span {
   font-style: normal;
   text-align: left;
   font-family: ku;
@@ -1342,9 +1331,10 @@
 .subscribe-container h4 {
   font-family: kl;
   font-size: 1.35rem;
-  color: rgb(198, 4, 36);
+  color: #c60424;
 }
-.subscribe-container p, .subscribe-container .text {
+.subscribe-container p,
+.subscribe-container .text {
   font-family: kl;
   font-size: 1.35rem;
 }
@@ -1352,7 +1342,7 @@
   font-family: kl;
 }
 .subscribe-container .content .inner-content {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 .subscribe-container .content .inner-content img {
   width: 35%;
@@ -1373,11 +1363,11 @@
 }
 .subscribe-container .content .inner-content .box p {
   text-align: center;
-  padding-bottom: 0.5rem;
+  padding-bottom: .5rem;
   color: #fafafa;
 }
 .subscribe-container .content .inner-content .box form {
-  margin-top: 0.45rem;
+  margin-top: .45rem;
 }
 .subscribe-container .content .inner-content .box form .input-wrapper {
   position: relative;
@@ -1385,7 +1375,7 @@
 .subscribe-container .content .inner-content .box form input.email {
   width: 100%;
   color: #000;
-  border: 0.15rem solid #02090A;
+  border: .15rem solid #02090A;
   border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
@@ -1393,38 +1383,38 @@
 }
 .subscribe-container .content .inner-content .box form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
 }
 .subscribe-container .content .inner-content .box form altcha-widget {
   color: #fafafa;
 }
 .subscribe-container .content .inner-content .box form button.submit {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 2rem;
-  margin: 0.35rem;
-  background-color: #02090A;
+  margin: .35rem;
+  background-color: #02090a;
   color: #fafafa;
   border: none;
   border-radius: 5rem;
   font-size: 1rem;
 }
 .subscribe-container .content .inner-content .box form button.submit:hover {
-  opacity: 0.85;
+  opacity: .85;
   cursor: pointer;
 }
 .subscribe-container .inner-content2 {
   background: #02090A;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
-  padding: 0 5rem;
-  padding-bottom: 10rem;
+  padding: 0 5rem 10rem;
 }
-.subscribe-container .inner-content2 h2, .subscribe-container .inner-content2 h2 span {
+.subscribe-container .inner-content2 h2,
+.subscribe-container .inner-content2 h2 span {
   padding-top: 6rem;
   margin-left: 0;
   color: #fafafa;
@@ -1432,14 +1422,15 @@
 .subscribe-container .inner-content2 h2 span {
   font-size: 5rem;
 }
-.subscribe-container .inner-content2 p, .subscribe-container .inner-content2 .text {
+.subscribe-container .inner-content2 p,
+.subscribe-container .inner-content2 .text {
   width: 95%;
   padding-top: 1.5rem;
   font-size: 3rem;
   margin-left: 0;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -1448,35 +1439,28 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.subscribe-container .inner-content2 p:hover, .subscribe-container .inner-content2 .text:hover {
+.subscribe-container .inner-content2 p:hover,
+.subscribe-container .inner-content2 .text:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
-.subscribe-container .inner-content2 p span, .subscribe-container .inner-content2 .text span {
+.subscribe-container .inner-content2 p span,
+.subscribe-container .inner-content2 .text span {
   font-size: 3.5rem;
 }
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
-}
-
 @media (min-width: 875px) and (max-width: 1264px) {
   .subscribe-container h3 {
     font-size: 2.75rem;
   }
   .subscribe-container .inner-content2 {
     margin: 0 auto;
-    padding: 0 2.5rem;
-    padding-bottom: 5rem;
+    padding: 0 2.5rem 5rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .subscribe-container .inner-content2 h2, .subscribe-container .inner-content2 h2 span {
+  .subscribe-container .inner-content2 h2,
+  .subscribe-container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 3.5rem;
   }
@@ -1505,14 +1489,14 @@
   .subscribe-container .content .inner-content .box p {
     font-size: 1rem;
   }
-  .subscribe-container .content .inner-content .box form .input-wrapper, .subscribe-container .content .inner-content .box form .input-wrapper1 {
+  .subscribe-container .content .inner-content .box form .input-wrapper,
+  .subscribe-container .content .inner-content .box form .input-wrapper1 {
     width: 25rem;
   }
   .subscribe-container .inner-content2 {
-    padding: 0 2.5rem;
+    padding: 0 2.5rem 3rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-    padding-bottom: 3rem;
     margin-top: 0;
   }
   .subscribe-container .inner-content2 h2 {
@@ -1523,13 +1507,15 @@
   .subscribe-container .inner-content2 h2 span {
     font-size: 3.5rem;
   }
-  .subscribe-container .inner-content2 p, .subscribe-container .inner-content2 .text {
+  .subscribe-container .inner-content2 p,
+  .subscribe-container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 2.25rem;
     width: 100%;
   }
-  .subscribe-container .inner-content2 p span, .subscribe-container .inner-content2 .text span {
+  .subscribe-container .inner-content2 p span,
+  .subscribe-container .inner-content2 .text span {
     font-size: 2.5rem;
   }
 }
@@ -1555,9 +1541,10 @@
     font-size: 1.75rem;
   }
   .subscribe-container .content .inner-content .box p {
-    font-size: 0.95rem;
+    font-size: .95rem;
   }
-  .subscribe-container .content .inner-content .box form .input-wrapper, .subscribe-container .content .inner-content .box form .input-wrapper1 {
+  .subscribe-container .content .inner-content .box form .input-wrapper,
+  .subscribe-container .content .inner-content .box form .input-wrapper1 {
     width: 20rem;
   }
   .subscribe-container .inner-content2 {
@@ -1565,25 +1552,27 @@
     margin-right: 0;
     margin-bottom: 5rem;
     margin-top: 0;
-    padding: 0 2rem;
-    padding-bottom: 4rem;
+    padding: 0 2rem 4rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .subscribe-container .inner-content2 h2, .subscribe-container .inner-content2 h2 span {
+  .subscribe-container .inner-content2 h2,
+  .subscribe-container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 2.25rem;
   }
   .subscribe-container .inner-content2 h2 span {
     font-size: 2.5rem;
   }
-  .subscribe-container .inner-content2 p, .subscribe-container .inner-content2 .text {
+  .subscribe-container .inner-content2 p,
+  .subscribe-container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 1.75rem;
     width: 100%;
   }
-  .subscribe-container .inner-content2 p span, .subscribe-container .inner-content2 .text span {
+  .subscribe-container .inner-content2 p span,
+  .subscribe-container .inner-content2 .text span {
     font-size: 2rem;
   }
 }
@@ -1592,7 +1581,7 @@
   flex-direction: column;
 }
 .adform-container b {
-  font-family: "bold";
+  font-family: bold;
 }
 .adform-container .logo {
   background: none;
@@ -1602,7 +1591,10 @@
 .adform-container .logo img {
   border-radius: 10rem;
 }
-.adform-container h1, .adform-container h2, .adform-container h3, .adform-container span {
+.adform-container h1,
+.adform-container h2,
+.adform-container h3,
+.adform-container span {
   font-style: normal;
   text-align: left;
   font-family: ku;
@@ -1622,9 +1614,10 @@
 .adform-container h4 {
   font-family: kl;
   font-size: 1.35rem;
-  color: rgb(198, 4, 36);
+  color: #c60424;
 }
-.adform-container p, .adform-container .text {
+.adform-container p,
+.adform-container .text {
   font-family: kl;
   font-size: 1.35rem;
 }
@@ -1648,7 +1641,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 0;
-  margin-top: 0.45rem;
+  margin-top: .45rem;
 }
 .adform-container .content .inner-content form .input-wrapper {
   position: relative;
@@ -1657,7 +1650,7 @@
 .adform-container .content .inner-content form input.email {
   width: 100%;
   color: #000;
-  border: 0.15rem solid #02090A;
+  border: .15rem solid #02090A;
   border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
@@ -1665,28 +1658,28 @@
 }
 .adform-container .content .inner-content form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
 }
 .adform-container .content .inner-content form .mb {
-  margin-bottom: 0.35rem;
+  margin-bottom: .35rem;
 }
 .adform-container .content .inner-content form button.submit {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 2rem;
-  margin: 0.35rem;
-  background-color: #02090A;
+  margin: .35rem;
+  background-color: #02090a;
   color: #fafafa;
   border: none;
   border-radius: 5rem;
   font-size: 1rem;
 }
 .adform-container .content .inner-content form button.submit:hover {
-  opacity: 0.85;
+  opacity: .85;
   cursor: pointer;
 }
 .adform-container .content .inner-content1 img {
@@ -1697,11 +1690,11 @@
   background: #02090A;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
-  padding: 0 5rem;
-  padding-bottom: 5rem;
+  padding: 0 5rem 5rem;
   margin-top: 2rem;
 }
-.adform-container .inner-content2 h2, .adform-container .inner-content2 h2 span {
+.adform-container .inner-content2 h2,
+.adform-container .inner-content2 h2 span {
   padding-top: 6rem;
   margin-left: 0;
   color: #fafafa;
@@ -1709,14 +1702,15 @@
 .adform-container .inner-content2 h2 span {
   font-size: 4.5rem;
 }
-.adform-container .inner-content2 p, .adform-container .inner-content2 .text {
+.adform-container .inner-content2 p,
+.adform-container .inner-content2 .text {
   width: 95%;
   padding-top: 1.5rem;
   font-size: 3rem;
   margin-left: 0;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -1725,21 +1719,14 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.adform-container .inner-content2 p:hover, .adform-container .inner-content2 .text:hover {
+.adform-container .inner-content2 p:hover,
+.adform-container .inner-content2 .text:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
 .adform-container .inner-content2 p span {
   font-size: 3.5rem;
-}
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
 }
 .adform-container .floatimg {
   margin-top: 8rem;
@@ -1762,7 +1749,8 @@
   width: auto;
   text-align: center;
 }
-.adform-container .inner-content25 h2, .adform-container .inner-content25 h2 span,
+.adform-container .inner-content25 h2,
+.adform-container .inner-content25 h2 span,
 .adform-container .inner-content25sm h2,
 .adform-container .inner-content25sm h2 span,
 .adform-container .inner-content255 h2,
@@ -1774,7 +1762,8 @@
   margin: 0 auto;
   color: #fafafa;
 }
-.adform-container .inner-content25 p, .adform-container .inner-content25 .text,
+.adform-container .inner-content25 p,
+.adform-container .inner-content25 .text,
 .adform-container .inner-content25sm p,
 .adform-container .inner-content25sm .text,
 .adform-container .inner-content255 p,
@@ -1789,7 +1778,7 @@
   margin-bottom: 4rem;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.4s ease-in-out;
+  transition: all .4s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -1798,7 +1787,8 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.adform-container .inner-content25 p:hover, .adform-container .inner-content25 .text:hover,
+.adform-container .inner-content25 p:hover,
+.adform-container .inner-content25 .text:hover,
 .adform-container .inner-content25sm p:hover,
 .adform-container .inner-content25sm .text:hover,
 .adform-container .inner-content255 p:hover,
@@ -1814,7 +1804,7 @@
 .adform-container .inner-content255 .btn,
 .adform-container .inner-content2555 .btn {
   display: flex;
-  margin: 3rem auto 5rem auto;
+  margin: 3rem auto 5rem;
 }
 .adform-container .inner-content25 .btn .pricebtn,
 .adform-container .inner-content25sm .btn .pricebtn,
@@ -1822,7 +1812,7 @@
 .adform-container .inner-content2555 .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  border: 0.2rem solid #fafafa;
+  border: .2rem solid #fafafa;
   color: #fafafa;
   text-decoration: none;
   font-size: 1.2rem;
@@ -1836,14 +1826,6 @@
 .adform-container .inner-content2555 .btn .pricebtn:hover {
   background-color: #3a3a3a;
   color: #fafafa;
-}
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
 }
 .adform-container .inner-content25sm {
   margin-left: 5rem;
@@ -1869,9 +1851,9 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.adform-container .inner-content255 .side1 h2, .adform-container .inner-content255 .side1 h2 span {
+.adform-container .inner-content255 .side1 h2,
+.adform-container .inner-content255 .side1 h2 span {
   margin: 0;
-  margin-top: 0;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   text-align: left;
@@ -1904,11 +1886,12 @@
   margin-left: 5rem;
   margin-right: 5rem;
   border-radius: 2rem;
-  padding: 8rem 8rem;
+  padding: 8rem;
   width: auto;
   text-align: left;
 }
-.adform-container .inner-content2555 p, .adform-container .inner-content2555 .text {
+.adform-container .inner-content2555 p,
+.adform-container .inner-content2555 .text {
   text-align: left;
   font-family: ku;
   background-color: #fafafa;
@@ -1931,11 +1914,11 @@
 }
 .adform-container .inner-content2555 .tag p:nth-child(2) {
   font-family: ku;
-  padding-top: 0.5rem;
+  padding-top: .5rem;
   background-color: #7a7a7a;
 }
 .adform-container .inner-content3 {
-  margin: 14rem auto 0 auto;
+  margin: 14rem auto 0;
 }
 .adform-container .inner-content3 .grid {
   margin-left: 5rem;
@@ -1953,17 +1936,19 @@
   height: 100%;
   width: 100%;
   background: #000;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem;
   border-radius: 1.5rem;
 }
 .adform-container .inner-content3 .grid .box h1 {
   padding-top: 1rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: .75rem;
   font-family: ku;
   color: #7a7a7a;
   text-align: center;
 }
-.adform-container .inner-content3 .grid .box p, .adform-container .inner-content3 .grid .box a, .adform-container .inner-content3 .grid .box .text {
+.adform-container .inner-content3 .grid .box p,
+.adform-container .inner-content3 .grid .box a,
+.adform-container .inner-content3 .grid .box .text {
   color: #fafafa;
   flex-grow: 1;
   text-align: center;
@@ -1971,13 +1956,14 @@
   font-size: 2.5rem;
   width: 100%;
 }
-.adform-container .inner-content3 .grid .box a, .adform-container .inner-content3 .grid .box .text {
+.adform-container .inner-content3 .grid .box a,
+.adform-container .inner-content3 .grid .box .text {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   color: #a0a0a0;
   background: #a0a0a0;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
   background-image: linear-gradient(90deg, #ff8738, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -1986,36 +1972,27 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.adform-container .inner-content3 .grid .box a:hover, .adform-container .inner-content3 .grid .box .text:hover {
+.adform-container .inner-content3 .grid .box a:hover,
+.adform-container .inner-content3 .grid .box .text:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
-}
-
 @media (min-width: 875px) and (max-width: 1264px) {
   .adform-container h3 {
     font-size: 2.75rem;
   }
-  .adform-container .logo {
-    margin-left: 2.5rem;
-  }
+  .adform-container .logo,
   .adform-container .content .inner-content {
     margin-left: 2.5rem;
   }
-  .adform-container .content .inner-content .text h1, .adform-container .content .inner-content .text span {
+  .adform-container .content .inner-content .text h1,
+  .adform-container .content .inner-content .text span {
     font-size: 3.5rem;
   }
   .adform-container .content .inner-content .text p {
     padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: .5rem;
   }
   .adform-container .content .inner-content form .input-wrapper {
     width: 30rem;
@@ -2027,12 +2004,12 @@
   }
   .adform-container .inner-content2 {
     margin: 0 auto;
-    padding: 0 2.5rem;
-    padding-bottom: 5rem;
+    padding: 0 2.5rem 5rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .adform-container .inner-content2 h2, .adform-container .inner-content2 h2 span {
+  .adform-container .inner-content2 h2,
+  .adform-container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 3.5rem;
   }
@@ -2066,7 +2043,7 @@
   }
   .adform-container .content .inner-content .text p {
     padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: .5rem;
   }
   .adform-container .content .inner-content form .input-wrapper {
     width: 30rem;
@@ -2082,10 +2059,9 @@
     margin-bottom: 0;
   }
   .adform-container .inner-content2 {
-    padding: 0 2.5rem;
+    padding: 0 2.5rem 3rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-    padding-bottom: 3rem;
   }
   .adform-container .inner-content2 h2 {
     padding-top: 3.5rem;
@@ -2095,22 +2071,21 @@
   .adform-container .inner-content2 h2 span {
     font-size: 3.5rem;
   }
-  .adform-container .inner-content2 p, .adform-container .inner-content2 .text {
+  .adform-container .inner-content2 p,
+  .adform-container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 2.25rem;
     width: 100%;
   }
-  .adform-container .inner-content2 p span, .adform-container .inner-content2 .text span {
+  .adform-container .inner-content2 p span,
+  .adform-container .inner-content2 .text span {
     font-size: 2.5rem;
   }
   .adform-container .floatimg img {
     width: 65%;
   }
-  .adform-container .inner-content25 {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
+  .adform-container .inner-content25,
   .adform-container .inner-content25sm {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -2121,10 +2096,12 @@
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
-  .adform-container .inner-content255 .side1 h2, .adform-container .inner-content255 .side1 h2 span {
+  .adform-container .inner-content255 .side1 h2,
+  .adform-container .inner-content255 .side1 h2 span {
     font-size: 1.25rem;
   }
-  .adform-container .inner-content255 .side1 p, .adform-container .inner-content255 .side1 .text {
+  .adform-container .inner-content255 .side1 p,
+  .adform-container .inner-content255 .side1 .text {
     font-size: 1.5rem;
   }
   .adform-container .inner-content255 .side1 .btn {
@@ -2141,14 +2118,15 @@
     margin-right: 1.5rem;
     padding: 4rem 2rem;
   }
-  .adform-container .inner-content2555 p, .adform-container .inner-content2555 .text {
+  .adform-container .inner-content2555 p,
+  .adform-container .inner-content2555 .text {
     font-size: 2rem;
   }
   .adform-container .inner-content2555 .tag p {
     font-size: 1rem;
   }
   .adform-container .inner-content2555 .tag p:nth-child(2) {
-    padding-top: 0.35rem;
+    padding-top: .35rem;
   }
   .adform-container .inner-content3 {
     margin-top: 12rem;
@@ -2185,7 +2163,7 @@
   }
   .adform-container .content .inner-content .text p {
     padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: .5rem;
     width: 87.5%;
   }
   .adform-container .content .inner-content form .input-wrapper {
@@ -2204,25 +2182,27 @@
   .adform-container .inner-content2 {
     margin-left: 0;
     margin-right: 0;
-    padding: 0 2rem;
-    padding-bottom: 4rem;
+    padding: 0 2rem 4rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .adform-container .inner-content2 h2, .adform-container .inner-content2 h2 span {
+  .adform-container .inner-content2 h2,
+  .adform-container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 2.25rem;
   }
   .adform-container .inner-content2 h2 span {
     font-size: 2.5rem;
   }
-  .adform-container .inner-content2 p, .adform-container .inner-content2 .text {
+  .adform-container .inner-content2 p,
+  .adform-container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 1.75rem;
     width: 100%;
   }
-  .adform-container .inner-content2 p span, .adform-container .inner-content2 .text span {
+  .adform-container .inner-content2 p span,
+  .adform-container .inner-content2 .text span {
     font-size: 2rem;
   }
   .adform-container .floatimg {
@@ -2235,16 +2215,17 @@
   .adform-container .inner-content25sm {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    padding: 0 1rem;
-    padding-bottom: 3rem;
+    padding: 0 1rem 3rem;
   }
-  .adform-container .inner-content25 h2, .adform-container .inner-content25 h2 span,
+  .adform-container .inner-content25 h2,
+  .adform-container .inner-content25 h2 span,
   .adform-container .inner-content25sm h2,
   .adform-container .inner-content25sm h2 span {
     padding-top: 2.25rem;
     font-size: 2.25rem;
   }
-  .adform-container .inner-content25 p, .adform-container .inner-content25 .text,
+  .adform-container .inner-content25 p,
+  .adform-container .inner-content25 .text,
   .adform-container .inner-content25sm p,
   .adform-container .inner-content25sm .text {
     padding-top: 1rem;
@@ -2253,7 +2234,8 @@
   .adform-container .inner-content25 {
     padding-bottom: 0;
   }
-  .adform-container .inner-content25 p, .adform-container .inner-content25 .text {
+  .adform-container .inner-content25 p,
+  .adform-container .inner-content25 .text {
     margin-bottom: 2rem;
   }
   .adform-container .inner-content25 .btn .pricebtn {
@@ -2265,7 +2247,8 @@
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
-  .adform-container .inner-content255 .side1 h2, .adform-container .inner-content255 .side1 h2 span {
+  .adform-container .inner-content255 .side1 h2,
+  .adform-container .inner-content255 .side1 h2 span {
     font-size: 1.25rem;
   }
   .adform-container .inner-content255 .side1 p {
@@ -2288,14 +2271,15 @@
     margin-right: 1.5rem;
     padding: 4rem 2rem;
   }
-  .adform-container .inner-content2555 p, .adform-container .inner-content2555 .text {
+  .adform-container .inner-content2555 p,
+  .adform-container .inner-content2555 .text {
     font-size: 2rem;
   }
   .adform-container .inner-content2555 .tag p {
     font-size: 1rem;
   }
   .adform-container .inner-content2555 .tag p:nth-child(2) {
-    padding-top: 0.35rem;
+    padding-top: .35rem;
   }
   .adform-container .inner-content3 {
     margin-top: 7rem;
@@ -2321,17 +2305,20 @@
   align-items: center;
 }
 .content-awu b {
-  font-family: "bold";
+  font-family: bold;
 }
 .content-awu .logo {
   background: none;
-  margin: 1.25rem 0 0 0;
+  margin: 1.25rem 0 0;
   width: 3.5rem;
 }
 .content-awu .logo img {
   border-radius: 10rem;
 }
-.content-awu h1, .content-awu h2, .content-awu h3, .content-awu span {
+.content-awu h1,
+.content-awu h2,
+.content-awu h3,
+.content-awu span {
   text-align: left;
   font-family: ku;
   font-size: 3.75rem;
@@ -2357,7 +2344,7 @@
 .content-awu .content-awu2 {
   display: flex;
   flex-direction: column;
-  margin: 3.5rem 5rem 2.5rem 5rem;
+  margin: 3.5rem 5rem 2.5rem;
 }
 .content-awu .content-awu2 h1 {
   padding-bottom: 4rem;
@@ -2366,8 +2353,8 @@
   margin: 0;
 }
 .content-awu .content-awu2 .text h4 {
-  padding-bottom: 0.6rem;
-  color: rgb(198, 4, 36);
+  padding-bottom: .6rem;
+  color: #c60424;
 }
 .content-awu .ads-carousel-txt {
   display: flex;
@@ -2392,7 +2379,7 @@
 .content-awu .ads-carousel-txt .adsbox .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  border: 0.15rem solid #000;
+  border: .15rem solid #000;
   color: #000;
   text-decoration: none;
   font-size: 1.2rem;
@@ -2413,9 +2400,9 @@
 }
 .content-awu .ads-carousel-txt .ads-carousel .carousel-track {
   display: flex;
-  transition: transform 0.5s ease;
+  transition: transform .5s ease;
   width: 100%;
-  padding-left: 0.2rem;
+  padding-left: .2rem;
 }
 .content-awu .ads-carousel-txt .ads-carousel .carousel-slide {
   flex: 0 0 100%;
@@ -2425,7 +2412,7 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  border-radius: 0.25rem;
+  border-radius: .25rem;
 }
 .content-awu .ads-carousel-txt .ads-carousel .box img {
   width: 60%;
@@ -2435,7 +2422,7 @@
   text-align: center;
   font-size: 1.25rem;
   padding-top: 2rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: .75rem;
   margin: 0 auto;
   font-family: bold;
 }
@@ -2457,10 +2444,10 @@
   z-index: 2;
 }
 .content-awu .ads-carousel-txt .ads-carousel .carousel-button.prev {
-  left: 0.5rem;
+  left: .5rem;
 }
 .content-awu .ads-carousel-txt .ads-carousel .carousel-button.next {
-  right: 0.5rem;
+  right: .5rem;
 }
 .content-awu .inner-content2555 {
   background: #02090A;
@@ -2471,7 +2458,8 @@
   width: auto;
   text-align: center;
 }
-.content-awu .inner-content2555 h2, .content-awu .inner-content2555 h2 span {
+.content-awu .inner-content2555 h2,
+.content-awu .inner-content2555 h2 span {
   text-align: center;
   padding-top: 3.5rem;
   margin: 0 auto;
@@ -2485,7 +2473,7 @@
   margin-bottom: 4rem;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.4s ease-in-out;
+  transition: all .4s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -2501,12 +2489,12 @@
 }
 .content-awu .inner-content2555 .btn {
   display: flex;
-  margin: 0 auto 6rem auto;
+  margin: 0 auto 6rem;
 }
 .content-awu .inner-content2555 .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  border: 0.2rem solid #fafafa;
+  border: .2rem solid #fafafa;
   color: #fafafa;
   text-decoration: none;
   font-size: 1.2rem;
@@ -2518,20 +2506,12 @@
   background-color: #3a3a3a;
   color: #fafafa;
 }
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
-}
 .content-awu .inner-content2555 {
   margin-top: 10rem;
   margin-left: 5rem;
   margin-right: 5rem;
   border-radius: 2rem;
-  padding: 8rem 8rem;
+  padding: 8rem;
   width: auto;
 }
 .content-awu .inner-content2555 p {
@@ -2556,7 +2536,7 @@
 }
 .content-awu .inner-content2555 .tag p:nth-child(2) {
   font-family: ku;
-  padding-top: 0.5rem;
+  padding-top: .5rem;
   background-color: #7a7a7a;
 }
 .content-awu .inner-content3sm {
@@ -2578,17 +2558,18 @@
   height: 100%;
   width: 100%;
   background: #000;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem;
   border-radius: 1.5rem;
 }
 .content-awu .inner-content3sm .grid .box h1 {
   padding-top: 1rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: .75rem;
   font-family: ku;
   color: #7a7a7a;
   text-align: center;
 }
-.content-awu .inner-content3sm .grid .box p, .content-awu .inner-content3sm .grid .box a {
+.content-awu .inner-content3sm .grid .box p,
+.content-awu .inner-content3sm .grid .box a {
   padding-bottom: 0rem;
   color: #fafafa;
   flex-grow: 1;
@@ -2602,7 +2583,7 @@
   font-size: 1.5rem;
   color: #a0a0a0;
   background: #a0a0a0;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
   background-image: linear-gradient(90deg, #ff8738, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -2616,7 +2597,6 @@
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
-
 @media (min-width: 875px) and (max-width: 1100px) {
   .content-awu .content-awu2 {
     flex-direction: column;
@@ -2687,7 +2667,7 @@
     font-size: 1rem;
   }
   .content-awu .inner-content2555 .tag p:nth-child(2) {
-    padding-top: 0.35rem;
+    padding-top: .35rem;
   }
   .content-awu .inner-content3sm {
     margin-top: 12rem;
@@ -2711,7 +2691,7 @@
   .content-awu .content-awu2 {
     display: flex;
     flex-direction: column;
-    margin: 3.25rem 1.25rem 0 1.25rem;
+    margin: 3.25rem 1.25rem 0;
   }
   .content-awu .content-awu2 h1 {
     font-size: 2rem;
@@ -2721,7 +2701,8 @@
     display: flex;
     flex-direction: column;
   }
-  .content-awu .content-awu2 .text h3, .content-awu .content-awu2 .text h4 {
+  .content-awu .content-awu2 .text h3,
+  .content-awu .content-awu2 .text h4 {
     text-align: left;
     margin: 0;
   }
@@ -2768,7 +2749,7 @@
     font-size: 1rem;
   }
   .content-awu .inner-content2555 .tag p:nth-child(2) {
-    padding-top: 0.35rem;
+    padding-top: .35rem;
   }
   .content-awu .inner-content3sm {
     margin-top: 7rem;
@@ -2794,7 +2775,7 @@
   align-items: center;
 }
 .content-adformats b {
-  font-family: "bold";
+  font-family: bold;
 }
 .content-adformats .logo {
   background: none;
@@ -2804,7 +2785,10 @@
 .content-adformats .logo img {
   border-radius: 10rem;
 }
-.content-adformats h1, .content-adformats h2, .content-adformats h3, .content-adformats span {
+.content-adformats h1,
+.content-adformats h2,
+.content-adformats h3,
+.content-adformats span {
   text-align: left;
   font-family: ku;
   font-size: 3.75rem;
@@ -2824,14 +2808,14 @@
   font-family: kl;
 }
 .content-adformats .content-awu3 .header {
-  margin: 9rem 5rem 3rem 5rem;
+  margin: 9rem 5rem 3rem;
   display: flex;
   flex-direction: column;
 }
 .content-adformats .content-awu3 .header h4 {
-  padding-bottom: 0.6rem;
+  padding-bottom: .6rem;
   margin-left: 0;
-  color: rgb(198, 4, 36);
+  color: #c60424;
 }
 .content-adformats .content-awu3 .header h3 {
   margin-left: 0;
@@ -2849,18 +2833,18 @@
   text-align: left;
   height: 100%;
   background: #000;
-  padding: 1rem 1rem 1.5rem 1rem;
-  border-radius: 0.5rem;
+  padding: 1rem 1rem 1.5rem;
+  border-radius: .5rem;
 }
 .content-adformats .content-awu3 .grid .box img {
-  border-radius: 0.5rem;
+  border-radius: .5rem;
   width: 42.5%;
   height: auto;
 }
 .content-adformats .content-awu3 .grid .box h1 {
   font-size: 1.25rem;
   padding-top: 1rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: .75rem;
   font-family: bold;
   color: #fff;
   text-align: center;
@@ -2886,7 +2870,7 @@
   width: 100%;
 }
 .content-adformats .content-awu4 {
-  margin: 9rem 5rem 3rem 5rem;
+  margin: 9rem 5rem 3rem;
 }
 .content-adformats .content-awu4 .header {
   display: flex;
@@ -2894,9 +2878,9 @@
   margin-bottom: 3rem;
 }
 .content-adformats .content-awu4 .header h4 {
-  padding-bottom: 0.6rem;
+  padding-bottom: .6rem;
   margin-left: 0;
-  color: rgb(198, 4, 36);
+  color: #c60424;
 }
 .content-adformats .content-awu4 .header h3 {
   margin-left: 0;
@@ -2908,18 +2892,18 @@
   text-align: center;
   height: 100%;
   background: #000;
-  padding: 1rem 1rem 1.5rem 1rem;
-  border-radius: 0.5rem;
+  padding: 1rem 1rem 1.5rem;
+  border-radius: .5rem;
 }
 .content-adformats .content-awu4 .box img {
-  border-radius: 0.5rem;
+  border-radius: .5rem;
   width: 22.5%;
   height: auto;
 }
 .content-adformats .content-awu4 .box h1 {
   font-size: 1.25rem;
   padding-top: 1rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: .75rem;
   margin: 0;
   font-family: bold;
   color: #fff;
@@ -2938,7 +2922,7 @@
 .content-adformats .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  border: 0.15rem solid #000;
+  border: .15rem solid #000;
   color: #000;
   text-decoration: none;
   font-size: 1.2rem;
@@ -2950,7 +2934,6 @@
   background-color: #fafafa;
   color: #000;
 }
-
 @media (min-width: 660px) and (max-width: 874px) {
   .content-adformats .content-awu3 {
     margin-top: 3rem;
@@ -2966,7 +2949,7 @@
     width: 92.5%;
   }
   .content-adformats .content-awu4 {
-    margin: 3rem 1.25rem 0 1.25rem;
+    margin: 3rem 1.25rem 0;
   }
   .content-adformats .content-awu4 .header {
     margin-bottom: 1.5rem;
@@ -3003,7 +2986,7 @@
     width: 92.5%;
   }
   .content-adformats .content-awu4 {
-    margin: 3rem 1.25rem 0 1.25rem;
+    margin: 3rem 1.25rem 0;
   }
   .content-adformats .content-awu4 .header {
     margin-bottom: 1.5rem;
@@ -3024,7 +3007,7 @@
   flex-direction: column;
 }
 .adformats-container b {
-  font-family: "bold";
+  font-family: bold;
 }
 .adformats-container .logo {
   background: none;
@@ -3034,7 +3017,10 @@
 .adformats-container .logo img {
   border-radius: 10rem;
 }
-.adformats-container h1, .adformats-container h2, .adformats-container h3, .adformats-container span {
+.adformats-container h1,
+.adformats-container h2,
+.adformats-container h3,
+.adformats-container span {
   font-style: normal;
   text-align: left;
   font-family: ku;
@@ -3054,7 +3040,7 @@
 .adformats-container h4 {
   font-family: kl;
   font-size: 1.35rem;
-  color: rgb(198, 4, 36);
+  color: #c60424;
 }
 .adformats-container p {
   font-family: kl;
@@ -3080,7 +3066,7 @@
 }
 .adformats-container .content .inner-content .text p {
   text-align: left;
-  padding-top: 0.35rem;
+  padding-top: .35rem;
   margin-left: 0;
 }
 .adformats-container .content .inner-content .btn {
@@ -3092,14 +3078,14 @@
 .adformats-container .content .inner-content .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  background-color: #02090A;
+  background-color: #02090a;
   color: #fafafa;
   border: none;
   font-size: 1rem;
   font-family: bold;
 }
 .adformats-container .content .inner-content .btn .pricebtn:hover {
-  opacity: 0.85;
+  opacity: .85;
   cursor: pointer;
 }
 .adformats-container .content .inner-content1 img {
@@ -3110,10 +3096,10 @@
   background: #02090A;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
-  padding: 0 5rem;
-  padding-bottom: 5rem;
+  padding: 0 5rem 5rem;
 }
-.adformats-container .inner-content2 h2, .adformats-container .inner-content2 h2 span {
+.adformats-container .inner-content2 h2,
+.adformats-container .inner-content2 h2 span {
   padding-top: 6rem;
   margin-left: 0;
   color: #fafafa;
@@ -3121,7 +3107,8 @@
 .adformats-container .inner-content2 h2 span {
   font-size: 4.5rem;
 }
-.adformats-container .inner-content2 p, .adformats-container .inner-content2 .text {
+.adformats-container .inner-content2 p,
+.adformats-container .inner-content2 .text {
   width: 95%;
   padding-top: 1.5rem;
   font-size: 3rem;
@@ -3129,7 +3116,7 @@
   margin-bottom: 5rem;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -3138,21 +3125,15 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.adformats-container .inner-content2 p:hover, .adformats-container .inner-content2 .text:hover {
+.adformats-container .inner-content2 p:hover,
+.adformats-container .inner-content2 .text:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
-.adformats-container .inner-content2 p span, .adformats-container .inner-content2 .text span {
+.adformats-container .inner-content2 p span,
+.adformats-container .inner-content2 .text span {
   font-size: 3.5rem;
-}
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
 }
 .adformats-container .floatimg {
   margin-top: 8rem;
@@ -3173,7 +3154,8 @@
   width: auto;
   text-align: center;
 }
-.adformats-container .inner-content25 h2, .adformats-container .inner-content25 h2 span,
+.adformats-container .inner-content25 h2,
+.adformats-container .inner-content25 h2 span,
 .adformats-container .inner-content2555 h2,
 .adformats-container .inner-content2555 h2 span {
   text-align: center;
@@ -3181,7 +3163,8 @@
   margin: 0 auto;
   color: #fafafa;
 }
-.adformats-container .inner-content25 p, .adformats-container .inner-content25 .text,
+.adformats-container .inner-content25 p,
+.adformats-container .inner-content25 .text,
 .adformats-container .inner-content2555 p,
 .adformats-container .inner-content2555 .text {
   text-align: center;
@@ -3191,7 +3174,7 @@
   margin-bottom: 4rem;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.4s ease-in-out;
+  transition: all .4s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -3200,7 +3183,8 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.adformats-container .inner-content25 p:hover, .adformats-container .inner-content25 .text:hover,
+.adformats-container .inner-content25 p:hover,
+.adformats-container .inner-content25 .text:hover,
 .adformats-container .inner-content2555 p:hover,
 .adformats-container .inner-content2555 .text:hover {
   background-size: 100% 100%;
@@ -3210,13 +3194,13 @@
 .adformats-container .inner-content25 .btn,
 .adformats-container .inner-content2555 .btn {
   display: flex;
-  margin: 2rem auto 4rem auto;
+  margin: 2rem auto 4rem;
 }
 .adformats-container .inner-content25 .btn .pricebtn,
 .adformats-container .inner-content2555 .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  border: 0.2rem solid #fafafa;
+  border: .2rem solid #fafafa;
   color: #fafafa;
   text-decoration: none;
   font-size: 1.2rem;
@@ -3229,24 +3213,17 @@
   background-color: #3a3a3a;
   color: #fafafa;
 }
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
-}
 .adformats-container .inner-content2555 {
   margin-top: 14rem;
   margin-left: 5rem;
   margin-right: 5rem;
   border-radius: 2rem;
-  padding: 8rem 8rem;
+  padding: 8rem;
   text-align: left;
   width: auto;
 }
-.adformats-container .inner-content2555 p, .adformats-container .inner-content2555 .text {
+.adformats-container .inner-content2555 p,
+.adformats-container .inner-content2555 .text {
   text-align: left;
   font-family: ku;
   background-color: #fafafa;
@@ -3268,11 +3245,11 @@
 }
 .adformats-container .inner-content2555 .tag p:nth-child(2) {
   font-family: ku;
-  padding-top: 0.5rem;
+  padding-top: .5rem;
   background-color: #7a7a7a;
 }
 .adformats-container .inner-content3 {
-  margin: 14rem auto 0 auto;
+  margin: 14rem auto 0;
 }
 .adformats-container .inner-content3 .grid {
   margin-left: 5rem;
@@ -3290,17 +3267,19 @@
   height: 100%;
   width: 100%;
   background: #000;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem;
   border-radius: 1.5rem;
 }
 .adformats-container .inner-content3 .grid .box h1 {
   padding-top: 1rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: .75rem;
   font-family: ku;
   color: #fafafa;
   text-align: center;
 }
-.adformats-container .inner-content3 .grid .box p, .adformats-container .inner-content3 .grid .box a, .adformats-container .inner-content3 .grid .box .text {
+.adformats-container .inner-content3 .grid .box p,
+.adformats-container .inner-content3 .grid .box a,
+.adformats-container .inner-content3 .grid .box .text {
   color: #7a7a7a;
   flex-grow: 1;
   text-align: center;
@@ -3308,13 +3287,14 @@
   width: 100%;
   padding-bottom: 2rem;
 }
-.adformats-container .inner-content3 .grid .box a, .adformats-container .inner-content3 .grid .box .text {
+.adformats-container .inner-content3 .grid .box a,
+.adformats-container .inner-content3 .grid .box .text {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   color: #a0a0a0;
   background: #a0a0a0;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
   background-image: linear-gradient(90deg, #ff8738, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -3323,18 +3303,11 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.adformats-container .inner-content3 .grid .box a:hover, .adformats-container .inner-content3 .grid .box .text:hover {
+.adformats-container .inner-content3 .grid .box a:hover,
+.adformats-container .inner-content3 .grid .box .text:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
-}
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
 }
 .adformats-container .ad-form {
   margin-left: 5rem;
@@ -3350,7 +3323,7 @@
   height: 100%;
   width: 100%;
   background: #000;
-  padding: 4rem 4rem 4rem 4rem;
+  padding: 4rem;
   border-radius: 1.5rem;
 }
 .adformats-container .ad-form .inner-form .text h1 {
@@ -3359,7 +3332,7 @@
 }
 .adformats-container .ad-form .inner-form .text p {
   text-align: left;
-  padding: 2rem 0rem 0.5rem 0;
+  padding: 2rem 0rem .5rem 0;
   margin-left: 0;
   color: #fafafa;
 }
@@ -3370,7 +3343,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 0;
-  margin-top: 0.45rem;
+  margin-top: .45rem;
 }
 .adformats-container .ad-form .inner-form .inner-content form .input-wrapper {
   position: relative;
@@ -3379,7 +3352,7 @@
 .adformats-container .ad-form .inner-form .inner-content form input.email {
   width: 100%;
   color: #000;
-  border: 0.15rem solid #02090A;
+  border: .15rem solid #02090A;
   border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
@@ -3387,31 +3360,31 @@
 }
 .adformats-container .ad-form .inner-form .inner-content form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
 }
 .adformats-container .ad-form .inner-form .inner-content form .mb {
-  margin-bottom: 0.35rem;
+  margin-bottom: .35rem;
 }
 .adformats-container .ad-form .inner-form .inner-content form altcha-widget {
   color: #fafafa;
 }
 .adformats-container .ad-form .inner-form .inner-content form button.submit {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 2rem;
-  margin: 0.35rem;
-  background-color: #02090A;
+  margin: .35rem;
+  background-color: #02090a;
   color: #fafafa;
   border: none;
   border-radius: 5rem;
   font-size: 1rem;
 }
 .adformats-container .ad-form .inner-form .inner-content form button.submit:hover {
-  opacity: 0.85;
+  opacity: .85;
   cursor: pointer;
 }
 .adformats-container .ad-form .inner-form .inner-content img {
@@ -3419,29 +3392,22 @@
   margin-left: 2rem;
   width: 25%;
 }
-
-@media (max-width: 1175px) {
-  .ad-form .inner-form .inner-content img {
-    display: none;
-  }
-}
 @media (min-width: 875px) and (max-width: 1264px) {
   .adformats-container h3 {
     font-size: 2.75rem;
   }
-  .adformats-container .logo {
-    margin-left: 2.5rem;
-  }
+  .adformats-container .logo,
   .adformats-container .content .inner-content {
     margin-left: 2.5rem;
   }
-  .adformats-container .content .inner-content .text h1, .adformats-container .content .inner-content .text span {
+  .adformats-container .content .inner-content .text h1,
+  .adformats-container .content .inner-content .text span {
     font-size: 3.5rem;
     width: 100%;
   }
   .adformats-container .content .inner-content .text p {
     padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: .5rem;
   }
   .adformats-container .content .inner-content1 {
     width: 100%;
@@ -3450,12 +3416,12 @@
   }
   .adformats-container .inner-content2 {
     margin: 0 auto;
-    padding: 0 2.5rem;
+    padding: 0 2.5rem 5rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-    padding-bottom: 5rem;
   }
-  .adformats-container .inner-content2 h2, .adformats-container .inner-content2 h2 span {
+  .adformats-container .inner-content2 h2,
+  .adformats-container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 3.5rem;
   }
@@ -3490,7 +3456,7 @@
   }
   .adformats-container .content .inner-content .text p {
     padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: .5rem;
   }
   .adformats-container .content .inner-content1 img {
     display: block;
@@ -3499,10 +3465,9 @@
     width: 70%;
   }
   .adformats-container .inner-content2 {
-    padding: 0 2.5rem;
+    padding: 0 2.5rem 3rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-    padding-bottom: 3rem;
   }
   .adformats-container .inner-content2 h2 {
     padding-top: 3.5rem;
@@ -3524,10 +3489,7 @@
   .adformats-container .floatimg img {
     width: 65%;
   }
-  .adformats-container .inner-content25 {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
+  .adformats-container .inner-content25,
   .adformats-container .inner-content25sm {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -3538,7 +3500,8 @@
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
-  .adformats-container .inner-content255 .side1 h2, .adformats-container .inner-content255 .side1 h2 span {
+  .adformats-container .inner-content255 .side1 h2,
+  .adformats-container .inner-content255 .side1 h2 span {
     font-size: 1.25rem;
   }
   .adformats-container .inner-content255 .side1 p {
@@ -3565,13 +3528,10 @@
     font-size: 1rem;
   }
   .adformats-container .inner-content2555 .tag p:nth-child(2) {
-    padding-top: 0.35rem;
+    padding-top: .35rem;
   }
   .adformats-container .inner-content3 {
-    margin-top: 12rem;
-    margin-bottom: 8rem;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
+    margin: 12rem .25rem 8rem;
   }
   .adformats-container .inner-content3 .grid {
     margin: 1.25rem;
@@ -3581,20 +3541,15 @@
     width: 92.5%;
   }
   .adformats-container .ad-form {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-top: 14rem;
-    margin-bottom: 4rem;
+    margin: 14rem 1.5rem 4rem;
   }
   .adformats-container .ad-form .inner-form {
-    padding: 2rem 1.5rem 2rem 1.5rem;
+    padding: 2rem 1.5rem;
   }
   .adformats-container .ad-form .inner-form .text h1 {
     font-size: 2rem;
   }
-  .adformats-container .ad-form .inner-form .inner-content {
-    margin-left: 0;
-  }
+  .adformats-container .ad-form .inner-form .inner-content,
   .adformats-container .ad-form .inner-form .inner-content form {
     margin-left: 0;
   }
@@ -3625,7 +3580,7 @@
   }
   .adformats-container .content .inner-content .text p {
     padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: .5rem;
     width: 87.5%;
   }
   .adformats-container .content .inner-content1 img {
@@ -3637,25 +3592,27 @@
   .adformats-container .inner-content2 {
     margin-left: 0;
     margin-right: 0;
-    padding: 0 2rem;
-    padding-bottom: 3rem;
+    padding: 0 2rem 3rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .adformats-container .inner-content2 h2, .adformats-container .inner-content2 h2 span {
+  .adformats-container .inner-content2 h2,
+  .adformats-container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 2.25rem;
   }
   .adformats-container .inner-content2 h2 span {
     font-size: 2.5rem;
   }
-  .adformats-container .inner-content2 p, .adformats-container .inner-content2 .text {
+  .adformats-container .inner-content2 p,
+  .adformats-container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 1.75rem;
     width: 100%;
   }
-  .adformats-container .inner-content2 p span, .adformats-container .inner-content2 .text span {
+  .adformats-container .inner-content2 p span,
+  .adformats-container .inner-content2 .text span {
     font-size: 2rem;
   }
   .adformats-container .floatimg {
@@ -3669,15 +3626,18 @@
     margin-right: 1.5rem;
     padding: 0 1rem;
   }
-  .adformats-container .inner-content25 h2, .adformats-container .inner-content25 h2 span {
+  .adformats-container .inner-content25 h2,
+  .adformats-container .inner-content25 h2 span {
     padding-top: 2.25rem;
     font-size: 2.25rem;
   }
-  .adformats-container .inner-content25 p, .adformats-container .inner-content25 .text {
+  .adformats-container .inner-content25 p,
+  .adformats-container .inner-content25 .text {
     padding-top: 1rem;
     font-size: 1.75rem;
   }
-  .adformats-container .inner-content25 p, .adformats-container .inner-content25 .text {
+  .adformats-container .inner-content25 p,
+  .adformats-container .inner-content25 .text {
     margin-bottom: 2rem;
   }
   .adformats-container .inner-content25 .btn {
@@ -3692,17 +3652,18 @@
     margin-right: 1.5rem;
     padding: 4rem 2rem;
   }
-  .adformats-container .inner-content2555 p, .adformats-container .inner-content2555 .text {
+  .adformats-container .inner-content2555 p,
+  .adformats-container .inner-content2555 .text {
     font-size: 2rem;
   }
   .adformats-container .inner-content2555 .tag p {
     font-size: 1rem;
   }
   .adformats-container .inner-content2555 .tag p:nth-child(2) {
-    padding-top: 0.35rem;
+    padding-top: .35rem;
   }
   .adformats-container .inner-content3 {
-    margin: 0 0;
+    margin: 0;
     margin-top: 6rem;
     margin-bottom: 4rem;
     padding: 0 1.5rem;
@@ -3720,13 +3681,10 @@
     font-size: 1.75rem;
   }
   .adformats-container .ad-form {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-top: 6rem;
-    margin-bottom: 4rem;
+    margin: 6rem 1.5rem 4rem;
   }
   .adformats-container .ad-form .inner-form {
-    padding: 2rem 1.5rem 2rem 1.5rem;
+    padding: 2rem 1.5rem;
     margin: 0 auto;
   }
   .adformats-container .ad-form .inner-form .text h1 {
@@ -3745,7 +3703,7 @@
   flex-direction: column;
 }
 .ads-container b {
-  font-family: "bold";
+  font-family: bold;
 }
 .ads-container .logo {
   background: none;
@@ -3755,7 +3713,10 @@
 .ads-container .logo img {
   border-radius: 10rem;
 }
-.ads-container h1, .ads-container h2, .ads-container h3, .ads-container span {
+.ads-container h1,
+.ads-container h2,
+.ads-container h3,
+.ads-container span {
   font-style: normal;
   text-align: left;
   font-family: ku;
@@ -3775,7 +3736,7 @@
 .ads-container h4 {
   font-family: kl;
   font-size: 1.35rem;
-  color: rgb(198, 4, 36);
+  color: #c60424;
 }
 .ads-container p {
   font-family: kl;
@@ -3785,7 +3746,7 @@
   font-family: kl;
 }
 .ads-container .content .inner-content {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 .ads-container .content .inner-content img {
   width: 25%;
@@ -3806,20 +3767,21 @@
 }
 .ads-container .content .inner-content .box p {
   text-align: center;
-  padding-bottom: 0.5rem;
+  padding-bottom: .5rem;
   color: #fafafa;
 }
 .ads-container .content .inner-content .box form {
-  margin-top: 0.45rem;
+  margin-top: .45rem;
 }
-.ads-container .content .inner-content .box form .input-wrapper, .ads-container .content .inner-content .box form .input-wrapper1 {
+.ads-container .content .inner-content .box form .input-wrapper,
+.ads-container .content .inner-content .box form .input-wrapper1 {
   position: relative;
   width: 32.5rem;
 }
 .ads-container .content .inner-content .box form input.email {
   width: 100%;
   color: #000;
-  border: 0.15rem solid #02090A;
+  border: .15rem solid #02090A;
   border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
@@ -3827,38 +3789,38 @@
 }
 .ads-container .content .inner-content .box form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
 }
 .ads-container .content .inner-content .box form altcha-widget {
   color: #fafafa;
 }
 .ads-container .content .inner-content .box form button.submit {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 2rem;
-  margin: 0.35rem;
-  background-color: #02090A;
+  margin: .35rem;
+  background-color: #02090a;
   color: #fafafa;
   border: none;
   border-radius: 5rem;
   font-size: 1rem;
 }
 .ads-container .content .inner-content .box form button.submit:hover {
-  opacity: 0.85;
+  opacity: .85;
   cursor: pointer;
 }
 .ads-container .inner-content2 {
   background: #02090A;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
-  padding: 0 5rem;
-  padding-bottom: 10rem;
+  padding: 0 5rem 10rem;
 }
-.ads-container .inner-content2 h2, .ads-container .inner-content2 h2 span {
+.ads-container .inner-content2 h2,
+.ads-container .inner-content2 h2 span {
   padding-top: 6rem;
   margin-left: 0;
   color: #fafafa;
@@ -3866,14 +3828,15 @@
 .ads-container .inner-content2 h2 span {
   font-size: 4.5rem;
 }
-.ads-container .inner-content2 p, .ads-container .inner-content2 .text {
+.ads-container .inner-content2 p,
+.ads-container .inner-content2 .text {
   width: 95%;
   padding-top: 1.5rem;
   font-size: 3rem;
   margin-left: 0;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -3882,21 +3845,15 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.ads-container .inner-content2 p:hover, .ads-container .inner-content2 .text:hover {
+.ads-container .inner-content2 p:hover,
+.ads-container .inner-content2 .text:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
-.ads-container .inner-content2 p span, .ads-container .inner-content2 .text span {
+.ads-container .inner-content2 p span,
+.ads-container .inner-content2 .text span {
   font-size: 3.5rem;
-}
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
 }
 .ads-container .floatimg,
 .ads-container .floatimg2 {
@@ -3918,13 +3875,15 @@
   width: auto;
   text-align: left;
 }
-.ads-container .inner-content25 h2, .ads-container .inner-content25 h2 span {
+.ads-container .inner-content25 h2,
+.ads-container .inner-content25 h2 span {
   text-align: center;
   padding-top: 3.5rem;
   margin: 0 auto;
   color: #fafafa;
 }
-.ads-container .inner-content25 p, .ads-container .inner-content25 .text {
+.ads-container .inner-content25 p,
+.ads-container .inner-content25 .text {
   text-align: left;
   padding-top: 1.5rem;
   font-size: 3rem;
@@ -3932,7 +3891,7 @@
   margin-bottom: 4rem;
   color: #7a7a7a;
   background: #7a7a7a;
-  transition: all 0.4s ease-in-out;
+  transition: all .4s ease-in-out;
   background-image: linear-gradient(90deg, #ff6600, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -3941,19 +3900,20 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-.ads-container .inner-content25 p:hover, .ads-container .inner-content25 .text:hover {
+.ads-container .inner-content25 p:hover,
+.ads-container .inner-content25 .text:hover {
   background-size: 100% 100%;
   -webkit-text-fill-color: transparent;
   animation: shimmer 1.5s linear infinite;
 }
 .ads-container .inner-content25 .btn {
   display: flex;
-  margin: 0 auto 6rem auto;
+  margin: 0 auto 6rem;
 }
 .ads-container .inner-content25 .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  border: 0.2rem solid #fafafa;
+  border: .2rem solid #fafafa;
   color: #fafafa;
   text-decoration: none;
   font-size: 1.2rem;
@@ -3965,23 +3925,16 @@
   background-color: #3a3a3a;
   color: #fafafa;
 }
-@keyframes shimmer {
-  0% {
-    background-position: -100% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
-}
 .ads-container .inner-content25 {
   margin-top: 14rem;
   margin-left: 5rem;
   margin-right: 5rem;
   border-radius: 2rem;
-  padding: 8rem 8rem;
+  padding: 8rem;
   width: auto;
 }
-.ads-container .inner-content25 p, .ads-container .inner-content25 .text {
+.ads-container .inner-content25 p,
+.ads-container .inner-content25 .text {
   text-align: left;
   font-family: ku;
   background-color: #fafafa;
@@ -4003,11 +3956,11 @@
 }
 .ads-container .inner-content25 .tag p:nth-child(2) {
   font-family: ku;
-  padding-top: 0.5rem;
+  padding-top: .5rem;
   background-color: #7a7a7a;
 }
 .ads-container .inner-content3 {
-  margin: 14rem auto 0 auto;
+  margin: 14rem auto 0;
 }
 .ads-container .inner-content3 .grid {
   margin-left: 5rem;
@@ -4025,17 +3978,18 @@
   height: 100%;
   width: 100%;
   background: #000;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem;
   border-radius: 1.5rem;
 }
 .ads-container .inner-content3 .grid .box h1 {
   padding-top: 1rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: .75rem;
   font-family: ku;
   color: #fafafa;
   text-align: center;
 }
-.ads-container .inner-content3 .grid .box p, .ads-container .inner-content3 .grid .box a {
+.ads-container .inner-content3 .grid .box p,
+.ads-container .inner-content3 .grid .box a {
   color: #7a7a7a;
   flex-grow: 1;
   text-align: center;
@@ -4049,7 +4003,7 @@
   font-size: 1.5rem;
   color: #a0a0a0;
   background: #a0a0a0;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
   background-image: linear-gradient(90deg, #ff8738, #ff0044);
   background-size: 0% 100%;
   background-repeat: no-repeat;
@@ -4067,7 +4021,7 @@
   0% {
     background-position: -100% 0;
   }
-  100% {
+  to {
     background-position: 200% 0;
   }
 }
@@ -4092,13 +4046,13 @@
   text-align: left;
   width: 100%;
   background: #000;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem;
   border-radius: 1.5rem;
 }
 .ads-container .inner-content3sm .grid .box h1,
 .ads-container .inner-content3smm .grid .box h1 {
   padding-top: 1rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: .75rem;
   font-family: ku;
   color: #7a7a7a;
   text-align: center;
@@ -4115,14 +4069,14 @@
 .ads-container .inner-content3sm .grid .box .btn,
 .ads-container .inner-content3smm .grid .box .btn {
   display: flex;
-  margin: 3rem auto 3rem auto;
+  margin: 3rem auto;
   color: #fafafa;
 }
 .ads-container .inner-content3sm .grid .box .btn .pricebtn,
 .ads-container .inner-content3smm .grid .box .btn .pricebtn {
   border-radius: 5rem;
   padding: 1rem 1.75rem;
-  border: 0.2rem solid #fafafa;
+  border: .2rem solid #fafafa;
   color: #fafafa;
   text-decoration: none;
   font-size: 1.2rem;
@@ -4157,7 +4111,7 @@
   height: 100%;
   width: 100%;
   background: #000;
-  padding: 4rem 4rem 4rem 4rem;
+  padding: 4rem;
   border-radius: 1.5rem;
 }
 .ads-container .ad-form .inner-form .text h1 {
@@ -4166,7 +4120,7 @@
 }
 .ads-container .ad-form .inner-form .text p {
   text-align: left;
-  padding: 2rem 0rem 0.5rem 0;
+  padding: 2rem 0rem .5rem 0;
   margin-left: 0;
   color: #fafafa;
 }
@@ -4177,7 +4131,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 0;
-  margin-top: 0.45rem;
+  margin-top: .45rem;
 }
 .ads-container .ad-form .inner-form .inner-content form .input-wrapper {
   position: relative;
@@ -4186,7 +4140,7 @@
 .ads-container .ad-form .inner-form .inner-content form input.email {
   width: 100%;
   color: #000;
-  border: 0.15rem solid #02090A;
+  border: .15rem solid #02090A;
   border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
@@ -4194,31 +4148,31 @@
 }
 .ads-container .ad-form .inner-form .inner-content form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
 }
 .ads-container .ad-form .inner-form .inner-content form .mb {
-  margin-bottom: 0.35rem;
+  margin-bottom: .35rem;
 }
 .ads-container .ad-form .inner-form .inner-content form altcha-widget {
   color: #fafafa;
 }
 .ads-container .ad-form .inner-form .inner-content form button.submit {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 2rem;
-  margin: 0.35rem;
-  background-color: #02090A;
+  margin: .35rem;
+  background-color: #02090a;
   color: #fafafa;
   border: none;
   border-radius: 5rem;
   font-size: 1rem;
 }
 .ads-container .ad-form .inner-form .inner-content form button.submit:hover {
-  opacity: 0.85;
+  opacity: .85;
   cursor: pointer;
 }
 .ads-container .ad-form .inner-form .inner-content img {
@@ -4226,7 +4180,6 @@
   margin-left: 2rem;
   width: 20%;
 }
-
 @media (max-width: 1175px) {
   .ad-form .inner-form .inner-content img {
     display: none;
@@ -4236,19 +4189,18 @@
   .ads-container h3 {
     font-size: 2.75rem;
   }
-  .ads-container .logo {
-    margin-left: 2.5rem;
-  }
+  .ads-container .logo,
   .ads-container .content .inner-content {
     margin-left: 2.5rem;
   }
-  .ads-container .content .inner-content .text h1, .ads-container .content .inner-content .text span {
+  .ads-container .content .inner-content .text h1,
+  .ads-container .content .inner-content .text span {
     font-size: 3.5rem;
     width: 100%;
   }
   .ads-container .content .inner-content .text p {
     padding-top: 2.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: .5rem;
   }
   .ads-container .content .inner-content1 {
     width: 40%;
@@ -4257,19 +4209,20 @@
   }
   .ads-container .inner-content2 {
     margin: 0 auto;
-    padding: 0 2.5rem;
+    padding: 0 2.5rem 5rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-    padding-bottom: 5rem;
   }
-  .ads-container .inner-content2 h2, .ads-container .inner-content2 h2 span {
+  .ads-container .inner-content2 h2,
+  .ads-container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 3.5rem;
   }
   .ads-container .inner-content2 h2 span {
     font-size: 4rem;
   }
-  .ads-container .inner-content2 p, .ads-container .inner-content2 .text {
+  .ads-container .inner-content2 p,
+  .ads-container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     width: 100%;
@@ -4302,14 +4255,14 @@
   .ads-container .content .inner-content .box p {
     font-size: 1rem;
   }
-  .ads-container .content .inner-content .box form .input-wrapper, .ads-container .content .inner-content .box form .input-wrapper1 {
+  .ads-container .content .inner-content .box form .input-wrapper,
+  .ads-container .content .inner-content .box form .input-wrapper1 {
     width: 25rem;
   }
   .ads-container .inner-content2 {
-    padding: 0 2.5rem;
+    padding: 0 2.5rem 3rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-    padding-bottom: 3rem;
   }
   .ads-container .inner-content2 h2 {
     padding-top: 3.5rem;
@@ -4319,7 +4272,8 @@
   .ads-container .inner-content2 h2 span {
     font-size: 3.5rem;
   }
-  .ads-container .inner-content2 p, .ads-container .inner-content2 .text {
+  .ads-container .inner-content2 p,
+  .ads-container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 2.25rem;
@@ -4340,28 +4294,23 @@
     width: 130%;
   }
   .ads-container .inner-content25 {
-    margin-top: 8rem;
-    margin-bottom: 6rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin: 8rem 1.5rem 6rem;
     padding: 4rem 2rem;
   }
-  .ads-container .inner-content25 p, .ads-container .inner-content25 .text {
+  .ads-container .inner-content25 p,
+  .ads-container .inner-content25 .text {
     font-size: 2rem;
   }
   .ads-container .inner-content25 .tag p {
     font-size: 1rem;
   }
   .ads-container .inner-content25 .tag p:nth-child(2) {
-    padding-top: 0.35rem;
+    padding-top: .35rem;
   }
   .ads-container .inner-content3,
   .ads-container .inner-content3sm,
   .ads-container .inner-content3smm {
-    margin-top: 0rem;
-    margin-bottom: -2rem;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
+    margin: 0rem .25rem -2rem;
   }
   .ads-container .inner-content3 .grid,
   .ads-container .inner-content3sm .grid,
@@ -4369,7 +4318,8 @@
     margin: 1.25rem;
     grid-template-columns: repeat(1, 1fr);
   }
-  .ads-container .inner-content3 .grid .box p, .ads-container .inner-content3 .grid .box .text,
+  .ads-container .inner-content3 .grid .box p,
+  .ads-container .inner-content3 .grid .box .text,
   .ads-container .inner-content3sm .grid .box p,
   .ads-container .inner-content3sm .grid .box .text,
   .ads-container .inner-content3smm .grid .box p,
@@ -4386,7 +4336,7 @@
     margin-bottom: 4rem;
   }
   .ads-container .ad-form .inner-form {
-    padding: 2rem 1.5rem 2rem 1.5rem;
+    padding: 2rem 1.5rem;
   }
   .ads-container .ad-form .inner-form .text h1 {
     font-size: 2rem;
@@ -4417,34 +4367,37 @@
     font-size: 1.75rem;
   }
   .ads-container .content .inner-content .box p {
-    font-size: 0.95rem;
+    font-size: .95rem;
   }
-  .ads-container .content .inner-content .box form .input-wrapper, .ads-container .content .inner-content .box form .input-wrapper1 {
+  .ads-container .content .inner-content .box form .input-wrapper,
+  .ads-container .content .inner-content .box form .input-wrapper1 {
     width: 20rem;
   }
   .ads-container .inner-content2 {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 4rem;
-    padding: 0 2rem;
-    padding-bottom: 3rem;
+    padding: 0 2rem 3rem;
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
   }
-  .ads-container .inner-content2 h2, .ads-container .inner-content2 h2 span {
+  .ads-container .inner-content2 h2,
+  .ads-container .inner-content2 h2 span {
     padding-top: 3.5rem;
     font-size: 2.25rem;
   }
   .ads-container .inner-content2 h2 span {
     font-size: 2.5rem;
   }
-  .ads-container .inner-content2 p, .ads-container .inner-content2 .text {
+  .ads-container .inner-content2 p,
+  .ads-container .inner-content2 .text {
     margin-bottom: 3.5rem;
     padding-top: 1rem;
     font-size: 1.75rem;
     width: 100%;
   }
-  .ads-container .inner-content2 p span, .ads-container .inner-content2 .text span {
+  .ads-container .inner-content2 p span,
+  .ads-container .inner-content2 .text span {
     font-size: 2rem;
   }
   .ads-container .floatimg {
@@ -4466,15 +4419,18 @@
     margin-right: 1.5rem;
     padding: 0 1rem;
   }
-  .ads-container .inner-content25 h2, .ads-container .inner-content25 h2 span {
+  .ads-container .inner-content25 h2,
+  .ads-container .inner-content25 h2 span {
     padding-top: 2.25rem;
     font-size: 2.25rem;
   }
-  .ads-container .inner-content25 p, .ads-container .inner-content25 .text {
+  .ads-container .inner-content25 p,
+  .ads-container .inner-content25 .text {
     padding-top: 1rem;
     font-size: 1.75rem;
   }
-  .ads-container .inner-content25 p, .ads-container .inner-content25 .text {
+  .ads-container .inner-content25 p,
+  .ads-container .inner-content25 .text {
     margin-bottom: 2rem;
   }
   .ads-container .inner-content25 .btn {
@@ -4488,19 +4444,20 @@
     margin-bottom: 6rem;
     padding: 4rem 2rem;
   }
-  .ads-container .inner-content25 p, .ads-container .inner-content25 .text {
+  .ads-container .inner-content25 p,
+  .ads-container .inner-content25 .text {
     font-size: 2rem;
   }
   .ads-container .inner-content25 .tag p {
     font-size: 1rem;
   }
   .ads-container .inner-content25 .tag p:nth-child(2) {
-    padding-top: 0.35rem;
+    padding-top: .35rem;
   }
   .ads-container .inner-content3,
   .ads-container .inner-content3sm,
   .ads-container .inner-content3smm {
-    margin: 0 0;
+    margin: 0;
     margin-top: 1rem;
     margin-bottom: 5rem;
     padding: 0 1.5rem;
@@ -4517,7 +4474,8 @@
   .ads-container .inner-content3smm .grid .box h1 {
     font-size: 2.25rem;
   }
-  .ads-container .inner-content3 .grid .box p, .ads-container .inner-content3 .grid .box .text,
+  .ads-container .inner-content3 .grid .box p,
+  .ads-container .inner-content3 .grid .box .text,
   .ads-container .inner-content3sm .grid .box p,
   .ads-container .inner-content3sm .grid .box .text,
   .ads-container .inner-content3smm .grid .box p,
@@ -4544,7 +4502,7 @@
     margin-bottom: 4rem;
   }
   .ads-container .ad-form .inner-form {
-    padding: 2rem 1.5rem 2rem 1.5rem;
+    padding: 2rem 1.5rem;
     margin: 0 auto;
   }
   .ads-container .ad-form .inner-form .text h1 {
@@ -4564,17 +4522,20 @@
   align-items: center;
 }
 .content-privacy b {
-  font-family: "bold";
+  font-family: bold;
 }
 .content-privacy .logo {
   background: none;
-  margin: 1.25rem 0 0 0;
+  margin: 1.25rem 0 0;
   width: 3.5rem;
 }
 .content-privacy .logo img {
   border-radius: 10rem;
 }
-.content-privacy h1, .content-privacy h2, .content-privacy h3, .content-privacy span {
+.content-privacy h1,
+.content-privacy h2,
+.content-privacy h3,
+.content-privacy span {
   text-align: left;
   font-family: ku;
   font-size: 4rem;
@@ -4590,7 +4551,8 @@
   font-family: kl;
   font-size: 1.4rem;
 }
-.content-privacy p, .content-privacy li {
+.content-privacy p,
+.content-privacy li {
   font-family: kl;
   font-size: 1.2rem;
 }
@@ -4599,10 +4561,10 @@
   background: #02090A;
   border-top-left-radius: 3rem;
   border-top-right-radius: 3rem;
-  padding: 0 5rem;
-  padding-bottom: 5rem;
+  padding: 0 5rem 5rem;
 }
-.content-privacy .content-privacy2 h2, .content-privacy .content-privacy2 span {
+.content-privacy .content-privacy2 h2,
+.content-privacy .content-privacy2 span {
   padding-top: 6rem;
   margin-left: 0;
   color: #fff;
@@ -4624,18 +4586,17 @@
   font-size: 1.2rem;
   text-decoration: underline;
   color: #0ccdf4;
-  font-weight: bold;
+  font-weight: 700;
 }
 .content-privacy .content-privacy2 ul {
   padding-top: 1.5rem;
 }
 .content-privacy .content-privacy2 ul li {
-  padding-top: 0.5rem;
+  padding-top: .5rem;
   font-size: 1.2rem;
   margin-left: 0;
   color: #fafafa;
 }
-
 @media (min-width: 660px) and (max-width: 874px) {
   .content-privacy .logo {
     margin-left: 1rem;
@@ -4668,17 +4629,20 @@
   align-items: center;
 }
 .content-verification b {
-  font-family: "bold";
+  font-family: bold;
 }
 .content-verification .logo {
   background: none;
-  margin: 1.25rem 0 0 0;
+  margin: 1.25rem 0 0;
   width: 3.5rem;
 }
 .content-verification .logo img {
   border-radius: 10rem;
 }
-.content-verification h1, .content-verification h2, .content-verification h3, .content-verification span {
+.content-verification h1,
+.content-verification h2,
+.content-verification h3,
+.content-verification span {
   text-align: left;
   font-family: ku;
   font-size: 4rem;
@@ -4694,7 +4658,8 @@
   font-family: kl;
   font-size: 1.4rem;
 }
-.content-verification p, .content-verification li {
+.content-verification p,
+.content-verification li {
   font-family: kl;
   font-size: 1.2rem;
   line-height: normal;
@@ -4704,8 +4669,7 @@
   background: #02090A;
   border-top-left-radius: 3rem;
   border-top-right-radius: 3rem;
-  padding: 0 5rem;
-  padding-bottom: 5rem;
+  padding: 0 5rem 5rem;
 }
 .content-verification .content-verification2 h1 {
   padding-top: 6rem;
@@ -4722,7 +4686,7 @@
 .content-verification .content-verification2 .box h2 {
   color: #fff;
   font-family: ku;
-  padding: 4rem 10rem 0 10rem;
+  padding: 4rem 10rem 0;
 }
 .content-verification .content-verification2 .box p {
   font-size: 1.2rem;
@@ -4737,17 +4701,16 @@
   font-size: 1.2rem;
   text-decoration: underline;
   color: #0ccdf4;
-  font-weight: bold;
+  font-weight: 700;
 }
 .content-verification .content-verification2 .box img {
   padding-top: 2rem;
   width: 40%;
 }
-
 @media (min-width: 566px) and (max-width: 970px) {
   .content-verification .content-verification2 {
     margin-top: 1.5rem;
-    padding: 0 0;
+    padding: 0;
   }
   .content-verification .content-verification2 h1 {
     font-size: 3rem;
@@ -4761,7 +4724,7 @@
     color: #fafafa;
   }
   .content-verification .content-verification2 .box h2 {
-    padding: 4rem 10rem 0 10rem;
+    padding: 4rem 10rem 0;
   }
   .content-verification .content-verification2 .box p {
     font-size: 1.2rem;
@@ -4775,7 +4738,7 @@
 @media (max-width: 565px) {
   .content-verification .content-verification2 {
     margin-top: 1.5rem;
-    padding: 0 0;
+    padding: 0;
   }
   .content-verification .content-verification2 h1 {
     font-size: 2rem;
@@ -4787,7 +4750,7 @@
     color: #fafafa;
   }
   .content-verification .content-verification2 .box h2 {
-    padding: 4rem 3rem 0 3rem;
+    padding: 4rem 3rem 0;
   }
   .content-verification .content-verification2 .box p {
     font-size: 1.2rem;
@@ -4801,17 +4764,16 @@
 altcha-widget {
   position: relative;
   margin-left: 0;
-  margin-top: 0.1rem;
+  margin-top: .1rem;
   max-width: 200px;
   --altcha-max-width: 200px;
   --altcha-border-width: 0;
   font-size: 1rem;
   font-family: bold;
 }
-
 .footer {
   width: 100%;
-  padding: 10rem 5rem 3rem 5rem;
+  padding: 10rem 5rem 3rem;
   box-sizing: border-box;
 }
 .footer h1 {
@@ -4840,15 +4802,15 @@ altcha-widget {
 .footer .footer-top .footer-signup h1 {
   margin: 0;
   padding-top: 2rem;
-  padding-bottom: 0.5rem;
-  font-family: "ku";
+  padding-bottom: .5rem;
+  font-family: ku;
   font-size: 2.5rem;
 }
 .footer .footer-top .footer-signup form {
   display: flex;
   flex-direction: column;
   margin-left: 0;
-  margin-top: 0.45rem;
+  margin-top: .45rem;
 }
 .footer .footer-top .footer-signup form .input-wrapper {
   position: relative;
@@ -4856,9 +4818,9 @@ altcha-widget {
 }
 .footer .footer-top .footer-signup form input.email {
   width: 100%;
-  padding: 0.85rem 6rem 0.85rem 0.75rem;
+  padding: .85rem 6rem .85rem .75rem;
   color: #000;
-  border: 0.15rem solid #02090A;
+  border: .15rem solid #02090A;
   border-radius: 5rem;
   font-size: 1.1rem;
   box-sizing: border-box;
@@ -4866,30 +4828,30 @@ altcha-widget {
 }
 .footer .footer-top .footer-signup form input.email:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #02090A;
-  border-color: #02090A;
-  caret-color: #02090A;
+  box-shadow: 0 0 1px 1px #02090a;
+  border-color: #02090a;
+  caret-color: #02090a;
 }
 .footer .footer-top .footer-signup form button.submit {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 0 2rem;
-  margin: 0.35rem;
-  background-color: #02090A;
+  margin: .35rem;
+  background-color: #02090a;
   color: #fafafa;
   border: none;
   border-radius: 5rem;
   font-size: 1rem;
 }
 .footer .footer-top .footer-signup form button.submit:hover {
-  opacity: 0.85;
+  opacity: .85;
   cursor: pointer;
 }
 .footer .footer-top .footer-links {
   display: flex;
-  margin: 0 0;
+  margin: 0;
   padding-top: 3.75rem;
 }
 .footer .footer-top .footer-links .column {
@@ -4908,13 +4870,13 @@ altcha-widget {
 .footer .footer-top .footer-links .column h4 {
   font-family: bold;
   margin-bottom: 1rem;
-  font-size: 0.85rem;
+  font-size: .85rem;
 }
 .footer .footer-top .footer-links .column a {
   color: #000;
   text-decoration: none;
-  margin-bottom: 0.75rem;
-  font-size: 0.825rem;
+  margin-bottom: .75rem;
+  font-size: .825rem;
 }
 .footer .footer-top .footer-links .column a:hover {
   color: #808182;
@@ -4931,7 +4893,7 @@ altcha-widget {
   margin-top: 0;
 }
 .footer .footer-bottom .footer-meta a {
-  font-size: 0.825rem;
+  font-size: .825rem;
   color: #000;
 }
 .footer .footer-bottom .footer-meta a:hover {
@@ -4949,7 +4911,6 @@ altcha-widget {
   border-radius: 0;
   margin-left: 0;
 }
-
 @media (min-width: 875px) and (max-width: 1162px) {
   .footer h1 {
     font-size: 8.5rem;
@@ -4976,20 +4937,20 @@ altcha-widget {
   }
   .footer .footer-top .footer-links {
     flex-direction: column;
-    padding-top: 0.75rem;
+    padding-top: .75rem;
   }
   .footer .footer-top .footer-links .column {
     margin: 0;
     padding: 0;
   }
   .footer .footer-top .footer-links .column:nth-child(2) {
-    padding-top: 0.75rem;
+    padding-top: .75rem;
   }
   .footer .footer-top .footer-bottom {
     padding-bottom: 1.25rem;
   }
   .footer .footer-top .footer-bottom .footer-meta {
-    gap: 0.75rem;
+    gap: .75rem;
   }
   .footer .footer-top .footer-bottom .footer-social {
     gap: 1.25rem;
@@ -5000,7 +4961,7 @@ altcha-widget {
 }
 @media (max-width: 659px) {
   .footer {
-    padding: 1.25rem 0.5rem 1.25rem 0.5rem;
+    padding: 1.25rem .5rem;
   }
   .footer h1 {
     font-size: 3.65rem;
@@ -5030,13 +4991,13 @@ altcha-widget {
     padding: 0;
   }
   .footer .footer-top .footer-links .column:nth-child(2) {
-    padding-top: 0.5rem;
+    padding-top: .5rem;
   }
   .footer .footer-bottom {
     padding-bottom: 1.25rem;
   }
   .footer .footer-bottom .footer-meta {
-    gap: 0.5rem;
+    gap: .5rem;
   }
   .footer .footer-bottom .footer-social {
     gap: 1.25rem;
@@ -5049,7 +5010,6 @@ altcha-widget {
   box-sizing: border-box;
   margin: auto;
 }
-
 html,
 body {
   margin: auto;
@@ -5057,18 +5017,15 @@ body {
   height: 100vh;
   background-color: #fff7ed;
 }
-
 body {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 main {
   padding: 0;
   margin: 0 auto;
   background: #fff7ed;
 }
-
 img {
   display: block;
   width: 100%;
@@ -5076,64 +5033,49 @@ img {
   outline: none;
   border: none;
 }
-
 a {
   text-decoration: none;
-  font-family: "book";
+  font-family: book;
 }
-
 h1 {
   font-size: 1.35rem;
-  font-family: "book";
+  font-family: book;
   font-weight: 100;
   color: #121212;
   text-decoration: none;
   line-height: normal;
 }
-
 h2 {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-family: medium;
   font-weight: 100;
   color: #121212;
   text-decoration: none;
   line-height: normal;
 }
-
 h3,
 h4,
 h5,
 h6 {
-  font-family: "medium";
+  font-family: medium;
   color: #121212;
   line-height: normal;
 }
-
-p {
-  font-family: "book";
-  font-size: 1.1rem;
-  color: #121212;
-  line-height: normal;
-}
-
+p,
 li {
-  font-family: "book";
+  font-family: book;
   font-size: 1.1rem;
   color: #121212;
   line-height: normal;
 }
-
 span {
   font-family: bold;
   color: #121212;
   line-height: normal;
 }
-
 button {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-family: medium;
   font-weight: 100;
   line-height: normal;
 }
-
-/*# sourceMappingURL=global.css.map */
