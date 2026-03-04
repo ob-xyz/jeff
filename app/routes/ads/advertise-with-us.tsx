@@ -189,7 +189,7 @@ export default function Index() {
                 <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
                 <input type="hidden" name="nonce" />
             </form>
-            <img src={imageads} alt="Jeffamazon newsletter image" />
+            <img src={header2} alt="Jeffamazon newsletter image" />
         </div>
       </div>
         </div>

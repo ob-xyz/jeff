@@ -620,7 +620,7 @@ function Index() {
           lineNumber: 180,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: imageads_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: ja7_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
           lineNumber: 192,
           columnNumber: 13
@@ -648,4 +648,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/advertise-with-us-XYDL3YZK.js.map
+//# sourceMappingURL=/build/routes/ads/advertise-with-us-62WLJGRM.js.map
