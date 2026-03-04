@@ -635,6 +635,7 @@
   }
   .container .content .inner-content .box p {
     font-size: .95rem;
+    width: 65%;
   }
   .container .content .inner-content .box form .input-wrapper {
     width: 20rem;

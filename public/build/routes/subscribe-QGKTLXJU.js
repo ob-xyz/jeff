@@ -25,7 +25,7 @@ function Index() {
         columnNumber: 19
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Read by builders who go all the way." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Stay ahead." }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 12,
           columnNumber: 17
@@ -104,11 +104,11 @@ function Index() {
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content2", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: [
-        "Most fast with ",
+        "Stay ahead with ",
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon" }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 31,
-          columnNumber: 26
+          columnNumber: 27
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/subscribe.tsx",
@@ -141,4 +141,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-UZN3WJRT.js.map
+//# sourceMappingURL=/build/routes/subscribe-QGKTLXJU.js.map
