@@ -3,7 +3,7 @@ import {
 } from "/build/_shared/chunk-EJTSO6MN.js";
 import {
   ja7_default
-} from "/build/_shared/chunk-NDTEQPR4.js";
+} from "/build/_shared/chunk-YU43ML6P.js";
 import {
   Link
 } from "/build/_shared/chunk-4RXSKUQF.js";
@@ -246,4 +246,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-7QCTJ2YK.js.map
+//# sourceMappingURL=/build/routes/about-45SN4EAD.js.map

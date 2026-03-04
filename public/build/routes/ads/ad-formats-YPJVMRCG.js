@@ -1,9 +1,9 @@
 import {
   takeoverads_default
-} from "/build/_shared/chunk-IGYDL3OJ.js";
+} from "/build/_shared/chunk-33V3CEIP.js";
 import {
   ja7_default
-} from "/build/_shared/chunk-NDTEQPR4.js";
+} from "/build/_shared/chunk-YU43ML6P.js";
 import {
   AltchaWrapper
 } from "/build/_shared/chunk-552RS725.js";
@@ -13,17 +13,17 @@ import {
 import {
   quickads_default,
   textads_default
-} from "/build/_shared/chunk-SWNBYLMB.js";
+} from "/build/_shared/chunk-EYR6ZPDF.js";
 import {
   carouselads_default,
   videoads_default
-} from "/build/_shared/chunk-SOZL25KD.js";
+} from "/build/_shared/chunk-AR62PEXB.js";
 import {
   imageads_default
-} from "/build/_shared/chunk-MWJF7PQE.js";
+} from "/build/_shared/chunk-GNTCFWO4.js";
 import {
   recads_default
-} from "/build/_shared/chunk-C7Z5TLAR.js";
+} from "/build/_shared/chunk-UITZRZJM.js";
 import {
   ja2_default
 } from "/build/_shared/chunk-VTMYO4HS.js";
@@ -575,4 +575,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-formats-4LGNULVT.js.map
+//# sourceMappingURL=/build/routes/ads/ad-formats-YPJVMRCG.js.map

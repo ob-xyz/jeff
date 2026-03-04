@@ -3,7 +3,7 @@ import {
 } from "/build/_shared/chunk-EJTSO6MN.js";
 import {
   ja7_default
-} from "/build/_shared/chunk-NDTEQPR4.js";
+} from "/build/_shared/chunk-YU43ML6P.js";
 import {
   AltchaWrapper
 } from "/build/_shared/chunk-552RS725.js";
@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-4RXSKUQF.js";
 import {
   recads_default
-} from "/build/_shared/chunk-C7Z5TLAR.js";
+} from "/build/_shared/chunk-UITZRZJM.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-S4ZNHW4H.js";
@@ -142,7 +142,7 @@ function Index() {
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content25sm", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Business news" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Daily news" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 40,
         columnNumber: 12
@@ -394,4 +394,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-5V4XUPK4.js.map
+//# sourceMappingURL=/build/routes/index-LR4OEVIS.js.map

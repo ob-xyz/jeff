@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-IU43IUTG.js";
 
 // public/img/ja5.png
-var ja5_default = "/build/_assets/ja5-J5YF5XC3.png";
+var ja5_default = "/build/_assets/ja5-KRYZ7D5L.png";
 
 // app/routes/subscribe.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -141,4 +141,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-QGKTLXJU.js.map
+//# sourceMappingURL=/build/routes/subscribe-PDW64DMF.js.map
