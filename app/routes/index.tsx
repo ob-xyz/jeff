@@ -37,7 +37,7 @@ export default function Index() {
           <img src={sama} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Daily news</span></h2>
+       <h2><span>Business news</span></h2>
           <Link className="text" to="/subscribe">Get the latest and greatest business news</Link>
       </div>
       <div className="floatimg">
