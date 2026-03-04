@@ -72,18 +72,17 @@
   margin-bottom: 7rem;
 }
 .container .content .inner-content img {
-  width: 35%;
+  width: 30%;
 }
 .container .content .inner-content .box {
   border: 2px solid #02090a;
   border-bottom: none;
   background: #02090A;
   border-radius: 2rem;
-  padding: 2rem 10rem;
+  padding: 3rem 10rem;
 }
 .container .content .inner-content .box h1 {
   text-align: center;
-  margin-top: 1rem;
   font-size: 3rem;
   color: #7a7a7a;
 }
