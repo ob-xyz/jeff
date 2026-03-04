@@ -65,6 +65,7 @@
 }
 .container .content .inner-content {
   margin-top: 0.5rem;
+  margin-bottom: 7rem;
 }
 .container .content .inner-content img {
   width: 35%;
@@ -73,8 +74,7 @@
   border: 2px solid #02090a;
   border-bottom: none;
   background: #02090A;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  border-radius: 2rem;
   padding: 2rem 10rem;
 }
 .container .content .inner-content .box h1 {
@@ -531,12 +531,6 @@
   }
   .container .content .inner-content .box {
     padding: 2rem 0;
-  }
-  .container .content .inner-content .box h1 {
-    font-size: 2rem;
-  }
-  .container .content .inner-content .box p {
-    font-size: 1rem;
   }
   .container .content .inner-content .box form .input-wrapper {
     width: 22.5rem;
