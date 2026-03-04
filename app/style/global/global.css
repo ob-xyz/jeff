@@ -632,7 +632,7 @@
     font-size: 1.15rem;
   }
   .container .content .inner-content {
-    margin-bottom: -1rem;
+    margin-bottom: rem;
   }
   .container .content .inner-content img {
     width: 65%;
