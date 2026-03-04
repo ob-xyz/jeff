@@ -1534,21 +1534,23 @@
     font-size: 1.15rem;
   }
   .subscribe-container .content .inner-content {
-    margin-bottom: -1rem;
+    margin-top: 0;
   }
   .subscribe-container .content .inner-content img {
-    width: 65%;
+    width: 60%;
   }
   .subscribe-container .content .inner-content .box {
     padding: 2rem 0;
     width: 91%;
+    border-radius: 2rem;
   }
   .subscribe-container .content .inner-content .box h1 {
     margin-top: 0;
-    font-size: 1.75rem;
+    font-size: 2.5rem;
   }
   .subscribe-container .content .inner-content .box p {
-    font-size: 0.95rem;
+    width: 80%;
+    font-size: 1.15rem;
   }
   .subscribe-container .content .inner-content .box form .input-wrapper, .subscribe-container .content .inner-content .box form .input-wrapper1 {
     width: 20rem;
