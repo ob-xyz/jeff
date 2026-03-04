@@ -1337,21 +1337,20 @@
 }
 .subscribe-container .content .inner-content {
   margin-top: .5rem;
+  margin-bottom: 7rem;
 }
 .subscribe-container .content .inner-content img {
-  width: 35%;
+  width: 30%;
 }
 .subscribe-container .content .inner-content .box {
   border: 2px solid #02090a;
   border-bottom: none;
   background: #02090A;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
-  padding: 2rem 10rem;
+  border-radius: 2rem;
+  padding: 3rem 10rem;
 }
 .subscribe-container .content .inner-content .box h1 {
   text-align: center;
-  margin-top: 1rem;
   font-size: 3rem;
   color: #7a7a7a;
 }
@@ -3751,11 +3750,10 @@
   border-bottom: none;
   background: #02090A;
   border-radius: 2rem;
-  padding: 2rem 5rem;
+  padding: 3rem 5rem;
 }
 .ads-container .content .inner-content .box h1 {
   text-align: center;
-  margin-top: 1rem;
   font-size: 2.5rem;
   color: #7a7a7a;
 }

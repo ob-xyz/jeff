@@ -1,4 +1,7 @@
 import {
+  ja7_default
+} from "/build/_shared/chunk-YU43ML6P.js";
+import {
   AltchaWrapper
 } from "/build/_shared/chunk-552RS725.js";
 import {
@@ -11,15 +14,12 @@ import {
   __toESM
 } from "/build/_shared/chunk-IU43IUTG.js";
 
-// public/img/ja5.png
-var ja5_default = "/build/_assets/ja5-KRYZ7D5L.png";
-
 // app/routes/subscribe.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
 function Index() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "subscribe-container", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "inner-content", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: ja5_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: ja7_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
         fileName: "app/routes/subscribe.tsx",
         lineNumber: 10,
         columnNumber: 19
@@ -116,12 +116,13 @@ function Index() {
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { className: "text", to: "/subscribe", children: [
-        "Don't waste time scrolling to stay ahead. Every day of the week our ",
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "one minute newsletter keeps 42,000+ people ahead of the curve." }, void 0, false, {
+        "Don't waste time scrolling to stay ahead. ",
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Jeffamazon is the one minute newsletter keeping 42,000+ people ahead of the curve" }, void 0, false, {
           fileName: "app/routes/subscribe.tsx",
           lineNumber: 32,
-          columnNumber: 116
-        }, this)
+          columnNumber: 90
+        }, this),
+        " every day of the week."
       ] }, void 0, true, {
         fileName: "app/routes/subscribe.tsx",
         lineNumber: 32,
@@ -141,4 +142,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-PDW64DMF.js.map
+//# sourceMappingURL=/build/routes/subscribe-2OAJIN6X.js.map

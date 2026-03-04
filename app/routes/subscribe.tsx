@@ -1,6 +1,6 @@
 import { Link } from "@remix-run/react";
 import Altcha from "../components/altcha";
-import header from "~/../public/img/ja5.png";
+import header from "~/../public/img/ja7.png";
 
 export default function Index() {
   return (
@@ -29,7 +29,7 @@ export default function Index() {
             </div>
       <div className="inner-content2">
       <h2>Stay ahead with <span>Jeffamazon</span></h2>
-        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. Every day of the week our <span>one minute newsletter keeps 42,000+ people ahead of the curve.</span></Link>
+        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. <span>Jeffamazon is the one minute newsletter keeping 42,000+ people ahead of the curve</span> every day of the week.</Link>
       </div>
     </div>
   );
