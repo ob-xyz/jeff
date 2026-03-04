@@ -632,7 +632,7 @@
     font-size: 1.15rem;
   }
   .container .content .inner-content {
-    margin-bottom: rem;
+    margin-bottom: 7rem;
   }
   .container .content .inner-content img {
     width: 65%;
@@ -640,13 +640,15 @@
   .container .content .inner-content .box {
     padding: 2rem 0;
     width: 91%;
+    border-radius: 2rem;
   }
   .container .content .inner-content .box h1 {
     margin-top: 0;
     font-size: 2.5rem;
   }
   .container .content .inner-content .box p {
-    width: 75%;
+    width: 80%;
+    font-size: 1.15rem;
   }
   .container .content .inner-content .box form .input-wrapper {
     width: 20rem;
