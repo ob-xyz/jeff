@@ -38,28 +38,28 @@ export default function Index() {
       </div>
       <div className="inner-content25sm">
        <h2><span>Daily news</span></h2>
-          <Link className="text" to="/subscribe">Get the latest and greatest business news.</Link>
+          <Link className="text" to="/subscribe">Get the latest and greatest business news</Link>
       </div>
       <div className="floatimg">
             <img src={tobi} alt="Jeffamazon newsletter image" />
         </div>
       <div className="inner-content25sm">
        <h2><span>1 min or less</span></h2>
-             <Link className="text" to="/subscribe">Enjoy a quick scroll of news stories that matters.</Link>
+             <Link className="text" to="/subscribe">Enjoy a quick scroll of news stories that matters</Link>
       </div>
       <div className="floatimg">
           <img src={jensen} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
        <h2><span>Sunday dig</span></h2>
-      <Link className="text" to="/subscribe">Discover something new in our Sunday dig into one unconventional idea.</Link>
+      <Link className="text" to="/subscribe">Discover something new in our Sunday dig into one unconventional idea</Link>
       </div>
       <div className="floatimg">
           <img src={header} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
-            <Link className="text" to="/subscribe">Jeffamazon is the one minute newsletter that keeps you ahead of the curve.</Link>
+            <Link className="text" to="/subscribe">Jeffamazon is the one minute newsletter that keeps you ahead of the curve</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
@@ -92,12 +92,12 @@ export default function Index() {
       <div className="grid">
       <div className="box">
         <h1>Subscribe</h1>
-        <p>Get Jeffamazon delivered to your inbox.</p>
+        <p>Get Jeffamazon delivered to your inbox</p>
           <Link className="text" to="/subscribe">Subscribe →</Link>
       </div>
       <div className="box">
         <h1>Advertise</h1>
-        <p>Become an advertiser in Jeffamazon.</p>
+        <p>Become an advertiser in Jeffamazon</p>
           <Link className="text" to="/ads/ad-form">Get in touch →</Link>
       </div>
       </div>
