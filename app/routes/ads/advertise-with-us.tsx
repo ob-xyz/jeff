@@ -19,7 +19,7 @@ export default function Index() {
               <div className="inner-content">
                   <img src={header2} alt="Jeffamazon newsletter image" />
                 <div className="box">
-                  <h1>Reach 72K+ of the world's most decisive people.</h1>
+                  <h1>Reach 94K+ of the world's most decisive people.</h1>
                   <p>Every day Jeffamazon helps businesses win more 🚀</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper1">
@@ -173,7 +173,7 @@ export default function Index() {
         <div className="inner-form">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 72K+ of the world's most decisive people</h1>
+            <h1>Reach 94K+ of the world's most decisive people</h1>
             <p>We're the daily newsletter helping businesses win more.</p>
           </div>
         <div className="inner-content">
@@ -189,7 +189,7 @@ export default function Index() {
                 <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
                 <input type="hidden" name="nonce" />
             </form>
-            <img src={header2} alt="Jeffamazon newsletter image" />
+            <img src={imageads} alt="Jeffamazon newsletter image" />
         </div>
       </div>
         </div>

@@ -42,7 +42,7 @@ function Index() {
         columnNumber: 19
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "box", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 72K+ of the world's most decisive people." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 94K+ of the world's most decisive people." }, void 0, false, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
           lineNumber: 22,
           columnNumber: 19
@@ -552,7 +552,7 @@ function Index() {
           lineNumber: 175,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 72K+ of the world's most decisive people" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 94K+ of the world's most decisive people" }, void 0, false, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
           lineNumber: 176,
           columnNumber: 13
@@ -620,7 +620,7 @@ function Index() {
           lineNumber: 180,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: ja7_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: imageads_default, alt: "Jeffamazon newsletter image" }, void 0, false, {
           fileName: "app/routes/ads/advertise-with-us.tsx",
           lineNumber: 192,
           columnNumber: 13
@@ -648,4 +648,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/advertise-with-us-GLDILMSC.js.map
+//# sourceMappingURL=/build/routes/ads/advertise-with-us-HK6KHU26.js.map

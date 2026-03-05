@@ -61,7 +61,7 @@ function Index() {
       columnNumber: 5
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content-awu2", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 45K+ decision makers who like knowing what matters." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 94K+ decision makers who like knowing what matters." }, void 0, false, {
         fileName: "app/routes/ads/advertise.tsx",
         lineNumber: 49,
         columnNumber: 11
@@ -315,4 +315,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/advertise-4PTIAE3T.js.map
+//# sourceMappingURL=/build/routes/ads/advertise-S53OMOTL.js.map
