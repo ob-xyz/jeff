@@ -268,7 +268,7 @@ function Index() {
           lineNumber: 69,
           columnNumber: 8
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "noclick", children: "Founder" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "noclick", children: "Author" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 70,
           columnNumber: 7
@@ -292,7 +292,7 @@ function Index() {
         lineNumber: 68,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "side2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: cs_default, alt: "Founder image" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "side2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: cs_default, alt: "Author image" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 77,
         columnNumber: 11
@@ -318,7 +318,7 @@ function Index() {
           lineNumber: 83,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Founder" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Author" }, void 0, false, {
           fileName: "app/routes/index.tsx",
           lineNumber: 86,
           columnNumber: 7
@@ -394,4 +394,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-GKTJCIV5.js.map
+//# sourceMappingURL=/build/routes/index-55NLVVZ2.js.map

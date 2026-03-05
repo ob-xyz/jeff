@@ -56,7 +56,7 @@ export default function Index() {
         CHRIS SIGNORE
       </p>
       <p>
-        Founder
+        Author
       </p>
       </div>
       </div>

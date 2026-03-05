@@ -222,7 +222,7 @@ function Index() {
           lineNumber: 55,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Founder" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Author" }, void 0, false, {
           fileName: "app/routes/about.tsx",
           lineNumber: 58,
           columnNumber: 7
@@ -246,4 +246,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/about-45SN4EAD.js.map
+//# sourceMappingURL=/build/routes/about-P5E65NDS.js.map

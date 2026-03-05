@@ -67,14 +67,14 @@ export default function Index() {
       <div className="inner-content255">
         <div className="side1">
        <h2><span>LEADERSHIP</span></h2>
-      <p className="noclick">Founder</p>
+      <p className="noclick">Author</p>
       <p className="noclick">Chris Signore</p>
       <div className="btn">
           <Link className="pricebtn" to="/about">About</Link>
       </div>
         </div>
         <div className="side2">
-          <img src={cs} alt="Founder image" />
+          <img src={cs} alt="Author image" />
         </div>
       </div>
       <div className="inner-content2555">
@@ -84,7 +84,7 @@ export default function Index() {
         CHRIS SIGNORE
       </p>
       <p>
-        Founder
+        Author
       </p>
       </div>
       </div>
