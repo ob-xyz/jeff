@@ -78,7 +78,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-          <Link className="text" to="/about">" It's the one thing that helps me know what matters.</Link>
+          <Link className="text" to="/about">" It's the one thing that helps me stay ahead.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
