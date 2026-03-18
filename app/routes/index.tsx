@@ -31,13 +31,13 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Stay ahead with <span>Jeffamazon</span></h2>
-        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. <span>Jeffamazon is the one minute newsletter keeping 94,480+ people ahead of the curve</span> every day of the week.</Link>
+        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. <span>Jeffamazon is the one minute newsletter keeping 94,480+ people in the daily loop.</span></Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
-       <h2><span>Daily news</span></h2>
+       <h2><span>Business news</span></h2>
           <Link className="text" to="/subscribe">Get the latest and greatest business news</Link>
       </div>
       <div className="floatimg">
@@ -45,7 +45,7 @@ export default function Index() {
         </div>
       <div className="inner-content25sm">
        <h2><span>1 min or less</span></h2>
-             <Link className="text" to="/subscribe">Enjoy a quick scroll of news stories that matters</Link>
+             <Link className="text" to="/subscribe">Enjoy our quick and insightful newsfeed</Link>
       </div>
       <div className="floatimg">
           <img src={jensen} alt="Jeffamazon newsletter image" />
