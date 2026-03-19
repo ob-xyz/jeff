@@ -15,8 +15,8 @@ export default function Index() {
         <div className="inner-content">
             <img src={header3} alt="Jeffamazon newsletter image" />
           <div className="box">
-                <h1>Start your day ahead</h1>
-                <p>Subscribe for your daily dose of business news 🚀</p>
+              <h1>Start your day ahead</h1>
+              <p>Subscribe for your daily dose of business news 🚀</p>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
@@ -31,7 +31,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Stay ahead with <span>Jeffamazon</span></h2>
-        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. <span>Jeffamazon is the one minute newsletter keeping 94,480+ people in the daily loop.</span></Link>
+        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. <span>Jeffamazon is the one minute newsletter keeping 141,420+ people in the daily loop.</span></Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon newsletter image" />
