@@ -97,6 +97,12 @@
   force = true
 
 [[redirects]]
+  from = "/preview/polymarket"
+  to = "https://app.jeffamzn.com/campaign/03a91893-c866-45db-b507-9ee799ebb3a3/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/klarna"
   to = "https://app.jeffamzn.com/campaign/03a9fbb5-d8f4-424a-9160-a2f6239ef058/e0b14610-4448-4657-ae89-21598fe78de2"
   status = 200
