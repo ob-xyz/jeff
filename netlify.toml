@@ -103,6 +103,18 @@
   force = true
 
 [[redirects]]
+  from = "/preview/kalshi"
+  to = "https://app.jeffamzn.com/campaign/e142f718-420c-483e-9b4b-585eb334e28b/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/preview/mercedes-benz"
+  to = "https://app.jeffamzn.com/campaign/3d0e1311-ed88-4b79-b565-dd37d6f1e509/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/klarna"
   to = "https://app.jeffamzn.com/campaign/03a9fbb5-d8f4-424a-9160-a2f6239ef058/e0b14610-4448-4657-ae89-21598fe78de2"
   status = 200
