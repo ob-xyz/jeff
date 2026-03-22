@@ -15,8 +15,8 @@ export default function Index() {
         <div className="inner-content">
             <img src={header3} alt="Jeffamazon newsletter image" />
           <div className="box">
-              <h1>Stay ahead</h1>
-              <p>Subscribe for your daily dose of business news 🚀</p>
+              <h1>Stay ahead.</h1>
+              <p>Subscribe for your daily dose of quick business news 🚀</p>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
           <input className="email" type="email" name="email" required placeholder="Email Address *" />
@@ -31,35 +31,35 @@ export default function Index() {
       </div>
       <div className="inner-content2">
       <h2>Stay ahead with <span>Jeffamazon</span></h2>
-        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. <span>Jeffamazon is the one minute newsletter keeping 141,420+ people in the daily loop.</span></Link>
+        <Link className="text" to="/subscribe">Don't waste time scrolling to stay ahead. <span>Jeffamazon is the one minute newsletter keeping 141,420+ people in the daily loop about business, technology, and economics.</span></Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
        <h2><span>Business news</span></h2>
-          <Link className="text" to="/subscribe">Get the latest and greatest business news</Link>
+          <Link className="text" to="/subscribe">Get just the news stories that matter</Link>
       </div>
       <div className="floatimg">
             <img src={tobi} alt="Jeffamazon newsletter image" />
         </div>
       <div className="inner-content25sm">
        <h2><span>1 min or less</span></h2>
-             <Link className="text" to="/subscribe">Enjoy our quick and insightful newsfeed</Link>
+             <Link className="text" to="/subscribe">It's like a quick newsfeed</Link>
       </div>
       <div className="floatimg">
           <img src={jensen} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25sm">
        <h2><span>Sunday dig</span></h2>
-      <Link className="text" to="/subscribe">Discover something new in our Sunday dig into one unconventional idea</Link>
+      <Link className="text" to="/subscribe">Discover an unconventional idea</Link>
       </div>
       <div className="floatimg">
           <img src={header} alt="Jeffamazon newsletter image" />
       </div>
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
-            <Link className="text" to="/subscribe">Jeffamazon is the one minute newsletter that keeps you ahead of the curve</Link>
+            <Link className="text" to="/subscribe">Jeffamazon is the one minute newsletter keeping people like me and you ahead of the curve</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
@@ -78,7 +78,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-          <Link className="text" to="/about">" It's the one thing that helps me stay ahead.</Link>
+          <Link className="text" to="/about">" It's the one thing that matters.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
