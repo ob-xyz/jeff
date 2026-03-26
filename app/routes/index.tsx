@@ -15,7 +15,7 @@ export default function Index() {
         <div className="inner-content">
             <img src={header3} alt="Jeffamazon newsletter image" />
           <div className="box">
-              <h1>Stay ahead.</h1>
+              <h1>One of us?</h1>
               <p>Subscribe for your daily dose of quick business news 🚀</p>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
         <div className="input-wrapper">
