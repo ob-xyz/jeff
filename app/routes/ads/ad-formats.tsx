@@ -23,7 +23,7 @@ export default function Index() {
         <div className="inner-content">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 94K+ of the world's most decisive people</h1>
+            <h1>Reach 196K+ of the world's most decisive people</h1>
             <p>We're the daily newsletter helping businesses win more 🚀</p>
           </div>
       <div className="btn">
@@ -139,7 +139,7 @@ export default function Index() {
         <div className="inner-form">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 94K+ of the world's most decisive people</h1>
+            <h1>Reach 196K+ of the world's most decisive people</h1>
             <p>We're the daily newsletter helping businesses win more.</p>
           </div>
         <div className="inner-content">

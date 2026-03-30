@@ -55,7 +55,7 @@ function Index() {
             lineNumber: 25,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 94K+ of the world's most decisive people" }, void 0, false, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 196K+ of the world's most decisive people" }, void 0, false, {
             fileName: "app/routes/ads/ad-formats.tsx",
             lineNumber: 26,
             columnNumber: 13
@@ -479,7 +479,7 @@ function Index() {
           lineNumber: 141,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 94K+ of the world's most decisive people" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Reach 196K+ of the world's most decisive people" }, void 0, false, {
           fileName: "app/routes/ads/ad-formats.tsx",
           lineNumber: 142,
           columnNumber: 13
@@ -575,4 +575,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/ads/ad-formats-ZXF5XVOQ.js.map
+//# sourceMappingURL=/build/routes/ads/ad-formats-R4KL7N24.js.map
