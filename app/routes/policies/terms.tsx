@@ -1,6 +1,6 @@
 import logo from "~/../public/img/ja2.png";
-import bg from "~/../public/img/bg.jpg";
-import bg1 from "~/../public/img/bg1.jpg";
+import bg from "~/../public/img/ja2.png";
+import bg1 from "~/../public/img/ja2.png";
 export default function Index() {
   return (
     <div className="content-aboutus">

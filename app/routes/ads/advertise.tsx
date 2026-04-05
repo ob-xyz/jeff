@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 import logo from "~/../public/img/ja2.png";
-import imageads from "~/../public/img/promoted-ads.png";
+import imageads from "~/../public/img/ads/imageads.png";
 import carouselads from "~/../public/img/ads/carouselads.gif";
 import videoads from "~/../public/img/ads/videoads.gif";
-import textads from "~/../public/img/text-ads.png";
+import textads from "~/../public/img/ads/textads.png";
 
 const ads = [
   {

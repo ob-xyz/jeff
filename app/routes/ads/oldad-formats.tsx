@@ -1,10 +1,10 @@
 import logo from "~/../public/img/ja2.png";
-import newads from "~/../public/img/newads.jpg";
-import convertads from "~/../public/img/convertads.jpg";
+import newads from "~/../public/img/ads/quickads.png";
+import convertads from "~/../public/img/ads/takeoverads.png";
 
+import imageads from "~/../public/img/ads/imageads.png";
 import carouselads from "~/../public/img/ads/carouselads.gif";
 import videoads from "~/../public/img/ads/videoads.gif";
-import imageads from "~/../public/img/ads/imageads.png";
 import textads from "~/../public/img/ads/textads.png";
 import quickads from "~/../public/img/ads/quickads.png";
 import recads from "~/../public/img/ads/recads.png";
