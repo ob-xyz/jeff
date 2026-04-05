@@ -10,7 +10,7 @@ export default function Index() {
                   <img src={header} alt="Jeffamazon newsletter image" />
               <div className="box">
               <h1>Stay ahead in just 1 minute</h1>
-              <p>Subscribe for your daily dose of business news 🚀</p>
+              <p>Subscribe for your daily dose of quick business news 🚀</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper1">
                 <input className="email" type="text" name="firstName" placeholder="First Name *" />
@@ -29,7 +29,7 @@ export default function Index() {
             </div>
       <div className="inner-content2">
         <h2>Join <span>196,660</span> people staying ahead with Jeffamazon</h2>
-        <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Jeffamazon is the one minute read that cuts through chaos to deliver you daily insights across business, technology, and the economy</Link>
+        <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Every day Jeffamazon keeps you in the loop with a quick one minute read about business, technology, and economic trends shaping the future</Link>
       </div>
     </div>
   );

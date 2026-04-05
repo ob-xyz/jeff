@@ -41,7 +41,7 @@ export default function Index() {
       </div>
       <div className="box">
         <h1>Jeffamazon</h1>
-        <p>Daily business news</p>
+        <Link className="text" to="/subscribe">Jeffamazon is the one minute newsletter that keeps you ahead of the curve</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
@@ -50,7 +50,7 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-          <Link className="text" to="/about">" It keeps me ahead without having to doomscroll.</Link>
+          <Link className="text" to="/about">" It's better than doomscrolling.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
