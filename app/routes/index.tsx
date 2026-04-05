@@ -44,7 +44,7 @@ export default function Index() {
             <img src={tobi} alt="Jeffamazon newsletter image" />
         </div>
       <div className="inner-content25sm">
-       <h2><span>1 minute or less</span></h2>
+       <h2><span>1 min or less</span></h2>
              <Link className="text" to="/subscribe">Understand what's shaping tomorrow in 60 seconds or less </Link>
       </div>
       <div className="floatimg">
