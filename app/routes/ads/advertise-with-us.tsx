@@ -55,13 +55,13 @@ export default function Index() {
       </div>
       </div>
       </div>
-            <div className="boxmat">
+           <div className="boxmat">
         <div className="floatimg">
-            <img src={videoads} alt="Jeffamazon newsletter image" />
+            <img src={textads} alt="Jeffamazon newsletter image" />
         </div>
-      <div className="box">
-        <h1>Video Ads</h1>
-        <p>Video ads are short clips that turn your offer into content people are more likely to engage in.</p>
+        <div className="box">
+        <h1>Text Ads</h1>
+        <p>Text ads are the most simple and frictionless way to get your brands message across our audience.</p>
       <div className="btn">
           <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
       </div>
@@ -83,13 +83,13 @@ export default function Index() {
       </div>
       </div>
       </div>
-     <div className="boxmat">
+            <div className="boxmat">
         <div className="floatimg">
-            <img src={textads} alt="Jeffamazon newsletter image" />
+            <img src={videoads} alt="Jeffamazon newsletter image" />
         </div>
-        <div className="box">
-        <h1>Text Ads</h1>
-        <p>Text ads are the most simple and frictionless way to get your brands message across our audience.</p>
+      <div className="box">
+        <h1>Video Ads</h1>
+        <p>Video ads are short clips that turn your offer into content people are more likely to engage in.</p>
       <div className="btn">
           <Link className="pricebtn" to="/ads/ad-form">Launch campaign</Link>
       </div>
