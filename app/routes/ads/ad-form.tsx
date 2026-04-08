@@ -36,7 +36,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2>Connect with your next customers on <span>Jeffamazon</span></h2>
-          <Link className="text" to="/ads/ad-form">Our audience is bold, decisive, and always looking for something new. So whether you want to use videos, images, or words - there's a Jeffamazon ad format that will help you reach your goals.</Link>
+          <Link className="text" to="/ads/ad-form">Our audience is bold, decisive, and always on the look out for something new. So whether you want to use videos, images, or words - there's a Jeffamazon ad format that will help you reach your goals.</Link>
 
       </div>
     </div>
