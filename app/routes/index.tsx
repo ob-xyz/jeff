@@ -13,7 +13,7 @@ export default function Index() {
     <div className="container">
       <div className="content">
         <div className="inner-content">
-            <img src={header3} alt="Jeffamazon newsletter image" />
+            <img src={header3} alt="Jeffamazon feed image" />
           <div className="box">
               <h1>Stay ahead in just 1 minute</h1>
               <p>Subscribe for your daily dose of quick business news 🚀</p>
@@ -34,28 +34,28 @@ export default function Index() {
         <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Every day Jeffamazon keeps you in the loop with a quick one minute read about business, technology, and economic trends shaping the future</Link>
       </div>
       <div className="floatimg">
-          <img src={sama} alt="Jeffamazon newsletter image" />
+          <img src={sama} alt="Jeffamazon feed image" />
       </div>
       <div className="inner-content25sm">
        <h2><span>Daily news</span></h2>
           <Link className="text" to="/subscribe">Get hand-pick stories about the latest and greatest trends that matter</Link>
       </div>
       <div className="floatimg">
-            <img src={tobi} alt="Jeffamazon newsletter image" />
+            <img src={tobi} alt="Jeffamazon feed image" />
         </div>
       <div className="inner-content25sm">
        <h2><span>1 min or less</span></h2>
              <Link className="text" to="/subscribe">Understand what's shaping tomorrow in 60 seconds or less </Link>
       </div>
       <div className="floatimg">
-          <img src={jensen} alt="Jeffamazon newsletter image" />
+          <img src={jensen} alt="Jeffamazon feed image" />
       </div>
       <div className="inner-content25sm">
        <h2><span>Sunday dig</span></h2>
       <Link className="text" to="/subscribe">Enjoy a deep dive into one unconventional idea, every Sunday</Link>
       </div>
       <div className="floatimg">
-          <img src={header} alt="Jeffamazon newsletter image" />
+          <img src={header} alt="Jeffamazon feed image" />
       </div>
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>

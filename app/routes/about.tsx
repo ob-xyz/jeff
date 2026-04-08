@@ -15,14 +15,14 @@ export default function Index() {
           <div className="text">
             <h4>Hi, I'm Chris</h4>
             <h1>Aspiring writer.<br />Aspiring entrepreneur.<br />Aspiring morning person.</h1>
-            <p>But I'm best known for my newsletter Jeffamazon 🚀</p>
+            <p>But I'm best known for my feed Jeffamazon 🚀</p>
           </div>
       <div className="btn">
             <Link className="pricebtn" to="/subscribe">Check it out</Link>
       </div>
         </div>
         <div className="inner-content1">
-            <img src={cs} alt="Jeffamazon newsletter image" />
+            <img src={cs} alt="Jeffamazon feed image" />
         </div>
       </div>
       <div className="inner-content2">
@@ -37,11 +37,11 @@ export default function Index() {
       <div className="grid">
       <div className="boxmat">
          <div className="floatimg">
-          <img src={header4} alt="Jeffamazon newsletter image" />
+          <img src={header4} alt="Jeffamazon feed image" />
       </div>
       <div className="box">
         <h1>Jeffamazon</h1>
-        <Link className="text" to="/subscribe">Jeffamazon is the one minute newsletter that keeps you ahead of the curve</Link>
+        <Link className="text" to="/subscribe">Jeffamazon is the one minute feed that keeps you ahead of the curve</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>

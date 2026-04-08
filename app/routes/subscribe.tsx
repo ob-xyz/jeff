@@ -7,7 +7,7 @@ export default function Index() {
     <div className="subscribe-container">
             <div className="content">
               <div className="inner-content">
-                  <img src={header} alt="Jeffamazon newsletter image" />
+                  <img src={header} alt="Jeffamazon feed image" />
               <div className="box">
               <h1>Stay ahead in just 1 minute</h1>
               <p>Subscribe for your daily dose of quick business news 🚀</p>
