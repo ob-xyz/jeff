@@ -78,7 +78,7 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2555">
-          <Link className="text" to="/about">" It's better than doomscrolling.</Link>
+          <Link className="text" to="/about">" It's designed to be scrolled, but not doomscrolled.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE

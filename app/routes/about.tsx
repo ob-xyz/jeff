@@ -29,7 +29,7 @@ export default function Index() {
       <h2><span>Here's the low</span></h2>
           <Link className="text" to="/about">I'm best known for my newsletter Jeffamazon.</Link>
           <br /><br /><br />
-          <Link className="text" to="/about">But I'm actually just a bootstrapped entrepreneur trying to build something in the world.</Link>
+          <Link className="text" to="/about">But I'm actually just a bootstrapped founder trying to build something real in the world.</Link>
           <br /><br /><br />
           <Link className="text" to="/subscribe">Wanna get in touch? the best way to reach me is <span>chris@jeffamazon.com</span></Link>
       </div>
@@ -50,7 +50,7 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-          <Link className="text" to="/about">" It's better than doomscrolling.</Link>
+          <Link className="text" to="/about">" It's designed to be scrolled, but not doomscrolled.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
