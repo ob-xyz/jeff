@@ -28,7 +28,7 @@ export default function Index() {
               </div>
             </div>
       <div className="inner-content2">
-        <h2>Join <span>100k+</span> people staying ahead with Jeffamazon</h2>
+        <h2>Join <span>100k+ subscribers</span> staying ahead with Jeffamazon</h2>
         <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Every day Jeffamazon keeps you in the loop with a quick one minute read about business, technology, and economic trends shaping the future</Link>
       </div>
     </div>
