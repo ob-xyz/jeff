@@ -28,8 +28,8 @@ export default function Index() {
               </div>
             </div>
       <div className="inner-content2">
-        <h2><span>Join 100k+ subscribers</span> staying ahead with Jeffamazon</h2>
-        <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Every day Jeffamazon keeps you in the loop with a quick one minute read about business, technology, and economic trends shaping the future</Link>
+        <h2><span>Join 100k+ people</span> living in the future with Jeffamazon</h2>
+        <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Jeffamazon is the fastest way for entrepreneurs, leaders, and product idea machines to stay ahead in business, technology, and economics</Link>
       </div>
     </div>
   );

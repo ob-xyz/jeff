@@ -30,8 +30,8 @@ export default function Index() {
         </div>
       </div>
       <div className="inner-content2">
-        <h2><span>Join 100k+ subscribers</span> staying ahead with Jeffamazon</h2>
-        <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Every day Jeffamazon keeps you in the loop with a quick one minute read about business, technology, and economic trends shaping the future</Link>
+        <h2><span>Join 100k+ people</span> living in the future with Jeffamazon</h2>
+        <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Jeffamazon is the fastest way for entrepreneurs, leaders, and product idea machines to stay ahead in business, technology, and economics</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon feed image" />
@@ -59,7 +59,7 @@ export default function Index() {
       </div>
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
-            <Link className="text" to="/subscribe">Jeffamazon is the one minute newsletter that keeps you ahead of the curve</Link>
+            <Link className="text" to="/subscribe">Every day Jeffamazon emails you a quick and curated one minute newsfeed that helps you stay ahead</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
