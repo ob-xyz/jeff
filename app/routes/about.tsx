@@ -41,7 +41,7 @@ export default function Index() {
       </div>
       <div className="box">
         <h1>Jeffamazon</h1>
-        <Link className="text" to="/subscribe">Jeffamazon is the one minute feed that keeps you ahead of the curve</Link>
+        <p>Every day Jeffamazon emails you a quick and curated one minute newsfeed that helps you stay ahead</p>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
