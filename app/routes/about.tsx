@@ -13,7 +13,7 @@ export default function Index() {
       <div className="content">
         <div className="inner-content">
           <div className="text">
-            <h4>Hi, I'm Chris</h4>
+            <h4>Hey, I'm Chris</h4>
             <h1>Aspiring writer.<br />Aspiring entrepreneur.<br />Aspiring morning person.</h1>
             <p>But I'm best known for my newsletter Jeffamazon 🚀</p>
           </div>
