@@ -15,7 +15,7 @@ export default function Index() {
           <div className="text">
             <h4>Hi, I'm Chris</h4>
             <h1>Aspiring writer.<br />Aspiring entrepreneur.<br />Aspiring morning person.</h1>
-            <p>But I'm best known for my feed Jeffamazon 🚀</p>
+            <p>But I'm best known for my newsletter Jeffamazon 🚀</p>
           </div>
       <div className="btn">
             <Link className="pricebtn" to="/subscribe">Check it out</Link>
