@@ -50,7 +50,7 @@ export default function Index() {
       </div>
     </div>
       <div className="inner-content25">
-          <Link className="text" to="/about">" It's designed to be scrolled, but not doomscrolled.</Link>
+          <Link className="text" to="/about">" It's the fastest way to stay ahead.</Link>
       <div className="tag">
       <p>
         CHRIS SIGNORE
