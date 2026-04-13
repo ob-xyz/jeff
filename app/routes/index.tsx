@@ -31,7 +31,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2><span>Join 100k+ people</span> living in the future with Jeffamazon</h2>
-        <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Jeffamazon is the fastest way for entrepreneurs, leaders, and product idea machines to get the latest stories and insights from the front lines of business and tech</Link>
+        <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Jeffamazon is a one minute news feed for entrepreneurs, leaders, and product idea machines who enjoy stories and insights straight from the front lines of business and tech</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon feed image" />
