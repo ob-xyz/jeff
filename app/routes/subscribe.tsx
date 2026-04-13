@@ -29,7 +29,7 @@ export default function Index() {
             </div>
       <div className="inner-content2">
         <h2><span>Join 100k+ people</span> living in the future with Jeffamazon</h2>
-        <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Jeffamazon is the fastest way for entrepreneurs, leaders, and product idea machines to stay ahead in business, technology, and economics</Link>
+        <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Jeffamazon is the fastest way for entrepreneurs, leaders, and product idea machines to get real stories and insights from real people in business and tech</Link>
       </div>
     </div>
   );

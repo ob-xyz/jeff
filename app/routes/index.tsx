@@ -31,35 +31,35 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2><span>Join 100k+ people</span> living in the future with Jeffamazon</h2>
-        <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Jeffamazon is the fastest way for entrepreneurs, leaders, and product idea machines to stay ahead in business, technology, and economics</Link>
+        <Link className="text" to="/subscribe">Quit doomscrolling to stay ahead. Jeffamazon is the fastest way for entrepreneurs, leaders, and product idea machines to get real stories and insights from real people in business and tech</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon feed image" />
       </div>
       <div className="inner-content25sm">
        <h2><span>Daily news</span></h2>
-          <Link className="text" to="/subscribe">Get hand-pick stories about the latest and greatest trends that matter</Link>
+          <Link className="text" to="/subscribe">Get the latest and greatest hand-picked stories that matter</Link>
       </div>
       <div className="floatimg">
             <img src={tobi} alt="Jeffamazon feed image" />
         </div>
       <div className="inner-content25sm">
        <h2><span>1 min or less</span></h2>
-             <Link className="text" to="/subscribe">Understand what's shaping tomorrow in 60 seconds or less </Link>
+             <Link className="text" to="/subscribe">Understand what's changing tomorrow in 60 seconds or less </Link>
       </div>
       <div className="floatimg">
           <img src={jensen} alt="Jeffamazon feed image" />
       </div>
       <div className="inner-content25sm">
        <h2><span>Sunday dig</span></h2>
-      <Link className="text" to="/subscribe">Enjoy a deep dive into one unconventional idea, every Sunday</Link>
+      <Link className="text" to="/subscribe">Enjoy our Sunday deep dive into one unconventional idea with asymmetric upside</Link>
       </div>
       <div className="floatimg">
           <img src={header} alt="Jeffamazon feed image" />
       </div>
       <div className="inner-content25">
        <h2><span>Jeffamazon</span></h2>
-            <Link className="text" to="/subscribe">Every day Jeffamazon emails you a quick and curated one minute newsfeed that helps you stay ahead</Link>
+            <Link className="text" to="/subscribe">Every day Jeffamazon emails you a one minute newsfeed that helps you know what matters across business and tech</Link>
       <div className="btn">
           <Link className="pricebtn" to="/subscribe">Subscribe for free</Link>
       </div>
