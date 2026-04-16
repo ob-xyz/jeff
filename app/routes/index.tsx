@@ -17,15 +17,18 @@ export default function Index() {
           <div className="box">
               <h1>Stay ahead in just 1 minute</h1>
               <p>Subscribe for your daily dose of quick business news 🚀</p>
-      <form method="post" action="https://app.jeffamzn.com/subscription/form">
-        <div className="input-wrapper">
-          <input className="email" type="email" name="email" required placeholder="Email Address *" />
-          <button className="submit" type="submit">I'm in</button>
-        </div>
-        <Altcha />
-        <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
-        <input type="hidden" name="nonce" />
-      </form>
+              <form method="post" action="https://app.jeffamzn.com/subscription/form">
+              <div className="input-wrapper1">
+                <input className="email" type="text" name="firstName" placeholder="Your Name *" />
+              </div>
+              <div className="input-wrapper">
+                <input className="email" type="email" name="email" required placeholder="Email Address *" />
+                <button className="submit" type="submit">I'm in</button>
+              </div>
+              <Altcha />
+              <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+              <input type="hidden" name="nonce" />
+            </form>
           </div>
         </div>
       </div>

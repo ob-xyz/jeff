@@ -21,15 +21,14 @@ export default function Index() {
                   <p>Every day Jeffamazon helps businesses win more 🚀</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper1">
-                <input className="email" type="text" name="firstName" placeholder="First Name *" />
-                <input className="email" type="text" name="lastName" placeholder="Last Name *" />
+                <input className="email" type="text" name="firstName" placeholder="Your Name *" />
               </div>
               <div className="input-wrapper">
-                <input className="email" type="email" name="email" required placeholder="Email Address *" />
-                <button className="submit" type="submit">Let's do it</button>
+                <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
+                <button className="submit" type="submit">Submit</button>
               </div>
               <Altcha />
-              <input id="6d48f" type="hidden" name="l" value="6d48fffe-7d37-4c14-b317-3e4cda33a647" />
+              <input id="82687" type="hidden" name="l" checked value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
               <input type="hidden" name="nonce" />
             </form>
                 </div>
@@ -176,15 +175,14 @@ export default function Index() {
           </div>
         <div className="inner-content">
               <form method="post" action="https://app.jeffamzn.com/subscription/form">
-                  <input className="email" type="text" name="firstName" required placeholder="First Name *" />
-                  <input className="email" type="text" name="lastName" required placeholder="Last Name *" />
+                  <input className="email" type="text" name="firstName" required placeholder="Your Name *" />
                   <input className="email" type="text" name="company" required placeholder="Company *" />
                 <div className="input-wrapper">
                   <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
-                  <button className="submit" type="submit">Let's do it</button>
+                  <button className="submit" type="submit">Submit</button>
                 </div>
                 <Altcha />
-                <input id="82687" type="hidden" name="l" value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
+                <input id="82687" type="hidden" name="l" checked value="82687238-ae68-46c7-98ad-183fbf4cfea0" />
                 <input type="hidden" name="nonce" />
             </form>
             <img src={imageads} alt="Jeffamazon newsletter image" />
