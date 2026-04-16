@@ -434,7 +434,8 @@ p, .text{
   flex-direction: column;
   margin-left: 0;
   margin-top:.45rem;
-.input-wrapper {
+.input-wrapper,
+.input-wrapper1 {
   position: relative;
   width: 34rem;
 }
@@ -581,7 +582,8 @@ button.submit {
         font-size:1rem;
     }
   form {
-  .input-wrapper, .input-wrapper1 {
+  .input-wrapper,
+  .input-wrapper1 {
     width: 25rem;
   }
 }
@@ -676,7 +678,8 @@ button.submit {
 }
 .inner-content{
   form {
-.input-wrapper {
+.input-wrapper,
+.input-wrapper1 {
   width: 35rem;
 }
 }
@@ -711,7 +714,8 @@ button.submit {
         font-size:1.15rem;
     }
   form {
-  .input-wrapper, .input-wrapper1 {
+  .input-wrapper,
+  .input-wrapper1 {
     width: 20rem;
   }
 }
@@ -848,7 +852,8 @@ p, .text{
       margin-left: 0;
 
   form {
-.input-wrapper {
+.input-wrapper,
+.input-wrapper1 {
       margin-left: 0;
       width: 17.5rem;
 }
