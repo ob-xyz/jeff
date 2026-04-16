@@ -31,7 +31,7 @@ export default function Index() {
       </div>
       <div className="inner-content2">
         <h2><span>Join 100k+ people</span> building the future with Jeffamazon</h2>
-        <Link className="text" to="/subscribe">Skip the noise. Jeffamazon is a one minute news feed for entrepreneurs, leaders, and product idea machines who enjoy daily stories and insights from the front lines of business and tech</Link>
+        <Link className="text" to="/subscribe">Skip the noise. Jeffamazon is a one minute news feed for entrepreneurs, leaders, and product idea machines who enjoy daily posts and insights from the front lines of business and tech</Link>
       </div>
       <div className="floatimg">
           <img src={sama} alt="Jeffamazon feed image" />
