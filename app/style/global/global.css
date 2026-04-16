@@ -182,7 +182,7 @@
 }
 .container .floatimg img {
   margin: 0 auto;
-  width: 55%;
+  width: 65%;
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
 }
@@ -388,7 +388,7 @@
   text-align: left;
   height: 100%;
   width: 100%;
-  background: #000;
+  background: #02090A;
   padding: 2rem 1rem 2rem 1rem;
   border-radius: 1.5rem;
 }
@@ -1374,6 +1374,7 @@
 }
 .subscribe-container .content .inner-content .box form .input-wrapper {
   position: relative;
+  width: 25rem;
 }
 .subscribe-container .content .inner-content .box form input.email {
   width: 100%;
@@ -3806,9 +3807,10 @@
 .ads-container .content .inner-content .box form {
   margin-top: 0.45rem;
 }
-.ads-container .content .inner-content .box form .input-wrapper, .ads-container .content .inner-content .box form .input-wrapper1 {
+.ads-container .content .inner-content .box form .input-wrapper,
+.ads-container .content .inner-content .box form .input-wrapper1 {
   position: relative;
-  width: 32.5rem;
+  width: 25rem;
 }
 .ads-container .content .inner-content .box form input.email {
   width: 100%;
