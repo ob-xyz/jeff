@@ -176,7 +176,6 @@ export default function Index() {
         <div className="inner-content">
               <form method="post" action="https://app.jeffamzn.com/subscription/form">
                   <input className="email" type="text" name="firstName" required placeholder="Your Name *" />
-                  <input className="email" type="text" name="company" required placeholder="Company *" />
                 <div className="input-wrapper">
                   <input className="email" type="email" name="email" required placeholder="Business Email Address *" />
                   <button className="submit" type="submit">Submit</button>

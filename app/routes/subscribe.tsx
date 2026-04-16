@@ -12,7 +12,7 @@ export default function Index() {
               <h1>Stay ahead in just 1 minute</h1>
               <p>Subscribe for your daily dose of quick business news 🚀</p>
               <form method="post" action="https://app.jeffamzn.com/subscription/form">
-              <div className="input-wrapper1">
+              <div className="input-wrapper">
                 <input className="email" type="text" name="firstName" placeholder="Your Name *" />
               </div>
               <div className="input-wrapper">

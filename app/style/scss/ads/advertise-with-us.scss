@@ -66,9 +66,10 @@
     }
   form {
   margin-top:.45rem;
-  .input-wrapper, .input-wrapper1 {
+  .input-wrapper,
+  .input-wrapper1 {
     position: relative;
-    width:32.50rem;
+    width: 25rem;
   }
   input.email {
     width: 100%;
