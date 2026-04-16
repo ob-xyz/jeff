@@ -1,12 +1,10 @@
 import { Link } from "@remix-run/react";
 import Altcha from "../../components/altcha";
 
-import logo from "~/../public/img/ja2.png";
-import header2 from "~/../public/img/ja7.png";
+import header2 from "~/../public/img/ads/imageads2.png";
 import carouselads from "~/../public/img/ads/carouselads.gif";
 import videoads from "~/../public/img/ads/videoads.gif";
 import imageads from "~/../public/img/ads/imageads.png";
-import imageads2 from "~/../public/img/ads/imageads2.png";
 import textads from "~/../public/img/ads/textads.png";
 import newsads from "~/../public/img/ads/quickads.png";
 import recads from "~/../public/img/ads/recads.png";
