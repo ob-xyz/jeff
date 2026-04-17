@@ -822,8 +822,8 @@
   background-clip: text;
 }
 .subscribe-container .header .headerimg {
-  position: relative;
   margin: 0 auto;
+  margin-top: 2rem;
   width: 47.5%;
 }
 .subscribe-container .header .outer-header {
@@ -962,7 +962,7 @@
 @media (max-width: 720px) {
   .subscribe-container .header .headerimg {
     width: 100%;
-    margin-top: -1.5rem;
+    margin-top: 1rem;
   }
   .subscribe-container .header .outer-header {
     flex-direction: column;
