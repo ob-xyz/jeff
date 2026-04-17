@@ -75,8 +75,8 @@ $orange-bottom: #f2e2ca;
       }
 
       .headerimg{
-        position: relative;
         margin: 0 auto;
+        margin-top:2rem;
         width: 47.5%;
       }
     .outer-header{
@@ -231,7 +231,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
     .header{
       .headerimg{
         width: 100%;
-        margin-top:-1.5rem;
+        margin-top:1rem;
       }
     .outer-header{
       flex-direction: column;
