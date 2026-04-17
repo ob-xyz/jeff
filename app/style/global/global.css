@@ -526,7 +526,7 @@
     font-size: 2.75rem;
   }
   .container .content .inner-content img {
-    width: 65%;
+    width: 45%;
   }
   .container .content .inner-content .box {
     padding: 2rem 0;
@@ -1499,7 +1499,7 @@
   .subscribe-container .content .inner-content .box p {
     font-size: 1rem;
   }
-  .subscribe-container .content .inner-content .box form .input-wrapper, .subscribe-container .content .inner-content .box form .input-wrapper1 {
+  .subscribe-container .content .inner-content .box form .input-wrapper {
     width: 25rem;
   }
   .subscribe-container .inner-content2 {
@@ -1553,7 +1553,7 @@
     width: 80%;
     font-size: 1.15rem;
   }
-  .subscribe-container .content .inner-content .box form .input-wrapper, .subscribe-container .content .inner-content .box form .input-wrapper1 {
+  .subscribe-container .content .inner-content .box form .input-wrapper {
     width: 20rem;
   }
   .subscribe-container .inner-content2 {
@@ -4175,7 +4175,8 @@
   margin-left: 0;
   margin-top: 0.45rem;
 }
-.ads-container .ad-form .inner-form .inner-content form .input-wrapper {
+.ads-container .ad-form .inner-form .inner-content form .input-wrapper,
+.ads-container .ad-form .inner-form .inner-content form .input-wrapper1 {
   position: relative;
   width: 34rem;
 }
@@ -4298,7 +4299,8 @@
   .ads-container .content .inner-content .box p {
     font-size: 1rem;
   }
-  .ads-container .content .inner-content .box form .input-wrapper, .ads-container .content .inner-content .box form .input-wrapper1 {
+  .ads-container .content .inner-content .box form .input-wrapper,
+  .ads-container .content .inner-content .box form .input-wrapper1 {
     width: 25rem;
   }
   .ads-container .inner-content2 {
@@ -4387,7 +4389,8 @@
   .ads-container .ad-form .inner-form .text h1 {
     font-size: 2rem;
   }
-  .ads-container .ad-form .inner-form .inner-content form .input-wrapper {
+  .ads-container .ad-form .inner-form .inner-content form .input-wrapper,
+  .ads-container .ad-form .inner-form .inner-content form .input-wrapper1 {
     width: 35rem;
   }
 }
@@ -4414,7 +4417,8 @@
     width: 65%;
     font-size: 1.15rem;
   }
-  .ads-container .content .inner-content .box form .input-wrapper, .ads-container .content .inner-content .box form .input-wrapper1 {
+  .ads-container .content .inner-content .box form .input-wrapper,
+  .ads-container .content .inner-content .box form .input-wrapper1 {
     width: 20rem;
   }
   .ads-container .inner-content2 {
@@ -4548,7 +4552,8 @@
   .ads-container .ad-form .inner-form .inner-content {
     margin-left: 0;
   }
-  .ads-container .ad-form .inner-form .inner-content form .input-wrapper {
+  .ads-container .ad-form .inner-form .inner-content form .input-wrapper,
+  .ads-container .ad-form .inner-form .inner-content form .input-wrapper1 {
     margin-left: 0;
     width: 17.5rem;
   }
