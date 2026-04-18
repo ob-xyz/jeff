@@ -16,13 +16,13 @@ export default function Index() {
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
-                <a className="x" href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
+                <a className="x" href="https://x.com/jeffamzn" target="_blank" rel="noopener noreferrer">
                 <img src={x} alt="X (Twitter)" />
               </a>
-                <a className="ig" href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
+                <a className="ig" href="https://instagram.com/jeffamzn" target="_blank" rel="noopener noreferrer">
                 <img src={ig} alt="Instagram" />
               </a>
-              <a className="yt" href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
+              <a className="yt" href="https://youtube.com/@jeffamzn" target="_blank" rel="noopener noreferrer">
                 <img src={yt} alt="YouTube" />
               </a>
               <a className="li" href="https://linkedin.com/company/jeffamzn" target="_blank" rel="noopener noreferrer">
