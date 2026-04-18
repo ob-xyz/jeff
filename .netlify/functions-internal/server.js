@@ -63,7 +63,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-FHMHPNUE.css";
+var global_default = "/build/_assets/global-BAZS6P2D.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -78,8 +78,8 @@ var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
   }
 ], meta = () => ({
   charset: "utf-8",
-  title: "Jeffamazon",
-  description: "Subscribe to the free, 1-minute news feed keeping 100k+ people in the loop about business, technology, and economic trends that matter.",
+  title: "Jeffamazon \u2014 1-Minute Newsletter",
+  description: "Subscribe to Jeffamazon. Free 1-Minute Newsletter. Get daily business and tech news in a quick 1-minute news feed.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -4028,70 +4028,75 @@ function Index13() {
       lineNumber: 14,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "outer-header", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "inner-header", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "social", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("a", { className: "x", href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: x_default, alt: "X (Twitter)" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 19,
-          columnNumber: 17
-        }, this) }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 18,
-          columnNumber: 17
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("a", { className: "ig", href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: instagram_default, alt: "Instagram" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 22,
-          columnNumber: 17
-        }, this) }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 21,
-          columnNumber: 17
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("a", { className: "yt", href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: youtube_default, alt: "YouTube" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 25,
-          columnNumber: 17
-        }, this) }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 24,
-          columnNumber: 15
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("a", { className: "li", href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: linkedin_default, alt: "LinkedIn" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 28,
-          columnNumber: 17
-        }, this) }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 27,
-          columnNumber: 15
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 17,
-        columnNumber: 13
-      }, this) }, void 0, !1, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 16,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "inner-header2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_react12.Link, { to: "/subscribe", children: "Subscribe" }, void 0, !1, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 33,
-        columnNumber: 14
-      }, this) }, void 0, !1, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 32,
-        columnNumber: 11
-      }, this)
-    ] }, void 0, !0, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { children: "Join 100k+ daily readers" }, void 0, !1, {
       fileName: "app/routes/index.tsx",
       lineNumber: 15,
       columnNumber: 9
     }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "outer-header", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "inner-header", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "social", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("a", { className: "x", href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: x_default, alt: "X (Twitter)" }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 20,
+          columnNumber: 17
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 19,
+          columnNumber: 17
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("a", { className: "ig", href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: instagram_default, alt: "Instagram" }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 23,
+          columnNumber: 17
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 22,
+          columnNumber: 17
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("a", { className: "yt", href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: youtube_default, alt: "YouTube" }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 26,
+          columnNumber: 17
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 25,
+          columnNumber: 15
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("a", { className: "li", href: "https://linkedin.com/company/jeffamzn", target: "_blank", rel: "noopener noreferrer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { src: linkedin_default, alt: "LinkedIn" }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 29,
+          columnNumber: 17
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/index.tsx",
+          lineNumber: 28,
+          columnNumber: 15
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/index.tsx",
+        lineNumber: 18,
+        columnNumber: 13
+      }, this) }, void 0, !1, {
+        fileName: "app/routes/index.tsx",
+        lineNumber: 17,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "inner-header2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_react12.Link, { to: "/subscribe", children: "Subscribe" }, void 0, !1, {
+        fileName: "app/routes/index.tsx",
+        lineNumber: 34,
+        columnNumber: 14
+      }, this) }, void 0, !1, {
+        fileName: "app/routes/index.tsx",
+        lineNumber: 33,
+        columnNumber: 11
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/routes/index.tsx",
+      lineNumber: 16,
+      columnNumber: 9
+    }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("img", { className: "headerimg", src: ja7_default, alt: "Instagram" }, void 0, !1, {
       fileName: "app/routes/index.tsx",
-      lineNumber: 36,
+      lineNumber: 37,
       columnNumber: 11
     }, this)
   ] }, void 0, !0, {
@@ -4106,7 +4111,7 @@ function Index13() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-7VPN2UI5.js", imports: ["/build/_shared/chunk-4RXSKUQF.js", "/build/_shared/chunk-S4ZNHW4H.js", "/build/_shared/chunk-IU43IUTG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-SBZ73IMM.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-2UTBZLEQ.js", imports: ["/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-PA6DKYKG.js", "/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-form": { id: "routes/ads/ad-form", parentId: "root", path: "ads/ad-form", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-form-MRDVZ5WB.js", imports: ["/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-2ROD4JHH.js", "/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-formats": { id: "routes/ads/ad-formats", parentId: "root", path: "ads/ad-formats", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-formats-RI74P7YF.js", imports: ["/build/_shared/chunk-PA6DKYKG.js", "/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-P6KR5MCZ.js", "/build/_shared/chunk-Y6PP7OGJ.js", "/build/_shared/chunk-2ROD4JHH.js", "/build/_shared/chunk-QXYD7MRX.js", "/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise": { id: "routes/ads/advertise", parentId: "root", path: "ads/advertise", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-MASXWAAA.js", imports: ["/build/_shared/chunk-Y6PP7OGJ.js", "/build/_shared/chunk-2ROD4JHH.js", "/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise-with-us": { id: "routes/ads/advertise-with-us", parentId: "root", path: "ads/advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-with-us-RUUL4NL7.js", imports: ["/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-P6KR5MCZ.js", "/build/_shared/chunk-Y6PP7OGJ.js", "/build/_shared/chunk-2ROD4JHH.js", "/build/_shared/chunk-QXYD7MRX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/oldad-formats": { id: "routes/ads/oldad-formats", parentId: "root", path: "ads/oldad-formats", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/oldad-formats-JELPJMM6.js", imports: ["/build/_shared/chunk-P6KR5MCZ.js", "/build/_shared/chunk-Y6PP7OGJ.js", "/build/_shared/chunk-2ROD4JHH.js", "/build/_shared/chunk-QXYD7MRX.js", "/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index copy": { id: "routes/index copy", parentId: "root", path: "index copy", index: void 0, caseSensitive: void 0, module: "/build/routes/index copy-GANEGNXL.js", imports: ["/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-PA6DKYKG.js", "/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-QXYD7MRX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-RGFNSBF4.js", imports: ["/build/_shared/chunk-BKRGPCP6.js", "/build/_shared/chunk-PA6DKYKG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/checkmarks": { id: "routes/policies/checkmarks", parentId: "root", path: "policies/checkmarks", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/checkmarks-DUB7AZX4.js", imports: ["/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-LH6A2L4Z.js", imports: ["/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-AOAFNEDK.js", imports: ["/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/subscribe copy": { id: "routes/subscribe copy", parentId: "root", path: "subscribe copy", index: void 0, caseSensitive: void 0, module: "/build/routes/subscribe copy-TXGLJ3VK.js", imports: ["/build/_shared/chunk-PA6DKYKG.js", "/build/_shared/chunk-552RS725.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/subscribe": { id: "routes/subscribe", parentId: "root", path: "subscribe", index: void 0, caseSensitive: void 0, module: "/build/routes/subscribe-YRQ43DGW.js", imports: ["/build/_shared/chunk-BKRGPCP6.js", "/build/_shared/chunk-PA6DKYKG.js", "/build/_shared/chunk-552RS725.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "5cdadbc7", hmr: void 0, url: "/build/manifest-5CDADBC7.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-7VPN2UI5.js", imports: ["/build/_shared/chunk-4RXSKUQF.js", "/build/_shared/chunk-S4ZNHW4H.js", "/build/_shared/chunk-IU43IUTG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-HAXHSIKO.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/about": { id: "routes/about", parentId: "root", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/about-2UTBZLEQ.js", imports: ["/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-PA6DKYKG.js", "/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-form": { id: "routes/ads/ad-form", parentId: "root", path: "ads/ad-form", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-form-MRDVZ5WB.js", imports: ["/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-2ROD4JHH.js", "/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/ad-formats": { id: "routes/ads/ad-formats", parentId: "root", path: "ads/ad-formats", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/ad-formats-RI74P7YF.js", imports: ["/build/_shared/chunk-PA6DKYKG.js", "/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-P6KR5MCZ.js", "/build/_shared/chunk-Y6PP7OGJ.js", "/build/_shared/chunk-2ROD4JHH.js", "/build/_shared/chunk-QXYD7MRX.js", "/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise": { id: "routes/ads/advertise", parentId: "root", path: "ads/advertise", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-MASXWAAA.js", imports: ["/build/_shared/chunk-Y6PP7OGJ.js", "/build/_shared/chunk-2ROD4JHH.js", "/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/advertise-with-us": { id: "routes/ads/advertise-with-us", parentId: "root", path: "ads/advertise-with-us", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/advertise-with-us-RUUL4NL7.js", imports: ["/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-P6KR5MCZ.js", "/build/_shared/chunk-Y6PP7OGJ.js", "/build/_shared/chunk-2ROD4JHH.js", "/build/_shared/chunk-QXYD7MRX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/ads/oldad-formats": { id: "routes/ads/oldad-formats", parentId: "root", path: "ads/oldad-formats", index: void 0, caseSensitive: void 0, module: "/build/routes/ads/oldad-formats-JELPJMM6.js", imports: ["/build/_shared/chunk-P6KR5MCZ.js", "/build/_shared/chunk-Y6PP7OGJ.js", "/build/_shared/chunk-2ROD4JHH.js", "/build/_shared/chunk-QXYD7MRX.js", "/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index copy": { id: "routes/index copy", parentId: "root", path: "index copy", index: void 0, caseSensitive: void 0, module: "/build/routes/index copy-GANEGNXL.js", imports: ["/build/_shared/chunk-EJTSO6MN.js", "/build/_shared/chunk-PA6DKYKG.js", "/build/_shared/chunk-552RS725.js", "/build/_shared/chunk-QXYD7MRX.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-BX476W7M.js", imports: ["/build/_shared/chunk-BKRGPCP6.js", "/build/_shared/chunk-PA6DKYKG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/checkmarks": { id: "routes/policies/checkmarks", parentId: "root", path: "policies/checkmarks", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/checkmarks-DUB7AZX4.js", imports: ["/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/privacy": { id: "routes/policies/privacy", parentId: "root", path: "policies/privacy", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/privacy-LH6A2L4Z.js", imports: ["/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/policies/terms": { id: "routes/policies/terms", parentId: "root", path: "policies/terms", index: void 0, caseSensitive: void 0, module: "/build/routes/policies/terms-AOAFNEDK.js", imports: ["/build/_shared/chunk-VTMYO4HS.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/subscribe copy": { id: "routes/subscribe copy", parentId: "root", path: "subscribe copy", index: void 0, caseSensitive: void 0, module: "/build/routes/subscribe copy-TXGLJ3VK.js", imports: ["/build/_shared/chunk-PA6DKYKG.js", "/build/_shared/chunk-552RS725.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/subscribe": { id: "routes/subscribe", parentId: "root", path: "subscribe", index: void 0, caseSensitive: void 0, module: "/build/routes/subscribe-YRQ43DGW.js", imports: ["/build/_shared/chunk-BKRGPCP6.js", "/build/_shared/chunk-PA6DKYKG.js", "/build/_shared/chunk-552RS725.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "106a381b", hmr: void 0, url: "/build/manifest-106A381B.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
