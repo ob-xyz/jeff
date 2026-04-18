@@ -187,8 +187,14 @@
 }
 
 @media (max-width: 720px) {
+  .container .header h1 {
+    font-size: 3rem;
+  }
+  .container .header p {
+    font-size: 1.4rem;
+  }
   .container .header .headerimg {
-    width: 75%;
+    width: 100%;
   }
   .container .header .outer-header {
     flex-direction: column;
@@ -958,6 +964,12 @@
 }
 
 @media (max-width: 720px) {
+  .subscribe-container .header h1 {
+    font-size: 3rem;
+  }
+  .subscribe-container .header p {
+    font-size: 1.4rem;
+  }
   .subscribe-container .header .headerimg {
     width: 100%;
     margin-top: 1rem;

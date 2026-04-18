@@ -229,6 +229,12 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
 @media (max-width: 720px) {
 .subscribe-container{
     .header{
+     h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
       .headerimg{
         width: 100%;
         margin-top:1rem;
