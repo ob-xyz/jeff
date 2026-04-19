@@ -1203,6 +1203,7 @@ body {
 }
 .moreinfo-container .inner-container .profile-outside .subscribe {
   flex: 1;
+  margin-top: 2.5rem;
 }
 .moreinfo-container .inner-container .profile-outside .subscribe h1 {
   color: #fff;
