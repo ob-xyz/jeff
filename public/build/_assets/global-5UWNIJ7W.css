@@ -1327,8 +1327,8 @@ body {
     padding: 1.2rem 7rem;
   }
   .moreinfo-container .inner-container {
-    margin: 0rem .5rem 5rem;
-    padding-bottom: 15rem;
+    margin: 0rem .5rem 20rem;
+    padding-bottom: 5rem;
   }
   .moreinfo-container .inner-container .profile-outside {
     flex-direction: column;
