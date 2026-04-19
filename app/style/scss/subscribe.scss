@@ -4,6 +4,10 @@ $icon-bg:  linear-gradient(0deg,rgba(242, 209, 159, 1) 21%, rgba(255, 255, 255, 
 $orange-top: #f5f0e8; 
 $orange-bottom: #f2e2ca;
 
+body{
+    overflow-y:hidden;
+}
+
 .subscribe-container{
     display:flex;
     flex-direction: column;
@@ -14,6 +18,7 @@ $orange-bottom: #f2e2ca;
         font-style: normal;
         text-align: left;
         font-family: ku;
+        font-weight: 100;
         font-size:4.5rem;
     }
     h2 {
@@ -61,6 +66,8 @@ $orange-bottom: #f2e2ca;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
+        font-family: ku;
+        font-weight: 100;
       }
       p {
         margin-top: -.5rem;
@@ -139,9 +146,12 @@ a {
     background: #1E66C2; 
   }
 }
-.yt{
+.info{
+   img{
+    width:2.5rem;
+   }
   &:hover {
-    background: #FF0034; 
+    background: $red; 
   }
 }
 .ig{

@@ -14,6 +14,7 @@ $orange-bottom: #f2e2ca;
         font-style: normal;
         text-align: left;
         font-family: ku;
+        font-weight: 100;
         font-size:4.5rem;
     }
     h2 {
@@ -52,6 +53,7 @@ $orange-bottom: #f2e2ca;
       padding-right:1.5rem;
       -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
       mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+      
       h1 {
         font-size: 4.3rem;
         color: #fff;
@@ -138,9 +140,12 @@ a {
     background: #1E66C2; 
   }
 }
-.yt{
+.info{
+   img{
+    width:2.5rem;
+   }
   &:hover {
-    background: #FF0034; 
+    background: $red; 
   }
 }
 .ig{
