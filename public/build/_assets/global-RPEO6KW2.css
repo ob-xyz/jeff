@@ -1293,6 +1293,7 @@ body {
   .moreinfo-container .inner-container .profile-outside .subscribe {
     padding-top: 2rem;
     border-top: 2px solid #1a1a1a;
+    margin-top: 0;
   }
   .moreinfo-container .inner-container .profile-outside .subscribe h1 {
     font-size: 1.5rem;
@@ -1347,6 +1348,7 @@ body {
   .moreinfo-container .inner-container .profile-outside .subscribe {
     padding-top: 2rem;
     border-top: 2px solid #1a1a1a;
+    margin-top: 0;
   }
   .moreinfo-container .inner-container .profile-outside .subscribe h1 {
     font-size: 1.5rem;
