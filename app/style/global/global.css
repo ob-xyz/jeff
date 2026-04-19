@@ -56,7 +56,7 @@
 .container h4 {
   font-family: kl;
   font-size: 1.35rem;
-  color: rgb(198, 4, 36);
+  color: #670000;
 }
 .container p, .container .text {
   font-family: kl;
@@ -163,7 +163,7 @@
   width: 2.5rem;
 }
 .container .header .outer-header .inner-header .social .info:hover {
-  background: #FF0034;
+  background: #ed0808;
 }
 .container .header .outer-header .inner-header .social .ig:hover {
   background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 20%, #f56040 40%, #fd1d1d 50%, #e1306c 60%, #c13584 70%, #833ab4 85%, #405de6 100%);
@@ -246,7 +246,7 @@
 .about-container h4 {
   font-family: kl;
   font-size: 1.35rem;
-  color: rgb(198, 4, 36);
+  color: #670000;
 }
 .about-container p {
   font-family: kl;
@@ -792,7 +792,7 @@ body {
 .subscribe-container h4 {
   font-family: kl;
   font-size: 1.35rem;
-  color: rgb(198, 4, 36);
+  color: #670000;
 }
 .subscribe-container p, .subscribe-container .text {
   font-family: kl;
@@ -902,7 +902,7 @@ body {
   width: 2.5rem;
 }
 .subscribe-container .header .outer-header .inner-header .social .info:hover {
-  background: #FF0034;
+  background: #ed0808;
 }
 .subscribe-container .header .outer-header .inner-header .social .ig:hover {
   background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 20%, #f56040 40%, #fd1d1d 50%, #e1306c 60%, #c13584 70%, #833ab4 85%, #405de6 100%);
@@ -1109,7 +1109,7 @@ body {
   width: 2.5rem;
 }
 .moreinfo-container .header .outer-header .inner-header .social .info:hover {
-  background: #FF0034;
+  background: #ed0808;
 }
 .moreinfo-container .header .outer-header .inner-header .social .ig:hover {
   background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 20%, #f56040 40%, #fd1d1d 50%, #e1306c 60%, #c13584 70%, #833ab4 85%, #405de6 100%);
@@ -1139,7 +1139,7 @@ body {
   background: #000;
   border-radius: 0.75rem;
   margin: 0rem 5rem;
-  box-shadow: 0px 0px 50px 0px rgba(255, 0, 52, 0.9);
+  box-shadow: 0px 0px 50px 0px rgba(240, 143, 25, 0.9);
   margin-bottom: 10rem;
   padding-bottom: 2.5rem;
 }
@@ -1410,7 +1410,7 @@ body {
 .adform-container h4 {
   font-family: kl;
   font-size: 1.35rem;
-  color: rgb(198, 4, 36);
+  color: #670000;
 }
 .adform-container p, .adform-container .text {
   font-family: kl;
@@ -2155,7 +2155,7 @@ body {
 }
 .content-awu .content-awu2 .text h4 {
   padding-bottom: 0.6rem;
-  color: rgb(198, 4, 36);
+  color: #670000;
 }
 .content-awu .ads-carousel-txt {
   display: flex;
@@ -2842,7 +2842,7 @@ body {
 .adformats-container h4 {
   font-family: kl;
   font-size: 1.35rem;
-  color: rgb(198, 4, 36);
+  color: #670000;
 }
 .adformats-container p {
   font-family: kl;
@@ -3563,7 +3563,7 @@ body {
 .ads-container h4 {
   font-family: kl;
   font-size: 1.35rem;
-  color: rgb(198, 4, 36);
+  color: #670000;
 }
 .ads-container p {
   font-family: kl;
