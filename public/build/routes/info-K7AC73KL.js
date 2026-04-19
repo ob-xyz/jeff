@@ -24,7 +24,7 @@ import {
 var showscroll_default = "/build/_assets/showscroll-FNF7IES6.css";
 
 // public/img/jeffbg.png
-var jeffbg_default = "/build/_assets/jeffbg-AFBSCJ2L.png";
+var jeffbg_default = "/build/_assets/jeffbg-TKQ6D3VZ.png";
 
 // app/routes/info.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -248,4 +248,4 @@ export {
   Index as default,
   links
 };
-//# sourceMappingURL=/build/routes/info-4LXMAIES.js.map
+//# sourceMappingURL=/build/routes/info-K7AC73KL.js.map
