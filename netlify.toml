@@ -1676,6 +1676,12 @@
   force = true
 
 [[redirects]]
+  from = "/kunal"
+  to = "https://app.jeffamzn.com/campaign/df970116-1449-4c0c-8061-3f3a5b5e6154/e0b14610-4448-4657-ae89-21598fe78de2"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/.netlify/functions/server"
   status = 200
