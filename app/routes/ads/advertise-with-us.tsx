@@ -17,7 +17,7 @@ export default function Index() {
               <div className="inner-content">
                   <img src={header2} alt="Jeffamazon newsletter image" />
                 <div className="box">
-                  <h1>Reach 100k+ of the world's most decisive people.</h1>
+                  <h1>Reach 38k+ of the world's most decisive people.</h1>
                   <p>Every day Jeffamazon helps businesses win more 🚀</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper1">
@@ -170,7 +170,7 @@ export default function Index() {
         <div className="inner-form">
           <div className="text">
             <h4>ADVERTISE WITH US</h4>
-            <h1>Reach 100k+ of the world's most decisive people</h1>
+            <h1>Reach 38k+ of the world's most decisive people</h1>
             <p>We're the daily newsletter helping businesses win more.</p>
           </div>
         <div className="inner-content">
