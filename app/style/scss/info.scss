@@ -259,6 +259,7 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
         font-weight: 100;
         transition: all 0.3s ease;
         background: linear-gradient(0deg,rgba(242, 209, 159, 1) 21%, rgba(255, 255, 255, 1) 100%);
+        cursor: pointer;
 
           &:hover {
               transform: none;
