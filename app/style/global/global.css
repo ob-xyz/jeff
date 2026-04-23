@@ -723,6 +723,10 @@ body {
   margin-bottom: 10rem;
   padding-bottom: 2.5rem;
 }
+.moreinfo-container .inner-container .headerimg {
+  border-top-right-radius: 3rem;
+  border-top-left-radius: 3rem;
+}
 .moreinfo-container .inner-container .profile-outside {
   display: flex;
   justify-content: space-between;
