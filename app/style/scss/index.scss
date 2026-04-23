@@ -82,6 +82,9 @@ $orange-bottom: #f2e2ca;
         margin:1rem auto;
         width:60%;
       }
+      p:nth-child(5){
+        cursor:pointer;
+      }
 }
 
 .modal-content {

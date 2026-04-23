@@ -106,6 +106,9 @@
   margin: 1rem auto;
   width: 60%;
 }
+.container .modal-overlay p:nth-child(5) {
+  cursor: pointer;
+}
 .container .modal-content {
   background: #000;
   margin: 0 17.5rem;
