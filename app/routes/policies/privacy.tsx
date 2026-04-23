@@ -1,4 +1,10 @@
 import logo from "~/../public/img/ja2.png";
+import type { LinksFunction } from "@remix-run/node";
+import scroll from "~/style/scss/components/showscroll.css";
+
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: scroll },
+];
 export default function Index() {
 return (
     <div className="content-privacy">
