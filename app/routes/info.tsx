@@ -18,7 +18,7 @@ export default function Index() {
     <div className="moreinfo-container">
         <div className="header">
             <h1>Jeffamazon</h1>
-            <p>Tech news in 1-minute</p>
+            <p>Business news in 1-minute</p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
