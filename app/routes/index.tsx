@@ -65,7 +65,7 @@ export default function Index() {
           >
             <h1>Jeffamazon</h1>
             <p>Subscribe to Jeffamazon's free newsletter</p>
-            <p>Get the current thing in tech every morning, plus top interviews and exclusive subscriber-only news</p>
+            <p>Get the latest thing in tech every morning, plus top interviews and exclusive subscriber-only news</p>
             
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper">
