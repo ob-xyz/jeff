@@ -114,6 +114,7 @@
   text-align: center;
   width: 100%;
   color: #fff;
+  box-shadow: 0px 0px 50px 0px rgba(240, 143, 25, 0.9);
 }
 .container .modal-content form {
   margin-top: 0.5rem;
@@ -707,7 +708,6 @@ body {
   color: #000;
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  background: rgba(242, 209, 159, 0.7);
   background: linear-gradient(0deg, rgb(242, 209, 159) 21%, rgb(255, 255, 255) 100%);
 }
 .moreinfo-container .header .outer-header .inner-header2 a:hover {
