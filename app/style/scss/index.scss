@@ -72,15 +72,15 @@ $orange-bottom: #f2e2ca;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        width:75%;
+        width:55%;
       }
       p:nth-child(3),
       p:nth-child(5){
         font-family: kl;
-        font-weight: 700;
+        font-weight: 700; 
         font-size:1.15rem;
         margin:1rem auto;
-        width:72.50%;
+        width:57.5%;
       }
 }
 
@@ -294,12 +294,13 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
         font-size: 3rem;
       }
       p {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
+        width:55%;
       }
-      p:nth-child(4),
-      p:nth-child(6){
-        font-size:1.4rem;
-        width:85%;
+      p:nth-child(3),
+      p:nth-child(5){
+        font-size: 1.1rem;
+        width:100%;
       }
 }
 
