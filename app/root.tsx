@@ -1,6 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
 import type { LinksFunction } from "@remix-run/node";
-import Footer from "./components/footer";
 
 import {
   Links,
