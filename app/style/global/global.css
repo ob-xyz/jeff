@@ -295,7 +295,7 @@
   }
   .container .modal-overlay p {
     font-size: 1.1rem;
-    width: 55%;
+    width: 75%;
   }
   .container .modal-overlay p:nth-child(3),
   .container .modal-overlay p:nth-child(5) {
