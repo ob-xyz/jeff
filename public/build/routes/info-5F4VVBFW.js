@@ -39,7 +39,7 @@ function Index() {
         lineNumber: 20,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Tech news in 1-minute" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Business news in 1-minute" }, void 0, false, {
         fileName: "app/routes/info.tsx",
         lineNumber: 21,
         columnNumber: 13
@@ -248,4 +248,4 @@ export {
   Index as default,
   links
 };
-//# sourceMappingURL=/build/routes/info-QOPUTTXS.js.map
+//# sourceMappingURL=/build/routes/info-5F4VVBFW.js.map

@@ -86,7 +86,7 @@ function Index() {
                 lineNumber: 67,
                 columnNumber: 13
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Start your day knowing the current thing in tech, plus get one trending podcast and exclusive subscriber-only news" }, void 0, false, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Get today's business news, plus one trending podcast and exclusive subscriber-only insights" }, void 0, false, {
                 fileName: "app/routes/index.tsx",
                 lineNumber: 68,
                 columnNumber: 13
@@ -171,7 +171,7 @@ function Index() {
         lineNumber: 91,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Tech news in 1-minute" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Your business news feed" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 92,
         columnNumber: 9
@@ -261,4 +261,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-Z6ZXYDKD.js.map
+//# sourceMappingURL=/build/routes/index-HNY5YD27.js.map

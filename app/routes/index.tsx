@@ -65,7 +65,7 @@ export default function Index() {
           >
             <h1>Jeffamazon</h1>
             <p>Subscribe to Jeffamazon's free newsletter</p>
-            <p>Start your day knowing the current thing in tech, plus get one trending podcast and exclusive subscriber-only news</p>
+            <p>Get today's business news, plus one trending podcast and exclusive subscriber-only insights</p>
             <form method="post" action="https://app.jeffamzn.com/subscription/form">
               <div className="input-wrapper">
                 <input className="email" type="email" name="email" required placeholder="Email Address *" />
@@ -89,7 +89,7 @@ export default function Index() {
       {/* MAIN APP CONTENT */}
       <div className="header">
         <h1>Jeffamazon</h1>
-        <p>Tech news in 1-minute</p>
+        <p>Your business news feed</p>
         <p>Join 38k+ daily readers</p>
         <div className="outer-header">
           <div className="inner-header">

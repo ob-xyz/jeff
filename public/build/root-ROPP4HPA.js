@@ -33,8 +33,8 @@ var links = () => {
 };
 var meta = () => ({
   charset: "utf-8",
-  title: "Jeffamazon \u2014 Tech News",
-  description: "Subscribe to Jeffamazon. Free Newsletter. Start your day knowing the current thing in tech, plus one trending podcast and exclusive subscriber-only news.",
+  title: "Jeffamazon \u2014 Business News",
+  description: "Subscribe to Jeffamazon. Free Business Newsletter. Get today's business news, plus one trending podcast and exclusive subscriber-only insights.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -92,4 +92,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-HQAZDI6M.js.map
+//# sourceMappingURL=/build/root-ROPP4HPA.js.map
