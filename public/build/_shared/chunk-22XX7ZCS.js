@@ -5315,7 +5315,7 @@ var LiveReload = false ? () => null : function LiveReload2({
                     ${port} ||
                     REMIX_DEV_ORIGIN ? new URL(REMIX_DEV_ORIGIN).port :
                     Number(${// TODO: remove in v2
-      8002}) ||
+      55518}) ||
                     8002;
 
                   let ws = new WebSocket(url.href);
@@ -6145,4 +6145,4 @@ react-router-dom/dist/index.js:
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/_shared/chunk-ROHSLC5J.js.map
+//# sourceMappingURL=/build/_shared/chunk-22XX7ZCS.js.map

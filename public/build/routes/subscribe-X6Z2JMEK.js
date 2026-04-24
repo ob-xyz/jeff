@@ -12,7 +12,7 @@ import {
 } from "/build/_shared/chunk-552RS725.js";
 import {
   Link
-} from "/build/_shared/chunk-ROHSLC5J.js";
+} from "/build/_shared/chunk-22XX7ZCS.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-S4ZNHW4H.js";
@@ -159,4 +159,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/subscribe-SIALQY4B.js.map
+//# sourceMappingURL=/build/routes/subscribe-X6Z2JMEK.js.map

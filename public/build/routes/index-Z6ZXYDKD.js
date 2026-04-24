@@ -14,7 +14,7 @@ import {
   Link,
   useActionData,
   useNavigation
-} from "/build/_shared/chunk-ROHSLC5J.js";
+} from "/build/_shared/chunk-22XX7ZCS.js";
 import {
   require_jsx_dev_runtime,
   require_react
@@ -86,7 +86,7 @@ function Index() {
                 lineNumber: 67,
                 columnNumber: 13
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Start your day knowing the current things in tech, plus one trending podcast and exclusive subscriber-only news" }, void 0, false, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Start your day knowing the current thing in tech, plus get one trending podcast and exclusive subscriber-only news" }, void 0, false, {
                 fileName: "app/routes/index.tsx",
                 lineNumber: 68,
                 columnNumber: 13
@@ -171,7 +171,7 @@ function Index() {
         lineNumber: 91,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Tech news in just 1-minute" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Tech news in 1-minute" }, void 0, false, {
         fileName: "app/routes/index.tsx",
         lineNumber: 92,
         columnNumber: 9
@@ -261,4 +261,4 @@ function Index() {
 export {
   Index as default
 };
-//# sourceMappingURL=/build/routes/index-ONQ5XGTI.js.map
+//# sourceMappingURL=/build/routes/index-Z6ZXYDKD.js.map

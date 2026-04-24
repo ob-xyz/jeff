@@ -15,7 +15,7 @@ import {
 } from "/build/_shared/chunk-552RS725.js";
 import {
   Link
-} from "/build/_shared/chunk-ROHSLC5J.js";
+} from "/build/_shared/chunk-22XX7ZCS.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-S4ZNHW4H.js";
@@ -248,4 +248,4 @@ export {
   Index as default,
   links
 };
-//# sourceMappingURL=/build/routes/info-4CTTLCLB.js.map
+//# sourceMappingURL=/build/routes/info-QOPUTTXS.js.map

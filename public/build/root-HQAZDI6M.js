@@ -5,7 +5,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration
-} from "/build/_shared/chunk-ROHSLC5J.js";
+} from "/build/_shared/chunk-22XX7ZCS.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-S4ZNHW4H.js";
@@ -34,7 +34,7 @@ var links = () => {
 var meta = () => ({
   charset: "utf-8",
   title: "Jeffamazon \u2014 Tech News",
-  description: "Subscribe to Jeffamazon. Free Newsletter. Start your day knowing the current things in tech, plus one trending podcast and exclusive subscriber-only news.",
+  description: "Subscribe to Jeffamazon. Free Newsletter. Start your day knowing the current thing in tech, plus one trending podcast and exclusive subscriber-only news.",
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
@@ -92,4 +92,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-NBXFOBIO.js.map
+//# sourceMappingURL=/build/root-HQAZDI6M.js.map
