@@ -9,10 +9,11 @@
       flex-direction: column;
       align-items: center;
       h1 {
-        font-size: 4.3rem;
+        font-size: 3.5rem;
         color: #fff;
         margin: 0;
         margin-top:1.5rem;
+        margin-bottom:-.25rem;
         background: linear-gradient(0deg,rgba(242, 209, 159, 1) 21%, rgb(255, 255, 255) 50%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -21,7 +22,6 @@
         font-weight: 100;
       }
       p {
-        margin-top: -.5rem;
         margin-bottom: 5rem;
         font-size: 2rem;
         font-weight: 100;
