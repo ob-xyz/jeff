@@ -89,7 +89,7 @@ export default function Index() {
       {/* MAIN APP CONTENT */}
       <div className="header">
         <h1>Jeffamazon</h1>
-        <p>Your business news feed</p>
+        <p>Business news in 1-minute</p>
         <p>Join 38k+ daily readers</p>
         <div className="outer-header">
           <div className="inner-header">
