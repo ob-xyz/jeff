@@ -591,7 +591,6 @@ body {
   }
   .subscribe-container .header .outer-header {
     flex-direction: column;
-    margin-top: -3.5rem;
   }
   .subscribe-container .header .outer-header .inner-header2 {
     margin-left: auto;
@@ -929,7 +928,6 @@ body {
   }
   .moreinfo-container .header .outer-header {
     flex-direction: column;
-    margin-top: -3.5rem;
   }
   .moreinfo-container .header .outer-header .inner-header2 {
     margin-left: auto;
