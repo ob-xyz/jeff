@@ -25,6 +25,12 @@
   force = true
 
 [[redirects]]
+  from = "/today"
+  to = "https://app.jeffamzn.com/campaign/ba97f2f9-a8c7-46a7-b183-ccffbc3b6891/70f2aeef-07dd-4c07-a5c8-1b60c442c47e"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/anthropic"
   to = "https://app.jeffamzn.com/campaign/3b6fe241-842f-4da6-8fe7-7050c9f073d4/e0b14610-4448-4657-ae89-21598fe78de2"
   status = 200
