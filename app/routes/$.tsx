@@ -11,8 +11,6 @@ export default function Index() {
     <div className="container">
       <div className="header">
         <h1>Jeffamazon</h1>
-        <p>Keep up with the markets in just one minute</p>
-        <p>Join 100k readers for <a href="/today">one daily email</a></p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">

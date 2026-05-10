@@ -110,7 +110,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  width: 60%;
+  width: 67.5%;
 }
 .container .modal-overlay p:nth-child(3),
 .container .modal-overlay p:nth-child(5) {
@@ -118,7 +118,7 @@
   font-weight: 700;
   font-size: 1.15rem;
   margin: 1rem auto;
-  width: 60%;
+  width: 65%;
 }
 .container .modal-overlay p:nth-child(5) {
   cursor: pointer;
