@@ -12,7 +12,6 @@ export default function Index() {
     <div className="subscribe-container">
       <div className="header">
         <h1>Jeffamazon</h1>
-        <p>Subscribe for free</p>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
